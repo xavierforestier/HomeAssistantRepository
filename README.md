@@ -119,18 +119,18 @@ Since homeassistant-0.115.3 the **Main Ebuild** is released in three different s
 
 [![emerge ha-min](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-min.yml/badge.svg)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-min.yml)
 
-These are the USE Flags I use in production myself. All will compile fine and are extensively tested in every release, a daily compilation test is run at Github, big thanks to @antonfischl1980, it currently holds **107** USE Flags.
+These are the USE Flags I use in production myself. All will compile fine and are extensively tested in every release, a daily compilation test is run at Github, big thanks to @antonfischl1980, it currently holds **108** USE Flags.
 
 ### `app-misc/homeassistant`
 
 [![emerge ha-med](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-med.yml/badge.svg?branch=master)](https://github.com/onkelbeh/HomeAssistantRepository/actions/workflows/emerge-med.yml)
 
-The Ebuild we have since `0.97.0`, as soon as I know that at least one user is actively using a component, it will be added. These all compile fine, but some version conflicts could occure, a daily compilation test is run at Github, big thanks to @antonfischl1980, It currently holds **300** USE Flags.
+The Ebuild we have since `0.97.0`, as soon as I know that at least one user is actively using a component, it will be added. These all compile fine, but some version conflicts could occure, a daily compilation test is run at Github, big thanks to @antonfischl1980, It currently holds **301** USE Flags.
 
 ### `app-misc/homeassistant-full`
 
 WARNING: This one currently breaks (caused by shell limitations) emerge with an 'Argument list too long' error. It compiles with a [kernel hack](https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/190#issuecomment-1002). Thanks to @gcampagnoli.
-This Ebuild contains USE Flags for (nearly) all components of Home Assistant with external dependencies. Most components compile, but these are too many (for me) to run tests for all of them on a regular schedule. It holds **1021** USE Flags.
+This Ebuild contains USE Flags for (nearly) all components of Home Assistant with external dependencies. Most components compile, but these are too many (for me) to run tests for all of them on a regular schedule. It holds **1027** USE Flags.
 
 A list of all components aka USEFlags is generated with every release [DOMAINTABLE.md](DOMAINTABLE.md)
 
@@ -148,7 +148,7 @@ Best you start using the `app-misc/homeassistant-min` Ebuild. If you have it run
 * Be aware that all dependent libraries could be marked as stable here as soon as they compile. Outside HA dependencies except of portage are not tested.
 * Since I use Gentoo mostly on servers, I do not use systemd, one reason to run Gentoo is that you are NOT forced to run this crap. Beginning homeassistant-2021.2.0, handling for systemd was added by request, thanks to @Tatsh for help.
 * I use an own profile based on merged-usr "amd64/23.0/no-multilib".
-* python-3.12.7 is set as default target.
+* python-3.12.8 is set as default target.
 
 # Bigger Changes
 
@@ -606,31 +606,32 @@ A daily compile test is run at Github with Python 3.9 to catch general faults. E
 
 ## Licenses
 This repository itself is released under GPL-3 (like most Gentoo repositories), all work on the depending components under the licenses they came from. Perhaps you came here because I filed an issue at your component about a bad or missing license. It is easy to [assign a license](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). During cleanups and license investigations I have been asked often which license to choose. I am not a lawyer, but I can offer the following table, counted over this repository, perhaps this helps your decision. If a package has more than one license listed, all of them are counted.
-There are 2321 Ebuilds in total, 2307 of them have in total 2345 (43 different) licenses assigned.
+There are 2383 Ebuilds in total, 2365 of them have in total 2409 (43 different) licenses assigned.
 
 |License| Ebuilds using it|
 |-------|-----|
-|MIT|1317|
-|Apache-2.0|545|
-|GPL-3|143|
-|BSD|127|
-|GPL-2|26|
+|MIT|1354|
+|Apache-2.0|551|
+|GPL-3|149|
+|BSD|128|
+|GPL-2|30|
 |LGPL-3|23|
 |BSD-2|19|
-|GPL-3+|18|
+|GPL-3+|17|
 |LGPL-3+|17|
 |all-rights-reserved|15|
-|Unlicense|13|
-|PSF-2|10|
+|Unlicense|14|
+|PSF-2|12|
 |ISC|8|
+|AGPL-3|7|
 |MPL-2.0|6|
+|LGPL-2.1+|6|
 |ZPL|4|
-|AGPL-3|4|
-|LGPL-2.1+|4|
+|LGPL-2.1|4|
 |0BSD|3|
 |CC-BY-4.0|3|
 |PYTHON|3|
-|LGPL-2.1|3|
+|HPND|3|
 |EPL-1.0|3|
 |CC0-1.0|3|
 |EPL-2.0|3|
@@ -647,16 +648,15 @@ There are 2321 Ebuilds in total, 2307 of them have in total 2345 (43 different) 
 |Boost-1.0|1|
 |PSF-2.4|1|
 |NEWLIB|1|
-|HPND|1|
 |CC-BY-NC-SA-3.0|1|
 |MPL-1.1|1|
 |CC-BY-NC-SA-4.0|1|
 |GPL-2+|1|
 |GPL-2-with-linking-exception|1|
 
-(Last counted: 03/11/2024)
+(Last counted: 22/02/2025)
 
 I did my best to keep these clean. If a valid license was published on PyPI, it has been automatically merged. Otherwise I took it from GitHub or alternatively from comments/files in the source. Sometimes these differed and have been not unique. All license strings are adjusted to the list in `/usr/portage/gentoo/licenses/`. Some packages do not have any license published. In this case, Authors have been asked for clarification, some did not respond. Following the [official Gentoo Guide](https://devmanual.gentoo.org/general-concepts/licenses/index.html), these then were added with an `all-rights-reserved` license and `RESTRICT="mirror"` was set. Find the appropriate licenses referenced in the Ebuild files and in the corresponding homepages or sources.
 
 A big thanks goes to Iris for reviewing this README.
-Last updated: 03/11/2024
+Last updated: 22/02/2025

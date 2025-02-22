@@ -84,7 +84,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/home-assistant-intents-2024.10.2[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.27.2[${PYTHON_USEDEP}]
 	~dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/lru-dict-1.3.0[${PYTHON_USEDEP}]
 	~media-libs/mutagen-1.47.0[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.10.7[${PYTHON_USEDEP}]
@@ -132,7 +132,7 @@ RDEPEND="${RDEPEND}
 	!=dev-python/pubnub-6.4.0[${PYTHON_USEDEP}]
 	!=dev-python/iso4217-1.10.20220401[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-24.0.0[${PYTHON_USEDEP}]
-	~dev-python/protobuf-python-4.25.4[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.25.4[${PYTHON_USEDEP}]
 	>=dev-python/cchardet-2.1.18[${PYTHON_USEDEP}]
 	>=dev-python/websockets-11.0.1[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
@@ -181,7 +181,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/home-assistant-intents-2024.10.2[${PYTHON_USEDEP}]
 	~dev-python/httpx-0.27.2[${PYTHON_USEDEP}]
 	~dev-python/ifaddr-0.2.0[${PYTHON_USEDEP}]
-	~dev-python/jinja-3.1.4[${PYTHON_USEDEP}]
+	~dev-python/jinja2-3.1.4[${PYTHON_USEDEP}]
 	~dev-python/lru-dict-1.3.0[${PYTHON_USEDEP}]
 	~media-libs/mutagen-1.47.0[${PYTHON_USEDEP}]
 	~dev-python/orjson-3.10.7[${PYTHON_USEDEP}]
@@ -229,7 +229,7 @@ RDEPEND="${RDEPEND}
 	!=dev-python/pubnub-6.4.0[${PYTHON_USEDEP}]
 	!=dev-python/iso4217-1.10.20220401[${PYTHON_USEDEP}]
 	>=dev-python/pyopenssl-24.0.0[${PYTHON_USEDEP}]
-	~dev-python/protobuf-python-4.25.4[${PYTHON_USEDEP}]
+	~dev-python/protobuf-4.25.4[${PYTHON_USEDEP}]
 	>=dev-python/cchardet-2.1.18[${PYTHON_USEDEP}]
 	>=dev-python/websockets-11.0.1[${PYTHON_USEDEP}]
 	~dev-python/charset-normalizer-3.2.0[${PYTHON_USEDEP}]
@@ -575,7 +575,7 @@ RDEPEND="${RDEPEND}
 	hive? ( ~dev-python/pyhiveapi-0.5.16[${PYTHON_USEDEP}] )
 	hko? ( ~dev-python/hko-0.3.2[${PYTHON_USEDEP}] )
 	hlk_sw16? ( ~dev-python/hlk-sw16-0.0.9[${PYTHON_USEDEP}] )
-	holiday? ( ~dev-python/Babel-2.15.0[${PYTHON_USEDEP}] ~dev-python/holidays-0.58[${PYTHON_USEDEP}] )
+	holiday? ( ~dev-python/babel-2.15.0[${PYTHON_USEDEP}] ~dev-python/holidays-0.58[${PYTHON_USEDEP}] )
 	homekit? ( ~dev-python/HAP-python-4.9.1[${PYTHON_USEDEP}] ~dev-python/pyqrcode-1.2.1[${PYTHON_USEDEP}] ~dev-python/base36-0.1.1[${PYTHON_USEDEP}] ~dev-python/fnv-hash-fast-1.0.2[${PYTHON_USEDEP}] )
 	homekit_controller? ( ~dev-python/aiohomekit-3.2.3[${PYTHON_USEDEP}] )
 	homematic? ( ~dev-python/pyhomematic-0.1.77[${PYTHON_USEDEP}] )

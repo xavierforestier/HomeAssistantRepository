@@ -145,7 +145,7 @@
     <flag name="cloudflare">With the Cloudflare integration, you can keep your Cloudflare DNS records up to date.</flag>
     <flag name="cloud">The Home Assistant Cloud allows you to quickly integrate your local Home Assistant with various cloud services like Amazon Alexa and Google Assistant. It also enables a secure remote connection, speech-to-text, text-to-speech, an offsite backup location, Webhooks support, and better WebRTC. Learn more.</flag>
     <flag name="cmus">The cmus platform allows you to control a cmus music player on a remote or local machine from Home Assistant.</flag>
-    <flag name="co2signal">The Electricity Maps sensor platform (formerly known as CO2Signal) queries the Electricity Maps API for the CO2 intensity of a specific region. Data can be collected for your home by using the latitude/longitude or a country code. This API uses the same data as https://app.electricitymaps.com. Not all countries/regions in the world are supported, so please consult the app to check local availability.</flag>
+    <flag name="co2signal">The Electricity Maps integration (formerly known as CO2Signal) queries the Electricity Maps API for the CO2 intensity of a specific region.Data can be collected for your home by using the home location, latitude/longitude, or a country code.</flag>
     <flag name="coinbase">The coinbase integration lets you access account balances and exchange rates from Coinbase.</flag>
     <flag name="color-extractor">The ColorExtractor integration.</flag>
     <flag name="comelit">The Comelit SimpleHome integration allows you to control your Comelit home automation devices.</flag>
@@ -414,7 +414,7 @@
     <flag name="ituran">The Ituran integration allows you to retrieve information from your Ituran-equipped vehicle using the Ituran APP service. It pulls information from the Ituran web service regarding the vehicle’s location.</flag>
     <flag name="izone">The iZone integration allows access of control of a local iZone ducted reverse-cycle climate control devices. These are largely available in Australia.</flag>
     <flag name="jellyfin">The Jellyfin integration exposes a Jellyfin server as a media source in Home Assistant.Support is currently limited to music, movie and TV show libraries only. Other libraries will not appear in the media browser. This integration has been tested with Jellyfin server version 10.6.4 and later.</flag>
-    <flag name="jewish-calendar">The Jewish Calendar (jewish_calendar) integration displays various information related to the Jewish Calendar as various sensors.</flag>
+    <flag name="jewish-calendar">The Jewish Calendar integration exposes Jewish calendar information through multiple sensors.</flag>
     <flag name="joaoapps-join">The joaoapps_join integration exposes actions fromJoin. In Home Assistant, the Joaoapps Join features aredivided up in two locations, the Join integration, and the Joaoapps Join notify platform.The notify platform allows us to send messages to Joaoapps Join devices, the integrationallows us to access the other special features that Joaoapps Join offers. When in doubt, you can reference the API documentation this is based on.</flag>
     <flag name="justnimbus">The JustNimbus integration queries the JustNimbus API used by the JustNimbus web dashboard.This integration allows you to collect and save data to get a historical overview of your water bagusage.</flag>
     <flag name="jvc-projector">The JVC Projector integration allows for the automation of JVC Projectors.</flag>
@@ -485,7 +485,7 @@
     <flag name="matter">The Matter integration allows you to control Matter devices on your local Wi-Fi or Thread network.</flag>
     <flag name="maxcube">eQ-3 MAX! integration for Home Assistant allows you to connect eQ-3 MAX! components via the eQ-3 MAX! Cube. The components connects to the eQ-3 MAX! Cube via TCP and automatically makes all supported integrations available in Home Assistant. The name for each device is created by concatenating the MAX! room and device names.</flag>
     <flag name="mcp">The Model Context Protocol is an open protocol thatstandardizes how applications provide context to LLMs. The Model Context Protocol integrationenables using MCP Servers in Home Assistant for providing additional tools to use with aconversation agent. For example, you can add an MCP server thatsupports memory functionality, or that can search the web using functionality not alreadyavailable in Home Assistant.</flag>
-    <flag name="mcp-server">The Model Context Protocol is an open protocol that standardizes how applications provide context to LLMs. The Model Context Protocol Server (MCP) integration enables using Home Assistant to provide context for MCP LLM Client Applications. For example, you can expose your Google Tasks To-do list as a tool for Claude Desktop.</flag>
+    <flag name="mcp-server">The Model Context Protocol is an open protocol that standardizes how applications provide context to LLMs. The Model Context Protocol Server (MCP) integration enables using Home Assistant to provide context for MCP LLM Client Applications. For example, you can control your lights from Claude Desktop, or expose your Google Tasks to-do list as a tool.</flag>
     <flag name="mealie">Mealie is an open source, self-hosted recipe manager, meal planner, and shopping list. The Mealie integration will fetch and allow you to create and update data held in your Mealie instance.</flag>
     <flag name="meater">The Meater Smart Meat Thermometer integration allows for communicating with the Meater Temperature Probe from Apption Labs.</flag>
     <flag name="medcom-ble">Integrates International Medcom Bluetooth-enabled radiation monitors into Home Assistant.</flag>
@@ -731,7 +731,7 @@
     <flag name="ruuvi-gateway">Integrates Ruuvi Gateway devices aspolling BLE remote scanners via the /history endpoint.</flag>
     <flag name="ruuvitag-ble">Integrates Ruuvi’s RuuviTag BLE devices into Home Assistant.</flag>
     <flag name="rympro">This integration connects with a Read Your Meter Pro account to get water meter reads into Home Assistant.</flag>
-    <flag name="sabnzbd">The SABnzbd integration will allow you to monitor and control your downloads with SABnzbd from within Home Assistant and setup automations based on the information.</flag>
+    <flag name="sabnzbd">The SABnzbd integration allows you to monitor and control your downloads with SABnzbd from within Home Assistant and set up automations based on download status and activity.</flag>
     <flag name="saj">The saj integration will poll a SAJ solar inverter and present the values as sensors in Home Assistant.</flag>
     <flag name="samsungtv">The samsungtv platform allows you to control a Samsung Smart TV.</flag>
     <flag name="sanix">The Sanix integration allows you to get water/sewage level sensor measurements from the Sanix devices made by BIT Complex.</flag>

@@ -4,10 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
-DESCRIPTION="Library to control webOS based LG TV devices"
-HOMEPAGE="https://github.com/home-assistant-libs/aiowebostv https://pypi.org/project/aiowebostv/"
+
+DESCRIPTION="Python library for WMS WebControl pro API"
+HOMEPAGE="https://github.com/mback2k/pywmspro https://pypi.org/project/pywmspro/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -17,6 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/websockets-10.3[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.11.18[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

@@ -7,7 +7,7 @@ jobs:
   emerge:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/antonfischl1980/gentoo-ci:main
+      image: ghcr.io/xavierforestier/gentoo-ci:main
       options: --privileged
     steps:
     # synchronys my own git

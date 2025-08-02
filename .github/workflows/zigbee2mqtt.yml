@@ -24,7 +24,7 @@ jobs:
     - name: emerge app-misc/zigbee2mqtt...
       run: |
         echo -n "" > /etc/portage/package.use/zzz.use
-        emerge --jobs --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 -q app-misc/zigbee2mqtt || true
+        emerge --jobs=16 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 -q app-misc/zigbee2mqtt || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
         emerge --jobs=1 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 -v app-misc/zigbee2mqtt

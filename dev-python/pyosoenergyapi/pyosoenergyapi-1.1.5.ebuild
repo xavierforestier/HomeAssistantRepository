@@ -19,6 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
+	dev-python/unasync[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/loguru[${PYTHON_USEDEP}]
 "

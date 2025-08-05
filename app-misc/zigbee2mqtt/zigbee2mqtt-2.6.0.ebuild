@@ -28,7 +28,9 @@ RDEPEND="
 	acct-user/zigbee2mqtt
 	app-misc/mosquitto
 "
-
+PATCHES="
+	${FILESDIR}/${PN}-build-fix.patch
+"
 pkg_pretend() {
 	if [[ -e "${EROOT}/etc/env.d/90${PN}" ]] && \
 	    ! grep -q "CONFIG_PROTECT=\"/var/lib/${PN}\"" "${EROOT}/etc/env.d/90${PN}" 2>/dev/null; then

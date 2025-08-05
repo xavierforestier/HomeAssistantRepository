@@ -11,13 +11,13 @@ else
 	SRC_URI="
 		https://github.com/Koenkk/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz
 		https://github.com/xavierforestier/${PN}/releases/download/v${PV}/${P}-nodes_modules.tar.xz
-"
+	"
 fi
 
 inherit nodejs-mod systemd tmpfiles
 
 DESCRIPTION="It bridges events and allows you to control your Zigbee devices via MQTT"
-HOMEPAGE="https://www.zigbee2mqtt.io/"
+HOMEPAGE="https://www.zigbee2mqtt.io/ https://github.com/Koenkk/zigbee2mqtt"
 
 LICENSE="0BSD Apache-2.0 BSD-2 CC-BY-4.0 GPL-3 ISC MIT PYTHON"
 SLOT="0"
@@ -28,7 +28,9 @@ RDEPEND="
 	acct-user/zigbee2mqtt
 	app-misc/mosquitto
 "
-
+PATCHES="
+	${FILESDIR}/${PN}-build-fix.patch
+"
 pkg_pretend() {
 	if [[ -e "${EROOT}/etc/env.d/90${PN}" ]] && \
 	    ! grep -q "CONFIG_PROTECT=\"/var/lib/${PN}\"" "${EROOT}/etc/env.d/90${PN}" 2>/dev/null; then

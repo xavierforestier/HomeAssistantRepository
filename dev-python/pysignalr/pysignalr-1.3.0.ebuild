@@ -8,20 +8,18 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library to control Amazon devices"
-HOMEPAGE="https://pypi.org/project/aioamazondevices/ https://github.com/chemelli74/aioamazondevices"
+DESCRIPTION="Modern, reliable and async-ready client for SignalR protocol"
+HOMEPAGE="https://pypi.org/project/pysignalr/ https://github.com/baking-bad/pysignalr"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
+	>=dev-python/websockets-15.0.1[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]
-	dev-python/langcodes[${PYTHON_USEDEP}]
+	dev-python/msgpack[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

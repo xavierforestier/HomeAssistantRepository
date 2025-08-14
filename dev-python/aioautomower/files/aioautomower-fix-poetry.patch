@@ -1,0 +1,10 @@
+--- a/pyproject.toml	2025-08-12 22:34:54.106122156 +0200
++++ b/pyproject.toml	2025-08-12 22:36:10.048707816 +0200
+@@ -1,6 +1,6 @@
+ [build-system]
+ requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+-build-backend = "poetry_dynamic_versioning.backend"
++build-backend = "poetry.core.masonry.api"
+ 
+ [tool.poetry]
+ name = "aioautomower"

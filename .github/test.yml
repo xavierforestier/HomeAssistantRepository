@@ -1,0 +1,7 @@
+name: TEST
+on:
+  workflow_dispatch:
+jobs:
+  homeassistant:
+    run:
+        USE="-minimal -normal full" emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant 

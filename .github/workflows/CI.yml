@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches-ignore:
-      -master
+      - master
   pull_request:
     branches:
       - master

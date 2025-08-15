@@ -1,6 +1,5 @@
 name: Context testing
 on: 
-  push:
   workflow_dispatch:
 
 jobs:
@@ -30,4 +29,9 @@ jobs:
       - name: Dump matrix context
         env:
           MATRIX_CONTEXT: ${{ toJson(matrix) }}
-        run: echo "$MATRIX_CONTEXT"
+        run: echo "$MATRIX_CONTEXT"       
+  homeassistant: 
+    runs-on: ubuntu-latest
+    steps:
+    - run:
+        USE="-minimal -normal full" emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant 

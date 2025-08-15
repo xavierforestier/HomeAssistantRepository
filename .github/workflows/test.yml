@@ -45,5 +45,12 @@ jobs:
         echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
         pwd -P >> /etc/portage/repos.conf/homeassistant.conf
         git config --global --add safe.directory .
-    - run:
+    - name: minimal
+      run:
+        USE="minimal -normal -full" emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant        
+    - name: normal
+      run:
+        USE="-minimal normal -full" emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant 
+    - name: full
+      run:
         USE="-minimal -normal full" emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant 

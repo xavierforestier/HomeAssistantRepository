@@ -96,7 +96,8 @@ src_prepare() {
 	# replace upstream crate substitution with our crate substitution, sigh
 	local pkg
 	for pkg in reqwest-middleware reqwest-retry; do
-		local dep=$(grep "^${pkg}" "${ECARGO_HOME}"/config.toml || die)
+		local dep
+		dep=$(grep "^${pkg}" "${ECARGO_HOME}"/config.toml || die)
 		sed -i -e "/\[patch\.crates-io\]/,\$s;^${pkg}.*$;${dep};" Cargo.toml || die
 	done
 

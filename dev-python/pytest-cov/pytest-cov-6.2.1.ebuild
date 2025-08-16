@@ -44,7 +44,8 @@ python_test() {
 	local -x PYTEST_PLUGINS=pytest_cov.plugin,xdist.plugin,xdist.looponfail
 
 	# https://github.com/pytest-dev/pytest-cov/issues/517
-	local -x PYTHONPATH=$(python_get_sitedir):${PYTHONPATH}
+	local -x PYTHONPATH
+	PYTHONPATH=$(python_get_sitedir):${PYTHONPATH}
 	local -x PYTHONUSERBASE=/usr
 
 	local EPYTEST_DESELECT=(

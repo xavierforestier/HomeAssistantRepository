@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
     - name: Run shellcheck
       uses: ludeeus/action-shellcheck@master
       env:
@@ -59,7 +59,7 @@ jobs:
     needs: pkgcheck_init
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v5
 
     - name: Run pkgcheck
       uses: pkgcore/pkgcheck-action@v1
@@ -80,7 +80,7 @@ jobs:
     needs: [ pkgcheck_complete ]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
     - run: |
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
@@ -106,7 +106,7 @@ jobs:
     needs: [ esphome_init ]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
     - run: |
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
@@ -132,7 +132,7 @@ jobs:
     needs: [ zigbee2mqtt_init ]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v5
     - run: |
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"

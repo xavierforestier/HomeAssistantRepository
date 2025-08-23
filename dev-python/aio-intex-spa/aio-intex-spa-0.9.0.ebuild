@@ -5,6 +5,7 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python client for Intex Spa wifi interface"
@@ -13,7 +14,6 @@ HOMEPAGE="https://github.com/mathieu-mp/aio-intex-spa https://pypi.org/project/a
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-PATCHES="${FILESDIR}/${PN}-tests.patch"
 RDEPEND="
 	>=dev-python/pip-25.1.0[${PYTHON_USEDEP}]
 	>=dev-util/ruff-0.12.0

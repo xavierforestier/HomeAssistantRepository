@@ -1,0 +1,29 @@
+# Copyright 2025 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{12..14} )
+inherit distutils-r1 pypi
+
+DESCRIPTION="Python client for Intex Spa wifi interface"
+HOMEPAGE="https://github.com/mathieu-mp/aio-intex-spa https://pypi.org/project/aio-intex-spa/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+
+RDEPEND="
+	>=dev-python/pip-25.1.0[${PYTHON_USEDEP}]
+	>=dev-util/ruff-0.12.0
+	>=dev-python/pytest-8.4.0[${PYTHON_USEDEP}]
+"
+
+src_install() {
+	default
+	rm -rf "${D}/tests"
+}
+
+EPYTEST_PLUGINS=()
+distutils_enable_tests pytest

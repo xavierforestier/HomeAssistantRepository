@@ -1,0 +1,11 @@
+--- a/setup.py	2025-08-23 19:37:38.328863664 +0200
++++ b/setup.py	2025-08-23 19:38:30.259700362 +0200
+@@ -14,7 +14,7 @@
+     long_description=README,
+     long_description_content_type="text/markdown",
+     url="https://github.com/mathieu-mp/aio-intex-spa",
+-    packages=find_packages(),
++    packages=find_packages(exclude=["tests"]),
+     install_requires=[],
+     classifiers=(
+         "Programming Language :: Python :: 3",

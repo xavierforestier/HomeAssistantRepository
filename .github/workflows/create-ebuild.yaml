@@ -13,10 +13,9 @@ jobs:
        - name: Get branch
          run: |
            full_package=${GITHUB_REF#refs/heads/feature/}
-           echo ${full_package}
            category=$( echo $full_package | cut -d/ -f1 )
-           echo $category
            package=$( echo $full_package | cut -d/ -f2 | sed 's/-[0-9].*//' )
-           echo $package
            version=$( echo $full_package | sed "s/${category}\\/${package}-//" )
-           echo $version
+           cd ${category}/${package}
+           github_src=$( grep 'type="github"' metadata.xml | cut -d\> -f2 | cut -d\< -f 1 )
+           wget https://raw.githubusercontent.com/${github_src}/refs/tags/${version}/pyproject.toml 

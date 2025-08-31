@@ -13,10 +13,10 @@ jobs:
        - name: Get branch
          run: |
            full_package=${GITHUB_REF#refs/heads/feature/}
-           echo $full_package
+           echo ${full_package}
            category=$( echo $full_package | cut -d/ -f1 )
            echo $category
            package=$( echo $full_package | cut -d/ -f2 | sed 's/-[0-9].*//' )
            echo $package
-           version=$( echo $full_package | sed "s/${category}/${package}-//" )
+           version=$( echo $full_package | sed 's/${category}\/${package}-//' )
            echo $version

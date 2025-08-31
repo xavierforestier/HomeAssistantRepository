@@ -1,4 +1,4 @@
-name: Check packages new releases
+name: Check main packages for new releases
 on:
   workflow_dispatch:  
   schedule:

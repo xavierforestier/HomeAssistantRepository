@@ -13,9 +13,9 @@ jobs:
        - name: Get branch
          run: |
            full_package=${GITHUB_REF#refs/heads/feature/}
-           category=$( echo $full_package | cut -d/ -f4 )
-           package=$( echo $full_package | cut -d/ -f5 | sed 's/-[0-9].*//' )
-           version=$( sed 's/${category}/${package}-//' )
+           category=$( echo $full_package | cut -d/ -f1 )
+           package=$( echo $full_package | cut -d/ -f2 | sed 's/-[0-9].*//' )
+           version=$( echo $full_package | sed 's/${category}/${package}-//' )
            echo $category
            echo $package
-           echo $ version
+           echo $version

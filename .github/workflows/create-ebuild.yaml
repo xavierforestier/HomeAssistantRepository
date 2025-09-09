@@ -15,7 +15,17 @@ jobs:
            full_package=${GITHUB_REF#refs/heads/feature/}
            category=$( echo $full_package | cut -d/ -f1 )
            package=$( echo $full_package | cut -d/ -f2 | sed 's/-[0-9].*//' )
-           version=$( echo $full_package | sed 's/${category}/${package}-//' )
-           echo $category
-           echo $package
-           echo $version
+           version=$( echo $full_package | sed "s/${category}\\/${package}-//" )           
+           cd ${category}/${package}
+           github_src=$( grep 'type="github"' metadata.xml | cut -d\> -f2 | cut -d\< -f 1 )
+           
+           cp $(ls -vr *.ebuild | head -n1) ${package}-${version}.ebuild
+           buildsys=$( grep DISTUTILS_USE_PEP517 ${package}-${version}.ebuild | cut -d= -f2)
+           if [ "${buildsys}" = "setuptools" ]; then
+           
+           elif [ "${buildsys}" = "poetry" ]; then
+             wget https://raw.githubusercontent.com/${github_src}/refs/tags/${version}/pyproject.toml 
+             tail --lines=+$(grep -n '\[tool.poetry.dependencies\]' pyproject.toml | cut -d: -f1) pyproject.toml | tail --lines=+2 > tmp_deps
+             head --lines=$( grep -n '^\[' tmp_deps |head -n1 | cut -d: -f1 ) tmp_deps | head --lines=-1 > deps
+             rm pyproject.toml tmp_deps
+           fi

@@ -4,7 +4,7 @@
 EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_SINGLE_IMPL=1
-PYTHON_COMPAT=( python3_{11..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 
 inherit readme.gentoo-r1 distutils-r1
 
@@ -35,7 +35,7 @@ RDEPEND="
 	$( python_gen_cond_dep '
 	server? (
 		acct-group/esphome acct-user/esphome
-		~dev-python/tornado-6.5.1[${PYTHON_USEDEP}]
+		~dev-python/tornado-6.5.2[${PYTHON_USEDEP}]
 	)
 	>=dev-python/cryptography-45.0.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.15.2[${PYTHON_USEDEP}]
@@ -47,10 +47,10 @@ RDEPEND="
 	>=dev-python/tzdata-2021.1[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-embedded/platformio-6.1.18[${PYTHON_SINGLE_USEDEP}]
-	~dev-embedded/esptool-4.9.0[${PYTHON_SINGLE_USEDEP}]
+	~dev-embedded/esptool-5.0.2[${PYTHON_SINGLE_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	~dev-embedded/esphome-dashboard-20250514.0[${PYTHON_USEDEP}]
-	~dev-python/aioesphomeapi-34.2.1[${PYTHON_USEDEP}]
+	~dev-embedded/esphome-dashboard-20250814.0[${PYTHON_USEDEP}]
+	~dev-python/aioesphomeapi-39.0.0[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.147.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.30[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.14[${PYTHON_USEDEP}]

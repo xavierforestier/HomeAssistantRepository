@@ -1,0 +1,9 @@
+--- a/pyproject.toml      2025-02-10 22:48:24.000000000 +0100
++++ b/pyproject.toml      2025-03-08 15:43:28.810254000 +0100
+@@ -1,5 +1,6 @@
+ [build-system]
+ requires = ["setuptools", "wheel", "twine>=6.1.0", "packaging>=24.2", "pkginfo>=1.12.0"]
++build-backend = "setuptools.build_meta"
+ 
+ [project]
+ name = "google-genai"

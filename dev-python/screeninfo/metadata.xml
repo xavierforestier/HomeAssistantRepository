@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <remote-id type="pypi">asusrouter</remote-id>
-    <remote-id type="github">Vaskivskyi/asusrouter</remote-id>
+    <remote-id type="pypi">screeninfo</remote-id>
+    <remote-id type="github">rr-/screeninfo</remote-id>
   </upstream>
 </pkgmetadata>

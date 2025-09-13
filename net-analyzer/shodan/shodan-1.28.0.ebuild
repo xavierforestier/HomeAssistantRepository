@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1
 
 DESCRIPTION="The official Python library for Shodan"
@@ -25,7 +25,6 @@ SLOT="0"
 
 RDEPEND="
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/click-plugins[${PYTHON_USEDEP}]
 	dev-python/colorama[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.2.1[${PYTHON_USEDEP}]
 	dev-python/tldextract[${PYTHON_USEDEP}]

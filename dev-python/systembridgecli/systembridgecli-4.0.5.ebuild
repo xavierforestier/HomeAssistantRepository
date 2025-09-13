@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="This is a CLI interface package for the System Bridge project"
 HOMEPAGE="https://github.com/timmo001/system-bridge-cli https://pypi.org/project/systembridgecli/"
 PATCHES="${FILESDIR}/requirements.patch"
-LICENSE="Apach-2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

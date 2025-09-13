@@ -5,4 +5,7 @@
     <remote-id type="pypi">togrill-bluetooth</remote-id>
     <remote-id type="github">elupus/togrill-bluetooth</remote-id>
   </upstream>
+  <use>
+    <flag name="cli">Add cli suport</flag>
+  </use>
 </pkgmetadata>

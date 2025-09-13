@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Python client for the Volvo Cars API"
 HOMEPAGE="https://github.com/thomasddn/volvo-cars-api https://pypi.org/project/volvocarsapi/"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

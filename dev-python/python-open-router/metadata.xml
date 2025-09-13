@@ -3,6 +3,6 @@
 <pkgmetadata>
   <upstream>
     <remote-id type="pypi">python-open-router</remote-id>
-    <remote-id type="github">joostlek/python-open-router</remote-id>W
+    <remote-id type="github">joostlek/python-open-router</remote-id>
   </upstream>
 </pkgmetadata>

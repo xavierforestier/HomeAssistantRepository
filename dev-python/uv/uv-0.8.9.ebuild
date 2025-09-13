@@ -64,12 +64,9 @@ RDEPEND="
 "
 BDEPEND="
 	test? (
-		dev-lang/python:3.9
-		dev-lang/python:3.10
 		dev-lang/python:3.11
 		dev-lang/python:3.12
 		dev-lang/python:3.13
-		!!~dev-python/uv-0.5.0
 	)
 "
 

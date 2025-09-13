@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A library for controlling Onkyo AV receivers"
 HOMEPAGE="https://github.com/arturpragacz/aioonkyo https://pypi.org/project/aioonkyo/"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

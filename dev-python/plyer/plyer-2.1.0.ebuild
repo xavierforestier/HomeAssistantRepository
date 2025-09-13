@@ -13,7 +13,7 @@ HOMEPAGE="https://pypi.org/project/plyer/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 ar arm64 x86"
+KEYWORDS="amd64 arm arm64 x86"
 
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

@@ -15,8 +15,6 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-BDEPENDS="
-	app-arch/unzip
-"
+BDEPEND="app-arch/unzip"
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

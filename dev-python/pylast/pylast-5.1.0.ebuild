@@ -23,9 +23,6 @@ RDEPEND="
 "
 BDEPEND="
 	dev-python/hatch-vcs[${PYTHON_USEDEP}]
-	test? (
-		dev-python/flaky[${PYTHON_USEDEP}]
-	)
 "
 
 distutils_enable_tests pytest

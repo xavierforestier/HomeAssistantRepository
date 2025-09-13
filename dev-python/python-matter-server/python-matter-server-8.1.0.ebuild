@@ -21,10 +21,10 @@ DOCS="README.md"
 RDEPEND="
 	>=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]
 	>=dev-python/aiorun-2025.1.1[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-5.0.1[${PYTHON_USEDEP}]
+	>=dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	>=dev-python/atomicwrites-1.4.1[${PYTHON_USEDEP}]
 	>=dev-python/coloredlogs-15.0.1[${PYTHON_USEDEP}]
-	>=dev-python/cryptography-45.0.6[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-45.0.3[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.11.1[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.147.0[${PYTHON_USEDEP}]
 	~dev-python/home-assistant-chip-clusters-2025.7.0[${PYTHON_USEDEP}]

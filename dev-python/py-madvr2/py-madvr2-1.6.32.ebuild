@@ -9,7 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="A package to control MadVR Envy over IP"
 HOMEPAGE="https://github.com/iloveicedgreentea/py-madvr https://pypi.org/project/py-madvr2/"
-PATCHES="${FILESDIR}/${PN}-fix-setup-py.patch"
+PATCHES="${FILESDIR}/${P}-fix-setup-py.patch"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

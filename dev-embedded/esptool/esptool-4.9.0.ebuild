@@ -35,7 +35,6 @@ BDEPEND="
 	test? ( $(python_gen_cond_dep '
 		dev-python/cffi[${PYTHON_USEDEP}]
 		dev-python/requests[${PYTHON_USEDEP}]
-		dev-python/flaky[${PYTHON_USEDEP}]
 		dev-python/pyelftools[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	') )

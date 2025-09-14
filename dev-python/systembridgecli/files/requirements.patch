@@ -1,0 +1,27 @@
+--- a/setup.py	2024-04-10 02:54:20.000000000 +0200
++++ b/setup.py	2025-09-13 15:37:25.885976918 +0200
+@@ -1,14 +1,6 @@
+ """Setup."""
+ from setuptools import find_packages, setup
+ 
+-# Get setup packages from requirements.txt
+-with open("requirements_setup.txt", encoding="utf-8") as f:
+-    requirements_setup = f.read().splitlines()
+-
+-# Get packages from requirements.txt
+-with open("requirements.txt", encoding="utf-8") as f:
+-    requirements = f.read().splitlines()
+-
+ with open("README.md", encoding="utf-8") as f:
+     readme = f.read()
+ 
+@@ -22,9 +14,7 @@
+     long_description=readme,
+     long_description_content_type="text/markdown",
+     url="https://github.com/timmo001/system-bridge-cli",
+-    install_requires=requirements,
+     packages=find_packages(exclude=["tests", "generator"]),
+     python_requires=">=3.11",
+-    setup_requires=requirements_setup,
+     use_incremental=True,
+ )

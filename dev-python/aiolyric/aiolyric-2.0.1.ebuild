@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 DESCRIPTION="AIO package for the Honeywell Lyric Platform."
 HOMEPAGE="https://github.com/timmo001/aiolyric https://pypi.org/project/aiolyric/"
-
+PATCHES="${FILESDIR}/${P}-fix-setup.patch"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
@@ -28,8 +28,4 @@ python_test() {
 	py.test -v -v || die
 }
 
-src_prepare() {
-	eapply "${FILESDIR}/fix-setup.patch"
-	default
-}
 distutils_enable_tests pytest

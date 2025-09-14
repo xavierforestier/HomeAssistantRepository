@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <remote-id type="pypi">python-pooldose</remote-id>
+    <remote-id type="github">lmaertin/python-pooldose</remote-id>
+  </upstream>
+</pkgmetadata>

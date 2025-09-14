@@ -58,7 +58,7 @@ RDEPEND="
 	>=dev-python/pillow-10.4.0[${PYTHON_USEDEP}]
 	~media-gfx/cairosvg-2.8.2[${PYTHON_USEDEP}]
 	~dev-python/freetype-py-2.5.1[${PYTHON_USEDEP}]
-	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]	
+	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/kconfiglib-13.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]

@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for IMGW-PIB API."
-HOMEPAGE="https://github.com/bieniu/imgw-pib https://pypi.org/project/imgw-pib/"
+DESCRIPTION="A python3 library to communicate with Mill"
+HOMEPAGE="https://github.com/Danielhiversen/pymill https://pypi.org/project/millheater/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,11 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="
-	dev-python/aiofiles[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.9.4[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
-"
+RDEPEND=">=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)"
 
 distutils_enable_tests pytest

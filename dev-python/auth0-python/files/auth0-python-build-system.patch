@@ -1,0 +1,11 @@
+--- a/pyproject.toml	2025-09-14 18:08:11.529852417 +0200
++++ b/pyproject.toml	2025-09-14 18:10:03.378387051 +0200
+@@ -1,6 +1,6 @@
+ [build-system]
+-requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+-build-backend = "poetry_dynamic_versioning.backend"
++requires = ["poetry-core>=1.0.0"]
++build-backend = "poetry.core.masonry.api"
+ 
+ [tool.poetry]
+ name = "auth0-python"

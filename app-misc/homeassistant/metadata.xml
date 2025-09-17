@@ -17,9 +17,10 @@
   <use>
     <flag name="abode">The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.</flag>
     <flag name="acaia">The Acaia integration allows you to control Acaia scales through Home Assistant.</flag>
-    <flag name="accuweather">The AccuWeather integration uses the AccuWeather web service as a source for weather data for your location.</flag>
+    <flag name="accuweather">There is an active alert for this integration! LEARN MORE The AccuWeather integration uses the AccuWeather web service as a source for weather data for your location.</flag>
     <flag name="acer-projector">The acer_projector switch platform allows you to control the state of RS232 connected projectors from Acer.</flag>
     <flag name="acmeda">The Rollease Acmeda Automate integration allows you to control and monitor covers via your Rollease Acmeda Automate hub. The integrations communicates directly with hubs on the local network, rather than connecting via the cloud or via RS-485. Devices are represented as a cover for monitoring and control as well as a sensor for monitoring battery condition.</flag>
+    <flag name="adax">The Adax integration integrates Adax heaters into Home Assistant and can be configured to use a local or cloud interface.</flag>
     <flag name="adguard">The AdGuard Home integration allows you to control and monitor your AdGuard Home instance in Home Assistant.</flag>
     <flag name="ads">The ADS (automation device specification) describes a device-independent and fieldbus independent interface for communication between Beckhoff automation devices running TwinCAT and other devices implementing this interface.</flag>
     <flag name="advantage-air">The Advantage Air integration allows you to control Advantage Air Air Conditioning controllers into Home Assistant.</flag>
@@ -32,6 +33,7 @@
     <flag name="airos">Ubiquiti UISP-range of wireless products offer a comprehensive suite of devices specifically designed for interconnecting various locations. As long as these airOS devices can ‘see’ each other without any (or limited) obstructions like buildings or trees, a stable and high-bandwidth “beam” can be established. Even their most cost-effective devices can achieve up to 450 Mbps real TCP/IP throughput and maintain reliable links up 10km range!</flag>
     <flag name="airq">The air-Q integration allows integrating the sensors, provided by your air-Q device, into Home Assistant.</flag>
     <flag name="airthings-ble">Integrates Airthings BLE sensors into Home Assistant.</flag>
+    <flag name="airthings">Integrates Airthings sensors into Home Assistant.</flag>
     <flag name="airtouch4">The AirTouch 4 integration allows you to control Ducted Air Conditioning Systems that are using the AirTouch 4 controller. Currently, this integration only supports AirTouch 4 controllers with the Individual Temperature Control (ITC) modules.</flag>
     <flag name="airtouch5">The AirTouch 5 integration allows you to control ducted air conditioning systems that are using the AirTouch 5 controller.</flag>
     <flag name="airvisual">The airvisual sensor platform queries the AirVisual cloud API for air quality data. Data can be collected via latitude/longitude or city/state/country.</flag>
@@ -302,7 +304,7 @@
     <flag name="geonetnz-volcano">The geonetnz_volcano integration lets you use a GeoJSON feed provided byNew Zealand’s GeoNet with informationabout volcanoes in the New Zealand region.It shows information of those volcanoes filtered by distance to Home Assistant’slocation.</flag>
     <flag name="geo-rss-events">The geo_rss_events integration retrieves events from a GeoRSS feed and shows information of those events filtered by distance to Home Assistant’s location and grouped by category.</flag>
     <flag name="gios">The gios integration uses the GIOŚ web service as a source for air quality data for your location.</flag>
-    <flag name="github">The GitHub integration allows you to monitor your favorite GitHub repositories.</flag>
+    <flag name="github">The GitHub integration allows you to monitor your favorite GitHub public repositories.</flag>
     <flag name="gitlab-ci">The gitlab_ci sensor integration integrates results reported by CI/CD Pipeline Jobs in GitLab.</flag>
     <flag name="gitter">This gitter integration allows one to monitor a Gitter.im chatroom for unread messages.</flag>
     <flag name="glances">The glances integration allows you to monitor the system information provided by the Glances API. This enables one to track remote host and display their stats in Home Assistant.</flag>

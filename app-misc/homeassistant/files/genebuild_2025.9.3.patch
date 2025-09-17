@@ -1,5 +1,5 @@
---- a/core-2025.9.0/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
-+++ b/core-2025.9.0/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
+--- a/core-2025.9.3/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
++++ b/core-2025.9.3/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
 @@ -189,7 +189,7 @@
  
  # homeassistant.components.ambient_network
@@ -256,8 +256,8 @@
  
  # homeassistant.components.xs1
  xs1-api-client==3.0.0
---- a/core-2025.9.0/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
-+++ b/core-2025.9.0/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+--- a/core-2025.9.3/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
++++ b/core-2025.9.3/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -222,7 +222,7 @@
  pymodbus==3.11.1
  

@@ -6,10 +6,11 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python wrapper for EcoWitt Protocol"
-HOMEPAGE="https://github.com/home-assistant-libs/aioecowitt https://pypi.org/project/aioecowitt/"
 
-LICENSE="Apache-2.0"
+DESCRIPTION="A python library to interrogate emoncms API"
+HOMEPAGE="https://github.com/Open-Building-Management/pyemoncms https://pypi.org/project/pyemoncms/"
+
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -17,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	>=dev-python/meteocalc-1.1.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/wheel[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

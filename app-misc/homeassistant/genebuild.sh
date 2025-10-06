@@ -291,13 +291,6 @@ parse_constraints "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/core-
 echo -e "                                                                                          \r \e[0;32m*\e[0m Parsing main dependencies... \e[0;32mdone\e[0m                                    "
 cat >> "$EBUILD_PATH" <<EOF
 
-# unknown origin, still something to clean up here
-
-RDEPEND="\${RDEPEND}
-	~dev-python/colorlog-6.8.2[\${PYTHON_USEDEP}]
-	~dev-python/pyotp-2.8.0[\${PYTHON_USEDEP}]
-	>=dev-python/pyqrcode-1.2.1[\${PYTHON_USEDEP}]"
-
 # Module requirements from useflags
 RDEPEND="\${RDEPEND}
 	bh1750? ( dev-python/i2csense[\${PYTHON_USEDEP}] )

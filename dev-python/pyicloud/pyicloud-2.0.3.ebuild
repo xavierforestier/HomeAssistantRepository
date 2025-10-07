@@ -16,7 +16,7 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+#DOCS="README.rst"
 
 RDEPEND="
 	>=dev-python/certifi-2024.12.14[${PYTHON_USEDEP}]

@@ -6,9 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-
-DESCRIPTION="A python library to interrogate emoncms API"
-HOMEPAGE="https://github.com/Open-Building-Management/pyemoncms https://pypi.org/project/pyemoncms/"
+DESCRIPTION="A python3 library to communicate with Tibber"
+HOMEPAGE="https://github.com/Danielhiversen/pyTibber https://pypi.org/project/pyTibber/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
+	>=dev-python/gql-3.5.0[${PYTHON_USEDEP}]
+	>=dev-python/websockets-14.0.0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

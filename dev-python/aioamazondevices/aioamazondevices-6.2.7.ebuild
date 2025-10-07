@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Python library to control Amazon devices"
-HOMEPAGE="https://pypi.org/project/aioamazondevices/ https://github.com/chemelli74/aioamazondevices"
+HOMEPAGE="https://github.com/chemelli74/aioamazondevices https://pypi.org/project/aioamazondevices"
 
 LICENSE="Apache-2.0"
 SLOT="0"

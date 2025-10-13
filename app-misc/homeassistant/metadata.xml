@@ -116,7 +116,7 @@
     <flag name="bluesound">The bluesound platform allows you to control your Bluesound HiFi wireless speakers and audio integrations from Home Assistant.</flag>
     <flag name="bluetooth">The Bluetooth integration will detect nearby Bluetooth devices. Discovered devices will show up in the discovered section on the integrations page in the configuration panel.</flag>
     <flag name="bluetooth-tracker">This tracker discovers new devices on boot and tracks Bluetooth devices periodically based on interval_seconds value. It is not required to pair the devices with each other! Devices discovered are stored with ‘bt_’ as the prefix for device MAC addresses in known_devices.yaml.</flag>
-    <flag name="bmw-connected-drive">The BMW Connected Drive integration lets you retrieve data of your BMW or MINI vehicle from the MyBMW portal (previously BMW Connected Drive).</flag>
+    <flag name="bmw-connected-drive">There is an active alert for this integration! LEARN MORE The BMW Connected Drive integration lets you retrieve data of your BMW or MINI vehicle from the MyBMW portal (previously BMW Connected Drive).</flag>
     <flag name="bond">The Bond integration allows you to control appliances through your Bond Bridge. Duplicates your RF remote control.</flag>
     <flag name="bosch-alarm">The Bosch Alarm Panel integration allows you to connect your Bosch Alarm Panel to Home Assistant to control and monitor your Bosch Alarm Panel.</flag>
     <flag name="bosch-shc">The Bosch SHC integration allows you to connect your Bosch Smart Home Controller to Home Assistant in order to control and monitor your Bosch Smart Home devices.</flag>
@@ -157,14 +157,14 @@
     <flag name="compit">The Compit integration allows you to integrate air conditioning, ventilation, and heating controllers with Home Assistant. You need a Compit iNext account, which you can set up at inext.compit.pl.</flag>
     <flag name="concord232">The concord232 platform provides integration with GE, Interlogix (and other brands) alarm panels that support the RS-232 Automation Control Panel interface module (or have it built in). Supported panels include Concord 4.</flag>
     <flag name="control4">The Control4 integration allows you to control and monitor lights and Room Media from your local Control4 system. Your Control4 controller must be running OS 3.0+.</flag>
-    <flag name="conversation">The Conversation integration allows you to converse with Home Assistant. You can either converse by pressing the microphone in the frontend (supported browsers only (no iOS)) or by calling the conversation/process action with the transcribed text.</flag>
+    <flag name="conversation">The Conversation integration allows you to converse with Home Assistant. You can either converse by pressing the microphone in the frontend (supported browsers only (no iOS)) or by calling the conversation.process action with the transcribed text.</flag>
     <flag name="cookidoo">The Cookidoo integration allows you to interact with your shopping lists of Cookidoo the official Thermomix recipe platform within Home Assistant.</flag>
     <flag name="coolmaster">The coolmaster climate platform lets you control HVAC through CoolMasterNet.</flag>
     <flag name="cppm-tracker">This platform allows you to detect presence by looking at connected devices to Aruba Clearpass.</flag>
     <flag name="cpuspeed">The CPU Speed integration allows you to monitor the current CPU speed.</flag>
     <flag name="crownstone">The Crownstone integration allows you to control your Crownstones either via the cloud or using a Crownstone USB dongle.</flag>
     <flag name="cync">The Cync integration is used to integrate with smart devices sold by GE Lighting. Cync, formerly known as “C by GE”, is the name given to GE Lighting’s line of smart devices.</flag>
-    <flag name="daikin">Warning</flag>
+    <flag name="daikin">The Daikin integration integrates Daikin air conditioning systems into Home Assistant.</flag>
     <flag name="danfoss-air">The Danfoss Air integration allows you to access information from your Danfoss Air HRV unit.</flag>
     <flag name="datadog">The Datadog integration sends all state changes to Datadog using a Datadog Agent.</flag>
     <flag name="deako">The Deako Smart Lighting integration allows you to control your Deako devices from Home Assistant.</flag>
@@ -209,7 +209,7 @@
     <flag name="ecobee">The ecobee integration lets you control and view sensor data from ecobee thermostats.</flag>
     <flag name="ecoforest">The Ecoforest integration allows monitoring and control of local Ecoforest fireplaces in Home Assistant.</flag>
     <flag name="econet">The EcoNet integration is consuming the information provided by a EcoNet enabled Rheem water heater or thermostat.</flag>
-    <flag name="ecovacs">The ecovacs integration is the main integration to integrate Ecovacs (Deebot) vacuums and mowers. You will need your Ecovacs account information (username, password) to discover and control vacuums and mowers in your account.</flag>
+    <flag name="ecovacs">The ecovacs integration is the main integration to integrate Ecovacs (Deebot) vacuums and mowers.</flag>
     <flag name="ecowitt">Configuration To add the Ecowitt integration to your Home Assistant instance, use this My button:</flag>
     <flag name="edimax">This Edimax integration allows you to control the state of your Edimax switches.</flag>
     <flag name="edl21">The edl21 integration lets you read German EDL21 smart meters using SML from Home Assistant.</flag>
@@ -852,7 +852,7 @@
     <flag name="synology-dsm">The Synology DSM integration provides access to various statistics from your Synology NAS (DSM 5.x and higher), as well as cameras from the Surveillance Station and will allow to use the File Station as a backup location.</flag>
     <flag name="synology-srm">This integration allows you to detect presence by looking at connected devices to a Synology SRM router.</flag>
     <flag name="system-bridge">System Bridge is an application that runs on your local machine to share system information via its API/WebSocket. You can also send commands to the device such as opening a URL or sending keyboard keypresses.</flag>
-    <flag name="systemmonitor">The System monitor integration allows you to monitor disk usage, memory usage, network usage, CPU usage, and running processes.</flag>
+    <flag name="systemmonitor">The System monitor integration allows you to monitor disk usage, memory usage, network usage, CPU usage, and running processes on which Home Assistant is running.</flag>
     <flag name="tado">The Tado integration platform is used as an interface to the my.tado.com website.</flag>
     <flag name="tailscale">The Tailscale integration connects to the Tailscale API to monitor devices in your Tailscale network (Tailnet). Use this integration to create automations based on device connectivity, track usage patterns, or receive notifications when devices go online or offline.</flag>
     <flag name="tailwind">The Tailwind integration integrates Tailwindgarage door controllers fully locally.</flag>

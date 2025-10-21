@@ -567,7 +567,7 @@
     <flag name="nibe-heatpump">The Nibe Heat Pump integration allows you to control and monitor Nibe Heat Pumps in Home Assistant.</flag>
     <flag name="nice-go">The Nice G.O. integration is used to integrate with Nice/Linear and Mighty Mule products.This integration is used for garage doors and gate openers created by these companies.</flag>
     <flag name="nightscout">The Nightscout integration allows you to view your CGM data from Nightscout in Home Assistant.</flag>
-    <flag name="niko-home-control">The niko_home_control integration allows you to integrate your Niko Home Control into Home Assistant.</flag>
+    <flag name="niko-home-control">The niko_home_control integration allows you to integrate your Niko connected controller (with Home Control 1) into Home Assistant.</flag>
     <flag name="nilu">The nilu air quality integration shows measurements of current air quality from NILU (Norsk Institutt for luftforskning/Norwegian Institute for Air Research) sensor stations within Norway. Makes data from the open API at luftkvalitet.info and nilu.no available in Home Assistant.</flag>
     <flag name="nina">The NINA integration displays warnings from the Bundesamt für Bevölkerungsschutz und Katastrophenhilfe in Germany.</flag>
     <flag name="nissan-leaf">The nissan_leaf integration offers integration with the NissanConnect EV cloud service. NissanConnect EV was previously known as Nissan Carwings.</flag>

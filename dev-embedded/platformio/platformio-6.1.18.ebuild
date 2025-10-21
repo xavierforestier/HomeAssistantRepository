@@ -21,9 +21,10 @@ KEYWORDS="amd64 arm arm64 x86"
 RDEPEND="
 	$(python_gen_cond_dep '
 		>=dev-python/bottle-0.13.0[${PYTHON_USEDEP}]
-		dev-python/click[${PYTHON_USEDEP}]
+		>=dev-python/click-8.0.4[${PYTHON_USEDEP}]
 		dev-python/colorama[${PYTHON_USEDEP}]
 		>=dev-python/marshmallow-3.0.0[${PYTHON_USEDEP}] <dev-python/marshmallow-4.0.0[${PYTHON_USEDEP}]
+        >=dev-python/pyelftools-0.27[${PYTHON_USEDEP}] <dev-python/pyelftools-1[${PYTHON_USEDEP}]
 		~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 		<dev-python/requests-3[${PYTHON_USEDEP}]
 		<dev-python/semantic-version-3[${PYTHON_USEDEP}]
@@ -32,7 +33,6 @@ RDEPEND="
 		>=dev-python/starlette-0.19[${PYTHON_USEDEP}] <dev-python/starlette-0.47[${PYTHON_USEDEP}]
 		>=dev-python/uvicorn-0.16[${PYTHON_USEDEP}]	<dev-python/uvicorn-0.35[${PYTHON_USEDEP}]
 		dev-python/wsproto[${PYTHON_USEDEP}]
-		>=dev-python/pyelftools-0.27[${PYTHON_USEDEP}] <dev-python/pyelftools-1[${PYTHON_USEDEP}]
 	')
 	virtual/udev"
 DEPEND="virtual/udev"

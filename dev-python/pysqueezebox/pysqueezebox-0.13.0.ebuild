@@ -5,11 +5,13 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
+PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-DESCRIPTION="Reolink NVR/cameras API package"
-HOMEPAGE="https://github.com/starkillerOG/reolink_aio https://pypi.org/project/reolink-aio/"
 
-LICENSE="MIT"
+DESCRIPTION="Asynchronous library to control Logitech Media Server"
+HOMEPAGE="https://github.com/rajlaud/pysqueezebox https://pypi.org/project/pysqueezebox/"
+
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,8 +21,6 @@ DOCS="README.md"
 
 RDEPEND="
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiortsp[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
 "
+
+distutils_enable_tests pytest

@@ -39,7 +39,7 @@ RDEPEND="
 	)
 	>=dev-python/cryptography-45.0.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.15.2[${PYTHON_USEDEP}]
-	>=dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-6.0.2[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	>=dev-python/icmplib-3.0.4[${PYTHON_USEDEP}]
@@ -51,7 +51,7 @@ RDEPEND="
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-embedded/esphome-dashboard-20251013.0[${PYTHON_USEDEP}]
 	~dev-python/aioesphomeapi-41.16.1[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.148.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.147.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.30[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.15[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.12[${PYTHON_USEDEP}]

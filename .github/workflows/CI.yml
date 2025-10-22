@@ -85,9 +85,9 @@ jobs:
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
         git fetch
+        version=$( echo $( find ./dev-embedded/esphome -type f -name "*.ebuild" | sort -r | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
         git switch master
         git pull --no-rebase
-        version=$( echo $( find ./dev-embedded/esphome -type f -name "*.ebuild" | sort -r | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
         sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/esphomejob-\\)[^-]*-[^\\?]*/\\1esphome%20\\(running\\.\\.\\.\\)-lightgrey/" README.md
         sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/esphome-\\)[^-]*-[^\\?]*/\\1${version}-lightgrey/" README.md
         git add README.md

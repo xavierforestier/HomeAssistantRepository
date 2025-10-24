@@ -51,7 +51,7 @@ RDEPEND="
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-embedded/esphome-dashboard-20251013.0[${PYTHON_USEDEP}]
 	~dev-python/aioesphomeapi-41.16.1[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.148.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.147.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.30[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.18.15[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.12[${PYTHON_USEDEP}]

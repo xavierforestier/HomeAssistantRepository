@@ -913,7 +913,7 @@ RDEPEND="${RDEPEND}
 	satel-integra? ( ~dev-python/satel-integra-0.3.7[${PYTHON_USEDEP}] )
 	schlage? ( ~dev-python/pyschlage-2025.9.0[${PYTHON_USEDEP}] )
 	schluter? ( ~dev-python/py-schluter-0.1.7[${PYTHON_USEDEP}] )
-	scrape? ( ~dev-python/beautifulsoup4-4.13.3[${PYTHON_USEDEP}] ~dev-python/lxml-6.0.1[${PYTHON_USEDEP}] )
+	scrape? ( ~dev-python/beautifulsoup4-4.13.3[${PYTHON_USEDEP}] >=dev-python/lxml-6.0.1[${PYTHON_USEDEP}] )
 	screenlogic? ( ~dev-python/screenlogicpy-0.10.2[${PYTHON_USEDEP}] )
 	scsgate? ( ~dev-python/scsgate-0.1.0[${PYTHON_USEDEP}] )
 	season? ( ~dev-python/ephem-4.1.6[${PYTHON_USEDEP}] )

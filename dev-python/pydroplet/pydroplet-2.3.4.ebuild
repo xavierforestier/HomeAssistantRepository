@@ -5,18 +5,18 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+
 inherit distutils-r1 pypi
 
-DESCRIPTION="Ubiquity airOS module(s) for Python 3"
-HOMEPAGE="https://github.com/compatech/python-airos https://pypi.org/project/airos/"
+DESCRIPTION="Package to connect to a Droplet device."
+HOMEPAGE="https://github.com/Hydrific/pydroplet https://pypi.org/project/pydroplet/"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.16[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

@@ -21,7 +21,6 @@ RDEPEND="
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	dev-python/langcodes[${PYTHON_USEDEP}]
 	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/yarl[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

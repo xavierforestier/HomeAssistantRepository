@@ -6,9 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-
-DESCRIPTION="Python wrapper for getting data from Brother laser and inkjet printers via SNMP."
-HOMEPAGE="https://github.com/bieniu/brother https://pypi.org/project/brother/"
+DESCRIPTION="Library to control Airzone devices"
+HOMEPAGE="https://github.com/Noltari/aioairzone https://pypi.org/project/aioairzone/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -18,11 +17,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="
-	>=dev-python/dacite-1.7.0[${PYTHON_USEDEP}]
-	>=dev-python/pysnmp-7.1.6[${PYTHON_USEDEP}]
-"
-BDEPEND="
-	dev-python/pytest-runner[${PYTHON_USEDEP}]"
+RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

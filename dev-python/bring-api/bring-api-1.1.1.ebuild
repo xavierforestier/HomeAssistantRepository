@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="pyvesync is a library to manage Etekcity Devices and Levoit Air Purifier"
-HOMEPAGE="https://github.com/markperdue/pyvesync https://pypi.org/project/pyvesync/"
+DESCRIPTION="Unofficial package to access Bring! shopping lists API."
+HOMEPAGE="https://github.com/miaucl/python-bring-api https://pypi.org/project/bring-api/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,11 +17,10 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
 RDEPEND="
-	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.13.1[orjson,${PYTHON_USEDEP}]
-	>=dev-python/python-dateutil-2.8.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.11[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.13.1[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.10.12[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

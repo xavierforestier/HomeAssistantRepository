@@ -11,7 +11,8 @@ else
 	SRC_URI="
 		https://github.com/Koenkk/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz
 		https://github.com/xavierforestier/${PN}/releases/download/v${PV}/${P}-nodes_modules.tar.xz
-	"
+"
+
 fi
 
 inherit nodejs-mod systemd tmpfiles
@@ -27,9 +28,6 @@ RDEPEND="
 	acct-group/zigbee2mqtt
 	acct-user/zigbee2mqtt
 	app-misc/mosquitto
-"
-PATCHES="
-	${FILESDIR}/${PN}-build-fix.patch
 "
 pkg_pretend() {
 	if [[ -e "${EROOT}/etc/env.d/90${PN}" ]] && \

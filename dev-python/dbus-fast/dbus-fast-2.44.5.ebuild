@@ -38,9 +38,7 @@ distutils_enable_tests pytest
 export REQUIRE_CYTHON=1
 
 src_test() {
-	local dbus_params=(
-		$(dbus-daemon --session --print-address --fork --print-pid)
-	)
+	local dbus_params=( "$(dbus-daemon --session --print-address --fork --print-pid)" )
 	local -x DBUS_SESSION_BUS_ADDRESS=${dbus_params[0]}
 
 	virtx distutils-r1_src_test

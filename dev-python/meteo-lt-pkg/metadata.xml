@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <remote-id type="pypi">meteo-lt-pkg</remote-id>
+    <remote-id type="github">Brunas/meteo_lt-pkg</remote-id>
+  </upstream>
+</pkgmetadata>

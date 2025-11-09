@@ -19,10 +19,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/netifaces[${PYTHON_USEDEP}]
-	>=dev-python/python-socketio-4.6.1[${PYTHON_USEDEP}]
-	>=dev-python/python-engineio-3.14.2[${PYTHON_USEDEP}]"
+	dev-python/python-socketio-v4[${PYTHON_USEDEP}]
+	dev-python/python-engineio-v3[${PYTHON_USEDEP}]
+"
 
 src_prepare() {
 	echo -ne '\n[build-system]\nrequires = ["poetry>=0.12"]' >> pyproject.toml  || die

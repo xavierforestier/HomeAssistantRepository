@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <remote-id type="pypi">lunatone-rest-api-client</remote-id>
+    <remote-id type="gitlab">lunatone-public/lunatone-rest-api-client</remote-id>
+  </upstream>
+</pkgmetadata>

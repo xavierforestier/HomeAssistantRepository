@@ -7,6 +7,7 @@
   </maintainer>
   <upstream>
     <remote-id type="pypi">datadog</remote-id>
+    <remote-id type="github">DataDog/datadogpy</remote-id>
     <maintainer status="unknown">
       <email>dev@datadoghq.com</email>
       <name>Datadog, Inc.</name>

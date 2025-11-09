@@ -5,7 +5,7 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 # py3.13: https://github.com/aio-libs/aiocache/issues/863
-PYTHON_COMPAT=( python3_{10..13} )
+PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 

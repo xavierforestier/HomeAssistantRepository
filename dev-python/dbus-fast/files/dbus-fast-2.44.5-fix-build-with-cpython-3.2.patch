@@ -1,0 +1,28 @@
+--- a/src/dbus_fast/_private/marshaller.pxd	2025-11-09 19:26:48.429067265 +0100
++++ b/src/dbus_fast/_private/marshaller.pxd	2025-11-09 19:28:34.373229971 +0100
+@@ -28,12 +28,12 @@
+     )
+     cdef unsigned int _align(self, unsigned int n)
+ 
+-    cpdef write_boolean(self, object boolean, SignatureType type_)
++    cpdef write_boolean(self, bint boolean, SignatureType type_)
+ 
+     @cython.locals(
+         written=cython.uint,
+     )
+-    cdef unsigned int _write_boolean(self, object boolean)
++    cdef unsigned int _write_boolean(self, bint boolean)
+ 
+     cpdef write_string(self, object value, SignatureType type_)
+ 
+--- a/src/dbus_fast/message.pxd	2025-11-09 19:29:31.991793846 +0100
++++ b/src/dbus_fast/message.pxd	2025-11-09 19:30:21.586255920 +0100
+@@ -55,7 +55,7 @@
+         header_buffer=bytearray,
+         var=Variant
+     )
+-    cpdef _marshall(self, object negotiate_unix_fd)
++    cpdef _marshall(self, bint negotiate_unix_fd)
+ 
+     cdef _fast_init(
+         self,

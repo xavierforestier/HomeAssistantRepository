@@ -16,20 +16,10 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.13.0[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.17[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.11.3[${PYTHON_USEDEP}]
-	>=dev-python/pillow-12.0.0[${PYTHON_USEDEP}]
-	>=dev-python/mypy-1.18.2[${PYTHON_USEDEP}]
-	>=dev-util/ruff-0.14.0
-	>=dev-python/pytest-8.4.2[${PYTHON_USEDEP}]
-	>=dev-python/pytest-cov-7.0.0[${PYTHON_USEDEP}]
-	>=dev-python/mkdocs-material-9.6.21[${PYTHON_USEDEP}]
-	>=dev-python/mkdocstrings-0.30.1[${PYTHON_USEDEP}]
-	>=dev-python/pytest-asyncio-1.2.0[${PYTHON_USEDEP}]
-	>=dev-python/aioresponses-0.7.8[${PYTHON_USEDEP}]
-	>=dev-vcs/pre-commit-4.3.0
-	>=dev-python/syrupy-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.13[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.10[${PYTHON_USEDEP}]
+	>=dev-python/pillow-11.0.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

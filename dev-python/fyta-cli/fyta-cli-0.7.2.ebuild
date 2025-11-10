@@ -20,9 +20,7 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.10.11[${PYTHON_USEDEP}]
-	>=dev-python/aioresponses-0.7.6[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.13[${PYTHON_USEDEP}]
-	>=dev-python/syrupy-4.6.1[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

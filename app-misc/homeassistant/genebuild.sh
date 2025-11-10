@@ -214,7 +214,6 @@ cat >> metadata.xml << EOF
     <flag name="deutsche-bahn">deutsche-bahn</flag>
     <flag name="dht">dht</flag>
     <flag name="http">http</flag>
-    <flag name="loopenergy">loopenergy</flag>
     <flag name="mariadb">mariadb</flag>
     <flag name="mosquitto">mosquitto</flag>
     <flag name="smarthab">smarthab</flag>
@@ -260,7 +259,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 EOF
-echo -n "IUSE=\"bh1750 blinkt bme280 bme680 cli coronavirus deutsche-bahn dht http loopenergy mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink " >> "$EBUILD_PATH"
+echo -n "IUSE=\"bh1750 blinkt bme280 bme680 cli coronavirus deutsche-bahn dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink " >> "$EBUILD_PATH"
 
 grep "\<flag" "metadata.xml" | cut -d\" -f2 | while read -r u; do 
   case $u in
@@ -302,7 +301,6 @@ RDEPEND="\${RDEPEND}
 	deutsche-bahn? ( dev-python/schiene[\${PYTHON_USEDEP}] )
 	dht? ( ~dev-python/adafruit-circuitpython-dht-3.7.0[\${PYTHON_USEDEP}] ~dev-python/rpi-gpio-0.7.1_alpha4[\${PYTHON_USEDEP}] )
 	http? ( dev-python/aiohttp[\${PYTHON_USEDEP}] ~dev-python/aiohttp-fast-url-dispatcher-0.3.0[\${PYTHON_USEDEP}] ~dev-python/aiohttp-zlib-ng-0.3.1[\${PYTHON_USEDEP}] )
-	loopenergy? ( ~dev-python/pyloopenergy-0.2.1[\${PYTHON_USEDEP}] )
 	mariadb? ( dev-python/mysqlclient[\${PYTHON_USEDEP}] )
 	mosquitto? ( app-misc/mosquitto )
 	mysql? ( dev-python/mysqlclient[\${PYTHON_USEDEP}] )

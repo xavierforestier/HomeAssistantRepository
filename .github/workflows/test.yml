@@ -72,8 +72,16 @@ jobs:
           echo "::error::emerge failed" 
           cat /tmp/err
           echo "::endgroup::"
+          exit 1
         elif [ ! -s /tmp/err ]; then
           echo "::warning::emerge warms" 
+          cat /tmp/err
+          echo "::endgroup::"
+        else
+          echo "::debug::emerge stdout" 
+          cat /tmp/out
+          echo "::endgroup::"
+          echo "::debug::emerge stderr" 
           cat /tmp/err
           echo "::endgroup::"
         fi
@@ -86,8 +94,16 @@ jobs:
           echo "::error::emerge failed" 
           cat /tmp/err
           echo "::endgroup::"
+          exit 1
         elif [ ! -s /tmp/err ]; then
           echo "::warning::emerge warms" 
+          cat /tmp/err
+          echo "::endgroup::"
+        else
+          echo "::debug::emerge stdout" 
+          cat /tmp/out
+          echo "::endgroup::"
+          echo "::debug::emerge stderr" 
           cat /tmp/err
           echo "::endgroup::"
         fi
@@ -100,8 +116,16 @@ jobs:
           echo "::error::emerge failed" 
           cat /tmp/err
           echo "::endgroup::"
+          exit 1
         elif [ ! -s /tmp/err ]; then
           echo "::warning::emerge warms" 
+          cat /tmp/err
+          echo "::endgroup::"
+        else
+          echo "::debug::emerge stdout" 
+          cat /tmp/out
+          echo "::endgroup::"
+          echo "::debug::emerge stderr" 
           cat /tmp/err
           echo "::endgroup::"
         fi

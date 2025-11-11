@@ -94,7 +94,6 @@ jobs:
           exit 1
         elif [ ! -s /tmp/err ]; then
           echo "::warning::emerge virtual/homeassistant[normal] raised warning" 
-        else
         fi
     - name: full
       run: |

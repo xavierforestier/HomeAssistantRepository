@@ -30,7 +30,7 @@ jobs:
         env:
           MATRIX_CONTEXT: ${{ toJson(matrix) }}
         run: echo "$MATRIX_CONTEXT"       
-  homeassistant: 
+  zigbee-deps: 
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci:main
@@ -47,16 +47,31 @@ jobs:
         git config --global --add safe.directory .
     - name: zigbee
       run: |
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 app-misc/zigbee2mqtt || true
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 app-misc/zigbee2mqtt 
+  homeassistant-deps:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci:main
+      options: --privileged
+    steps:
+    # synchronys my own git
+    - uses: actions/checkout@v5
+    # 
+    - name: Setup HomeAssistant repository     
+      run: |
+        rsync -aHDPSv etc/portage/ /etc/portage/
+        echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
+        pwd -P >> /etc/portage/repos.conf/homeassistant.conf
+        git config --global --add safe.directory .        
     - name: minimal
       run: |
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant || true
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant
     - name: normal
       run: |
         echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant || true
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant
     - name: full
       run: |
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant || true
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant

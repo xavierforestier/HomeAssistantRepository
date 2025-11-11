@@ -67,7 +67,7 @@ jobs:
       run: |
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
-        if [ ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" /tmp/out ]; then
+        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" /tmp/out; then
           echo "::group::virtual/homeassistant[minimal]"
           echo "::error::emerge failed" 
           cat /tmp/err
@@ -77,7 +77,7 @@ jobs:
       run: |
         echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use        
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
-        if [ ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" /tmp/out ]; then
+        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" /tmp/out; then
           echo "::group::virtual/homeassistant[normal]"
           echo "::error::emerge failed" 
           cat /tmp/err
@@ -87,7 +87,7 @@ jobs:
       run: |
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
-        if [ ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\"" /tmp/out ]; then
+        if grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\"" /tmp/out; then
           echo "::group::virtual/homeassistant[full]"
           echo "::error::emerge failed" 
           cat /tmp/err

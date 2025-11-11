@@ -68,20 +68,19 @@ jobs:
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
         if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" /tmp/out; then
-          echo "::group::virtual/homeassistant[minimal]"
-          echo "::error::emerge failed" 
+          echo "::group::::error::emerge virtual/homeassistant[minimal] failed"
           cat /tmp/err
           echo "::endgroup::"
           exit 1
         elif [ ! -s /tmp/err ]; then
-          echo "::warning::emerge warms" 
+          echo "::group::::warning::emerge virtual/homeassistant[minimal] raised warning" 
           cat /tmp/err
           echo "::endgroup::"
         else
-          echo "::debug::emerge stdout" 
+          echo "::group::emerge stdout" 
           cat /tmp/out
           echo "::endgroup::"
-          echo "::debug::emerge stderr" 
+          echo "::group::emerge stderr" 
           cat /tmp/err
           echo "::endgroup::"
         fi
@@ -90,20 +89,19 @@ jobs:
         echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use        
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
         if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" /tmp/out; then
-          echo "::group::virtual/homeassistant[normal]"
-          echo "::error::emerge failed" 
+          echo "::group::::error:: merge virtual/homeassistant[normal] failed"
           cat /tmp/err
           echo "::endgroup::"
           exit 1
         elif [ ! -s /tmp/err ]; then
-          echo "::warning::emerge warms" 
+          echo "::group::::warning::emerge virtual/homeassistant[normal] raised warning" 
           cat /tmp/err
           echo "::endgroup::"
         else
-          echo "::debug::emerge stdout" 
+          echo "::group::emerge stdout" 
           cat /tmp/out
           echo "::endgroup::"
-          echo "::debug::emerge stderr" 
+          echo "::group::emerge stderr" 
           cat /tmp/err
           echo "::endgroup::"
         fi
@@ -112,20 +110,20 @@ jobs:
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
         if grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\"" /tmp/out; then
-          echo "::group::virtual/homeassistant[full]"
+          echo "::group::::error:: merge virtual/homeassistant[full] failed"
           echo "::error::emerge failed" 
           cat /tmp/err
           echo "::endgroup::"
           exit 1
         elif [ ! -s /tmp/err ]; then
-          echo "::warning::emerge warms" 
+          echo "::group::::warning::emerge virtual/homeassistant[full] raised warning" 
           cat /tmp/err
           echo "::endgroup::"
         else
-          echo "::debug::emerge stdout" 
+          echo "::group::emerge stdout" 
           cat /tmp/out
           echo "::endgroup::"
-          echo "::debug::emerge stderr" 
+          echo "::group::emerge stderr" 
           cat /tmp/err
           echo "::endgroup::"
         fi

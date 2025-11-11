@@ -72,7 +72,7 @@ jobs:
           echo "::error::emerge failed" 
           cat /tmp/err
           echo "::endgroup::"
-        elif [ ! -s test /tmp/err ]; then
+        elif [ ! -s /tmp/err ]; then
           echo "::warning::emerge warms" 
           cat /tmp/err
           echo "::endgroup::"
@@ -86,7 +86,7 @@ jobs:
           echo "::error::emerge failed" 
           cat /tmp/err
           echo "::endgroup::"
-        elif [ ! -s test /tmp/err ]; then
+        elif [ ! -s /tmp/err ]; then
           echo "::warning::emerge warms" 
           cat /tmp/err
           echo "::endgroup::"
@@ -100,7 +100,7 @@ jobs:
           echo "::error::emerge failed" 
           cat /tmp/err
           echo "::endgroup::"
-        elif [ ! -s test /tmp/err ]; then
+        elif [ ! -s /tmp/err ]; then
           echo "::warning::emerge warms" 
           cat /tmp/err
           echo "::endgroup::"

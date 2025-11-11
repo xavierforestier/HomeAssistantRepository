@@ -66,11 +66,27 @@ jobs:
     - name: minimal
       run: |
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        echo "::group::virtual/homeassistant[minimal]"
+        if [ grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" ]; then
+          echo "::notice::OK"
+        else
+          echo "::error::Failed"
+          cat /tmp/err
+        fi
+        echo "::endgroup::"
     - name: normal
       run: |
-        echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant
+        echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use        
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        echo "::group::virtual/homeassistant[normal]"
+        if [ grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" ]; then
+          echo "::notice::OK"
+        else
+          echo "::error::Failed"
+          cat /tmp/err
+        fi
+        echo "::endgroup::"
     - name: full
       run: |
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use

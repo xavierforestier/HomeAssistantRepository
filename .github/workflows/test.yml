@@ -76,7 +76,7 @@ jobs:
         if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" /tmp/out; then
           echo "::error::emerge virtual/homeassistant[minimal] failed"
           exit 1
-        elif [ ! -s /tmp/err ]; then
+        elif [ -s /tmp/err ]; then
           echo "::warning::emerge virtual/homeassistant[minimal] raised warning" 
         fi
     - name: normal
@@ -92,7 +92,7 @@ jobs:
         if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" /tmp/out; then
           echo "::error::emerge virtual/homeassistant[normal] failed"
           exit 1
-        elif [ ! -s /tmp/err ]; then
+        elif [ -s /tmp/err ]; then
           echo "::warning::emerge virtual/homeassistant[normal] raised warning" 
         fi
     - name: full
@@ -108,6 +108,6 @@ jobs:
         if grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\"" /tmp/out; then
           echo "::error::emerge virtual/homeassistant[full] failed"
           exit 1
-        elif [ ! -s /tmp/err ]; then
+        elif [ -s /tmp/err ]; then
           echo "::warning::emerge virtual/homeassistant[full] raised warning" 
         fi

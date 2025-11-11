@@ -67,20 +67,18 @@ jobs:
       run: |
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
-        echo "::group::virtual/homeassistant[minimal]"
-        if [ grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" ]; then
-          echo "::notice::OK"
-        else
-          echo "::error::Failed"
+        if [ ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" /tmp/out ]; then
+          echo "::group::virtual/homeassistant[minimal]"
+          echo "::error::file=/tmp/out" 
           cat /tmp/err
+          echo "::endgroup::"
         fi
-        echo "::endgroup::"
     - name: normal
       run: |
         echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use        
         emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
         echo "::group::virtual/homeassistant[normal]"
-        if [ grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" ]; then
+        if [ grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" /tmp/out ]; then
           echo "::notice::OK"
         else
           echo "::error::Failed"
@@ -90,4 +88,4 @@ jobs:
     - name: full
       run: |
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true

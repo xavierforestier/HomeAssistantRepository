@@ -1,0 +1,140 @@
+# ChangeLog for dev-python/google-cloud-texttospeech
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -google-cloud-texttospeech-2.17.2.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*google-cloud-texttospeech-2.25.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +google-cloud-texttospeech-2.25.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  google-cloud-texttospeech-2.17.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -google-cloud-texttospeech-2.12.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -google-cloud-texttospeech-2.12.3.ebuilde,
+  -google-cloud-texttospeech-2.17.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-cloud-texttospeech-2.12.3.ebuilde,
+  +google-cloud-texttospeech-2.17.2.ebuilde:
+  Fix KEYWORDS
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  google-cloud-texttospeech-2.12.3.ebuild,
+  google-cloud-texttospeech-2.17.2.ebuild:
+  Fix deps
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net>
+  google-cloud-texttospeech-2.12.3.ebuild,
+  google-cloud-texttospeech-2.17.2.ebuild:
+  enable py3.13 and disable py3.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3859
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-cloud-texttospeech-2.17.2 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-cloud-texttospeech-2.17.2.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  -google-cloud-texttospeech-2.12.0.ebuild,
+  -google-cloud-texttospeech-2.12.1.ebuild:
+  drop 2.12.0, 2.12.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  google-cloud-texttospeech-2.12.0.ebuild,
+  google-cloud-texttospeech-2.12.1.ebuild,
+  google-cloud-texttospeech-2.12.3.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  google-cloud-texttospeech-2.12.0.ebuild,
+  google-cloud-texttospeech-2.12.1.ebuild,
+  google-cloud-texttospeech-2.12.3.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-cloud-texttospeech-2.12.3 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net>
+  +google-cloud-texttospeech-2.12.3.ebuild:
+  add 2.12.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  google-cloud-texttospeech-2.12.0.ebuild,
+  google-cloud-texttospeech-2.12.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -google-cloud-texttospeech-2.11.1.ebuild:
+  rework, remove olds
+
+*google-cloud-texttospeech-2.12.1 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -google-cloud-texttospeech-2.11.0.ebuild,
+  +google-cloud-texttospeech-2.12.1.ebuild:
+  update google-cloud-texttospeech-2.12.1
+
+*google-cloud-texttospeech-2.12.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net>
+  google-cloud-texttospeech-2.11.0.ebuild,
+  google-cloud-texttospeech-2.11.1.ebuild,
+  +google-cloud-texttospeech-2.12.0.ebuild:
+  update google-cloud-texttospeech-2.12.0
+
+*google-cloud-texttospeech-2.11.1 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -google-cloud-texttospeech-0.4.0.ebuild,
+  +google-cloud-texttospeech-2.11.1.ebuild:
+  update google-cloud-texttospeech-2.11.1
+
+*google-cloud-texttospeech-2.11.0 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net>
+  google-cloud-texttospeech-0.4.0.ebuild,
+  -google-cloud-texttospeech-2.5.2.ebuild,
+  +google-cloud-texttospeech-2.11.0.ebuild:
+  update google-cloud-texttospeech-2.11.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  google-cloud-texttospeech-0.4.0.ebuild,
+  google-cloud-texttospeech-2.5.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*google-cloud-texttospeech-2.5.2 (02 Sep 2021)
+*google-cloud-texttospeech-0.4.0 (02 Sep 2021)
+
+  02 Sep 2021; Andreas Billmeier <b@edevau.net>
+  +google-cloud-texttospeech-0.4.0.ebuild,
+  +google-cloud-texttospeech-2.5.2.ebuild, +metadata.xml:
+  re-add google-cloud-texttospeech-0.4.0, bump google-cloud-texttospeech-2.5.2
+

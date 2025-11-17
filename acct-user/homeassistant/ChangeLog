@@ -1,0 +1,23 @@
+# ChangeLog for acct-user/homeassistant
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> homeassistant-0.ebuild:
+  add some quotes [SC2086]
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> homeassistant-0.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+  08 Jun 2021; INODE64 <ffelix@inode64.com> homeassistant-0.ebuild:
+  Fix problem when access to usb or bridge zigbee
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> homeassistant-0.ebuild,
+  metadata.xml:
+  minor code cleanups
+
+*homeassistant-0 (03 Feb 2020)
+
+  03 Feb 2020; Andreas Billmeier <b@edevau.net> +homeassistant-0.ebuild,
+  +metadata.xml:
+  homeassistant-0.105.0_beta6
+

@@ -1,0 +1,81 @@
+# ChangeLog for dev-python/nad-receiver
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  nad-receiver-0.3.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -nad-receiver-0.3.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nad-receiver-0.3.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  nad-receiver-0.3.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> nad-receiver-0.3.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> nad-receiver-0.3.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> nad-receiver-0.3.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -nad-receiver-0.2.0.ebuild,
+  nad-receiver-0.3.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> nad-receiver-0.3.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> nad-receiver-0.2.0.ebuild,
+  nad-receiver-0.3.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> nad-receiver-0.3.0.ebuild:
+  all EAPI=8 without quotes
+
+*nad-receiver-0.3.0 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> -nad-receiver-0.0.12.ebuild,
+  -nad-receiver-0.1.0.ebuild, +nad-receiver-0.3.0.ebuild:
+  bump nad-receiver-0.3.0
+
+*nad-receiver-0.2.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +nad-receiver-0.2.0.ebuild:
+  update nad-receiver-0.2.0
+
+  28 Jun 2021; Andreas Billmeier <b@edevau.net> -nad-receiver-0.0.11.ebuild,
+  nad-receiver-0.0.12.ebuild, nad-receiver-0.1.0.ebuild:
+  nad-receiver-0.0.12 PYTHON_COMPAT
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> nad-receiver-0.0.11.ebuild,
+  nad-receiver-0.0.12.ebuild, nad-receiver-0.1.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*nad-receiver-0.1.0 (08 Sep 2020)
+*nad-receiver-0.0.12 (08 Sep 2020)
+*nad-receiver-0.0.11 (08 Sep 2020)
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +nad-receiver-0.0.11.ebuild, +nad-receiver-0.0.12.ebuild,
+  +nad-receiver-0.1.0.ebuild:
+  nad_receiver was renamed to nad-receiver on Pypi,
+  update nad-receiver-0.1.0, fix REDEPEND
+

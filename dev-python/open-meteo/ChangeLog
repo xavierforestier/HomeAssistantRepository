@@ -1,0 +1,74 @@
+# ChangeLog for dev-python/open-meteo
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  open-meteo-0.3.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -open-meteo-0.3.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -open-meteo-0.3.1.ebuilde, -open-meteo-0.3.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +open-meteo-0.3.1.ebuilde, +open-meteo-0.3.2.ebuilde:
+  Fix KEYWORDS
+
+*open-meteo-0.3.2 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +open-meteo-0.3.2.ebuild:
+  homeassistant 2025.1.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  open-meteo-0.3.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -open-meteo-0.2.1.ebuild,
+  open-meteo-0.3.1.ebuild:
+  drop 0.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*open-meteo-0.3.1 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +open-meteo-0.3.1.ebuild:
+  add 0.3.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2470
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> open-meteo-0.2.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> open-meteo-0.2.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> open-meteo-0.2.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> open-meteo-0.2.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> open-meteo-0.2.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*open-meteo-0.2.1 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +open-meteo-0.2.1.ebuild:
+  add open-meteo-0.2.1
+

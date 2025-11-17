@@ -1,0 +1,108 @@
+# ChangeLog for dev-python/pynx584
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pynx584-0.8.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynx584-0.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pynx584-0.5.ebuilde, -pynx584-0.8.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pynx584-0.5.ebuilde, +pynx584-0.8.2.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild,
+  pynx584-0.8.2.ebuild:
+  enable py3.13 and disable py3.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3717
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pynx584-0.8.2 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pynx584-0.8.2.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  update LICENSE
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  cleanup, add new Python Targets, Letter 'N' and parts of P Integrations
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -pynx584-0.4.ebuild,
+  pynx584-0.5.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pynx584-0.4.ebuild,
+  pynx584-0.5.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pynx584-0.5.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pynx584-0.4.ebuild,
+  pynx584-0.5.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net> pynx584-0.4.ebuild,
+  pynx584-0.5.ebuild:
+  fix uri.https (111 cases)
+
+*pynx584-0.4 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +pynx584-0.4.ebuild:
+  dg pynx584-0.4
+
+*pynx584-0.5 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pynx584-0.5.ebuild:
+  add pynx584-0.5
+

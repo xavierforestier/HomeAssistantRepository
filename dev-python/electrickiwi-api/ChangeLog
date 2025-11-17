@@ -1,0 +1,38 @@
+# ChangeLog for dev-python/electrickiwi-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  electrickiwi-api-0.9.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -electrickiwi-api-0.8.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -electrickiwi-api-0.8.5.ebuilde, -electrickiwi-api-0.9.14.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +electrickiwi-api-0.8.5.ebuilde, +electrickiwi-api-0.9.14.ebuilde:
+  Fix KEYWORDS
+
+*electrickiwi-api-0.9.14 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +electrickiwi-api-0.9.14.ebuild:
+  homeassistant-2025-2.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  electrickiwi-api-0.8.5.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*electrickiwi-api-0.8.5 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +electrickiwi-api-0.8.5.ebuild, +metadata.xml:
+  new package, add 0.8.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,208 @@
+# ChangeLog for dev-embedded/esptool
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esptool-4.9.0.ebuild:
+  pkcheck
+
+*esptool-4.9.0 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esptool-4.9.0.ebuild, +metadata.xml:
+  dev-embedded/esphome 2025.7.0
+
+  28 Apr 2024; Andreas Billmeier <b@edevau.net> -esptool-4.7.0-r2.ebuild,
+  -metadata.xml:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esptool-4.7.0-r2 (28 Apr 2024)
+
+  28 Apr 2024; Andreas Billmeier <b@edevau.net> +esptool-4.7.0-r2.ebuild,
+  +metadata.xml:
+  add 4.7.0-r2 (WIP)
+  dev-embedded/esphome: add 2024.3.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> -esptool-3.3-r2.ebuild,
+  -esptool-3.3.1.ebuild, -esptool-4.4.ebuild, -esptool-4.6.2.ebuild,
+  -metadata.xml:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> esptool-3.3-r2.ebuild,
+  esptool-3.3.1.ebuild, esptool-4.4.ebuild, esptool-4.6.2.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  05 Dec 2023; Gerion Entrup <entrup@sra.uni-hannover.de>
+  esptool-4.6.2.ebuild:
+  dev-python/esptool: synchronize with Gentoo upstream
+
+  Signed-off-by: Gerion Entrup <gerion.entrup@flump.de>
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> -esptool-4.5.1.ebuild:
+  drop 4.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esptool-4.6.2 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +esptool-4.6.2.ebuild:
+  add 4.6.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esptool-4.5.1 (10 Mar 2023)
+
+  10 Mar 2023; Andreas Billmeier <b@edevau.net> +esptool-4.5.1.ebuild:
+  add 4.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esptool-4.4 (10 Mar 2023)
+
+  10 Mar 2023; Andreas Billmeier <b@edevau.net> +esptool-4.4.ebuild,
+  metadata.xml:
+  add 4.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Mar 2023; Andreas Billmeier <b@edevau.net> esptool-3.3-r2.ebuild,
+  esptool-3.3.1.ebuild:
+  use pypi eclass
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> esptool-3.3-r2.ebuild,
+  esptool-3.3.1.ebuild:
+  remove Python 3.8 Support tag
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net> esptool-3.3-r2.ebuild,
+  esptool-3.3.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -esptool-3.2.ebuild:
+  rework, remove olds
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> esptool-3.2.ebuild,
+  esptool-3.3-r2.ebuild, esptool-3.3.1.ebuild:
+  esptool cleanup
+
+*esptool-3.3.1 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +esptool-3.3.1.ebuild:
+  update esptool-3.3.1
+
+*esptool-3.3-r2 (22 May 2022)
+
+  22 May 2022; Andreas Billmeier <b@edevau.net> -esptool-3.3.ebuild,
+  +esptool-3.3-r2.ebuild:
+  correct reedsolomon dep in esptool-3.3, fixes #73
+
+*esptool-3.3 (27 Mar 2022)
+
+  27 Mar 2022; Andreas Billmeier <b@edevau.net> -esptool-2.8.ebuild,
+  -esptool-3.1.ebuild, esptool-3.2.ebuild, +esptool-3.3.ebuild:
+  bump esptool-3.3
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> esptool-2.8.ebuild,
+  esptool-3.1.ebuild, esptool-3.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> esptool-2.8.ebuild,
+  esptool-3.1.ebuild, esptool-3.2.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*esptool-3.2 (06 Nov 2021)
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> +esptool-3.2.ebuild:
+  bump esptool-3.2
+
+  03 Sep 2021; Andreas Billmeier <b@edevau.net> esptool-2.8.ebuild,
+  esptool-3.1.ebuild:
+  more license cleanups
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> esptool-2.8.ebuild,
+  -esptool-3.0.ebuild, esptool-3.1.ebuild:
+  update esphome-2021.8.2
+  update esptool BDEPS, fixes
+  https://github.com/onkelbeh/HomeAssistantRepository/issues/40
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> esptool-3.1.ebuild:
+  update esptool-3.1
+
+*esptool-3.1 (18 Jun 2021)
+
+  18 Jun 2021; Andreas Billmeier <b@edevau.net> esptool-2.8.ebuild,
+  esptool-3.0.ebuild, +esptool-3.1.ebuild:
+  esptool -> python3_{8..10}
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -esptool-2.7-r1.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -esptool-2.6.ebuild,
+  -esptool-2.7.ebuild:
+  remove some old ebuilds (with Python 3.5 complaints):
+    - RestrictedPython-3.6.0
+    - hiredis-1.0.0
+    - ifaddr-0.1.5
+    - ifaddr-0.1.4
+    - multidict-4.4.2
+    - pbr-5.1.3 (add -r1)
+    - pyatv-0.3.9.ebuild
+    - rxv-0.5.1
+    - esptool-2.7, esptool-2.6
+
+*esptool-3.0 (20 Dec 2020)
+
+  20 Dec 2020; Andreas Billmeier <b@edevau.net> +esptool-3.0.ebuild,
+  metadata.xml:
+  update esptool-3.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> esptool-2.7.ebuild,
+  esptool-2.7-r1.ebuild, esptool-2.8.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> esptool-2.8.ebuild:
+  remove beta flags from esphome
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> esptool-2.7.ebuild,
+  esptool-2.7-r1.ebuild, esptool-2.8.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS outside dev-python
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> esptool-2.6.ebuild,
+  esptool-2.7.ebuild, esptool-2.7-r1.ebuild, esptool-2.8.ebuild:
+  minor code cleanups
+
+*esptool-2.7-r1 (06 Nov 2019)
+
+  06 Nov 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  +esptool-2.7-r1.ebuild:
+  esptool-2.7 allow Python 3.7
+
+*esptool-2.8 (06 Nov 2019)
+
+  06 Nov 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  +esptool-2.8.ebuild:
+  bump esptool-2.8, OK for Python 3.7
+
+*esptool-2.7 (24 Oct 2019)
+
+  24 Oct 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  +esptool-2.7.ebuild:
+  bump esptool-2.7
+
+*esptool-2.6 (22 Mar 2019)
+
+  22 Mar 2019; evadim <evadim@evadim.ru> +esptool-2.6.ebuild, +metadata.xml:
+  bump esphome 1.12 deps
+

@@ -1,0 +1,273 @@
+# ChangeLog for dev-python/cryptography
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -cryptography-45.0.3.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*cryptography-45.0.3 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +cryptography-45.0.3.ebuild:
+  fix deps
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -cryptography-44.0.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*cryptography-45.0.1 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +cryptography-45.0.1.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  cryptography-44.0.1.ebuild:
+  Fixes
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -cryptography-42.0.5.ebuild, -cryptography-43.0.1.ebuild:
+  some fixes for pkgcheck
+
+  13 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  cryptography-44.0.1.ebuild:
+  virtual/rust
+
+  13 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  cryptography-44.0.1.ebuild:
+  Drop virtual/rust
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -cryptography-42.0.5.ebuilde, -cryptography-43.0.1.ebuilde,
+  -cryptography-44.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +cryptography-42.0.5.ebuilde, +cryptography-43.0.1.ebuilde,
+  +cryptography-44.0.1.ebuilde:
+  Fix KEYWORDS
+
+*cryptography-44.0.1 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +cryptography-44.0.1.ebuild:
+  homeassistant-2025.2.3
+
+*cryptography-43.0.1 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> cryptography-42.0.5.ebuild,
+  +cryptography-43.0.1.ebuild:
+  re-add 43.0.1 from Gentoo's main archive
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4101
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*cryptography-42.0.5 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> +cryptography-42.0.5.ebuild,
+  +metadata.xml:
+  re-add some dropped packages from Gentoo archive:
+  dev-python/cryptography-42.0.5
+  dev-python/pytest-xdist-3.5.0
+  dev-python/requests-2.31.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -cryptography-40.0.1.ebuild,
+  -cryptography-41.0.1-r1.ebuild, -metadata.xml:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*cryptography-41.0.1-r1 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net>
+  +cryptography-41.0.1-r1.ebuild:
+  add cryptography-41.0.1-r1 (from main)
+
+*cryptography-40.0.1 (16 Jul 2023)
+
+  16 Jul 2023; Andreas Billmeier <b@edevau.net> -cryptography-38.0.3.ebuild,
+  +cryptography-40.0.1.ebuild:
+  add 40.0.1, drop 38.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> cryptography-38.0.3.ebuild:
+  unkeyword 38.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*cryptography-38.0.3 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> -cryptography-35.0.0.ebuild,
+  -cryptography-36.0.2.ebuild, +cryptography-38.0.3.ebuild,
+  -files/cryptography-3.4.8-py310.patch,
+  -files/cryptography-36.0.2-pyo3-bump.patch:
+  re-add 38.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> cryptography-36.0.2.ebuild:
+  adjust some license strings
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> cryptography-36.0.2.ebuild:
+  fix cryptography-36.0.2 shellcheck
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> cryptography-36.0.2.ebuild:
+  cryptography-36.0.2 fix minor syntax
+
+  01 May 2022; Andreas Billmeier <b@edevau.net> cryptography-36.0.2.ebuild:
+  update cryptography-36.0.2: allow pysnmp-pyasn1-modules
+
+*cryptography-36.0.2 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> +cryptography-36.0.2.ebuild,
+  +files/cryptography-36.0.2-pyo3-bump.patch:
+  re-add cryptography-36.0.2 (from main)
+
+  23 Apr 2022; Andreas Billmeier <b@edevau.net> cryptography-35.0.0.ebuild:
+  rename setuptools_rust (https://github.com/gentoo/gentoo/commit/c22222767b7d
+  58e3a0826751373ab7978daee265)
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> -cryptography-3.4.8.ebuild,
+  cryptography-35.0.0.ebuild:
+  cleanup cryptography-35.0.0, remove olds
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> cryptography-3.4.8.ebuild:
+  minor cleanups
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> cryptography-35.0.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> cryptography-3.4.8.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  11 Dec 2021; Andreas Billmeier <b@edevau.net> cryptography-35.0.0.ebuild:
+  fix cryptography-35 LICENSE
+
+*cryptography-35.0.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -cryptography-3.3.2.ebuild,
+  +cryptography-35.0.0.ebuild:
+  update cryptography-35.0.0
+
+*cryptography-3.4.8 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -cryptography-3.2.ebuild,
+  +cryptography-3.4.8.ebuild, +files/cryptography-3.4.8-py310.patch,
+  metadata.xml:
+  bump cryptography-3.4.8
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -#cryptography-3.2.ebuild#:
+  cleanup
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> +#cryptography-3.2.ebuild#:
+  add PYTHON_COMPAT=( python3_{8..10} ) for adb-shell, convertdate, hijri-
+  converter, korean-lunar-calendar, libusb1, pyasn1, python-dateutil,
+  rsa-4.0-r2, untangle
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> cryptography-3.3.2.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for core packages
+
+*cryptography-3.3.2 (04 Jun 2021)
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> +cryptography-3.3.2.ebuild:
+  re-add cryptography-3.3.2 from main archive, fix
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/203
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -cryptography-2.9.2.ebuild:
+  remove cryptography-2.9.2
+
+*cryptography-3.2 (28 Oct 2020)
+
+  28 Oct 2020; Andreas Billmeier <b@edevau.net> +cryptography-3.2.ebuild,
+  metadata.xml:
+  add a copy of cryptography-3.2 from main repo
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net> cryptography-2.9.2.ebuild:
+  hack pytest circular depencies in test
+
+*cryptography-2.9.2 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> +cryptography-2.9.2.ebuild,
+  +metadata.xml:
+  add cryptography-2.9.2
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net> -cryptography-2.3.1.ebuild,
+  -cryptography-2.5.ebuild, -cryptography-2.8.ebuild,
+  -cryptography-2.8-r1.ebuild, -files/CVE-2018-10903.patch,
+  -files/cryptography-1.7.1-libressl251.patch,
+  -files/cryptography-2.1.4-libressl-2.7-x509.patch,
+  -files/cryptography-2.1.4-libressl-2.7-x509_vfy.patch, -metadata.xml:
+  remove dev-python/cryptography
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> cryptography-2.8.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  21 Dec 2019; Andreas Billmeier <b@edevau.net> cryptography-2.3.1.ebuild,
+  cryptography-2.5.ebuild, cryptography-2.8.ebuild,
+  cryptography-2.8-r1.ebuild:
+  clean up KEYWORDS where KEYWORDS.invalid
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix cryptography metadata
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> cryptography-2.3.1.ebuild,
+  cryptography-2.5.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+  11 Nov 2019; Andreas Billmeier <b@edevau.net> cryptography-2.8.ebuild,
+  cryptography-2.8-r1.ebuild, metadata.xml:
+  cryptography:update manifest, reduce platforms
+
+*cryptography-2.8-r1 (01 Nov 2019)
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> +cryptography-2.8-r1.ebuild:
+  drop support for obsolete python versions
+
+  24 Oct 2019; Andreas Billmeier <b@edevau.net> cryptography-2.8.ebuild:
+  sort iuse on cryptography-2.8
+
+*cryptography-2.8 (19 Oct 2019)
+
+  19 Oct 2019; Andreas Billmeier <b@edevau.net> -cryptography-2.6.1.off,
+  -cryptography-2.7.ebuild, +cryptography-2.8.ebuild:
+  bump cryptography-2.8
+
+*cryptography-2.7 (06 Jul 2019)
+
+  06 Jul 2019; Andreas Billmeier <b@edevau.net> +cryptography-2.7.ebuild:
+  bump cryptography-2.7
+
+  12 May 2019; Andreas Billmeier <b@edevau.net> -cryptography-2.6.1.ebuild,
+  +cryptography-2.6.1.off:
+  cryptography-2.6.1 now in main repo
+
+*cryptography-2.6.1 (06 Apr 2019)
+
+  06 Apr 2019; Andreas Billmeier <b@edevau.net> +cryptography-2.6.1.ebuild:
+  bump cryptography-2.6.1
+
+*cryptography-2.5 (13 Feb 2019)
+
+  13 Feb 2019; Andreas Billmeier <b@edevau.net> +cryptography-2.5.ebuild:
+  add cryptography-2.5
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+*cryptography-2.3.1 (21 Sep 2018)
+
+  21 Sep 2018; Andreas Billmeier <b@edevau.net> +cryptography-2.3.1.ebuild,
+  +files/CVE-2018-10903.patch, +files/cryptography-1.7.1-libressl251.patch,
+  +files/cryptography-2.1.4-libressl-2.7-x509.patch,
+  +files/cryptography-2.1.4-libressl-2.7-x509_vfy.patch:
+  Split the Repos
+

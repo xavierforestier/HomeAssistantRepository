@@ -1,0 +1,28 @@
+# ChangeLog for dev-python/dynalite-panel
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dynalite-panel-0.0.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -dynalite-panel-0.0.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dynalite-panel-0.0.4.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  dynalite-panel-0.0.4.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*dynalite-panel-0.0.4 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +dynalite-panel-0.0.4.ebuild,
+  +metadata.xml:
+  new package, add 0.0.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

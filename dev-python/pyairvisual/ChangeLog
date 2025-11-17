@@ -1,0 +1,167 @@
+# ChangeLog for dev-python/pyairvisual
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyairvisual-2023.8.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyairvisual-2023.8.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyairvisual-2023.8.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyairvisual-2023.8.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -pyairvisual-2022.12.1.ebuild:
+  drop 2022.12.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> pyairvisual-2022.12.1.ebuild,
+  pyairvisual-2023.8.1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyairvisual-2023.8.1 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +pyairvisual-2023.8.1.ebuild:
+  add 2023.8.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net> -pyairvisual-2022.7.0.ebuild,
+  -pyairvisual-2022.11.1.ebuild, pyairvisual-2022.12.1.ebuild:
+  update SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyairvisual-2022.7.0.ebuild,
+  pyairvisual-2022.11.1.ebuild, pyairvisual-2022.12.1.ebuild:
+  remove Python 3.8 Support tag
+
+*pyairvisual-2022.12.1 (06 Jan 2023)
+
+  06 Jan 2023; Andreas Billmeier <b@edevau.net> +pyairvisual-2022.12.1.ebuild:
+  add 2022.12.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyairvisual-2022.11.1 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> -pyairvisual-5.0.9.ebuild,
+  pyairvisual-2022.7.0.ebuild, +pyairvisual-2022.11.1.ebuild:
+  bump 2022.11.1, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyairvisual-5.0.9.ebuild,
+  pyairvisual-2022.7.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyairvisual-2022.7.0 (21 Jul 2022)
+
+  21 Jul 2022; Andreas Billmeier <b@edevau.net> pyairvisual-5.0.9.ebuild,
+  +pyairvisual-2022.7.0.ebuild:
+  bump pyairvisual-2022.7.0
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> -pyairvisual-5.0.4.ebuild,
+  -pyairvisual-5.0.8.ebuild, pyairvisual-5.0.9.ebuild:
+  pyairvisual-5.0.9 fix RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyairvisual-5.0.4.ebuild,
+  pyairvisual-5.0.8.ebuild, pyairvisual-5.0.9.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> pyairvisual-5.0.9.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*pyairvisual-5.0.9 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> -pyairvisual-4.3.0.ebuild,
+  -pyairvisual-4.4.0.ebuild, -pyairvisual-5.0.2.ebuild,
+  -pyairvisual-5.0.3.ebuild, +pyairvisual-5.0.9.ebuild:
+  update pyairvisual-5.0.9
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> pyairvisual-5.0.8.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+*pyairvisual-5.0.8 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> -pyairvisual-3.0.1.ebuild,
+  +pyairvisual-5.0.8.ebuild:
+  bump pyairvisual-5.0.8
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyairvisual-3.0.1.ebuild,
+  pyairvisual-4.3.0.ebuild, pyairvisual-4.4.0.ebuild,
+  pyairvisual-5.0.2.ebuild, pyairvisual-5.0.3.ebuild,
+  pyairvisual-5.0.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyairvisual-5.0.4 (03 Nov 2020)
+
+  03 Nov 2020; Andreas Billmeier <b@edevau.net> +pyairvisual-5.0.4.ebuild:
+  bump pyairvisual-5.0.4
+
+*pyairvisual-5.0.3 (16 Oct 2020)
+
+  16 Oct 2020; Andreas Billmeier <b@edevau.net> +pyairvisual-5.0.3.ebuild:
+  bump pyairvisual-5.0.3
+
+*pyairvisual-5.0.2 (25 Sep 2020)
+
+  25 Sep 2020; Andreas Billmeier <b@edevau.net> +pyairvisual-5.0.2.ebuild:
+  bump pyairvisual-5.0.2
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> pyairvisual-3.0.1.ebuild,
+  pyairvisual-4.3.0.ebuild, pyairvisual-4.4.0.ebuild:
+  remove all old dev-python/typing RDEPENDs
+
+*pyairvisual-4.4.0 (30 Apr 2020)
+
+  30 Apr 2020; Andreas Billmeier <b@edevau.net> +pyairvisual-4.4.0.ebuild:
+  bump pyairvisual-4.4.0
+
+*pyairvisual-4.3.0 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> -pyairvisual-3.0.3.ebuild,
+  +pyairvisual-4.3.0.ebuild:
+  bump pyairvisual-4.3.0
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyairvisual-3.0.3.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyairvisual-3.0.1.ebuild,
+  pyairvisual-3.0.3.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pyairvisual-3.0.1 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +pyairvisual-3.0.1.ebuild:
+  dg to pyairvisual-3.0.1
+
+*pyairvisual-3.0.3 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyairvisual-3.0.3.ebuild:
+  add pyairvisual-3.0.3
+

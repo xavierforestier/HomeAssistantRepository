@@ -1,0 +1,84 @@
+# ChangeLog for dev-python/eq3btsmart
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -eq3btsmart-2.1.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*eq3btsmart-2.3.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +eq3btsmart-2.3.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -eq3btsmart-1.4.1.ebuild:
+  Cleansing
+
+*eq3btsmart-2.1.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +eq3btsmart-2.1.0.ebuild, +files/eq3btsmart-build-system.patch:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  eq3btsmart-1.4.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -eq3btsmart-1.1.6.ebuild, -eq3btsmart-1.1.8.ebuild,
+  -eq3btsmart-1.1.9.ebuild, -eq3btsmart-1.2.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -eq3btsmart-1.1.6.ebuilde, -eq3btsmart-1.1.8.ebuilde,
+  -eq3btsmart-1.1.9.ebuilde, -eq3btsmart-1.2.0.ebuilde,
+  -eq3btsmart-1.4.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +eq3btsmart-1.1.6.ebuilde, +eq3btsmart-1.1.8.ebuilde,
+  +eq3btsmart-1.1.9.ebuilde, +eq3btsmart-1.2.0.ebuilde,
+  +eq3btsmart-1.4.1.ebuilde:
+  Fix KEYWORDS
+
+*eq3btsmart-1.4.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +eq3btsmart-1.4.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*eq3btsmart-1.2.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +eq3btsmart-1.2.0.ebuild:
+  add 1.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4012
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*eq3btsmart-1.1.9 (20 Oct 2024)
+
+  20 Oct 2024; Andreas Billmeier <b@edevau.net> +eq3btsmart-1.1.9.ebuild:
+  add 1.1.9
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3622
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*eq3btsmart-1.1.8 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> +eq3btsmart-1.1.8.ebuild:
+  add 1.1.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3407
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*eq3btsmart-1.1.6 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> +eq3btsmart-1.1.6.ebuild,
+  +metadata.xml:
+  new package, add 1.1.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3261
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

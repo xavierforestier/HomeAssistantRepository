@@ -1,0 +1,81 @@
+# ChangeLog for dev-python/mashumaro
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*mashumaro-3.17 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -mashumaro-3.16.ebuild, +mashumaro-3.17.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*mashumaro-3.16 (29 Jul 2025)
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -mashumaro-3.15.ebuild, +mashumaro-3.16.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -mashumaro-3.12.ebuild, -mashumaro-3.13.1.ebuild, -mashumaro-3.14.ebuild,
+  mashumaro-3.15.ebuild, metadata.xml:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mashumaro-3.12.ebuild, mashumaro-3.13.1.ebuild, mashumaro-3.14.ebuild,
+  mashumaro-3.15.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mashumaro-3.12.ebuilde, -mashumaro-3.13.1.ebuilde, -mashumaro-3.14.ebuilde,
+  -mashumaro-3.15.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mashumaro-3.12.ebuilde, +mashumaro-3.13.1.ebuilde, +mashumaro-3.14.ebuilde,
+  +mashumaro-3.15.ebuilde:
+  Fix KEYWORDS
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  mashumaro-3.15.ebuild:
+  Homeassistant 2025.4.0
+
+*mashumaro-3.15 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mashumaro-3.15.ebuild:
+  homeassisstant-2025.2.0
+
+*mashumaro-3.14 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mashumaro-3.14.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*mashumaro-3.13.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> mashumaro-3.12.ebuild,
+  +mashumaro-3.13.1.ebuild:
+  add 3.13.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -mashumaro-3.11.ebuild:
+  drop 3.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mashumaro-3.12 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> mashumaro-3.11.ebuild,
+  +mashumaro-3.12.ebuild:
+  add 3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mashumaro-3.11 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +mashumaro-3.11.ebuild,
+  +metadata.xml:
+  new package, add 3.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

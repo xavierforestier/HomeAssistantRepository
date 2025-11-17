@@ -1,0 +1,349 @@
+# ChangeLog for dev-python/plugwise
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*plugwise-1.8.3 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +plugwise-1.8.3.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -plugwise-1.7.6.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*plugwise-1.7.8 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +plugwise-1.7.8.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -plugwise-1.7.4.ebuild:
+  Cleansing
+
+*plugwise-1.7.6 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +plugwise-1.7.6.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -plugwise-1.7.3.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*plugwise-1.7.4 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +plugwise-1.7.4.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -plugwise-1.7.2.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+  15 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -.plugwise-1.7.3.ebuild.swp:
+  fix worng dep for homeassistant-2025.5.1
+
+*plugwise-1.7.3 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +.plugwise-1.7.3.ebuild.swp, +plugwise-1.7.3.ebuild:
+  homeassistant 2025.5.1 deps
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  plugwise-1.7.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  plugwise-1.7.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -plugwise-0.37.3.ebuild, -plugwise-0.37.4.1.ebuild, -plugwise-0.38.3.ebuild,
+  -plugwise-1.4.0.ebuild, -plugwise-1.4.4.ebuild, -plugwise-1.6.0.ebuild,
+  -plugwise-1.6.3.ebuild, -plugwise-1.6.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -plugwise-0.37.3.ebuilde, -plugwise-0.37.4.1.ebuilde,
+  -plugwise-0.38.3.ebuilde, -plugwise-1.4.0.ebuilde, -plugwise-1.4.4.ebuilde,
+  -plugwise-1.6.0.ebuilde, -plugwise-1.6.3.ebuilde, -plugwise-1.6.4.ebuilde,
+  -plugwise-1.7.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plugwise-0.37.3.ebuilde, +plugwise-0.37.4.1.ebuilde,
+  +plugwise-0.38.3.ebuilde, +plugwise-1.4.0.ebuilde, +plugwise-1.4.4.ebuilde,
+  +plugwise-1.6.0.ebuilde, +plugwise-1.6.3.ebuilde, +plugwise-1.6.4.ebuilde,
+  +plugwise-1.7.2.ebuilde:
+  Fix KEYWORDS
+
+*plugwise-1.7.2 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plugwise-1.7.2.ebuild:
+  homeassistant 2025.3.0
+
+*plugwise-1.6.4 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plugwise-1.6.4.ebuild:
+  homeassistant 2025.1.1
+
+*plugwise-1.6.3 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plugwise-1.6.3.ebuild:
+  homeassistant 2024.12.2
+
+*plugwise-1.6.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plugwise-1.6.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*plugwise-1.4.4 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +plugwise-1.4.4.ebuild:
+  add 1.4.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/y
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -plugwise-0.36.3.ebuild,
+  -plugwise-0.37.1.ebuild:
+  drop 0.36.3, 0.37.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2533
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-1.4.0 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +plugwise-1.4.0.ebuild:
+  add 1.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3901
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.38.3 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plugwise-0.38.3.ebuild:
+  homeassistant 2024.9.3
+
+*plugwise-1.4.0 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plugwise-1.4.0.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*plugwise-0.37.4.1 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> +plugwise-0.37.4.1.ebuild:
+  add 0.37.4.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3513
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.37.3 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -plugwise-0.35.3.ebuild,
+  plugwise-0.36.3.ebuild, plugwise-0.37.1.ebuild, +plugwise-0.37.3.ebuild:
+  drop 0.35.3, add 0.37.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3293
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -plugwise-0.34.5.ebuild:
+  drop 0.34.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.37.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> plugwise-0.34.5.ebuild,
+  plugwise-0.35.3.ebuild, plugwise-0.36.3.ebuild, +plugwise-0.37.1.ebuild:
+  add 0.37.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/y
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> -plugwise-0.33.0.ebuild,
+  -plugwise-0.33.2.ebuild:
+  drop 0.33.0, 0.33.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.36.3 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> plugwise-0.33.0.ebuild,
+  plugwise-0.33.2.ebuild, plugwise-0.34.5.ebuild, plugwise-0.35.3.ebuild,
+  +plugwise-0.36.3.ebuild:
+  add 0.36.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2836
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.35.3 (17 Dec 2023)
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> +plugwise-0.35.3.ebuild:
+  add 0.35.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2533
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.34.5 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +plugwise-0.34.5.ebuild:
+  add 0.34.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2477
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> plugwise-0.33.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -plugwise-0.27.5.ebuild:
+  drop 0.27.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.33.2 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +plugwise-0.33.2.ebuild:
+  add 0.33.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.33.0 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> -plugwise-0.31.1.ebuild,
+  +plugwise-0.33.0.ebuild:
+  add 0.33.0, drop 0.31.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.31.1 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -plugwise-0.25.3.ebuild,
+  -plugwise-0.25.14.ebuild, plugwise-0.27.5.ebuild, +plugwise-0.31.1.ebuild:
+  add plugwise-0.31.1. drop olds, update 0.27.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.27.5 (10 Feb 2023)
+
+  10 Feb 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -plugwise-0.18.7.ebuild, -plugwise-0.21.4.ebuild, -plugwise-0.25.7.ebuild,
+  +plugwise-0.27.5.ebuild:
+  drop olds, bump 0.27.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> plugwise-0.18.7.ebuild,
+  plugwise-0.21.4.ebuild, plugwise-0.25.3.ebuild, plugwise-0.25.7.ebuild,
+  plugwise-0.25.14.ebuild:
+  remove Python 3.8 Support tag
+
+*plugwise-0.25.14 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +plugwise-0.25.14.ebuild:
+  add 0.25.14
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.25.7 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> plugwise-0.18.7.ebuild,
+  -plugwise-0.21.3.ebuild, plugwise-0.21.4.ebuild, plugwise-0.25.3.ebuild,
+  +plugwise-0.25.7.ebuild:
+  bump 0.25.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.25.3 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +plugwise-0.25.3.ebuild:
+  add 0.25.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plugwise-0.21.4 (21 Oct 2022)
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net> +plugwise-0.21.4.ebuild:
+  bump plugwise-0.21.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> plugwise-0.18.7.ebuild,
+  plugwise-0.21.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -plugwise-0.18.5.ebuild:
+  rework, remove olds
+
+*plugwise-0.21.3 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +plugwise-0.21.3.ebuild:
+  bump plugwise-0.21.3
+
+*plugwise-0.18.7 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -plugwise-0.16.6.ebuild,
+  -plugwise-0.17.3.ebuild, plugwise-0.18.5.ebuild, +plugwise-0.18.7.ebuild:
+  update plugwise-0.18.7
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> plugwise-0.16.6.ebuild,
+  plugwise-0.17.3.ebuild, plugwise-0.18.5.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+*plugwise-0.18.5 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> -plugwise-0.8.5.ebuild,
+  -plugwise-0.17.2.ebuild, +plugwise-0.18.5.ebuild:
+  bump plugwise-0.18.5
+
+*plugwise-0.17.3 (04 Apr 2022)
+
+  04 Apr 2022; Andreas Billmeier <b@edevau.net> +plugwise-0.17.3.ebuild:
+  bump plugwise-0.17.3
+
+*plugwise-0.17.2 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> +plugwise-0.17.2.ebuild:
+  update plugwise-0.17.2
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> plugwise-0.16.6.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> plugwise-0.8.5.ebuild,
+  plugwise-0.16.6.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*plugwise-0.16.6 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +plugwise-0.16.6.ebuild:
+  bump plugwise-0.16.6
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> -plugwise-0.8.3.ebuild,
+  plugwise-0.8.5.ebuild:
+  cleanup, add new Python Targets, Letter 'N' and parts of P Integrations
+
+*plugwise-0.8.5 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> +plugwise-0.8.5.ebuild:
+  bump plugwise-0.8.5
+
+*plugwise-0.8.3 (21 Nov 2020)
+
+  21 Nov 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +plugwise-0.8.3.ebuild:
+  add plugwise-0.8.3
+

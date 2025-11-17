@@ -1,0 +1,208 @@
+# ChangeLog for dev-python/huawei-lte-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  huawei-lte-api-1.10.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  huawei-lte-api-1.10.0.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -huawei-lte-api-1.10.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -.huawei-lte-api-1.10.0.ebuild.swp, +huawei-lte-api-1.10.0.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +.huawei-lte-api-1.10.0.ebuild.swp, -huawei-lte-api-1.7.3.ebuild,
+  -huawei-lte-api-1.9.3.ebuild, huawei-lte-api-1.10.0.ebuild:
+  Shellcheck
+
+*huawei-lte-api-1.10.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +huawei-lte-api-1.10.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*huawei-lte-api-1.9.3 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.7.3.ebuild,
+  +huawei-lte-api-1.9.3.ebuild:
+  add 1.9.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4029
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.6.11.ebuild,
+  huawei-lte-api-1.7.3.ebuild:
+  drop 1.6.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*huawei-lte-api-1.7.3 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.6.11.ebuild,
+  +huawei-lte-api-1.7.3.ebuild:
+  add 1.7.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2911
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*huawei-lte-api-1.6.11 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.6.11.ebuild,
+  +metadata.xml:
+  new package, add 1.6.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.6.3.ebuild,
+  -huawei-lte-api-1.6.7.ebuild, -metadata.xml:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.6.3.ebuild:
+  remove Python 3.8 Support tag
+
+*huawei-lte-api-1.6.7 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.6.7.ebuild:
+  add 1.6.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.6.3.ebuild:
+  fix SC2185
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*huawei-lte-api-1.6.3 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.4.18.ebuild,
+  -huawei-lte-api-1.6.0.ebuild, +huawei-lte-api-1.6.3.ebuild:
+  re-add 1.6.3 (from main archive), drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.4.18.ebuild,
+  huawei-lte-api-1.6.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*huawei-lte-api-1.6.0 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.4.17.ebuild,
+  huawei-lte-api-1.4.18.ebuild, +huawei-lte-api-1.6.0.ebuild:
+  update huawei-lte-api-1.6.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.4.17.ebuild,
+  huawei-lte-api-1.4.18.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*huawei-lte-api-1.4.18 (16 Jul 2021)
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.4.7.ebuild,
+  -huawei-lte-api-1.4.10.ebuild, -huawei-lte-api-1.4.11.ebuild,
+  -huawei-lte-api-1.4.12.ebuild, huawei-lte-api-1.4.17.ebuild,
+  +huawei-lte-api-1.4.18.ebuild:
+  bump huawei-lte-api-1.4.18
+
+*huawei-lte-api-1.4.17 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.4.4.ebuild,
+  -huawei-lte-api-1.4.6.ebuild, +huawei-lte-api-1.4.17.ebuild:
+  update huawei-lte-api-1.4.17
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> huawei-lte-api-1.4.4.ebuild,
+  huawei-lte-api-1.4.6.ebuild, huawei-lte-api-1.4.7.ebuild,
+  huawei-lte-api-1.4.10.ebuild, huawei-lte-api-1.4.11.ebuild,
+  huawei-lte-api-1.4.12.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*huawei-lte-api-1.4.12 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.4.3.ebuild,
+  +huawei-lte-api-1.4.12.ebuild:
+  bump huawei-lte-api-1.4.12
+
+*huawei-lte-api-1.4.11 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.4.11.ebuild:
+  bump huawei-lte-api-1.4.11
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -huawei-lte-api-1.2.0.ebuild,
+  -huawei-lte-api-1.3.0.ebuild:
+  clean up, romove olds
+
+*huawei-lte-api-1.4.10 (04 Mar 2020)
+
+  04 Mar 2020; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.4.10.ebuild:
+  bump huawei-lte-api-1.4.10
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.4.7.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: H-I
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.2.0.ebuild,
+  huawei-lte-api-1.3.0.ebuild, huawei-lte-api-1.4.3.ebuild,
+  huawei-lte-api-1.4.4.ebuild, huawei-lte-api-1.4.6.ebuild,
+  huawei-lte-api-1.4.7.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*huawei-lte-api-1.4.7 (27 Jan 2020)
+
+  27 Jan 2020; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.4.7.ebuild:
+  bump huawei-lte-api-1.4.7
+
+*huawei-lte-api-1.4.6 (12 Jan 2020)
+
+  12 Jan 2020; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.4.6.ebuild:
+  bump huawei-lte-api-1.4.6
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*huawei-lte-api-1.4.4 (27 Nov 2019)
+
+  27 Nov 2019; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.4.4.ebuild:
+  bump huawei-lte-api-1.4.4
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.2.0.ebuild,
+  huawei-lte-api-1.3.0.ebuild, huawei-lte-api-1.4.3.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> huawei-lte-api-1.2.0.ebuild,
+  huawei-lte-api-1.3.0.ebuild, huawei-lte-api-1.4.3.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*huawei-lte-api-1.4.3 (26 Oct 2019)
+
+  26 Oct 2019; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.4.3.ebuild:
+  bump huawei-lte-api-1.4.3
+
+*huawei-lte-api-1.3.0 (28 Aug 2019)
+
+  28 Aug 2019; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.3.0.ebuild:
+  bump huawei-lte-api-1.3.0
+
+*huawei-lte-api-1.2.0 (29 Jul 2019)
+
+  29 Jul 2019; Andreas Billmeier <b@edevau.net> +huawei-lte-api-1.2.0.ebuild,
+  +metadata.xml:
+  add huawei-lte-api-1.2.0
+

@@ -1,0 +1,25 @@
+# ChangeLog for dev-python/sensoterra
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sensoterra-2.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -sensoterra-2.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sensoterra-2.0.1.ebuilde:
+  Fix KEYWORDS
+
+*sensoterra-2.0.1 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +sensoterra-2.0.1.ebuild:
+  new package, add 2.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3908
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,33 @@
+# ChangeLog for dev-python/ha-silabs-firmware-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*ha-silabs-firmware-client-0.3.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ha-silabs-firmware-client-0.3.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ha-silabs-firmware-client-0.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ha-silabs-firmware-client-0.2.0.ebuild, +metadata.xml:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -ha-silabs-firmware-client-0.2.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  ha-silabs-firmware-client-0.2.0.ebuild,
+  +ha-silabs-firmware-client-0.2.0.ebuilde:
+  Fix KEYWORDS
+
+*ha-silabs-firmware-client-0.2.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ha-silabs-firmware-client-0.2.0.ebuild:
+  Homeassistant 2025.4.0
+

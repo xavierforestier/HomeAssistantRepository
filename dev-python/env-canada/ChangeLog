@@ -1,0 +1,354 @@
+# ChangeLog for dev-python/env-canada
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*env-canada-0.12.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +env-canada-0.12.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -env-canada-0.11.2.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*env-canada-0.11.3 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +env-canada-0.11.3.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -env-canada-0.10.2.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*env-canada-0.11.2 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +env-canada-0.11.2.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -env-canada-0.10.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -env-canada-0.8.0.ebuild:
+  clean old versions
+
+*env-canada-0.10.2 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +env-canada-0.10.2.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  env-canada-0.8.0.ebuild, env-canada-0.10.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -env-canada-0.6.2.ebuild, -env-canada-0.6.3.ebuild,
+  -env-canada-0.7.2.ebuild:
+  Cleansing orphans
+
+*env-canada-0.10.1 (21 Apr 2025)
+
+  21 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +env-canada-0.10.1.ebuild:
+  app-misc/homeassistant-2025.4.3
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -env-canada-0.6.2.ebuilde, -env-canada-0.6.3.ebuilde,
+  -env-canada-0.7.2.ebuilde, -env-canada-0.8.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +env-canada-0.6.2.ebuilde, +env-canada-0.6.3.ebuilde,
+  +env-canada-0.7.2.ebuilde, +env-canada-0.8.0.ebuilde:
+  Fix KEYWORDS
+
+*env-canada-0.8.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +env-canada-0.8.0.ebuild:
+  homeassistant 2025.3.0
+
+*env-canada-0.7.2 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -env-canada-0.6.0.ebuild,
+  +env-canada-0.7.2.ebuild:
+  add 0.7.2, drop 0.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.6.3 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> +env-canada-0.6.3.ebuild:
+  add 0.6.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3507
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.6.2 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> env-canada-0.6.0.ebuild,
+  +env-canada-0.6.2.ebuild:
+  add 0.6.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3326
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -env-canada-0.5.32.ebuild,
+  -env-canada-0.5.33.ebuild, -env-canada-0.5.34.ebuild:
+  drop 0.5.32, 0.5.33, 0.5.34
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.6.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +env-canada-0.6.0.ebuild:
+  add 0.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.5.34 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -env-canada-0.5.22-r1.ebuild,
+  -env-canada-0.5.28.ebuild, -env-canada-0.5.29.ebuild,
+  env-canada-0.5.32.ebuild, env-canada-0.5.33.ebuild,
+  +env-canada-0.5.34.ebuild:
+  add 0.5.34, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.5.33 (01 May 2023)
+
+  01 May 2023; Andreas Billmeier <b@edevau.net> +env-canada-0.5.33.ebuild:
+  add env-canada-0.5.33
+
+*env-canada-0.5.32 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> -env-canada-0.5.31.ebuild,
+  +env-canada-0.5.32.ebuild:
+  add 0.5.32, drop 0.5.31
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.5.31 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -env-canada-0.5.30.ebuild,
+  +env-canada-0.5.31.ebuild:
+  add 0.5.31, drop 0.5.30
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> env-canada-0.5.22-r1.ebuild,
+  env-canada-0.5.28.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> env-canada-0.5.29.ebuild:
+  SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.5.30 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> +env-canada-0.5.30.ebuild:
+  add 0.5.30
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.5.29 (02 Mar 2023)
+
+  02 Mar 2023; Andreas Billmeier <b@edevau.net> +env-canada-0.5.29.ebuild:
+  add 0.5.29
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.5.28 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> -env-canada-0.5.27.ebuild,
+  +env-canada-0.5.28.ebuild:
+  add 0.5.28, drop 0.5.27
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*env-canada-0.5.27 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> +env-canada-0.5.27.ebuild:
+  add 0.5.27
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> env-canada-0.5.22-r1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> env-canada-0.5.22-r1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> env-canada-0.5.22-r1.ebuild:
+  remove olds, cleanup, enable pytest
+
+*env-canada-0.5.22-r1 (09 Sep 2022)
+
+  09 Sep 2022; Andreas Billmeier <b@edevau.net> -env-canada-0.5.20.ebuild,
+  -env-canada-0.5.21.ebuild, -env-canada-0.5.22.ebuild,
+  +env-canada-0.5.22-r1.ebuild:
+  complete rename of geopy:
+  update homeassistant-full-2022.7.7
+  update homeassistant-full-2022.8.6
+  update homeassistant-full-2022.8.7
+  update AEMET-OpenData-0.2.1-r1
+  update env-canada-0.5.22-r1
+  update hbmqtt-0.9.5
+  update ritassist-0.9.2-r1
+  update volvooncall-0.10.0-r1
+  remove olds
+  fixes #293
+
+*env-canada-0.5.22 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> +env-canada-0.5.22.ebuild:
+  update env-canada-0.5.22Â
+
+*env-canada-0.5.21 (04 Apr 2022)
+
+  04 Apr 2022; Andreas Billmeier <b@edevau.net> -env-canada-0.2.5.ebuild,
+  -env-canada-0.5.14.ebuild, -env-canada-0.5.18.ebuild,
+  +env-canada-0.5.21.ebuild:
+  bump env-canada-0.5.21
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> env-canada-0.5.20.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> env-canada-0.2.5.ebuild,
+  env-canada-0.5.14.ebuild, env-canada-0.5.18.ebuild,
+  env-canada-0.5.20.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*env-canada-0.5.20 (16 Dec 2021)
+
+  16 Dec 2021; Andreas Billmeier <b@edevau.net> +env-canada-0.5.20.ebuild:
+  bump env-canada-0.5.20
+
+*env-canada-0.5.18 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +env-canada-0.5.18.ebuild:
+  bump env-canada-0.5.18
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> env-canada-0.5.14.ebuild:
+  all EAPI=8 without quotes
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> env-canada-0.5.14.ebuild:
+  env-canada-0.5.14: exclude 'tests', add DOCS
+
+*env-canada-0.5.14 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +env-canada-0.5.14.ebuild:
+  bump env-canada-0.5.14
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> -env-canada-0.1.0.ebuild,
+  -env-canada-0.2.0-r1.ebuild, -env-canada-0.2.2.ebuild,
+  -env-canada-0.2.4.ebuild, env-canada-0.2.5.ebuild, -env-canada-0.3.1.ebuild:
+  cleanup, add new Python Targets, Letter 'E-F' Integrations
+
+*env-canada-0.3.1 (09 Jan 2021)
+*env-canada-0.2.5 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -env-canada-0.0.38.ebuild,
+  -env-canada-0.0.39.ebuild, +env-canada-0.2.5.ebuild,
+  +env-canada-0.3.1.ebuild:
+  bump env-canada-0.2.5, update env-canada-0.3.1
+
+*env-canada-0.2.4 (15 Nov 2020)
+*env-canada-0.2.2 (15 Nov 2020)
+*env-canada-0.2.0-r1 (15 Nov 2020)
+
+  15 Nov 2020; Andreas Billmeier <b@edevau.net> -env-canada-0.0.34.ebuild,
+  -env-canada-0.0.35.ebuild, -env-canada-0.2.0.ebuild,
+  +env-canada-0.2.0-r1.ebuild, +env-canada-0.2.2.ebuild,
+  +env-canada-0.2.4.ebuild:
+  update env-canada-0.2.2, env-canada-0.2.4, fix env-canada-0.2.0 deps
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> env-canada-0.0.34.ebuild,
+  env-canada-0.0.35.ebuild, env-canada-0.0.38.ebuild,
+  env-canada-0.0.39.ebuild, env-canada-0.1.0.ebuild, env-canada-0.2.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*env-canada-0.2.0 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> -env-canada-0.0.31.ebuild,
+  +env-canada-0.2.0.ebuild:
+  bump env-canada-0.2.0
+
+*env-canada-0.1.0 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> -env-canada-0.0.30.ebuild,
+  +env-canada-0.1.0.ebuild:
+  bump env-canada-0.1.0
+
+*env-canada-0.0.39 (17 Jun 2020)
+
+  17 Jun 2020; Andreas Billmeier <b@edevau.net> -env-canada-0.0.29.ebuild,
+  +env-canada-0.0.39.ebuild:
+  bump env-canada-0.0.39
+
+*env-canada-0.0.38 (24 May 2020)
+
+  24 May 2020; Andreas Billmeier <b@edevau.net> +env-canada-0.0.38.ebuild:
+  bump env-canada-0.0.38
+
+*env-canada-0.0.35 (23 Feb 2020)
+
+  23 Feb 2020; Andreas Billmeier <b@edevau.net> +env-canada-0.0.35.ebuild:
+  bumo env-canada-0.0.35
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> env-canada-0.0.34.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: E-G
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> env-canada-0.0.29.ebuild,
+  env-canada-0.0.30.ebuild, env-canada-0.0.31.ebuild,
+  env-canada-0.0.34.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*env-canada-0.0.34 (13 Jan 2020)
+
+  13 Jan 2020; Andreas Billmeier <b@edevau.net> +env-canada-0.0.34.ebuild:
+  bump env-canada-0.0.34
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*env-canada-0.0.31 (04 Jan 2020)
+
+  04 Jan 2020; Andreas Billmeier <b@edevau.net> +env-canada-0.0.31.ebuild:
+  bump env-canada-0.0.31
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> env-canada-0.0.29.ebuild,
+  env-canada-0.0.30.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*env-canada-0.0.30 (06 Nov 2019)
+
+  06 Nov 2019; Andreas Billmeier <b@edevau.net> +env-canada-0.0.30.ebuild:
+  bump env-canada-0.0.30
+
+*env-canada-0.0.29 (06 Nov 2019)
+
+  06 Nov 2019; Andreas Billmeier <b@edevau.net> +env-canada-0.0.29.ebuild,
+  +metadata.xml:
+  add env-canada-0.0.29
+

@@ -1,0 +1,97 @@
+# ChangeLog for dev-python/qingping-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -qingping-ble-0.10.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*qingping-ble-1.0.1 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +qingping-ble-1.0.1.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  qingping-ble-0.10.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -qingping-ble-0.9.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -qingping-ble-0.10.0.ebuilde, -qingping-ble-0.9.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +qingping-ble-0.10.0.ebuilde, +qingping-ble-0.9.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  qingping-ble-0.10.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -qingping-ble-0.8.2.ebuild:
+  drop 0.8.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*qingping-ble-0.10.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> qingping-ble-0.8.2.ebuild,
+  qingping-ble-0.9.0.ebuild, +qingping-ble-0.10.0.ebuild:
+  add 0.10.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3007
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*qingping-ble-0.9.0 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> qingping-ble-0.8.2.ebuild,
+  +qingping-ble-0.9.0.ebuild:
+  add 0.9.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2634
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -qingping-ble-0.7.0.ebuild,
+  qingping-ble-0.8.2.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> qingping-ble-0.7.0.ebuild,
+  qingping-ble-0.8.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*qingping-ble-0.8.2 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> -qingping-ble-0.6.0.ebuild,
+  +qingping-ble-0.8.2.ebuild:
+  add 0.8.2, drop 0.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> qingping-ble-0.6.0.ebuild,
+  qingping-ble-0.7.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*qingping-ble-0.7.0 (20 Sep 2022)
+
+  20 Sep 2022; Andreas Billmeier <b@edevau.net> +qingping-ble-0.7.0.ebuild:
+  bump qingping-ble-0.7.0
+
+*qingping-ble-0.6.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +qingping-ble-0.6.0.ebuild:
+  add qingping-ble-0.6.0
+

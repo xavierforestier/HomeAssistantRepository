@@ -1,0 +1,55 @@
+# ChangeLog for dev-python/pytrydan
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytrydan-0.8.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytrydan-0.6.0.ebuild, -pytrydan-0.6.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pytrydan-0.6.0.ebuilde, -pytrydan-0.6.1.ebuilde, -pytrydan-0.8.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytrydan-0.6.0.ebuilde, +pytrydan-0.6.1.ebuilde, +pytrydan-0.8.0.ebuilde:
+  Fix KEYWORDS
+
+*pytrydan-0.8.0 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -pytrydan-0.4.0.ebuild,
+  +pytrydan-0.8.0.ebuild:
+  add 0.8.0, drop 0.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3801
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrydan-0.6.1 (10 Jun 2024)
+
+  10 Jun 2024; Andreas Billmeier <b@edevau.net> +pytrydan-0.6.1.ebuild:
+  add 0.6.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3457
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrydan-0.6.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> pytrydan-0.4.0.ebuild,
+  +pytrydan-0.6.0.ebuild:
+  add 0.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3336
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrydan-0.4.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pytrydan-0.4.0.ebuild:
+  new package, add 0.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2504
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

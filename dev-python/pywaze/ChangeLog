@@ -1,0 +1,55 @@
+# ChangeLog for dev-python/pywaze
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pywaze-1.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pywaze-1.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pywaze-1.0.1.ebuilde, -pywaze-1.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pywaze-1.0.1.ebuilde, +pywaze-1.0.2.ebuilde:
+  Fix KEYWORDS
+
+*pywaze-1.0.2 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -pywaze-0.5.1.ebuild,
+  -pywaze-1.0.0.ebuild, +pywaze-1.0.2.ebuild:
+  add 1.0.2, drop 0.5.1, 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3807
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pywaze-1.0.1 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> pywaze-0.5.1.ebuild,
+  pywaze-1.0.0.ebuild, +pywaze-1.0.1.ebuild:
+  add 1.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3337
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pywaze-1.0.0 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> pywaze-0.5.1.ebuild,
+  +pywaze-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3161
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pywaze-0.5.1 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pywaze-0.5.1.ebuild:
+  new package, add 0.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

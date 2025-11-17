@@ -1,0 +1,304 @@
+# ChangeLog for dev-python/total-connect-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -total-connect-client-2025.1.4.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*total-connect-client-2025.5 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +total-connect-client-2025.5.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  total-connect-client-2025.1.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -total-connect-client-2023.2.ebuild, -total-connect-client-2023.12.1.ebuild,
+  -total-connect-client-2024.5.ebuild, -total-connect-client-2024.12.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -total-connect-client-2023.12.1.ebuilde,
+  -total-connect-client-2023.2.ebuilde, -total-connect-client-2024.12.ebuilde,
+  -total-connect-client-2024.5.ebuilde,
+  -total-connect-client-2025.1.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +total-connect-client-2023.12.1.ebuilde,
+  +total-connect-client-2023.2.ebuilde, +total-connect-client-2024.12.ebuilde,
+  +total-connect-client-2024.5.ebuilde,
+  +total-connect-client-2025.1.4.ebuilde:
+  Fix KEYWORDS
+
+*total-connect-client-2025.1.4 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +total-connect-client-2025.1.4.ebuild:
+  homeassisstant-2025.2.0
+
+*total-connect-client-2024.12 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +total-connect-client-2024.12.ebuild:
+  homeassistant 2024.12.2
+
+*total-connect-client-2024.5 (10 Jun 2024)
+
+  10 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-2024.5.ebuild:
+  add 2024.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3455
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*total-connect-client-2023.12.1 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  total-connect-client-2023.2.ebuild, +total-connect-client-2023.12.1.ebuild:
+  add 2023.12.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3309
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-2022.10.ebuild, -total-connect-client-2023.1.ebuild,
+  total-connect-client-2023.2.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*total-connect-client-2023.2 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-2023.2.ebuild:
+  add 2023.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*total-connect-client-2023.1 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -total-connect-client-2022.5.ebuild, +total-connect-client-2023.1.ebuild:
+  add 2023.1, drop 2022.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  total-connect-client-2022.5.ebuild, total-connect-client-2022.10.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  total-connect-client-2022.5.ebuild, total-connect-client-2022.10.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*total-connect-client-2022.10 (15 Oct 2022)
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-2022.2.1.ebuild, -total-connect-client-2022.3.ebuild,
+  total-connect-client-2022.5.ebuild, +total-connect-client-2022.10.ebuild:
+  bump total-connect-client-2022.10
+
+*total-connect-client-2022.5 (09 May 2022)
+
+  09 May 2022; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-2022.5.ebuild:
+  bump total-connect-client-2022.5
+
+*total-connect-client-2022.3 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-2021.11.2.ebuild,
+  -total-connect-client-2021.12.ebuild, -total-connect-client-2022.1.ebuild,
+  +total-connect-client-2022.3.ebuild:
+  bump total-connect-client-2022.3
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net>
+  total-connect-client-2022.2.1.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  total-connect-client-2021.11.2.ebuild, total-connect-client-2021.12.ebuild,
+  total-connect-client-2022.1.ebuild, total-connect-client-2022.2.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*total-connect-client-2022.2.1 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-0.57.ebuild, +total-connect-client-2022.2.1.ebuild:
+  bump total-connect-client-2022.2.1
+
+*total-connect-client-2022.1 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-2021.11.4.ebuild, +total-connect-client-2022.1.ebuild:
+  update total-connect-client-2022.1
+
+*total-connect-client-2021.12 (16 Dec 2021)
+
+  16 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-2021.11.5.ebuild,
+  +total-connect-client-2021.12.ebuild:
+  bump total-connect-client-2021.12
+
+*total-connect-client-2021.11.4 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-2021.11.4.ebuild:
+  dg total-connect-client-2021.11.4
+
+*total-connect-client-2021.11.5 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-2021.8.3.ebuild,
+  +total-connect-client-2021.11.5.ebuild:
+  bump total-connect-client-2021.11.5
+
+*total-connect-client-2021.11.2 (09 Nov 2021)
+
+  09 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-2021.11.2.ebuild:
+  bump total-connect-client-2021.11.2
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net>
+  total-connect-client-2021.8.3.ebuild:
+  all EAPI=8 without quotes
+
+*total-connect-client-2021.8.3 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-2021.8.3.ebuild:
+  bump total-connect-client-2021.8.3
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-0.53.ebuild, -total-connect-client-0.54.1.ebuild,
+  -total-connect-client-0.55.ebuild, -total-connect-client-0.55.1.ebuild,
+  total-connect-client-0.57.ebuild:
+  cleanup total-connect-client-0.57, fixes #72
+
+*total-connect-client-0.57 (20 Mar 2021)
+
+  20 Mar 2021; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-0.50.ebuild, +total-connect-client-0.57.ebuild:
+  bump total-connect-client-0.57
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> total-connect-client-0.50.ebuild,
+  total-connect-client-0.53.ebuild, total-connect-client-0.54.1.ebuild,
+  total-connect-client-0.55.ebuild, total-connect-client-0.55.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Sep 2020; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-0.27.ebuild, -total-connect-client-0.28.ebuild,
+  total-connect-client-0.53.ebuild, total-connect-client-0.54.1.ebuild,
+  -total-connect-client-0.54.2.ebuild, total-connect-client-0.55.ebuild,
+  total-connect-client-0.55.1.ebuild:
+  total-connect-client:
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/167
+
+*total-connect-client-0.55.1 (28 Jun 2020)
+
+  28 Jun 2020; Andreas Billmeier <b@edevau.net>
+  -total-connect-client-0.26.ebuild, total-connect-client-0.53.ebuild,
+  total-connect-client-0.54.1.ebuild, total-connect-client-0.54.2.ebuild,
+  total-connect-client-0.55.ebuild, +total-connect-client-0.55.1.ebuild:
+  add the missing releases of total-connect-client to my own repo:
+      - v0.54.1
+      - v0.55
+      - v0.55.1
+
+*total-connect-client-0.55 (11 Jun 2020)
+*total-connect-client-0.54.1 (11 Jun 2020)
+
+  11 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-0.54.1.ebuild, +total-connect-client-0.55.ebuild:
+  remove google-api-python-client
+
+*total-connect-client-0.54.2 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-0.54.2.ebuild:
+  bump total-connect-client-0.54.2
+
+*total-connect-client-0.53 (04 Mar 2020)
+
+  04 Mar 2020; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-0.53.ebuild:
+  bump total-connect-client-0.53
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net>
+  total-connect-client-0.50.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  total-connect-client-0.26.ebuild, total-connect-client-0.27.ebuild,
+  total-connect-client-0.28.ebuild, total-connect-client-0.50.ebuild:
+  minor code cleanups
+
+*total-connect-client-0.50 (01 Feb 2020)
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +total-connect-client-0.50.ebuild:
+  bump total-connect-client-0.50
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  14 Nov 2019; Andreas Billmeier <b@edevau.net>
+  total-connect-client-0.28.ebuild:
+  total-connect-client add PYTHON_COMPAT 3.8
+
+  14 Nov 2019; Andreas Billmeier <b@edevau.net>
+  total-connect-client-0.26.ebuild, total-connect-client-0.27.ebuild,
+  total-connect-client-0.28.ebuild:
+  add MIT License to total-connect-client
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net>
+  total-connect-client-0.26.ebuild, total-connect-client-0.27.ebuild,
+  total-connect-client-0.28.ebuild:
+  update packages with unknown licenses
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net>
+  total-connect-client-0.26.ebuild, total-connect-client-0.27.ebuild,
+  total-connect-client-0.28.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  11 Nov 2019; Andreas Billmeier <b@edevau.net>
+  total-connect-client-0.26.ebuild, total-connect-client-0.27.ebuild,
+  total-connect-client-0.28.ebuild:
+          * searched and partly updated licenses for:
+            -PyMata
+            -PyMetno
+            -adb-shell
+            -apcaccess
+            -pyvlx
+            -somecomfort
+            -total-connect-client
+            -uvcclient
+          * pylutron-0.2.5 Python Compatibility for 3.5 removed
+          * rename CHANGELOG.txt
+          * coveralls Python Compatibility for 3.5 removed
+
+*total-connect-client-0.28 (14 Jul 2019)
+*total-connect-client-0.27 (14 Jul 2019)
+*total-connect-client-0.26 (14 Jul 2019)
+
+  14 Jul 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +total-connect-client-0.26.ebuild, +total-connect-client-0.27.ebuild,
+  +total-connect-client-0.28.ebuild:
+  add total-connect-client-0.28
+

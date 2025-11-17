@@ -1,0 +1,141 @@
+# ChangeLog for dev-python/vsure
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  vsure-2.6.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -vsure-2.6.6.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -vsure-2.6.6.ebuilde, -vsure-2.6.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +vsure-2.6.6.ebuilde, +vsure-2.6.7.ebuilde:
+  Fix KEYWORDS
+
+*vsure-2.6.7 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> vsure-2.6.6.ebuild,
+  +vsure-2.6.7.ebuild:
+  add 2.6.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4077
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -vsure-1.8.1.ebuild,
+  -vsure-2.6.1.ebuild:
+  drop 1.8.1, 2.6.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vsure-2.6.6 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> vsure-1.8.1.ebuild,
+  vsure-2.6.1.ebuild, +vsure-2.6.6.ebuild:
+  add 2.6.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vsure-2.6.1 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -vsure-1.7.3.ebuild,
+  vsure-1.8.1.ebuild, +vsure-2.6.1.ebuild:
+  add 2.6.1, drop 1.7.3, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> vsure-1.7.3.ebuild,
+  vsure-1.8.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> vsure-1.7.3.ebuild,
+  vsure-1.8.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vsure-1.8.1 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> vsure-1.7.3.ebuild,
+  +vsure-1.8.1.ebuild:
+  bump vsure-1.8.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> vsure-1.7.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  02 Sep 2021; Andreas Billmeier <b@edevau.net> -vsure-1.7.2.ebuild,
+  vsure-1.7.3.ebuild:
+  cleanup vsure-1.7.3, PYTHON_COMPAT
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -vsure-1.5.3.ebuild,
+  -vsure-1.5.4.ebuild, -vsure-1.6.1.ebuild, vsure-1.7.2.ebuild,
+  vsure-1.7.3.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*vsure-1.7.3 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> -vsure-1.5.2.ebuild,
+  +vsure-1.7.3.ebuild:
+  bump vsure-1.7.3
+
+*vsure-1.7.2 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net> +vsure-1.7.2.ebuild:
+  bump vsure-1.7.2
+
+*vsure-1.6.1 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> +vsure-1.6.1.ebuild:
+  bump vsure-1.6.1
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> vsure-1.5.2.ebuild,
+  vsure-1.5.3.ebuild, vsure-1.5.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> vsure-1.5.4.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> vsure-1.5.2.ebuild,
+  vsure-1.5.3.ebuild, vsure-1.5.4.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*vsure-1.5.2 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +vsure-1.5.2.ebuild:
+  dg vsure-1.5.2
+
+*vsure-1.5.4 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net> +vsure-1.5.4.ebuild:
+  bump vsure-1.5.4
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> vsure-1.5.3.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  24 Oct 2019; Andreas Billmeier <b@edevau.net> vsure-1.5.3.ebuild:
+  use https:// for Homepage
+
+*vsure-1.5.3 (14 Jul 2019)
+
+  14 Jul 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +vsure-1.5.3.ebuild:
+  add vsure-1.5.3
+

@@ -1,0 +1,38 @@
+# ChangeLog for dev-python/youtubeaio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -youtubeaio-1.1.5.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*youtubeaio-2.0.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +youtubeaio-2.0.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  youtubeaio-1.1.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -youtubeaio-1.1.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +youtubeaio-1.1.5.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  youtubeaio-1.1.5.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*youtubeaio-1.1.5 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +youtubeaio-1.1.5.ebuild:
+  new package, add 1.1.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/mvg
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mvg-1.4.0.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*mvg-1.4.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +mvg-1.4.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+

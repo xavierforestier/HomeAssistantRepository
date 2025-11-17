@@ -1,0 +1,34 @@
+# ChangeLog for dev-python/pynina
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynina-0.3.5.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*pynina-0.3.6 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pynina-0.3.6.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynina-0.3.4.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pynina-0.3.5 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pynina-0.3.5.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pynina-0.3.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*pynina-0.3.4 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pynina-0.3.4.ebuild:
+  Fix for pkgcheck
+

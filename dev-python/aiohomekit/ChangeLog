@@ -1,0 +1,655 @@
+# ChangeLog for dev-python/aiohomekit
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aiohomekit-3.2.20 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomekit-3.2.20.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomekit-3.2.18.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomekit-3.2.17.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aiohomekit-3.2.19 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomekit-3.2.15.ebuild, +aiohomekit-3.2.19.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*aiohomekit-3.2.18 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomekit-3.2.18.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+*aiohomekit-3.2.17 (21 Sep 2025)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomekit-3.2.17.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomekit-3.2.14.ebuild:
+  Cleansing
+
+*aiohomekit-3.2.15 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomekit-3.2.15.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomekit-3.2.13.ebuild:
+  clean old versions
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiohomekit-3.2.13.ebuild, aiohomekit-3.2.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomekit-3.2.8.ebuild:
+  Fix for pkgcheck
+
+*aiohomekit-3.2.14 (03 May 2025)
+
+  03 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomekit-3.2.14.ebuild:
+  homeassistant-2025.4.4 & zigbee2mqtt-2.3.0
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomekit-3.1.5.ebuild, -aiohomekit-3.2.3.ebuild,
+  -aiohomekit-3.2.6.ebuild, -aiohomekit-3.2.7.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiohomekit-3.1.5.ebuilde, -aiohomekit-3.2.13.ebuilde,
+  -aiohomekit-3.2.3.ebuilde, -aiohomekit-3.2.6.ebuilde,
+  -aiohomekit-3.2.7.ebuilde, -aiohomekit-3.2.8.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohomekit-3.1.5.ebuilde, +aiohomekit-3.2.13.ebuilde,
+  +aiohomekit-3.2.3.ebuilde, +aiohomekit-3.2.6.ebuilde,
+  +aiohomekit-3.2.7.ebuilde, +aiohomekit-3.2.8.ebuilde:
+  Fix KEYWORDS
+
+*aiohomekit-3.2.13 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohomekit-3.2.13.ebuild:
+  Homeassistant 2025.4.0
+
+*aiohomekit-3.2.8 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohomekit-3.2.8.ebuild:
+  homeassistant 2025.3.0
+
+*aiohomekit-3.2.7 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohomekit-3.2.7.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -aiohomekit-3.2.5.ebuild:
+  drop 3.2.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.2.6 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +aiohomekit-3.2.6.ebuild:
+  add 3.2.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4097
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.2.5 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +aiohomekit-3.2.5.ebuild:
+  add 3.2.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4028
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -aiohomekit-3.0.9.ebuild,
+  -aiohomekit-3.1.1.ebuild, -aiohomekit-3.1.4.ebuild:
+  drop 3.0.9, 3.1.1, 3.1.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.2.3 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> aiohomekit-3.0.9.ebuild,
+  aiohomekit-3.1.1.ebuild, aiohomekit-3.1.4.ebuild, aiohomekit-3.1.5.ebuild,
+  +aiohomekit-3.2.3.ebuild:
+  add 3.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -aiohomekit-3.1.3.ebuild:
+  drop 3.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.1.5 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> aiohomekit-3.0.9.ebuild,
+  aiohomekit-3.1.1.ebuild, -aiohomekit-3.1.2.ebuild, aiohomekit-3.1.3.ebuild,
+  aiohomekit-3.1.4.ebuild, +aiohomekit-3.1.5.ebuild:
+  drop 3.1.2, add 3.1.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2975
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.1.4 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> +aiohomekit-3.1.4.ebuild:
+  add 3.1.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2798
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> -aiohomekit-3.0.5.ebuild:
+  drop 3.0.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.1.3 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> +aiohomekit-3.1.3.ebuild:
+  add 3.1.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2717
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.1.2 (06 Jan 2024)
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> aiohomekit-3.0.5.ebuild,
+  aiohomekit-3.0.9.ebuild, aiohomekit-3.1.1.ebuild, +aiohomekit-3.1.2.ebuild:
+  dev-python/orvibo: add 1.1.2
+  dev-python/aiohomekit: add 3.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2689
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2690
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.1.1 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> +aiohomekit-3.1.1.ebuild:
+  add 3.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2615
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aiohomekit-3.0.8.ebuild:
+  drop 3.0.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -aiohomekit-2.2.13.ebuild,
+  -aiohomekit-2.4.6.ebuild, -aiohomekit-2.6.1.ebuild,
+  -aiohomekit-2.6.3.ebuild:
+  drop 2.2.13, 2.4.6, 2.6.1, 2.6.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.0.9 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +aiohomekit-3.0.9.ebuild:
+  add 3.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.0.8 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +aiohomekit-3.0.8.ebuild:
+  add 3.0.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2271
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-3.0.5 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> aiohomekit-2.2.13.ebuild,
+  aiohomekit-2.4.6.ebuild, aiohomekit-2.6.1.ebuild, aiohomekit-2.6.3.ebuild,
+  +aiohomekit-3.0.5.ebuild:
+  dev-python/dtlssocket: add 0.1.16, fix 0.1.12
+  dev-python/aiohomekit: add 3.0.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> aiohomekit-2.2.13.ebuild,
+  aiohomekit-2.4.6.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.6.3 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> -aiohomekit-2.4.1.ebuild,
+  -aiohomekit-2.4.4.ebuild, +aiohomekit-2.6.3.ebuild:
+  add 2.6.3, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.6.1 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> -aiohomekit-2.4.3.ebuild,
+  +aiohomekit-2.6.1.ebuild:
+  add 2.6.1, drop 2.4.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> aiohomekit-2.2.13.ebuild,
+  aiohomekit-2.4.1.ebuild, aiohomekit-2.4.3.ebuild, aiohomekit-2.4.4.ebuild,
+  aiohomekit-2.4.6.ebuild:
+  dev-python/*: rename zeroconf, again (https://github.com/gentoo/gentoo/commi
+  t/29153ca563b529be4cf0fdc2651105430ecb9ab4)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.4.6 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> +aiohomekit-2.4.6.ebuild:
+  add 2.4.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.4.4 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> aiohomekit-2.2.13.ebuild,
+  -aiohomekit-2.2.19.ebuild, aiohomekit-2.4.1.ebuild, aiohomekit-2.4.3.ebuild,
+  +aiohomekit-2.4.4.ebuild:
+  drop 2.2.19, add 2.4.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.4.3 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -aiohomekit-1.5.12.ebuild,
+  -aiohomekit-2.0.2-r1.ebuild, +aiohomekit-2.4.3.ebuild:
+  update 2.4.3, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.4.1 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-2.2.18.ebuild,
+  +aiohomekit-2.4.1.ebuild, metadata.xml:
+  add 2.4.1, drop 2.2.18
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.19 (17 Nov 2022)
+
+  17 Nov 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-2.2.14.ebuild,
+  +aiohomekit-2.2.19.ebuild:
+  dev-python/*: bump aiocoap-0.4.4, update aiohomekit-2.2.19
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.18 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-1.2.11.ebuild,
+  +aiohomekit-2.2.18.ebuild:
+  add 2.2.18, drop 1.2.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.14 (03 Nov 2022)
+
+  03 Nov 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-2.0.1.ebuild,
+  -aiohomekit-2.2.11.ebuild, +aiohomekit-2.2.14.ebuild:
+  bump 2.2.14, drop 2.0.1, 2.2.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.13 (02 Nov 2022)
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-2.2.10.ebuild,
+  -aiohomekit-2.2.12.ebuild, +aiohomekit-2.2.13.ebuild:
+  bump 2.2.13, drop 2.2.10, 2.2.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.12 (02 Nov 2022)
+*aiohomekit-2.2.11 (02 Nov 2022)
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-2.2.9.ebuild,
+  +aiohomekit-2.2.11.ebuild, +aiohomekit-2.2.12.ebuild:
+  update 2.2.11, 2.2.12, drop 2.2.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.10 (01 Nov 2022)
+
+  01 Nov 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-2.2.8.ebuild,
+  +aiohomekit-2.2.10.ebuild:
+  add 2.2.10, drop 2.2.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.9 (31 Oct 2022)
+
+  31 Oct 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-2.2.9.ebuild:
+  add 2.2.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.2.8 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-2.2.8.ebuild:
+  add 2.2.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.0.2-r1 (27 Oct 2022)
+
+  27 Oct 2022; Andreas Billmeier <b@edevau.net> aiohomekit-1.2.11.ebuild,
+  aiohomekit-1.5.12.ebuild, aiohomekit-2.0.1.ebuild, -aiohomekit-2.0.2.ebuild,
+  +aiohomekit-2.0.2-r1.ebuild:
+  update aiohomekit-2.0.2-r1, wrong deps, fixes #154
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohomekit-2.0.2 (21 Oct 2022)
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-2.0.2.ebuild:
+  update aiohomekit-2.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiohomekit-1.2.11.ebuild,
+  aiohomekit-1.5.12.ebuild, aiohomekit-2.0.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.7.20.ebuild:
+  rework, remove olds
+
+*aiohomekit-2.0.1 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-1.5.7.ebuild,
+  -aiohomekit-1.5.9.ebuild, +aiohomekit-2.0.1.ebuild:
+  bump aiohomekit-2.0.1
+
+*aiohomekit-1.5.12 (23 Sep 2022)
+
+  23 Sep 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-1.5.12.ebuild:
+  bump aiohomekit-1.5.12
+
+*aiohomekit-1.5.9 (20 Sep 2022)
+
+  20 Sep 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-1.5.6.ebuild,
+  +aiohomekit-1.5.9.ebuild:
+  update aiohomekit-1.5.9
+
+*aiohomekit-1.5.7 (14 Sep 2022)
+
+  14 Sep 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-1.5.2.ebuild,
+  +aiohomekit-1.5.7.ebuild:
+  update iohomekit-1.5.7
+
+*aiohomekit-1.5.6 (12 Sep 2022)
+
+  12 Sep 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-1.5.1.ebuild,
+  +aiohomekit-1.5.6.ebuild:
+  update aiohomekit-1.5.6
+  update bleak-retry-connector-1.14.0
+
+*aiohomekit-1.5.2 (08 Sep 2022)
+
+  08 Sep 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-1.5.2.ebuild:
+  bump aiohomekit-1.5.2
+
+*aiohomekit-1.5.1 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.7.17-r1.ebuild,
+  -aiohomekit-1.2.8.ebuild, -aiohomekit-1.2.9.ebuild,
+  +aiohomekit-1.5.1.ebuild:
+  update aiohomekit-1.5.1
+
+*aiohomekit-1.2.11 (16 Aug 2022)
+
+  16 Aug 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-1.2.5.ebuild,
+  +aiohomekit-1.2.11.ebuild:
+  update aiohomekit-1.2.11
+
+*aiohomekit-1.2.9 (13 Aug 2022)
+
+  13 Aug 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-1.2.9.ebuild:
+  bump aiohomekit-1.2.9
+
+*aiohomekit-1.2.8 (10 Aug 2022)
+
+  10 Aug 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-1.2.8.ebuild:
+  update aiohomekit-1.2.8
+
+*aiohomekit-1.2.5 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> aiohomekit-0.7.17-r1.ebuild,
+  aiohomekit-0.7.20.ebuild, +aiohomekit-1.2.5.ebuild:
+  update aiohomekit-1.2.5
+
+*aiohomekit-0.7.20 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.7.16-r1.ebuild,
+  aiohomekit-0.7.17-r1.ebuild, +aiohomekit-0.7.20.ebuild:
+  update aiohomekit-0.7.20
+
+*aiohomekit-0.7.17-r1 (27 May 2022)
+*aiohomekit-0.7.16-r1 (27 May 2022)
+
+  27 May 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.7.16.ebuild,
+  +aiohomekit-0.7.16-r1.ebuild, -aiohomekit-0.7.17.ebuild,
+  +aiohomekit-0.7.17-r1.ebuild:
+  remove pyproject.toml, migrate to PEP517
+
+*aiohomekit-0.7.17 (21 Apr 2022)
+
+  21 Apr 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.6.4.ebuild,
+  -aiohomekit-0.6.11.ebuild, +aiohomekit-0.7.17.ebuild:
+  bump aiohomekit-0.7.17
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.7.15.ebuild,
+  aiohomekit-0.7.16.ebuild:
+  fix some invalid pre-inherit placements of
+  'DISTUTILS_USE_SETUPTOOLS=pyproject.toml'
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiohomekit-0.6.4.ebuild,
+  aiohomekit-0.6.11.ebuild, aiohomekit-0.7.15.ebuild,
+  aiohomekit-0.7.16.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiohomekit-0.7.16 (07 Mar 2022)
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.7.14.ebuild,
+  +aiohomekit-0.7.16.ebuild:
+  update aiohomekit-0.7.16
+
+*aiohomekit-0.7.15 (03 Mar 2022)
+
+  03 Mar 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.6.3.ebuild,
+  +aiohomekit-0.7.15.ebuild:
+  bump aiohomekit-0.7.15
+
+*aiohomekit-0.7.14 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +aiohomekit-0.7.14.ebuild:
+  bump aiohomekit-0.7.14
+
+*aiohomekit-0.6.11 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -aiohomekit-0.6.2.ebuild,
+  +aiohomekit-0.6.11.ebuild:
+  bump aiohomekit-0.6.11
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aiohomekit-0.6.2.ebuild,
+  aiohomekit-0.6.3.ebuild, aiohomekit-0.6.4.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aiohomekit-0.6.4 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -aiohomekit-0.5.1.ebuild,
+  -aiohomekit-0.6.0.ebuild, +aiohomekit-0.6.4.ebuild:
+  bump aiohomekit-0.6.4
+
+*aiohomekit-0.6.3 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.67.ebuild,
+  +aiohomekit-0.6.3.ebuild:
+  bump aiohomekit-0.6.3
+
+*aiohomekit-0.6.2 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.60.ebuild,
+  -aiohomekit-0.2.61.ebuild, -aiohomekit-0.4.2.ebuild,
+  +aiohomekit-0.6.2.ebuild:
+  update aiohomekit
+
+*aiohomekit-0.6.0 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +aiohomekit-0.6.0.ebuild:
+  update aiohomekit-0.6.0
+
+*aiohomekit-0.5.1 (13 Jul 2021)
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> -aiohomekit-0.4.0.ebuild,
+  +aiohomekit-0.5.1.ebuild:
+  bump aiohomekit-0.5.1
+
+*aiohomekit-0.4.2 (06 Jul 2021)
+
+  06 Jul 2021; Andreas Billmeier <b@edevau.net> +aiohomekit-0.4.2.ebuild:
+  bump aiohomekit-0.4.2
+
+*aiohomekit-0.4.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +aiohomekit-0.4.0.ebuild:
+  update aiohomekit-0.4.0
+
+*aiohomekit-0.2.67 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.49.ebuild,
+  -aiohomekit-0.2.53.ebuild, -aiohomekit-0.2.54.ebuild,
+  -aiohomekit-0.2.57.ebuild, +aiohomekit-0.2.67.ebuild:
+  update aiohomekit-0.2.67
+
+*aiohomekit-0.2.61 (24 Apr 2021)
+
+  24 Apr 2021; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.61.ebuild:
+  bump aiohomekit-0.2.61
+
+*aiohomekit-0.2.60 (08 Dec 2020)
+
+  08 Dec 2020; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.46.ebuild,
+  -aiohomekit-0.2.47.ebuild, +aiohomekit-0.2.60.ebuild:
+  bump aiohomekit-0.2.60
+
+*aiohomekit-0.2.57 (14 Nov 2020)
+
+  14 Nov 2020; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.41.ebuild,
+  -aiohomekit-0.2.45.ebuild, +aiohomekit-0.2.57.ebuild:
+  update aiohomekit-0.2.57
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aiohomekit-0.2.41.ebuild,
+  aiohomekit-0.2.45.ebuild, aiohomekit-0.2.46.ebuild,
+  aiohomekit-0.2.47.ebuild, aiohomekit-0.2.49.ebuild,
+  aiohomekit-0.2.53.ebuild, aiohomekit-0.2.54.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aiohomekit-0.2.54 (29 Oct 2020)
+
+  29 Oct 2020; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.35.ebuild,
+  -aiohomekit-0.2.37.ebuild, -aiohomekit-0.2.38.ebuild,
+  +aiohomekit-0.2.54.ebuild:
+  bump aiohomekit-0.2.54
+
+*aiohomekit-0.2.53 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.53.ebuild:
+  update aiohomekit-0.2.53
+
+*aiohomekit-0.2.49 (26 Aug 2020)
+*aiohomekit-0.2.47 (26 Aug 2020)
+
+  26 Aug 2020; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.29.ebuild,
+  -aiohomekit-0.2.29.2.ebuild, -aiohomekit-0.2.34.ebuild,
+  +aiohomekit-0.2.47.ebuild, +aiohomekit-0.2.49.ebuild:
+  update aiohomekit-0.2.47
+  update aiohomekit-0.2.49
+
+*aiohomekit-0.2.46 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.46.ebuild:
+  bump aiohomekit-0.2.46
+
+*aiohomekit-0.2.45 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.25.ebuild,
+  -aiohomekit-0.2.29.1.ebuild, +aiohomekit-0.2.45.ebuild:
+  bump aiohomekit-0.2.45
+
+*aiohomekit-0.2.41 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.21.ebuild,
+  -aiohomekit-0.2.24.ebuild, +aiohomekit-0.2.41.ebuild:
+  bump aiohomekit-0.2.41
+
+*aiohomekit-0.2.38 (24 May 2020)
+
+  24 May 2020; Andreas Billmeier <b@edevau.net> -aiohomekit-0.2.10.ebuild,
+  -aiohomekit-0.2.11.ebuild, -aiohomekit-0.2.15.ebuild,
+  -aiohomekit-0.2.17.ebuild, +aiohomekit-0.2.38.ebuild:
+  bump aiohomekit-0.2.38
+
+*aiohomekit-0.2.37 (31 Mar 2020)
+
+  31 Mar 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.37.ebuild:
+  bump aiohomekit-0.2.37
+
+*aiohomekit-0.2.35 (29 Mar 2020)
+*aiohomekit-0.2.34 (29 Mar 2020)
+*aiohomekit-0.2.29.2 (29 Mar 2020)
+*aiohomekit-0.2.29.1 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.29.1.ebuild,
+  +aiohomekit-0.2.29.2.ebuild, +aiohomekit-0.2.34.ebuild,
+  +aiohomekit-0.2.35.ebuild:
+  bump all new versions of aiohomekit
+
+*aiohomekit-0.2.29 (13 Mar 2020)
+*aiohomekit-0.2.25 (13 Mar 2020)
+*aiohomekit-0.2.24 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.24.ebuild,
+  +aiohomekit-0.2.25.ebuild, +aiohomekit-0.2.29.ebuild:
+  bump aiohomekit
+
+*aiohomekit-0.2.21 (08 Mar 2020)
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.21.ebuild:
+  bump aiohomekit-0.2.21
+
+*aiohomekit-0.2.17 (06 Mar 2020)
+*aiohomekit-0.2.15 (06 Mar 2020)
+
+  06 Mar 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.15.ebuild,
+  +aiohomekit-0.2.17.ebuild:
+  bump aiohomekit-0.2.1[5,7]
+
+*aiohomekit-0.2.11 (25 Feb 2020)
+*aiohomekit-0.2.10 (25 Feb 2020)
+
+  25 Feb 2020; Andreas Billmeier <b@edevau.net> +aiohomekit-0.2.10.ebuild,
+  +aiohomekit-0.2.11.ebuild, +metadata.xml:
+  add aiohomekit-0.2.10, bump aiohomekit-0.2.11
+

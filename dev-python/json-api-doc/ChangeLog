@@ -1,0 +1,22 @@
+# ChangeLog for dev-python/json-api-doc
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  json-api-doc-0.15.0.ebuild, +metadata.xml:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -json-api-doc-0.15.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  json-api-doc-0.15.0.ebuild, +json-api-doc-0.15.0.ebuilde:
+  Fix KEYWORDS
+
+*json-api-doc-0.15.0 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +json-api-doc-0.15.0.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

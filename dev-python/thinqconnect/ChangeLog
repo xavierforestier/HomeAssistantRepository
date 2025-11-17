@@ -1,0 +1,67 @@
+# ChangeLog for dev-python/thinqconnect
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thinqconnect-1.0.7.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*thinqconnect-1.0.8 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +thinqconnect-1.0.8.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thinqconnect-1.0.5.ebuild:
+  Cleansing
+
+*thinqconnect-1.0.7 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +thinqconnect-1.0.7.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  thinqconnect-1.0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thinqconnect-1.0.4.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thinqconnect-0.9.9.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -thinqconnect-0.9.9.ebuilde, -thinqconnect-1.0.4.ebuilde,
+  -thinqconnect-1.0.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thinqconnect-0.9.9.ebuilde, +thinqconnect-1.0.4.ebuilde,
+  +thinqconnect-1.0.5.ebuilde:
+  Fix KEYWORDS
+
+*thinqconnect-1.0.5 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thinqconnect-1.0.5.ebuild:
+  Homeassistant 2025.4.0
+
+*thinqconnect-1.0.4 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thinqconnect-1.0.4.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*thinqconnect-0.9.9 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +thinqconnect-0.9.9.ebuild:
+  new package, add 0.9.9
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4040
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

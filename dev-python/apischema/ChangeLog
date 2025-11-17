@@ -1,0 +1,38 @@
+# ChangeLog for dev-python/apischema
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -apischema-0.18.1.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  apischema-0.18.1.ebuild, apischema-0.19.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -apischema-0.18.1.ebuilde, -apischema-0.19.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +apischema-0.18.1.ebuilde, +apischema-0.19.0.ebuilde:
+  Fix KEYWORDS
+
+*apischema-0.19.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +apischema-0.19.0.ebuild:
+  homeassisstant-2025.2.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  apischema-0.18.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*apischema-0.18.1 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +apischema-0.18.1.ebuild,
+  +metadata.xml:
+  new package, add 0.18.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

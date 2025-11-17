@@ -1,0 +1,61 @@
+# ChangeLog for dev-python/pyserial-asyncio-fast
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyserial-asyncio-fast-0.14.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pyserial-asyncio-fast-0.16 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyserial-asyncio-fast-0.16.ebuild:
+  homeassistant 2025.5.1 deps
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyserial-asyncio-fast-0.11.ebuild, -pyserial-asyncio-fast-0.13.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyserial-asyncio-fast-0.11.ebuild, pyserial-asyncio-fast-0.13.ebuild,
+  pyserial-asyncio-fast-0.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyserial-asyncio-fast-0.11.ebuilde, -pyserial-asyncio-fast-0.13.ebuilde,
+  -pyserial-asyncio-fast-0.14.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyserial-asyncio-fast-0.11.ebuilde, +pyserial-asyncio-fast-0.13.ebuilde,
+  +pyserial-asyncio-fast-0.14.ebuilde:
+  Fix KEYWORDS
+
+*pyserial-asyncio-fast-0.14 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyserial-asyncio-fast-0.14.ebuild:
+  homeassisstant-2025.2.0
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  pyserial-asyncio-fast-0.11.ebuild, pyserial-asyncio-fast-0.13.ebuild:
+  enable py3.13 and disable py3.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3749
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyserial-asyncio-fast-0.13 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyserial-asyncio-fast-0.13.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+*pyserial-asyncio-fast-0.11 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyserial-asyncio-fast-0.11.ebuild:
+  new package, add 0.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

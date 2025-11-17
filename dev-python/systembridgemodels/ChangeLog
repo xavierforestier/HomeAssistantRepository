@@ -1,0 +1,53 @@
+# ChangeLog for dev-python/systembridgemodels
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*systembridgemodels-5.1.1 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +systembridgemodels-5.1.1.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  systembridgemodels-4.2.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  systembridgemodels-4.2.4.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -systembridgemodels-4.0.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -systembridgemodels-4.0.4.ebuilde, -systembridgemodels-4.2.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +systembridgemodels-4.0.4.ebuilde, +systembridgemodels-4.2.4.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  systembridgemodels-4.0.4.ebuild, systembridgemodels-4.2.4.ebuild:
+  enable py3.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3772
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgemodels-4.2.4 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +systembridgemodels-4.2.4.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+*systembridgemodels-4.0.4 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +systembridgemodels-4.0.4.ebuild:
+  dev-pathon/systembridgemodels: new package, add 4.0.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3187
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

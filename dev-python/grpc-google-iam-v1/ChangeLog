@@ -1,0 +1,77 @@
+# ChangeLog for dev-python/grpc-google-iam-v1
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  grpc-google-iam-v1-0.12.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -grpc-google-iam-v1-0.12.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +grpc-google-iam-v1-0.12.4.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  grpc-google-iam-v1-0.12.4.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  grpc-google-iam-v1-0.12.4.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  grpc-google-iam-v1-0.12.4.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  grpc-google-iam-v1-0.12.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*grpc-google-iam-v1-0.12.4 (16 Oct 2022)
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -grpc-google-iam-v1-0.12.3.ebuild, +grpc-google-iam-v1-0.12.4.ebuild,
+  metadata.xml:
+  remove olds, cleanup, enable pytest
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net>
+  grpc-google-iam-v1-0.12.3.ebuild:
+  update google-cloud-pubsub-2.11.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  grpc-google-iam-v1-0.12.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net>
+  grpc-google-iam-v1-0.12.3.ebuild:
+  cleanup, add new Python Targets, Letter 'G-I' all Integrations
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> grpc-google-iam-v1-0.12.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*grpc-google-iam-v1-0.12.3 (25 Oct 2020)
+
+  25 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +grpc-google-iam-v1-0.12.3.ebuild, +metadata.xml:
+  add google-nest-sdm-0.1.6
+  update google-nest-sdm-0.1.9
+  add google-api-core-1.23.0
+  add google-auth-1.22.0
+  update google-auth-1.22.1
+  add grpc-google-iam-v1-0.12.3
+  add google-cloud-pubsub-2.1.0
+  add libcst-0.3.13
+  add proto-plus-1.11.0
+

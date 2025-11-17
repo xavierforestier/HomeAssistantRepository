@@ -1,0 +1,246 @@
+# ChangeLog for dev-python/deebot-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*deebot-client-16.3.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-16.3.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-15.0.0.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*deebot-client-15.1.0 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-13.7.0.ebuild, +deebot-client-15.1.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*deebot-client-15.0.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-15.0.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-13.6.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*deebot-client-13.7.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-13.7.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-13.5.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*deebot-client-13.6.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-13.6.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-13.4.0.ebuild:
+  Cleansing
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-13.3.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*deebot-client-13.5.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-13.5.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*deebot-client-13.4.0 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-13.2.1.ebuild, +deebot-client-13.4.0.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-13.1.0.ebuild, -deebot-client-13.2.0.ebuild:
+  clean oldies
+
+*deebot-client-13.3.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-13.3.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-12.5.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*deebot-client-13.2.1 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-13.2.1.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+*deebot-client-13.2.0 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-13.2.0.ebuild:
+  homeassistant 2025.5.2
+
+*deebot-client-13.1.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +deebot-client-13.1.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  deebot-client-12.5.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  deebot-client-12.5.0.ebuild:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -deebot-client-12.3.1.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -deebot-client-12.3.1.ebuilde, -deebot-client-12.5.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-12.3.1.ebuilde, +deebot-client-12.5.0.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -deebot-client-7.2.0.ebuild, -deebot-client-7.3.0.ebuild,
+  -deebot-client-8.4.0.ebuild, -deebot-client-9.1.0.ebuild,
+  -deebot-client-9.2.0.ebuild, -deebot-client-9.3.0.ebuild,
+  -deebot-client-9.4.0.ebuild, -deebot-client-10.1.0.ebuild,
+  -deebot-client-11.0.0.ebuild, -deebot-client-12.0.0.ebuild,
+  -deebot-client-12.1.0.ebuild, -deebot-client-12.2.0.ebuild,
+  deebot-client-12.3.1.ebuild, deebot-client-12.5.0.ebuild:
+  cleanup + shellcheck
+
+*deebot-client-12.5.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-12.5.0.ebuild:
+  Homeassistant 2025.4.0
+
+*deebot-client-12.3.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-12.3.1.ebuild:
+  homeassistant 2025.3.0
+
+*deebot-client-12.2.0 (22 Feb 2025)
+
+  22 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-12.2.0.ebuild:
+  homeassistant 2025.2.5
+
+*deebot-client-12.1.0 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-12.1.0.ebuild:
+  homeassistant-2025.2.3
+
+*deebot-client-12.0.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-12.0.0.ebuild:
+  homeassisstant-2025.2.0
+
+*deebot-client-11.0.0 (31 Jan 2025)
+
+  31 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-11.0.0.ebuild:
+  homeassistant 2025.1.3
+
+*deebot-client-10.1.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-10.1.0.ebuild:
+  homeassistant 2025.1.1
+
+*deebot-client-9.4.0 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-9.4.0.ebuild:
+  Homeassistant 2024.12.3
+
+*deebot-client-9.3.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-9.3.0.ebuild:
+  homeassistant 2024.12.2
+
+*deebot-client-9.2.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-9.2.0.ebuild:
+  homeassistant 2024.12.1
+
+*deebot-client-9.1.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deebot-client-9.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*deebot-client-8.4.0 (22 Sep 2024)
+
+  22 Sep 2024; Andreas Billmeier <b@edevau.net> -deebot-client-6.0.2.ebuild,
+  +deebot-client-8.4.0.ebuild:
+  add 8.4.0, drop 6.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3611
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*deebot-client-7.3.0 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> +deebot-client-7.3.0.ebuild:
+  add 7.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3403
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*deebot-client-7.2.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -deebot-client-5.2.2.ebuild,
+  deebot-client-6.0.2.ebuild, +deebot-client-7.2.0.ebuild:
+  drop 5.2.2, add 7.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3323
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*deebot-client-6.0.2 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> -deebot-client-5.2.1.ebuild,
+  deebot-client-5.2.2.ebuild, +deebot-client-6.0.2.ebuild:
+  add 6.0.2, drop 5.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2964
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*deebot-client-5.2.2 (25 Feb 2024)
+
+  25 Feb 2024; Andreas Billmeier <b@edevau.net> +deebot-client-5.2.2.ebuild:
+  add 5.2.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2915
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*deebot-client-5.2.1 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +deebot-client-5.2.1.ebuild,
+  +metadata.xml:
+  new package, add 5.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2774
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

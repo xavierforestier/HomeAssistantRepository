@@ -1,0 +1,109 @@
+# ChangeLog for dev-python/sensorpush-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sensorpush-ble-1.7.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*sensorpush-ble-1.9.0 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +sensorpush-ble-1.9.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sensorpush-ble-1.7.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sensorpush-ble-1.6.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -sensorpush-ble-1.6.2.ebuilde, -sensorpush-ble-1.7.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sensorpush-ble-1.6.2.ebuilde, +sensorpush-ble-1.7.1.ebuilde:
+  Fix KEYWORDS
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -sensorpush-ble-1.7.0.ebuild:
+  drop 1.7.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensorpush-ble-1.7.1 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +sensorpush-ble-1.7.1.ebuild:
+  add 1.7.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4098
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -sensorpush-ble-1.5.5.ebuild:
+  dev-python/aioshelly: add 12.0.1
+  dev-python/sensorpush-ble: drop 1.5.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensorpush-ble-1.7.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> sensorpush-ble-1.5.5.ebuild,
+  sensorpush-ble-1.6.2.ebuild, +sensorpush-ble-1.7.0.ebuild:
+  add 1.7.0
+  dev-python/aioshelly: add 12.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4059
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4060
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensorpush-ble-1.6.2 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> sensorpush-ble-1.5.5.ebuild,
+  +sensorpush-ble-1.6.2.ebuild:
+  add 1.6.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2850
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -sensorpush-ble-1.5.2.ebuild,
+  sensorpush-ble-1.5.5.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensorpush-ble-1.5.5 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> -sensorpush-ble-1.5.1.ebuild,
+  +sensorpush-ble-1.5.5.ebuild:
+  add 1.5.5, drop 1.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> sensorpush-ble-1.5.1.ebuild,
+  sensorpush-ble-1.5.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> sensorpush-ble-1.5.1.ebuild,
+  sensorpush-ble-1.5.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensorpush-ble-1.5.2 (16 Aug 2022)
+
+  16 Aug 2022; Andreas Billmeier <b@edevau.net> +sensorpush-ble-1.5.2.ebuild:
+  update sensorpush-ble-1.5.2
+
+*sensorpush-ble-1.5.1 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +sensorpush-ble-1.5.1.ebuild:
+  add sensorpush-ble-1.5.1
+

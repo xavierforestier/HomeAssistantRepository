@@ -1,0 +1,29 @@
+# ChangeLog for dev-python/pyeiscp
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyeiscp-0.0.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyeiscp-0.0.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyeiscp-0.0.7.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  pyeiscp-0.0.7.ebuild:
+  keyword 0.0.7 for amd64, arm, arm64, x86
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3719
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyeiscp-0.0.7 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyeiscp-0.0.7.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+

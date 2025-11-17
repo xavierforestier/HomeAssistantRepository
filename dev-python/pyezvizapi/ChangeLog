@@ -1,0 +1,22 @@
+# ChangeLog for dev-python/pyezvizapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyezvizapi-1.0.0.7.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyezvizapi-1.0.0.7.ebuild:
+  Fix deps for homeassistant[full]
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyezvizapi-1.0.0.7.ebuild:
+  homeassistant 2025.6.0 full deps
+
+*pyezvizapi-1.0.0.7 (13 Jun 2025)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pyezvizapi-1.0.0.7.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+

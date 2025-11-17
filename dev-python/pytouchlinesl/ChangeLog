@@ -1,0 +1,55 @@
+# ChangeLog for dev-python/pytouchlinesl
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytouchlinesl-0.4.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*pytouchlinesl-0.5.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pytouchlinesl-0.5.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytouchlinesl-0.3.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*pytouchlinesl-0.4.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pytouchlinesl-0.4.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytouchlinesl-0.3.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytouchlinesl-0.1.8.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pytouchlinesl-0.1.8.ebuilde, -pytouchlinesl-0.3.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytouchlinesl-0.1.8.ebuilde, +pytouchlinesl-0.3.0.ebuilde:
+  Fix KEYWORDS
+
+*pytouchlinesl-0.3.0 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytouchlinesl-0.3.0.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*pytouchlinesl-0.1.8 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pytouchlinesl-0.1.8.ebuild:
+  new package, add 0.1.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3963
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,40 @@
+# ChangeLog for dev-python/starlette
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  starlette-0.46.2.ebuild:
+  startlette
+
+*starlette-0.46.2 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +starlette-0.46.2.ebuild:
+  starlette
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -starlette-0.14.2.ebuild, -starlette-0.16.0.ebuild,
+  -starlette-0.17.0.ebuild:
+  remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> starlette-0.14.2.ebuild,
+  starlette-0.16.0.ebuild, starlette-0.17.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*starlette-0.17.0 (06 Nov 2021)
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> +starlette-0.17.0.ebuild:
+  bump starlette-0.17.0
+
+*starlette-0.16.0 (19 Sep 2021)
+
+  19 Sep 2021; Andreas Billmeier <b@edevau.net> starlette-0.14.2.ebuild,
+  +starlette-0.16.0.ebuild:
+  update starlette-0.16.0
+
+*starlette-0.14.2 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +starlette-0.14.2.ebuild:
+  platformio-5.1.1 fix missing 'home_requirements'
+

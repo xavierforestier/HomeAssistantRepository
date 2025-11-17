@@ -1,0 +1,40 @@
+# ChangeLog for dev-python/imeon-inverter-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -imeon-inverter-api-0.3.16.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*imeon-inverter-api-0.4.0 (21 Sep 2025)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +imeon-inverter-api-0.4.0.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  17 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -imeon-inverter-api-0.3.14.ebuild:
+  app-misc/homeassistant 2025.9.3
+
+*imeon-inverter-api-0.3.16 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +imeon-inverter-api-0.3.16.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -imeon-inverter-api-0.3.12.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*imeon-inverter-api-0.3.14 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +imeon-inverter-api-0.3.14.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+*imeon-inverter-api-0.3.12 (12 May 2025)
+
+  12 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +imeon-inverter-api-0.3.12.ebuild, +metadata.xml:
+  homeassitant 2025.5.1
+

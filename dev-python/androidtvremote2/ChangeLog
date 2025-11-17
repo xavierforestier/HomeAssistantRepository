@@ -1,0 +1,131 @@
+# ChangeLog for dev-python/androidtvremote2
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -androidtvremote2-0.2.2.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*androidtvremote2-0.2.3 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +androidtvremote2-0.2.3.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -androidtvremote2-0.2.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*androidtvremote2-0.2.2 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +androidtvremote2-0.2.2.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  androidtvremote2-0.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -androidtvremote2-0.2.0.ebuild, androidtvremote2-0.2.1.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -androidtvremote2-0.1.1.ebuild, -androidtvremote2-0.1.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -androidtvremote2-0.1.1.ebuilde, -androidtvremote2-0.1.2.ebuilde,
+  -androidtvremote2-0.2.0.ebuilde, -androidtvremote2-0.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +androidtvremote2-0.1.1.ebuilde, +androidtvremote2-0.1.2.ebuilde,
+  +androidtvremote2-0.2.0.ebuilde, +androidtvremote2-0.2.1.ebuilde:
+  Fix KEYWORDS
+
+*androidtvremote2-0.2.1 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +androidtvremote2-0.2.1.ebuild:
+  Homeassistant 2025.4.0
+
+*androidtvremote2-0.2.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +androidtvremote2-0.2.0.ebuild:
+  homeassistant 2025.3.0
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  -androidtvremote2-0.0.14.ebuild, -androidtvremote2-0.0.15.ebuild,
+  androidtvremote2-0.1.1.ebuild, androidtvremote2-0.1.2.ebuild:
+  Fix deps
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  androidtvremote2-0.1.2.ebuild:
+  fix depedencies
+
+*androidtvremote2-0.1.2 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net>
+  +androidtvremote2-0.1.2.ebuild:
+  add 0.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3549
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtvremote2-0.1.1 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +androidtvremote2-0.1.1.ebuild:
+  add 0.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3380
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtvremote2-0.0.15 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  androidtvremote2-0.0.14.ebuild, +androidtvremote2-0.0.15.ebuild:
+  add 0.0.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3319
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -androidtvremote2-0.0.7.ebuild, -androidtvremote2-0.0.9.ebuild:
+  drop 0.0.7, 0.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  androidtvremote2-0.0.14.ebuild:
+  installs 'demo'
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2345
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtvremote2-0.0.14 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +androidtvremote2-0.0.14.ebuild:
+  add 0.0.14
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtvremote2-0.0.9 (16 Jul 2023)
+
+  16 Jul 2023; Andreas Billmeier <b@edevau.net>
+  +androidtvremote2-0.0.9.ebuild:
+  add 0.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtvremote2-0.0.7 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net>
+  +androidtvremote2-0.0.7.ebuild, +metadata.xml:
+  new package, add 0.0.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,99 @@
+# ChangeLog for dev-python/demetriek
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -demetriek-1.2.0.ebuild:
+  Cleansing
+
+*demetriek-1.3.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +demetriek-1.3.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  demetriek-1.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -demetriek-0.4.0.ebuild, -demetriek-1.1.0.ebuild, -demetriek-1.1.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -demetriek-0.4.0.ebuilde, -demetriek-1.1.0.ebuilde,
+  -demetriek-1.1.1.ebuilde, -demetriek-1.2.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +demetriek-0.4.0.ebuilde, +demetriek-1.1.0.ebuilde,
+  +demetriek-1.1.1.ebuilde, +demetriek-1.2.0.ebuilde:
+  Fix KEYWORDS
+
+*demetriek-1.2.0 (31 Jan 2025)
+
+  31 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +demetriek-1.2.0.ebuild:
+  homeassistant 2025.1.3
+
+*demetriek-1.1.1 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +demetriek-1.1.1.ebuild:
+  homeassistant 2025.1.1
+
+*demetriek-1.1.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +demetriek-1.1.0.ebuild:
+  homeassistant 2025.1.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  demetriek-0.4.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -demetriek-0.2.4.ebuild:
+  drop 0.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> demetriek-0.2.4.ebuild,
+  demetriek-0.4.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> demetriek-0.2.4.ebuild,
+  demetriek-0.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*demetriek-0.4.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> -demetriek-0.2.2.ebuild,
+  +demetriek-0.4.0.ebuild:
+  add 0.4.0, drop 0.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> demetriek-0.2.2.ebuild,
+  demetriek-0.2.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*demetriek-0.2.4 (20 Sep 2022)
+
+  20 Sep 2022; Andreas Billmeier <b@edevau.net> +demetriek-0.2.4.ebuild:
+  bump demetriek-0.2.4
+
+*demetriek-0.2.2 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +demetriek-0.2.2.ebuild,
+  +metadata.xml:
+  add demetriek-0.2.2
+

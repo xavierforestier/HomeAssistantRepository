@@ -1,0 +1,266 @@
+# ChangeLog for dev-python/pyenphase
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pyenphase-2.4.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyenphase-2.4.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-2.2.3.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*pyenphase-2.3.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyenphase-2.3.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-2.2.2.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*pyenphase-2.2.3 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-2.2.1.ebuild, +pyenphase-2.2.3.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-2.2.0.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*pyenphase-2.2.2 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-2.1.0.ebuild, +pyenphase-2.2.2.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-1.26.1.ebuild:
+  Cleansing
+
+*pyenphase-2.2.1 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyenphase-2.2.1.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+*pyenphase-2.2.0 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyenphase-2.2.0.ebuild:
+  homeassistant 2025.7.1
+
+*pyenphase-2.1.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyenphase-2.1.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-1.26.0.ebuild:
+  clean oldies
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-1.25.5.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pyenphase-1.26.1 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyenphase-1.26.1.ebuild:
+  homeassistant 2025.5.2
+
+*pyenphase-1.26.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyenphase-1.26.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyenphase-1.25.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyenphase-1.25.1.ebuild:
+  Fix for pkgcheck
+
+*pyenphase-1.25.5 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyenphase-1.20.3.ebuild, -pyenphase-1.20.3.ebuilde,
+  -pyenphase-1.22.0.ebuild, -pyenphase-1.22.0.ebuilde,
+  -pyenphase-1.23.0.ebuild, -pyenphase-1.23.0.ebuilde,
+  -pyenphase-1.23.1.ebuild, -pyenphase-1.23.1.ebuilde,
+  -pyenphase-1.25.1.ebuilde, +pyenphase-1.25.5.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyenphase-1.20.3.ebuilde, +pyenphase-1.22.0.ebuilde,
+  +pyenphase-1.23.0.ebuilde, +pyenphase-1.23.1.ebuilde,
+  +pyenphase-1.25.1.ebuilde:
+  Fix KEYWORDS
+
+*pyenphase-1.25.1 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyenphase-1.25.1.ebuild:
+  homeassistant-2025.2.3
+
+*pyenphase-1.23.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyenphase-1.23.1.ebuild:
+  homeassisstant-2025.2.0
+
+*pyenphase-1.23.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyenphase-1.23.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*pyenphase-1.22.0 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -pyenphase-1.19.2.ebuild,
+  -pyenphase-1.20.1.ebuild, +pyenphase-1.22.0.ebuild:
+  drop 1.20.1, 1.19.2, add 1.22.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3620
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.20.3 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -pyenphase-1.15.2.ebuild,
+  -pyenphase-1.19.0.ebuild, pyenphase-1.19.2.ebuild, pyenphase-1.20.1.ebuild,
+  +pyenphase-1.20.3.ebuild:
+  drop 1.15.2, drop 1.19.0, add 1.20.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3325
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -pyenphase-1.14.3.ebuild:
+  drop 1.14.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> -pyenphase-1.19.1.ebuild:
+  drop 1.19.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.20.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +pyenphase-1.20.1.ebuild:
+  add 1.20.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3110
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.19.2 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> -pyenphase-1.17.0.ebuild,
+  +pyenphase-1.19.2.ebuild:
+  add 1.19.2, drop 1.17.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3065
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.19.1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> pyenphase-1.14.3.ebuild,
+  pyenphase-1.15.2.ebuild, pyenphase-1.17.0.ebuild, pyenphase-1.19.0.ebuild,
+  +pyenphase-1.19.1.ebuild:
+  add 1.19.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2965
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.19.0 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> +pyenphase-1.19.0.ebuild:
+  add 1.19.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2779
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> -pyenphase-1.14.2.ebuild:
+  drop 1.14.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.17.0 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> pyenphase-1.14.2.ebuild,
+  pyenphase-1.14.3.ebuild, pyenphase-1.15.2.ebuild, +pyenphase-1.17.0.ebuild:
+  add 1.17.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2714
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  28 Dec 2023; Andreas Billmeier <b@edevau.net> -pyenphase-1.11.4.ebuild:
+  drop 1.11.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.15.2 (28 Dec 2023)
+
+  28 Dec 2023; Andreas Billmeier <b@edevau.net> +pyenphase-1.15.2.ebuild:
+  add 1.15.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2551
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -pyenphase-1.13.1.ebuild,
+  -pyenphase-1.14.1.ebuild:
+  drop 1.13.1, 1.14.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.14.3 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +pyenphase-1.14.3.ebuild:
+  add 1.14.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2394
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.14.2 (10 Nov 2023)
+
+  10 Nov 2023; Andreas Billmeier <b@edevau.net> +pyenphase-1.14.2.ebuild:
+  add 1.14.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2381
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.14.1 (05 Nov 2023)
+
+  05 Nov 2023; Andreas Billmeier <b@edevau.net> +pyenphase-1.14.1.ebuild:
+  add 1.14.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2367
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.13.1 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +pyenphase-1.13.1.ebuild:
+  add 1.13.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2259
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> pyenphase-1.11.4.ebuild:
+  fix deps
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyenphase-1.11.4 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyenphase-1.11.4.ebuild:
+  new package, add 1.11.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

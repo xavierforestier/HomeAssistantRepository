@@ -1,0 +1,65 @@
+# ChangeLog for dev-python/pyiskra
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyiskra-0.1.26.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*pyiskra-0.1.27 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyiskra-0.1.27.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyiskra-0.1.21.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*pyiskra-0.1.26 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyiskra-0.1.26.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyiskra-0.1.15.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*pyiskra-0.1.21 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyiskra-0.1.21.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyiskra-0.1.15.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyiskra-0.1.14.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyiskra-0.1.14.ebuilde, -pyiskra-0.1.15.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyiskra-0.1.14.ebuilde, +pyiskra-0.1.15.ebuilde:
+  Fix KEYWORDS
+
+*pyiskra-0.1.15 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyiskra-0.1.15.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*pyiskra-0.1.14 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyiskra-0.1.14.ebuild:
+  new package, add 0.1.14
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3870
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/hap-python
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hap-python-4.9.2.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*hap-python-5.0.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hap-python-5.0.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hap-python-4.9.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*hap-python-4.9.2 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hap-python-4.9.2.ebuild, +metadata.xml:
+  Fix for pkgcheck
+

@@ -1,0 +1,63 @@
+# ChangeLog for dev-python/deepdiff
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  deepdiff-6.2.1.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  deepdiff-6.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  13 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  deepdiff-6.2.1.ebuild:
+  dev-python/deepdiff
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -deepdiff-6.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +deepdiff-6.2.1.ebuilde:
+  Fix KEYWORDS
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -deepdiff-5.8.1.ebuild:
+  drop 5.8.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> deepdiff-5.8.1.ebuild,
+  deepdiff-6.2.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> deepdiff-5.8.1.ebuild,
+  deepdiff-6.2.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*deepdiff-6.2.1 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +deepdiff-6.2.1.ebuild:
+  add 6.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> deepdiff-5.8.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*deepdiff-5.8.1 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +deepdiff-5.8.1.ebuild,
+  +metadata.xml:
+  update pylitterbot-2022.8.2
+  add deepdiff-5.8.1
+

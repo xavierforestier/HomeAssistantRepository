@@ -1,0 +1,33 @@
+# ChangeLog for dev-python/dremel3dpy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dremel3dpy-2.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -dremel3dpy-2.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dremel3dpy-2.1.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  dremel3dpy-2.1.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> dremel3dpy-2.1.1.ebuild:
+  q&a
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dremel3dpy-2.1.1 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +dremel3dpy-2.1.1.ebuild,
+  +metadata.xml:
+  new package, add 2.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

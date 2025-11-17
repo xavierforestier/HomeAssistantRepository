@@ -1,0 +1,53 @@
+# ChangeLog for dev-python/retry2
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  retry2-0.9.5.ebuild:
+  Fixes
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  retry2-0.9.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, retry2-0.9.5.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  retry2-0.9.5.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -retry2-0.9.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  retry2-0.9.5.ebuild, +retry2-0.9.5.ebuilde:
+  Fix KEYWORDS
+
+  24 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  retry2-0.9.5.ebuild:
+  Home Asssitant 2024.10.2 (full) :)
+
+  23 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  retry2-0.9.5.ebuild:
+  This is a f*king nightmare :'(
+
+*retry2-0.9.5 (22 Oct 2024)
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +retry2-0.9.5.ebuild, -retry2-0.9.5.ebuild.tmp:
+  Fix deps issues for homeassistant-full-2024.10.2
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  -retry2-0.9.5.ebuild, +retry2-0.9.5.ebuild.tmp:
+  Some fixes :) for homeassistant 2024.10.2
+
+*retry2-0.9.5 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +retry2-0.9.5.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

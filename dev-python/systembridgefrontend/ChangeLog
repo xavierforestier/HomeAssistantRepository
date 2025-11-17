@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/systembridgefrontend
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  pkcheck
+
+*systembridgefrontend-4.0.3 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/requirements.patch, +systembridgefrontend-4.0.3.ebuild:
+  app-misc/homeassistant 2025.9.0
+

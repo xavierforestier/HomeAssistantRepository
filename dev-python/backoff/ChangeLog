@@ -1,0 +1,77 @@
+# ChangeLog for dev-python/backoff
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  backoff-2.2.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*backoff-2.2.1 (24 Jun 2025)
+
+  24 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +backoff-2.2.1.ebuild, +metadata.xml:
+  dev-embedded/esphome 2025.6.1
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> -backoff-1.11.1.ebuild,
+  -metadata.xml:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> backoff-1.11.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> backoff-1.11.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> backoff-1.11.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*backoff-1.11.1 (17 Oct 2022)
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> +backoff-1.11.1.ebuild,
+  +metadata.xml:
+  re-add backoff-1.11.1
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -backoff-1.10.0.ebuild,
+  -backoff-1.11.1.ebuild, -metadata.xml:
+  remove outdated backoff
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> backoff-1.10.0.ebuild,
+  backoff-1.11.1.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> backoff-1.11.1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> backoff-1.10.0.ebuild,
+  backoff-1.11.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*backoff-1.11.1 (27 Jul 2021)
+
+  27 Jul 2021; Andreas Billmeier <b@edevau.net> +backoff-1.11.1.ebuild,
+  metadata.xml:
+  bump backoff-1.11.1
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> backoff-1.10.0.ebuild:
+  update backoff-1.10.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> backoff-1.10.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*backoff-1.10.0 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net> +backoff-1.10.0.ebuild,
+  +metadata.xml:
+  add backoff-1.10.0
+

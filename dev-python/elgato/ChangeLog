@@ -1,0 +1,149 @@
+# ChangeLog for dev-python/elgato
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  elgato-5.1.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -elgato-5.1.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -elgato-5.1.1.ebuilde, -elgato-5.1.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +elgato-5.1.1.ebuilde, +elgato-5.1.2.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  elgato-5.1.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> -elgato-4.0.1.ebuild,
+  -elgato-5.0.0.ebuild:
+  drop 4.0.1, 5.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*elgato-5.1.2 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> elgato-4.0.1.ebuild,
+  elgato-5.0.0.ebuild, elgato-5.1.1.ebuild, +elgato-5.1.2.ebuild:
+  add 5.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2776
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*elgato-5.1.1 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +elgato-5.1.1.ebuild:
+  add 5.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*elgato-5.0.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +elgato-5.0.0.ebuild:
+  add 5.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2258
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -elgato-3.0.0.ebuild:
+  drop 3.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> elgato-3.0.0.ebuild,
+  elgato-4.0.1.ebuild:
+  cleaup, SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*elgato-4.0.1 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +elgato-4.0.1.ebuild:
+  add 4.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> elgato-3.0.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> elgato-3.0.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -elgato-2.1.1.ebuild,
+  -elgato-2.2.0.ebuild, elgato-3.0.0.ebuild:
+  rework, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> elgato-2.1.1.ebuild,
+  elgato-2.2.0.ebuild, elgato-3.0.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*elgato-3.0.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +elgato-3.0.0.ebuild:
+  bump elgato-3.0.0
+
+*elgato-2.2.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -elgato-2.0.1.ebuild,
+  -elgato-2.1.0.ebuild, +elgato-2.2.0.ebuild:
+  bump elgato-2.2.0
+
+*elgato-2.1.1 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +elgato-2.1.1.ebuild:
+  bump elgato-2.1.1
+
+*elgato-2.1.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +elgato-2.1.0.ebuild:
+  update elgato-2.1.0
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -elgato-0.1.0.ebuild,
+  -elgato-0.2.0.ebuild, -elgato-1.0.0.ebuild, elgato-2.0.1.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*elgato-2.0.1 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> +elgato-2.0.1.ebuild:
+  bump elgato-2.0.1
+
+*elgato-1.0.0 (01 Dec 2020)
+
+  01 Dec 2020; Andreas Billmeier <b@edevau.net> +elgato-1.0.0.ebuild:
+  update elgato-1.0.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> elgato-0.1.0.ebuild,
+  elgato-0.2.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> elgato-0.2.0.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: E-G
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  remove herd tag from dev-python/elgato/metadata.xml
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*elgato-0.2.0 (05 Jan 2020)
+*elgato-0.1.0 (05 Jan 2020)
+
+  05 Jan 2020; Andreas Billmeier <b@edevau.net> +elgato-0.1.0.ebuild,
+  +elgato-0.2.0.ebuild, +metadata.xml:
+  add elgato
+

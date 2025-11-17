@@ -1,0 +1,57 @@
+# ChangeLog for dev-python/python-snoo
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-snoo-0.6.6.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*python-snoo-0.8.3 (16 Aug 2025)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-snoo-0.8.3.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-snoo-0.6.5.ebuild:
+  clean oldies
+
+*python-snoo-0.6.6 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-snoo-0.6.6.ebuild:
+  homeassistant 2025.5.2
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, python-snoo-0.6.5.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-snoo-0.6.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-snoo-0.6.4.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-snoo-0.6.4.ebuilde, -python-snoo-0.6.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  python-snoo-0.6.4.ebuild, +python-snoo-0.6.4.ebuilde,
+  python-snoo-0.6.5.ebuild, +python-snoo-0.6.5.ebuilde:
+  Fix KEYWORDS
+
+*python-snoo-0.6.5 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-snoo-0.6.5.ebuild:
+  Homeassistant 2025.4.0
+
+*python-snoo-0.6.4 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-snoo-0.6.4.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

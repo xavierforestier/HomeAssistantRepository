@@ -1,0 +1,97 @@
+# ChangeLog for dev-python/py-aosmith
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*py-aosmith-1.0.15 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +py-aosmith-1.0.15.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-aosmith-1.0.12.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*py-aosmith-1.0.14 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +py-aosmith-1.0.14.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  py-aosmith-1.0.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-aosmith-1.0.8.ebuild, -py-aosmith-1.0.10.ebuild,
+  -py-aosmith-1.0.11.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -py-aosmith-1.0.10.ebuilde, -py-aosmith-1.0.11.ebuilde,
+  -py-aosmith-1.0.12.ebuilde, -py-aosmith-1.0.8.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +py-aosmith-1.0.10.ebuilde, +py-aosmith-1.0.11.ebuilde,
+  +py-aosmith-1.0.12.ebuilde, +py-aosmith-1.0.8.ebuilde:
+  Fix KEYWORDS
+
+*py-aosmith-1.0.12 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +py-aosmith-1.0.12.ebuild:
+  Homeassistant 2024.12.3
+
+*py-aosmith-1.0.11 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +py-aosmith-1.0.11.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> -py-aosmith-1.0.1.ebuild:
+  drop 1.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*py-aosmith-1.0.10 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> py-aosmith-1.0.1.ebuild,
+  py-aosmith-1.0.8.ebuild, +py-aosmith-1.0.10.ebuild:
+  add 1.0.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3984
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> py-aosmith-1.0.1.ebuild,
+  -py-aosmith-1.0.4.ebuild, py-aosmith-1.0.8.ebuild:
+  drop 1.0.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*py-aosmith-1.0.8 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +py-aosmith-1.0.8.ebuild:
+  add 1.0.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2749
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*py-aosmith-1.0.4 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> py-aosmith-1.0.1.ebuild,
+  +py-aosmith-1.0.4.ebuild:
+  add 1.0.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2707
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*py-aosmith-1.0.1 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +py-aosmith-1.0.1.ebuild:
+  new package, add 1.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2571
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

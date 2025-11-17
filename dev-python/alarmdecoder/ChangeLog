@@ -1,0 +1,139 @@
+# ChangeLog for dev-python/alarmdecoder
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  alarmdecoder-1.13.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  alarmdecoder-1.13.12.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -alarmdecoder-1.13.11.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -alarmdecoder-1.13.11.ebuilde, -alarmdecoder-1.13.12.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +alarmdecoder-1.13.11.ebuilde, +alarmdecoder-1.13.12.ebuilde:
+  Fix KEYWORDS
+
+*alarmdecoder-1.13.12 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +alarmdecoder-1.13.12.ebuild:
+  homeassistant 2025.3.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  alarmdecoder-1.13.11.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.11.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.11.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.11.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.11.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -alarmdecoder-1.13.10.ebuild,
+  alarmdecoder-1.13.11.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.11.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.10.ebuild,
+  alarmdecoder-1.13.11.ebuild:
+  cleanup alarmdecoder
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.11.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.10.ebuild:
+  fix Typo ind alarmdecoder-1.13.10 & envoy-reader-0.20.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.10.ebuild,
+  alarmdecoder-1.13.11.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*alarmdecoder-1.13.11 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -alarmdecoder-1.13.2.ebuild,
+  -alarmdecoder-1.13.4.ebuild, -alarmdecoder-1.13.9.ebuild,
+  alarmdecoder-1.13.10.ebuild, +alarmdecoder-1.13.11.ebuild:
+  update alarmdecoder-1.13.11
+
+*alarmdecoder-1.13.10 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> +alarmdecoder-1.13.10.ebuild:
+  bump adext-0.4.1, alarmdecoder-1.13.10
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.2.ebuild,
+  alarmdecoder-1.13.4.ebuild, alarmdecoder-1.13.9.ebuild:
+  fix uri.https
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> alarmdecoder-1.13.2.ebuild,
+  alarmdecoder-1.13.4.ebuild, alarmdecoder-1.13.9.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.2.ebuild,
+  alarmdecoder-1.13.4.ebuild, alarmdecoder-1.13.9.ebuild:
+  fix alarmdecoder, P38
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.2.ebuild,
+  alarmdecoder-1.13.4.ebuild, alarmdecoder-1.13.9.ebuild:
+  recheck and remove some hard coded version pins
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.2.ebuild,
+  alarmdecoder-1.13.4.ebuild, alarmdecoder-1.13.9.ebuild:
+  fix some DESCRIPTION.toolong from RepoMan
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.9.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.2.ebuild,
+  alarmdecoder-1.13.4.ebuild, alarmdecoder-1.13.9.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*alarmdecoder-1.13.9 (04 Jan 2020)
+
+  04 Jan 2020; Andreas Billmeier <b@edevau.net> +alarmdecoder-1.13.9.ebuild:
+  bump alarmdecoder-1.13.9
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net> alarmdecoder-1.13.2.ebuild,
+  alarmdecoder-1.13.4.ebuild:
+  fix uri.https (111 cases)
+
+*alarmdecoder-1.13.4 (22 Nov 2019)
+*alarmdecoder-1.13.2 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net> +alarmdecoder-1.13.2.ebuild,
+  +alarmdecoder-1.13.4.ebuild, +metadata.xml:
+  add alarmdecoder-1.13.4 alarmdecoder-1.13.2
+

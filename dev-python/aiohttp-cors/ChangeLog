@@ -1,0 +1,48 @@
+# ChangeLog for dev-python/aiohttp-cors
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiohttp-cors-0.7.0.ebuild:
+  Fixes
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  Fix for pkgcheck
+
+*aiohttp-cors-0.7.0 (21 Apr 2025)
+
+  21 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohttp-cors-0.7.0.ebuild:
+  app-misc/homeassistant-2025.4.3
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> -aiohttp-cors-0.7.0.ebuild,
+  -metadata.xml:
+  aiohttp-cors-0.7.0-r1 from main repo is now OK again
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> aiohttp-cors-0.7.0.ebuild:
+  remove beta flags from good working core modules
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aiohttp-cors-0.7.0.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> aiohttp-cors-0.7.0.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> aiohttp-cors-0.7.0.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+  08 Jan 2019; Andreas Billmeier <b@edevau.net> aiohttp-cors-0.7.0.ebuild:
+  aiohttp-cors-0.7.0
+
+  06 Jan 2019; Andreas Billmeier <b@edevau.net> aiohttp-cors-0.7.0.ebuild:
+  Python 3.7 compatibility aiohttp-cors-0.7.0
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+*aiohttp-cors-0.7.0 (21 Sep 2018)
+
+  21 Sep 2018; Andreas Billmeier <b@edevau.net> +aiohttp-cors-0.7.0.ebuild:
+  Split the Repos
+

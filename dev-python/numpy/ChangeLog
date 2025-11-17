@@ -1,0 +1,317 @@
+# ChangeLog for dev-python/numpy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  numpy-2.2.2.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*numpy-2.2.2 (06 Jul 2025)
+
+  06 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +numpy-2.2.2.ebuild:
+  dev-embedded/esphome 2025.6.2
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -files/numpy-1.21.0-no-hardcode-blasv2.patch,
+  -files/numpy-1.21.3-unaligned-array.patch,
+  -files/numpy-1.21.4-build-compiler-args-ceph.patch,
+  -files/numpy-1.21.4-copy-python-3.9.patch,
+  -files/numpy-1.22.0-no-hardcode-blasv2.patch, -metadata.xml,
+  -numpy-1.26.0-r1.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -numpy-1.26.0-r1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +numpy-1.26.0-r1.ebuilde:
+  Fix KEYWORDS
+
+*numpy-1.26.0-r1 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> -numpy-1.26.0.ebuild,
+  +numpy-1.26.0-r1.ebuild:
+  update BDEPS
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2706
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -numpy-1.23.2.ebuild:
+  drop 1.23.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*numpy-1.26.0 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +numpy-1.26.0.ebuild:
+  add 1.26.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Jul 2023; Andreas Billmeier <b@edevau.net> -numpy-1.23.1.ebuild,
+  numpy-1.23.2.ebuild:
+  add 1.23.2, drop 1.23.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> numpy-1.23.1.ebuild,
+  numpy-1.23.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*numpy-1.23.2 (09 Oct 2022)
+*numpy-1.23.1 (09 Oct 2022)
+
+  09 Oct 2022; Andreas Billmeier <b@edevau.net>
+  +files/numpy-1.22.0-no-hardcode-blasv2.patch, -numpy-1.21.4-r2.ebuild,
+  -numpy-1.21.6.ebuild, +numpy-1.23.1.ebuild, +numpy-1.23.2.ebuild:
+  re-add numpy-1.23.2 (from main)
+
+*numpy-1.21.6 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> +numpy-1.21.6.ebuild:
+  bump (from main's 1.21.5) numpy-1.21.6
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> numpy-1.21.4-r2.ebuild:
+  numpy-1.21.4-r2: quote array expansion
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> -numpy-1.21.2-r1.ebuild:
+  remove old numpy-1.21.2-r1
+
+*numpy-1.21.4-r2 (28 Jan 2022)
+*numpy-1.21.2-r1 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net>
+  -files/numpy-1.17.4-no-hardcode-blasv2.patch,
+  -files/numpy-1.20.1-no-hardcode-blasv2.patch,
+  -files/numpy-1.20.2-fix-ccompiler-tests.patch,
+  -files/numpy-1.20.2-fix-popcnt-detection.patch,
+  -files/numpy-1.20.3-float-hashing-py310.patch,
+  +files/numpy-1.21.0-no-hardcode-blasv2.patch,
+  +files/numpy-1.21.3-unaligned-array.patch,
+  +files/numpy-1.21.4-build-compiler-args-ceph.patch,
+  +files/numpy-1.21.4-copy-python-3.9.patch, -numpy-1.20.2.ebuild,
+  -numpy-1.20.3-r1.ebuild, +numpy-1.21.2-r1.ebuild, +numpy-1.21.4-r2.ebuild:
+  restore from main: numpy-1.21.2-r1, numpy-1.21.4-r2, remove olds
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> numpy-1.20.2.ebuild,
+  numpy-1.20.3-r1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> -numpy-1.19.0.ebuild,
+  -numpy-1.19.1.ebuild, -numpy-1.19.2.ebuild:
+  remove olds
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net>
+  +files/numpy-1.20.2-fix-popcnt-detection.patch,
+  +files/numpy-1.20.3-float-hashing-py310.patch:
+  add forgotten patches from main repo
+
+*numpy-1.20.3-r1 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +numpy-1.20.3-r1.ebuild:
+  numpy-1.20.3-r1 update
+
+*numpy-1.20.2 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net>
+  -files/numpy-1.14.5-no-hardcode-blas.patch, -files/numpy-1.14.5-py37.patch,
+  -files/numpy-1.15.2-no-hardcode-blas.patch, -files/numpy-1.15.2-py37.patch,
+  -files/numpy-1.15.4-no-hardcode-blas.patch,
+  -files/numpy-1.17.4-no-hardcode-blas.patch,
+  +files/numpy-1.20.1-no-hardcode-blasv2.patch,
+  +files/numpy-1.20.2-fix-ccompiler-tests.patch, -numpy-1.17.1.ebuild,
+  -numpy-1.17.3-r1.ebuild, -numpy-1.18.1.ebuild, -numpy-1.18.2.ebuild,
+  -numpy-1.18.4.ebuild, +numpy-1.20.2.ebuild:
+  update numpy-1.20.2
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> numpy-1.19.0.ebuild,
+  numpy-1.19.1.ebuild, numpy-1.19.2.ebuild:
+  fix uri.https
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> numpy-1.17.1.ebuild,
+  numpy-1.17.3-r1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*numpy-1.19.2 (11 Sep 2020)
+
+  11 Sep 2020; Andreas Billmeier <b@edevau.net> +numpy-1.19.2.ebuild:
+  bump numpy-1.19.2
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> numpy-1.19.1.ebuild:
+  align numpy-1.19.1 cython dep to
+  https://github.com/numpy/numpy/blob/v1.19.1/pyproject.toml
+  (https://github.com/onkelbeh/HomeAssistantRepository/issues/23)
+
+*numpy-1.19.1 (11 Aug 2020)
+
+  11 Aug 2020; Andreas Billmeier <b@edevau.net> +numpy-1.19.1.ebuild:
+  bump numpy-1.19.1
+
+*numpy-1.19.0 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net> -numpy-1.18.5.ebuild,
+  +numpy-1.19.0.ebuild:
+  bump numpy-1.19.0
+
+*numpy-1.18.5 (07 Jun 2020)
+
+  07 Jun 2020; Andreas Billmeier <b@edevau.net> +numpy-1.18.5.ebuild:
+  bump numpy-1.18.5
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> numpy-1.18.4.ebuild:
+  RepoMan complaints corrected
+
+*numpy-1.18.4 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> -numpy-1.17.0.ebuild,
+  -numpy-1.17.4.ebuild, +numpy-1.18.4.ebuild:
+  update numpy-1.18.4, remove dupes
+
+  02 May 2020; Andreas Billmeier <b@edevau.net> numpy-1.17.0.ebuild,
+  numpy-1.17.1.ebuild, numpy-1.17.3-r1.ebuild, numpy-1.17.4.ebuild,
+  numpy-1.18.1.ebuild, numpy-1.18.2.ebuild:
+  lots of small repoman cleanups
+
+*numpy-1.18.2 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> -numpy-1.16.4.ebuild,
+  +numpy-1.18.2.ebuild:
+  bump numpy-1.18.2
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -numpy-1.16.2.ebuild,
+  -numpy-1.16.3.ebuild:
+  clean up, romove olds
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> numpy-1.17.4.ebuild:
+  remove beta flags from good working core modules
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> numpy-1.17.4.ebuild:
+  sort KEYWORDS where complained by repoman
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> numpy-1.16.2.ebuild,
+  numpy-1.16.3.ebuild, numpy-1.16.4.ebuild, numpy-1.17.0.ebuild,
+  numpy-1.17.1.ebuild, numpy-1.17.3-r1.ebuild:
+  minor code cleanups
+
+*numpy-1.18.1 (02 Feb 2020)
+
+  02 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +files/numpy-1.14.5-no-hardcode-blas.patch, +files/numpy-1.14.5-py37.patch,
+  +files/numpy-1.15.4-no-hardcode-blas.patch,
+  +files/numpy-1.17.4-no-hardcode-blas.patch,
+  +files/numpy-1.17.4-no-hardcode-blasv2.patch, +numpy-1.18.1.ebuild:
+  bump numpy-1.18.1
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net> numpy-1.17.4.ebuild:
+  fix numpy-1.17.4.ebuild file perms
+
+*numpy-1.17.4 (30 Jan 2020)
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> +numpy-1.17.4.ebuild:
+  update numpy-1.17.4
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  21 Dec 2019; Andreas Billmeier <b@edevau.net> numpy-1.16.2.ebuild,
+  numpy-1.16.3.ebuild, numpy-1.16.4.ebuild, numpy-1.17.0.ebuild,
+  numpy-1.17.1.ebuild, numpy-1.17.3-r1.ebuild:
+  clean up KEYWORDS where KEYWORDS.invalid
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> numpy-1.16.2.ebuild,
+  numpy-1.16.3.ebuild, numpy-1.16.4.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+*numpy-1.17.3-r1 (30 Oct 2019)
+
+  30 Oct 2019; Andreas Billmeier <b@edevau.net> -numpy-1.17.3.ebuild,
+  +numpy-1.17.3-r1.ebuild:
+  change numpy-1.17.3-r1 COMPAT, Python version >= 3.5 required
+
+*numpy-1.17.3 (19 Oct 2019)
+
+  19 Oct 2019; Andreas Billmeier <b@edevau.net> +numpy-1.17.3.ebuild:
+  bump numpy-1.17.3
+
+*numpy-1.17.1 (06 Sep 2019)
+
+  06 Sep 2019; Andreas Billmeier <b@edevau.net> -numpy-1.16.0.ebuild,
+  +numpy-1.17.1.ebuild:
+  bump numpy-1.17.1
+
+  22 Aug 2019; Andreas Billmeier <b@edevau.net> numpy-1.17.0.ebuild:
+  fix numpy-1.17.0 PYTHON_COMPAT > 3.5
+
+*numpy-1.17.0 (17 Aug 2019)
+
+  17 Aug 2019; Andreas Billmeier <b@edevau.net> -numpy-1.16.1.ebuild,
+  +numpy-1.17.0.ebuild:
+  bump numpy-1.17.0, cleanup dupes
+
+*numpy-1.16.4 (29 Jun 2019)
+
+  29 Jun 2019; Andreas Billmeier <b@edevau.net> -numpy-1.15.4.ebuild,
+  +numpy-1.16.4.ebuild:
+  bump numpy-1.16.4
+
+*numpy-1.16.3 (12 May 2019)
+
+  12 May 2019; Andreas Billmeier <b@edevau.net> +numpy-1.16.3.ebuild:
+  bump numpy-1.16.3
+
+  19 Mar 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  -numpy-1.15.2.ebuild, -numpy-1.15.3.ebuild:
+  removed older ebuilds
+
+*numpy-1.16.2 (03 Mar 2019)
+
+  03 Mar 2019; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +numpy-1.16.2.ebuild:
+  bump numpy-1.16.2
+
+*numpy-1.16.1 (20 Feb 2019)
+
+  20 Feb 2019; Andreas Billmeier <b@edevau.net> +numpy-1.16.1.ebuild:
+  upgrade numpy-1.16.1
+
+*numpy-1.16.0 (26 Jan 2019)
+
+  26 Jan 2019; Andreas Billmeier <b@edevau.net> +numpy-1.16.0.ebuild:
+  Upgrade numpy to 1.16.0
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+  09 Dec 2018; Andreas Billmeier <b@edevau.net> numpy-1.15.4.ebuild:
+  changed newest dev-python ebuild to unstable
+
+*numpy-1.15.4 (30 Nov 2018)
+
+  30 Nov 2018; Andreas Billmeier <b@edevau.net> +numpy-1.15.4.ebuild:
+  homeassistant-0.83.1, and some more system-wide python libs.
+
+*numpy-1.15.3 (15 Nov 2018)
+
+  15 Nov 2018; Andreas Billmeier <b@edevau.net> +numpy-1.15.3.ebuild:
+  homeassistant-0.82.1
+
+  07 Nov 2018; Andreas Billmeier <b@edevau.net> numpy-1.15.2.ebuild:
+  delete oldnupy patches
+
+*numpy-1.15.2 (29 Oct 2018)
+
+  29 Oct 2018; Andreas Billmeier <b@edevau.net>
+  +files/numpy-1.15.2-no-hardcode-blas.patch, +files/numpy-1.15.2-py37.patch,
+  +numpy-1.15.2.ebuild:
+  release homeassistant-0.81.1
+

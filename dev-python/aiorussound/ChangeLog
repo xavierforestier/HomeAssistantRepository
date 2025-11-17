@@ -1,0 +1,113 @@
+# ChangeLog for dev-python/aiorussound
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aiorussound-4.9.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiorussound-4.9.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiorussound-4.8.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aiorussound-4.8.2 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiorussound-4.8.2.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiorussound-4.8.0.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+*aiorussound-4.8.1 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiorussound-4.8.1.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiorussound-4.6.1.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*aiorussound-4.8.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiorussound-4.8.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiorussound-4.5.2.ebuild:
+  Cleansing
+
+*aiorussound-4.6.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiorussound-4.6.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiorussound-4.4.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*aiorussound-4.5.2 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiorussound-4.5.2.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiorussound-4.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiorussound-4.0.5.ebuild, -aiorussound-4.1.0.ebuild,
+  -aiorussound-4.1.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiorussound-4.0.5.ebuilde, -aiorussound-4.1.0.ebuilde,
+  -aiorussound-4.1.1.ebuilde, -aiorussound-4.4.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiorussound-4.0.5.ebuilde, +aiorussound-4.1.0.ebuilde,
+  +aiorussound-4.1.1.ebuilde, +aiorussound-4.4.0.ebuilde:
+  Fix KEYWORDS
+
+*aiorussound-4.4.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiorussound-4.4.0.ebuild:
+  homeassisstant-2025.2.0
+
+*aiorussound-4.1.1 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiorussound-4.1.1.ebuild:
+  homeassistant 2025.1.1
+
+*aiorussound-4.1.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiorussound-4.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*aiorussound-4.0.5 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +aiorussound-4.0.5.ebuild,
+  +metadata.xml:
+  new package, add 4.0.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3906
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiorussound-4.0.5 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiorussound-4.0.5.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

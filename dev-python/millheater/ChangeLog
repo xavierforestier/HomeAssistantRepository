@@ -1,0 +1,217 @@
+# ChangeLog for dev-python/millheater
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*millheater-0.14.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +millheater-0.14.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  17 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -millheater-0.12.5.ebuild:
+  app-misc/homeassistant 2025.9.3
+
+*millheater-0.13.1 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +millheater-0.13.1.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -millheater-0.12.3.ebuild:
+  clean oldies
+
+*millheater-0.12.5 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +millheater-0.12.5.ebuild:
+  homeassistant 2025.5.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  millheater-0.12.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -millheater-0.11.8.ebuild, -millheater-0.12.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -millheater-0.11.8.ebuilde, -millheater-0.12.2.ebuilde,
+  -millheater-0.12.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +millheater-0.11.8.ebuilde, +millheater-0.12.2.ebuilde,
+  +millheater-0.12.3.ebuilde:
+  Fix KEYWORDS
+
+*millheater-0.12.3 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +millheater-0.12.3.ebuild:
+  homeassisstant-2025.2.0
+
+*millheater-0.12.2 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +millheater-0.12.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -millheater-0.11.6.ebuild,
+  -millheater-0.11.7.ebuild, millheater-0.11.8.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*millheater-0.11.8 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> +millheater-0.11.8.ebuild:
+  add 0.11.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2623
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -millheater-0.10.0.ebuild:
+  drop 0.10.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*millheater-0.11.7 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +millheater-0.11.7.ebuild:
+  add 0.11.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2464
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> millheater-0.10.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*millheater-0.11.6 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +millheater-0.11.6.ebuild:
+  add 0.11.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -millheater-0.9.0.ebuild,
+  millheater-0.10.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> millheater-0.9.0.ebuild,
+  millheater-0.10.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> millheater-0.9.0.ebuild,
+  millheater-0.10.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*millheater-0.10.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> -millheater-0.5.2.ebuild,
+  -millheater-0.6.2.ebuild, -millheater-0.7.4.ebuild, millheater-0.9.0.ebuild,
+  +millheater-0.10.0.ebuild:
+  bump millheater-0.10.0
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> millheater-0.5.2.ebuild,
+  millheater-0.6.2.ebuild, millheater-0.7.4.ebuild, millheater-0.9.0.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> millheater-0.5.2.ebuild,
+  millheater-0.6.2.ebuild, millheater-0.7.4.ebuild, millheater-0.9.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*millheater-0.9.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -millheater-0.5.0.ebuild,
+  -millheater-0.6.1.ebuild, -millheater-0.7.3.ebuild,
+  -millheater-0.8.1.ebuild, +millheater-0.9.0.ebuild:
+  update millheater-0.9.0
+
+*millheater-0.8.1 (04 Nov 2021)
+*millheater-0.7.4 (04 Nov 2021)
+
+  04 Nov 2021; Andreas Billmeier <b@edevau.net> -millheater-0.6.0.ebuild,
+  +millheater-0.7.4.ebuild, -millheater-0.8.0.ebuild,
+  +millheater-0.8.1.ebuild:
+  bump millheater-0.8.1
+
+*millheater-0.8.0 (02 Nov 2021)
+*millheater-0.7.3 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +millheater-0.7.3.ebuild,
+  +millheater-0.8.0.ebuild:
+  bump millheater-0.8.0, millheater-0.7.3
+
+*millheater-0.6.2 (17 Oct 2021)
+
+  17 Oct 2021; Andreas Billmeier <b@edevau.net> +millheater-0.6.2.ebuild:
+  bump millheater-0.6.2
+
+*millheater-0.6.1 (12 Oct 2021)
+
+  12 Oct 2021; Andreas Billmeier <b@edevau.net> +millheater-0.6.1.ebuild:
+  bump millheater-0.6.1
+
+*millheater-0.6.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -millheater-0.4.1.ebuild,
+  +millheater-0.6.0.ebuild:
+  bump millheater-0.6.0
+
+*millheater-0.5.2 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -millheater-0.4.0.ebuild,
+  +millheater-0.5.2.ebuild:
+  update millheater-0.5.2
+
+*millheater-0.5.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +millheater-0.5.0.ebuild:
+  update millheater-0.5.0
+
+*millheater-0.4.1 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -millheater-0.3.4.ebuild,
+  +millheater-0.4.1.ebuild:
+  millheater-0.4.1 update
+
+*millheater-0.4.0 (24 Nov 2020)
+
+  24 Nov 2020; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +millheater-0.4.0.ebuild:
+  bump millheater-0.4.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> millheater-0.3.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> millheater-0.3.4.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: L-O
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> millheater-0.3.4.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*millheater-0.3.4 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +millheater-0.3.4.ebuild:
+  millheater-0.3.4
+

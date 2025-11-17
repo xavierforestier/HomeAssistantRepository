@@ -1,0 +1,149 @@
+# ChangeLog for dev-python/blebox-uniapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  blebox-uniapi-2.5.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -blebox-uniapi-2.2.2.ebuild, -blebox-uniapi-2.4.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -blebox-uniapi-2.2.2.ebuilde, -blebox-uniapi-2.4.2.ebuilde,
+  -blebox-uniapi-2.5.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +blebox-uniapi-2.2.2.ebuilde, +blebox-uniapi-2.4.2.ebuilde,
+  +blebox-uniapi-2.5.0.ebuilde:
+  Fix KEYWORDS
+
+*blebox-uniapi-2.5.0 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +blebox-uniapi-2.5.0.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*blebox-uniapi-2.4.2 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -blebox-uniapi-2.2.0.ebuild,
+  blebox-uniapi-2.2.2.ebuild, +blebox-uniapi-2.4.2.ebuild:
+  add 2.4.2, drop 2.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3576
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blebox-uniapi-2.2.2 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> -blebox-uniapi-2.1.4.ebuild,
+  blebox-uniapi-2.2.0.ebuild, +blebox-uniapi-2.2.2.ebuild:
+  drop 2.1.4, add 2.2.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2945
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blebox-uniapi-2.2.0 (31 Oct 2023)
+
+  31 Oct 2023; Andreas Billmeier <b@edevau.net> +blebox-uniapi-2.2.0.ebuild:
+  add 2.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -blebox-uniapi-2.1.3.ebuild:
+  drop 2.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> blebox-uniapi-2.1.3.ebuild,
+  blebox-uniapi-2.1.4.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blebox-uniapi-2.1.4 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -blebox-uniapi-2.0.2-r1.ebuild, +blebox-uniapi-2.1.4.ebuild:
+  add 2.1.4, drop 2.0.2-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> blebox-uniapi-2.0.2-r1.ebuild,
+  blebox-uniapi-2.1.3.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blebox-uniapi-2.1.3 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +blebox-uniapi-2.1.3.ebuild:
+  update blebox-uniapi-2.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blebox-uniapi-2.0.2-r1 (20 Oct 2022)
+
+  20 Oct 2022; Andreas Billmeier <b@edevau.net> -blebox-uniapi-2.0.2.ebuild,
+  +blebox-uniapi-2.0.2-r1.ebuild:
+  add missing dependency, fixes #150
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> blebox-uniapi-2.0.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -blebox-uniapi-1.3.3.ebuild,
+  -blebox-uniapi-2.0.1.ebuild:
+  rework, remove olds
+
+*blebox-uniapi-2.0.2 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> blebox-uniapi-1.3.3.ebuild,
+  -blebox-uniapi-2.0.0.ebuild, blebox-uniapi-2.0.1.ebuild,
+  +blebox-uniapi-2.0.2.ebuild:
+  update blebox-uniapi-2.0.2
+
+*blebox-uniapi-2.0.1 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> +blebox-uniapi-2.0.1.ebuild:
+  bump blebox-uniapi-2.0.1
+
+*blebox-uniapi-2.0.0 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net> blebox-uniapi-1.3.3.ebuild,
+  +blebox-uniapi-2.0.0.ebuild, metadata.xml:
+  bump blebox-uniapi-2.0.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> blebox-uniapi-1.3.3.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> -blebox-uniapi-1.3.2.ebuild,
+  blebox-uniapi-1.3.3.ebuild:
+  blebox-uniapi-1.3.3 fix RequiredUseDefaults
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> blebox-uniapi-1.3.3.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> blebox-uniapi-1.3.2.ebuild,
+  blebox-uniapi-1.3.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*blebox-uniapi-1.3.3 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +blebox-uniapi-1.3.3.ebuild:
+  update blebox-uniapi-1.3.3
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> blebox-uniapi-1.3.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*blebox-uniapi-1.3.2 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> +blebox-uniapi-1.3.2.ebuild,
+  +metadata.xml:
+  add blebox-uniapi-1.3.2
+

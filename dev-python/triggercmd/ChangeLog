@@ -1,0 +1,43 @@
+# ChangeLog for dev-python/triggercmd
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -triggercmd-0.0.27.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*triggercmd-0.0.36 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +triggercmd-0.0.36.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  triggercmd-0.0.27.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  triggercmd-0.0.27.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -triggercmd-0.0.27.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +triggercmd-0.0.27.ebuilde:
+  Fix KEYWORDS
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  triggercmd-0.0.27.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*triggercmd-0.0.27 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +triggercmd-0.0.27.ebuild:
+  new package, add 0.0.27
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3925
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

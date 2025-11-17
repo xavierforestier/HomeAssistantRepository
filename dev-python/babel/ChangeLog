@@ -1,0 +1,30 @@
+# ChangeLog for dev-python/babel
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  babel-2.15.0.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  babel-2.15.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  babel-2.15.0.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -babel-2.15.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +babel-2.15.0.ebuilde:
+  Fix KEYWORDS
+
+*babel-2.15.0 (24 Nov 2024)
+
+  24 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +babel-2.15.0.ebuild, +metadata.xml:
+  homeassistant 2024.11.3
+

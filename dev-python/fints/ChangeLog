@@ -1,0 +1,102 @@
+# ChangeLog for dev-python/fints
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  fints-3.1.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  fints-3.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -fints-3.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +fints-3.1.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr> fints-3.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -fints-1.0.1.ebuild:
+  drop 1.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  fints-3.1.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  fints-3.1.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  fints-3.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*fints-3.1.0 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  +fints-3.1.0.ebuild:
+  update fints-3.1.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  -fints-2.2.0.ebuild:
+  cleanup fints-1.0.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  fints-2.2.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  fints-2.2.0.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> fints-1.0.1.ebuild,
+  fints-2.2.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> fints-2.2.0.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: E-G
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> fints-1.0.1.ebuild,
+  fints-2.2.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*fints-1.0.1 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +fints-1.0.1.ebuild:
+  dg to fints-1.0.1
+
+*fints-2.2.0 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net> +fints-2.2.0.ebuild,
+  +metadata.xml:
+  add fints-2.2.0, mt_940-4.19.0, sepaxml-2.2.0
+

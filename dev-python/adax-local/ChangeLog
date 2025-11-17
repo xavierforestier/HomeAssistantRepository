@@ -1,0 +1,20 @@
+# ChangeLog for dev-python/adax-local
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*adax-local-0.2.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +adax-local-0.2.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  adax-local-0.1.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*adax-local-0.1.5 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +adax-local-0.1.5.ebuild, +metadata.xml:
+  Fix for pkgcheck
+

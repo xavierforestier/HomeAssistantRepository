@@ -1,0 +1,170 @@
+# ChangeLog for dev-python/pyipma
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyipma-3.0.9.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyipma-3.0.7.ebuild, -pyipma-3.0.8.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyipma-3.0.7.ebuilde, -pyipma-3.0.8.ebuilde, -pyipma-3.0.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyipma-3.0.7.ebuilde, +pyipma-3.0.8.ebuilde, +pyipma-3.0.9.ebuilde:
+  Fix KEYWORDS
+
+*pyipma-3.0.9 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyipma-3.0.9.ebuild:
+  homeassistant 2025.3.0
+
+*pyipma-3.0.8 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyipma-3.0.8.ebuild:
+  homeassisstant-2025.2.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyipma-3.0.7.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyipma-3.0.7.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -pyipma-3.0.6.ebuild:
+  drop 3.0.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyipma-3.0.7 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +pyipma-3.0.7.ebuild:
+  add 3.0.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -pyipma-3.0.5.ebuild,
+  pyipma-3.0.6.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyipma-3.0.6 (14 Feb 2023)
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> -pyipma-2.0.5.ebuild,
+  +pyipma-3.0.6.ebuild:
+  add 3.0.6, drop 2.0.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyipma-2.0.5.ebuild,
+  pyipma-3.0.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyipma-2.0.5.ebuild,
+  pyipma-3.0.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -pyipma-3.0.4.ebuild:
+  rework, remove olds
+
+*pyipma-3.0.5 (27 Sep 2022)
+
+  27 Sep 2022; Andreas Billmeier <b@edevau.net> -pyipma-3.0.2.ebuild,
+  +pyipma-3.0.5.ebuild:
+  bump pyipma-3.0.5
+
+*pyipma-3.0.4 (14 Sep 2022)
+
+  14 Sep 2022; Andreas Billmeier <b@edevau.net> +pyipma-3.0.4.ebuild:
+  bump pyipma-3.0.4
+
+*pyipma-3.0.2 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> pyipma-2.0.5.ebuild,
+  +pyipma-3.0.2.ebuild:
+  update pyipma-3.0.2 / cleanup
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> pyipma-2.0.5.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pyipma-2.0.5.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyipma-2.0.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> pyipma-2.0.5.ebuild:
+  cleanup, add new Python Targets, Letter 'N' and parts of P Integrations
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -pyipma-1.2.1.ebuild,
+  -pyipma-2.0.2.ebuild, -pyipma-2.0.3.ebuild, -pyipma-2.0.4.ebuild,
+  pyipma-2.0.5.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyipma-1.2.1.ebuild,
+  pyipma-2.0.2.ebuild, pyipma-2.0.3.ebuild, pyipma-2.0.4.ebuild,
+  pyipma-2.0.5.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyipma-2.0.5 (04 Mar 2020)
+
+  04 Mar 2020; Andreas Billmeier <b@edevau.net> +pyipma-2.0.5.ebuild:
+  bump pyipma-2.0.5
+
+*pyipma-2.0.4 (28 Feb 2020)
+
+  28 Feb 2020; Andreas Billmeier <b@edevau.net> +pyipma-2.0.4.ebuild:
+  bump dev-python/pyipma
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> pyipma-1.2.1.ebuild,
+  pyipma-2.0.2.ebuild, pyipma-2.0.3.ebuild:
+  fix the rest of 75 DESCRIPTION.toolong
+
+*pyipma-2.0.3 (13 Feb 2020)
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> +pyipma-2.0.3.ebuild:
+  bump pyipma-2.0.3
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyipma-2.0.2.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyipma-1.2.1.ebuild,
+  pyipma-2.0.2.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*pyipma-2.0.2 (21 Jan 2020)
+
+  21 Jan 2020; Andreas Billmeier <b@edevau.net> +pyipma-2.0.2.ebuild:
+  bump pyipma-2.0.2
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net> pyipma-1.2.1.ebuild:
+  fix 2 illegal UTF chars in DESCRIPTION
+
+*pyipma-1.2.1 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyipma-1.2.1.ebuild:
+  add pyipma-1.2.1
+

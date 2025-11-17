@@ -1,0 +1,30 @@
+# ChangeLog for dev-python/pyprobeplus
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyprobeplus-1.1.0.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyprobeplus-1.0.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*pyprobeplus-1.1.2 (25 Oct 2025)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyprobeplus-1.1.2.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*pyprobeplus-1.1.0 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyprobeplus-1.1.0.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*pyprobeplus-1.0.1 (13 Jun 2025)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pyprobeplus-1.0.1.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+

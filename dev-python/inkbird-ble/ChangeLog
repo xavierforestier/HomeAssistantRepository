@@ -1,0 +1,133 @@
+# ChangeLog for dev-python/inkbird-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -inkbird-ble-0.16.2.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*inkbird-ble-1.1.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +inkbird-ble-1.1.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -inkbird-ble-0.16.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*inkbird-ble-0.16.2 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +inkbird-ble-0.16.2.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -inkbird-ble-0.9.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -<q:
+  homeassistant 2025.5.1 deps
+
+*inkbird-ble-0.16.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +<q, +inkbird-ble-0.16.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  inkbird-ble-0.9.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -inkbird-ble-0.7.1.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -inkbird-ble-0.5.6.ebuild, -inkbird-ble-0.5.8.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -inkbird-ble-0.5.6.ebuilde, -inkbird-ble-0.5.8.ebuilde,
+  -inkbird-ble-0.7.1.ebuilde, -inkbird-ble-0.9.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +inkbird-ble-0.5.6.ebuilde, +inkbird-ble-0.5.8.ebuilde,
+  +inkbird-ble-0.7.1.ebuilde, +inkbird-ble-0.9.0.ebuilde:
+  Fix KEYWORDS
+
+*inkbird-ble-0.9.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +inkbird-ble-0.9.0.ebuild:
+  Homeassistant 2025.4.0
+
+*inkbird-ble-0.7.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +inkbird-ble-0.7.1.ebuild:
+  homeassistant 2025.3.0
+
+*inkbird-ble-0.5.8 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> inkbird-ble-0.5.6.ebuild,
+  +inkbird-ble-0.5.8.ebuild:
+  add 0.5.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3657
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -inkbird-ble-0.5.5.ebuild:
+  drop 0.5.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> inkbird-ble-0.5.5.ebuild,
+  inkbird-ble-0.5.6.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*inkbird-ble-0.5.6 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> +inkbird-ble-0.5.6.ebuild:
+  add 0.5.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> inkbird-ble-0.5.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> inkbird-ble-0.5.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -inkbird-ble-0.5.1.ebuild,
+  -inkbird-ble-0.5.2.ebuild:
+  rework, remove olds
+
+*inkbird-ble-0.5.5 (16 Aug 2022)
+
+  16 Aug 2022; Andreas Billmeier <b@edevau.net> +inkbird-ble-0.5.5.ebuild:
+  update inkbird-ble-0.5.5
+
+*inkbird-ble-0.5.2 (10 Aug 2022)
+
+  10 Aug 2022; Andreas Billmeier <b@edevau.net> inkbird-ble-0.5.1.ebuild,
+  +inkbird-ble-0.5.2.ebuild:
+  update inkbird-ble-0.5.2
+
+*inkbird-ble-0.5.1 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> +inkbird-ble-0.5.1.ebuild,
+  +metadata.xml:
+  add inkbird-ble-0.5.1
+

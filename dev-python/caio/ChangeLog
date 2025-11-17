@@ -1,0 +1,59 @@
+# ChangeLog for dev-python/caio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  caio-0.9.17.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -caio-0.9.17.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +caio-0.9.17.ebuilde:
+  Fix KEYWORDS
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> caio-0.9.17.ebuild:
+  spellcheck
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr> caio-0.9.17.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*caio-0.9.17 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> -caio-0.9.8.ebuild,
+  +caio-0.9.17.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> caio-0.9.8.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> caio-0.9.8.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> caio-0.9.8.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> caio-0.9.8.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*caio-0.9.8 (23 Sep 2022)
+
+  23 Sep 2022; Andreas Billmeier <b@edevau.net> +caio-0.9.8.ebuild,
+  +metadata.xml:
+  update bimmer-connected-0.10.4
+  add aiofile-3.8.1
+  add caio-0.9.8
+

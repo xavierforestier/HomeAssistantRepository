@@ -1,0 +1,224 @@
+# ChangeLog for dev-python/aiodiscover
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiodiscover-2.7.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*aiodiscover-2.7.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiodiscover-2.7.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiodiscover-2.6.1.ebuild:
+  clean oldies
+
+*aiodiscover-2.7.0 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiodiscover-2.7.0.ebuild:
+  homeassistant 2025.5.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiodiscover-2.6.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiodiscover-1.6.1.ebuild, -aiodiscover-2.0.0.ebuild,
+  -aiodiscover-2.1.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiodiscover-1.6.1.ebuilde, -aiodiscover-2.0.0.ebuilde,
+  -aiodiscover-2.1.0.ebuilde, -aiodiscover-2.6.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiodiscover-1.6.1.ebuilde, +aiodiscover-2.0.0.ebuilde,
+  +aiodiscover-2.1.0.ebuilde, +aiodiscover-2.6.1.ebuilde:
+  Fix KEYWORDS
+
+*aiodiscover-2.6.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiodiscover-2.6.1.ebuild:
+  homeassistant 2025.3.0
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -aiodiscover-1.5.1.ebuild,
+  -aiodiscover-1.6.0.ebuild:
+  drop 1.5.1, 1.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodiscover-2.1.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> aiodiscover-1.5.1.ebuild,
+  aiodiscover-1.6.0.ebuild, aiodiscover-1.6.1.ebuild,
+  aiodiscover-2.0.0.ebuild, +aiodiscover-2.1.0.ebuild:
+  add 2.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3253
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodiscover-2.0.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +aiodiscover-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3106
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodiscover-1.6.1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> aiodiscover-1.5.1.ebuild,
+  aiodiscover-1.6.0.ebuild, +aiodiscover-1.6.1.ebuild:
+  add 1.6.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2959
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodiscover-1.6.0 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +aiodiscover-1.6.0.ebuild:
+  add 1.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2592
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -aiodiscover-1.4.13.ebuild,
+  -aiodiscover-1.4.16.ebuild:
+  drop 1.4.13, 1.4.16
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodiscover-1.5.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.13.ebuild,
+  aiodiscover-1.4.16.ebuild, +aiodiscover-1.5.1.ebuild:
+  add 1.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.13.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodiscover-1.4.16 (08 Apr 2023)
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> -aiodiscover-1.4.11.ebuild,
+  +aiodiscover-1.4.16.ebuild:
+  add 1.4.16, drop 1.4.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.11.ebuild,
+  aiodiscover-1.4.13.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.11.ebuild,
+  aiodiscover-1.4.13.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodiscover-1.4.13 (14 Sep 2022)
+
+  14 Sep 2022; Andreas Billmeier <b@edevau.net> -aiodiscover-1.4.8.ebuild,
+  -aiodiscover-1.4.9.ebuild, aiodiscover-1.4.11.ebuild,
+  +aiodiscover-1.4.13.ebuild:
+  update aiodiscover-1.4.13
+
+*aiodiscover-1.4.11 (25 Apr 2022)
+
+  25 Apr 2022; Andreas Billmeier <b@edevau.net> +aiodiscover-1.4.11.ebuild:
+  update aiodiscover-1.4.11, bump pyroute2-0.6.9
+
+*aiodiscover-1.4.9 (21 Apr 2022)
+
+  21 Apr 2022; Andreas Billmeier <b@edevau.net> -aiodiscover-1.4.5.ebuild,
+  -aiodiscover-1.4.7.ebuild, +aiodiscover-1.4.9.ebuild:
+  bump aiodiscover-1.4.9
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.8.ebuild:
+  remove NonexistentBlocker
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.8.ebuild:
+  flag current -min deps stable
+
+  08 Mar 2022; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.8.ebuild:
+  fix 4 dependency.equalsversion
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiodiscover-1.4.5.ebuild,
+  aiodiscover-1.4.7.ebuild, aiodiscover-1.4.8.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiodiscover-1.4.8 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -aiodiscover-1.4.4.ebuild,
+  +aiodiscover-1.4.8.ebuild:
+  bump aiodiscover-1.4.8
+
+*aiodiscover-1.4.7 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -aiodiscover-1.4.2.ebuild,
+  +aiodiscover-1.4.7.ebuild:
+  bump aiodiscover-1.4.7
+
+*aiodiscover-1.4.5 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +aiodiscover-1.4.5.ebuild:
+  bump aiodiscover-1.4.5
+
+*aiodiscover-1.4.4 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -aiodiscover-1.3.4.ebuild,
+  -aiodiscover-1.4.0.ebuild, +aiodiscover-1.4.4.ebuild:
+  bump aiodiscover-1.4.4
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> -aiodiscover-1.3.3.ebuild:
+  cleanup, add new Python Targets, Letter 'D' Integrations
+
+*aiodiscover-1.4.2 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -aiodiscover-1.3.0.ebuild,
+  -aiodiscover-1.3.2.ebuild, +aiodiscover-1.4.2.ebuild:
+  aiodiscover-1.4.2
+
+*aiodiscover-1.4.0 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> -aiodiscover-1.1.2.ebuild,
+  -aiodiscover-1.2.0.ebuild, +aiodiscover-1.4.0.ebuild:
+  update aiodiscover-1.4.0, add pyroute2-0.5.18
+
+*aiodiscover-1.3.4 (24 Apr 2021)
+
+  24 Apr 2021; Andreas Billmeier <b@edevau.net> -aiodiscover-1.1.0.ebuild,
+  +aiodiscover-1.3.4.ebuild:
+  bump aiodiscover-1.3.4
+
+*aiodiscover-1.3.3 (04 Apr 2021)
+*aiodiscover-1.3.2 (04 Apr 2021)
+*aiodiscover-1.3.0 (04 Apr 2021)
+*aiodiscover-1.2.0 (04 Apr 2021)
+*aiodiscover-1.1.2 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> +aiodiscover-1.1.2.ebuild,
+  +aiodiscover-1.2.0.ebuild, +aiodiscover-1.3.0.ebuild,
+  +aiodiscover-1.3.2.ebuild, +aiodiscover-1.3.3.ebuild:
+  bump up to aiodiscover-1.3.3
+
+*aiodiscover-1.1.0 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> +aiodiscover-1.1.0.ebuild,
+  +metadata.xml:
+  add aiodiscover-1.1.0
+

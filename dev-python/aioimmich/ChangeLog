@@ -1,0 +1,40 @@
+# ChangeLog for dev-python/aioimmich
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioimmich-0.10.2.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*aioimmich-0.11.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioimmich-0.11.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioimmich-0.10.1.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioimmich-0.9.1.ebuild:
+  Cleansing
+
+*aioimmich-0.10.2 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioimmich-0.10.2.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+*aioimmich-0.10.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioimmich-0.10.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*aioimmich-0.9.1 (13 Jun 2025)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioimmich-0.9.1.ebuild, +metadata.xml:
+  homeassistant 2025.6.0 WIP without all deps
+

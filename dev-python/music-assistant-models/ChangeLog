@@ -1,0 +1,64 @@
+# ChangeLog for dev-python/music-assistant-models
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*music-assistant-models-1.1.51 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +music-assistant-models-1.1.51.ebuild:
+  homeassistant 2025.7.1
+
+*music-assistant-models-1.1.50 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +music-assistant-models-1.1.50.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  music-assistant-models-1.1.43.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  music-assistant-models-1.1.43.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -music-assistant-models-1.1.30.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -music-assistant-models-1.0.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -music-assistant-models-1.0.0.ebuilde,
+  -music-assistant-models-1.1.30.ebuilde,
+  -music-assistant-models-1.1.43.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +music-assistant-models-1.0.0.ebuilde,
+  +music-assistant-models-1.1.30.ebuilde,
+  +music-assistant-models-1.1.43.ebuilde:
+  Fix KEYWORDS
+
+*music-assistant-models-1.1.43 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +music-assistant-models-1.1.43.ebuild:
+  Homeassistant 2025.4.0
+
+*music-assistant-models-1.1.30 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +music-assistant-models-1.1.30.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*music-assistant-models-1.0.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +music-assistant-models-1.0.0.ebuild:
+  new package, add 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

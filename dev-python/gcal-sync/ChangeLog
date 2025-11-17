@@ -1,0 +1,293 @@
+# ChangeLog for dev-python/gcal-sync
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gcal-sync-7.1.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*gcal-sync-8.0.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +gcal-sync-8.0.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gcal-sync-7.0.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gcal-sync-7.0.0.ebuild:
+  clean oldies
+
+*gcal-sync-7.1.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +gcal-sync-7.1.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+*gcal-sync-7.0.1 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +gcal-sync-7.0.1.ebuild:
+  homeassistant 2025.5.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  gcal-sync-7.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gcal-sync-6.0.4.ebuild, -gcal-sync-6.1.5.ebuild, -gcal-sync-6.1.6.ebuild,
+  -gcal-sync-6.2.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -gcal-sync-6.0.4.ebuilde, -gcal-sync-6.1.5.ebuilde,
+  -gcal-sync-6.1.6.ebuilde, -gcal-sync-6.2.0.ebuilde,
+  -gcal-sync-7.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gcal-sync-6.0.4.ebuilde, +gcal-sync-6.1.5.ebuilde,
+  +gcal-sync-6.1.6.ebuilde, +gcal-sync-6.2.0.ebuilde,
+  +gcal-sync-7.0.0.ebuilde:
+  Fix KEYWORDS
+
+*gcal-sync-7.0.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gcal-sync-7.0.0.ebuild:
+  homeassisstant-2025.2.0
+
+*gcal-sync-6.2.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +gcal-sync-6.2.0.ebuild:
+  add 6.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4021
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-6.1.6 (26 Oct 2024)
+
+  26 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gcal-sync-6.1.6.ebuild:
+  homemasssistant & homeassistant-full 2024.10.3
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -gcal-sync-6.0.3.ebuild:
+  drop 6.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-6.1.5 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> gcal-sync-6.0.3.ebuild,
+  gcal-sync-6.0.4.ebuild, +gcal-sync-6.1.5.ebuild:
+  add 6.1.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3857
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-6.1.5 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gcal-sync-6.1.5.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -gcal-sync-4.1.4.ebuild,
+  -gcal-sync-5.0.0.ebuild, -gcal-sync-6.0.1.ebuild:
+  drop 4.1.4, 5.0.0, 6.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-6.0.4 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> gcal-sync-4.1.4.ebuild,
+  gcal-sync-5.0.0.ebuild, gcal-sync-6.0.1.ebuild, gcal-sync-6.0.3.ebuild,
+  +gcal-sync-6.0.4.ebuild:
+  add  6.0.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3117
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-6.0.3 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +gcal-sync-6.0.3.ebuild:
+  add 6.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2446
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-6.0.1 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +gcal-sync-6.0.1.ebuild:
+  add 6.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2395
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-5.0.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +gcal-sync-5.0.0.ebuild:
+  add 5.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2265
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -gcal-sync-2.2.3.ebuild,
+  -gcal-sync-4.1.2.ebuild:
+  drop 2.2.3, 4.1.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> gcal-sync-2.2.3.ebuild,
+  gcal-sync-4.1.2.ebuild, gcal-sync-4.1.4.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.1.4 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -gcal-sync-4.1.3.ebuild,
+  +gcal-sync-4.1.4.ebuild:
+  add 4.1.4, drop 4.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> gcal-sync-2.2.3.ebuild,
+  gcal-sync-4.1.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.1.3 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> -gcal-sync-4.0.4.ebuild,
+  -gcal-sync-4.1.0.ebuild, +gcal-sync-4.1.3.ebuild:
+  drop olds, add 4.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.1.2 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> gcal-sync-2.2.3.ebuild,
+  -gcal-sync-4.0.3.ebuild, gcal-sync-4.0.4.ebuild, gcal-sync-4.1.0.ebuild,
+  +gcal-sync-4.1.2.ebuild:
+  add 4.1.2, drop 4.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.1.0 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net> +gcal-sync-4.1.0.ebuild:
+  add 4.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Dec 2022; Andreas Billmeier <b@edevau.net> -gcal-sync-0.10.0.ebuild,
+  -gcal-sync-4.0.2.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.0.4 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> +gcal-sync-4.0.4.ebuild:
+  add 4.0.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.0.3 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> -gcal-sync-4.0.0.ebuild,
+  +gcal-sync-4.0.3.ebuild, metadata.xml:
+  add 4.0.3, drop 4.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.0.2 (17 Nov 2022)
+
+  17 Nov 2022; Andreas Billmeier <b@edevau.net> +gcal-sync-4.0.2.ebuild:
+  add 4.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-4.0.0 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> gcal-sync-0.10.0.ebuild,
+  -gcal-sync-2.2.2.ebuild, gcal-sync-2.2.3.ebuild, +gcal-sync-4.0.0.ebuild:
+  bump 4.0.0, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-2.2.3 (03 Nov 2022)
+
+  03 Nov 2022; Andreas Billmeier <b@edevau.net> -gcal-sync-2.2.0.ebuild,
+  +gcal-sync-2.2.3.ebuild, -gcal-sync-3.0.0.ebuild:
+  bump 2.2.3, drops olds & unused
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-3.0.0 (02 Nov 2022)
+*gcal-sync-2.2.2 (02 Nov 2022)
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net> +gcal-sync-2.2.2.ebuild,
+  +gcal-sync-3.0.0.ebuild:
+  add 2.2.2, 3.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gcal-sync-2.2.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -files/gcal-sync-0.6.2-no_tests.patch, +gcal-sync-2.2.0.ebuild:
+  add 2.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> gcal-sync-0.10.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -gcal-sync-0.7.1.ebuild,
+  -gcal-sync-0.9.0.ebuild, gcal-sync-0.10.0.ebuild:
+  rework, remove olds
+
+*gcal-sync-0.10.0 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> gcal-sync-0.7.1.ebuild,
+  gcal-sync-0.9.0.ebuild, +gcal-sync-0.10.0.ebuild:
+  bump gcal-sync-0.10.0
+
+*gcal-sync-0.9.0 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> -gcal-sync-0.6.2.ebuild,
+  -gcal-sync-0.6.3.ebuild, +gcal-sync-0.9.0.ebuild:
+  bump gcal-sync-0.9.0
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> gcal-sync-0.6.2.ebuild,
+  gcal-sync-0.6.3.ebuild:
+  add quotes to patchfile
+
+*gcal-sync-0.7.1 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> -gcal-sync-0.7.0.ebuild,
+  +gcal-sync-0.7.1.ebuild:
+  update gcal-sync-0.7.1
+
+*gcal-sync-0.7.0 (30 Apr 2022)
+*gcal-sync-0.6.3 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> +gcal-sync-0.6.3.ebuild,
+  +gcal-sync-0.7.0.ebuild:
+  bump gcal-sync-0.6.3.ebuild
+  bump gcal-sync-0.7.0.ebuild
+
+*gcal-sync-0.6.2 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +files/gcal-sync-0.6.2-no_tests.patch, +gcal-sync-0.6.2.ebuild,
+  +metadata.xml:
+  add gcal-sync-0.6.2
+

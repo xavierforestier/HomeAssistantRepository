@@ -1,0 +1,55 @@
+# ChangeLog for dev-python/firebase-messaging
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  firebase-messaging-0.4.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -firebase-messaging-0.2.0.ebuild, -firebase-messaging-0.2.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -firebase-messaging-0.2.0.ebuilde, -firebase-messaging-0.2.1.ebuilde,
+  -firebase-messaging-0.4.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +firebase-messaging-0.2.0.ebuilde, +firebase-messaging-0.2.1.ebuilde,
+  +firebase-messaging-0.4.4.ebuilde:
+  Fix KEYWORDS
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  firebase-messaging-0.2.0.ebuild, firebase-messaging-0.2.1.ebuild,
+  firebase-messaging-0.4.4.ebuild:
+  Fix deps
+
+  29 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  firebase-messaging-0.4.4.ebuild:
+  Fix deps for homeassistant-full 2024.10.4
+
+*firebase-messaging-0.4.4 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +firebase-messaging-0.4.4.ebuild, metadata.xml:
+  add 0.4.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*firebase-messaging-0.2.1 (13 May 2024)
+
+  13 May 2024; Andreas Billmeier <b@edevau.net>
+  firebase-messaging-0.2.0.ebuild, +firebase-messaging-0.2.1.ebuild:
+  add 0.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*firebase-messaging-0.2.0 (17 Dec 2023)
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +firebase-messaging-0.2.0.ebuild, +metadata.xml:
+  new package, add 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

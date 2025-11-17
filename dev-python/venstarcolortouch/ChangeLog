@@ -1,0 +1,141 @@
+# ChangeLog for dev-python/venstarcolortouch
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -venstarcolortouch-0.19.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+*venstarcolortouch-0.21 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +venstarcolortouch-0.21.ebuild:
+  homeassistant 2025.7.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  venstarcolortouch-0.19.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -venstarcolortouch-0.19.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +venstarcolortouch-0.19.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  venstarcolortouch-0.19.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -venstarcolortouch-0.18.ebuild, venstarcolortouch-0.19.ebuild:
+  drop 0.18, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.18.ebuild,
+  venstarcolortouch-0.19.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*venstarcolortouch-0.19 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.18.ebuild,
+  +venstarcolortouch-0.19.ebuild:
+  bump 0.19, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.18.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -venstarcolortouch-0.15.ebuild, -venstarcolortouch-0.17.ebuild,
+  venstarcolortouch-0.18.ebuild:
+  rework, remove olds
+
+*venstarcolortouch-0.18 (21 Jul 2022)
+
+  21 Jul 2022; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.15.ebuild,
+  venstarcolortouch-0.17.ebuild, +venstarcolortouch-0.18.ebuild:
+  bump venstarcolortouch-0.18
+
+*venstarcolortouch-0.17 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -venstarcolortouch-0.14.ebuild, +venstarcolortouch-0.17.ebuild:
+  bump venstarcolortouch-0.17
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.14.ebuild,
+  venstarcolortouch-0.15.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*venstarcolortouch-0.15 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -venstarcolortouch-0.13.ebuild, +venstarcolortouch-0.15.ebuild:
+  bump venstarcolortouch-0.15
+
+*venstarcolortouch-0.14 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net>
+  +venstarcolortouch-0.14.ebuild:
+  update venstarcolortouch-0.14
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -venstarcolortouch-0.7.ebuild,
+  -venstarcolortouch-0.9.ebuild, -venstarcolortouch-0.12.ebuild,
+  venstarcolortouch-0.13.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*venstarcolortouch-0.13 (20 Dec 2020)
+
+  20 Dec 2020; Andreas Billmeier <b@edevau.net>
+  +venstarcolortouch-0.13.ebuild:
+  update venstarcolortouch-0.13
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> venstarcolortouch-0.7.ebuild,
+  venstarcolortouch-0.9.ebuild, venstarcolortouch-0.12.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.12.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.7.ebuild,
+  venstarcolortouch-0.9.ebuild, venstarcolortouch-0.12.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*venstarcolortouch-0.12 (15 Dec 2019)
+
+  15 Dec 2019; Andreas Billmeier <b@edevau.net>
+  +venstarcolortouch-0.12.ebuild:
+  bump venstarcolortouch-0.12
+
+*venstarcolortouch-0.9 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +venstarcolortouch-0.9.ebuild:
+  bump venstarcolortouch-0.9.ebuild
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> venstarcolortouch-0.7.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*venstarcolortouch-0.7 (22 Jun 2019)
+
+  22 Jun 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +venstarcolortouch-0.7.ebuild:
+  addvenstarcolortouch
+

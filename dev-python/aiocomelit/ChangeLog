@@ -1,0 +1,177 @@
+# ChangeLog for dev-python/aiocomelit
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiocomelit-1.1.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiocomelit-0.12.3.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*aiocomelit-1.1.2 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiocomelit-1.1.2.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*aiocomelit-1.1.1 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiocomelit-1.1.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiocomelit-0.12.0.ebuild, -aiocomelit-0.12.1.ebuild:
+  clean oldies
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiocomelit-0.11.3.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*aiocomelit-0.12.3 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiocomelit-0.12.3.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+*aiocomelit-0.12.1 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiocomelit-0.12.1.ebuild:
+  homeassistant 2025.5.2
+
+*aiocomelit-0.12.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiocomelit-0.12.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiocomelit-0.11.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiocomelit-0.10.1.ebuild, aiocomelit-0.11.3.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiocomelit-0.9.0.ebuild, -aiocomelit-0.9.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiocomelit-0.10.1.ebuilde, -aiocomelit-0.11.3.ebuilde,
+  -aiocomelit-0.9.0.ebuilde, -aiocomelit-0.9.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiocomelit-0.10.1.ebuilde, +aiocomelit-0.11.3.ebuilde,
+  +aiocomelit-0.9.0.ebuilde, +aiocomelit-0.9.1.ebuilde:
+  Fix KEYWORDS
+
+*aiocomelit-0.11.3 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiocomelit-0.11.3.ebuild:
+  Homeassistant 2025.4.0
+
+*aiocomelit-0.10.1 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiocomelit-0.10.1.ebuild:
+  homeassistant 2025.1.1
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> -aiocomelit-0.6.2.ebuild,
+  -aiocomelit-0.7.0.ebuild, -aiocomelit-0.8.3.ebuild:
+  drop 0.6.2, 0.7.0, 0.8.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.9.1 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> aiocomelit-0.6.2.ebuild,
+  aiocomelit-0.7.0.ebuild, aiocomelit-0.8.3.ebuild, aiocomelit-0.9.0.ebuild,
+  +aiocomelit-0.9.1.ebuild:
+  add 0.9.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4000
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -aiocomelit-0.7.3.ebuild:
+  drop 0.7.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.9.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> aiocomelit-0.6.2.ebuild,
+  aiocomelit-0.7.0.ebuild, aiocomelit-0.7.3.ebuild, aiocomelit-0.8.3.ebuild,
+  +aiocomelit-0.9.0.ebuild:
+  add 0.9.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2953
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.8.3 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +aiocomelit-0.8.3.ebuild:
+  add 0.8.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2767
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.7.3 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> aiocomelit-0.6.2.ebuild,
+  aiocomelit-0.7.0.ebuild, +aiocomelit-0.7.3.ebuild:
+  add 0.7.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2711
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> -aiocomelit-0.0.9.ebuild,
+  -aiocomelit-0.3.0.ebuild, -aiocomelit-0.5.2.ebuild:
+  drop 0.0.9, 0.3.0, 0.5.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.7.0 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +aiocomelit-0.7.0.ebuild:
+  add 0.7.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2589
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.6.2 (09 Dec 2023)
+
+  09 Dec 2023; Andreas Billmeier <b@edevau.net> +aiocomelit-0.6.2.ebuild:
+  add 0.6.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2429
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.5.2 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +aiocomelit-0.5.2.ebuild:
+  add 0.5.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2393
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.3.0 (31 Oct 2023)
+
+  31 Oct 2023; Andreas Billmeier <b@edevau.net> +aiocomelit-0.3.0.ebuild:
+  add 0.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiocomelit-0.0.9 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> +aiocomelit-0.0.9.ebuild,
+  +metadata.xml:
+  new package, add 0.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

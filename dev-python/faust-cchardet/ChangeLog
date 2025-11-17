@@ -1,0 +1,42 @@
+# ChangeLog for dev-python/faust-cchardet
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  faust-cchardet-2.1.19.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -faust-cchardet-2.1.19.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +faust-cchardet-2.1.19.ebuilde:
+  Fix KEYWORDS
+
+*faust-cchardet-2.1.19 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> +faust-cchardet-2.1.19.ebuild,
+  +metadata.xml:
+  new package, add 2.1.19
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3971
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  -faust-cchardet-2.1.18.ebuild, -metadata.xml:
+  homeassistant 2024.10.1 + script to generate ebuild dependencies :)
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> faust-cchardet-2.1.18.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*faust-cchardet-2.1.18 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +faust-cchardet-2.1.18.ebuild,
+  +metadata.xml:
+  new package, add 2.1.18
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

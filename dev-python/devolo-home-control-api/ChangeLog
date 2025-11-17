@@ -1,0 +1,204 @@
+# ChangeLog for dev-python/devolo-home-control-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -devolo-home-control-api-0.18.3.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*devolo-home-control-api-0.19.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +devolo-home-control-api-0.19.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  devolo-home-control-api-0.18.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -devolo-home-control-api-0.18.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +devolo-home-control-api-0.18.3.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  devolo-home-control-api-0.18.3.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -devolo-home-control-api-0.18.2.ebuild,
+  devolo-home-control-api-0.18.3.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*devolo-home-control-api-0.18.3 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.18.3.ebuild:
+  add 0.18.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2591
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.18.2.ebuild:
+  dev-python/devolo-*: PEP517, SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.18.2.ebuild:
+  dev-python/*: rename zeroconf, again (https://github.com/gentoo/gentoo/commi
+  t/29153ca563b529be4cf0fdc2651105430ecb9ab4)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.18.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Oct 2022; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.18.2.ebuild:
+  dev-python/*: rename zeroconf
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.18.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -devolo-home-control-api-0.17.4.ebuild,
+  -devolo-home-control-api-0.18.1.ebuild,
+  devolo-home-control-api-0.18.2.ebuild:
+  rework, remove olds
+
+*devolo-home-control-api-0.18.2 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.18.2.ebuild:
+  bump devolo-home-control-api-0.18.2
+
+*devolo-home-control-api-0.18.1 (13 Apr 2022)
+
+  13 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.18.1.ebuild:
+  bump devolo-home-control-api-0.18.1
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.17.4.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net>
+  -devolo-home-control-api-0.16.0.ebuild,
+  -devolo-home-control-api-0.17.3.ebuild,
+  devolo-home-control-api-0.17.4.ebuild:
+  devolo-home-control-api-0.17.4 fix RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.16.0.ebuild,
+  devolo-home-control-api-0.17.3.ebuild,
+  devolo-home-control-api-0.17.4.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.17.4.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*devolo-home-control-api-0.17.4 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.17.4.ebuild:
+  update devolo-home-control-api-0.17.4
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net>
+  -devolo-home-control-api-0.15.0.ebuild,
+  -devolo-home-control-api-0.15.1.ebuild,
+  -devolo-home-control-api-0.17.0.ebuild,
+  -devolo-home-control-api-0.17.1.ebuild,
+  devolo-home-control-api-0.17.3.ebuild:
+  cleanup, add new Python Targets, Letter 'D' Integrations
+
+*devolo-home-control-api-0.17.3 (10 Apr 2021)
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.17.3.ebuild:
+  update devolo-home-control-api-0.17.3
+
+*devolo-home-control-api-0.17.1 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net>
+  -devolo-home-control-api-0.13.0.ebuild,
+  +devolo-home-control-api-0.17.1.ebuild:
+  bump devolo-home-control-api-0.17.1
+
+*devolo-home-control-api-0.17.0 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net>
+  -devolo-home-control-api-0.11.0.ebuild,
+  +devolo-home-control-api-0.17.0.ebuild:
+  bump devolo-home-control-api-0.17.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz>
+  devolo-home-control-api-0.11.0.ebuild,
+  devolo-home-control-api-0.13.0.ebuild,
+  devolo-home-control-api-0.15.0.ebuild,
+  devolo-home-control-api-0.15.1.ebuild,
+  devolo-home-control-api-0.16.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*devolo-home-control-api-0.16.0 (09 Nov 2020)
+
+  09 Nov 2020; Andreas Billmeier <b@edevau.net>
+  -devolo-home-control-api-0.10.0.ebuild,
+  +devolo-home-control-api-0.16.0.ebuild:
+  update devolo-home-control-api-0.16.0
+
+*devolo-home-control-api-0.15.1 (13 Oct 2020)
+
+  13 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.15.1.ebuild:
+  bump devolo-home-control-api-0.15.1
+
+*devolo-home-control-api-0.15.0 (30 Sep 2020)
+
+  30 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.15.0.ebuild:
+  bump devolo-home-control-api-0.15.0
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net>
+  devolo-home-control-api-0.10.0.ebuild,
+  devolo-home-control-api-0.11.0.ebuild,
+  devolo-home-control-api-0.13.0.ebuild:
+  devolo-home-control-api, fix
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/126
+
+*devolo-home-control-api-0.13.0 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.13.0.ebuild:
+  update devolo-home-control-api-0.13.0
+
+*devolo-home-control-api-0.11.0 (27 May 2020)
+
+  27 May 2020; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.11.0.ebuild:
+  update devolo-home-control-api-0.11.0
+
+*devolo-home-control-api-0.10.0 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net>
+  +devolo-home-control-api-0.10.0.ebuild, +metadata.xml:
+  add devolo-home-control-api-0.10.0
+

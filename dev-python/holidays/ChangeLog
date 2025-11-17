@@ -1,0 +1,527 @@
+# ChangeLog for dev-python/holidays
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.82.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+*holidays-0.84 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.84.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*holidays-0.83 (25 Oct 2025)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.81.ebuild, +holidays-0.83.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*holidays-0.82 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.82.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.79.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*holidays-0.81 (21 Sep 2025)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.81.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.78.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+*holidays-0.79 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.79.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.75.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*holidays-0.78 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.78.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.74.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*holidays-0.75 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.73.ebuild, +holidays-0.75.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.70.ebuild, -holidays-0.72.ebuild:
+  clean oldies
+
+*holidays-0.74 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.74.ebuild:
+  homeassistant 2025.6.0 full deps
+
+*holidays-0.73 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.73.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.69.ebuild:
+  clean old versions
+
+*holidays-0.72 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.72.ebuild:
+  homeassistant 2025.5.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  holidays-0.69.ebuild, holidays-0.70.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.68.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.47.ebuild, -holidays-0.51.ebuild, -holidays-0.58.ebuild,
+  -holidays-0.59.ebuild, -holidays-0.60.ebuild, -holidays-0.61.ebuild,
+  -holidays-0.62.ebuild, -holidays-0.63.ebuild, -holidays-0.64.ebuild,
+  -holidays-0.65.ebuild, -holidays-0.66.ebuild:
+  Cleansing orphans
+
+*holidays-0.70 (21 Apr 2025)
+
+  21 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +holidays-0.70.ebuild:
+  app-misc/homeassistant-2025.4.3
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -holidays-0.47.ebuilde, -holidays-0.51.ebuilde, -holidays-0.58.ebuilde,
+  -holidays-0.59.ebuilde, -holidays-0.60.ebuilde, -holidays-0.61.ebuilde,
+  -holidays-0.62.ebuilde, -holidays-0.63.ebuilde, -holidays-0.64.ebuilde,
+  -holidays-0.65.ebuilde, -holidays-0.66.ebuilde, -holidays-0.68.ebuilde,
+  -holidays-0.69.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.47.ebuilde, +holidays-0.51.ebuilde, +holidays-0.58.ebuilde,
+  +holidays-0.59.ebuilde, +holidays-0.60.ebuilde, +holidays-0.61.ebuilde,
+  +holidays-0.62.ebuilde, +holidays-0.63.ebuilde, +holidays-0.64.ebuilde,
+  +holidays-0.65.ebuilde, +holidays-0.66.ebuilde, +holidays-0.68.ebuilde,
+  +holidays-0.69.ebuilde:
+  Fix KEYWORDS
+
+*holidays-0.69 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.69.ebuild:
+  Homeassistant 2025.4.0
+
+*holidays-0.68 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.68.ebuild:
+  homeassistant 2025.3.0
+
+*holidays-0.66 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.66.ebuild:
+  homeassistant-2025-2.1
+
+*holidays-0.65 (10 Feb 2025)
+
+  10 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.65.ebuild:
+  homeassistant 2025.1.4
+
+*holidays-0.64 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.64.ebuild:
+  homeassistant 2025.1.1
+
+*holidays-0.63 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.63.ebuild:
+  homeassistant 2024.12.4
+
+*holidays-0.62 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.62.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*holidays-0.61 (24 Nov 2024)
+
+  24 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.61.ebuild:
+  app-misc/homeassistant-full 2024.11.3 and its deps
+
+*holidays-0.60 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.60.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> -holidays-0.55.ebuild,
+  -holidays-0.56.ebuild:
+  drop 0.55, 0.56
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.59 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +holidays-0.59.ebuild:
+  add 0.59
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4026
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> -holidays-0.57.ebuild:
+  drop 0.57
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.58 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> +holidays-0.58.ebuild,
+  metadata.xml:
+  add 0.58
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3950
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.55 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.55.ebuild:
+  homeassistant 2024.9.0_beta4
+
+*holidays-0.56 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.56.ebuild:
+  homeassistant 2024.9.2
+
+*holidays-0.58 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +holidays-0.58.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*holidays-0.57 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -holidays-0.44.ebuild,
+  -holidays-0.46.ebuild, +holidays-0.57.ebuild:
+  add 0.57, drop 0.44
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3826
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.51 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> -holidays-0.50.ebuild,
+  +holidays-0.51.ebuild:
+  add 0.51, drop 0.50
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3508
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.50 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net> +holidays-0.50.ebuild:
+  add 0.50
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3472
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -holidays-0.39.ebuild,
+  -holidays-0.43.ebuild:
+  drop 0.39, 0.43
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.47 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> holidays-0.39.ebuild,
+  holidays-0.43.ebuild, holidays-0.44.ebuild, holidays-0.46.ebuild,
+  +holidays-0.47.ebuild:
+  add 0.47
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3273
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -holidays-0.36.ebuild:
+  drop 0.36
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.46 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +holidays-0.46.ebuild:
+  add 0.46
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3173
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.44 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -holidays-0.35.ebuild,
+  holidays-0.36.ebuild, holidays-0.39.ebuild, -holidays-0.42.ebuild,
+  holidays-0.43.ebuild, +holidays-0.44.ebuild:
+  drop 0.35, 0.42, add 0.44
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2973
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.43 (25 Feb 2024)
+
+  25 Feb 2024; Andreas Billmeier <b@edevau.net> +holidays-0.43.ebuild:
+  add 0.43
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.42 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> holidays-0.35.ebuild,
+  holidays-0.36.ebuild, holidays-0.39.ebuild, +holidays-0.42.ebuild:
+  add 0.42
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2796
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> -holidays-0.28.ebuild:
+  drop 0.28
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.39 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> +holidays-0.39.ebuild:
+  add 0.39
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2613
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.36 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +holidays-0.36.ebuild:
+  add 0.36
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2511
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.35 (05 Nov 2023)
+
+  05 Nov 2023; Andreas Billmeier <b@edevau.net> -holidays-0.21.13.ebuild,
+  +holidays-0.35.ebuild:
+  add 0.35, drop 0.21.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2373
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.28 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +holidays-0.28.ebuild,
+  metadata.xml:
+  add 0.28
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -holidays-0.16.ebuild,
+  -holidays-0.18.ebuild, holidays-0.21.13.ebuild:
+  drop olds, enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> holidays-0.16.ebuild,
+  holidays-0.18.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.21.13 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -holidays-0.17.2.ebuild,
+  +holidays-0.21.13.ebuild:
+  add 0.21.13, drop 0.17.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.18 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> -holidays-0.14.2.ebuild,
+  +holidays-0.18.ebuild, metadata.xml:
+  add 0.18, drop 0.14.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> holidays-0.14.2.ebuild,
+  holidays-0.16.ebuild, holidays-0.17.2.ebuild:
+  remove Python 3.8 Support tag
+
+*holidays-0.17.2 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> holidays-0.14.2.ebuild,
+  holidays-0.16.ebuild, +holidays-0.17.2.ebuild, metadata.xml:
+  bump 0.17.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> holidays-0.14.2.ebuild,
+  holidays-0.16.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*holidays-0.16 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> -holidays-0.13.ebuild,
+  holidays-0.14.2.ebuild, +holidays-0.16.ebuild:
+  bump holidays-0.16
+
+*holidays-0.14.2 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -holidays-0.11.3.1.ebuild,
+  -holidays-0.12.ebuild, +holidays-0.14.2.ebuild:
+  bump holidays-0.14.2
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> holidays-0.11.3.1.ebuild,
+  holidays-0.12.ebuild, holidays-0.13.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*holidays-0.13 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +holidays-0.13.ebuild:
+  bump holidays-0.13
+
+*holidays-0.12 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -holidays-0.11.2.ebuild,
+  +holidays-0.12.ebuild, metadata.xml:
+  update holidays-0.12
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> -holidays-0.11.1.ebuild,
+  holidays-0.11.2.ebuild, holidays-0.11.3.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*holidays-0.11.3.1 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -holidays-0.10.5.2-r1.ebuild,
+  +holidays-0.11.3.1.ebuild:
+  bump holidays-0.11.3.1
+
+*holidays-0.11.2 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +holidays-0.11.2.ebuild:
+  update holidays-0.11.2
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -holidays-0.10.2.ebuild,
+  -holidays-0.10.3.ebuild, -holidays-0.10.4.ebuild, holidays-0.11.1.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for the rest of the -min Ebuild
+  (untested)
+
+*holidays-0.11.1 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> -holidays-0.10.1.ebuild,
+  +holidays-0.11.1.ebuild:
+  bump holidays-0.11.1
+
+*holidays-0.10.5.2-r1 (16 Feb 2021)
+
+  16 Feb 2021; Andreas Billmeier <b@edevau.net> -holidays-0.10.5.2.ebuild,
+  +holidays-0.10.5.2-r1.ebuild:
+  update convertdate-2.3.0
+  update holidays-0.10.5.2-r1, fix import error
+
+*holidays-0.10.5.2 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> -holidays-0.9.12.ebuild,
+  +holidays-0.10.5.2.ebuild:
+  add hijri-converter-2.1.1
+  update holidays-0.10.5.2
+
+*holidays-0.10.4 (14 Dec 2020)
+
+  14 Dec 2020; Andreas Billmeier <b@edevau.net> -holidays-0.9.11.ebuild,
+  +holidays-0.10.4.ebuild:
+  bump holidays-0.10.4
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> holidays-0.9.11.ebuild,
+  holidays-0.9.12.ebuild, holidays-0.10.1.ebuild, holidays-0.10.2.ebuild,
+  holidays-0.10.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*holidays-0.10.3 (27 Jul 2020)
+
+  27 Jul 2020; Andreas Billmeier <b@edevau.net> -holidays-0.9.10.ebuild,
+  +holidays-0.10.3.ebuild:
+  update holidays-0.10.3
+
+  03 May 2020; Andreas Billmeier <b@edevau.net> holidays-0.10.2.ebuild:
+  add dev-python/korean-lunar-calendar RDEPEND
+
+*holidays-0.10.2 (16 Apr 2020)
+
+  16 Apr 2020; Andreas Billmeier <b@edevau.net> +holidays-0.10.2.ebuild:
+  bump holidays-0.10.2
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> holidays-0.9.12.ebuild:
+  sort KEYWORDS where complained by repoman
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> holidays-0.10.1.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: H-I
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> holidays-0.9.10.ebuild,
+  holidays-0.9.11.ebuild:
+  minor code cleanups
+
+*holidays-0.10.1 (02 Feb 2020)
+
+  02 Feb 2020; Andreas Billmeier <b@edevau.net> +holidays-0.10.1.ebuild:
+  bump holidays-0.10.1
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> holidays-0.9.12.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*holidays-0.9.12 (31 Dec 2019)
+
+  31 Dec 2019; Andreas Billmeier <b@edevau.net> +holidays-0.9.12.ebuild:
+  bump holidays-0.9.12
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> holidays-0.9.10.ebuild,
+  holidays-0.9.11.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*holidays-0.9.11 (31 Jul 2019)
+*holidays-0.9.10 (31 Jul 2019)
+
+  31 Jul 2019; Andreas Billmeier <b@edevau.net> +holidays-0.9.10.ebuild,
+  +holidays-0.9.11.ebuild, +metadata.xml:
+  add holidays-0.9.11
+

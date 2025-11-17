@@ -1,0 +1,263 @@
+# ChangeLog for dev-python/pypck
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypck-0.8.10.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*pypck-0.8.12 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pypck-0.8.12.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypck-0.8.9.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*pypck-0.8.10 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pypck-0.8.10.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypck-0.8.8.ebuild:
+  Cleansing
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypck-0.8.6.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*pypck-0.8.9 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pypck-0.8.9.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*pypck-0.8.8 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypck-0.8.5.ebuild, +pypck-0.8.8.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*pypck-0.8.6 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pypck-0.8.6.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pypck-0.8.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypck-0.7.17.ebuild, -pypck-0.7.23.ebuild, -pypck-0.7.24.ebuild,
+  -pypck-0.8.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pypck-0.7.17.ebuilde, -pypck-0.7.23.ebuilde, -pypck-0.7.24.ebuilde,
+  -pypck-0.8.1.ebuilde, -pypck-0.8.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pypck-0.7.17.ebuilde, +pypck-0.7.23.ebuilde, +pypck-0.7.24.ebuilde,
+  +pypck-0.8.1.ebuilde, +pypck-0.8.5.ebuilde:
+  Fix KEYWORDS
+
+*pypck-0.8.5 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pypck-0.8.5.ebuild:
+  homeassisstant-2025.2.0
+
+*pypck-0.8.1 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pypck-0.8.1.ebuild:
+  homeassistant 2025.1.1
+
+*pypck-0.7.24 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +pypck-0.7.24.ebuild:
+  add 0.7.24
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4036
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pypck-0.7.23 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> pypck-0.7.17.ebuild,
+  +pypck-0.7.23.ebuild:
+  add 0.7.23
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3876
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pypck-0.7.15.ebuild,
+  -pypck-0.7.16.ebuild:
+  drop 0.7.15, 0.7.16
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pypck-0.7.17 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +pypck-0.7.17.ebuild:
+  add 0.7.17
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> pypck-0.7.15.ebuild,
+  pypck-0.7.16.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pypck-0.7.15.ebuild,
+  pypck-0.7.16.ebuild:
+  remove Python 3.8 Support tag
+
+*pypck-0.7.16 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -pypck-0.7.14.ebuild,
+  +pypck-0.7.16.ebuild:
+  add 0.7.16, drop 0.7.14
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pypck-0.7.14.ebuild,
+  pypck-0.7.15.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pypck-0.7.15 (04 Jun 2022)
+
+  04 Jun 2022; Andreas Billmeier <b@edevau.net> -pypck-0.7.10.ebuild,
+  -pypck-0.7.13.ebuild, pypck-0.7.14.ebuild, +pypck-0.7.15.ebuild:
+  bump pypck-0.7.15
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pypck-0.7.10.ebuild,
+  pypck-0.7.13.ebuild, pypck-0.7.14.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pypck-0.7.14 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +pypck-0.7.14.ebuild:
+  bump pypck-0.7.14
+
+*pypck-0.7.13 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -pypck-0.7.9.ebuild,
+  +pypck-0.7.13.ebuild:
+  bump pypck-0.7.13
+
+*pypck-0.7.10 (16 Jul 2021)
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net> -pypck-0.7.4.ebuild,
+  -pypck-0.7.6.ebuild, -pypck-0.7.7.ebuild, -pypck-0.7.8.ebuild,
+  +pypck-0.7.10.ebuild:
+  bump pypck-0.7.10
+
+*pypck-0.7.9 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> -pypck-0.7.2.ebuild,
+  +pypck-0.7.9.ebuild:
+  bump pypck-0.7.9
+
+*pypck-0.7.8 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -pypck-0.6.4.ebuild,
+  +pypck-0.7.8.ebuild:
+  bump pypck-0.7.8
+
+*pypck-0.7.7 (03 Dec 2020)
+
+  03 Dec 2020; Andreas Billmeier <b@edevau.net> -pypck-0.6.3.ebuild,
+  +pypck-0.7.7.ebuild:
+  update pypck-0.7.7, remove patch
+
+*pypck-0.7.6 (01 Dec 2020)
+
+  01 Dec 2020; Andreas Billmeier <b@edevau.net> -pypck-0.6.2.ebuild,
+  +pypck-0.7.6.ebuild:
+  update pypck-0.7.6
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pypck-0.6.2.ebuild,
+  pypck-0.6.3.ebuild, pypck-0.6.4.ebuild, pypck-0.7.2.ebuild,
+  pypck-0.7.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pypck-0.7.4 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net> -pypck-0.6.0.ebuild,
+  -pypck-0.6.1.ebuild, +pypck-0.7.4.ebuild:
+  bump pypck-0.7.4
+
+*pypck-0.7.2 (28 Sep 2020)
+
+  28 Sep 2020; Andreas Billmeier <b@edevau.net> +pypck-0.7.2.ebuild:
+  bump pypck-0.7.2
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> pypck-0.6.0.ebuild,
+  pypck-0.6.1.ebuild, pypck-0.6.2.ebuild, pypck-0.6.3.ebuild,
+  pypck-0.6.4.ebuild:
+  pypck: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/152
+
+*pypck-0.6.4 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +pypck-0.6.4.ebuild:
+  bump pypck-0.6.4
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pypck-0.6.3.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pypck-0.6.0.ebuild,
+  pypck-0.6.1.ebuild, pypck-0.6.2.ebuild, pypck-0.6.3.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pypck-0.6.0.ebuild,
+  pypck-0.6.1.ebuild, pypck-0.6.2.ebuild, pypck-0.6.3.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> pypck-0.6.0.ebuild,
+  pypck-0.6.1.ebuild, pypck-0.6.2.ebuild, pypck-0.6.3.ebuild:
+  Add missing license strings as far as possible
+
+*pypck-0.6.3 (31 Jul 2019)
+
+  31 Jul 2019; Andreas Billmeier <b@edevau.net> +pypck-0.6.3.ebuild:
+  bump pypck-0.6.3
+
+*pypck-0.6.2 (23 Jun 2019)
+
+  23 Jun 2019; Andreas Billmeier <b@edevau.net> -pypck-0.5.9.ebuild,
+  +pypck-0.6.2.ebuild:
+  bump pypck-0.6.2
+
+*pypck-0.6.1 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net> +pypck-0.6.1.ebuild:
+  bump pypck-0.6.1
+
+*pypck-0.6.0 (02 Jun 2019)
+*pypck-0.5.9 (02 Jun 2019)
+
+  02 Jun 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pypck-0.5.9.ebuild, +pypck-0.6.0.ebuild:
+  add pypck
+

@@ -1,0 +1,142 @@
+# ChangeLog for dev-python/aiolifx-themes
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiolifx-themes-0.6.4.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+*aiolifx-themes-1.0.2 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiolifx-themes-1.0.2.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiolifx-themes-0.6.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiolifx-themes-0.4.15.ebuild, -aiolifx-themes-0.5.0.ebuild,
+  -aiolifx-themes-0.5.5.ebuild, -aiolifx-themes-0.6.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiolifx-themes-0.4.15.ebuilde, -aiolifx-themes-0.5.0.ebuilde,
+  -aiolifx-themes-0.5.5.ebuilde, -aiolifx-themes-0.6.0.ebuilde,
+  -aiolifx-themes-0.6.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-themes-0.4.15.ebuilde, +aiolifx-themes-0.5.0.ebuilde,
+  +aiolifx-themes-0.5.5.ebuilde, +aiolifx-themes-0.6.0.ebuilde,
+  +aiolifx-themes-0.6.4.ebuilde:
+  Fix KEYWORDS
+
+*aiolifx-themes-0.6.4 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-themes-0.6.4.ebuild:
+  homeassisstant-2025.2.0
+
+*aiolifx-themes-0.6.0 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-themes-0.6.0.ebuild:
+  homeassistant 2025.1.1
+
+*aiolifx-themes-0.5.5 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -aiolifx-themes-0.4.10.ebuild,
+  +aiolifx-themes-0.5.5.ebuild:
+  add 0.5.5, drop 0.4.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3681
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-themes-0.5.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-themes-0.5.0.ebuild:
+  homeassistant 2024.9.1
+
+*aiolifx-themes-0.5.5 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-themes-0.5.5.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*aiolifx-themes-0.4.15 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> aiolifx-themes-0.4.10.ebuild,
+  +aiolifx-themes-0.4.15.ebuild:
+  add 0.4.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3282
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -aiolifx-themes-0.4.5.ebuild,
+  aiolifx-themes-0.4.10.ebuild:
+  drop 0.4.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-themes-0.4.10 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +aiolifx-themes-0.4.10.ebuild:
+  add 0.4.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2459
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -aiolifx-themes-0.2.0.ebuild,
+  -aiolifx-themes-0.4.0.ebuild:
+  drop 0.2.0, 0.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiolifx-themes-0.2.0.ebuild,
+  aiolifx-themes-0.4.0.ebuild, aiolifx-themes-0.4.5.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> aiolifx-themes-0.2.0.ebuild,
+  aiolifx-themes-0.4.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-themes-0.4.5 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> +aiolifx-themes-0.4.5.ebuild:
+  add 0.4.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiolifx-themes-0.2.0.ebuild,
+  aiolifx-themes-0.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+*aiolifx-themes-0.4.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> +aiolifx-themes-0.4.0.ebuild,
+  metadata.xml:
+  add 0.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> aiolifx-themes-0.2.0.ebuild,
+  metadata.xml:
+  PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-themes-0.2.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +aiolifx-themes-0.2.0.ebuild,
+  +metadata.xml:
+  new package, add 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

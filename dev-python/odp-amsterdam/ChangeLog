@@ -1,0 +1,108 @@
+# ChangeLog for dev-python/odp-amsterdam
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -odp-amsterdam-6.1.1.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*odp-amsterdam-6.1.2 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +odp-amsterdam-6.1.2.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -odp-amsterdam-6.0.2.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*odp-amsterdam-6.1.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +odp-amsterdam-6.1.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  odp-amsterdam-6.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -odp-amsterdam-6.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -odp-amsterdam-6.0.1.ebuilde, -odp-amsterdam-6.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +odp-amsterdam-6.0.1.ebuilde, +odp-amsterdam-6.0.2.ebuilde:
+  Fix KEYWORDS
+
+*odp-amsterdam-6.0.2 (20 Oct 2024)
+
+  20 Oct 2024; Andreas Billmeier <b@edevau.net> -odp-amsterdam-6.0.0.ebuild,
+  odp-amsterdam-6.0.1.ebuild, +odp-amsterdam-6.0.2.ebuild:
+  drop 6.0.0, add 6.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3633
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*odp-amsterdam-6.0.1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> -odp-amsterdam-5.3.1.ebuild,
+  odp-amsterdam-6.0.0.ebuild, +odp-amsterdam-6.0.1.ebuild:
+  drop 5.3.1, add 6.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2971
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -odp-amsterdam-5.1.0.ebuild:
+  drop 5.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*odp-amsterdam-6.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +odp-amsterdam-6.0.0.ebuild:
+  add 6.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2443
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*odp-amsterdam-5.3.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +odp-amsterdam-5.3.1.ebuild:
+  add 5.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -odp-amsterdam-5.0.1.ebuild,
+  odp-amsterdam-5.1.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*odp-amsterdam-5.1.0 (02 Mar 2023)
+
+  02 Mar 2023; Andreas Billmeier <b@edevau.net> -odp-amsterdam-5.0.0.ebuild,
+  +odp-amsterdam-5.1.0.ebuild:
+  add 5.1.0, drop 5.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*odp-amsterdam-5.0.1 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> odp-amsterdam-5.0.0.ebuild,
+  +odp-amsterdam-5.0.1.ebuild:
+  add 5.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*odp-amsterdam-5.0.0 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +odp-amsterdam-5.0.0.ebuild:
+  new package, add 5.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

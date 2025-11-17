@@ -1,0 +1,53 @@
+# ChangeLog for dev-python/dicttoxml2
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dicttoxml2-2.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -dicttoxml2-2.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dicttoxml2-2.1.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  dicttoxml2-2.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> dicttoxml2-2.1.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> dicttoxml2-2.1.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> dicttoxml2-2.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dicttoxml2-2.1.0 (15 Oct 2022)
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -dicttoxml2-2.0.0.ebuild,
+  +dicttoxml2-2.1.0.ebuild:
+  rework, remove olds
+
+  21 Jul 2022; Andreas Billmeier <b@edevau.net> dicttoxml2-2.0.0.ebuild:
+  fix incorrect LICENSE in dicttoxml and dicttoxml2
+
+*dicttoxml2-2.0.0 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> +dicttoxml2-2.0.0.ebuild,
+  +metadata.xml:
+  add dicttoxml2
+

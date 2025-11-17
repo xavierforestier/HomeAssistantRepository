@@ -1,0 +1,194 @@
+# ChangeLog for dev-python/yeelight
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  yeelight-0.7.16.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yeelight-0.7.14.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -yeelight-0.7.14.ebuilde, -yeelight-0.7.16.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yeelight-0.7.14.ebuilde, +yeelight-0.7.16.ebuilde:
+  Fix KEYWORDS
+
+*yeelight-0.7.16 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yeelight-0.7.16.ebuild:
+  homeassisstant-2025.2.0
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> yeelight-0.7.14.ebuild:
+  enable py3.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2700
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  13 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  yeelight-0.7.14.ebuild:
+  homeassistant 2024.10.1
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -yeelight-0.7.13.ebuild,
+  yeelight-0.7.14.ebuild:
+  drop 0.7.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  yeelight-0.7.13.ebuild, yeelight-0.7.14.ebuild:
+  update metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -yeelight-0.7.10.ebuild:
+  drop 0.7.10
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yeelight-0.7.14 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +yeelight-0.7.14.ebuild:
+  add 0.7.14
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2513
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yeelight-0.7.13 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  yeelight-0.7.10.ebuild, +yeelight-0.7.13.ebuild:
+  update 0.7.10, add 0.7.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> yeelight-0.7.10.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> yeelight-0.7.10.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -yeelight-0.7.8.ebuild,
+  -yeelight-0.7.9.ebuild, yeelight-0.7.10.ebuild:
+  rework, remove olds
+
+*yeelight-0.7.10 (04 Apr 2022)
+
+  04 Apr 2022; Andreas Billmeier <b@edevau.net> +yeelight-0.7.10.ebuild:
+  bump yeelight-0.7.10
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> yeelight-0.7.9.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> yeelight-0.7.8.ebuild,
+  yeelight-0.7.9.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*yeelight-0.7.9 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -yeelight-0.6.3.ebuild,
+  -yeelight-0.7.4.ebuild, -yeelight-0.7.6.ebuild, -yeelight-0.7.7.ebuild,
+  +yeelight-0.7.9.ebuild:
+  bump yeelight-0.7.9
+
+*yeelight-0.7.8 (17 Oct 2021)
+
+  17 Oct 2021; Andreas Billmeier <b@edevau.net> -yeelight-0.7.5.ebuild,
+  +yeelight-0.7.8.ebuild:
+  update yeelight-0.7.8
+
+*yeelight-0.7.7 (12 Oct 2021)
+
+  12 Oct 2021; Andreas Billmeier <b@edevau.net> +yeelight-0.7.7.ebuild:
+  bump yeelight-0.7.7
+
+*yeelight-0.7.6 (07 Oct 2021)
+
+  07 Oct 2021; Andreas Billmeier <b@edevau.net> +yeelight-0.7.6.ebuild:
+  update yeelight-0.7.6
+
+*yeelight-0.7.5 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +yeelight-0.7.5.ebuild:
+  bump yeelight-0.7.5
+
+  02 Sep 2021; Andreas Billmeier <b@edevau.net> -yeelight-0.5.4.ebuild,
+  -yeelight-0.6.2.ebuild:
+  cleanup yeelight, fixes #185
+
+*yeelight-0.7.4 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> +yeelight-0.7.4.ebuild:
+  update yeelight-0.7.4
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net> yeelight-0.5.4.ebuild,
+  yeelight-0.6.2.ebuild:
+  update yeelight Python targets
+
+*yeelight-0.6.3 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -yeelight-0.5.1.ebuild,
+  -yeelight-0.5.2.ebuild, -yeelight-0.5.3.ebuild, +yeelight-0.6.3.ebuild:
+  update yeelight-0.6.3
+
+*yeelight-0.6.2 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> -yeelight-0.5.0.ebuild,
+  +yeelight-0.6.2.ebuild:
+  bump yeelight-0.6.2
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> yeelight-0.5.0.ebuild,
+  yeelight-0.5.1.ebuild, yeelight-0.5.2.ebuild, yeelight-0.5.3.ebuild,
+  yeelight-0.5.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*yeelight-0.5.4 (09 Oct 2020)
+
+  09 Oct 2020; Andreas Billmeier <b@edevau.net> +yeelight-0.5.4.ebuild:
+  update yeelight-0.5.4.ebuild
+
+*yeelight-0.5.3 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +yeelight-0.5.3.ebuild:
+  bump yeelight-0.5.3
+
+*yeelight-0.5.2 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +yeelight-0.5.2.ebuild:
+  bump yeelight-0.5.2
+
+*yeelight-0.5.1 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +yeelight-0.5.1.ebuild:
+  bump yeelight-0.5.1
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> yeelight-0.5.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> yeelight-0.5.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*yeelight-0.5.0 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +yeelight-0.5.0.ebuild:
+  add yeelight-0.5.0
+

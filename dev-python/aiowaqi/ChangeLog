@@ -1,0 +1,67 @@
+# ChangeLog for dev-python/aiowaqi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiowaqi-3.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiowaqi-3.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiowaqi-3.0.1.ebuilde, -aiowaqi-3.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiowaqi-3.0.1.ebuilde, +aiowaqi-3.1.0.ebuilde:
+  Fix KEYWORDS
+
+*aiowaqi-3.1.0 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> aiowaqi-3.0.1.ebuild,
+  +aiowaqi-3.1.0.ebuild:
+  add 3.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3500
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -aiowaqi-2.1.0.ebuild,
+  -aiowaqi-3.0.0.ebuild, aiowaqi-3.0.1.ebuild:
+  drop 2.1.0, drop 3.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowaqi-3.0.1 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +aiowaqi-3.0.1.ebuild:
+  add 3.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2508
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowaqi-3.0.0 (05 Nov 2023)
+
+  05 Nov 2023; Andreas Billmeier <b@edevau.net> -aiowaqi-2.0.0.ebuild,
+  +aiowaqi-3.0.0.ebuild:
+  add 3.0.0, drop 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2372
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowaqi-2.1.0 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +aiowaqi-2.1.0.ebuild:
+  add 2.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowaqi-2.0.0 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net> +aiowaqi-2.0.0.ebuild,
+  +metadata.xml:
+  new package, add 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

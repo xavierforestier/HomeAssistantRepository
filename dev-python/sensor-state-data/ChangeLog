@@ -1,0 +1,133 @@
+# ChangeLog for dev-python/sensor-state-data
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*sensor-state-data-2.20.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +sensor-state-data-2.20.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*sensor-state-data-2.19.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +sensor-state-data-2.19.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sensor-state-data-2.18.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -sensor-state-data-2.18.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sensor-state-data-2.18.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  sensor-state-data-2.18.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -sensor-state-data-2.17.1.ebuild, sensor-state-data-2.18.0.ebuild:
+  drop 2.17.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensor-state-data-2.18.0 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  sensor-state-data-2.17.1.ebuild, +sensor-state-data-2.18.0.ebuild:
+  add 2.18.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -sensor-state-data-2.14.0.ebuild, -sensor-state-data-2.16.1.ebuild:
+  drop 2.14.0, 2.16.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensor-state-data-2.17.1 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +sensor-state-data-2.17.1.ebuild:
+  add 2.17.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensor-state-data-2.16.1 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net>
+  -sensor-state-data-2.13.0.ebuild, sensor-state-data-2.14.0.ebuild,
+  +sensor-state-data-2.16.1.ebuild:
+  drop olds, add 2.16.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net>
+  sensor-state-data-2.13.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensor-state-data-2.14.0 (08 Apr 2023)
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net>
+  -sensor-state-data-2.12.1.ebuild, +sensor-state-data-2.14.0.ebuild:
+  add 2.14.0, drop 2.12.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  sensor-state-data-2.12.1.ebuild, sensor-state-data-2.13.0.ebuild:
+  remove Python 3.8 Support tag
+
+*sensor-state-data-2.13.0 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net>
+  -sensor-state-data-2.9.0.ebuild, +sensor-state-data-2.13.0.ebuild:
+  add 2.13.0, drop 2.9.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensor-state-data-2.12.1 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -sensor-state-data-2.6.0.ebuild, +sensor-state-data-2.12.1.ebuild:
+  add 2.12.1, drop 2.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  sensor-state-data-2.6.0.ebuild, sensor-state-data-2.9.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sensor-state-data-2.9.0 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -sensor-state-data-2.2.0.ebuild, +sensor-state-data-2.9.0.ebuild:
+  update sensor-state-data-2.9.0
+
+*sensor-state-data-2.6.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -sensor-state-data-2.0.2.ebuild, +sensor-state-data-2.6.0.ebuild:
+  bump sensor-state-data-2.6.0
+
+*sensor-state-data-2.2.0 (16 Aug 2022)
+
+  16 Aug 2022; Andreas Billmeier <b@edevau.net>
+  +sensor-state-data-2.2.0.ebuild:
+  update sensor-state-data-2.2.0
+
+*sensor-state-data-2.0.2 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +sensor-state-data-2.0.2.ebuild:
+  add sensor-state-data-2.0.2
+

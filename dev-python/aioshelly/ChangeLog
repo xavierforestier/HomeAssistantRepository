@@ -1,0 +1,552 @@
+# ChangeLog for dev-python/aioshelly
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aioshelly-13.15.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioshelly-13.15.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-13.8.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aioshelly-13.10.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioshelly-13.10.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-13.7.2.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*aioshelly-13.8.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioshelly-13.8.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-13.7.1.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-13.6.0.ebuild:
+  Cleansing
+
+*aioshelly-13.7.2 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioshelly-13.7.2.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+*aioshelly-13.7.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioshelly-13.7.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-13.4.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*aioshelly-13.6.0 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioshelly-13.6.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioshelly-13.4.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-13.1.0.ebuild, -aioshelly-13.4.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-9.0.0.ebuild, -aioshelly-10.0.1.ebuild, -aioshelly-11.4.2.ebuild,
+  -aioshelly-12.0.1.ebuild, -aioshelly-12.1.0.ebuild,
+  -aioshelly-12.2.0.ebuild, -aioshelly-12.3.2.ebuild,
+  -aioshelly-12.4.1.ebuild, -aioshelly-12.4.2.ebuild:
+  Cleansing orphans
+
+*aioshelly-13.4.1 (14 Apr 2025)
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-13.4.1.ebuild:
+  homeassistant-2025.4.2
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioshelly-10.0.1.ebuilde, -aioshelly-11.4.2.ebuilde,
+  -aioshelly-12.0.1.ebuilde, -aioshelly-12.1.0.ebuilde,
+  -aioshelly-12.2.0.ebuilde, -aioshelly-12.3.2.ebuilde,
+  -aioshelly-12.4.1.ebuilde, -aioshelly-12.4.2.ebuilde,
+  -aioshelly-13.1.0.ebuilde, -aioshelly-13.4.0.ebuilde,
+  -aioshelly-9.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-10.0.1.ebuilde, +aioshelly-11.4.2.ebuilde,
+  +aioshelly-12.0.1.ebuilde, +aioshelly-12.1.0.ebuilde,
+  +aioshelly-12.2.0.ebuilde, +aioshelly-12.3.2.ebuilde,
+  +aioshelly-12.4.1.ebuilde, +aioshelly-12.4.2.ebuilde,
+  +aioshelly-13.1.0.ebuilde, +aioshelly-13.4.0.ebuilde,
+  +aioshelly-9.0.0.ebuilde:
+  Fix KEYWORDS
+
+*aioshelly-13.4.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-13.4.0.ebuild:
+  Homeassistant 2025.4.0
+
+*aioshelly-13.1.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-13.1.0.ebuild:
+  homeassistant 2025.3.0
+
+*aioshelly-12.4.2 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-12.4.2.ebuild:
+  homeassistant-2025.2.2
+
+*aioshelly-12.4.1 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-12.4.1.ebuild:
+  homeassistant-2025-2.1
+
+*aioshelly-12.3.2 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-12.3.2.ebuild:
+  homeassisstant-2025.2.0
+
+*aioshelly-12.2.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-12.2.0.ebuild:
+  homeassistant 2025.1.1
+
+*aioshelly-12.1.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-12.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -aioshelly-11.2.4.ebuild:
+  drop 11.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-12.0.1 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +aioshelly-12.0.1.ebuild:
+  add 12.0.1
+  dev-python/sensorpush-ble: drop 1.5.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> aioshelly-11.2.4.ebuild:
+  remove blank line
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-11.4.2 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +aioshelly-11.4.2.ebuild:
+  add 11.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3752
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-11.3.0 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-11.3.0.ebuild:
+  homeassistant 2024.9.0_beta2
+
+*aioshelly-11.4.2 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-11.4.2.ebuild:
+  Home Assitant 2024.9.3 working :)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aioshelly-11.2.4.ebuild, +files/aioshelly.patch:
+  feature/Freebox librairies
+
+*aioshelly-11.2.4 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-11.2.4.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aioshelly-11.2.4.ebuild, +files/aioshelly.patch:
+  feature/Freebox librairies
+
+*aioshelly-11.2.4 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioshelly-11.2.4.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*aioshelly-10.0.1 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> +aioshelly-10.0.1.ebuild:
+  add 10.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3496
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-9.0.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -aioshelly-6.1.0.ebuild,
+  -aioshelly-7.0.0.ebuild, -aioshelly-8.0.1.ebuild, aioshelly-8.1.1.ebuild,
+  aioshelly-8.2.0.ebuild, +aioshelly-9.0.0.ebuild:
+  drop olds, add 9.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3301
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-8.2.0 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +aioshelly-8.2.0.ebuild:
+  add 8.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/y
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> -aioshelly-7.1.0.ebuild:
+  drop 7.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-8.1.1 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -aioshelly-6.0.0.ebuild,
+  aioshelly-6.1.0.ebuild, aioshelly-7.0.0.ebuild, aioshelly-7.1.0.ebuild,
+  aioshelly-8.0.1.ebuild, +aioshelly-8.1.1.ebuild:
+  add 8.1.1, drop 6.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3020
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-8.0.1 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +aioshelly-8.0.1.ebuild:
+  add 8.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2851
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-7.1.0 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> +aioshelly-7.1.0.ebuild:
+  dev-python/habluetooth: add 2.1.0
+  dev-python/aioshelly: add 7.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2721
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-7.0.0 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> aioshelly-6.0.0.ebuild,
+  aioshelly-6.1.0.ebuild, +aioshelly-7.0.0.ebuild:
+  add 7.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-6.1.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +aioshelly-6.1.0.ebuild:
+  add 6.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2492
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aioshelly-6.0.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -aioshelly-5.3.1.ebuild,
+  -aioshelly-5.3.2.ebuild:
+  drop 5.3.1, 5.3.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-6.0.0 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +aioshelly-6.0.0.ebuild:
+  add 6.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -aioshelly-4.1.2.ebuild:
+  drop 4.1.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aioshelly-4.1.2.ebuild,
+  aioshelly-5.3.1.ebuild, aioshelly-5.3.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-5.3.2 (01 May 2023)
+
+  01 May 2023; Andreas Billmeier <b@edevau.net> -aioshelly-5.1.2.ebuild,
+  -aioshelly-5.2.0.ebuild, -aioshelly-5.2.1.ebuild, +aioshelly-5.3.2.ebuild:
+  bump aioshelly-5.3.2
+
+*aioshelly-5.3.1 (10 Feb 2023)
+
+  10 Feb 2023; Andreas Billmeier <b@edevau.net> +aioshelly-5.3.1.ebuild:
+  add 5.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-5.2.1 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> aioshelly-4.1.2.ebuild,
+  aioshelly-5.1.2.ebuild, aioshelly-5.2.0.ebuild, +aioshelly-5.2.1.ebuild:
+  add 5.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-5.2.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -aioshelly-5.1.1.ebuild,
+  +aioshelly-5.2.0.ebuild:
+  add 5.2.0, drop 5.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-5.1.2 (15 Dec 2022)
+
+  15 Dec 2022; Andreas Billmeier <b@edevau.net> -aioshelly-5.1.0.ebuild,
+  +aioshelly-5.1.2.ebuild:
+  add 5.1.2, drop 5.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-5.1.1 (12 Dec 2022)
+
+  12 Dec 2022; Andreas Billmeier <b@edevau.net> -aioshelly-2.0.1.ebuild,
+  -aioshelly-2.0.2.ebuild, +aioshelly-5.1.1.ebuild:
+  drop 2.0.1, 2.0.2, bump 5.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-5.1.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> aioshelly-2.0.1.ebuild,
+  aioshelly-2.0.2.ebuild, -aioshelly-4.1.1.ebuild, aioshelly-4.1.2.ebuild,
+  +aioshelly-5.1.0.ebuild, metadata.xml:
+  update 5.1.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-4.1.2 (02 Nov 2022)
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net> +aioshelly-4.1.2.ebuild:
+  add 4.1.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-4.1.1 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +aioshelly-4.1.1.ebuild:
+  add 4.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioshelly-2.0.1.ebuild,
+  aioshelly-2.0.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioshelly-2.0.2 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> -aioshelly-2.0.0.ebuild,
+  aioshelly-2.0.1.ebuild, +aioshelly-2.0.2.ebuild:
+  bump aioshelly-2.0.2
+
+*aioshelly-2.0.1 (21 Jul 2022)
+
+  21 Jul 2022; Andreas Billmeier <b@edevau.net> -aioshelly-1.0.11.ebuild,
+  aioshelly-2.0.0.ebuild, +aioshelly-2.0.1.ebuild:
+  bump aioshelly-2.0.1
+
+*aioshelly-2.0.0 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> -aioshelly-1.0.5.ebuild,
+  -aioshelly-1.0.9.ebuild, -aioshelly-1.0.10.ebuild, +aioshelly-2.0.0.ebuild:
+  bump aioshelly-2.0.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aioshelly-1.0.5.ebuild,
+  aioshelly-1.0.9.ebuild, aioshelly-1.0.10.ebuild, aioshelly-1.0.11.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aioshelly-1.0.11 (03 Mar 2022)
+
+  03 Mar 2022; Andreas Billmeier <b@edevau.net> -aioshelly-1.0.4.ebuild,
+  +aioshelly-1.0.11.ebuild:
+  bump aioshelly-1.0.11
+
+*aioshelly-1.0.10 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -aioshelly-1.0.8.ebuild,
+  +aioshelly-1.0.10.ebuild:
+  bump aioshelly-1.0.10
+
+*aioshelly-1.0.9 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -aioshelly-1.0.2.ebuild,
+  +aioshelly-1.0.9.ebuild:
+  bump aioshelly-1.0.9
+
+*aioshelly-1.0.8 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -aioshelly-0.6.4.ebuild,
+  +aioshelly-1.0.8.ebuild:
+  bump aioshelly-1.0.8
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aioshelly-0.6.4.ebuild,
+  aioshelly-1.0.2.ebuild, aioshelly-1.0.4.ebuild, aioshelly-1.0.5.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aioshelly-1.0.5 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -aioshelly-1.0.1.ebuild,
+  +aioshelly-1.0.5.ebuild:
+  bump aioshelly-1.0.5
+
+*aioshelly-1.0.4 (09 Nov 2021)
+
+  09 Nov 2021; Andreas Billmeier <b@edevau.net> +aioshelly-1.0.4.ebuild:
+  bump aioshelly-1.0.4
+
+*aioshelly-1.0.2 (07 Oct 2021)
+
+  07 Oct 2021; Andreas Billmeier <b@edevau.net> +aioshelly-1.0.2.ebuild:
+  bump aioshelly-1.0.2
+
+*aioshelly-1.0.1 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -aioshelly-0.6.1.ebuild,
+  -aioshelly-0.6.2.ebuild, +aioshelly-1.0.1.ebuild:
+  bump aioshelly-1.0.1
+
+  29 Aug 2021; Andreas Billmeier <b@edevau.net> aioshelly-0.6.4.ebuild:
+  mark 'knows-as-good-for-long' packages stable
+
+*aioshelly-0.6.4 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -aioshelly-0.5.3.ebuild,
+  -aioshelly-0.5.4.ebuild, -aioshelly-0.6.0.ebuild, +aioshelly-0.6.4.ebuild:
+  update aioshelly-0.6.4
+
+*aioshelly-0.6.2 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> -aioshelly-0.5.1_beta0.ebuild,
+  -aioshelly-0.5.1.ebuild, +aioshelly-0.6.2.ebuild:
+  update aioshelly-0.6.2
+
+*aioshelly-0.6.1 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -aioshelly-0.5.0.ebuild,
+  +aioshelly-0.6.1.ebuild:
+  bump aioshelly-0.6.1
+
+*aioshelly-0.5.1_beta0 (15 Feb 2021)
+
+  15 Feb 2021; Andreas Billmeier <b@edevau.net> +aioshelly-0.5.1_beta0.ebuild:
+  dg aioshelly-0.5.1_beta0
+
+*aioshelly-0.6.0 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net> -aioshelly-0.4.0.ebuild,
+  +aioshelly-0.6.0.ebuild:
+  bump aioshelly-0.6.0
+
+*aioshelly-0.5.4 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> -aioshelly-0.3.4.ebuild,
+  +aioshelly-0.5.4.ebuild:
+  bump aioshelly-0.5.4
+
+*aioshelly-0.5.3 (19 Jan 2021)
+
+  19 Jan 2021; Andreas Billmeier <b@edevau.net> -aioshelly-0.3.3.ebuild,
+  +aioshelly-0.5.3.ebuild:
+  update aioshelly-0.5.3
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aioshelly-0.3.3.ebuild,
+  aioshelly-0.3.4.ebuild, aioshelly-0.4.0.ebuild, aioshelly-0.5.0.ebuild,
+  aioshelly-0.5.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aioshelly-0.5.1 (09 Nov 2020)
+
+  09 Nov 2020; Andreas Billmeier <b@edevau.net> -aioshelly-0.3.1.ebuild,
+  -aioshelly-0.3.2.ebuild, +aioshelly-0.5.1.ebuild:
+  bump aioshelly-0.5.1
+
+*aioshelly-0.5.0 (03 Nov 2020)
+
+  03 Nov 2020; Andreas Billmeier <b@edevau.net> +aioshelly-0.5.0.ebuild:
+  update aioshelly-0.5.0
+
+*aioshelly-0.4.0 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net> -aioshelly-0.2.2.ebuild,
+  -aioshelly-0.3.0.ebuild, +aioshelly-0.4.0.ebuild:
+  bump aioshelly-0.4.0
+
+*aioshelly-0.3.4 (02 Oct 2020)
+
+  02 Oct 2020; Andreas Billmeier <b@edevau.net> +aioshelly-0.3.4.ebuild:
+  bump aioshelly-0.3.4
+
+*aioshelly-0.3.3 (27 Sep 2020)
+
+  27 Sep 2020; Andreas Billmeier <b@edevau.net> -aioshelly-0.1.2.ebuild,
+  +aioshelly-0.3.3.ebuild:
+  bump aioshelly-0.3.3
+
+*aioshelly-0.3.2 (16 Sep 2020)
+
+  16 Sep 2020; Andreas Billmeier <b@edevau.net> +aioshelly-0.3.2.ebuild:
+  bump aioshelly-0.3.2
+
+*aioshelly-0.3.1 (11 Sep 2020)
+
+  11 Sep 2020; Andreas Billmeier <b@edevau.net> +aioshelly-0.3.1.ebuild:
+  aioshelly-0.3.1 bumped
+
+*aioshelly-0.3.0 (07 Sep 2020)
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> +aioshelly-0.3.0.ebuild:
+  update aioshelly-0.3.0
+
+*aioshelly-0.2.2 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> aioshelly-0.1.2.ebuild,
+  +aioshelly-0.2.2.ebuild:
+  update aioshelly-0.2.2, add REDEPS in aioshelly-0.1.2
+
+*aioshelly-0.1.2 (24 Aug 2020)
+
+  24 Aug 2020; Andreas Billmeier <b@edevau.net> +aioshelly-0.1.2.ebuild,
+  +metadata.xml:
+  add aioshelly-0.1.2
+

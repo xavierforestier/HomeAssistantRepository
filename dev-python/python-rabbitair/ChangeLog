@@ -1,0 +1,29 @@
+# ChangeLog for dev-python/python-rabbitair
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-rabbitair-0.0.8.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-rabbitair-0.0.8.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-rabbitair-0.0.8.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  python-rabbitair-0.0.8.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*python-rabbitair-0.0.8 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-rabbitair-0.0.8.ebuild:
+  new package, add 0.0.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2839
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

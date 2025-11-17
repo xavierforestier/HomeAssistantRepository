@@ -1,0 +1,194 @@
+# ChangeLog for dev-python/roonapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  roonapi-0.1.6.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  roonapi-0.1.6.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -roonapi-0.1.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +roonapi-0.1.6.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  roonapi-0.1.6.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -roonapi-0.1.5.ebuild,
+  roonapi-0.1.6.ebuild:
+  drop 0.1.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  07 Jan 2024; Andreas Billmeier <b@edevau.net> roonapi-0.1.5.ebuild,
+  roonapi-0.1.6.ebuild:
+  fix EmptyGlobalAssignment
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> -roonapi-0.1.4.ebuild:
+  drop 0.1.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*roonapi-0.1.6 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> roonapi-0.1.4.ebuild,
+  roonapi-0.1.5.ebuild, +roonapi-0.1.6.ebuild:
+  add 0.1.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2641
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*roonapi-0.1.5 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +roonapi-0.1.5.ebuild:
+  add 0.1.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2488
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> -roonapi-0.1.1.ebuild,
+  -roonapi-0.1.3.ebuild, roonapi-0.1.4.ebuild:
+  drop 0.1.1, 0.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*roonapi-0.1.4 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -roonapi-0.1.2.ebuild, +roonapi-0.1.4.ebuild:
+  add 0.1.4, drop 0.1.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*roonapi-0.1.3 (11 Feb 2023)
+
+  11 Feb 2023; Fco Javier Felix <ffelix@inode64.com> +roonapi-0.1.3.ebuild:
+  update roonai-0.1.3
+  Change src download, in mirror:pypi have deleted the test directory and
+  changelog.md
+  Remove test, Always failed, I make a bug in
+  https://github.com/pavoni/pyroon/issues/69
+
+  check with pkgcheck 0.10.21
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> roonapi-0.1.1.ebuild,
+  roonapi-0.1.2.ebuild:
+  remove Python 3.8 Support tag
+
+*roonapi-0.1.2 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> +roonapi-0.1.2.ebuild:
+  add 0.1.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -roonapi-0.0.38.ebuild,
+  roonapi-0.1.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+*roonapi-0.1.1 (21 Apr 2022)
+
+  21 Apr 2022; Andreas Billmeier <b@edevau.net> -roonapi-0.0.32.ebuild,
+  -roonapi-0.0.36.ebuild, -roonapi-0.0.37.ebuild, roonapi-0.0.38.ebuild,
+  +roonapi-0.1.1.ebuild:
+  bump roonapi-0.1.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> roonapi-0.0.32.ebuild,
+  roonapi-0.0.36.ebuild, roonapi-0.0.37.ebuild, roonapi-0.0.38.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> roonapi-0.0.37.ebuild,
+  roonapi-0.0.38.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*roonapi-0.0.38 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +roonapi-0.0.38.ebuild:
+  update roonapi-0.0.38
+
+*roonapi-0.0.37 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -roonapi-0.0.28.ebuild,
+  -roonapi-0.0.30.ebuild, -roonapi-0.0.31.ebuild, +roonapi-0.0.37.ebuild:
+  update roonapi-0.0.37
+
+*roonapi-0.0.36 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> -roonapi-0.0.25.ebuild,
+  +roonapi-0.0.36.ebuild:
+  bump roonapi-0.0.36
+
+*roonapi-0.0.32 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net> -roonapi-0.0.23.ebuild,
+  +roonapi-0.0.32.ebuild:
+  bump roonapi-0.0.32
+
+*roonapi-0.0.31 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> -roonapi-0.0.22.ebuild,
+  +roonapi-0.0.31.ebuild:
+  update roonapi-0.0.31
+
+*roonapi-0.0.30 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -roonapi-0.0.21.ebuild,
+  +roonapi-0.0.30.ebuild:
+  bump roonapi-0.0.30
+
+*roonapi-0.0.28 (18 Dec 2020)
+
+  18 Dec 2020; Andreas Billmeier <b@edevau.net> +roonapi-0.0.28.ebuild:
+  bump roonapi-0.0.28
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> roonapi-0.0.21.ebuild:
+  fix repoman ebuild.minorsyn
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> roonapi-0.0.21.ebuild,
+  roonapi-0.0.22.ebuild, roonapi-0.0.23.ebuild, roonapi-0.0.25.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*roonapi-0.0.25 (01 Nov 2020)
+
+  01 Nov 2020; Andreas Billmeier <b@edevau.net> +roonapi-0.0.25.ebuild:
+  bump roonapi-0.0.25
+
+*roonapi-0.0.23 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net> +roonapi-0.0.23.ebuild:
+  bump roonapi-0.0.23
+
+*roonapi-0.0.22 (14 Sep 2020)
+*roonapi-0.0.21 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +roonapi-0.0.21.ebuild, +roonapi-0.0.22.ebuild:
+  add more older reqs reported by new test script:
+    - add transmissionrpc-0.11
+    - add stookalert-0.1.4
+    - downgrade smart-meter-texas-0.4.0
+    - update ephem-3.7.7.0
+    - update ephem-3.7.7.1
+    - add sharkiqpy-0.1.8
+    - add py-schluter-0.1.7
+    - add roonapi-0.0.22
+    - restore httplib2-0.10.3-r1 from archive (for dev-python/RtmAPI)
+    - correct dep in RtmAPI-0.7.2-r1
+    - add pyfunctional-1.3.0, pyfunctional-1.4.1
+    - avri-api-0.1.7 added
+

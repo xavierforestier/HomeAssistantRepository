@@ -1,0 +1,360 @@
+# ChangeLog for dev-python/google-nest-sdm
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  google-nest-sdm-7.1.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -google-nest-sdm-3.0.4.ebuild, -google-nest-sdm-4.0.5.ebuild,
+  -google-nest-sdm-5.0.1.ebuild, -google-nest-sdm-6.1.3.ebuild,
+  -google-nest-sdm-6.1.4.ebuild, -google-nest-sdm-6.1.5.ebuild,
+  -google-nest-sdm-7.1.1.ebuild, -google-nest-sdm-7.1.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -google-nest-sdm-3.0.4.ebuilde, -google-nest-sdm-4.0.5.ebuilde,
+  -google-nest-sdm-5.0.1.ebuilde, -google-nest-sdm-6.1.3.ebuilde,
+  -google-nest-sdm-6.1.4.ebuilde, -google-nest-sdm-6.1.5.ebuilde,
+  -google-nest-sdm-7.1.1.ebuilde, -google-nest-sdm-7.1.3.ebuilde,
+  -google-nest-sdm-7.1.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-nest-sdm-3.0.4.ebuilde, +google-nest-sdm-4.0.5.ebuilde,
+  +google-nest-sdm-5.0.1.ebuilde, +google-nest-sdm-6.1.3.ebuilde,
+  +google-nest-sdm-6.1.4.ebuilde, +google-nest-sdm-6.1.5.ebuilde,
+  +google-nest-sdm-7.1.1.ebuilde, +google-nest-sdm-7.1.3.ebuilde,
+  +google-nest-sdm-7.1.4.ebuilde:
+  Fix KEYWORDS
+
+*google-nest-sdm-7.1.4 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-nest-sdm-7.1.4.ebuild:
+  homeassistant 2025.3.0
+
+*google-nest-sdm-7.1.3 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-nest-sdm-7.1.3.ebuild:
+  homeassistant-2025-2.1
+
+*google-nest-sdm-7.1.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-nest-sdm-7.1.1.ebuild:
+  homeassisstant-2025.2.0
+
+*google-nest-sdm-6.1.5 (17 Nov 2024)
+
+  17 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-nest-sdm-6.1.5.ebuild:
+  homeassitant 2024.11.2 and its deps
+
+*google-nest-sdm-6.1.4 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-nest-sdm-6.1.4.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> -google-nest-sdm-3.0.3.ebuild:
+  drop 3.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-6.1.3 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +google-nest-sdm-6.1.3.ebuild:
+  add 6.1.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4044
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-5.0.1 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> +google-nest-sdm-5.0.1.ebuild,
+  metadata.xml:
+  add 5.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3706
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-4.0.5 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> +google-nest-sdm-4.0.5.ebuild,
+  metadata.xml:
+  add 4.0.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3493
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-3.0.4 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> google-nest-sdm-3.0.3.ebuild,
+  +google-nest-sdm-3.0.4.ebuild:
+  add 3.0.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3287
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -google-nest-sdm-3.0.2.ebuild,
+  google-nest-sdm-3.0.3.ebuild:
+  drop 3.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -google-nest-sdm-2.2.4.ebuild:
+  drop 2.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> google-nest-sdm-3.0.3.ebuild:
+  fix dep in 3.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-3.0.3 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +google-nest-sdm-3.0.3.ebuild:
+  add 3.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-3.0.2 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +google-nest-sdm-3.0.2.ebuild:
+  add 3.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -google-nest-sdm-2.0.0.ebuild,
+  -google-nest-sdm-2.1.0.ebuild, -google-nest-sdm-2.2.2.ebuild:
+  drop 2.0.0, 2.1.0, 2.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> google-nest-sdm-2.0.0.ebuild,
+  google-nest-sdm-2.1.0.ebuild, google-nest-sdm-2.2.2.ebuild,
+  google-nest-sdm-2.2.4.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-2.2.4 (07 Feb 2023)
+
+  07 Feb 2023; Andreas Billmeier <b@edevau.net> +google-nest-sdm-2.2.4.ebuild:
+  add 2.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-2.2.2 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> google-nest-sdm-2.0.0.ebuild,
+  google-nest-sdm-2.1.0.ebuild, +google-nest-sdm-2.2.2.ebuild:
+  add 2.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-2.1.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> -google-nest-sdm-1.8.0.ebuild,
+  google-nest-sdm-2.0.0.ebuild, +google-nest-sdm-2.1.0.ebuild, metadata.xml:
+  update google-nest-sdm-2.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> google-nest-sdm-1.8.0.ebuild,
+  google-nest-sdm-2.0.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-nest-sdm-2.0.0 (18 Jul 2022)
+
+  18 Jul 2022; Andreas Billmeier <b@edevau.net> -google-nest-sdm-1.7.1.ebuild,
+  google-nest-sdm-1.8.0.ebuild, +google-nest-sdm-2.0.0.ebuild:
+  update google-nest-sdm-2.0.0
+
+*google-nest-sdm-1.8.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.3.8.ebuild,
+  -google-nest-sdm-0.4.9.ebuild, -google-nest-sdm-1.6.0.ebuild,
+  google-nest-sdm-1.7.1.ebuild, +google-nest-sdm-1.8.0.ebuild:
+  bump google-nest-sdm-1.8.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> google-nest-sdm-0.3.8.ebuild,
+  google-nest-sdm-0.4.9.ebuild, google-nest-sdm-1.6.0.ebuild,
+  google-nest-sdm-1.7.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*google-nest-sdm-1.7.1 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> +google-nest-sdm-1.7.1.ebuild:
+  bump google-nest-sdm-1.7.1
+
+*google-nest-sdm-1.6.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.3.6.ebuild,
+  -google-nest-sdm-0.4.5.ebuild, -google-nest-sdm-0.4.6.ebuild,
+  -google-nest-sdm-0.4.8.ebuild, +google-nest-sdm-1.6.0.ebuild:
+  bump google-nest-sdm-1.6.0
+
+*google-nest-sdm-0.4.9 (17 Dec 2021)
+
+  17 Dec 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.4.9.ebuild:
+  bump google-nest-sdm-0.4.9
+
+*google-nest-sdm-0.4.8 (16 Dec 2021)
+
+  16 Dec 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.4.8.ebuild:
+  bump google-nest-sdm-0.4.8
+
+*google-nest-sdm-0.4.6 (13 Dec 2021)
+
+  13 Dec 2021; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.4.4.ebuild,
+  +google-nest-sdm-0.4.6.ebuild:
+  bump google-nest-sdm-0.4.6
+
+  07 Dec 2021; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.4.0.ebuild,
+  -google-nest-sdm-0.4.2.ebuild:
+  remove olds
+
+*google-nest-sdm-0.4.5 (07 Dec 2021)
+
+  07 Dec 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.4.5.ebuild:
+  bump google-nest-sdm-0.4.5
+
+*google-nest-sdm-0.4.4 (07 Dec 2021)
+
+  07 Dec 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.4.4.ebuild:
+  bump google_nest_sdm-0.4.4
+
+*google-nest-sdm-0.4.2 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.4.2.ebuild,
+  -google-nest-sdm-0.4.3.ebuild:
+  dg google-nest-sdm-0.4.2
+
+*google-nest-sdm-0.4.3 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.3.5.ebuild,
+  +google-nest-sdm-0.4.3.ebuild:
+  bump google-nest-sdm-0.4.3
+
+*google-nest-sdm-0.4.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.4.0.ebuild:
+  bump google-nest-sdm-0.4.0
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> google-nest-sdm-0.3.8.ebuild:
+  all EAPI=8 without quotes
+
+*google-nest-sdm-0.3.8 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  -google-nest-sdm-0.2.12.ebuild, +google-nest-sdm-0.3.8.ebuild:
+  bump google-nest-sdm-0.3.8
+
+*google-nest-sdm-0.3.6 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.3.6.ebuild:
+  update google-nest-sdm-0.3.6
+
+*google-nest-sdm-0.3.5 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.2.5.ebuild,
+  -google-nest-sdm-0.2.6.ebuild, -google-nest-sdm-0.2.7.ebuild,
+  -google-nest-sdm-0.2.8.ebuild, -google-nest-sdm-0.2.9.ebuild,
+  -google-nest-sdm-0.2.10.ebuild, google-nest-sdm-0.2.12.ebuild,
+  +google-nest-sdm-0.3.5.ebuild:
+  update google-nest-sdm-0.3.5
+
+*google-nest-sdm-0.2.12 (14 Mar 2021)
+*google-nest-sdm-0.2.10 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.2.0.ebuild,
+  -google-nest-sdm-0.2.1.ebuild, +google-nest-sdm-0.2.10.ebuild,
+  +google-nest-sdm-0.2.12.ebuild:
+  bump google-nest-sdm-0.2.10, google-nest-sdm-0.2.12
+
+*google-nest-sdm-0.2.9 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.1.9.ebuild,
+  -google-nest-sdm-0.1.14.ebuild, -google-nest-sdm-0.1.15.ebuild,
+  +google-nest-sdm-0.2.9.ebuild:
+  bump google-nest-sdm-0.2.9
+
+*google-nest-sdm-0.2.8 (19 Jan 2021)
+
+  19 Jan 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.2.8.ebuild:
+  bump google-nest-sdm-0.2.8
+
+*google-nest-sdm-0.2.5 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.2.5.ebuild:
+  dg google-nest-sdm-0.2.5
+
+*google-nest-sdm-0.2.6 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.2.6.ebuild:
+  dg google-nest-sdm-0.2.6
+
+*google-nest-sdm-0.2.7 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net>
+  -google-nest-sdm-0.1.12.ebuild, -google-nest-sdm-0.1.13.ebuild,
+  +google-nest-sdm-0.2.7.ebuild:
+  update google-nest-sdm-0.2.7
+
+*google-nest-sdm-0.2.1 (18 Dec 2020)
+
+  18 Dec 2020; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.2.1.ebuild:
+  bump google-nest-sdm-0.2.1
+
+*google-nest-sdm-0.2.0 (24 Nov 2020)
+
+  24 Nov 2020; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.2.0.ebuild:
+  bump google-nest-sdm-0.2.0
+
+*google-nest-sdm-0.1.15 (19 Nov 2020)
+
+  19 Nov 2020; Andreas Billmeier <b@edevau.net> -google-nest-sdm-0.1.6.ebuild,
+  +google-nest-sdm-0.1.15.ebuild:
+  bump google-nest-sdm-0.1.15
+
+*google-nest-sdm-0.1.14 (12 Nov 2020)
+
+  12 Nov 2020; Andreas Billmeier <b@edevau.net>
+  +google-nest-sdm-0.1.14.ebuild:
+  bump google-nest-sdm-0.1.14
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> google-nest-sdm-0.1.6.ebuild,
+  google-nest-sdm-0.1.9.ebuild, google-nest-sdm-0.1.12.ebuild,
+  google-nest-sdm-0.1.13.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*google-nest-sdm-0.1.13 (09 Nov 2020)
+*google-nest-sdm-0.1.12 (09 Nov 2020)
+
+  09 Nov 2020; Andreas Billmeier <b@edevau.net>
+  +google-nest-sdm-0.1.12.ebuild, +google-nest-sdm-0.1.13.ebuild:
+  bump google-nest-sdm-0.1.12
+  bump google-nest-sdm-0.1.13
+
+*google-nest-sdm-0.1.9 (25 Oct 2020)
+*google-nest-sdm-0.1.6 (25 Oct 2020)
+
+  25 Oct 2020; Andreas Billmeier <b@edevau.net> +google-nest-sdm-0.1.6.ebuild,
+  +google-nest-sdm-0.1.9.ebuild, +metadata.xml:
+  add google-nest-sdm-0.1.6
+  update google-nest-sdm-0.1.9
+  add google-api-core-1.23.0
+  add google-auth-1.22.0
+  update google-auth-1.22.1
+  add grpc-google-iam-v1-0.12.3
+  add google-cloud-pubsub-2.1.0
+  add libcst-0.3.13
+  add proto-plus-1.11.0
+

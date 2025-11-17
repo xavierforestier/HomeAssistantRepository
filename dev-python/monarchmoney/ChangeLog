@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/monarchmoney
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  monarchmoney-0.1.13.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -monarchmoney-0.1.13.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +monarchmoney-0.1.13.ebuilde:
+  Fix KEYWORDS
+
+*monarchmoney-0.1.13 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +monarchmoney-0.1.13.ebuild:
+  new package, add 0.1.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

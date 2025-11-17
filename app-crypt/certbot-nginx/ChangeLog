@@ -1,0 +1,10 @@
+# ChangeLog for app-crypt/certbot-nginx
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*certbot-nginx-3.3.0 (08 Jun 2025)
+
+  08 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +certbot-nginx-3.3.0.ebuild, +metadata.xml:
+  Fix certbot / acme 3.3.0 deps
+

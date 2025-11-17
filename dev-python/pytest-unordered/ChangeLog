@@ -1,0 +1,62 @@
+# ChangeLog for dev-python/pytest-unordered
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytest-unordered-0.5.2.ebuild, -pytest-unordered-0.6.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytest-unordered-0.5.2.ebuild, pytest-unordered-0.6.0.ebuild,
+  pytest-unordered-0.6.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pytest-unordered-0.5.2.ebuilde, -pytest-unordered-0.6.0.ebuilde,
+  -pytest-unordered-0.6.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytest-unordered-0.5.2.ebuilde, +pytest-unordered-0.6.0.ebuilde,
+  +pytest-unordered-0.6.1.ebuilde:
+  Fix KEYWORDS
+
+*pytest-unordered-0.6.1 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> pytest-unordered-0.5.2.ebuild,
+  pytest-unordered-0.6.0.ebuild, +pytest-unordered-0.6.1.ebuild:
+  add 0.6.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3976
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytest-unordered-0.6.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> pytest-unordered-0.5.2.ebuild,
+  +pytest-unordered-0.6.0.ebuild:
+  add 0.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3196
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> pytest-unordered-0.5.2.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net> pytest-unordered-0.5.2.ebuild:
+  dev-python/*: change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pytest-unordered-0.5.2.ebuild:
+  remove Python 3.8 Support tag
+
+*pytest-unordered-0.5.2 (09 Jan 2023)
+
+  09 Jan 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pytest-unordered-0.5.2.ebuild:
+  new package, add 0.5.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

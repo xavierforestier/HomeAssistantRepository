@@ -1,0 +1,199 @@
+# ChangeLog for dev-python/aioairzone-cloud
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioairzone-cloud-0.7.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aioairzone-cloud-0.7.2 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioairzone-cloud-0.7.2.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioairzone-cloud-0.6.12.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*aioairzone-cloud-0.7.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioairzone-cloud-0.7.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioairzone-cloud-0.6.11.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*aioairzone-cloud-0.6.12 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioairzone-cloud-0.6.12.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioairzone-cloud-0.6.11.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioairzone-cloud-0.6.10.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioairzone-cloud-0.5.1.ebuild, -aioairzone-cloud-0.6.6.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioairzone-cloud-0.5.1.ebuilde, -aioairzone-cloud-0.6.10.ebuilde,
+  -aioairzone-cloud-0.6.11.ebuilde, -aioairzone-cloud-0.6.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioairzone-cloud-0.5.1.ebuilde, +aioairzone-cloud-0.6.10.ebuilde,
+  +aioairzone-cloud-0.6.11.ebuilde, +aioairzone-cloud-0.6.6.ebuilde:
+  Fix KEYWORDS
+
+*aioairzone-cloud-0.6.11 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioairzone-cloud-0.6.11.ebuild:
+  Homeassistant 2025.4.0
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net>
+  -aioairzone-cloud-0.4.7.ebuild, -aioairzone-cloud-0.6.2.ebuild:
+  drop 0.4.7, 0.6.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.6.10 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.6.10.ebuild:
+  add 0.6.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3982
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.6.6 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.6.6.ebuild:
+  add 0.6.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3940
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.6.2 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net>
+  -aioairzone-cloud-0.4.5.ebuild, aioairzone-cloud-0.4.7.ebuild,
+  aioairzone-cloud-0.5.1.ebuild, +aioairzone-cloud-0.6.2.ebuild:
+  add 0.6.2, drop 0.4.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3544
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 May 2024; Andreas Billmeier <b@edevau.net>
+  -aioairzone-cloud-0.3.6.ebuild, -aioairzone-cloud-0.3.8.ebuild:
+  drop 0.3.6, 0.3.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.5.1 (11 May 2024)
+
+  11 May 2024; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.5.1.ebuild:
+  add 0.5.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3235
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.4.7 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.4.7.ebuild:
+  add 0.4.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3182
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.4.5 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> aioairzone-cloud-0.3.6.ebuild,
+  aioairzone-cloud-0.3.8.ebuild, +aioairzone-cloud-0.4.5.ebuild:
+  add 0.4.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2938
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net>
+  -aioairzone-cloud-0.2.3.ebuild, -aioairzone-cloud-0.3.5.ebuild:
+  drop 0.2.3, 0.3.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.3.8 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> aioairzone-cloud-0.2.3.ebuild,
+  aioairzone-cloud-0.3.5.ebuild, aioairzone-cloud-0.3.6.ebuild,
+  +aioairzone-cloud-0.3.8.ebuild:
+  add 0.3.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2743
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -aioairzone-cloud-0.3.1.ebuild:
+  drop 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.3.6 (09 Dec 2023)
+
+  09 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.3.6.ebuild:
+  add 0.3.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2422
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.3.5 (10 Nov 2023)
+
+  10 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.3.5.ebuild:
+  add 0.3.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2377
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -aioairzone-cloud-0.2.0.ebuild:
+  drop 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.3.1 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.3.1.ebuild:
+  add 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.2.3 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.2.3.ebuild:
+  add 0.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioairzone-cloud-0.2.0 (16 Jul 2023)
+
+  16 Jul 2023; Andreas Billmeier <b@edevau.net>
+  +aioairzone-cloud-0.2.0.ebuild, +metadata.xml:
+  new package, add 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

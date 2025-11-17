@@ -1,0 +1,99 @@
+# ChangeLog for dev-python/pystiebeleltron
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pystiebeleltron-0.1.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*pystiebeleltron-0.2.3 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pystiebeleltron-0.2.3.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pystiebeleltron-0.0.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pystiebeleltron-0.1.0 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pystiebeleltron-0.1.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pystiebeleltron-0.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pystiebeleltron-0.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pystiebeleltron-0.0.1.ebuilde:
+  Fix KEYWORDS
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pystiebeleltron-0.0.1.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  pystiebeleltron-0.0.1 fix RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pystiebeleltron-0.0.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Sep 2020; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  pystiebeleltron-0.0.1:
+      - fix https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/156
+      - avoid installation of 'test' package
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  fix the rest of 75 DESCRIPTION.toolong
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pystiebeleltron-0.0.1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pystiebeleltron-0.0.1 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pystiebeleltron-0.0.1.ebuild:
+  add pystiebeleltron-0.0.1
+

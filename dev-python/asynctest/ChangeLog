@@ -1,0 +1,96 @@
+# ChangeLog for dev-python/asynctest
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  asynctest-0.13.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  asynctest-0.13.0.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -asynctest-0.13.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +asynctest-0.13.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  asynctest-0.13.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> -asynctest-0.12.2.ebuild,
+  asynctest-0.13.0.ebuild:
+  fix more RequiredUseDefaults
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> asynctest-0.12.2.ebuild,
+  asynctest-0.13.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  18 Jun 2021; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  update asynctest-0.13.0 PYTHON_COMPAT
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> asynctest-0.12.2.ebuild,
+  asynctest-0.13.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*asynctest-0.12.2 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> +asynctest-0.12.2.ebuild:
+  downgrade asynctest-0.12.2
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  fix some DESCRIPTION.toolong from RepoMan
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> asynctest-0.13.0.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  24 Oct 2019; Gitea <gitea@fake.local> asynctest-0.13.0.ebuild:
+  standardize license naming per ebuild spec
+
+*asynctest-0.13.0 (09 Jul 2019)
+
+  09 Jul 2019; Andreas Billmeier <b@edevau.net> +asynctest-0.13.0.ebuild,
+  +metadata.xml:
+  upgrade pytest to 5.0.1 with dependencies
+

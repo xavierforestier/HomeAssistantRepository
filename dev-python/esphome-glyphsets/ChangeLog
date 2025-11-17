@@ -1,0 +1,18 @@
+# ChangeLog for dev-python/esphome-glyphsets
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-glyphsets-0.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-glyphsets-0.2.0.ebuild, +metadata.xml:
+  some fixes for pkgcheck
+
+*esphome-glyphsets-0.2.0 (24 Apr 2025)
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-glyphsets-0.2.0.ebuild:
+  Cleansing orphans
+

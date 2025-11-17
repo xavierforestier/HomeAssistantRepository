@@ -1,0 +1,172 @@
+# ChangeLog for dev-python/evohome-async
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  evohome-async-1.0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  evohome-async-1.0.5.ebuild:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -evohome-async-1.0.2.ebuild, -evohome-async-1.0.4.ebuild:
+  Fix for pkgcheck
+
+*evohome-async-1.0.5 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -evohome-async-1.0.2.ebuilde, -evohome-async-1.0.4.ebuilde,
+  +evohome-async-1.0.5.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +evohome-async-1.0.2.ebuilde, +evohome-async-1.0.4.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -evohome-async-0.4.19.ebuild, -evohome-async-0.4.20.ebuild,
+  -evohome-async-0.4.21.ebuild, evohome-async-1.0.2.ebuild,
+  evohome-async-1.0.4.ebuild:
+  cleanup + shellspell
+
+*evohome-async-1.0.4 (15 Mar 2025)
+
+  15 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +evohome-async-1.0.4.ebuild:
+  homeassistant 2025.3.2 homeassistant 2025.3.3
+
+*evohome-async-1.0.2 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +evohome-async-1.0.2.ebuild:
+  homeassistant 2025.3.0
+
+*evohome-async-0.4.21 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +evohome-async-0.4.21.ebuild:
+  Homeassistant 2024.12.3
+
+*evohome-async-0.4.20 (20 Oct 2024)
+
+  20 Oct 2024; Andreas Billmeier <b@edevau.net> -evohome-async-0.4.15.ebuild,
+  evohome-async-0.4.19.ebuild, +evohome-async-0.4.20.ebuild:
+  add 0.4.20, drop 0.4.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3624
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -evohome-async-0.3.15.ebuild,
+  -evohome-async-0.4.6.ebuild, evohome-async-0.4.15.ebuild,
+  evohome-async-0.4.19.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*evohome-async-0.4.19 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild,
+  evohome-async-0.4.6.ebuild, evohome-async-0.4.15.ebuild,
+  +evohome-async-0.4.19.ebuild:
+  add 0.4.19
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2893
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*evohome-async-0.4.15 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +evohome-async-0.4.15.ebuild:
+  add 0.4.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2604
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*evohome-async-0.4.6 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +evohome-async-0.4.6.ebuild,
+  metadata.xml:
+  add 0.4.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2441
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild:
+  cleanup evohome-async-0.3.15
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> evohome-async-0.3.15.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -evohome-async-0.3.5.ebuild,
+  -evohome-async-0.3.8.ebuild:
+  remove abandoned packages and Ebuilds
+
+*evohome-async-0.3.15 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net>
+  -evohome-async-0.3.4_beta1.ebuild, +evohome-async-0.3.15.ebuild:
+  evohome-async-0.3.15
+
+*evohome-async-0.3.8 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> +evohome-async-0.3.8.ebuild:
+  update evohome-async-0.3.8
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> evohome-async-0.3.4_beta1.ebuild,
+  evohome-async-0.3.5.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*evohome-async-0.3.5 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +evohome-async-0.3.5.ebuild:
+  update evohome-async-0.3.5
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net>
+  evohome-async-0.3.4_beta1.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: E-G
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  evohome-async-0.3.4_beta1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net>
+  evohome-async-0.3.4_beta1.ebuild:
+  align 5 license strings
+
+*evohome-async-0.3.4_beta1 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net>
+  +evohome-async-0.3.4_beta1.ebuild, +metadata.xml:
+  addevohome-async-0.3.4_beta1, fix Changelog's order
+

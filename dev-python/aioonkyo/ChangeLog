@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/aioonkyo
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioonkyo-0.3.0.ebuild:
+  pkcheck
+
+*aioonkyo-0.3.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioonkyo-0.3.0.ebuild, +metadata.xml:
+  app-misc/homeassistant 2025.8.0
+

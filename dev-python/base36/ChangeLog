@@ -1,0 +1,66 @@
+# ChangeLog for dev-python/base36
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  base36-0.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  base36-0.1.1.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -base36-0.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +base36-0.1.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  base36-0.1.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> base36-0.1.1.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> base36-0.1.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*base36-0.1.1 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> +base36-0.1.1.ebuild,
+  +metadata.xml:
+  add base36-0.1.1
+

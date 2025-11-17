@@ -1,0 +1,83 @@
+# ChangeLog for dev-python/pyfireservicerota
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyfireservicerota-0.0.46.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyfireservicerota-0.0.43.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyfireservicerota-0.0.43.ebuilde, -pyfireservicerota-0.0.46.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyfireservicerota-0.0.43.ebuilde, +pyfireservicerota-0.0.46.ebuilde:
+  Fix KEYWORDS
+
+*pyfireservicerota-0.0.46 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyfireservicerota-0.0.46.ebuild:
+  homeassistant-2025-2.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyfireservicerota-0.0.43.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net>
+  pyfireservicerota-0.0.43.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  pyfireservicerota-0.0.43.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  pyfireservicerota-0.0.43.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -pyfireservicerota-0.0.40.ebuild, -pyfireservicerota-0.0.42.ebuild,
+  pyfireservicerota-0.0.43.ebuild:
+  rework, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  pyfireservicerota-0.0.40.ebuild, pyfireservicerota-0.0.42.ebuild,
+  pyfireservicerota-0.0.43.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  pyfireservicerota-0.0.43.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*pyfireservicerota-0.0.43 (16 Jul 2021)
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +pyfireservicerota-0.0.43.ebuild:
+  bump yfireservicerota-0.0.43
+
+*pyfireservicerota-0.0.42 (13 Jul 2021)
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net>
+  pyfireservicerota-0.0.40.ebuild, +pyfireservicerota-0.0.42.ebuild:
+  update pyfireservicerota-0.0.42
+
+*pyfireservicerota-0.0.40 (25 Nov 2020)
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyfireservicerota-0.0.40.ebuild:
+  add pyfireservicerota-0.0.40
+

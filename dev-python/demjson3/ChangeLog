@@ -1,0 +1,54 @@
+# ChangeLog for dev-python/demjson3
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  demjson3-3.0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  demjson3-3.0.5.ebuild:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -demjson3-3.0.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +demjson3-3.0.5.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  demjson3-3.0.5.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> demjson3-3.0.5.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> demjson3-3.0.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> demjson3-3.0.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> demjson3-3.0.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> demjson3-3.0.5.ebuild:
+  remove olds, cleanup, enable pytest
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> demjson3-3.0.5.ebuild:
+  update PySyncThru-0.7.10
+
+*demjson3-3.0.5 (20 Mar 2022)
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> +demjson3-3.0.5.ebuild,
+  +metadata.xml:
+  add demjson3-3.0.5
+

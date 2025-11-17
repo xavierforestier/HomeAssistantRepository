@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/frozendict
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  frozendict-2.4.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -frozendict-2.4.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +frozendict-2.4.4.ebuilde:
+  Fix KEYWORDS
+
+*frozendict-2.4.4 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> +frozendict-2.4.4.ebuild,
+  +metadata.xml:
+  new package, add 2.4.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

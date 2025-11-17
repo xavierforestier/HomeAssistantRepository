@@ -1,0 +1,210 @@
+# ChangeLog for dev-python/yolink-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yolink-api-0.5.7.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*yolink-api-0.5.8 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +yolink-api-0.5.8.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yolink-api-0.5.5.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*yolink-api-0.5.7 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +yolink-api-0.5.7.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yolink-api-0.5.2.ebuild:
+  Cleansing
+
+*yolink-api-0.5.5 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +yolink-api-0.5.5.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yolink-api-0.4.9.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*yolink-api-0.5.2 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +yolink-api-0.5.2.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  yolink-api-0.4.9.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yolink-api-0.4.8.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yolink-api-0.4.4.ebuild, -yolink-api-0.4.7.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -yolink-api-0.4.4.ebuilde, -yolink-api-0.4.7.ebuilde,
+  -yolink-api-0.4.8.ebuilde, -yolink-api-0.4.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yolink-api-0.4.4.ebuilde, +yolink-api-0.4.7.ebuilde,
+  +yolink-api-0.4.8.ebuilde, +yolink-api-0.4.9.ebuilde:
+  Fix KEYWORDS
+
+*yolink-api-0.4.9 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yolink-api-0.4.9.ebuild:
+  Homeassistant 2025.4.0
+
+*yolink-api-0.4.8 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yolink-api-0.4.8.ebuild:
+  homeassistant 2025.3.0
+
+*yolink-api-0.4.7 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -yolink-api-0.3.7.ebuild,
+  -yolink-api-0.4.2.ebuild, +yolink-api-0.4.7.ebuild:
+  drop 0.4.2, 0.3.7, add 0.4.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3817
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.4.4 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -yolink-api-0.3.4.ebuild,
+  -yolink-api-0.3.6.ebuild, yolink-api-0.3.7.ebuild, -yolink-api-0.4.1.ebuild,
+  yolink-api-0.4.2.ebuild, +yolink-api-0.4.4.ebuild:
+  drop olds, add 0.4.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3338
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.4.2 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +yolink-api-0.4.2.ebuild:
+  add 0.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3205
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.4.1 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +yolink-api-0.4.1.ebuild:
+  add 0.4.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3166
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.3.7 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -yolink-api-0.3.1.ebuild,
+  yolink-api-0.3.4.ebuild, yolink-api-0.3.6.ebuild, +yolink-api-0.3.7.ebuild:
+  drop 0.3.1, add 0.3.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3042
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.3.6 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> yolink-api-0.3.1.ebuild,
+  yolink-api-0.3.4.ebuild, +yolink-api-0.3.6.ebuild:
+  add 0.3.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2736
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -yolink-api-0.2.8.ebuild:
+  drop 0.2.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.3.4 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +yolink-api-0.3.4.ebuild:
+  add 0.3.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2514
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.3.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> -yolink-api-0.1.0.ebuild,
+  -yolink-api-0.1.5.ebuild, yolink-api-0.2.8.ebuild, +yolink-api-0.3.1.ebuild:
+  dev-python/aiomqtt: fix 1.2.1
+  dev-python/yolink-api: add 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yolink-api-0.2.8 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> -yolink-api-0.0.9.ebuild,
+  +yolink-api-0.2.8.ebuild:
+  add 0.2.8, drop 0.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> yolink-api-0.0.9.ebuild,
+  yolink-api-0.1.0.ebuild, yolink-api-0.1.5.ebuild:
+  remove Python 3.8 Support tag
+
+*yolink-api-0.1.5 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  yolink-api-0.0.9.ebuild, yolink-api-0.1.0.ebuild, +yolink-api-0.1.5.ebuild:
+  bump 0.1.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> yolink-api-0.0.9.ebuild,
+  yolink-api-0.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -yolink-api-0.0.8.ebuild:
+  rework, remove olds
+
+*yolink-api-0.1.0 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +yolink-api-0.1.0.ebuild:
+  bump yolink-api-0.1.0
+
+*yolink-api-0.0.9 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -yolink-api-0.0.6.ebuild,
+  yolink-api-0.0.8.ebuild, +yolink-api-0.0.9.ebuild:
+  bump yolink-api-0.0.9
+
+*yolink-api-0.0.8 (11 Jun 2022)
+
+  11 Jun 2022; Andreas Billmeier <b@edevau.net> -yolink-api-0.0.5.ebuild,
+  yolink-api-0.0.6.ebuild, +yolink-api-0.0.8.ebuild:
+  bump yolink-api-0.0.8
+
+*yolink-api-0.0.6 (04 Jun 2022)
+
+  04 Jun 2022; Andreas Billmeier <b@edevau.net> +yolink-api-0.0.6.ebuild:
+  yolink-api-0.0.6 bump
+
+*yolink-api-0.0.5 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +yolink-api-0.0.5.ebuild:
+  add yolink-api-0.0.5
+

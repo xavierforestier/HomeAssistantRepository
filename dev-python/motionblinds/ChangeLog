@@ -1,0 +1,284 @@
+# ChangeLog for dev-python/motionblinds
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -motionblinds-0.6.29.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*motionblinds-0.6.30 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +motionblinds-0.6.30.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -motionblinds-0.6.28.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*motionblinds-0.6.29 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +motionblinds-0.6.29.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -motionblinds-0.6.27.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*motionblinds-0.6.28 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -motionblinds-0.6.26.ebuild, +motionblinds-0.6.28.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*motionblinds-0.6.27 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +motionblinds-0.6.27.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  motionblinds-0.6.26.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -motionblinds-0.6.25.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -motionblinds-0.6.23.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -motionblinds-0.6.23.ebuilde, -motionblinds-0.6.25.ebuilde,
+  -motionblinds-0.6.26.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +motionblinds-0.6.23.ebuilde, +motionblinds-0.6.25.ebuilde,
+  +motionblinds-0.6.26.ebuilde:
+  Fix KEYWORDS
+
+*motionblinds-0.6.26 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +motionblinds-0.6.26.ebuild:
+  Homeassistant 2025.4.0
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -motionblinds-0.6.19.ebuild,
+  -motionblinds-0.6.21.ebuild:
+  drop 0.6.19, 0.6.21
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*motionblinds-0.6.25 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> motionblinds-0.6.19.ebuild,
+  motionblinds-0.6.21.ebuild, motionblinds-0.6.23.ebuild,
+  +motionblinds-0.6.25.ebuild:
+  add 0.6.25
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3702
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -motionblinds-0.6.18.ebuild:
+  drop 0.6.18
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*motionblinds-0.6.23 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> motionblinds-0.6.18.ebuild,
+  motionblinds-0.6.19.ebuild, -motionblinds-0.6.20.ebuild,
+  motionblinds-0.6.21.ebuild, +motionblinds-0.6.23.ebuild:
+  add 0.6.23, drop 0.6.20
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2999
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*motionblinds-0.6.21 (25 Feb 2024)
+
+  25 Feb 2024; Andreas Billmeier <b@edevau.net> +motionblinds-0.6.21.ebuild:
+  add 0.6.21
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2920
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*motionblinds-0.6.20 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> motionblinds-0.6.18.ebuild,
+  motionblinds-0.6.19.ebuild, +motionblinds-0.6.20.ebuild:
+  add 0.6.20
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2825
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*motionblinds-0.6.19 (28 Dec 2023)
+
+  28 Dec 2023; Andreas Billmeier <b@edevau.net> +motionblinds-0.6.19.ebuild:
+  add 0.6.19
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2553
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -motionblinds-0.6.17.ebuild:
+  drop 0.6.17
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*motionblinds-0.6.18 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +motionblinds-0.6.18.ebuild:
+  add 0.6.18
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -motionblinds-0.6.13.ebuild,
+  -motionblinds-0.6.15.ebuild, motionblinds-0.6.17.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*motionblinds-0.6.17 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +motionblinds-0.6.17.ebuild:
+  add 0.6.17
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> motionblinds-0.6.13.ebuild,
+  motionblinds-0.6.15.ebuild:
+  remove Python 3.8 Support tag
+
+*motionblinds-0.6.15 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -motionblinds-0.6.11.ebuild,
+  +motionblinds-0.6.15.ebuild:
+  add 0.6.15, drop 0.6.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> motionblinds-0.6.11.ebuild,
+  motionblinds-0.6.13.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.6.8.ebuild,
+  -motionblinds-0.6.12.ebuild:
+  rework, remove olds
+
+*motionblinds-0.6.13 (27 Sep 2022)
+
+  27 Sep 2022; Andreas Billmeier <b@edevau.net> +motionblinds-0.6.13.ebuild:
+  bump motionblinds-0.6.13
+
+*motionblinds-0.6.12 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +motionblinds-0.6.12.ebuild:
+  add motionblinds-0.6.12
+
+*motionblinds-0.6.11 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.6.2.ebuild,
+  -motionblinds-0.6.5.ebuild, -motionblinds-0.6.7.ebuild,
+  motionblinds-0.6.8.ebuild, +motionblinds-0.6.11.ebuild:
+  bump motionblinds-0.6.11
+
+*motionblinds-0.6.8 (01 Jun 2022)
+
+  01 Jun 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.5.13.ebuild,
+  motionblinds-0.6.2.ebuild, motionblinds-0.6.5.ebuild,
+  motionblinds-0.6.7.ebuild, +motionblinds-0.6.8.ebuild:
+  bump motionblinds-0.6.8
+
+*motionblinds-0.6.7 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +motionblinds-0.6.7.ebuild:
+  bump motionblinds-0.6.7
+
+*motionblinds-0.6.5 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.5.12.ebuild,
+  motionblinds-0.5.13.ebuild, motionblinds-0.6.2.ebuild,
+  +motionblinds-0.6.5.ebuild:
+  bump motionblinds-0.6.5
+
+*motionblinds-0.6.2 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.5.7.ebuild,
+  -motionblinds-0.5.8.ebuild, +motionblinds-0.6.2.ebuild:
+  bump motionblinds-0.6.2
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> motionblinds-0.5.7.ebuild,
+  motionblinds-0.5.8.ebuild, motionblinds-0.5.12.ebuild,
+  motionblinds-0.5.13.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*motionblinds-0.5.13 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.5.10.ebuild,
+  +motionblinds-0.5.13.ebuild:
+  bump motionblinds-0.5.13
+
+*motionblinds-0.5.12 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> +motionblinds-0.5.12.ebuild:
+  bump motionblinds-0.5.12
+
+*motionblinds-0.5.10 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.5.5.ebuild,
+  +motionblinds-0.5.10.ebuild:
+  bump motionblinds-0.5.10
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -motionblinds-0.4.10.ebuild:
+  bump motionblinds-0.5.10
+
+*motionblinds-0.5.8 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +motionblinds-0.5.8.ebuild:
+  bump motionblinds-0.5.8
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> motionblinds-0.5.7.ebuild:
+  all EAPI=8 without quotes
+
+*motionblinds-0.5.7 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +motionblinds-0.5.7.ebuild:
+  bump motionblinds-0.5.7
+
+*motionblinds-0.5.5 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -motionblinds-0.1.6.ebuild,
+  -motionblinds-0.4.7.ebuild, -motionblinds-0.4.8.ebuild,
+  +motionblinds-0.5.5.ebuild:
+  bump motionblinds-0.5.5
+
+*motionblinds-0.4.10 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> +motionblinds-0.4.10.ebuild:
+  bump motionblinds-0.4.10
+
+*motionblinds-0.4.8 (20 Mar 2021)
+
+  20 Mar 2021; Andreas Billmeier <b@edevau.net> +motionblinds-0.4.8.ebuild:
+  bump bump motionblinds-0.4.8
+
+*motionblinds-0.4.7 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> +motionblinds-0.4.7.ebuild:
+  bump motionblinds-0.4.7
+
+*motionblinds-0.1.6 (24 Nov 2020)
+
+  24 Nov 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +motionblinds-0.1.6.ebuild:
+  add motionblinds-0.1.6
+

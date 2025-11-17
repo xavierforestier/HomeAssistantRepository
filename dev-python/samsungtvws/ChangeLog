@@ -1,0 +1,120 @@
+# ChangeLog for dev-python/samsungtvws
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  samsungtvws-2.7.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -samsungtvws-2.6.0.ebuild, -samsungtvws-2.7.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -samsungtvws-2.6.0.ebuilde, -samsungtvws-2.7.1.ebuilde,
+  -samsungtvws-2.7.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +samsungtvws-2.6.0.ebuilde, +samsungtvws-2.7.1.ebuilde,
+  +samsungtvws-2.7.2.ebuilde:
+  Fix KEYWORDS
+
+*samsungtvws-2.7.2 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +samsungtvws-2.7.2.ebuild:
+  homeassistant 2024.12.1
+
+*samsungtvws-2.7.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +samsungtvws-2.7.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  07 Jan 2024; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: fix 'UnknownUseFlags'
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -samsungtvws-2.5.0.ebuild:
+  drop 2.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> samsungtvws-2.5.0.ebuild,
+  samsungtvws-2.6.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*samsungtvws-2.6.0 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> +samsungtvws-2.6.0.ebuild:
+  add 2.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net> samsungtvws-2.5.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> samsungtvws-2.5.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> samsungtvws-2.5.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -samsungtvws-1.6.0.ebuild,
+  -samsungtvws-1.7.0.ebuild, samsungtvws-2.5.0.ebuild:
+  rework, remove olds
+
+*samsungtvws-2.5.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +samsungtvws-2.5.0.ebuild:
+  update samsungtvws-2.5.0
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  minor cleanups
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> samsungtvws-1.6.0.ebuild,
+  samsungtvws-1.7.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*samsungtvws-1.7.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +samsungtvws-1.7.0.ebuild:
+  update samsungtvws-1.7.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> samsungtvws-1.6.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  29 Aug 2021; Andreas Billmeier <b@edevau.net> samsungtvws-1.6.0.ebuild:
+  mark 'knows-as-good-for-long' packages stable
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -samsungtvws-1.4.0.ebuild,
+  samsungtvws-1.6.0.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for the rest of the -min Ebuild
+  (untested)
+
+*samsungtvws-1.6.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> +samsungtvws-1.6.0.ebuild:
+  update samsungtvws-1.6.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> samsungtvws-1.4.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*samsungtvws-1.4.0 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +samsungtvws-1.4.0.ebuild:
+  add samsungtvws-1.4.0
+

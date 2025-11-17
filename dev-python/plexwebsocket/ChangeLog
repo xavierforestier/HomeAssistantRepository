@@ -1,0 +1,163 @@
+# ChangeLog for dev-python/plexwebsocket
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  plexwebsocket-0.0.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -plexwebsocket-0.0.14.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +plexwebsocket-0.0.14.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  plexwebsocket-0.0.14.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.13.ebuild,
+  plexwebsocket-0.0.14.ebuild:
+  drop 0.0.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.13.ebuild,
+  plexwebsocket-0.0.14.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*plexwebsocket-0.0.14 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +plexwebsocket-0.0.14.ebuild:
+  add 0.0.14
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2294
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.13.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.13.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.13.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.13.ebuild:
+  remove olds, cleanup, enable pytest
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.13.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.13.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.12.ebuild,
+  plexwebsocket-0.0.13.ebuild:
+  update plexwebsocket-0.0.13
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.8.ebuild,
+  -plexwebsocket-0.0.10.ebuild, -plexwebsocket-0.0.11.ebuild,
+  plexwebsocket-0.0.13.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for the rest of the -min Ebuild
+  (untested)
+
+*plexwebsocket-0.0.13 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.7.ebuild,
+  +plexwebsocket-0.0.13.ebuild:
+  bump plexwebsocket-0.0.13
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> plexwebsocket-0.0.7.ebuild,
+  plexwebsocket-0.0.8.ebuild, plexwebsocket-0.0.10.ebuild,
+  plexwebsocket-0.0.11.ebuild, plexwebsocket-0.0.12.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*plexwebsocket-0.0.12 (01 Oct 2020)
+
+  01 Oct 2020; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.6.ebuild,
+  +plexwebsocket-0.0.12.ebuild:
+  bump plexwebsocket-0.0.12
+
+*plexwebsocket-0.0.11 (20 Jun 2020)
+
+  20 Jun 2020; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.5.ebuild,
+  +plexwebsocket-0.0.11.ebuild:
+  bump plexwebsocket-0.0.11
+
+*plexwebsocket-0.0.10 (30 May 2020)
+
+  30 May 2020; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.4.ebuild,
+  +plexwebsocket-0.0.10.ebuild:
+  bump plexwebsocket-0.0.10
+
+*plexwebsocket-0.0.8 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> -plexwebsocket-0.0.1.ebuild,
+  -plexwebsocket-0.0.3.ebuild, +plexwebsocket-0.0.8.ebuild:
+  bump plexwebsocket-0.0.8
+
+*plexwebsocket-0.0.7 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +plexwebsocket-0.0.7.ebuild:
+  bump plexwebsocket-0.0.7
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.6.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.1.ebuild,
+  plexwebsocket-0.0.3.ebuild, plexwebsocket-0.0.4.ebuild,
+  plexwebsocket-0.0.5.ebuild, plexwebsocket-0.0.6.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*plexwebsocket-0.0.6 (28 Nov 2019)
+
+  28 Nov 2019; Andreas Billmeier <b@edevau.net> +plexwebsocket-0.0.6.ebuild:
+  bump plexwebsocket-0.0.6
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> plexwebsocket-0.0.1.ebuild,
+  plexwebsocket-0.0.3.ebuild, plexwebsocket-0.0.4.ebuild,
+  plexwebsocket-0.0.5.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*plexwebsocket-0.0.5 (11 Nov 2019)
+
+  11 Nov 2019; Andreas Billmeier <b@edevau.net> +plexwebsocket-0.0.5.ebuild:
+  bump plexwebsocket-0.0.5
+
+*plexwebsocket-0.0.4 (07 Nov 2019)
+
+  07 Nov 2019; Andreas Billmeier <b@edevau.net> +plexwebsocket-0.0.4.ebuild:
+  bump plexwebsocket-0.0.4
+
+*plexwebsocket-0.0.3 (28 Oct 2019)
+
+  28 Oct 2019; Andreas Billmeier <b@edevau.net> +plexwebsocket-0.0.3.ebuild:
+  bump plexwebsocket-0.0.3
+
+*plexwebsocket-0.0.1 (26 Oct 2019)
+
+  26 Oct 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +plexwebsocket-0.0.1.ebuild:
+  add plexwebsocket-0.0.1
+

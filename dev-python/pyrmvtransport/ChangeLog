@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/pyrmvtransport
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyrmvtransport-0.3.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*pyrmvtransport-0.3.3 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pyrmvtransport-0.3.3.ebuild:
+  Fix for pkgcheck
+

@@ -1,0 +1,92 @@
+# ChangeLog for dev-python/s3transfer
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  s3transfer-0.10.4.ebuild:
+  Fixes
+
+*s3transfer-0.11.3 (15 May 2025)
+
+  15 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +s3transfer-0.11.3.ebuild:
+  Fix some deps for homeassistant 2025.5.1
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  s3transfer-0.10.4.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -s3transfer-0.10.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +s3transfer-0.10.4.ebuilde:
+  Fix KEYWORDS
+
+*s3transfer-0.10.4 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +s3transfer-0.10.4.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -s3transfer-0.5.2.ebuild:
+  remove outdated s3transfer
+
+*s3transfer-0.5.2 (09 Apr 2022)
+
+  09 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -files/s3transfer-0.1.13-tests.patch, metadata.xml,
+  -s3transfer-0.2.1.ebuild, +s3transfer-0.5.2.ebuild:
+  update s3transfer-0.5.2
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> s3transfer-0.2.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> s3transfer-0.2.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -s3transfer-0.2.0.ebuild,
+  -s3transfer-0.2.0-r1.ebuild, s3transfer-0.2.1.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> s3transfer-0.2.0.ebuild,
+  s3transfer-0.2.0-r1.ebuild, s3transfer-0.2.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> s3transfer-0.2.1.ebuild:
+  remove beta flags from good working core modules
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> s3transfer-0.2.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: S
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> s3transfer-0.2.0.ebuild,
+  s3transfer-0.2.0-r1.ebuild:
+  minor code cleanups
+
+*s3transfer-0.2.1 (31 Jan 2020)
+
+  31 Jan 2020; Andreas Billmeier <b@edevau.net> +s3transfer-0.2.1.ebuild:
+  update s3transfer-0.2.1
+
+*s3transfer-0.2.0-r1 (01 Nov 2019)
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> +s3transfer-0.2.0-r1.ebuild:
+  drop support for obsolete python versions
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> s3transfer-0.2.0.ebuild:
+  bump s3transfer-0.2.0
+
+*s3transfer-0.2.0 (17 Mar 2019)
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net>
+  +files/s3transfer-0.1.13-tests.patch, +metadata.xml,
+  +s3transfer-0.2.0.ebuild:
+  bump s3transfer-0.2.0
+

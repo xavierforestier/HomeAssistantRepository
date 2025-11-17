@@ -1,0 +1,67 @@
+# ChangeLog for dev-python/ollama
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ollama-0.4.7.ebuild:
+  Cleansing
+
+*ollama-0.5.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ollama-0.5.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ollama-0.4.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ollama-0.3.1.ebuild, -ollama-0.3.3.ebuild, -ollama-0.4.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -ollama-0.3.1.ebuilde, -ollama-0.3.3.ebuilde, -ollama-0.4.5.ebuilde,
+  -ollama-0.4.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ollama-0.3.1.ebuilde, +ollama-0.3.3.ebuilde, +ollama-0.4.5.ebuilde,
+  +ollama-0.4.7.ebuilde:
+  Fix KEYWORDS
+
+*ollama-0.4.7 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ollama-0.4.7.ebuild:
+  homeassisstant-2025.2.0
+
+*ollama-0.4.5 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ollama-0.4.5.ebuild:
+  homeassistant 2025.1.1
+
+*ollama-0.3.3 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +ollama-0.3.3.ebuild:
+  add 0.3.3
+  dev-python/aiooui: add 0.1.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4046
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> ollama-0.3.1.ebuild:
+  dev-python/ollamaollama: update 0.3.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3718
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ollama-0.3.1 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> +metadata.xml,
+  +ollama-0.3.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

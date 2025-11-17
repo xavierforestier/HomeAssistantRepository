@@ -1,0 +1,195 @@
+# ChangeLog for dev-python/zigpy-xbee
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*zigpy-xbee-0.21.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigpy-xbee-0.21.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zigpy-xbee-0.21.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zigpy-xbee-0.21.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-xbee-0.21.0.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zigpy-xbee-0.20.1.ebuild, -zigpy-xbee-0.20.2.ebuild,
+  zigpy-xbee-0.21.0.ebuild:
+  cleanup + shellspell
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  zigpy-xbee-0.21.0.ebuild:
+  Cleanup + spellcheck
+
+*zigpy-xbee-0.21.0 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-xbee-0.21.0.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+*zigpy-xbee-0.20.2 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.20.1.ebuild,
+  +zigpy-xbee-0.20.2.ebuild:
+  add 0.20.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -zigpy-xbee-0.18.3.ebuild,
+  -zigpy-xbee-0.19.0.ebuild, -zigpy-xbee-0.20.0.ebuild,
+  zigpy-xbee-0.20.1.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-xbee-0.20.1 (17 Dec 2023)
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> +zigpy-xbee-0.20.1.ebuild:
+  add 0.20.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2541
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-xbee-0.20.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +zigpy-xbee-0.20.0.ebuild:
+  add 0.20.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2520
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -zigpy-xbee-0.17.0.ebuild,
+  -zigpy-xbee-0.18.0.ebuild:
+  drop 0.17.0, 0.18.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-xbee-0.19.0 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +zigpy-xbee-0.19.0.ebuild:
+  add 0.19.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-xbee-0.18.3 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.17.0.ebuild,
+  zigpy-xbee-0.18.0.ebuild, +zigpy-xbee-0.18.3.ebuild:
+  add 0.18.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-xbee-0.18.0 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -zigpy-xbee-0.16.2.ebuild,
+  +zigpy-xbee-0.18.0.ebuild:
+  add 0.18.0, drop 0.16.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-xbee-0.17.0 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -zigpy-xbee-0.15.0.ebuild,
+  -zigpy-xbee-0.16.0.ebuild, -zigpy-xbee-0.16.1.ebuild,
+  zigpy-xbee-0.16.2.ebuild, +zigpy-xbee-0.17.0.ebuild:
+  add 0.17.0, drop olds, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.15.0.ebuild,
+  zigpy-xbee-0.16.0.ebuild, zigpy-xbee-0.16.1.ebuild,
+  zigpy-xbee-0.16.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.15.0.ebuild,
+  zigpy-xbee-0.16.0.ebuild, zigpy-xbee-0.16.1.ebuild,
+  zigpy-xbee-0.16.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-xbee-0.16.2 (11 Oct 2022)
+
+  11 Oct 2022; Andreas Billmeier <b@edevau.net> +zigpy-xbee-0.16.2.ebuild:
+  bump zigpy-xbee-0.16.2
+
+*zigpy-xbee-0.16.1 (09 Oct 2022)
+
+  09 Oct 2022; Andreas Billmeier <b@edevau.net> +zigpy-xbee-0.16.1.ebuild:
+  update zigpy-xbee-0.16.1
+
+*zigpy-xbee-0.16.0 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> -zigpy-xbee-0.14.0.ebuild,
+  zigpy-xbee-0.15.0.ebuild, +zigpy-xbee-0.16.0.ebuild:
+  update ZHA dependencies:
+  zigpy-0.51.2
+  bellows-0.34.1
+  zha-quirks-0.0.82
+  zigpy-deconz-0.19.0
+  zigpy-xbee-0.16.0
+  zigpy-zigate-0.10.0
+  zigpy-znp-0.9.0
+
+*zigpy-xbee-0.15.0 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -zigpy-xbee-0.12.1.ebuild,
+  -zigpy-xbee-0.13.0.ebuild, zigpy-xbee-0.14.0.ebuild,
+  +zigpy-xbee-0.15.0.ebuild:
+  update zigpy-xbee-0.15.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.12.1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.13.0.ebuild,
+  zigpy-xbee-0.14.0.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.14.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.12.1.ebuild,
+  zigpy-xbee-0.13.0.ebuild, zigpy-xbee-0.14.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*zigpy-xbee-0.14.0 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.12.1.ebuild,
+  zigpy-xbee-0.13.0.ebuild, +zigpy-xbee-0.14.0.ebuild:
+  update zigpy-xbee-0.14.0
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.12.1.ebuild,
+  zigpy-xbee-0.13.0.ebuild:
+  fix uri.https
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> zigpy-xbee-0.12.1.ebuild,
+  zigpy-xbee-0.13.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  12 Sep 2020; Andreas Billmeier <b@edevau.net> zigpy-xbee-0.12.1.ebuild:
+  update/re-check some LICENSE strings
+
+*zigpy-xbee-0.13.0 (07 Sep 2020)
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> +zigpy-xbee-0.13.0.ebuild:
+  zigpy-xbee-0.13.0 updated
+
+*zigpy-xbee-0.12.1 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +zigpy-xbee-0.12.1.ebuild:
+  add zigpy-xbee-0.12.1
+

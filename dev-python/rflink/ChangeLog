@@ -1,0 +1,178 @@
+# ChangeLog for dev-python/rflink
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -rflink-0.0.66.ebuild:
+  Cleansing
+
+*rflink-0.0.67 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +rflink-0.0.67.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  rflink-0.0.66.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -rflink-0.0.65.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -rflink-0.0.65.ebuilde, -rflink-0.0.66.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +rflink-0.0.65.ebuilde, +rflink-0.0.66.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  rflink-0.0.66.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*rflink-0.0.66 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> rflink-0.0.65.ebuild,
+  +rflink-0.0.66.ebuild:
+  add 0.0.66
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3013
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> rflink-0.0.65.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -rflink-0.0.63.ebuild:
+  drop 0.0.63
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rflink-0.0.65 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -rflink-0.0.62.ebuild,
+  rflink-0.0.63.ebuild, +rflink-0.0.65.ebuild:
+  add 0.0.65, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> rflink-0.0.62.ebuild,
+  rflink-0.0.63.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> rflink-0.0.62.ebuild,
+  rflink-0.0.63.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rflink-0.0.63 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> rflink-0.0.62.ebuild,
+  +rflink-0.0.63.ebuild:
+  bump rflink-0.0.63
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> rflink-0.0.62.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> -rflink-0.0.58.ebuild,
+  rflink-0.0.62.ebuild:
+  cleanup rflink-0.0.62, remove olds
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> rflink-0.0.58.ebuild,
+  rflink-0.0.62.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> rflink-0.0.58.ebuild,
+  rflink-0.0.62.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*rflink-0.0.62 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +rflink-0.0.62.ebuild:
+  bump rflink-0.0.62
+
+  02 Sep 2021; Andreas Billmeier <b@edevau.net> -rflink-0.0.51.ebuild,
+  -rflink-0.0.52.ebuild, -rflink-0.0.54.ebuild, -rflink-0.0.55.ebuild,
+  rflink-0.0.58.ebuild:
+  cleanup rflink-0.0.58, PYTHON_COMPAT
+
+*rflink-0.0.58 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net> -rflink-0.0.50.ebuild,
+  +rflink-0.0.58.ebuild:
+  bump rflink-0.0.58
+
+*rflink-0.0.55 (28 Nov 2020)
+
+  28 Nov 2020; Andreas Billmeier <b@edevau.net> +rflink-0.0.55.ebuild:
+  bump rflink-0.0.55
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> rflink-0.0.50.ebuild,
+  rflink-0.0.51.ebuild, rflink-0.0.52.ebuild, rflink-0.0.54.ebuild:
+  fix leading spaces
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> rflink-0.0.50.ebuild,
+  rflink-0.0.51.ebuild, rflink-0.0.52.ebuild, rflink-0.0.54.ebuild:
+  fix repoman ebuild.minorsyn
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> rflink-0.0.50.ebuild,
+  rflink-0.0.51.ebuild, rflink-0.0.52.ebuild, rflink-0.0.54.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*rflink-0.0.54 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> -rflink-0.0.37.ebuild,
+  -rflink-0.0.46.ebuild, rflink-0.0.50.ebuild, rflink-0.0.51.ebuild,
+  rflink-0.0.52.ebuild, +rflink-0.0.54.ebuild:
+  fix https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/25
+  update rflink-0.0.54
+
+*rflink-0.0.52 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +rflink-0.0.52.ebuild:
+  bump rflink-0.0.52
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> rflink-0.0.51.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: Q-R
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> rflink-0.0.37.ebuild,
+  rflink-0.0.46.ebuild, rflink-0.0.50.ebuild:
+  minor code cleanups
+
+*rflink-0.0.51 (02 Feb 2020)
+
+  02 Feb 2020; Andreas Billmeier <b@edevau.net> +rflink-0.0.51.ebuild:
+  bump rflink-0.0.51
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*rflink-0.0.50 (31 Dec 2019)
+
+  31 Dec 2019; Andreas Billmeier <b@edevau.net> +rflink-0.0.50.ebuild:
+  bump rflink-0.0.50
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> rflink-0.0.37.ebuild,
+  rflink-0.0.46.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*rflink-0.0.46 (08 Jun 2019)
+*rflink-0.0.37 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +rflink-0.0.37.ebuild, +rflink-0.0.46.ebuild:
+  add rflink-0.0.46
+

@@ -1,0 +1,38 @@
+# ChangeLog for dev-python/tuf
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tuf-5.0.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tuf-4.0.0.ebuild, tuf-5.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -tuf-4.0.0.ebuilde,
+  -tuf-5.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +tuf-4.0.0.ebuilde,
+  +tuf-5.0.0.ebuilde:
+  Fix KEYWORDS
+
+*tuf-5.0.0 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +tuf-5.0.0.ebuild:
+  add 5.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3359
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tuf-4.0.0 (13 May 2024)
+
+  13 May 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +tuf-4.0.0.ebuild:
+  new package, add 4.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3347
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

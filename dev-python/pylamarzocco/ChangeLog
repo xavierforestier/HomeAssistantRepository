@@ -1,0 +1,140 @@
+# ChangeLog for dev-python/pylamarzocco
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylamarzocco-2.1.1.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*pylamarzocco-2.1.2 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pylamarzocco-2.1.2-build-system.patch, -pylamarzocco-2.1.0.ebuild,
+  +pylamarzocco-2.1.2.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylamarzocco-2.0.11.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*pylamarzocco-2.1.1 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pylamarzocco-2.1.1-build-system.patch, +pylamarzocco-2.1.1.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+*pylamarzocco-2.1.0 (21 Sep 2025)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/pylamarzocco-2.0.8-build-system.patch,
+  -files/pylamarzocco-2.0.9-build-system.patch,
+  +files/pylamarzocco-2.1.0-build-system.patch, +pylamarzocco-2.1.0.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylamarzocco-2.0.9.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*pylamarzocco-2.0.11 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pylamarzocco-2.0.11-build-system.patch, +pylamarzocco-2.0.11.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylamarzocco-2.0.8.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/pylamarzocco-2.0.4-build-system.patch:
+  Fix deps for homeassistant[full]
+
+*pylamarzocco-2.0.9 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/pylamarzocco-1.4.9-build-system.patch,
+  -files/pylamarzocco-2.0.1-build-system.patch,
+  -files/pylamarzocco-2.0.3-build-system.patch,
+  +files/pylamarzocco-2.0.9-build-system.patch, -pylamarzocco-2.0.4.ebuild,
+  +pylamarzocco-2.0.9.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylamarzocco-2.0.1.ebuild, -pylamarzocco-2.0.3.ebuild:
+  clean oldies
+
+*pylamarzocco-2.0.8 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pylamarzocco-2.0.8-build-system.patch, +pylamarzocco-2.0.8.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylamarzocco-1.4.9.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pylamarzocco-2.0.4 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pylamarzocco-2.0.4-build-system.patch, +pylamarzocco-2.0.4.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+*pylamarzocco-2.0.3 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pylamarzocco-2.0.3-build-system.patch, +pylamarzocco-2.0.3.ebuild:
+  homeassistant 2025.5.2
+
+*pylamarzocco-2.0.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pylamarzocco-1.4.9-build-system.patch,
+  +files/pylamarzocco-2.0.1-build-system.patch,
+  -files/pylamarzocco-build-system.patch, pylamarzocco-1.4.9.ebuild,
+  +pylamarzocco-2.0.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pylamarzocco-1.4.9.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylamarzocco-1.2.12.ebuild, -pylamarzocco-1.4.0.ebuild,
+  -pylamarzocco-1.4.6.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pylamarzocco-1.2.12.ebuilde, -pylamarzocco-1.4.0.ebuilde,
+  -pylamarzocco-1.4.6.ebuilde, -pylamarzocco-1.4.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pylamarzocco-1.2.12.ebuild, +pylamarzocco-1.2.12.ebuilde,
+  pylamarzocco-1.4.0.ebuild, +pylamarzocco-1.4.0.ebuilde,
+  pylamarzocco-1.4.6.ebuild, +pylamarzocco-1.4.6.ebuilde,
+  pylamarzocco-1.4.9.ebuild, +pylamarzocco-1.4.9.ebuilde:
+  Fix KEYWORDS
+
+*pylamarzocco-1.4.9 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/pylamarzocco-build-system.patch, +pylamarzocco-1.4.9.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*pylamarzocco-1.4.6 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pylamarzocco-1.4.6.ebuild:
+  homeassistant 2025.1.1
+
+*pylamarzocco-1.4.0 (19 Dec 2024)
+*pylamarzocco-1.2.12 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pylamarzocco-1.2.12.ebuild, +pylamarzocco-1.4.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+

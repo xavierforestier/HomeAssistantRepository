@@ -1,0 +1,124 @@
+# ChangeLog for dev-python/bring-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bring-api-1.1.0.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+*bring-api-1.1.1 (25 Oct 2025)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bring-api-1.1.1.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bring-api-1.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bring-api-1.0.2.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bring-api-0.5.7.ebuild, -bring-api-0.7.1.ebuild, -bring-api-0.8.1.ebuild,
+  -bring-api-0.9.0.ebuild, -bring-api-0.9.1.ebuild, -bring-api-1.0.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bring-api-0.5.7.ebuilde, -bring-api-0.7.1.ebuilde,
+  -bring-api-0.8.1.ebuilde, -bring-api-0.9.0.ebuilde,
+  -bring-api-0.9.1.ebuilde, -bring-api-1.0.0.ebuilde,
+  -bring-api-1.0.2.ebuilde, -bring-api-1.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bring-api-0.5.7.ebuilde, +bring-api-0.7.1.ebuilde,
+  +bring-api-0.8.1.ebuilde, +bring-api-0.9.0.ebuilde,
+  +bring-api-0.9.1.ebuilde, +bring-api-1.0.0.ebuilde,
+  +bring-api-1.0.2.ebuilde, +bring-api-1.1.0.ebuilde:
+  Fix KEYWORDS
+
+*bring-api-1.1.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bring-api-1.1.0.ebuild:
+  Homeassistant 2025.4.0
+
+*bring-api-1.0.2 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bring-api-1.0.2.ebuild:
+  homeassistant 2025.3.0
+
+*bring-api-1.0.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bring-api-1.0.0.ebuild:
+  homeassisstant-2025.2.0
+
+*bring-api-0.9.1 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bring-api-0.9.1.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+*bring-api-0.9.0 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bring-api-0.9.0.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*bring-api-0.8.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -bring-api-0.5.6.ebuild,
+  +bring-api-0.8.1.ebuild, metadata.xml:
+  add 0.8.1, drop 0.5.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3586
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bring-api-0.7.1 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> bring-api-0.5.6.ebuild,
+  bring-api-0.5.7.ebuild, +bring-api-0.7.1.ebuild:
+  add 0.7.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3393
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -x:
+  delete Crap
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -bring-api-0.5.5.ebuild:
+  drop 0.5.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bring-api-0.5.7 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +bring-api-0.5.7.ebuild:
+  add 0.5.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3102
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bring-api-0.5.6 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> +bring-api-0.5.6.ebuild:
+  add 0.5.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3059
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bring-api-0.5.5 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> +bring-api-0.5.5.ebuild, +x,
+  +metadata.xml:
+  new package, add 0.5.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2948
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

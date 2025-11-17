@@ -1,0 +1,59 @@
+# ChangeLog for dev-python/asyncpysupla
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  asyncpysupla-0.0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -asyncpysupla-0.0.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +asyncpysupla-0.0.5.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  asyncpysupla-0.0.5.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> asyncpysupla-0.0.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> asyncpysupla-0.0.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> asyncpysupla-0.0.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> asyncpysupla-0.0.5.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> asyncpysupla-0.0.5.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> asyncpysupla-0.0.5.ebuild:
+  fix more RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> asyncpysupla-0.0.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> asyncpysupla-0.0.5.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*asyncpysupla-0.0.5 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +asyncpysupla-0.0.5.ebuild,
+  +metadata.xml:
+  add asyncpysupla-0.0.5
+

@@ -1,0 +1,138 @@
+# ChangeLog for dev-python/envs
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  envs-1.4-r2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  envs-1.4-r2.ebuild:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -envs-1.4-r2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +envs-1.4-r2.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr> envs-1.4-r2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> envs-1.4-r2.ebuild,
+  metadata.xml:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> envs-1.4-r2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> envs-1.4-r2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*envs-1.4-r2 (27 May 2022)
+
+  27 May 2022; Andreas Billmeier <b@edevau.net> -envs-1.4-r1.ebuild,
+  +envs-1.4-r2.ebuild:
+  remove pyproject.toml, migrate to PEP517
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> -envs-1.3-r1.ebuild,
+  envs-1.4-r1.ebuild:
+  fix some invalid pre-inherit placements of
+  'DISTUTILS_USE_SETUPTOOLS=pyproject.toml'
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> envs-1.4-r1.ebuild:
+  flag current -min deps stable
+
+  08 Mar 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  add 'cli' useflag to metadata.xml
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> envs-1.3-r1.ebuild,
+  envs-1.4-r1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*envs-1.4-r1 (04 Mar 2022)
+
+  04 Mar 2022; Andreas Billmeier <b@edevau.net> -envs-1.4.ebuild,
+  +envs-1.4-r1.ebuild:
+  update envs-1.4-r1, should fix #48
+
+*envs-1.4 (26 Feb 2022)
+*envs-1.3-r1 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -envs-1.2.6.ebuild,
+  -envs-1.3.ebuild, +envs-1.3-r1.ebuild, +envs-1.4.ebuild, metadata.xml:
+  update envs-1.4, envs-1.3-r1
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild,
+  envs-1.3.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild,
+  envs-1.3.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> envs-1.2.6.ebuild, envs-1.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> envs-1.3.ebuild:
+  remove beta flags from good working core modules
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild,
+  envs-1.3.ebuild:
+  fix the rest of 75 DESCRIPTION.toolong
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> envs-1.3.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: E-G
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> envs-1.3.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  21 Dec 2019; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild:
+  clean up KEYWORDS where KEYWORDS.invalid
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> envs-1.3.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> envs-1.3.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*envs-1.3 (17 Mar 2019)
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> +envs-1.3.ebuild,
+  metadata.xml:
+  bump envs-1.3
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild:
+  minor changes
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild:
+  fixed envs SRC_URI
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+  09 Dec 2018; Andreas Billmeier <b@edevau.net> envs-1.2.6.ebuild:
+  changed newest dev-python ebuild to unstable
+
+*envs-1.2.6 (30 Nov 2018)
+
+  30 Nov 2018; Andreas Billmeier <b@edevau.net> +envs-1.2.6.ebuild:
+  homeassistant-0.83.1, and some more system-wide python libs.
+

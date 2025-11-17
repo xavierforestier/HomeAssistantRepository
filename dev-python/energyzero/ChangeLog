@@ -1,0 +1,94 @@
+# ChangeLog for dev-python/energyzero
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  energyzero-2.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -energyzero-2.1.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -energyzero-2.1.0.ebuilde, -energyzero-2.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +energyzero-2.1.0.ebuilde, +energyzero-2.1.1.ebuilde:
+  Fix KEYWORDS
+
+*energyzero-2.1.1 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> energyzero-2.1.0.ebuild,
+  +energyzero-2.1.1.ebuild:
+  add 2.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3618
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -energyzero-0.5.0.ebuild,
+  -energyzero-1.0.0.ebuild, energyzero-2.1.0.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*energyzero-2.1.0 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +energyzero-2.1.0.ebuild:
+  add 2.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2600
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -energyzero-0.4.1.ebuild:
+  drop 0.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*energyzero-1.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +energyzero-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2440
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*energyzero-0.5.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +energyzero-0.5.0.ebuild:
+  add 0.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -energyzero-0.3.1.ebuild:
+  drop 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> energyzero-0.3.1.ebuild,
+  energyzero-0.4.1.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> energyzero-0.3.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*energyzero-0.4.1 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> +energyzero-0.4.1.ebuild:
+  add 0.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*energyzero-0.3.1 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> +energyzero-0.3.1.ebuild,
+  +metadata.xml:
+  new package, add 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

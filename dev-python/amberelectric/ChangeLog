@@ -1,0 +1,88 @@
+# ChangeLog for dev-python/amberelectric
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  amberelectric-2.0.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -amberelectric-1.1.0.ebuild, -amberelectric-1.1.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -amberelectric-1.1.0.ebuilde, -amberelectric-1.1.1.ebuilde,
+  -amberelectric-2.0.12.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +amberelectric-1.1.0.ebuilde, +amberelectric-1.1.1.ebuilde,
+  +amberelectric-2.0.12.ebuilde:
+  Fix KEYWORDS
+
+*amberelectric-2.0.12 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +amberelectric-2.0.12.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  amberelectric-1.1.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+*amberelectric-1.1.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -amberelectric-1.0.4.ebuild,
+  amberelectric-1.1.0.ebuild, +amberelectric-1.1.1.ebuild, metadata.xml:
+  add 1.1.1, drop 1.0.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3546
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*amberelectric-1.1.0 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> amberelectric-1.0.4.ebuild,
+  +amberelectric-1.1.0.ebuild, metadata.xml:
+  add 1.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2745
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> amberelectric-1.0.4.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> amberelectric-1.0.4.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> amberelectric-1.0.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -amberelectric-1.0.3.ebuild,
+  amberelectric-1.0.4.ebuild:
+  remove olds, cleanup, enable pytest
+
+*amberelectric-1.0.4 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> amberelectric-1.0.3.ebuild,
+  +amberelectric-1.0.4.ebuild:
+  bump amberelectric-1.0.4, update LICENSE
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> amberelectric-1.0.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*amberelectric-1.0.3 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +amberelectric-1.0.3.ebuild,
+  +metadata.xml:
+  add amberelectric-1.0.3
+

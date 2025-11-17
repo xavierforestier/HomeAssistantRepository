@@ -1,0 +1,113 @@
+# ChangeLog for dev-python/aiowithings
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiowithings-3.1.6.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiowithings-2.1.0.ebuild, -aiowithings-3.0.3.ebuild,
+  -aiowithings-3.1.1.ebuild, -aiowithings-3.1.3.ebuild,
+  -aiowithings-3.1.4.ebuild, -aiowithings-3.1.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiowithings-2.1.0.ebuilde, -aiowithings-3.0.3.ebuilde,
+  -aiowithings-3.1.1.ebuilde, -aiowithings-3.1.3.ebuilde,
+  -aiowithings-3.1.4.ebuilde, -aiowithings-3.1.5.ebuilde,
+  -aiowithings-3.1.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiowithings-2.1.0.ebuilde, +aiowithings-3.0.3.ebuilde,
+  +aiowithings-3.1.1.ebuilde, +aiowithings-3.1.3.ebuilde,
+  +aiowithings-3.1.4.ebuilde, +aiowithings-3.1.5.ebuilde,
+  +aiowithings-3.1.6.ebuilde:
+  Fix KEYWORDS
+
+*aiowithings-3.1.6 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiowithings-3.1.6.ebuild:
+  homeassistant 2025.3.0
+
+*aiowithings-3.1.5 (10 Feb 2025)
+
+  10 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiowithings-3.1.5.ebuild:
+  homeassistant 2025.1.4
+
+*aiowithings-3.1.4 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiowithings-3.1.4.ebuild:
+  Homeassistant 2024.12.3
+
+*aiowithings-3.1.3 (17 Nov 2024)
+
+  17 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiowithings-3.1.3.ebuild:
+  homeassitant 2024.11.2 and its deps
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -aiowithings-3.1.0.ebuild:
+  drop 3.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowithings-3.1.1 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +aiowithings-3.1.1.ebuild:
+  add 3.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4100
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowithings-3.1.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +aiowithings-3.1.0.ebuild:
+  add 3.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4081
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowithings-3.0.3 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -aiowithings-2.0.0.ebuild,
+  aiowithings-2.1.0.ebuild, +aiowithings-3.0.3.ebuild:
+  drop 2.0.0, add 3.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3810
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -aiowithings-1.0.2.ebuild,
+  aiowithings-2.0.0.ebuild, aiowithings-2.1.0.ebuild:
+  drop 1.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowithings-2.1.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> aiowithings-1.0.2.ebuild,
+  aiowithings-2.0.0.ebuild, +aiowithings-2.1.0.ebuild:
+  add 2.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2878
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowithings-2.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +aiowithings-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2510
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiowithings-1.0.2 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +aiowithings-1.0.2.ebuild,
+  +metadata.xml:
+  new package, add 1.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

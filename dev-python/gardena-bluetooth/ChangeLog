@@ -1,0 +1,97 @@
+# ChangeLog for dev-python/gardena-bluetooth
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  gardena-bluetooth-1.6.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gardena-bluetooth-1.5.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gardena-bluetooth-1.4.1.ebuild, -gardena-bluetooth-1.4.2.ebuild,
+  -gardena-bluetooth-1.4.3.ebuild, -gardena-bluetooth-1.4.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -gardena-bluetooth-1.4.1.ebuilde, -gardena-bluetooth-1.4.2.ebuilde,
+  -gardena-bluetooth-1.4.3.ebuilde, -gardena-bluetooth-1.4.4.ebuilde,
+  -gardena-bluetooth-1.5.0.ebuilde, -gardena-bluetooth-1.6.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gardena-bluetooth-1.4.1.ebuilde, +gardena-bluetooth-1.4.2.ebuilde,
+  +gardena-bluetooth-1.4.3.ebuilde, +gardena-bluetooth-1.4.4.ebuilde,
+  +gardena-bluetooth-1.5.0.ebuilde, +gardena-bluetooth-1.6.0.ebuilde:
+  Fix KEYWORDS
+
+*gardena-bluetooth-1.6.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gardena-bluetooth-1.6.0.ebuild:
+  Homeassistant 2025.4.0
+
+*gardena-bluetooth-1.5.0 (02 Jan 2025)
+
+  02 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gardena-bluetooth-1.5.0.ebuild:
+  homeassistant 2024.12.5
+
+*gardena-bluetooth-1.4.4 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +gardena-bluetooth-1.4.4.ebuild:
+  add 1.4.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4017
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gardena-bluetooth-1.4.3 (20 Oct 2024)
+
+  20 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +gardena-bluetooth-1.4.3.ebuild:
+  add 1.4.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3634
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gardena-bluetooth-1.4.2 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net>
+  gardena-bluetooth-1.4.1.ebuild, +gardena-bluetooth-1.4.2.ebuild:
+  add 1.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3487
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -gardena-bluetooth-1.4.0.ebuild, gardena-bluetooth-1.4.1.ebuild:
+  drop 1.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gardena-bluetooth-1.4.1 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net>
+  +gardena-bluetooth-1.4.1.ebuild:
+  add 1.4.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2609
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  gardena-bluetooth-1.4.0.ebuild:
+  fix buildsystem
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gardena-bluetooth-1.4.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +gardena-bluetooth-1.4.0.ebuild, +metadata.xml:
+  new package, add 1.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

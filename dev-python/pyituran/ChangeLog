@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/pyituran
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyituran-0.1.4.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*pyituran-0.1.5 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyituran-0.1.5.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, pyituran-0.1.4.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyituran-0.1.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyituran-0.1.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyituran-0.1.4.ebuild, +pyituran-0.1.4.ebuilde:
+  Fix KEYWORDS
+
+*pyituran-0.1.4 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyituran-0.1.4.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

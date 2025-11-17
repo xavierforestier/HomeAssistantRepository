@@ -1,0 +1,26 @@
+# ChangeLog for dev-python/num2words
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, num2words-0.5.14.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  num2words-0.5.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -num2words-0.5.14.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  num2words-0.5.14.ebuild, +num2words-0.5.14.ebuilde:
+  Fix KEYWORDS
+
+*num2words-0.5.14 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +num2words-0.5.14.ebuild:
+  Homeassistant 2025.4.0
+

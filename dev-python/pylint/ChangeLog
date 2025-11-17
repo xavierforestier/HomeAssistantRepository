@@ -1,0 +1,183 @@
+# ChangeLog for dev-python/pylint
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pylint-3.2.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pylint-3.2.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pylint-3.2.2.ebuilde:
+  Fix KEYWORDS
+
+*pylint-3.2.2 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pylint-3.2.2.ebuild:
+  new package, add 3.2.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3525
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pylint-2.16.0.ebuild, -pylint-2.17.0.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pylint-2.17.0 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> -pylint-2.15.7.ebuild,
+  +pylint-2.17.0.ebuild:
+  add 2.17.0, drop 2.15.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pylint-2.16.0 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net> +pylint-2.16.0.ebuild:
+  add 2.16.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pylint-2.15.7.ebuild:
+  remove Python 3.8 Support tag
+
+*pylint-2.15.7 (03 Jan 2023)
+
+  03 Jan 2023; Andreas Billmeier <b@edevau.net> -pylint-2.14.4.ebuild,
+  -pylint-2.15.0.ebuild, +pylint-2.15.7.ebuild:
+  re-add 2.15.7 (from main), drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pylint-2.15.0 (12 Oct 2022)
+
+  12 Oct 2022; Andreas Billmeier <b@edevau.net> -pylint-2.14.3.ebuild,
+  +pylint-2.15.0.ebuild:
+  re-add pylint-2.15.0 (from main)
+
+*pylint-2.14.4 (18 Aug 2022)
+
+  18 Aug 2022; Andreas Billmeier <b@edevau.net> pylint-2.14.3.ebuild,
+  +pylint-2.14.4.ebuild:
+  re-add pylint-2.14.4 (from main)
+
+*pylint-2.14.3 (16 Jul 2022)
+
+  16 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -files/pylint-2.4.4-sphinx-theme.patch, -pylint-2.12.1.ebuild,
+  -pylint-2.13.3.ebuild, +pylint-2.14.3.ebuild:
+  re-add pylint-2.14.3 (from main)
+
+*pylint-2.13.3 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> +pylint-2.13.3.ebuild:
+  re-add pylint-2.13.3 (from main)
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> -pylint-2.11.1.ebuild,
+  pylint-2.12.1.ebuild:
+  minor cleanups
+
+*pylint-2.12.1 (29 Dec 2021)
+
+  29 Dec 2021; Andreas Billmeier <b@edevau.net> +pylint-2.12.1.ebuild:
+  re-add pylint-2.12.1 from main
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> pylint-2.11.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*pylint-2.11.1 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -pylint-2.6.0.ebuild, -pylint-2.8.3.ebuild, -pylint-2.9.5.ebuild,
+  +pylint-2.11.1.ebuild:
+  update pylint-2.11.1
+
+*pylint-2.9.5 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net>
+  -files/pylint-2.5.3-no-pytest-runner.patch, -files/pylint-2.5.3-tests.patch,
+  +pylint-2.9.5.ebuild:
+  update homeassistant-2021.8.0
+  restore pylint-2.9.5 from main repo archive
+  bump home-assistant-frontend-20210803.2
+
+*pylint-2.8.3 (28 Jun 2021)
+
+  28 Jun 2021; Andreas Billmeier <b@edevau.net> -pylint-2.5.3.ebuild,
+  -pylint-2.8.0.ebuild, +pylint-2.8.3.ebuild:
+  bump pylint-2.8.3
+
+*pylint-2.8.0 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +pylint-2.8.0.ebuild:
+  restore pylint-2.8.0 from main repo
+
+*pylint-2.5.3 (21 Nov 2020)
+
+  21 Nov 2020; Andreas Billmeier <b@edevau.net>
+  +files/pylint-2.5.3-no-pytest-runner.patch, +pylint-2.5.3.ebuild:
+  re-add (from main repo) pylint-2.5.3, still needed for
+  <=homeassistant-0.118.1
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pylint-2.6.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pylint-2.6.0 (19 Sep 2020)
+
+  19 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +files/pylint-2.4.4-sphinx-theme.patch, +files/pylint-2.5.3-tests.patch,
+  +metadata.xml, +pylint-2.6.0.ebuild:
+  bump pylint-2.6.0
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pylint-2.2.2.ebuild, -pylint-2.4.2.ebuild, -pylint-2.4.3.ebuild,
+  -pylint-2.4.3-r1.ebuild, -pylint-2.4.4.ebuild:
+  old pylint versions removed
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pylint-2.4.4.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pylint-2.2.2.ebuild,
+  pylint-2.4.2.ebuild, pylint-2.4.3.ebuild, pylint-2.4.3-r1.ebuild,
+  pylint-2.4.4.ebuild:
+  minor code cleanups
+
+*pylint-2.4.4 (16 Nov 2019)
+
+  16 Nov 2019; Andreas Billmeier <b@edevau.net> +pylint-2.4.4.ebuild:
+  bump pylint-2.4.4
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pylint-2.2.2.ebuild,
+  pylint-2.4.2.ebuild, pylint-2.4.3.ebuild, pylint-2.4.3-r1.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+*pylint-2.4.3-r1 (01 Nov 2019)
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> +pylint-2.4.3-r1.ebuild:
+  drop support for obsolete python versions
+
+*pylint-2.4.3 (20 Oct 2019)
+
+  20 Oct 2019; Andreas Billmeier <b@edevau.net> +pylint-2.4.3.ebuild:
+  bump pylint-2.4.3
+
+*pylint-2.4.2 (07 Oct 2019)
+
+  07 Oct 2019; Andreas Billmeier <b@edevau.net> +pylint-2.4.2.ebuild:
+  bump pylint-2.4.2
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> pylint-2.2.2.ebuild:
+  minor changes
+
+*pylint-2.2.2 (22 Dec 2018)
+
+  22 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pylint-2.2.2.ebuild:
+  pylint-2.2.2
+

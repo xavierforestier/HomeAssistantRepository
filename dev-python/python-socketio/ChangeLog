@@ -1,0 +1,146 @@
+# ChangeLog for dev-python/python-socketio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*python-socketio-5.13.0 (09 May 2025)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  metadata.xml, -python-socketio-4.6.0-r2.ebuild,
+  -python-socketio-5.11.4.ebuild, +python-socketio-5.13.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-socketio-4.6.0-r2.ebuilde, -python-socketio-5.11.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-socketio-4.6.0-r2.ebuilde, +python-socketio-5.11.4.ebuilde:
+  Fix KEYWORDS
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  python-socketio-5.11.4.ebuild:
+  Some fixes :) for homeassistant 2024.10.2
+
+*python-socketio-5.11.4 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r2.ebuild, +python-socketio-5.11.4.ebuild:
+  add 5.11.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-socketio-4.6.0-r2 (22 Apr 2024)
+
+  22 Apr 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-socketio-4.6.0-r2.ebuild:
+  re-add 4.6.0-r2 from archive
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -python-socketio-4.6.0-r2.ebuild, -python-socketio-5.3.0-r1.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-socketio-5.3.0-r1 (08 Jan 2024)
+
+  08 Jan 2024; Andreas Billmeier <b@edevau.net> -python-socketio-5.3.0.ebuild,
+  +python-socketio-5.3.0-r1.ebuild:
+  add useflags to 5.3.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-socketio-4.6.0-r2 (07 Jan 2024)
+
+  07 Jan 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +python-socketio-4.6.0-r2.ebuild, python-socketio-5.3.0.ebuild:
+  re-add 4.6.0-r2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -python-socketio-4.6.0-r1.ebuild:
+  drop 4.6.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r1.ebuild, python-socketio-5.3.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-socketio-4.6.0-r1 (11 Jul 2023)
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net>
+  +python-socketio-4.6.0-r1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jul 2023; Andreas Billmeier <b@edevau.net>
+  -python-socketio-4.6.0-r1.ebuild, python-socketio-5.3.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r1.ebuild, python-socketio-5.3.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r1.ebuild, python-socketio-5.3.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r1.ebuild, python-socketio-5.3.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r1.ebuild, python-socketio-5.3.0.ebuild:
+  fix all open uri.https
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  python-socketio-4.6.0-r1.ebuild, python-socketio-5.3.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*python-socketio-5.3.0 (13 Jul 2021)
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -python-socketio-4.6.0.ebuild, python-socketio-4.6.0-r1.ebuild,
+  +python-socketio-5.3.0.ebuild:
+  cleanup, add new Python Targets, Letter 'N' and parts of P Integrations
+
+*python-socketio-4.6.0-r1 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net>
+  +python-socketio-4.6.0-r1.ebuild:
+  update python-socketio-4.6.0-r1
+
+  19 Dec 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  remove (illegal) DOCS elements
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> python-socketio-4.6.0.ebuild:
+  fix uri.https
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> python-socketio-4.6.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*python-socketio-4.6.0 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-socketio-4.6.0.ebuild:
+  add python-socketio-4.6.0
+

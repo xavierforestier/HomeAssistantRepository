@@ -1,0 +1,20 @@
+# ChangeLog for dev-python/pypaperless
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypaperless-4.1.0.ebuild:
+  Cleansing
+
+*pypaperless-4.1.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pypaperless-4.1.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*pypaperless-4.1.0 (13 Jun 2025)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pypaperless-4.1.0.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+

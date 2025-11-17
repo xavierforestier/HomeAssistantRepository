@@ -1,0 +1,25 @@
+# ChangeLog for dev-python/evolutionhttp
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  evolutionhttp-0.0.18.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -evolutionhttp-0.0.18.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +evolutionhttp-0.0.18.ebuilde:
+  Fix KEYWORDS
+
+*evolutionhttp-0.0.18 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +evolutionhttp-0.0.18.ebuild,
+  +metadata.xml:
+  new package, add 0.0.18
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3589
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

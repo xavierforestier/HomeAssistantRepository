@@ -1,0 +1,230 @@
+# ChangeLog for dev-python/accuweather
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -accuweather-4.2.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*accuweather-4.2.2 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +accuweather-4.2.2.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -accuweather-4.2.0.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  17 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -.accuweather-4.2.1.ebuild.swp:
+  app-misc/homeassistant 2025.9.3
+
+*accuweather-4.2.1 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +.accuweather-4.2.1.ebuild.swp, +accuweather-4.2.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  accuweather-4.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -accuweather-4.1.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -accuweather-2.1.1.ebuild, -accuweather-3.0.0.ebuild,
+  -accuweather-4.0.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -accuweather-2.1.1.ebuilde, -accuweather-3.0.0.ebuilde,
+  -accuweather-4.0.0.ebuilde, -accuweather-4.1.0.ebuilde,
+  -accuweather-4.2.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +accuweather-2.1.1.ebuilde, +accuweather-3.0.0.ebuilde,
+  +accuweather-4.0.0.ebuilde, +accuweather-4.1.0.ebuilde,
+  +accuweather-4.2.0.ebuilde:
+  Fix KEYWORDS
+
+*accuweather-4.2.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +accuweather-4.2.0.ebuild:
+  Homeassistant 2025.4.0
+
+*accuweather-4.1.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +accuweather-4.1.0.ebuild:
+  homeassistant 2025.3.0
+
+*accuweather-4.0.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +accuweather-4.0.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*accuweather-3.0.0 (11 May 2024)
+
+  11 May 2024; Andreas Billmeier <b@edevau.net> +accuweather-3.0.0.ebuild:
+  add 3.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3234
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -accuweather-1.0.0.ebuild,
+  -accuweather-2.0.0.ebuild, -accuweather-2.1.0.ebuild,
+  accuweather-2.1.1.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*accuweather-2.1.1 (09 Dec 2023)
+
+  09 Dec 2023; Andreas Billmeier <b@edevau.net> +accuweather-2.1.1.ebuild:
+  add 2.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2417
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> accuweather-1.0.0.ebuild,
+  accuweather-2.0.0.ebuild, accuweather-2.1.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*accuweather-2.1.0 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +accuweather-2.1.0.ebuild:
+  add 2.1.0
+  closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2389
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2389
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -accuweather-0.5.0.ebuild:
+  drop 0.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> accuweather-2.0.0.ebuild:
+  fix deps
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*accuweather-2.0.0 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +accuweather-2.0.0.ebuild:
+  add 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*accuweather-1.0.0 (16 Jul 2023)
+
+  16 Jul 2023; Andreas Billmeier <b@edevau.net> accuweather-0.5.0.ebuild,
+  -accuweather-0.5.2.ebuild, +accuweather-1.0.0.ebuild:
+  drop 0.5.2, add 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*accuweather-0.5.2 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -accuweather-0.3.0.ebuild,
+  -accuweather-0.4.0.ebuild, accuweather-0.5.0.ebuild,
+  +accuweather-0.5.2.ebuild:
+  accuweather: drop olds, bump 0.5.2
+
+*accuweather-0.5.0 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> accuweather-0.3.0.ebuild,
+  accuweather-0.4.0.ebuild, +accuweather-0.5.0.ebuild:
+  add 0.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> accuweather-0.3.0.ebuild,
+  accuweather-0.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> accuweather-0.3.0.ebuild,
+  accuweather-0.4.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> accuweather-0.4.0.ebuild:
+  enable pytest
+
+*accuweather-0.4.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -accuweather-0.2.0.ebuild,
+  accuweather-0.3.0.ebuild, +accuweather-0.4.0.ebuild:
+  update accuweather-0.4.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> accuweather-0.2.0.ebuild,
+  accuweather-0.3.0.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> accuweather-0.3.0.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> accuweather-0.2.0.ebuild,
+  accuweather-0.3.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*accuweather-0.3.0 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> -accuweather-0.1.0.ebuild,
+  -accuweather-0.1.1.ebuild, +accuweather-0.3.0.ebuild, metadata.xml:
+  bump accuweather-0.3.0
+
+*accuweather-0.2.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -accuweather-0.0.9.ebuild,
+  -accuweather-0.0.10.ebuild, -accuweather-0.0.11.ebuild,
+  +accuweather-0.2.0.ebuild:
+  update accuweather-0.2.0
+
+*accuweather-0.1.1 (20 Mar 2021)
+
+  20 Mar 2021; Andreas Billmeier <b@edevau.net> +accuweather-0.1.1.ebuild:
+  bump accuweather-0.1.1
+
+*accuweather-0.1.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> +accuweather-0.1.0.ebuild:
+  bump accuweather-0.1.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> accuweather-0.0.9.ebuild,
+  accuweather-0.0.10.ebuild, accuweather-0.0.11.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*accuweather-0.0.11 (23 Sep 2020)
+
+  23 Sep 2020; Andreas Billmeier <b@edevau.net> +accuweather-0.0.11.ebuild:
+  update accuweather-0.0.11
+
+*accuweather-0.0.10 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +accuweather-0.0.10.ebuild:
+  update accuweather-0.0.10
+
+  25 Jul 2020; Andreas Billmeier <b@edevau.net> accuweather-0.0.9.ebuild:
+  update accuweather-0.0.9
+
+*accuweather-0.0.9 (25 Jul 2020)
+
+  25 Jul 2020; Andreas Billmeier <b@edevau.net> +accuweather-0.0.9.ebuild,
+  +metadata.xml:
+  add accuweather-0.0.9
+

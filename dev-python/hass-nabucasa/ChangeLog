@@ -1,0 +1,751 @@
+# ChangeLog for dev-python/hass-nabucasa
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*hass-nabucasa-1.5.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-1.5.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-1.1.0.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+*hass-nabucasa-1.1.1 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.111.2.ebuild, +hass-nabucasa-1.1.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*hass-nabucasa-1.1.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-1.1.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.111.1.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.106.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*hass-nabucasa-0.111.2 (15 Aug 2025)
+
+  15 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-0.111.2.ebuild:
+  app-misc/homeassistant 2025.8.1
+
+*hass-nabucasa-0.111.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-0.111.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.105.0.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.104.0.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.101.0.ebuild:
+  Cleansing
+
+*hass-nabucasa-0.106.0 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-0.106.0.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+*hass-nabucasa-0.105.0 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-0.105.0.ebuild:
+  homeassistant 2025.7.1
+
+*hass-nabucasa-0.104.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-0.104.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.96.0.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*hass-nabucasa-0.101.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-0.101.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hass-nabucasa-0.96.0.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+
+  08 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hass-nabucasa-0.96.0.ebuild:
+  Fix certbot / acme 3.3.0 deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.94.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*hass-nabucasa-0.96.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hass-nabucasa-0.96.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hass-nabucasa-0.94.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hass-nabucasa-0.94.0.ebuild, metadata.xml:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.92.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hass-nabucasa-0.78.0-r1.ebuild, -hass-nabucasa-0.81.1-r2.ebuild,
+  -hass-nabucasa-0.83.0.ebuild, -hass-nabucasa-0.85.0.ebuild,
+  -hass-nabucasa-0.86.0.ebuild, -hass-nabucasa-0.87.0.ebuild,
+  -hass-nabucasa-0.88.1.ebuild, -hass-nabucasa-0.90.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -hass-nabucasa-0.78.0-r1.ebuilde, -hass-nabucasa-0.81.1-r2.ebuilde,
+  -hass-nabucasa-0.83.0.ebuilde, -hass-nabucasa-0.85.0.ebuilde,
+  -hass-nabucasa-0.86.0.ebuilde, -hass-nabucasa-0.87.0.ebuilde,
+  -hass-nabucasa-0.88.1.ebuilde, -hass-nabucasa-0.90.0.ebuilde,
+  -hass-nabucasa-0.92.0.ebuilde, -hass-nabucasa-0.94.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.78.0-r1.ebuilde, +hass-nabucasa-0.81.1-r2.ebuilde,
+  +hass-nabucasa-0.83.0.ebuilde, +hass-nabucasa-0.85.0.ebuilde,
+  +hass-nabucasa-0.86.0.ebuilde, +hass-nabucasa-0.87.0.ebuilde,
+  +hass-nabucasa-0.88.1.ebuilde, +hass-nabucasa-0.90.0.ebuilde,
+  +hass-nabucasa-0.92.0.ebuilde, +hass-nabucasa-0.94.0.ebuilde:
+  Fix KEYWORDS
+
+*hass-nabucasa-0.94.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.94.0.ebuild:
+  Homeassistant 2025.4.0
+
+*hass-nabucasa-0.92.0 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.92.0.ebuild:
+  homeassistant-2025.2.4
+
+*hass-nabucasa-0.90.0 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.90.0.ebuild:
+  homeassistant-2025.2.3
+
+*hass-nabucasa-0.88.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.88.1.ebuild:
+  homeassisstant-2025.2.0
+
+*hass-nabucasa-0.87.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.87.0.ebuild:
+  homeassistant 2025.1.1
+
+*hass-nabucasa-0.86.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.86.0.ebuild:
+  homeassistant 2024.12.1
+
+*hass-nabucasa-0.85.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-nabucasa-0.85.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-nabucasa-0.83.0.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-nabucasa-0.81.1-r2.ebuild:
+  atomicwrites -> atomicwrites-homeassistant
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-nabucasa-0.81.1-r2.ebuild:
+  unpin acme version for 0.81.1-r
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.83.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.83.0.ebuild,
+  metadata.xml:
+  add 0.83.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3999
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  31 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-nabucasa-0.81.1-r2.ebuild:
+  atomicwrites -> atomicwrites-homeassistant
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  29 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-nabucasa-0.81.1-r2.ebuild, -metadata.xml:
+  unpin acme version for 0.81.1-r
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.81.1-r2 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net>
+  -hass-nabucasa-0.81.1-r1.ebuild, +hass-nabucasa-0.81.1-r2.ebuild:
+  atomicwrites -> atomicwrites-homeassistant
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.81.1-r1 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.81.1.ebuild,
+  +hass-nabucasa-0.81.1-r1.ebuild:
+  unpin acme version for 0.81.1-r
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.81.1.ebuild:
+  update 0.81.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-nabucasa-0.81.1.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-nabucasa-0.81.1.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.75.1.ebuild,
+  -hass-nabucasa-0.76.0.ebuild, -hass-nabucasa-0.79.0.ebuild:
+  drop 0.75.1, 0.76.0, 0.79.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2764
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.81.1 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.75.1.ebuild,
+  hass-nabucasa-0.76.0.ebuild, hass-nabucasa-0.78.0-r1.ebuild,
+  hass-nabucasa-0.79.0.ebuild, +hass-nabucasa-0.81.1.ebuild, metadata.xml:
+  add 0.81.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3468
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.74.0.ebuild:
+  drop 0.74.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.79.0 (24 Mar 2024)
+*hass-nabucasa-0.78.0-r1 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.78.0.ebuild,
+  +hass-nabucasa-0.78.0-r1.ebuild, +hass-nabucasa-0.79.0.ebuild:
+  move deps from 0.78.0 to 0.79.0, fix deps for 0.78.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3081
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.78.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.74.0.ebuild,
+  hass-nabucasa-0.75.1.ebuild, hass-nabucasa-0.76.0.ebuild,
+  +hass-nabucasa-0.78.0.ebuild:
+  add 0.78.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2952
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.76.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.74.0.ebuild,
+  hass-nabucasa-0.75.1.ebuild, +hass-nabucasa-0.76.0.ebuild:
+  add 0.76.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2764
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.71.0.ebuild:
+  drop 0.71.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.75.1 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.75.1.ebuild:
+  add 0.75.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2588
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.63.1.ebuild,
+  -hass-nabucasa-0.69.0.ebuild:
+  drop 0.63.1, 0.69.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.74.0 (31 Oct 2023)
+
+  31 Oct 2023; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.74.0.ebuild:
+  add 0.74.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.71.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.71.0.ebuild:
+  add 0.71.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.69.0 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.69.0.ebuild:
+  add anyio-3.7.0
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.56.0.ebuild,
+  -hass-nabucasa-0.61.0.ebuild, hass-nabucasa-0.63.1.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.56.0.ebuild,
+  hass-nabucasa-0.61.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.63.1 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.55.0.ebuild,
+  +hass-nabucasa-0.63.1.ebuild:
+  add 0.63.1, drop 0.55.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.55.0.ebuild,
+  hass-nabucasa-0.56.0.ebuild, hass-nabucasa-0.61.0.ebuild:
+  remove Python 3.8 Support tag
+
+*hass-nabucasa-0.61.0 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.54.1.ebuild,
+  hass-nabucasa-0.55.0.ebuild, hass-nabucasa-0.56.0.ebuild,
+  +hass-nabucasa-0.61.0.ebuild, metadata.xml:
+  update 0.61.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.54.1.ebuild,
+  hass-nabucasa-0.55.0.ebuild, hass-nabucasa-0.56.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*hass-nabucasa-0.56.0 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.56.0.ebuild:
+  update hass-nabucasa-0.56.0
+
+*hass-nabucasa-0.55.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.54.0.ebuild,
+  hass-nabucasa-0.54.1.ebuild, +hass-nabucasa-0.55.0.ebuild:
+  update hass-nabucasa-0.55.0
+  bump pycognito-2022.8.0
+
+*hass-nabucasa-0.54.1 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.51.0.ebuild,
+  -hass-nabucasa-0.52.0.ebuild, -hass-nabucasa-0.53.1.ebuild,
+  hass-nabucasa-0.54.0.ebuild, +hass-nabucasa-0.54.1.ebuild:
+  update hass-nabucasa-0.54.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.51.0.ebuild,
+  hass-nabucasa-0.52.0.ebuild, hass-nabucasa-0.53.1.ebuild,
+  hass-nabucasa-0.54.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*hass-nabucasa-0.54.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.54.0.ebuild:
+  bump hass-nabucasa-0.54.0
+
+*hass-nabucasa-0.53.1 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -hass-nabucasa-0.50.0-r1.ebuild, +hass-nabucasa-0.53.1.ebuild:
+  bump hass-nabucasa-0.53.1
+  bump snitun-0.31.0
+
+*hass-nabucasa-0.52.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.52.0.ebuild:
+  update hass-nabucasa-0.52.0
+
+*hass-nabucasa-0.51.0 (20 Jan 2022)
+
+  20 Jan 2022; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.50.0.ebuild,
+  +hass-nabucasa-0.51.0.ebuild:
+  update hass-nabucasa-0.51.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -hass-nabucasa-0.44.0-r1.ebuild, -hass-nabucasa-0.46.0.ebuild,
+  hass-nabucasa-0.50.0.ebuild, hass-nabucasa-0.50.0-r1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*hass-nabucasa-0.50.0-r1 (11 Nov 2021)
+
+  11 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +hass-nabucasa-0.50.0-r1.ebuild:
+  remove acme pinning in hass-nabucasa-0.50.0
+
+*hass-nabucasa-0.50.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.42.0.ebuild,
+  -hass-nabucasa-0.43.0.ebuild, -hass-nabucasa-0.45.1.ebuild,
+  +hass-nabucasa-0.50.0.ebuild:
+  update hass-nabucasa-0.50.0
+
+*hass-nabucasa-0.46.0 (14 Aug 2021)
+
+  14 Aug 2021; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.46.0.ebuild:
+  bump hass-nabucasa-0.46.0
+
+*hass-nabucasa-0.45.1 (14 Aug 2021)
+
+  14 Aug 2021; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.41.0.ebuild,
+  -hass-nabucasa-0.44.0.ebuild, +hass-nabucasa-0.45.1.ebuild:
+  bump hass-nabucasa-0.45.1
+  bump snitun-0.27.0
+
+*hass-nabucasa-0.44.0-r1 (13 Jul 2021)
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +hass-nabucasa-0.44.0-r1.ebuild:
+  remove (stupid) blocking acme hard pin for certbot-1.16.0, fixes #226
+
+  10 Jul 2021; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.38.0.ebuild,
+  -hass-nabucasa-0.39.0.ebuild:
+  remove old hass-nabucasa
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.44.0.ebuild:
+  fix snitun-0.24.0 version
+
+*hass-nabucasa-0.44.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.44.0.ebuild:
+  update hass-nabucasa-0.44.0
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.43.0.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for core packages
+
+*hass-nabucasa-0.43.0 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.37.2.ebuild,
+  +hass-nabucasa-0.43.0.ebuild:
+  update hass-nabucasa-0.43.0
+
+*hass-nabucasa-0.42.0 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.37.1.ebuild,
+  +hass-nabucasa-0.42.0.ebuild:
+  update hass-nabucasa-0.42.0
+
+*hass-nabucasa-0.41.0 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.37.0.ebuild,
+  +hass-nabucasa-0.41.0.ebuild:
+  update hass-nabucasa-0.41.0
+
+*hass-nabucasa-0.39.0 (14 Dec 2020)
+
+  14 Dec 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.36.1.ebuild,
+  +hass-nabucasa-0.39.0.ebuild:
+  bump hass-nabucasa-0.39.0
+
+*hass-nabucasa-0.38.0 (17 Nov 2020)
+
+  17 Nov 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.35.0.ebuild,
+  +hass-nabucasa-0.38.0.ebuild:
+  bump hass-nabucasa-0.38.0
+
+*hass-nabucasa-0.37.2 (12 Nov 2020)
+
+  12 Nov 2020; Andreas Billmeier <b@edevau.net>
+  -hass-nabucasa-0.34.6-r1.ebuild, -hass-nabucasa-0.34.7.ebuild,
+  +hass-nabucasa-0.37.2.ebuild:
+  update hass-nabucasa-0.37.2
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> hass-nabucasa-0.34.6-r1.ebuild,
+  hass-nabucasa-0.34.7.ebuild, hass-nabucasa-0.35.0.ebuild,
+  hass-nabucasa-0.36.1.ebuild, hass-nabucasa-0.37.0.ebuild,
+  hass-nabucasa-0.37.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*hass-nabucasa-0.37.1 (17 Oct 2020)
+
+  17 Oct 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.34.3.ebuild,
+  -hass-nabucasa-0.34.4.ebuild, -hass-nabucasa-0.34.5.ebuild,
+  +hass-nabucasa-0.37.1.ebuild:
+  bump hass-nabucasa-0.37.1
+
+  12 Sep 2020; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.37.0.ebuild:
+  fix deps in hass-nabucasa-0.37.0, some cleanup
+
+*hass-nabucasa-0.37.0 (10 Sep 2020)
+
+  10 Sep 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.37.0.ebuild:
+  update update hass-nabucasa-0.37.0
+
+*hass-nabucasa-0.36.1 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.34.2.ebuild,
+  -hass-nabucasa-0.34.6.ebuild, +hass-nabucasa-0.36.1.ebuild:
+  update hass-nabucasa-0.36.1
+
+*hass-nabucasa-0.35.0 (10 Aug 2020)
+
+  10 Aug 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.35.0.ebuild:
+  update hass-nabucasa-0.35.0
+
+*hass-nabucasa-0.34.7 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.34.1.ebuild,
+  +hass-nabucasa-0.34.7.ebuild:
+  bump hass-nabucasa-0.34.1.ebuild
+
+*hass-nabucasa-0.34.6-r1 (17 Jun 2020)
+
+  17 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +hass-nabucasa-0.34.6-r1.ebuild:
+  add missing ecdsa dep in nabucasa
+  (https://github.com/onkelbeh/HomeAssistantRepository/issues/15)
+
+*hass-nabucasa-0.34.6 (11 Jun 2020)
+
+  11 Jun 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.32.2.ebuild,
+  +hass-nabucasa-0.34.6.ebuild:
+  bump hass-nabucasa-0.34.6
+
+*hass-nabucasa-0.34.5 (07 Jun 2020)
+
+  07 Jun 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.34.5.ebuild:
+  update hass-nabucasa-0.34.5
+
+*hass-nabucasa-0.34.4 (30 May 2020)
+
+  30 May 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.30.ebuild,
+  -hass-nabucasa-0.31.ebuild, +hass-nabucasa-0.34.4.ebuild:
+  update hass-nabucasa-0.34.4
+
+*hass-nabucasa-0.34.3 (24 May 2020)
+
+  24 May 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.34.3.ebuild:
+  bump hass-nabucasa-0.34.3
+
+  03 May 2020; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.31.ebuild,
+  hass-nabucasa-0.32.2.ebuild, hass-nabucasa-0.34.1.ebuild,
+  hass-nabucasa-0.34.2.ebuild:
+  adopting semantic versioning in hass-nabucasa
+
+*hass-nabucasa-0.34.2 (02 May 2020)
+
+  02 May 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.34.2.ebuild:
+  bump hass-nabucasa-0.34.2
+
+  26 Apr 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.33.0.ebuild,
+  -hass-nabucasa-0.34.0.ebuild:
+  remove unused nabucasa versions
+
+*hass-nabucasa-0.34.1 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.23.ebuild,
+  -hass-nabucasa-0.29.ebuild, -hass-nabucasa-0.32.ebuild,
+  +hass-nabucasa-0.34.1.ebuild:
+  bump hass-nabucasa-0.34.1
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.32.2.ebuild:
+  release acme-1.3.0 (1.2.0 is bad)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.32.ebuild,
+  hass-nabucasa-0.32.2.ebuild, hass-nabucasa-0.33.0.ebuild,
+  hass-nabucasa-0.34.0.ebuild:
+  fix nabucasa deps
+
+*hass-nabucasa-0.34.0 (12 Apr 2020)
+*hass-nabucasa-0.33.0 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.33.0.ebuild,
+  +hass-nabucasa-0.34.0.ebuild:
+  bump hass-nabucasa-0.3[3-4].0
+
+*hass-nabucasa-0.32.2 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.32.2.ebuild:
+  bump hass-nabucasa-0.32.2
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.22.ebuild:
+  clean up, romove olds
+
+*hass-nabucasa-0.32 (06 Mar 2020)
+
+  06 Mar 2020; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.32.ebuild:
+  bump hass-nabucasa-0.32
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.31.ebuild:
+  remove beta flags from good working core modules
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.17.ebuild,
+  hass-nabucasa-0.23.ebuild, hass-nabucasa-0.29.ebuild,
+  hass-nabucasa-0.30.ebuild, hass-nabucasa-0.31.ebuild:
+  bump hass-nabucasa
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.17.ebuild,
+  hass-nabucasa-0.22.ebuild, hass-nabucasa-0.23.ebuild,
+  hass-nabucasa-0.29.ebuild, hass-nabucasa-0.30.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.31.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*hass-nabucasa-0.31 (07 Jan 2020)
+
+  07 Jan 2020; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.16.ebuild,
+  +hass-nabucasa-0.31.ebuild:
+  bump hass-nabucasa-0.31
+
+*hass-nabucasa-0.30 (28 Nov 2019)
+
+  28 Nov 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.30.ebuild:
+  bump hass-nabucasa-0.30
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.16.ebuild,
+  hass-nabucasa-0.17.ebuild, hass-nabucasa-0.22.ebuild,
+  hass-nabucasa-0.23.ebuild, hass-nabucasa-0.29.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*hass-nabucasa-0.29 (08 Nov 2019)
+
+  08 Nov 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.29.ebuild:
+  bump hass-nabucasa-0.29
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.16.ebuild,
+  hass-nabucasa-0.17.ebuild, hass-nabucasa-0.22.ebuild,
+  hass-nabucasa-0.23.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+  26 Oct 2019; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.13.ebuild,
+  -hass-nabucasa-0.14.ebuild, -hass-nabucasa-0.15.ebuild:
+  remove olds: hass-nabucasa
+
+*hass-nabucasa-0.23 (26 Oct 2019)
+
+  26 Oct 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.23.ebuild:
+  bump hass-nabucasa-0.23
+
+*hass-nabucasa-0.22 (03 Oct 2019)
+
+  03 Oct 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.22.ebuild:
+  bump hass-nabucasa-0.22
+
+*hass-nabucasa-0.17 (20 Aug 2019)
+
+  20 Aug 2019; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.12.ebuild,
+  +hass-nabucasa-0.17.ebuild:
+  bump hass-nabucasa-0.17
+
+*hass-nabucasa-0.16 (02 Aug 2019)
+
+  02 Aug 2019; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.11.ebuild,
+  +hass-nabucasa-0.16.ebuild:
+  bump hass-nabucasa-0.16
+
+  20 Jun 2019; Andreas Billmeier <b@edevau.net> hass-nabucasa-0.15.ebuild:
+  fix nabucasa-0.15 deps
+
+*hass-nabucasa-0.15 (17 Jun 2019)
+
+  17 Jun 2019; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.10.ebuild,
+  +hass-nabucasa-0.15.ebuild:
+  update hass-nabucasa-0.15
+
+*hass-nabucasa-0.14 (12 Jun 2019)
+
+  12 Jun 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.14.ebuild:
+  bump hass-nabucasa-0.14
+
+*hass-nabucasa-0.13 (02 Jun 2019)
+
+  02 Jun 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.13.ebuild:
+  bump nabucasa
+
+  26 May 2019; Andreas Billmeier <b@edevau.net> -hass-nabucasa-0.7.ebuild,
+  -hass-nabucasa-0.8.ebuild, hass-nabucasa-0.10.ebuild,
+  hass-nabucasa-0.11.ebuild, hass-nabucasa-0.12.ebuild:
+  fix License String
+
+*hass-nabucasa-0.12 (20 Apr 2019)
+
+  20 Apr 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.12.ebuild:
+  bump hass-nabucasa-0.12
+
+*hass-nabucasa-0.11 (27 Mar 2019)
+
+  27 Mar 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.11.ebuild:
+  bump nabucasa-0.11
+
+*hass-nabucasa-0.10 (23 Mar 2019)
+
+  23 Mar 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.10.ebuild:
+  bump hass-nabucasa-0.10
+
+*hass-nabucasa-0.8 (19 Mar 2019)
+
+  19 Mar 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.8.ebuild:
+  Update Hass-NabuCasa 0.8
+
+*hass-nabucasa-0.7 (17 Mar 2019)
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> +hass-nabucasa-0.7.ebuild,
+  +metadata.xml:
+  add hass-nabucasa-0.7 and pbr-5.1.3
+

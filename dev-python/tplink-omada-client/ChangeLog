@@ -1,0 +1,111 @@
+# ChangeLog for dev-python/tplink-omada-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tplink-omada-client-1.4.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tplink-omada-client-1.4.3.ebuild, tplink-omada-client-1.4.4.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tplink-omada-client-1.3.12.ebuild, -tplink-omada-client-1.4.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -tplink-omada-client-1.3.12.ebuilde, -tplink-omada-client-1.4.2.ebuilde,
+  -tplink-omada-client-1.4.3.ebuilde, -tplink-omada-client-1.4.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tplink-omada-client-1.3.12.ebuilde, +tplink-omada-client-1.4.2.ebuilde,
+  +tplink-omada-client-1.4.3.ebuilde, +tplink-omada-client-1.4.4.ebuilde:
+  Fix KEYWORDS
+
+*tplink-omada-client-1.4.4 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tplink-omada-client-1.4.4.ebuild:
+  Homeassistant 2025.4.0
+
+*tplink-omada-client-1.4.3 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tplink-omada-client-1.4.3.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  -tplink-omada-client-1.3.2.ebuild, -tplink-omada-client-1.3.11.ebuild:
+  drop 1.3.2, 1.3.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tplink-omada-client-1.4.2 (26 Oct 2024)
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  tplink-omada-client-1.3.2.ebuild, tplink-omada-client-1.3.11.ebuild,
+  tplink-omada-client-1.3.12.ebuild, +tplink-omada-client-1.4.2.ebuild:
+  add 1.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3789
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tplink-omada-client-1.3.12 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +tplink-omada-client-1.3.12.ebuild:
+  add 1.3.12
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3156
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tplink-omada-client-1.3.11 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net>
+  tplink-omada-client-1.3.2.ebuild, +tplink-omada-client-1.3.11.ebuild:
+  add 1.3.11
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3026
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -tplink-omada-client-1.1.4.ebuild, -tplink-omada-client-1.2.4.ebuild:
+  drop 1.1.4, 1.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tplink-omada-client-1.3.2 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +tplink-omada-client-1.3.2.ebuild:
+  add 1.3.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tplink-omada-client-1.2.4 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net>
+  -tplink-omada-client-1.1.0.ebuild, tplink-omada-client-1.1.4.ebuild,
+  +tplink-omada-client-1.2.4.ebuild:
+  add 1.2.4, fix 1.1.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tplink-omada-client-1.1.4 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net>
+  +tplink-omada-client-1.1.4.ebuild:
+  add 1.1.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tplink-omada-client-1.1.0 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +tplink-omada-client-1.1.0.ebuild:
+  new package, add 1.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,25 @@
+# ChangeLog for dev-python/epicstore-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  epicstore-api-0.1.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -epicstore-api-0.1.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +epicstore-api-0.1.7.ebuilde:
+  Fix KEYWORDS
+
+*epicstore-api-0.1.7 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> +epicstore-api-0.1.7.ebuild,
+  +metadata.xml:
+  new package, add 0.1.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3260
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

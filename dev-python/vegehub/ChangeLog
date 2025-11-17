@@ -1,0 +1,16 @@
+# ChangeLog for dev-python/vegehub
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*vegehub-0.1.26 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +vegehub-0.1.26.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*vegehub-0.1.24 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +vegehub-0.1.24.ebuild:
+  app-misc/homeassistant 2025.7.0
+

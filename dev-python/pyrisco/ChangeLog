@@ -1,0 +1,190 @@
+# ChangeLog for dev-python/pyrisco
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyrisco-0.6.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyrisco-0.6.2.ebuild, -pyrisco-0.6.4.ebuild, -pyrisco-0.6.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyrisco-0.6.2.ebuilde, -pyrisco-0.6.4.ebuilde, -pyrisco-0.6.5.ebuilde,
+  -pyrisco-0.6.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyrisco-0.6.2.ebuilde, +pyrisco-0.6.4.ebuilde, +pyrisco-0.6.5.ebuilde,
+  +pyrisco-0.6.7.ebuilde:
+  Fix KEYWORDS
+
+*pyrisco-0.6.7 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyrisco-0.6.7.ebuild:
+  homeassistant 2025.3.0
+
+*pyrisco-0.6.5 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyrisco-0.6.5.ebuild:
+  homeassistant 2024.12.2
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -pyrisco-0.5.10.ebuild,
+  -pyrisco-0.6.0.ebuild, -pyrisco-0.6.1.ebuild:
+  drop 0.5.10, 0.6.0, 0.6.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrisco-0.6.4 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +pyrisco-0.6.4.ebuild:
+  add 0.6.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3742
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrisco-0.6.2 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> +pyrisco-0.6.2.ebuild:
+  add 0.6.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3368
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrisco-0.6.1 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -pyrisco-0.5.8.ebuild,
+  pyrisco-0.5.10.ebuild, pyrisco-0.6.0.ebuild, +pyrisco-0.6.1.ebuild:
+  drop 0.5.8, add 0.6.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3296
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -pyrisco-0.5.7.ebuild:
+  drop 0.5.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrisco-0.6.0 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +pyrisco-0.6.0.ebuild:
+  add 0.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3146
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrisco-0.5.10 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> pyrisco-0.5.7.ebuild,
+  pyrisco-0.5.8.ebuild, +pyrisco-0.5.10.ebuild:
+  add 0.5.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3089
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrisco-0.5.8 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +pyrisco-0.5.8.ebuild:
+  add 0.5.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2485
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> -pyrisco-0.5.5.ebuild,
+  -pyrisco-0.5.6.ebuild, pyrisco-0.5.7.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyrisco-0.5.5.ebuild,
+  pyrisco-0.5.6.ebuild, pyrisco-0.5.7.ebuild:
+  remove Python 3.8 Support tag
+
+*pyrisco-0.5.7 (12 Dec 2022)
+
+  12 Dec 2022; Andreas Billmeier <b@edevau.net> +pyrisco-0.5.7.ebuild:
+  add 0.5.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrisco-0.5.6 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -pyrisco-0.5.2.ebuild, pyrisco-0.5.5.ebuild, +pyrisco-0.5.6.ebuild:
+  bump 0.5.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyrisco-0.5.2.ebuild,
+  pyrisco-0.5.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -pyrisco-0.3.1.ebuild,
+  -pyrisco-0.5.4.ebuild:
+  rework, remove olds
+
+*pyrisco-0.5.5 (20 Sep 2022)
+
+  20 Sep 2022; Andreas Billmeier <b@edevau.net> +pyrisco-0.5.5.ebuild:
+  bump pyrisco-0.5.5
+
+*pyrisco-0.5.4 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +pyrisco-0.5.4.ebuild:
+  bump pyrisco-0.5.4
+
+*pyrisco-0.5.2 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> pyrisco-0.3.1.ebuild,
+  +pyrisco-0.5.2.ebuild:
+  bump pyrisco-0.5.2
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> pyrisco-0.3.1.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> pyrisco-0.3.1.ebuild:
+  pyrisco-0.3.1 fix RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyrisco-0.3.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -pyrisco-0.2.1.ebuild,
+  -pyrisco-0.2.3.ebuild, -pyrisco-0.2.4.ebuild, -pyrisco-0.3.0.ebuild:
+  remove abandoned packages and Ebuilds
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyrisco-0.2.1.ebuild,
+  pyrisco-0.2.3.ebuild, pyrisco-0.2.4.ebuild, pyrisco-0.3.0.ebuild,
+  pyrisco-0.3.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyrisco-0.3.1 (18 Sep 2020)
+
+  18 Sep 2020; Andreas Billmeier <b@edevau.net> +pyrisco-0.3.1.ebuild:
+  bump pyrisco-0.3.1
+
+*pyrisco-0.3.0 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +pyrisco-0.3.0.ebuild:
+  pyrisco-0.3.0 updated
+
+*pyrisco-0.2.4 (01 Sep 2020)
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> +pyrisco-0.2.4.ebuild:
+  update pyrisco-0.2.4
+
+*pyrisco-0.2.3 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> +pyrisco-0.2.3.ebuild:
+  update pyrisco-0.2.3
+
+*pyrisco-0.2.1 (24 Aug 2020)
+
+  24 Aug 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyrisco-0.2.1.ebuild:
+  add pyrisco-0.2.1
+

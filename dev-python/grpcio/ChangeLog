@@ -1,0 +1,179 @@
+# ChangeLog for dev-python/grpcio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -grpcio-1.71.0.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*grpcio-1.72.1 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +grpcio-1.72.1.ebuild:
+  fix deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -grpcio-1.67.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  grpcio-1.71.0.ebuild, metadata.xml:
+  Fixes
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  grpcio-1.71.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+*grpcio-1.71.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +grpcio-1.71.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -grpcio-1.59.0.ebuild, -grpcio-1.66.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  grpcio-1.59.0.ebuild, grpcio-1.66.2.ebuild, grpcio-1.67.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -grpcio-1.59.0.ebuilde, -grpcio-1.66.2.ebuilde, -grpcio-1.67.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +grpcio-1.59.0.ebuilde, +grpcio-1.66.2.ebuilde, +grpcio-1.67.1.ebuilde:
+  Fix KEYWORDS
+
+*grpcio-1.67.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +grpcio-1.67.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  grpcio-1.59.0.ebuild, grpcio-1.66.2.ebuild:
+  Fix deps
+
+*grpcio-1.66.2 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> grpcio-1.59.0.ebuild,
+  +grpcio-1.66.2.ebuild:
+  add 1.66.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4104
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -grpcio-1.58.0.ebuild,
+  grpcio-1.59.0.ebuild:
+  drop 1.58.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -grpcio-1.51.1.ebuild:
+  drop 1.51.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Jean-Francois Maeyhieux - Zentoo <jfmaeyhieux@atanar.net>
+  +files/cython3-compat.patch:
+  Patch cython3-compat for grpcio
+
+  03 Nov 2023; Jean-Francois Maeyhieux - Zentoo <jfmaeyhieux@atanar.net>
+  grpcio-1.59.0.ebuild:
+  cython-3 compatibility for dbus-fast and grpcio*
+
+*grpcio-1.59.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +grpcio-1.59.0.ebuild:
+  add 1.59.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2348
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> grpcio-1.51.1.ebuild:
+  fix typo
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*grpcio-1.58.0 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> +grpcio-1.58.0.ebuild:
+  add 1.58.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> grpcio-1.51.1.ebuild:
+  limit BDEPS to cython-2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -grpcio-1.48.0.ebuild:
+  drop 1.48.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> grpcio-1.48.0.ebuild,
+  grpcio-1.51.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> grpcio-1.48.0.ebuild,
+  grpcio-1.51.1.ebuild:
+  remove Python 3.8 Support tag
+
+*grpcio-1.51.1 (09 Jan 2023)
+
+  09 Jan 2023; Andreas Billmeier <b@edevau.net> -grpcio-1.46.1.ebuild,
+  +grpcio-1.51.1.ebuild:
+  add 1.51.1, drop 1.46.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> grpcio-1.48.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+*grpcio-1.48.0 (04 Sep 2022)
+
+  04 Sep 2022; Andreas Billmeier <b@edevau.net> -grpcio-1.44.0.ebuild,
+  -grpcio-1.45.0.ebuild, grpcio-1.46.1.ebuild, +grpcio-1.48.0.ebuild:
+  update grpcio-1.48.0
+
+*grpcio-1.46.1 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +grpcio-1.46.1.ebuild:
+  bump grpcio-1.46.1 & grpcio-status-1.46.1
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> grpcio-1.44.0.ebuild,
+  grpcio-1.45.0.ebuild:
+  remove spaces in grpcio
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> grpcio-1.44.0.ebuild,
+  grpcio-1.45.0.ebuild:
+  fix grpcio [SC2155]
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -grpcio-1.31.0.ebuild:
+  remove unused grpcio-1.31.0, renew old MD5 checksum
+
+*grpcio-1.45.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> +grpcio-1.45.0.ebuild:
+  bump grpcio-1.45.0
+
+*grpcio-1.44.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net>
+  +files/1.37.1-cc-flag-test-fix.patch, +grpcio-1.44.0.ebuild, metadata.xml:
+  update grpcio-1.44.0 (from main)
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> grpcio-1.31.0.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for core packages
+
+*grpcio-1.31.0 (28 Sep 2020)
+
+  28 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +files/setup.py-respect-cc.patch, +grpcio-1.31.0.ebuild, +metadata.xml:
+  add grpcio-1.31.0
+

@@ -1,0 +1,52 @@
+# ChangeLog for dev-python/betterproto
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  betterproto-2.0.0_beta6.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -betterproto-2.0.0_beta7.ebuild:
+  clean old versions
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  betterproto-2.0.0_beta6.ebuild, betterproto-2.0.0_beta7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*betterproto-2.0.0_beta7 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +betterproto-2.0.0_beta7.ebuild:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  betterproto-2.0.0_beta6.ebuild:
+  cleansing
+
+*betterproto-2.0.0_beta6 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +betterproto-2.0.0_beta6.ebuild, -betterproto-2.0.0_beta7.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -betterproto-2.0.0_beta7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  betterproto-2.0.0_beta7.ebuild, +betterproto-2.0.0_beta7.ebuilde:
+  Fix KEYWORDS
+
+*betterproto-2.0.0_beta7 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +betterproto-2.0.0_beta7.ebuild,
+  +files/betterproto-2.0.0_beta6-pytest-8.patch,
+  +files/betterproto-2.0.0_beta7-pytest-8.patch:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+

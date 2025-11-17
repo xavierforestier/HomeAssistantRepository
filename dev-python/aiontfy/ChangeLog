@@ -1,0 +1,66 @@
+# ChangeLog for dev-python/aiontfy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aiontfy-0.6.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiontfy-0.6.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiontfy-0.5.5.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aiontfy-0.6.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiontfy-0.6.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiontfy-0.5.4.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+*aiontfy-0.5.5 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiontfy-0.5.3.ebuild, +aiontfy-0.5.5.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aiontfy-0.5.4 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiontfy-0.5.4.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiontfy-0.5.2.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiontfy-0.5.1.ebuild:
+  clean oldies
+
+*aiontfy-0.5.3 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiontfy-0.5.3.ebuild:
+  homeassistant 2025.6.0 full deps
+
+*aiontfy-0.5.2 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiontfy-0.5.2.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiontfy-0.5.1.ebuild:
+  last fixes for homeassistant 2025.5.1
+
+*aiontfy-0.5.1 (12 May 2025)
+
+  12 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiontfy-0.5.1.ebuild, +metadata.xml:
+  homeassitant 2025.5.1
+

@@ -1,0 +1,118 @@
+# ChangeLog for dev-python/xknxproject
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  xknxproject-3.8.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -xknxproject-3.8.1.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -xknxproject-3.7.1.ebuild, -xknxproject-3.8.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -xknxproject-3.7.1.ebuilde, -xknxproject-3.8.0.ebuilde,
+  -xknxproject-3.8.1.ebuilde, -xknxproject-3.8.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xknxproject-3.7.1.ebuilde, +xknxproject-3.8.0.ebuilde,
+  +xknxproject-3.8.1.ebuilde, +xknxproject-3.8.2.ebuilde:
+  Fix KEYWORDS
+
+*xknxproject-3.8.2 (15 Mar 2025)
+
+  15 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xknxproject-3.8.2.ebuild:
+  homeassistant 2025.3.2 homeassistant 2025.3.3
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> -xknxproject-3.4.0.ebuild,
+  -xknxproject-3.6.0.ebuild, -xknxproject-3.7.0.ebuild:
+  drop 3.4.0, 3.6.0, 3.7.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknxproject-3.8.1 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> xknxproject-3.4.0.ebuild,
+  xknxproject-3.6.0.ebuild, xknxproject-3.7.0.ebuild,
+  xknxproject-3.7.1.ebuild, +xknxproject-3.8.1.ebuild:
+  add 3.8.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3955
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknxproject-3.8.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xknxproject-3.8.0.ebuild:
+  homeassistant 2024.10.1
+
+*xknxproject-3.8.1 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xknxproject-3.8.1.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*xknxproject-3.7.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +xknxproject-3.7.1.ebuild:
+  add 3.7.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3201
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknxproject-3.7.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -xknxproject-3.3.0-r1.ebuild,
+  xknxproject-3.4.0.ebuild, xknxproject-3.6.0.ebuild,
+  +xknxproject-3.7.0.ebuild:
+  add 3.7.0, drop 3.3.0-r
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2990
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknxproject-3.6.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> xknxproject-3.3.0-r1.ebuild,
+  xknxproject-3.4.0.ebuild, +xknxproject-3.6.0.ebuild:
+  add 3.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2812
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknxproject-3.4.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +xknxproject-3.4.0.ebuild:
+  add 3.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2278
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  29 Oct 2023; Andreas Billmeier <b@edevau.net> xknxproject-3.3.0-r1.ebuild:
+  use RDEPEND from
+  https://github.com/XKNX/xknxproject/blob/3.3.0/pyproject.toml instead of
+  requirements_production.txt
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknxproject-3.3.0-r1 (29 Oct 2023)
+
+  29 Oct 2023; Andreas Billmeier <b@edevau.net> -xknxproject-3.3.0.ebuild,
+  +xknxproject-3.3.0-r1.ebuild:
+  update 3.3.0-r1, missing RDEPEND added
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknxproject-3.3.0 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +xknxproject-3.3.0.ebuild:
+  new package, add 3.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

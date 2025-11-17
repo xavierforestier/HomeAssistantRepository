@@ -1,0 +1,413 @@
+# ChangeLog for dev-python/pyatmo
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyatmo-9.2.1.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+*pyatmo-9.2.3 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyatmo-9.2.3.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyatmo-9.2.0.ebuild:
+  Cleansing
+
+*pyatmo-9.2.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyatmo-9.2.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyatmo-9.0.0.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*pyatmo-9.2.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyatmo-9.2.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyatmo-8.1.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pyatmo-9.0.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyatmo-9.0.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyatmo-8.1.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyatmo-8.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyatmo-8.0.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyatmo-8.0.3.ebuilde, -pyatmo-8.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyatmo-8.0.3.ebuilde, +pyatmo-8.1.0.ebuilde:
+  Fix KEYWORDS
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -pyatmo-8.0.2.ebuild:
+  drop 8.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-8.1.0 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> pyatmo-8.0.2.ebuild,
+  pyatmo-8.0.3.ebuild, +pyatmo-8.1.0.ebuild:
+  add 8.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3707
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -pyatmo-7.6.0.ebuild,
+  -pyatmo-8.0.1.ebuild, pyatmo-8.0.2.ebuild, pyatmo-8.0.3.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> -pyatmo-7.5.0.ebuild:
+  drop 7.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-8.0.3 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> pyatmo-7.5.0.ebuild,
+  pyatmo-7.6.0.ebuild, pyatmo-8.0.1.ebuild, pyatmo-8.0.2.ebuild,
+  +pyatmo-8.0.3.ebuild:
+  add 8.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2828
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-8.0.2 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> +pyatmo-8.0.2.ebuild:
+  add 8.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2626
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-8.0.1 (28 Dec 2023)
+
+  28 Dec 2023; Andreas Billmeier <b@edevau.net> +pyatmo-8.0.1.ebuild:
+  add 8.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2554
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-7.6.0 (10 Nov 2023)
+
+  10 Nov 2023; Andreas Billmeier <b@edevau.net> +pyatmo-7.6.0.ebuild:
+  add 7.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2384
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -pyatmo-7.3.0.ebuild,
+  -pyatmo-7.4.0.ebuild, pyatmo-7.5.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyatmo-7.3.0.ebuild,
+  pyatmo-7.4.0.ebuild, pyatmo-7.5.0.ebuild:
+  remove Python 3.8 Support tag
+
+*pyatmo-7.5.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -pyatmo-6.2.4.ebuild,
+  -pyatmo-7.1.1.ebuild, +pyatmo-7.5.0.ebuild:
+  bump 7.5.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-7.4.0 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> pyatmo-6.2.4.ebuild,
+  -pyatmo-7.2.0.ebuild, +pyatmo-7.4.0.ebuild:
+  bump 7.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-7.3.0 (31 Oct 2022)
+
+  31 Oct 2022; Andreas Billmeier <b@edevau.net> +pyatmo-7.3.0.ebuild:
+  add 7.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatmo-7.2.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +pyatmo-7.2.0.ebuild:
+  add 7.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyatmo-6.2.4.ebuild,
+  pyatmo-7.1.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -pyatmo-7.1.0.ebuild:
+  rework, remove olds
+
+*pyatmo-7.1.1 (09 Oct 2022)
+
+  09 Oct 2022; Andreas Billmeier <b@edevau.net> +pyatmo-7.1.1.ebuild:
+  bump pyatmo-7.1.1
+
+*pyatmo-7.1.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> -pyatmo-6.1.0.ebuild,
+  -pyatmo-6.2.2.ebuild, pyatmo-6.2.4.ebuild, +pyatmo-7.1.0.ebuild:
+  update pyatmo-7.1.0
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pyatmo-6.2.4.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyatmo-6.1.0.ebuild,
+  pyatmo-6.2.2.ebuild, pyatmo-6.2.4.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pyatmo-6.2.4 (01 Feb 2022)
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> -pyatmo-6.2.0.ebuild,
+  +pyatmo-6.2.4.ebuild:
+  bump pyatmo-6.2.4
+
+*pyatmo-6.2.2 (05 Jan 2022)
+
+  05 Jan 2022; Andreas Billmeier <b@edevau.net> -pyatmo-5.2.3.ebuild,
+  +pyatmo-6.2.2.ebuild:
+  bump pyatmo-6.2.2
+
+*pyatmo-6.2.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -pyatmo-5.2.0.ebuild,
+  -pyatmo-6.0.0.ebuild, +pyatmo-6.2.0.ebuild:
+  bump pyatmo-6.2.0
+
+*pyatmo-6.1.0 (07 Oct 2021)
+
+  07 Oct 2021; Andreas Billmeier <b@edevau.net> +pyatmo-6.1.0.ebuild:
+  bump pyatmo-6.1.0
+
+*pyatmo-6.0.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -pyatmo-4.2.2.ebuild,
+  -pyatmo-5.0.1.ebuild, +pyatmo-6.0.0.ebuild:
+  update pyatmo-6.0.0
+
+*pyatmo-5.2.3 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> -pyatmo-5.1.0.ebuild,
+  +pyatmo-5.2.3.ebuild:
+  update pyatmo-5.2.3
+
+*pyatmo-5.2.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> -pyatmo-4.1.0.ebuild,
+  -pyatmo-4.2.0.ebuild, -pyatmo-4.2.1.ebuild, +pyatmo-5.2.0.ebuild:
+  update pyatmo-5.2.0
+
+*pyatmo-5.1.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +pyatmo-5.1.0.ebuild:
+  update pyatmo-5.1.0
+
+*pyatmo-5.0.1 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -pyatmo-4.0.0.ebuild,
+  +pyatmo-5.0.1.ebuild:
+  update pyatmo-5.0.1
+
+*pyatmo-4.2.2 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> -pyatmo-3.3.1.ebuild,
+  +pyatmo-4.2.2.ebuild:
+  update pyatmo-4.2.2
+
+*pyatmo-4.2.1 (28 Nov 2020)
+
+  28 Nov 2020; Andreas Billmeier <b@edevau.net> -pyatmo-3.3.0.ebuild,
+  +pyatmo-4.2.1.ebuild:
+  update pyatmo-4.2.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyatmo-3.3.0.ebuild,
+  pyatmo-3.3.1.ebuild, pyatmo-4.0.0.ebuild, pyatmo-4.1.0.ebuild,
+  pyatmo-4.2.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyatmo-4.2.0 (03 Nov 2020)
+
+  03 Nov 2020; Andreas Billmeier <b@edevau.net> -pyatmo-3.2.2.ebuild,
+  -pyatmo-3.2.4.ebuild, +pyatmo-4.2.0.ebuild:
+  bump pyatmo-4.2.0
+
+*pyatmo-4.1.0 (08 Oct 2020)
+
+  08 Oct 2020; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -pyatmo-3.2.0.ebuild, +pyatmo-4.1.0.ebuild:
+  update pyatmo-4.1.0
+
+*pyatmo-4.0.0 (10 Aug 2020)
+
+  10 Aug 2020; Andreas Billmeier <b@edevau.net> +pyatmo-4.0.0.ebuild:
+  bump pyatmo-4.0.0
+
+*pyatmo-3.3.1 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> -pyatmo-3.1.0.ebuild,
+  +pyatmo-3.3.1.ebuild:
+  bump pyatmo-3.3.1
+
+*pyatmo-3.3.0 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> -pyatmo-3.0.1.ebuild,
+  +pyatmo-3.3.0.ebuild:
+  bump pyatmo-3.3.0
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -pyatmo-2.3.2.ebuild:
+  clean up, romove olds
+
+*pyatmo-3.2.4 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> +pyatmo-3.2.4.ebuild:
+  bump pyatmo-3.2.4
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> pyatmo-2.3.2.ebuild,
+  pyatmo-3.0.1.ebuild, pyatmo-3.1.0.ebuild, pyatmo-3.2.0.ebuild,
+  pyatmo-3.2.2.ebuild:
+  fix some DESCRIPTION.toolong from RepoMan
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyatmo-3.2.2.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyatmo-2.3.2.ebuild,
+  pyatmo-3.0.1.ebuild, pyatmo-3.1.0.ebuild:
+  minor code cleanups
+
+*pyatmo-3.2.2 (18 Jan 2020)
+
+  18 Jan 2020; Andreas Billmeier <b@edevau.net> -pyatmo-2.2.1.ebuild,
+  +pyatmo-3.2.2.ebuild:
+  bump pyatmo-3.2.2
+
+*pyatmo-3.2.0 (11 Jan 2020)
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> +pyatmo-3.2.0.ebuild:
+  bump pyatmo-3.2.0
+
+*pyatmo-3.1.0 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net> -pyatmo-2.1.0.ebuild,
+  -pyatmo-2.1.1.ebuild, -pyatmo-2.1.2.ebuild, -pyatmo-2.3.3.ebuild,
+  +pyatmo-3.1.0.ebuild:
+  bump pyatmo-3.1.0, remove olds
+
+*pyatmo-3.0.1 (18 Nov 2019)
+
+  18 Nov 2019; Andreas Billmeier <b@edevau.net> -pyatmo-2.0.1.ebuild,
+  +pyatmo-3.0.1.ebuild:
+  update pyatmo-3.0.1
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pyatmo-2.3.2.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pyatmo-2.0.1.ebuild,
+  pyatmo-2.1.0.ebuild, pyatmo-2.1.1.ebuild, pyatmo-2.1.2.ebuild,
+  pyatmo-2.2.1.ebuild:
+  remove all stale CVS keywords
+
+*pyatmo-2.3.3 (10 Nov 2019)
+
+  10 Nov 2019; Andreas Billmeier <b@edevau.net> +pyatmo-2.3.3.ebuild:
+  bump pyatmo-2.3.3
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> pyatmo-2.3.2.ebuild:
+  remove old cvs header
+
+*pyatmo-2.3.2 (16 Oct 2019)
+
+  16 Oct 2019; Andreas Billmeier <b@edevau.net> +pyatmo-2.3.2.ebuild:
+  bump pyatmo-2.3.2
+
+*pyatmo-2.2.1 (11 Aug 2019)
+
+  11 Aug 2019; Andreas Billmeier <b@edevau.net> -pyatmo-2.0.0.ebuild,
+  +pyatmo-2.2.1.ebuild:
+  bump pyatmo-2.2.1
+
+*pyatmo-2.1.2 (22 Jul 2019)
+
+  22 Jul 2019; Andreas Billmeier <b@edevau.net> -pyatmo-1.12.ebuild,
+  +pyatmo-2.1.2.ebuild:
+  bump pyatmo-2.1.2
+
+*pyatmo-2.1.1 (06 Jul 2019)
+
+  06 Jul 2019; Andreas Billmeier <b@edevau.net> -pyatmo-1.11.ebuild,
+  +pyatmo-2.1.1.ebuild:
+  bump pyatmo-2.1.1
+
+*pyatmo-2.1.0 (25 Jun 2019)
+
+  25 Jun 2019; Andreas Billmeier <b@edevau.net> +pyatmo-2.1.0.ebuild:
+  bump pyatmo-2.1.0
+
+*pyatmo-2.0.1 (23 Jun 2019)
+
+  23 Jun 2019; Andreas Billmeier <b@edevau.net> -pyatmo-1.8.ebuild,
+  +pyatmo-2.0.1.ebuild:
+  bump pyatmo-2.0.1
+
+*pyatmo-2.0.0 (15 Jun 2019)
+
+  15 Jun 2019; Andreas Billmeier <b@edevau.net> -pyatmo-1.9.ebuild,
+  -pyatmo-1.10.ebuild, +pyatmo-2.0.0.ebuild:
+  bump pyatmo-2.0.0
+
+*pyatmo-1.12 (02 Jun 2019)
+*pyatmo-1.11 (02 Jun 2019)
+
+  02 Jun 2019; Andreas Billmeier <b@edevau.net> +pyatmo-1.11.ebuild,
+  +pyatmo-1.12.ebuild:
+  bump pyatmo
+
+*pyatmo-1.10 (20 Apr 2019)
+*pyatmo-1.9 (20 Apr 2019)
+
+  20 Apr 2019; Andreas Billmeier <b@edevau.net> +pyatmo-1.9.ebuild,
+  +pyatmo-1.10.ebuild:
+  bump pyatmo
+
+*pyatmo-1.8 (13 Feb 2019)
+
+  13 Feb 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyatmo-1.8.ebuild:
+  add pyatmo-1.
+

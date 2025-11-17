@@ -1,0 +1,149 @@
+# ChangeLog for dev-vcs/pre-commit
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pre-commit-4.3.0 (16 Aug 2025)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pre-commit-3.1.1-tests_git_file_transport.patch, +metadata.xml,
+  +pre-commit-4.3.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/pre-commit-2.20.0-tests_git_file_transport.patch,
+  -files/pre-commit-3.1.1-tests_git_file_transport.patch, -metadata.xml,
+  -pre-commit-3.7.1.ebuild, -pre-commit-4.0.0.ebuild:
+  pkgcheck
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pre-commit-3.7.1.ebuild:
+  spellcheck
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -pre-commit-3.6.2.ebuild:
+  drop 3.6.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-4.0.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +pre-commit-4.0.0.ebuild:
+  add 4.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4112
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-3.7.1 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net> pre-commit-3.6.2.ebuild,
+  -pre-commit-3.7.0.ebuild, +pre-commit-3.7.1.ebuild:
+  add 3.7.1, drop 3.7.0 (in main repo)
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3524
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-3.7.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +pre-commit-3.7.0.ebuild:
+  add 3.7.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3194
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -pre-commit-3.4.0.ebuild:
+  drop 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-3.6.2 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> pre-commit-3.4.0.ebuild,
+  +pre-commit-3.6.2.ebuild:
+  add 3.6.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3052
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -pre-commit-3.0.0.ebuild,
+  -pre-commit-3.1.0.ebuild:
+  drop 3.0.0, 3.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-3.4.0 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> pre-commit-3.0.0.ebuild,
+  pre-commit-3.1.0.ebuild, +pre-commit-3.4.0.ebuild:
+  add 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-3.1.0 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> +pre-commit-3.1.0.ebuild,
+  -pre-commit-3.1.1.ebuild:
+  add 3.1.0, drop 3.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-3.1.1 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net>
+  +files/pre-commit-3.1.1-tests_git_file_transport.patch,
+  +pre-commit-3.1.1.ebuild:
+  add 3.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-3.0.0 (12 Feb 2023)
+
+  12 Feb 2023; Andreas Billmeier <b@edevau.net>
+  +files/pre-commit-2.20.0-tests_git_file_transport.patch, +metadata.xml,
+  +pre-commit-3.0.0.ebuild:
+  new package, add 3.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Dec 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pre-commit-2.19.0.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pre-commit-2.19.0 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -pre-commit-2.14.0.ebuild, -pre-commit-2.16.0-r1.ebuild,
+  +pre-commit-2.19.0.ebuild:
+  bump pre-commit-2.19.0 (from main)
+
+*pre-commit-2.16.0-r1 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> pre-commit-2.14.0.ebuild,
+  -pre-commit-2.16.0.ebuild, +pre-commit-2.16.0-r1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*pre-commit-2.16.0 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> +pre-commit-2.16.0.ebuild:
+  bump pre-commit-2.16.0
+
+*pre-commit-2.14.0 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -pre-commit-2.9.2.ebuild,
+  -pre-commit-2.9.3.ebuild, -pre-commit-2.10.0.ebuild,
+  -pre-commit-2.10.1.ebuild, -pre-commit-2.11.1.ebuild,
+  +pre-commit-2.14.0.ebuild:
+  update (from main repo) dev-vcs/pre-commit-2.14.0
+
+*pre-commit-2.11.1 (15 May 2021)
+*pre-commit-2.10.1 (15 May 2021)
+*pre-commit-2.10.0 (15 May 2021)
+*pre-commit-2.9.3 (15 May 2021)
+*pre-commit-2.9.2 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pre-commit-2.9.2.ebuild, +pre-commit-2.9.3.ebuild,
+  +pre-commit-2.10.0.ebuild, +pre-commit-2.10.1.ebuild,
+  +pre-commit-2.11.1.ebuild:
+  rename pre-commit to dev-vcs
+

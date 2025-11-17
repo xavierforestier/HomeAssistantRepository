@@ -1,0 +1,186 @@
+# ChangeLog for dev-python/aioautomower
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioautomower-2.2.1.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+*aioautomower-2.7.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioautomower-2.7.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*aioautomower-2.3.1 (25 Oct 2025)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioautomower-2.3.1.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioautomower-2.1.2.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aioautomower-2.2.1 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioautomower-2.2.1.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioautomower-2025.6.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*aioautomower-2.1.2 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioautomower-2.1.2.ebuild, +files/aioautomower-fix-poetry.patch:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioautomower-2025.5.1.ebuild:
+  Cleansing
+
+*aioautomower-2025.6.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioautomower-2025.6.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioautomower-2025.3.2.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*aioautomower-2025.5.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioautomower-2025.5.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioautomower-2025.3.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioautomower-2025.1.1.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioautomower-2024.4.3.ebuild, -aioautomower-2024.5.1.ebuild,
+  -aioautomower-2024.10.0.ebuild, -aioautomower-2024.10.3.ebuild,
+  -aioautomower-2024.12.0.ebuild, -aioautomower-2025.1.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioautomower-2024.10.0.ebuilde, -aioautomower-2024.10.3.ebuilde,
+  -aioautomower-2024.12.0.ebuilde, -aioautomower-2024.4.3.ebuilde,
+  -aioautomower-2024.5.1.ebuilde, -aioautomower-2025.1.0.ebuilde,
+  -aioautomower-2025.1.1.ebuilde, -aioautomower-2025.3.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioautomower-2024.10.0.ebuilde, +aioautomower-2024.10.3.ebuilde,
+  +aioautomower-2024.12.0.ebuilde, +aioautomower-2024.4.3.ebuilde,
+  +aioautomower-2024.5.1.ebuilde, +aioautomower-2025.1.0.ebuilde,
+  +aioautomower-2025.1.1.ebuilde, +aioautomower-2025.3.2.ebuilde:
+  Fix KEYWORDS
+
+*aioautomower-2025.3.2 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioautomower-2025.3.2.ebuild:
+  Homeassistant 2025.4.0
+
+*aioautomower-2025.1.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioautomower-2025.1.1.ebuild:
+  homeassisstant-2025.2.0
+
+*aioautomower-2025.1.0 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioautomower-2025.1.0.ebuild:
+  homeassistant 2025.1.2
+
+*aioautomower-2024.12.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioautomower-2024.12.0.ebuild:
+  homeassistant 2025.1.1
+
+*aioautomower-2024.10.3 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +aioautomower-2024.10.3.ebuild:
+  add 2024.10.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4030
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioautomower-2024.10.0 (18 Oct 2024)
+
+  18 Oct 2024; Andreas Billmeier <b@edevau.net> -aioautomower-2024.3.3.ebuild,
+  -aioautomower-2024.3.4.ebuild, +aioautomower-2024.10.0.ebuild, metadata.xml:
+  drop olds, add 2024.10.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3952
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioautomower-2024.5.1 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> +aioautomower-2024.5.1.ebuild:
+  add 2024.5.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3420
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioautomower-2024.4.3 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> aioautomower-2024.3.3.ebuild,
+  aioautomower-2024.3.4.ebuild, +aioautomower-2024.4.3.ebuild, metadata.xml:
+  add 2024.4.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3275
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -aioautomower-2024.2.10.ebuild, -aioautomower-2024.3.0.ebuild:
+  drop 2024.2.10, 2024.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioautomower-2024.3.4 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +aioautomower-2024.3.4.ebuild:
+  add 2024.3.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3123
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioautomower-2024.3.3 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> +aioautomower-2024.3.3.ebuild:
+  add 2024.3.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3087
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioautomower-2024.3.0 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> +aioautomower-2024.3.0.ebuild:
+  add 2024.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3068
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioautomower-2024.2.10 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net>
+  +aioautomower-2024.2.10.ebuild, +metadata.xml:
+  new package, add 2024.2.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2982
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,112 @@
+# ChangeLog for dev-python/lomond
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  lomond-0.3.3-r2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -lomond-0.3.3-r2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +lomond-0.3.3-r2.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  lomond-0.3.3-r2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r2.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  19 Jun 2023; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r2.ebuild:
+  remove olds, cleanup, enable pytest
+
+*lomond-0.3.3-r2 (01 May 2022)
+
+  01 May 2022; Andreas Billmeier <b@edevau.net> -lomond-0.3.3-r1.ebuild,
+  +lomond-0.3.3-r2.ebuild:
+  update lomond-0.3.3-r2 (P310)
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r1.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> lomond-0.3.3-r1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -lomond-0.1.6.ebuild,
+  -lomond-0.1.14.ebuild, -lomond-0.1.14-r1.ebuild, lomond-0.3.3-r1.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*lomond-0.3.3-r1 (28 Nov 2020)
+
+  28 Nov 2020; Andreas Billmeier <b@edevau.net> -lomond-0.3.3.ebuild,
+  +lomond-0.3.3-r1.ebuild:
+  update lomond-0.3.3-r1, add pytest-runner
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> lomond-0.1.6.ebuild,
+  lomond-0.1.14.ebuild, lomond-0.1.14-r1.ebuild, lomond-0.3.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  12 Sep 2020; Andreas Billmeier <b@edevau.net> lomond-0.3.3.ebuild:
+  update/re-check some LICENSE strings
+
+*lomond-0.3.3 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> +lomond-0.3.3.ebuild,
+  metadata.xml:
+  update lomond-0.3.3
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> lomond-0.1.14-r1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: L-O
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> lomond-0.1.6.ebuild,
+  lomond-0.1.14.ebuild, lomond-0.1.14-r1.ebuild:
+  minor code cleanups
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> lomond-0.1.6.ebuild,
+  lomond-0.1.14.ebuild, lomond-0.1.14-r1.ebuild:
+  Add missing license strings as far as possible
+
+*lomond-0.1.14-r1 (01 Nov 2019)
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> +lomond-0.1.14-r1.ebuild:
+  drop support for obsolete python versions
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> lomond-0.1.6.ebuild,
+  lomond-0.1.14.ebuild, +metadata.xml:
+  minor changes
+
+*lomond-0.1.14 (15 Jan 2019)
+*lomond-0.1.6 (15 Jan 2019)
+
+  15 Jan 2019; Andreas Billmeier <b@edevau.net> +lomond-0.1.6.ebuild,
+  +lomond-0.1.14.ebuild:
+  added abodepy-0.15.0
+

@@ -1,0 +1,75 @@
+# ChangeLog for dev-python/gql
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*gql-4.0.0 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +gql-4.0.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*gql-3.5.3 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +gql-3.5.3.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gql-3.4.1.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  gql-3.4.1.ebuild, gql-3.5.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -gql-3.4.1.ebuilde,
+  -gql-3.5.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +gql-3.4.1.ebuilde,
+  +gql-3.5.0.ebuilde:
+  Fix KEYWORDS
+
+*gql-3.5.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr> +gql-3.5.0.ebuild:
+  homeassisstant-2025.2.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr> gql-3.4.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -gql-3.4.0.ebuild:
+  drop 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> gql-3.4.0.ebuild,
+  gql-3.4.1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*gql-3.4.1 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +gql-3.4.1.ebuild:
+  add 3.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> gql-3.4.0.ebuild:
+  dev-python/pyTibber: add 0.27.1, drop olds, updatte 0.27.0
+  dev-python/gql: update 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> gql-3.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+*gql-3.4.0 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> +gql-3.4.0.ebuild,
+  +metadata.xml:
+  new package, add 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

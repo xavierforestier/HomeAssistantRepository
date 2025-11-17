@@ -1,0 +1,320 @@
+# ChangeLog for app-misc/homeassistant
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  genebuild.sh, homeassistant-2025.10.4.ebuild,
+  homeassistant-2025.11.0.ebuild, homeassistant-2025.11.1.ebuild,
+  metadata.xml:
+  Drop obsolete loopenergy
+
+*homeassistant-2025.11.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.10.3.patch, +files/genebuild_2025.11.1.patch,
+  -homeassistant-2025.10.3.ebuild, +homeassistant-2025.11.1.ebuild:
+  2025.11.1
+
+*homeassistant-2025.11.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.10.2.patch, +files/genebuild_2025.11.0.patch,
+  -homeassistant-2025.10.2.ebuild, +homeassistant-2025.11.0.ebuild,
+  metadata.xml:
+  2025.11.0
+
+*homeassistant-2025.10.4 (25 Oct 2025)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.10.1.patch, files/genebuild_2025.10.2.patch,
+  files/genebuild_2025.10.3.patch, +files/genebuild_2025.10.4.patch,
+  -homeassistant-2025.10.1.ebuild, homeassistant-2025.10.2.ebuild,
+  homeassistant-2025.10.3.ebuild, +homeassistant-2025.10.4.ebuild:
+  2025.10.4
+
+*homeassistant-2025.10.3 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.10.0.patch, +files/genebuild_2025.10.3.patch,
+  -homeassistant-2025.10.0.ebuild, +homeassistant-2025.10.3.ebuild,
+  metadata.xml:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*homeassistant-2025.10.2 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.10.2.patch, -files/genebuild_2025.9.4.patch,
+  -homeassistant-2025.9.4.ebuild, +homeassistant-2025.10.2.ebuild,
+  metadata.xml:
+  2025.10.2
+
+*homeassistant-2025.10.1 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.10.1.patch, -files/genebuild_2025.9.3.patch,
+  -homeassistant-2025.9.3.ebuild, +homeassistant-2025.10.1.ebuild:
+  2025.10.1
+
+*homeassistant-2025.10.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  genebuild.sh, +files/genebuild_2025.10.0.patch,
+  -files/genebuild_2025.9.2.patch, -homeassistant-2025.9.2.ebuild,
+  +homeassistant-2025.10.0.ebuild, metadata.xml:
+  2025.10.0
+
+*homeassistant-2025.9.4 (21 Sep 2025)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.9.1.patch, +files/genebuild_2025.9.4.patch,
+  -homeassistant-2025.9.1.ebuild, +homeassistant-2025.9.4.ebuild:
+  2025.9.4
+
+*homeassistant-2025.9.3 (17 Sep 2025)
+
+  17 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.9.0.patch, +files/genebuild_2025.9.3.patch,
+  -homeassistant-2025.9.0.ebuild, +homeassistant-2025.9.3.ebuild,
+  metadata.xml:
+  2025.9.3
+
+*homeassistant-2025.9.2 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.8.3.patch, +files/genebuild_2025.9.2.patch,
+  -homeassistant-2025.8.3.ebuild, +homeassistant-2025.9.2.ebuild:
+  2025.9.2 + drop 2025.8.*
+
+*homeassistant-2025.9.1 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.8.2.patch, +files/genebuild_2025.9.1.patch,
+  -homeassistant-2025.8.2.ebuild, +homeassistant-2025.9.1.ebuild:
+  2025.9.1
+
+*homeassistant-2025.9.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.8.1.patch, +files/genebuild_2025.9.0.patch,
+  -homeassistant-2025.8.1.ebuild, +homeassistant-2025.9.0.ebuild,
+  metadata.xml:
+  2025.9.0
+
+*homeassistant-2025.8.3 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.8.0.patch, +files/genebuild_2025.8.3.patch,
+  -homeassistant-2025.8.0.ebuild, +homeassistant-2025.8.3.ebuild:
+  2025.8.3
+
+*homeassistant-2025.8.2 (16 Aug 2025)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.7.4.patch, +files/genebuild_2025.8.2.patch,
+  -homeassistant-2025.7.4.ebuild, +homeassistant-2025.8.2.ebuild:
+  2025.8.2
+
+*homeassistant-2025.8.1 (15 Aug 2025)
+
+  15 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.7.2.patch, -files/genebuild_2025.7.3.patch,
+  +files/genebuild_2025.8.1.patch, -homeassistant-2025.7.3.ebuild,
+  +homeassistant-2025.8.1.ebuild:
+  2025.8.1
+
+*homeassistant-2025.8.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.8.0.patch, -homeassistant-2025.7.2.ebuild,
+  +homeassistant-2025.8.0.ebuild, metadata.xml:
+  2025.8.0
+
+*homeassistant-2025.7.4 (29 Jul 2025)
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.7.1.patch, +files/genebuild_2025.7.4.patch,
+  -homeassistant-2025.7.1.ebuild, +homeassistant-2025.7.4.ebuild:
+  2025.7.4
+
+*homeassistant-2025.7.3 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.7.0.patch, +files/genebuild_2025.7.3.patch,
+  -homeassistant-2025.7.0.ebuild, +homeassistant-2025.7.3.ebuild,
+  metadata.xml:
+  2025.7.3
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.6.3.patch, -homeassistant-2025.6.3.ebuild:
+  Cleansing
+
+*homeassistant-2025.7.2 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.7.2.patch, +homeassistant-2025.7.2.ebuild:
+  2025.7.2
+
+*homeassistant-2025.7.1 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.7.1.patch, +homeassistant-2025.7.1.ebuild,
+  metadata.xml:
+  homeassistant 2025.7.1
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.6.1.patch, -files/genebuild_2025.6.2.patch,
+  -homeassistant-2025.6.1.ebuild, -homeassistant-2025.6.2.ebuild:
+  2025.7.0
+
+*homeassistant-2025.7.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  genebuild.sh, +files/genebuild_2025.7.0.patch,
+  +homeassistant-2025.7.0.ebuild, metadata.xml:
+  2025.7.0
+
+*homeassistant-2025.6.3 (27 Jun 2025)
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.6.0.patch, +files/genebuild_2025.6.3.patch,
+  -homeassistant-2025.6.0.ebuild, +homeassistant-2025.6.3.ebuild:
+  2025.6.3
+
+*homeassistant-2025.6.2 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.5.3.patch, +files/genebuild_2025.6.2.patch,
+  -homeassistant-2025.5.3.ebuild, +homeassistant-2025.6.2.ebuild,
+  metadata.xml:
+  2025.6.2
+
+*homeassistant-2025.6.1 (17 Jun 2025)
+
+  17 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.5.1.patch, -files/genebuild_2025.5.2.patch,
+  +files/genebuild_2025.6.1.patch, -homeassistant-2025.5.1.ebuild,
+  -homeassistant-2025.5.2.ebuild, +homeassistant-2025.6.1.ebuild:
+  homeassistant-2025.6.1
+
+*homeassistant-2025.6.0 (13 Jun 2025)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.6.0.patch, +homeassistant-2025.6.0.ebuild,
+  metadata.xml:
+  homeassistant 2025.6.0 WIP without all deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.4.4.patch, -homeassistant-2025.4.4.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*homeassistant-2025.5.3 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.5.3.patch, +homeassistant-2025.5.3.ebuild,
+  metadata.xml:
+  2025.5.3
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/genebuild_2025.4.2.patch, -files/genebuild_2025.4.3.patch,
+  -homeassistant-2025.4.2.ebuild, -homeassistant-2025.4.3.ebuild:
+  clean old versions
+
+*homeassistant-2025.5.2 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.5.2.patch, +homeassistant-2025.5.2.ebuild:
+  homeassistant 2025.5.2
+
+*homeassistant-2025.5.1 (12 May 2025)
+
+  12 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.5.1.patch, +homeassistant-2025.5.1.ebuild,
+  metadata.xml:
+  homeassitant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  genebuild.sh, files/genebuild_2025.4.2.patch,
+  files/genebuild_2025.4.3.patch, files/genebuild_2025.4.4.patch,
+  homeassistant-2025.4.2.ebuild, homeassistant-2025.4.3.ebuild,
+  homeassistant-2025.4.4.ebuild, metadata.xml:
+  pkgcheck
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  genebuild.sh, homeassistant-2025.4.2.ebuild, homeassistant-2025.4.3.ebuild,
+  homeassistant-2025.4.4.ebuild, metadata.xml:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  files/genebuild_2025.4.2.patch, files/genebuild_2025.4.3.patch,
+  files/genebuild_2025.4.4.patch, homeassistant-2025.4.2.ebuild,
+  homeassistant-2025.4.3.ebuild, homeassistant-2025.4.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  homeassistant-2025.4.2.ebuild, homeassistant-2025.4.3.ebuild,
+  homeassistant-2025.4.4.ebuild:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  genebuild.sh, -files/genebuild_2025.3.0.patch,
+  -files/genebuild_2025.3.1.patch, -files/genebuild_2025.3.2.patch,
+  -files/genebuild_2025.3.3.patch, -files/genebuild_2025.3.4.patch,
+  -files/genebuild_2025.4.0.patch, -files/genebuild_2025.4.1.patch,
+  files/genebuild_2025.4.2.patch, files/genebuild_2025.4.3.patch,
+  files/genebuild_2025.4.4.patch, -homeassistant-2025.3.0.ebuild,
+  -homeassistant-2025.3.1.ebuild, -homeassistant-2025.3.2.ebuild,
+  -homeassistant-2025.3.3.ebuild, -homeassistant-2025.3.4.ebuild,
+  -homeassistant-2025.4.0.ebuild, -homeassistant-2025.4.1.ebuild,
+  homeassistant-2025.4.2.ebuild, homeassistant-2025.4.3.ebuild,
+  homeassistant-2025.4.4.ebuild:
+  Fix for pkgcheck
+
+*homeassistant-2025.4.4 (03 May 2025)
+
+  03 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.4.4.patch, +homeassistant-2025.4.4.ebuild,
+  metadata.xml:
+  homeassistant-2025.4.4 & zigbee2mqtt-2.3.0
+
+*homeassistant-2025.4.3 (21 Apr 2025)
+
+  21 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/genebuild_2025.4.3.patch, +homeassistant-2025.4.3.ebuild:
+  2025.4.3
+
+*homeassistant-2025.4.2 (14 Apr 2025)
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> genebuild.sh,
+  +files/genebuild_2025.4.2.patch, files/homeassistant.conf.d,
+  files/homeassistant.init.d, +homeassistant-2025.4.2.ebuild:
+  homeassistant-2025.4.2
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> genebuild.sh:
+  fixes
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> genebuild.sh,
+  homeassistant-2025.4.1.ebuild:
+  fixes
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> genebuild.sh:
+  shellcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> genebuild.sh:
+  shellcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> genebuild.sh,
+  homeassistant-2025.4.1.ebuild:
+  shellcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> genebuild.sh:
+  shellcheck
+
+*homeassistant-2025.4.1 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/genebuild_2025.4.1.patch, +homeassistant-2025.4.1.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -checkmetadata.sh:
+  Shellcheck
+

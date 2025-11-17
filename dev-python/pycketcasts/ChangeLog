@@ -1,0 +1,59 @@
+# ChangeLog for dev-python/pycketcasts
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pycketcasts-1.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pycketcasts-1.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pycketcasts-1.0.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pycketcasts-1.0.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -pycketcasts-1.0.0.ebuild,
+  pycketcasts-1.0.1.ebuild:
+  d
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pycketcasts-1.0.0.ebuild,
+  pycketcasts-1.0.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pycketcasts-1.0.0.ebuild,
+  pycketcasts-1.0.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pycketcasts-1.0.1 (18 Jul 2022)
+
+  18 Jul 2022; Andreas Billmeier <b@edevau.net> pycketcasts-1.0.0.ebuild,
+  +pycketcasts-1.0.1.ebuild:
+  bump pycketcasts-1.0.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pycketcasts-1.0.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  03 Sep 2021; Andreas Billmeier <b@edevau.net> pycketcasts-1.0.0.ebuild:
+  fix more LICENSE strings
+
+*pycketcasts-1.0.0 (18 Dec 2020)
+
+  18 Dec 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pycketcasts-1.0.0.ebuild:
+  add pycketcasts-1.0.0
+

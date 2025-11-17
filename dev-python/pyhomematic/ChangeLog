@@ -1,0 +1,225 @@
+# ChangeLog for dev-python/pyhomematic
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyhomematic-0.1.77.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyhomematic-0.1.77.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyhomematic-0.1.77.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyhomematic-0.1.77.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.77.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.77.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.77.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.77.ebuild:
+  remove olds, cleanup, enable pytest
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.74.ebuild,
+  -pyhomematic-0.1.76.ebuild, pyhomematic-0.1.77.ebuild:
+  stabilize -med Ebuilds Packages, remove some olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.74.ebuild,
+  pyhomematic-0.1.76.ebuild, pyhomematic-0.1.77.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pyhomematic-0.1.77 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.71.ebuild,
+  -pyhomematic-0.1.73.ebuild, +pyhomematic-0.1.77.ebuild:
+  bump pyhomematic-0.1.77
+
+*pyhomematic-0.1.76 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.76.ebuild:
+  bump pyhomematic-0.1.76
+
+*pyhomematic-0.1.74 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.72.ebuild,
+  +pyhomematic-0.1.74.ebuild:
+  update pyhomematic-0.1.74
+
+*pyhomematic-0.1.73 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.68.ebuild,
+  -pyhomematic-0.1.69.ebuild, -pyhomematic-0.1.70.ebuild,
+  +pyhomematic-0.1.73.ebuild:
+  update pyhomematic-0.1.73
+
+*pyhomematic-0.1.72 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.67.ebuild,
+  +pyhomematic-0.1.72.ebuild:
+  bump pyhomematic-0.1.72
+
+*pyhomematic-0.1.71 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.65.ebuild,
+  -pyhomematic-0.1.66.ebuild, +pyhomematic-0.1.71.ebuild:
+  bump pyhomematic-0.1.71
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.69.ebuild:
+  fix repoman ebuild.minorsyn
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyhomematic-0.1.65.ebuild,
+  pyhomematic-0.1.66.ebuild, pyhomematic-0.1.67.ebuild,
+  pyhomematic-0.1.68.ebuild, pyhomematic-0.1.69.ebuild,
+  pyhomematic-0.1.70.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyhomematic-0.1.70 (03 Oct 2020)
+
+  03 Oct 2020; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.70.ebuild:
+  update pyhomematic-0.1.70, removed patch
+
+*pyhomematic-0.1.69 (02 Oct 2020)
+
+  02 Oct 2020; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.64.ebuild,
+  +pyhomematic-0.1.69.ebuild:
+  bump and add a patch broken pyhomematic-0.1.69.ebuild
+
+*pyhomematic-0.1.68 (10 Aug 2020)
+
+  10 Aug 2020; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.63.ebuild,
+  +pyhomematic-0.1.68.ebuild:
+  bump pyhomematic-0.1.68
+
+*pyhomematic-0.1.67 (17 May 2020)
+
+  17 May 2020; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.62.ebuild,
+  +pyhomematic-0.1.67.ebuild:
+  bump pyhomematic-0.1.67
+
+*pyhomematic-0.1.66 (18 Apr 2020)
+
+  18 Apr 2020; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.61.ebuild,
+  +pyhomematic-0.1.66.ebuild:
+  bump pyhomematic-0.1.66
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.58.ebuild,
+  -pyhomematic-0.1.59.ebuild, -pyhomematic-0.1.60.ebuild:
+  clean up, romove olds
+
+*pyhomematic-0.1.65 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.57.ebuild,
+  +pyhomematic-0.1.65.ebuild:
+  bump pyhomematic-0.1.65
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.64.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.57.ebuild,
+  pyhomematic-0.1.58.ebuild, pyhomematic-0.1.59.ebuild,
+  pyhomematic-0.1.60.ebuild, pyhomematic-0.1.61.ebuild,
+  pyhomematic-0.1.62.ebuild:
+  minor code cleanups
+
+*pyhomematic-0.1.64 (02 Feb 2020)
+
+  02 Feb 2020; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.64.ebuild:
+  bump pyhomematic-0.1.64
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pyhomematic-0.1.63 (10 Jan 2020)
+
+  10 Jan 2020; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.56.ebuild,
+  +pyhomematic-0.1.63.ebuild:
+  pyhomematic-0.1.63 bumped
+
+*pyhomematic-0.1.62 (07 Dec 2019)
+
+  07 Dec 2019; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.62.ebuild:
+  bump pyhomematic-0.1.62
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.57.ebuild,
+  pyhomematic-0.1.58.ebuild, pyhomematic-0.1.59.ebuild,
+  pyhomematic-0.1.60.ebuild, pyhomematic-0.1.61.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> pyhomematic-0.1.56.ebuild,
+  pyhomematic-0.1.57.ebuild, pyhomematic-0.1.58.ebuild,
+  pyhomematic-0.1.59.ebuild, pyhomematic-0.1.60.ebuild,
+  pyhomematic-0.1.61.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*pyhomematic-0.1.61 (24 Oct 2019)
+
+  24 Oct 2019; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.61.ebuild:
+  bump pyhomematic-0.1.61
+
+  16 Jul 2019; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.55.ebuild:
+  remove olds
+
+*pyhomematic-0.1.60 (15 Jul 2019)
+
+  15 Jul 2019; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.60.ebuild:
+  bump pyhomematic-0.1.60
+
+*pyhomematic-0.1.59 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net> -pyhomematic-0.1.54.ebuild,
+  +pyhomematic-0.1.59.ebuild:
+  bump pyhomematic-0.1.59
+
+*pyhomematic-0.1.58 (17 Mar 2019)
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.58.ebuild:
+  bump pyhomematic-0.1.58
+
+*pyhomematic-0.1.57 (03 Mar 2019)
+
+  03 Mar 2019; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pyhomematic-0.1.57.ebuild:
+  bump pyhomematic-0.1.57
+
+*pyhomematic-0.1.56 (21 Feb 2019)
+
+  21 Feb 2019; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.56.ebuild:
+  update pyhomematic-0.1.56
+
+*pyhomematic-0.1.55 (26 Jan 2019)
+
+  26 Jan 2019; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.55.ebuild:
+  Update pyhomematic to 0.1.55
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  pyhomematic-0.1.54.ebuild:
+  minor changes
+
+*pyhomematic-0.1.54 (10 Jan 2019)
+
+  10 Jan 2019; Andreas Billmeier <b@edevau.net> +pyhomematic-0.1.54.ebuild:
+  add pyhomematic
+

@@ -1,0 +1,221 @@
+# ChangeLog for dev-python/awesomeversion
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*awesomeversion-25.8.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +awesomeversion-25.8.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -awesomeversion-24.6.0.ebuild:
+  Cleansing
+
+*awesomeversion-25.5.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +awesomeversion-25.5.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  awesomeversion-24.6.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  awesomeversion-24.6.0.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -awesomeversion-24.6.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +awesomeversion-24.6.0.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -awesomeversion-23.11.0.ebuild, -awesomeversion-24.2.0.ebuild,
+  awesomeversion-24.6.0.ebuild:
+  cleanup + shellspell
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  awesomeversion-24.6.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*awesomeversion-24.6.0 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +awesomeversion-24.6.0.ebuild:
+  Home Assitant 2024.9.3 working :)
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -awesomeversion-23.8.0.ebuild,
+  awesomeversion-23.11.0.ebuild, awesomeversion-24.2.0.ebuild:
+  drop 23.8.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*awesomeversion-24.2.0 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> awesomeversion-23.8.0.ebuild,
+  awesomeversion-23.11.0.ebuild, +awesomeversion-24.2.0.ebuild:
+  add 24.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2909
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -awesomeversion-22.9.0.ebuild:
+  drop 22.9.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*awesomeversion-23.11.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +awesomeversion-23.11.0.ebuild:
+  add 23.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*awesomeversion-23.8.0 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> +awesomeversion-23.8.0.ebuild:
+  add 23.8.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -awesomeversion-22.6.0.ebuild,
+  -awesomeversion-22.8.0.ebuild:
+  drop 22.6.0, 22.8.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> awesomeversion-22.6.0.ebuild,
+  awesomeversion-22.8.0.ebuild, awesomeversion-22.9.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> awesomeversion-22.9.0.ebuild:
+  22.9.0: fix top level violation
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> awesomeversion-22.6.0.ebuild,
+  awesomeversion-22.8.0.ebuild, awesomeversion-22.9.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> awesomeversion-22.6.0.ebuild,
+  awesomeversion-22.8.0.ebuild, awesomeversion-22.9.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*awesomeversion-22.9.0 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> +awesomeversion-22.9.0.ebuild:
+  bump awesomeversion-22.9.0
+
+*awesomeversion-22.8.0 (04 Sep 2022)
+
+  04 Sep 2022; Andreas Billmeier <b@edevau.net> -awesomeversion-22.2.0.ebuild,
+  -awesomeversion-22.5.2.ebuild, awesomeversion-22.6.0.ebuild,
+  +awesomeversion-22.8.0.ebuild:
+  bump awesomeversion-22.8.0
+
+*awesomeversion-22.6.0 (16 Jul 2022)
+
+  16 Jul 2022; Andreas Billmeier <b@edevau.net> awesomeversion-22.2.0.ebuild,
+  -awesomeversion-22.5.1.ebuild, awesomeversion-22.5.2.ebuild,
+  +awesomeversion-22.6.0.ebuild:
+  bump awesomeversion-22.6.0
+
+*awesomeversion-22.5.2 (29 May 2022)
+
+  29 May 2022; Andreas Billmeier <b@edevau.net> +awesomeversion-22.5.2.ebuild:
+  update awesomeversion-22.5.2
+
+*awesomeversion-22.5.1 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net>
+  -awesomeversion-21.10.1.ebuild, -awesomeversion-21.11.0.ebuild,
+  -awesomeversion-22.1.0.ebuild, +awesomeversion-22.5.1.ebuild:
+  bump awesomeversion-22.5.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> awesomeversion-21.10.1.ebuild,
+  awesomeversion-21.11.0.ebuild, awesomeversion-22.1.0.ebuild,
+  awesomeversion-22.2.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*awesomeversion-22.2.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +awesomeversion-22.2.0.ebuild,
+  metadata.xml:
+  bump awesomeversion-22.2.0
+
+*awesomeversion-22.1.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +awesomeversion-22.1.0.ebuild:
+  bump awesomeversion-22.1.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> awesomeversion-21.10.1.ebuild,
+  awesomeversion-21.11.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*awesomeversion-21.11.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -awesomeversion-21.2.3.ebuild,
+  -awesomeversion-21.4.0.ebuild, -awesomeversion-21.8.1.ebuild,
+  +awesomeversion-21.11.0.ebuild:
+  update awesomeversion-21.11.0
+
+*awesomeversion-21.10.1 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +awesomeversion-21.10.1.ebuild:
+  bump awesomeversion-21.10.1
+
+*awesomeversion-21.8.1 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -awesomeversion-21.2.0.ebuild,
+  -awesomeversion-21.2.1.ebuild, -awesomeversion-21.2.2.ebuild,
+  awesomeversion-21.2.3.ebuild, +awesomeversion-21.8.1.ebuild:
+  update awesomeversion-21.8.1
+
+*awesomeversion-21.4.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -awesomeversion-21.1.8.ebuild,
+  +awesomeversion-21.4.0.ebuild:
+  update awesomeversion-21.4.0
+
+*awesomeversion-21.2.3 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -awesomeversion-21.1.3.ebuild,
+  +awesomeversion-21.2.3.ebuild:
+  bump awesomeversion-21.2.3
+
+*awesomeversion-21.2.2 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> +awesomeversion-21.2.2.ebuild:
+  bump awesomeversion-21.2.2
+
+*awesomeversion-21.2.0 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> +awesomeversion-21.2.0.ebuild:
+  bump awesomeversion-21.2.0
+
+*awesomeversion-21.2.1 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> +awesomeversion-21.2.1.ebuild:
+  update awesomeversion-21.2.1
+
+*awesomeversion-21.1.8 (31 Jan 2021)
+*awesomeversion-21.1.3 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> +awesomeversion-21.1.3.ebuild,
+  +awesomeversion-21.1.8.ebuild, +metadata.xml:
+  add awesomeversion-21.1.3, bump awesomeversion-21.1.8
+

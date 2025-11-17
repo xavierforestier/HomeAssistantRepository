@@ -1,0 +1,54 @@
+# ChangeLog for dev-python/tailer
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tailer-0.4.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -tailer-0.4.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tailer-0.4.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  tailer-0.4.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> tailer-0.4.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> tailer-0.4.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> tailer-0.4.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> tailer-0.4.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> tailer-0.4.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> tailer-0.4.1.ebuild:
+  update dsmr-parser-0.30, tailer-0.4.1
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> tailer-0.4.1.ebuild:
+  fix uri.https
+
+*tailer-0.4.1 (21 Nov 2020)
+
+  21 Nov 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +tailer-0.4.1.ebuild:
+  add tailer-0.4.1
+

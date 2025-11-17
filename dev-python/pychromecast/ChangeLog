@@ -1,0 +1,409 @@
+# ChangeLog for dev-python/pychromecast
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pychromecast-14.0.7.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*pychromecast-14.0.9 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pychromecast-14.0.9.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pychromecast-14.0.1.ebuild, -pychromecast-14.0.3.ebuild,
+  -pychromecast-14.0.5.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pychromecast-14.0.1.ebuild, pychromecast-14.0.3.ebuild,
+  pychromecast-14.0.5.ebuild, pychromecast-14.0.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pychromecast-14.0.1.ebuilde, -pychromecast-14.0.3.ebuilde,
+  -pychromecast-14.0.5.ebuilde, -pychromecast-14.0.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pychromecast-14.0.1.ebuilde, +pychromecast-14.0.3.ebuilde,
+  +pychromecast-14.0.5.ebuilde, +pychromecast-14.0.7.ebuilde:
+  Fix KEYWORDS
+
+*pychromecast-14.0.7 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pychromecast-14.0.7.ebuild:
+  Homeassistant 2025.4.0
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pychromecast-14.0.1.ebuild, pychromecast-14.0.3.ebuild,
+  pychromecast-14.0.5.ebuild:
+  Fix deps
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> -pychromecast-13.0.8.ebuild,
+  -pychromecast-13.1.0-r1.ebuild, -pychromecast-14.0.2.ebuild:
+  drop 13.0.8, 13.1.0-r1, 14.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-14.0.5 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +pychromecast-14.0.5.ebuild:
+  add 14.0.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3997
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> pychromecast-13.0.8.ebuild,
+  pychromecast-13.1.0-r1.ebuild, pychromecast-14.0.1.ebuild,
+  pychromecast-14.0.2.ebuild, pychromecast-14.0.3.ebuild:
+  enable py3.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-14.0.2 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pychromecast-14.0.2.ebuild:
+  Homeassistant 2024.10.0
+
+*pychromecast-14.0.3 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pychromecast-14.0.3.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -pychromecast-14.0.0.ebuild:
+  drop 14.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-14.0.1 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> +pychromecast-14.0.1.ebuild:
+  add 14.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3083
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-14.0.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> pychromecast-13.0.8.ebuild,
+  pychromecast-13.1.0-r1.ebuild, +pychromecast-14.0.0.ebuild:
+  add 14.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-13.1.0-r1 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> -pychromecast-13.1.0.ebuild,
+  +pychromecast-13.1.0-r1.ebuild:
+  pychromecast-13.1.0 fix deps
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-13.1.0 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> pychromecast-13.0.8.ebuild,
+  +pychromecast-13.1.0.ebuild:
+  add 13.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-13.0.8 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pychromecast-13.0.8.ebuild:
+  new package, add 13.0.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2392
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pychromecast-13.0.1.ebuild, -pychromecast-13.0.2.ebuild,
+  -pychromecast-13.0.3.ebuild, -pychromecast-13.0.4.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> pychromecast-13.0.1.ebuild,
+  pychromecast-13.0.2.ebuild, pychromecast-13.0.3.ebuild,
+  pychromecast-13.0.4.ebuild:
+  dev-python/*: rename zeroconf, again (https://github.com/gentoo/gentoo/commi
+  t/29153ca563b529be4cf0fdc2651105430ecb9ab4)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pychromecast-13.0.1.ebuild,
+  pychromecast-13.0.2.ebuild, pychromecast-13.0.3.ebuild,
+  pychromecast-13.0.4.ebuild:
+  remove Python 3.8 Support tag
+
+*pychromecast-13.0.4 (13 Dec 2022)
+
+  13 Dec 2022; Andreas Billmeier <b@edevau.net> +pychromecast-13.0.4.ebuild:
+  add 13.0.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-13.0.3 (13 Dec 2022)
+
+  13 Dec 2022; Andreas Billmeier <b@edevau.net> +pychromecast-13.0.3.ebuild:
+  add 13.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-13.0.2 (12 Dec 2022)
+
+  12 Dec 2022; Andreas Billmeier <b@edevau.net> +pychromecast-13.0.2.ebuild:
+  add 13.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pychromecast-13.0.1 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -pychromecast-12.1.2.ebuild, -pychromecast-12.1.3.ebuild,
+  +pychromecast-13.0.1.ebuild:
+  drop olds, bump 13.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Oct 2022; Andreas Billmeier <b@edevau.net> pychromecast-12.1.2.ebuild,
+  pychromecast-12.1.3.ebuild:
+  dev-python/*: rename zeroconf
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pychromecast-12.1.2.ebuild,
+  pychromecast-12.1.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net> -pychromecast-10.2.3.ebuild,
+  -pychromecast-11.0.0.ebuild:
+  pychromecast remove olds
+
+*pychromecast-12.1.3 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> -pychromecast-12.1.1.ebuild,
+  +pychromecast-12.1.3.ebuild:
+  bump pychromecast-12.1.3
+
+*pychromecast-12.1.2 (13 May 2022)
+
+  13 May 2022; Andreas Billmeier <b@edevau.net> -pychromecast-12.0.0.ebuild,
+  +pychromecast-12.1.2.ebuild:
+  bump pychromecast-12.1.2
+
+*pychromecast-12.1.1 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> +pychromecast-12.1.1.ebuild:
+  bump pychromecast-12.1.1
+
+*pychromecast-12.0.0 (28 Apr 2022)
+
+  28 Apr 2022; Andreas Billmeier <b@edevau.net> -pychromecast-10.3.0.ebuild,
+  +pychromecast-12.0.0.ebuild:
+  bump pychromecast-12.0.0
+
+*pychromecast-11.0.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> +pychromecast-11.0.0.ebuild:
+  bump pychromecast-11.0.0
+
+*pychromecast-10.3.0 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> -pychromecast-9.2.1.ebuild,
+  -pychromecast-10.2.2.ebuild, pychromecast-10.2.3.ebuild,
+  +pychromecast-10.3.0.ebuild:
+  update pychromecast-10.3.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pychromecast-9.2.1.ebuild,
+  pychromecast-10.2.2.ebuild, pychromecast-10.2.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pychromecast-10.2.3 (20 Jan 2022)
+
+  20 Jan 2022; Andreas Billmeier <b@edevau.net> -pychromecast-10.1.1.ebuild,
+  -pychromecast-10.2.1.ebuild, +pychromecast-10.2.3.ebuild:
+  bump pychromecast-10.2.3
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> pychromecast-9.2.1.ebuild,
+  pychromecast-10.1.1.ebuild, pychromecast-10.2.1.ebuild,
+  pychromecast-10.2.2.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*pychromecast-10.2.2 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> +pychromecast-10.2.2.ebuild:
+  bump pychromecast-10.2.2
+
+*pychromecast-10.2.1 (16 Dec 2021)
+
+  16 Dec 2021; Andreas Billmeier <b@edevau.net> +pychromecast-10.2.1.ebuild:
+  bump pychromecast-10.2.1
+
+*pychromecast-10.1.1 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -pychromecast-9.1.2.ebuild,
+  -pychromecast-9.2.0.ebuild, +pychromecast-10.1.1.ebuild:
+  bump pychromecast-10.1.1
+
+*pychromecast-9.2.1 (19 Sep 2021)
+
+  19 Sep 2021; Andreas Billmeier <b@edevau.net> -pychromecast-8.1.2.ebuild,
+  +pychromecast-9.2.1.ebuild:
+  bump pychromecast-9.2.1
+
+*pychromecast-9.2.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> -pychromecast-7.7.1.ebuild,
+  -pychromecast-7.7.2.ebuild, -pychromecast-8.0.0.ebuild,
+  -pychromecast-8.1.0.ebuild, -pychromecast-9.0.0.ebuild,
+  -pychromecast-9.1.1.ebuild, +pychromecast-9.2.0.ebuild:
+  update pychromecast-9.2.0
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> pychromecast-9.1.2.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+*pychromecast-9.1.2 (10 Apr 2021)
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net> +pychromecast-9.1.2.ebuild:
+  bump pychromecast-9.1.2
+
+*pychromecast-9.0.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> +pychromecast-9.0.0.ebuild:
+  bump pychromecast-9.0.0
+
+*pychromecast-9.1.1 (14 Mar 2021)
+*pychromecast-8.1.2 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -pychromecast-7.6.0.ebuild,
+  +pychromecast-8.1.2.ebuild, +pychromecast-9.1.1.ebuild:
+  bump pychromecast-8.1.2, pychromecast-9.1.1
+
+*pychromecast-8.1.0 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net> -pychromecast-7.5.1.ebuild,
+  +pychromecast-8.1.0.ebuild:
+  pychromecast-8.1.0
+
+*pychromecast-8.0.0 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> -pychromecast-7.5.0.ebuild,
+  +pychromecast-8.0.0.ebuild:
+  bump pychromecast-8.0.0
+
+*pychromecast-7.7.2 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -pychromecast-7.4.1.ebuild,
+  +pychromecast-7.7.2.ebuild:
+  bump pychromecast-7.7.2
+
+*pychromecast-7.7.1 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -pychromecast-7.2.1.ebuild,
+  +pychromecast-7.7.1.ebuild:
+  update pychromecast-7.7.1
+
+*pychromecast-7.6.0 (18 Dec 2020)
+
+  18 Dec 2020; Andreas Billmeier <b@edevau.net> -pychromecast-7.2.0.ebuild,
+  +pychromecast-7.6.0.ebuild:
+  bump pychromecast-7.6.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pychromecast-7.2.0.ebuild,
+  pychromecast-7.2.1.ebuild, pychromecast-7.4.1.ebuild,
+  pychromecast-7.5.0.ebuild, pychromecast-7.5.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pychromecast-7.5.1 (17 Oct 2020)
+
+  17 Oct 2020; Andreas Billmeier <b@edevau.net> -pychromecast-6.0.0.ebuild,
+  -pychromecast-7.1.2.ebuild, +pychromecast-7.5.1.ebuild:
+  bump pychromecast-7.5.1
+
+*pychromecast-7.5.0 (28 Sep 2020)
+
+  28 Sep 2020; Andreas Billmeier <b@edevau.net> -pychromecast-5.3.0.ebuild,
+  +pychromecast-7.5.0.ebuild:
+  bump pychromecast-7.5.0
+
+*pychromecast-7.4.1 (27 Sep 2020)
+
+  27 Sep 2020; Andreas Billmeier <b@edevau.net> -pychromecast-7.0.1.ebuild,
+  -pychromecast-7.3.0.ebuild, +pychromecast-7.4.1.ebuild:
+  bump pychromecast-7.4.1
+
+*pychromecast-7.3.0 (06 Sep 2020)
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net> -pychromecast-5.1.0.ebuild,
+  -pychromecast-5.2.0.ebuild, pychromecast-7.1.2.ebuild,
+  pychromecast-7.2.0.ebuild, pychromecast-7.2.1.ebuild,
+  +pychromecast-7.3.0.ebuild:
+  bump / rework pychromecast-7.3.0 / 7.2.1
+
+*pychromecast-7.2.1 (24 Aug 2020)
+
+  24 Aug 2020; Andreas Billmeier <b@edevau.net> -pychromecast-5.0.0.ebuild,
+  +pychromecast-7.2.1.ebuild:
+  bump pychromecast-7.2.1
+
+*pychromecast-7.2.0 (01 Aug 2020)
+
+  01 Aug 2020; Andreas Billmeier <b@edevau.net> +pychromecast-7.2.0.ebuild:
+  bump pychromecast-7.2.0
+
+*pychromecast-7.1.2 (25 Jul 2020)
+
+  25 Jul 2020; Andreas Billmeier <b@edevau.net> -pychromecast-4.2.3.ebuild,
+  +pychromecast-7.1.2.ebuild:
+  bump pychromecast-7.1.2, remove many oldies
+
+*pychromecast-7.0.1 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> +pychromecast-7.0.1.ebuild:
+  bump pychromecast-7.0.1
+
+*pychromecast-6.0.0 (07 Jun 2020)
+
+  07 Jun 2020; Andreas Billmeier <b@edevau.net> +pychromecast-6.0.0.ebuild:
+  bump pychromecast-6.0.0
+
+*pychromecast-5.3.0 (27 May 2020)
+
+  27 May 2020; Andreas Billmeier <b@edevau.net> -pychromecast-4.2.0.ebuild,
+  +pychromecast-5.3.0.ebuild:
+  bump pychromecast-5.3.0
+
+*pychromecast-5.2.0 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +pychromecast-5.2.0.ebuild:
+  bump pychromecast-5.2.0
+
+*pychromecast-5.1.0 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +pychromecast-5.1.0.ebuild:
+  bump pychromecast-5.1.0
+
+  02 May 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  lots of small repoman cleanups
+
+*pychromecast-5.0.0 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> +pychromecast-5.0.0.ebuild:
+  update pychromecast-5.0.0
+
+*pychromecast-4.2.3 (18 Apr 2020)
+*pychromecast-4.2.0 (18 Apr 2020)
+
+  18 Apr 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pychromecast-4.2.0.ebuild, +pychromecast-4.2.3.ebuild:
+  rework PyChromecast -> pychromecast by package name conflicts
+

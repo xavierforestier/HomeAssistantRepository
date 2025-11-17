@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/mt940
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mt940-4.30.0.ebuild:
+  pkgcheck
+
+*mt940-4.30.0 (10 May 2025)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +mt940-4.30.0.ebuild:
+  pkgcheck
+

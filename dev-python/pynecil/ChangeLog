@@ -1,0 +1,65 @@
+# ChangeLog for dev-python/pynecil
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynecil-4.1.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*pynecil-4.2.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pynecil-4.2.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynecil-4.1.0.ebuild:
+  Cleansing
+
+*pynecil-4.1.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pynecil-4.1.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pynecil-4.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynecil-4.0.1.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynecil-0.2.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pynecil-0.2.0.ebuilde, -pynecil-4.0.1.ebuilde, -pynecil-4.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pynecil-0.2.0.ebuilde, +pynecil-4.0.1.ebuilde, +pynecil-4.1.0.ebuilde:
+  Fix KEYWORDS
+
+*pynecil-4.1.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pynecil-4.1.0.ebuild:
+  Homeassistant 2025.4.0
+
+*pynecil-4.0.1 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pynecil-4.0.1.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*pynecil-0.2.0 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pynecil-0.2.0.ebuild:
+  new package, add 0.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3663
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

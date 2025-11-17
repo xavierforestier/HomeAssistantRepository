@@ -1,0 +1,211 @@
+# ChangeLog for dev-python/python-roborock
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*python-roborock-3.7.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-roborock-3.7.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-roborock-2.49.1.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-roborock-2.47.1.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*python-roborock-2.50.2 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-roborock-2.18.2.ebuild, +python-roborock-2.50.2.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*python-roborock-2.49.1 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-roborock-2.49.1.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*python-roborock-2.47.1 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-roborock-2.47.1.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-roborock-2.16.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*python-roborock-2.18.2 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-roborock-2.18.2.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-roborock-2.16.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-roborock-2.12.2.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-roborock-2.6.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-roborock-2.12.2.ebuilde, -python-roborock-2.16.1.ebuilde,
+  -python-roborock-2.6.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-roborock-2.12.2.ebuilde, +python-roborock-2.16.1.ebuilde,
+  +python-roborock-2.6.1.ebuilde:
+  Fix KEYWORDS
+
+*python-roborock-2.16.1 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-roborock-2.16.1.ebuild:
+  Homeassistant 2025.4.0
+
+*python-roborock-2.12.2 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-roborock-2.12.2.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -python-roborock-2.0.0.ebuild,
+  -python-roborock-2.2.3.ebuild, -python-roborock-2.3.0.ebuild,
+  -python-roborock-2.6.0.ebuild:
+  drop 2.0.0, 2.2.3, 2.3.0, 2.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-2.6.1 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +python-roborock-2.6.1.ebuild:
+  dev-python/ephem: add 4.1.6
+  dev-python/python-roborock: add 2.6.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4057
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4058
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-2.6.0 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +python-roborock-2.6.0.ebuild:
+  add 2.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3743
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-2.3.0 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> +python-roborock-2.3.0.ebuild:
+  add 2.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3495
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-2.2.3 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net>
+  -python-roborock-0.40.0.ebuild, +python-roborock-2.2.3.ebuild:
+  add 2.2.3, drop 0.40.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3480
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-2.0.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> python-roborock-0.40.0.ebuild,
+  +python-roborock-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3297
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -python-roborock-0.38.0.ebuild, -python-roborock-0.39.1.ebuild:
+  drop 0.38.0, 0.39.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-0.40.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net>
+  -python-roborock-0.36.2.ebuild, python-roborock-0.38.0.ebuild,
+  python-roborock-0.39.1.ebuild, +python-roborock-0.40.0.ebuild:
+  drop 0.36.2, add 0.40.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3015
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-0.39.1 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net>
+  +python-roborock-0.39.1.ebuild:
+  add 0.39.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2846
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-0.38.0 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> python-roborock-0.36.2.ebuild,
+  +python-roborock-0.38.0.ebuild:
+  add 0.38.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2639
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -python-roborock-0.35.0.ebuild:
+  drop 0.35.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-0.36.2 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +python-roborock-0.36.2.ebuild:
+  add 0.36.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2486
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -python-roborock-0.8.3.ebuild,
+  -python-roborock-0.34.6.ebuild:
+  drop 0.8.3, 0.34.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-0.35.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +python-roborock-0.35.0.ebuild:
+  add 0.35.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2305
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-0.34.6 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +python-roborock-0.34.6.ebuild:
+  add 0.34.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-roborock-0.8.3 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-roborock-0.8.3.ebuild:
+  new package, add 0.8.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

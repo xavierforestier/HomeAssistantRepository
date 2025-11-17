@@ -1,0 +1,245 @@
+# ChangeLog for dev-python/aiolifx
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiolifx-1.1.5.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*aiolifx-1.2.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiolifx-1.2.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiolifx-1.1.4.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*aiolifx-1.1.5 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiolifx-1.1.5.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiolifx-1.0.2.ebuild, -aiolifx-1.0.8.ebuild, -aiolifx-1.0.9.ebuild,
+  -aiolifx-1.1.1.ebuild, -aiolifx-1.1.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiolifx-1.0.2.ebuild, aiolifx-1.0.8.ebuild, aiolifx-1.0.9.ebuild,
+  aiolifx-1.1.1.ebuild, aiolifx-1.1.2.ebuild, aiolifx-1.1.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiolifx-1.0.2.ebuilde, -aiolifx-1.0.8.ebuilde, -aiolifx-1.0.9.ebuilde,
+  -aiolifx-1.1.1.ebuilde, -aiolifx-1.1.2.ebuilde, -aiolifx-1.1.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-1.0.2.ebuilde, +aiolifx-1.0.8.ebuilde, +aiolifx-1.0.9.ebuilde,
+  +aiolifx-1.1.1.ebuilde, +aiolifx-1.1.2.ebuilde, +aiolifx-1.1.4.ebuilde:
+  Fix KEYWORDS
+
+*aiolifx-1.1.4 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-1.1.4.ebuild:
+  Homeassistant 2025.4.0
+
+*aiolifx-1.1.2 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-1.1.2.ebuild:
+  homeassistant 2024.12.4
+
+*aiolifx-1.1.1 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -aiolifx-1.0.0.ebuild,
+  +aiolifx-1.1.1.ebuild, metadata.xml:
+  add 1.1.1, drop 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3680
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-1.0.8 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-1.0.8.ebuild:
+  homeassistant 2024.9.0_beta3
+
+*aiolifx-1.0.9 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-1.0.9.ebuild:
+  homeassistant 2024.9.1
+
+*aiolifx-1.1.1 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolifx-1.1.1.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*aiolifx-1.0.2 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> aiolifx-1.0.0.ebuild,
+  +aiolifx-1.0.2.ebuild:
+  add 1.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3281
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -aiolifx-0.8.10.ebuild,
+  aiolifx-1.0.0.ebuild:
+  drop 0.8.10
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-1.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +aiolifx-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2458
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aiolifx-0.8.10.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -aiolifx-0.8.6.ebuild,
+  -aiolifx-0.8.9.ebuild:
+  drop 0.8.6, 0.8.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiolifx-0.8.6.ebuild,
+  aiolifx-0.8.9.ebuild, aiolifx-0.8.10.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> aiolifx-0.8.6.ebuild,
+  aiolifx-0.8.9.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-0.8.10 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> -aiolifx-0.8.7.ebuild,
+  +aiolifx-0.8.10.ebuild:
+  add 0.8.10, drop 0.8.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-0.8.9 (14 Feb 2023)
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> -aiolifx-0.8.2.ebuild,
+  -aiolifx-0.8.5.ebuild, +aiolifx-0.8.9.ebuild:
+  drop olds, add 0.8.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiolifx-0.8.2.ebuild,
+  aiolifx-0.8.5.ebuild, aiolifx-0.8.6.ebuild, aiolifx-0.8.7.ebuild:
+  remove Python 3.8 Support tag
+
+*aiolifx-0.8.7 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> -aiolifx-0.8.1.ebuild,
+  aiolifx-0.8.2.ebuild, aiolifx-0.8.5.ebuild, aiolifx-0.8.6.ebuild,
+  +aiolifx-0.8.7.ebuild, metadata.xml:
+  bump 0.8.7, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-0.8.6 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +aiolifx-0.8.6.ebuild:
+  add 0.8.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiolifx-0.8.1.ebuild,
+  aiolifx-0.8.2.ebuild, aiolifx-0.8.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolifx-0.8.5 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> -aiolifx-0.7.1.ebuild,
+  +aiolifx-0.8.5.ebuild:
+  bump aiolifx-0.8.5
+
+*aiolifx-0.8.2 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> aiolifx-0.7.1.ebuild,
+  aiolifx-0.8.1.ebuild, +aiolifx-0.8.2.ebuild:
+  add aiolifx-connection-1.0.0
+
+*aiolifx-0.8.1 (18 Jul 2022)
+
+  18 Jul 2022; Andreas Billmeier <b@edevau.net> -aiolifx-0.7.0.ebuild,
+  aiolifx-0.7.1.ebuild, +aiolifx-0.8.1.ebuild:
+  bump aiolifx-0.8.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiolifx-0.7.0.ebuild,
+  aiolifx-0.7.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiolifx-0.7.1 (07 Mar 2022)
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> -aiolifx-0.6.9.ebuild,
+  -aiolifx-0.6.10.ebuild, +aiolifx-0.7.1.ebuild:
+  bump aiolifx-0.7.1
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aiolifx-0.7.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  05 Sep 2021; Andreas Billmeier <b@edevau.net> aiolifx-0.7.0.ebuild:
+  update aiolifx-0.7.0
+
+*aiolifx-0.7.0 (05 Sep 2021)
+
+  05 Sep 2021; Andreas Billmeier <b@edevau.net> +aiolifx-0.7.0.ebuild:
+  bump aiolifx-0.7.0
+
+*aiolifx-0.6.10 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -aiolifx-0.6.7.ebuild,
+  aiolifx-0.6.9.ebuild, +aiolifx-0.6.10.ebuild:
+  update aiolifx-0.6.10
+
+*aiolifx-0.6.9 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> +aiolifx-0.6.9.ebuild:
+  bump aiolifx-0.6.9
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aiolifx-0.6.7.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aiolifx-0.6.7.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> aiolifx-0.6.7.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net> aiolifx-0.6.7.ebuild:
+  fix uri.https (111 cases)
+
+*aiolifx-0.6.7 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +aiolifx-0.6.7.ebuild,
+  +metadata.xml:
+  add aiolifx-0.6.7, bump bitstring-3.1.5-r1 from main repo for compatibility
+

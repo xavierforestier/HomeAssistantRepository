@@ -1,0 +1,26 @@
+# ChangeLog for dev-python/grpcio-tools
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  grpcio-tools-1.68.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  grpcio-tools-1.68.1.ebuild, +metadata.xml:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -grpcio-tools-1.68.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  grpcio-tools-1.68.1.ebuild, +grpcio-tools-1.68.1.ebuilde:
+  Fix KEYWORDS
+
+*grpcio-tools-1.68.1 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +grpcio-tools-1.68.1.ebuild:
+  homeassistant 2024.12.4
+

@@ -1,0 +1,141 @@
+# ChangeLog for dev-python/sisyphus-control
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sisyphus-control-3.1.4.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sisyphus-control-3.1.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sisyphus-control-3.1.4.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sisyphus-control-3.1.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -sisyphus-control-3.1.3.ebuilde, -sisyphus-control-3.1.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sisyphus-control-3.1.3.ebuilde, +sisyphus-control-3.1.4.ebuilde:
+  Fix KEYWORDS
+
+*sisyphus-control-3.1.4 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  sisyphus-control-3.1.3.ebuild, +sisyphus-control-3.1.4.ebuild:
+  add 3.1.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3756
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/fix-pyproject-toml.patch, sisyphus-control-3.1.4.ebuild:
+  Home Asssitant 2024.10.2 (full) :)
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  sisyphus-control-3.1.4.ebuild:
+  Some fixes :) for homeassistant 2024.10.2
+
+*sisyphus-control-3.1.4 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sisyphus-control-3.1.4.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -sisyphus-control-3.1.2.ebuild:
+  drop 3.1.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> sisyphus-control-3.1.2.ebuild,
+  sisyphus-control-3.1.3.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sisyphus-control-3.1.3 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> sisyphus-control-3.1.2.ebuild,
+  +sisyphus-control-3.1.3.ebuild:
+  add 3.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> sisyphus-control-3.1.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -sisyphus-control-3.0.ebuild,
+  sisyphus-control-3.1.2.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> sisyphus-control-3.0.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> sisyphus-control-3.0.ebuild,
+  sisyphus-control-3.1.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*sisyphus-control-3.1.2 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net>
+  -sisyphus-control-2.2.1-r1.ebuild, sisyphus-control-3.0.ebuild,
+  +sisyphus-control-3.1.2.ebuild:
+  update sisyphus-control-3.1.2
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> sisyphus-control-2.2.1-r1.ebuild,
+  sisyphus-control-3.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*sisyphus-control-3.0 (09 Nov 2020)
+
+  09 Nov 2020; Andreas Billmeier <b@edevau.net> +sisyphus-control-3.0.ebuild:
+  update sisyphus-control-3.0
+
+*sisyphus-control-2.2.1-r1 (06 Sep 2020)
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net>
+  -sisyphus-control-2.2.1.ebuild, +sisyphus-control-2.2.1-r1.ebuild:
+  P38 sisyphus-control-2.2.1-r1
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> sisyphus-control-2.2.1.ebuild:
+  fix all remaining async-timeout -> async_timeout
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> sisyphus-control-2.2.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: S
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> sisyphus-control-2.2.1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> sisyphus-control-2.2.1.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> sisyphus-control-2.2.1.ebuild:
+  Add missing license strings as far as possible
+
+*sisyphus-control-2.2.1 (18 Aug 2019)
+
+  18 Aug 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +sisyphus-control-2.2.1.ebuild:
+  add sisyphus-control-2.2.1
+

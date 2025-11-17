@@ -1,0 +1,184 @@
+# ChangeLog for dev-python/bleak
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-0.22.3.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*bleak-1.0.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bleak-1.0.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-0.21.1.ebuild, -bleak-0.22.1.ebuild, -bleak-0.22.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bleak-0.21.1.ebuild, bleak-0.22.1.ebuild, bleak-0.22.2.ebuild,
+  bleak-0.22.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bleak-0.21.1.ebuilde, -bleak-0.22.1.ebuilde, -bleak-0.22.2.ebuilde,
+  -bleak-0.22.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bleak-0.21.1.ebuilde, +bleak-0.22.1.ebuilde, +bleak-0.22.2.ebuilde,
+  +bleak-0.22.3.ebuilde:
+  Fix KEYWORDS
+
+*bleak-0.22.3 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> +bleak-0.22.3.ebuild:
+  add 0.22.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3990
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.22.2 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +bleak-0.22.2.ebuild:
+  add 0.22.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3579
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.22.1 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> bleak-0.21.1.ebuild,
+  +bleak-0.22.1.ebuild:
+  add bleak-0.22.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3389
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -bleak-0.20.1.ebuild,
+  -bleak-0.20.2.ebuild:
+  drop 0.20.1, 0.20.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.21.1 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> bleak-0.20.1.ebuild,
+  bleak-0.20.2.ebuild, +bleak-0.21.1.ebuild:
+  add 0.21.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.20.2 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -bleak-0.19.1.ebuild,
+  -bleak-0.19.5.ebuild, +bleak-0.20.2.ebuild:
+  bleak: add 0.20.2, drop olds
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> bleak-0.19.1.ebuild,
+  bleak-0.19.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.20.1 (08 Apr 2023)
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> -bleak-0.19.2.ebuild,
+  +bleak-0.20.1.ebuild:
+  add 0.20.1, drop 0.19.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.19.5 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> -bleak-0.17.0.ebuild,
+  -bleak-0.18.1.ebuild, +bleak-0.19.5.ebuild:
+  add 0.19.5, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> bleak-0.17.0.ebuild,
+  bleak-0.18.1.ebuild, bleak-0.19.1.ebuild, bleak-0.19.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.19.2 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> -bleak-0.15.1.ebuild,
+  bleak-0.17.0.ebuild, bleak-0.18.1.ebuild, bleak-0.19.1.ebuild,
+  +bleak-0.19.2.ebuild:
+  bump 0.19.2, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.19.1 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> -bleak-0.19.0.ebuild,
+  +bleak-0.19.1.ebuild:
+  update bleak-0.19.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.19.0 (21 Oct 2022)
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net> +bleak-0.19.0.ebuild:
+  bump update bleak-0.19.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> bleak-0.15.1.ebuild,
+  bleak-0.17.0.ebuild, bleak-0.18.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-0.18.1 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> -bleak-0.16.0.ebuild,
+  +bleak-0.18.1.ebuild:
+  update bleak-0.18.1
+
+*bleak-0.17.0 (14 Sep 2022)
+
+  14 Sep 2022; Andreas Billmeier <b@edevau.net> +bleak-0.17.0.ebuild:
+  update bleak-0.17.0
+
+*bleak-0.16.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -bleak-0.14.2.ebuild,
+  +bleak-0.16.0.ebuild:
+  bump bleak-0.16.0
+
+*bleak-0.15.1 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> bleak-0.14.2.ebuild,
+  +bleak-0.15.1.ebuild:
+  update bleak-0.15.1
+
+  21 Jul 2022; Andreas Billmeier <b@edevau.net> bleak-0.14.2.ebuild:
+  update PySwitchbot-0.14.1,
+  fix PySwitchbot-0.14.0 RDEPEND
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> bleak-0.14.2.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+*bleak-0.14.2 (16 Mar 2022)
+
+  16 Mar 2022; Andreas Billmeier <b@edevau.net> -bleak-0.10.0.ebuild,
+  +bleak-0.14.2.ebuild:
+  update bleak-0.14.2
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> bleak-0.10.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*bleak-0.10.0 (20 Dec 2020)
+
+  20 Dec 2020; Andreas Billmeier <b@edevau.net> +bleak-0.10.0.ebuild,
+  +metadata.xml:
+  add bleak-0.10.0
+

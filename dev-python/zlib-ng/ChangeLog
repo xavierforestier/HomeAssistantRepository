@@ -1,0 +1,43 @@
+# ChangeLog for dev-python/zlib-ng
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zlib-ng-0.2.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zlib-ng-0.2.0.ebuild, zlib-ng-0.4.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zlib-ng-0.2.0.ebuilde, -zlib-ng-0.4.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zlib-ng-0.2.0.ebuilde, +zlib-ng-0.4.3.ebuilde:
+  Fix KEYWORDS
+
+*zlib-ng-0.4.3 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zlib-ng-0.4.3.ebuild:
+  homeassistant 2025.3.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  zlib-ng-0.2.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> zlib-ng-0.2.0.ebuild:
+  update LICENSE
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zlib-ng-0.2.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +zlib-ng-0.2.0.ebuild:
+  new package, add 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

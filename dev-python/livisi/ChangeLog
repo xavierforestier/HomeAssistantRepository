@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/livisi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  livisi-0.0.25.ebuild, +metadata.xml:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  livisi-0.0.25.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -livisi-0.0.24.ebuild:
+  Fix for pkgcheck
+
+*livisi-0.0.25 (14 Apr 2025)
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +livisi-0.0.25.ebuild:
+  homeassistant-2025.4.2
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -livisi-0.0.24.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  livisi-0.0.24.ebuild, +livisi-0.0.24.ebuilde:
+  Fix KEYWORDS
+
+*livisi-0.0.24 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +livisi-0.0.24.ebuild:
+  homeassistant 2025.1.1
+

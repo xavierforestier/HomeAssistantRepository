@@ -1,0 +1,77 @@
+# ChangeLog for dev-python/mopeka-iot-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mopeka-iot-ble-0.8.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -mopeka-iot-ble-0.7.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mopeka-iot-ble-0.7.0.ebuilde, -mopeka-iot-ble-0.8.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mopeka-iot-ble-0.7.0.ebuilde, +mopeka-iot-ble-0.8.0.ebuilde:
+  Fix KEYWORDS
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -mopeka-iot-ble-0.5.0.ebuild:
+  drop 0.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mopeka-iot-ble-0.8.0 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> mopeka-iot-ble-0.5.0.ebuild,
+  mopeka-iot-ble-0.7.0.ebuild, +mopeka-iot-ble-0.8.0.ebuild:
+  add 0.8.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3701
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mopeka-iot-ble-0.7.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -mopeka-iot-ble-0.4.1.ebuild,
+  mopeka-iot-ble-0.5.0.ebuild, +mopeka-iot-ble-0.7.0.ebuild:
+  drop 0.4.1, add 0.7.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2998
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mopeka-iot-ble-0.5.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +mopeka-iot-ble-0.5.0.ebuild:
+  add 0.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2465
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> mopeka-iot-ble-0.4.1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -mopeka-iot-ble-0.4.0.ebuild,
+  mopeka-iot-ble-0.4.1.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mopeka-iot-ble-0.4.1 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +mopeka-iot-ble-0.4.1.ebuild:
+  add 0.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mopeka-iot-ble-0.4.0 (07 Feb 2023)
+
+  07 Feb 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +mopeka-iot-ble-0.4.0.ebuild:
+  new package, add 0.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

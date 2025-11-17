@@ -1,0 +1,79 @@
+# ChangeLog for dev-python/oauth2client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  oauth2client-4.1.3.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  oauth2client-4.1.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -oauth2client-4.1.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +oauth2client-4.1.3.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> oauth2client-4.1.3.ebuild:
+  disable py3.10, py3.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  oauth2client-4.1.3.ebuild:
+  Home Asssitant 2024.10.2 (full) :)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  oauth2client-4.1.3.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> oauth2client-4.1.3.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oauth2client-4.1.3 (23 Mar 2023)
+
+  23 Mar 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +oauth2client-4.1.3.ebuild:
+  new package, add 4.1.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -oauth2client-4.0.0.ebuild:
+  remove outdated oauth2client
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> oauth2client-4.0.0.ebuild:
+  fix [SC2221] in oauth2client-4.0.0
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> oauth2client-4.0.0.ebuild:
+  remove NonexistentBlocker
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> oauth2client-4.0.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  oauth2client-4.0.0.ebuild:
+  cleanup, add new Python Targets, Letter 'G-I' all Integrations
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> oauth2client-4.0.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> oauth2client-4.0.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: L-O
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> oauth2client-4.0.0.ebuild:
+  minor code cleanups
+
+*oauth2client-4.0.0 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +oauth2client-4.0.0.ebuild:
+  downgrade to some oldfashioned google libraries:
+

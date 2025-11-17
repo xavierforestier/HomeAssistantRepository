@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/rocketchat-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  rocketchat-api-0.6.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*rocketchat-api-0.6.1 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +rocketchat-api-0.6.1.ebuild:
+  Fix for pkgcheck
+

@@ -1,0 +1,90 @@
+# ChangeLog for dev-python/pyprosegur
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyprosegur-0.0.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyprosegur-0.0.9.ebuild, -pyprosegur-0.0.13.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyprosegur-0.0.13.ebuilde, -pyprosegur-0.0.14.ebuilde,
+  -pyprosegur-0.0.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyprosegur-0.0.13.ebuilde, +pyprosegur-0.0.14.ebuilde,
+  +pyprosegur-0.0.9.ebuilde:
+  Fix KEYWORDS
+
+*pyprosegur-0.0.14 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyprosegur-0.0.14.ebuild:
+  homeassistant 2025.3.0
+
+*pyprosegur-0.0.13 (22 Feb 2025)
+
+  22 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyprosegur-0.0.13.ebuild:
+  homeassistant 2025.2.5
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyprosegur-0.0.9.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pyprosegur-0.0.5.ebuild,
+  -pyprosegur-0.0.8.ebuild:
+  drop 0.0.5, 0.0.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyprosegur-0.0.9 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> +pyprosegur-0.0.9.ebuild:
+  add 0.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> pyprosegur-0.0.5.ebuild,
+  pyprosegur-0.0.8.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyprosegur-0.0.8 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> pyprosegur-0.0.5.ebuild,
+  +pyprosegur-0.0.8.ebuild:
+  add 0.0.8, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyprosegur-0.0.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyprosegur-0.0.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pyprosegur-0.0.5.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyprosegur-0.0.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pyprosegur-0.0.5 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyprosegur-0.0.5.ebuild:
+  add pyprosegur-0.0.5
+

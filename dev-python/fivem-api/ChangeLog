@@ -1,0 +1,56 @@
+# ChangeLog for dev-python/fivem-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  fivem-api-0.1.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -fivem-api-0.1.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +fivem-api-0.1.2.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  fivem-api-0.1.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> fivem-api-0.1.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Mar 2023; Andreas Billmeier <b@edevau.net> fivem-api-0.1.2.ebuild:
+  dev-python/*: fix #1240 setuptools_scm was renamed (https://github.com/gento
+  o/gentoo/commit/20a310b95d42e4ccef8eaa539c7654c39394a0cb)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> fivem-api-0.1.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> fivem-api-0.1.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> fivem-api-0.1.2.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> fivem-api-0.1.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*fivem-api-0.1.2 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +fivem-api-0.1.2.ebuild,
+  +metadata.xml:
+  add fivem-api-0.1.2
+

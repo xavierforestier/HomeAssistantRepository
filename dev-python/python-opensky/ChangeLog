@@ -1,0 +1,69 @@
+# ChangeLog for dev-python/python-opensky
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-opensky-1.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-opensky-1.0.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-opensky-1.0.0.ebuilde, -python-opensky-1.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-opensky-1.0.0.ebuilde, +python-opensky-1.0.1.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> python-opensky-1.0.0.ebuild,
+  python-opensky-1.0.1.ebuild:
+  enable py3.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3721
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-opensky-1.0.1 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-opensky-1.0.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -python-opensky-0.2.1.ebuild,
+  python-opensky-1.0.0.ebuild:
+  drop 0.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -python-opensky-0.2.0.ebuild:
+  drop 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-opensky-1.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +python-opensky-1.0.0.ebuild:
+  add 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-opensky-0.2.1 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +python-opensky-0.2.1.ebuild:
+  add 0.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2290
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-opensky-0.2.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-opensky-0.2.0.ebuild:
+  new package, add 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

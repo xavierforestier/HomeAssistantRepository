@@ -1,0 +1,80 @@
+# ChangeLog for dev-python/pyblu
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyblu-2.0.4.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*pyblu-2.0.5 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyblu-2.0.5.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyblu-2.0.1.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*pyblu-2.0.4 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyblu-2.0.4.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyblu-2.0.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pyblu-2.0.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyblu-2.0.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyblu-2.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyblu-0.4.0.ebuild, -pyblu-1.0.3.ebuild, -pyblu-1.0.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyblu-0.4.0.ebuilde, -pyblu-1.0.3.ebuilde, -pyblu-1.0.4.ebuilde,
+  -pyblu-2.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyblu-0.4.0.ebuilde, +pyblu-1.0.3.ebuilde, +pyblu-1.0.4.ebuilde,
+  +pyblu-2.0.0.ebuilde:
+  Fix KEYWORDS
+
+*pyblu-2.0.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyblu-2.0.0.ebuild:
+  homeassistant 2025.1.1
+
+*pyblu-1.0.4 (26 Oct 2024)
+
+  26 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyblu-1.0.4.ebuild:
+  homemasssistant & homeassistant-full 2024.10.3
+
+*pyblu-1.0.3 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyblu-1.0.3.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+*pyblu-0.4.0 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyblu-0.4.0.ebuild:
+  new package, add 0.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3578
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

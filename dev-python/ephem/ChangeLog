@@ -1,0 +1,145 @@
+# ChangeLog for dev-python/ephem
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ephem-4.1.6.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ephem-4.1.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -ephem-4.1.5.ebuilde, -ephem-4.1.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ephem-4.1.5.ebuilde, +ephem-4.1.6.ebuilde:
+  Fix KEYWORDS
+
+*ephem-4.1.6 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> ephem-4.1.5.ebuild,
+  +ephem-4.1.6.ebuild:
+  add 4.1.6
+  dev-python/python-roborock: add 2.6.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4057
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4058
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -ephem-4.1.2.ebuild,
+  ephem-4.1.5.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ephem-4.1.5 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +ephem-4.1.5.ebuild,
+  metadata.xml:
+  add 4.1.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> ephem-4.1.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> ephem-4.1.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> ephem-4.1.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -ephem-3.7.7.0.ebuild,
+  ephem-4.1.2.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> ephem-3.7.7.0.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+*ephem-4.1.2 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> ephem-3.7.7.0.ebuild,
+  -ephem-3.7.7.1.ebuild, -ephem-4.0.0.2.ebuild, +ephem-4.1.2.ebuild:
+  bump ephem-4.1.2
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> ephem-3.7.7.0.ebuild,
+  ephem-3.7.7.1.ebuild, ephem-4.0.0.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> ephem-3.7.7.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*ephem-4.0.0.2 (01 Sep 2021)
+
+  01 Sep 2021; Andreas Billmeier <b@edevau.net> ephem-3.7.7.0.ebuild,
+  ephem-3.7.7.1.ebuild, +ephem-4.0.0.2.ebuild:
+  pimp ephem-3.7.7.0, bump ephem-4.0.0.2
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -ephem-3.7.5.3.ebuild,
+  -ephem-3.7.6.0.ebuild, ephem-3.7.7.0.ebuild, ephem-3.7.7.1.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> ephem-3.7.5.3.ebuild,
+  ephem-3.7.6.0.ebuild, ephem-3.7.7.0.ebuild, ephem-3.7.7.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*ephem-3.7.7.1 (14 Sep 2020)
+*ephem-3.7.7.0 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +ephem-3.7.7.0.ebuild,
+  +ephem-3.7.7.1.ebuild:
+  add more older reqs reported by new test script:
+    - add transmissionrpc-0.11
+    - add stookalert-0.1.4
+    - downgrade smart-meter-texas-0.4.0
+    - update ephem-3.7.7.0
+    - update ephem-3.7.7.1
+    - add sharkiqpy-0.1.8
+    - add py-schluter-0.1.7
+    - add roonapi-0.0.22
+    - restore httplib2-0.10.3-r1 from archive (for dev-python/RtmAPI)
+    - correct dep in RtmAPI-0.7.2-r1
+    - add pyfunctional-1.3.0, pyfunctional-1.4.1
+    - avri-api-0.1.7 added
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> ephem-3.7.6.0.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: E-G
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> ephem-3.7.5.3.ebuild,
+  ephem-3.7.6.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net> ephem-3.7.5.3.ebuild,
+  ephem-3.7.6.0.ebuild:
+  fix uri.https (111 cases)
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> ephem-3.7.5.3.ebuild,
+  ephem-3.7.6.0.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> ephem-3.7.5.3.ebuild,
+  ephem-3.7.6.0.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*ephem-3.7.6.0 (19 Jul 2019)
+*ephem-3.7.5.3 (19 Jul 2019)
+
+  19 Jul 2019; Andreas Billmeier <b@edevau.net> +ephem-3.7.5.3.ebuild,
+  +ephem-3.7.6.0.ebuild, +metadata.xml:
+  home-assistant-cli experiments
+

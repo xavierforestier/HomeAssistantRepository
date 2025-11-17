@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/tilt-pi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*tilt-pi-0.2.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +tilt-pi-0.2.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+

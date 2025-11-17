@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/smarthab
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  smarthab-0.21.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*smarthab-0.21 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +smarthab-0.21.ebuild:
+  Fix for pkgcheck
+

@@ -1,0 +1,292 @@
+# ChangeLog for dev-python/dbus-fast
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dbus-fast-2.44.5.ebuild:
+  fix shellcheck
+
+*dbus-fast-2.44.5 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +dbus-fast-2.44.5.ebuild,
+  +files/dbus-fast-2.44.5-fix-build-with-cpython-3.2.patch:
+  app-misc/homeassistant 2025.11.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -dbus-fast-2.21.1.ebuild, -dbus-fast-2.21.3.ebuild,
+  -dbus-fast-2.24.0.ebuild, -dbus-fast-2.24.3.ebuild,
+  -dbus-fast-2.33.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dbus-fast-2.21.1.ebuild, dbus-fast-2.21.3.ebuild, dbus-fast-2.24.0.ebuild,
+  dbus-fast-2.24.3.ebuild, dbus-fast-2.33.0.ebuild, dbus-fast-2.43.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -dbus-fast-2.21.1.ebuilde, -dbus-fast-2.21.3.ebuilde,
+  -dbus-fast-2.24.0.ebuilde, -dbus-fast-2.24.3.ebuilde,
+  -dbus-fast-2.33.0.ebuilde, -dbus-fast-2.43.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dbus-fast-2.21.1.ebuilde, +dbus-fast-2.21.3.ebuilde,
+  +dbus-fast-2.24.0.ebuilde, +dbus-fast-2.24.3.ebuilde,
+  +dbus-fast-2.33.0.ebuilde, +dbus-fast-2.43.0.ebuilde:
+  Fix KEYWORDS
+
+*dbus-fast-2.43.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dbus-fast-2.43.0.ebuild:
+  Homeassistant 2025.4.0
+
+*dbus-fast-2.33.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dbus-fast-2.33.0.ebuild:
+  homeassisstant-2025.2.0
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> -dbus-fast-2.22.1.ebuild:
+  drop 2.22.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.24.3 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> +dbus-fast-2.24.3.ebuild:
+  add 2.24.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3993
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.24.0 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -dbus-fast-2.21.0.ebuild,
+  +dbus-fast-2.24.0.ebuild:
+  add 2.24.0, drop 2.21.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3582
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.22.1 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +dbus-fast-2.22.1.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+*dbus-fast-2.21.3 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> dbus-fast-2.21.0.ebuild,
+  dbus-fast-2.21.1.ebuild, +dbus-fast-2.21.3.ebuild:
+  add 2.21.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3390
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -dbus-fast-2.14.0.ebuild,
+  dbus-fast-2.21.0.ebuild, dbus-fast-2.21.1.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> -dbus-fast-2.12.0.ebuild:
+  drop 2.12.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.21.1 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> dbus-fast-2.12.0.ebuild,
+  dbus-fast-2.14.0.ebuild, dbus-fast-2.21.0.ebuild, +dbus-fast-2.21.1.ebuild:
+  add 2.21.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2757
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.21.0 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +dbus-fast-2.21.0.ebuild:
+  add 2.21.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2581
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -dbus-fast-2.11.1.ebuild:
+  drop 2.11.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.14.0 (09 Dec 2023)
+
+  09 Dec 2023; Andreas Billmeier <b@edevau.net> +dbus-fast-2.14.0.ebuild:
+  add 2.14.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2425
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -dbus-fast-1.84.2.ebuild:
+  drop 1.84.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Jean-Francois Maeyhieux - Zentoo <jfmaeyhieux@atanar.net>
+  dbus-fast-2.12.0.ebuild:
+  cython-3 compatibility for dbus-fast and grpcio*
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> -dbus-fast-1.86.0.ebuild:
+  drop 1.86.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.12.0 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +dbus-fast-2.12.0.ebuild:
+  add 2.12.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-2.11.1 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +dbus-fast-2.11.1.ebuild:
+  add 2.11.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.86.0 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net> dbus-fast-1.84.2.ebuild,
+  -dbus-fast-1.85.0.ebuild, +dbus-fast-1.86.0.ebuild:
+  drop 1.85.0, add 1.86.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.85.0 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -dbus-fast-1.61.1.ebuild,
+  -dbus-fast-1.84.0.ebuild, -dbus-fast-1.84.1.ebuild,
+  +dbus-fast-1.85.0.ebuild:
+  add 1.85.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> dbus-fast-1.61.1.ebuild,
+  dbus-fast-1.84.0.ebuild, dbus-fast-1.84.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.84.2 (08 Apr 2023)
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> -dbus-fast-1.75.0.ebuild,
+  -dbus-fast-1.82.0.ebuild, +dbus-fast-1.84.2.ebuild:
+  add 1.84.2, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.84.1 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +dbus-fast-1.84.1.ebuild:
+  add 1.84.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.84.0 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> +dbus-fast-1.84.0.ebuild:
+  add 1.84.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> dbus-fast-1.61.1.ebuild,
+  dbus-fast-1.75.0.ebuild, dbus-fast-1.82.0.ebuild:
+  remove Python 3.8 Support tag
+
+*dbus-fast-1.82.0 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net> -dbus-fast-1.5.1.ebuild,
+  -dbus-fast-1.24.0.ebuild, +dbus-fast-1.82.0.ebuild:
+  drop olds, bump 1.82.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.75.0 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> +dbus-fast-1.75.0.ebuild,
+  metadata.xml:
+  add 1.75.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  19 Nov 2022; Andreas Billmeier <b@edevau.net> -dbus-fast-1.60.0.ebuild:
+  drop 1.60.0
+
+*dbus-fast-1.61.1 (02 Nov 2022)
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net> -dbus-fast-1.59.0.ebuild,
+  +dbus-fast-1.61.1.ebuild:
+  add 1.61.1, drop 1.59.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.60.0 (31 Oct 2022)
+
+  31 Oct 2022; Andreas Billmeier <b@edevau.net> +dbus-fast-1.60.0.ebuild:
+  add 1.60.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dbus-fast-1.59.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +dbus-fast-1.59.0.ebuild:
+  add 1.59.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> dbus-fast-1.5.1.ebuild,
+  dbus-fast-1.24.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -dbus-fast-1.22.0.ebuild:
+  rework, remove olds
+
+*dbus-fast-1.24.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> -dbus-fast-1.4.0.ebuild,
+  -dbus-fast-1.18.0.ebuild, -dbus-fast-1.21.17.ebuild,
+  +dbus-fast-1.24.0.ebuild:
+  bump dbus-fast-1.24.0
+
+*dbus-fast-1.21.17 (03 Oct 2022)
+
+  03 Oct 2022; Andreas Billmeier <b@edevau.net> +dbus-fast-1.21.17.ebuild:
+  bump dbus-fast-1.21.17
+
+*dbus-fast-1.22.0 (03 Oct 2022)
+
+  03 Oct 2022; Andreas Billmeier <b@edevau.net> +dbus-fast-1.22.0.ebuild:
+  bump dbus-fast-1.22.0
+
+*dbus-fast-1.18.0 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> +dbus-fast-1.18.0.ebuild:
+  update dbus-fast-1.18.0
+
+*dbus-fast-1.5.1 (23 Sep 2022)
+
+  23 Sep 2022; Andreas Billmeier <b@edevau.net> dbus-fast-1.4.0.ebuild,
+  +dbus-fast-1.5.1.ebuild:
+  update dbus-fast-1.5.1
+
+*dbus-fast-1.4.0 (12 Sep 2022)
+
+  12 Sep 2022; Andreas Billmeier <b@edevau.net> +dbus-fast-1.4.0.ebuild,
+  +metadata.xml:
+  update bluetooth-adapters-0.4.1
+  add dbus-fast-1.4.0
+

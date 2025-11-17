@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/bitstruct
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bitstruct-8.17.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bitstruct-8.17.0.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bitstruct-8.17.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bitstruct-8.17.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  bitstruct-8.17.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*bitstruct-8.17.0 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +bitstruct-8.17.0.ebuild,
+  +metadata.xml:
+  new package, add 8.17.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

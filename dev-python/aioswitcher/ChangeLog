@@ -1,0 +1,220 @@
+# ChangeLog for dev-python/aioswitcher
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioswitcher-6.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioswitcher-3.4.1.ebuild, -aioswitcher-3.4.3.ebuild,
+  -aioswitcher-4.0.3.ebuild, -aioswitcher-4.4.0.ebuild,
+  -aioswitcher-5.0.0.ebuild, -aioswitcher-5.1.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioswitcher-3.4.1.ebuilde, -aioswitcher-3.4.3.ebuilde,
+  -aioswitcher-4.0.3.ebuilde, -aioswitcher-4.4.0.ebuilde,
+  -aioswitcher-5.0.0.ebuilde, -aioswitcher-5.1.0.ebuilde,
+  -aioswitcher-6.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioswitcher-3.4.1.ebuilde, +aioswitcher-3.4.3.ebuilde,
+  +aioswitcher-4.0.3.ebuilde, +aioswitcher-4.4.0.ebuilde,
+  +aioswitcher-5.0.0.ebuilde, +aioswitcher-5.1.0.ebuilde,
+  +aioswitcher-6.0.0.ebuilde:
+  Fix KEYWORDS
+
+*aioswitcher-6.0.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioswitcher-6.0.0.ebuild:
+  homeassisstant-2025.2.0
+
+*aioswitcher-5.1.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioswitcher-5.1.0.ebuild:
+  homeassistant 2025.1.1
+
+*aioswitcher-5.0.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioswitcher-5.0.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*aioswitcher-4.4.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +aioswitcher-4.4.0.ebuild:
+  add 4.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4068
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -aioswitcher-3.3.0.ebuild:
+  drop 3.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioswitcher-4.0.3 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +aioswitcher-4.0.3.ebuild:
+  add 4.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3914
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioswitcher-3.4.3 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> aioswitcher-3.3.0.ebuild,
+  aioswitcher-3.4.1.ebuild, +aioswitcher-3.4.3.ebuild:
+  add 3.4.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioswitcher-3.4.1 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> aioswitcher-3.3.0.ebuild,
+  +aioswitcher-3.4.1.ebuild:
+  add 3.4.
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2722
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aioswitcher-3.2.1.ebuild:
+  drop 3.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioswitcher-3.3.0 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -aioswitcher-2.0.6.ebuild,
+  -aioswitcher-3.0.0.ebuild, -aioswitcher-3.1.0.ebuild,
+  aioswitcher-3.2.1.ebuild, +aioswitcher-3.3.0.ebuild:
+  drop olds, add 3.3.0, fix 3.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aioswitcher-2.0.6.ebuild,
+  aioswitcher-3.0.0.ebuild, aioswitcher-3.1.0.ebuild,
+  aioswitcher-3.2.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioswitcher-3.2.1 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> +aioswitcher-3.2.1.ebuild:
+  add 3.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioswitcher-3.1.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +aioswitcher-3.1.0.ebuild,
+  metadata.xml:
+  add 3.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioswitcher-2.0.6.ebuild,
+  aioswitcher-3.0.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioswitcher-3.0.0 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> -aioswitcher-1.2.1.ebuild,
+  -aioswitcher-1.2.3.ebuild, -aioswitcher-2.0.4.ebuild,
+  -aioswitcher-2.0.5.ebuild, aioswitcher-2.0.6.ebuild,
+  +aioswitcher-3.0.0.ebuild, metadata.xml:
+  bump aioswitcher-3.0.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> aioswitcher-1.2.1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aioswitcher-1.2.1.ebuild,
+  aioswitcher-1.2.3.ebuild, aioswitcher-2.0.4.ebuild,
+  aioswitcher-2.0.5.ebuild, aioswitcher-2.0.6.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aioswitcher-2.0.6 (19 Sep 2021)
+
+  19 Sep 2021; Andreas Billmeier <b@edevau.net> +aioswitcher-2.0.6.ebuild:
+  bump aioswitcher-2.0.6
+
+*aioswitcher-2.0.5 (09 Sep 2021)
+
+  09 Sep 2021; Andreas Billmeier <b@edevau.net> aioswitcher-1.2.1.ebuild,
+  +aioswitcher-2.0.5.ebuild:
+  bump aioswitcher-2.0.5
+
+*aioswitcher-2.0.4 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> -aioswitcher-1.1.1.ebuild,
+  -aioswitcher-1.2.0.ebuild, +aioswitcher-2.0.4.ebuild:
+  update aioswitcher-2.0.4
+
+*aioswitcher-1.2.3 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +aioswitcher-1.2.3.ebuild:
+  update aioswitcher-1.2.3
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aioswitcher-1.1.1.ebuild,
+  aioswitcher-1.2.0.ebuild, aioswitcher-1.2.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aioswitcher-1.2.1 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +aioswitcher-1.2.1.ebuild:
+  update aioswitcher-1.2.1
+
+  28 Jul 2020; Andreas Billmeier <b@edevau.net> -aioswitcher-2019.3.21.ebuild,
+  -aioswitcher-2019.4.26.ebuild, -aioswitcher-2019.6.11.ebuild:
+  remove (revoked) aioswitcher-2019.* Ebuilds
+
+*aioswitcher-1.2.0 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +aioswitcher-1.2.0.ebuild:
+  bump aioswitcher-1.2.0
+
+*aioswitcher-1.1.1 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> +aioswitcher-1.1.1.ebuild:
+  bump aioswitcher-1.1.1
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aioswitcher-2019.6.11.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> aioswitcher-2019.3.21.ebuild,
+  aioswitcher-2019.4.26.ebuild, aioswitcher-2019.6.11.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> aioswitcher-2019.3.21.ebuild,
+  aioswitcher-2019.4.26.ebuild, aioswitcher-2019.6.11.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> aioswitcher-2019.3.21.ebuild,
+  aioswitcher-2019.4.26.ebuild, aioswitcher-2019.6.11.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*aioswitcher-2019.6.11 (15 Jun 2019)
+*aioswitcher-2019.4.26 (15 Jun 2019)
+*aioswitcher-2019.3.21 (15 Jun 2019)
+
+  15 Jun 2019; Andreas Billmeier <b@edevau.net> +aioswitcher-2019.3.21.ebuild,
+  +aioswitcher-2019.4.26.ebuild, +aioswitcher-2019.6.11.ebuild, +metadata.xml:
+  add aioswitcher
+

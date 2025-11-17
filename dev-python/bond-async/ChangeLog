@@ -1,0 +1,98 @@
+# ChangeLog for dev-python/bond-async
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bond-async-0.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bond-async-0.2.1.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bond-async-0.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bond-async-0.2.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  bond-async-0.2.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -bond-async-0.1.23.ebuild:
+  drop 0.1.23
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> bond-async-0.1.23.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bond-async-0.2.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +bond-async-0.2.1.ebuild:
+  add 0.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -bond-async-0.1.22.ebuild:
+  drop 0.1.22
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> bond-async-0.1.22.ebuild,
+  bond-async-0.1.23.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Mar 2023; Andreas Billmeier <b@edevau.net> bond-async-0.1.22.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bond-async-0.1.23 (16 Mar 2023)
+
+  16 Mar 2023; Andreas Billmeier <b@edevau.net> -bond-async-0.1.20-r1.ebuild,
+  +bond-async-0.1.23.ebuild:
+  add 0.1.23, drop 0.1.20-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> bond-async-0.1.20-r1.ebuild,
+  bond-async-0.1.22.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> bond-async-0.1.20-r1.ebuild,
+  bond-async-0.1.22.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bond-async-0.1.22 (15 Jun 2022)
+
+  15 Jun 2022; Andreas Billmeier <b@edevau.net> bond-async-0.1.20-r1.ebuild,
+  +bond-async-0.1.22.ebuild:
+  bump bond-async-0.1.22
+
+*bond-async-0.1.20-r1 (27 May 2022)
+
+  27 May 2022; Andreas Billmeier <b@edevau.net> -bond-async-0.1.20.ebuild,
+  +bond-async-0.1.20-r1.ebuild:
+  make sure bond-api is replaced by bond-async-0.1.20-r1
+
+*bond-async-0.1.20 (27 May 2022)
+
+  27 May 2022; Andreas Billmeier <b@edevau.net> +bond-async-0.1.20.ebuild,
+  +metadata.xml:
+  add bond-async-0.1.20
+

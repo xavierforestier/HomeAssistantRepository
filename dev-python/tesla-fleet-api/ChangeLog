@@ -1,0 +1,178 @@
+# ChangeLog for dev-python/tesla-fleet-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*tesla-fleet-api-1.2.5 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +tesla-fleet-api-1.2.5.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tesla-fleet-api-1.2.2.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*tesla-fleet-api-1.2.3 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tesla-fleet-api-1.2.0.ebuild, +tesla-fleet-api-1.2.3.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+*tesla-fleet-api-1.2.2 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +tesla-fleet-api-1.2.2.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tesla-fleet-api-1.1.1.ebuild:
+  Cleansing
+
+*tesla-fleet-api-1.2.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +tesla-fleet-api-1.2.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tesla-fleet-api-1.0.17.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*tesla-fleet-api-1.1.1 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +tesla-fleet-api-1.1.1.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tesla-fleet-api-1.0.17.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tesla-fleet-api-0.9.12.ebuild, -tesla-fleet-api-0.9.13.ebuild,
+  -tesla-fleet-api-1.0.16.ebuild:
+  Fix for pkgcheck
+
+*tesla-fleet-api-1.0.17 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -tesla-fleet-api-0.4.9.ebuild, -tesla-fleet-api-0.4.9.ebuilde,
+  -tesla-fleet-api-0.5.12.ebuild, -tesla-fleet-api-0.5.12.ebuilde,
+  -tesla-fleet-api-0.7.8.ebuild, -tesla-fleet-api-0.7.8.ebuilde,
+  -tesla-fleet-api-0.8.4.ebuild, -tesla-fleet-api-0.8.4.ebuilde,
+  -tesla-fleet-api-0.8.5.ebuild, -tesla-fleet-api-0.8.5.ebuilde,
+  -tesla-fleet-api-0.9.10.ebuild, -tesla-fleet-api-0.9.10.ebuilde,
+  -tesla-fleet-api-0.9.12.ebuilde, -tesla-fleet-api-0.9.13.ebuilde,
+  -tesla-fleet-api-0.9.8.ebuild, -tesla-fleet-api-0.9.8.ebuilde,
+  -tesla-fleet-api-1.0.16.ebuilde, +tesla-fleet-api-1.0.17.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-0.4.9.ebuilde, +tesla-fleet-api-0.5.12.ebuilde,
+  +tesla-fleet-api-0.7.8.ebuilde, +tesla-fleet-api-0.8.4.ebuilde,
+  +tesla-fleet-api-0.8.5.ebuilde, +tesla-fleet-api-0.9.10.ebuilde,
+  +tesla-fleet-api-0.9.12.ebuilde, +tesla-fleet-api-0.9.13.ebuilde,
+  +tesla-fleet-api-0.9.8.ebuilde, +tesla-fleet-api-1.0.16.ebuilde:
+  Fix KEYWORDS
+
+*tesla-fleet-api-1.0.16 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-1.0.16.ebuild:
+  Homeassistant 2025.4.0
+
+*tesla-fleet-api-0.9.13 (15 Mar 2025)
+
+  15 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-0.9.13.ebuild:
+  homeassistant 2025.3.2 homeassistant 2025.3.3
+
+*tesla-fleet-api-0.9.12 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-0.9.12.ebuild:
+  homeassistant 2025.3.0
+
+*tesla-fleet-api-0.9.10 (22 Feb 2025)
+
+  22 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-0.9.10.ebuild:
+  homeassistant 2025.2.5
+
+*tesla-fleet-api-0.9.8 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-0.9.8.ebuild:
+  homeassisstant-2025.2.0
+
+*tesla-fleet-api-0.8.5 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-0.8.5.ebuild:
+  homeassistant 2024.12.1
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  tesla-fleet-api-0.8.4.ebuild:
+  Fix deps
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  tesla-fleet-api-0.8.4.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> -tesla-fleet-api-0.4.6.ebuild:
+  drop 0.4.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-fleet-api-0.8.4 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +tesla-fleet-api-0.8.4.ebuild:
+  add 0.8.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4070
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-fleet-api-0.7.8 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-fleet-api-0.7.8.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+*tesla-fleet-api-0.5.12 (10 Jun 2024)
+
+  10 Jun 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -tesla-fleet-api-0.2.3.ebuild, tesla-fleet-api-0.4.6.ebuild,
+  tesla-fleet-api-0.4.9.ebuild, +tesla-fleet-api-0.5.12.ebuild:
+  add 0.5.12, drop 0.2.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3453
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-fleet-api-0.4.9 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +tesla-fleet-api-0.4.9.ebuild:
+  add 0.4.9
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3153
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-fleet-api-0.4.6 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> tesla-fleet-api-0.2.3.ebuild,
+  +tesla-fleet-api-0.4.6.ebuild:
+  add 0.4.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3024
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-fleet-api-0.2.3 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +tesla-fleet-api-0.2.3.ebuild:
+  new package, add 0.2.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2866
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,135 @@
+# ChangeLog for dev-python/asyncsleepiq
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -asyncsleepiq-1.5.3.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*asyncsleepiq-1.6.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +asyncsleepiq-1.6.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -asyncsleepiq-1.5.2.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*asyncsleepiq-1.5.3 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +asyncsleepiq-1.5.3.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  asyncsleepiq-1.5.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -asyncsleepiq-1.3.7.ebuild, -asyncsleepiq-1.4.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -asyncsleepiq-1.3.7.ebuilde, -asyncsleepiq-1.4.1.ebuilde,
+  -asyncsleepiq-1.5.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +asyncsleepiq-1.3.7.ebuilde, +asyncsleepiq-1.4.1.ebuilde,
+  +asyncsleepiq-1.5.2.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  asyncsleepiq-1.5.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*asyncsleepiq-1.5.2 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +asyncsleepiq-1.5.2.ebuild:
+  add 1.5.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2853
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*asyncsleepiq-1.4.1 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.3.7.ebuild,
+  +asyncsleepiq-1.4.1.ebuild:
+  add 1.4.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2646
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -asyncsleepiq-1.2.3.ebuild:
+  drop 1.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.2.3.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*asyncsleepiq-1.3.7 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> -asyncsleepiq-1.3.5.ebuild,
+  +asyncsleepiq-1.3.7.ebuild:
+  add 1.3.7, drop 1.3.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.2.3.ebuild,
+  asyncsleepiq-1.3.5.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*asyncsleepiq-1.3.5 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.2.3.ebuild,
+  +asyncsleepiq-1.3.5.ebuild:
+  add 1.3.5, fix 1.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.2.3.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.2.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -asyncsleepiq-1.1.0.ebuild,
+  -asyncsleepiq-1.2.1.ebuild, asyncsleepiq-1.2.3.ebuild:
+  rework, remove olds
+
+*asyncsleepiq-1.2.3 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> +asyncsleepiq-1.2.3.ebuild:
+  bump asyncsleepiq-1.2.3
+
+*asyncsleepiq-1.2.1 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.1.0.ebuild,
+  +asyncsleepiq-1.2.1.ebuild:
+  bump asyncsleepiq-1.2.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.1.0.ebuild:
+  fix all open uri.https
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> asyncsleepiq-1.1.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*asyncsleepiq-1.1.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +asyncsleepiq-1.1.0.ebuild,
+  +metadata.xml:
+  add asyncsleepiq-1.1.0
+

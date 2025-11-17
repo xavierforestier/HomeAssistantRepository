@@ -1,0 +1,82 @@
+# ChangeLog for dev-python/mozart-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mozart-api-4.1.1.116.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -mozart-api-3.4.1.8.5.ebuild, -mozart-api-3.4.1.8.8.ebuild,
+  -mozart-api-4.1.1.116.0.ebuild, -mozart-api-4.1.1.116.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mozart-api-3.4.1.8.5.ebuilde, -mozart-api-3.4.1.8.8.ebuilde,
+  -mozart-api-4.1.1.116.0.ebuilde, -mozart-api-4.1.1.116.3.ebuilde,
+  -mozart-api-4.1.1.116.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mozart-api-3.4.1.8.5.ebuilde, +mozart-api-3.4.1.8.8.ebuilde,
+  +mozart-api-4.1.1.116.0.ebuilde, +mozart-api-4.1.1.116.3.ebuilde,
+  +mozart-api-4.1.1.116.4.ebuilde:
+  Fix KEYWORDS
+
+*mozart-api-4.1.1.116.4 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mozart-api-4.1.1.116.4.ebuild:
+  homeassistant 2025.1.1
+
+*mozart-api-4.1.1.116.3 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mozart-api-4.1.1.116.3.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*mozart-api-4.1.1.116.0 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +mozart-api-4.1.1.116.0.ebuild:
+  add 4.1.1.116.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3989
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mozart-api-3.4.1.8.8 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net>
+  -mozart-api-3.2.1.150.6.ebuild, -mozart-api-3.4.1.8.6.ebuild,
+  +mozart-api-3.4.1.8.8.ebuild:
+  drop 3.4.1.8.6, add 3.4.1.8.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3824
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mozart-api-3.4.1.8.6 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +mozart-api-3.4.1.8.6.ebuild:
+  add 3.4.1.8.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3575
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mozart-api-3.4.1.8.5 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> mozart-api-3.2.1.150.6.ebuild,
+  +mozart-api-3.4.1.8.5.ebuild:
+  add 3.4.1.8.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3245
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mozart-api-3.2.1.150.6 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +mozart-api-3.2.1.150.6.ebuild:
+  new package, add 3.2.1.150.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2754
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

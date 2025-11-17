@@ -1,0 +1,88 @@
+# ChangeLog for dev-python/voip-utils
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -voip-utils-0.3.3.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*voip-utils-0.3.4 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +voip-utils-0.3.4.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -voip-utils-0.3.2.ebuild:
+  Cleansing
+
+*voip-utils-0.3.3 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +voip-utils-0.3.3.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -voip-utils-0.3.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*voip-utils-0.3.2 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +voip-utils-0.3.2.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  voip-utils-0.3.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -voip-utils-0.1.0.ebuild, -voip-utils-0.2.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -voip-utils-0.1.0.ebuilde, -voip-utils-0.2.2.ebuilde,
+  -voip-utils-0.3.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +voip-utils-0.1.0.ebuilde, +voip-utils-0.2.2.ebuilde,
+  +voip-utils-0.3.1.ebuilde:
+  Fix KEYWORDS
+
+*voip-utils-0.3.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +voip-utils-0.3.1.ebuild:
+  homeassisstant-2025.2.0
+
+*voip-utils-0.2.2 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +voip-utils-0.2.2.ebuild:
+  homeassistant 2025.1.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  voip-utils-0.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -voip-utils-0.0.7.ebuild:
+  drop 0.0.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*voip-utils-0.1.0 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> +voip-utils-0.1.0.ebuild:
+  add 0.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*voip-utils-0.0.7 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +voip-utils-0.0.7.ebuild:
+  new package, add 0.0.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

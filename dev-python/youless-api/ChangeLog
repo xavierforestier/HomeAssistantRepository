@@ -1,0 +1,114 @@
+# ChangeLog for dev-python/youless-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  youless-api-2.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -youless-api-1.0.1.ebuild, -youless-api-1.1.1.ebuild,
+  -youless-api-2.1.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -youless-api-1.0.1.ebuilde, -youless-api-1.1.1.ebuilde,
+  -youless-api-2.1.2.ebuilde, -youless-api-2.2.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +youless-api-1.0.1.ebuilde, +youless-api-1.1.1.ebuilde,
+  +youless-api-2.1.2.ebuilde, +youless-api-2.2.0.ebuilde:
+  Fix KEYWORDS
+
+*youless-api-2.2.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +youless-api-2.2.0.ebuild:
+  homeassisstant-2025.2.0
+
+*youless-api-2.1.2 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> +youless-api-2.1.2.ebuild:
+  add 2.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3818
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*youless-api-1.1.1 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  youless-api-1.0.1.ebuild, +youless-api-1.1.1.ebuild:
+  add 1.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3463
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> -youless-api-0.16.ebuild,
+  youless-api-1.0.1.ebuild:
+  drop 0.16, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*youless-api-1.0.1 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> +youless-api-1.0.1.ebuild:
+  add 1.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> youless-api-0.16.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> youless-api-0.16.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -youless-api-0.14.ebuild,
+  -youless-api-0.15.ebuild, youless-api-0.16.ebuild:
+  rework, remove olds
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> youless-api-0.14.ebuild,
+  youless-api-0.15.ebuild, youless-api-0.16.ebuild:
+  youless-api: remove useless cat
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> youless-api-0.14.ebuild,
+  youless-api-0.15.ebuild, youless-api-0.16.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*youless-api-0.16 (29 Dec 2021)
+
+  29 Dec 2021; Andreas Billmeier <b@edevau.net> -youless-api-0.12.ebuild,
+  -youless-api-0.13.ebuild, +youless-api-0.16.ebuild:
+  bump youless-api-0.16
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> youless-api-0.15.ebuild:
+  all EAPI=8 without quotes
+
+*youless-api-0.15 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +youless-api-0.15.ebuild:
+  bump youless-api-0.15
+
+*youless-api-0.14 (12 Oct 2021)
+
+  12 Oct 2021; Andreas Billmeier <b@edevau.net> +youless-api-0.14.ebuild:
+  bump youless-api-0.14
+
+*youless-api-0.13 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +youless-api-0.13.ebuild:
+  bump youless-api-0.13
+
+*youless-api-0.12 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +youless-api-0.12.ebuild:
+  add youless-api-0.12
+

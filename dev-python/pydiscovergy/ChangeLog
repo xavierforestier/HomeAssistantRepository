@@ -1,0 +1,79 @@
+# ChangeLog for dev-python/pydiscovergy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pydiscovergy-3.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pydiscovergy-3.0.2.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pydiscovergy-3.0.0.ebuild, -pydiscovergy-3.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pydiscovergy-3.0.0.ebuilde, -pydiscovergy-3.0.1.ebuilde,
+  -pydiscovergy-3.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydiscovergy-3.0.0.ebuilde, +pydiscovergy-3.0.1.ebuilde,
+  +pydiscovergy-3.0.2.ebuilde:
+  Fix KEYWORDS
+
+*pydiscovergy-3.0.2 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +pydiscovergy-3.0.2.ebuild:
+  add 3.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3847
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydiscovergy-3.0.1 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> -pydiscovergy-2.0.5.ebuild,
+  pydiscovergy-3.0.0.ebuild, +pydiscovergy-3.0.1.ebuild:
+  add 3.0.1, drop 2.0.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3398
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydiscovergy-3.0.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> -pydiscovergy-2.0.3.ebuild,
+  pydiscovergy-2.0.5.ebuild, +pydiscovergy-3.0.0.ebuild:
+  add 3.0.0, drop 2.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2962
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pydiscovergy-1.2.1.ebuild:
+  drop 1.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydiscovergy-2.0.5 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +pydiscovergy-2.0.5.ebuild:
+  add 2.0.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydiscovergy-2.0.3 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +pydiscovergy-2.0.3.ebuild:
+  add 2.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydiscovergy-1.2.1 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pydiscovergy-1.2.1.ebuild:
+  new package, add 1.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

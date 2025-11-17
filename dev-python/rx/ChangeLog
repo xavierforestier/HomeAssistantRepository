@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/rx
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  rx-3.2.0-r1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*rx-3.2.0-r1 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +rx-3.2.0-r1.ebuild:
+  Fix for pkgcheck
+

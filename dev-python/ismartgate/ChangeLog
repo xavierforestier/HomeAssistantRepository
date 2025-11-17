@@ -1,0 +1,102 @@
+# ChangeLog for dev-python/ismartgate
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ismartgate-5.0.2.ebuild:
+  Fixes
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ismartgate-5.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ismartgate-5.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -ismartgate-5.0.1.ebuilde, -ismartgate-5.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ismartgate-5.0.1.ebuilde, +ismartgate-5.0.2.ebuilde:
+  Fix KEYWORDS
+
+*ismartgate-5.0.2 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ismartgate-5.0.2.ebuild:
+  homeassistant 2025.3.0
+
+  13 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  ismartgate-5.0.1.ebuild:
+  homeassistant 2024.10.1
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -ismartgate-5.0.0.ebuild:
+  drop 5.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ismartgate-5.0.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +ismartgate-5.0.1.ebuild:
+  add 5.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -ismartgate-4.0.4.ebuild:
+  drop 4.0.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> ismartgate-4.0.4.ebuild,
+  ismartgate-5.0.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ismartgate-5.0.0 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +ismartgate-5.0.0.ebuild:
+  add 5.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> ismartgate-4.0.4.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> ismartgate-4.0.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -ismartgate-4.0.0.ebuild,
+  ismartgate-4.0.4.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> ismartgate-4.0.4.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> ismartgate-4.0.0.ebuild,
+  ismartgate-4.0.4.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> ismartgate-4.0.4.ebuild:
+  all EAPI=8 without quotes
+
+*ismartgate-4.0.4 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +ismartgate-4.0.4.ebuild:
+  bump ismartgate-4.0.4
+
+*ismartgate-4.0.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +ismartgate-4.0.0.ebuild,
+  +metadata.xml:
+  add ismartgate-4.0.0
+

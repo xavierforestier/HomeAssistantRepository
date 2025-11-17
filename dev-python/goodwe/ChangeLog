@@ -1,0 +1,137 @@
+# ChangeLog for dev-python/goodwe
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -goodwe-0.3.6.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*goodwe-0.4.8 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +goodwe-0.4.8.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  goodwe-0.3.6.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -goodwe-0.2.32.ebuild, -goodwe-0.3.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -goodwe-0.2.32.ebuilde, -goodwe-0.3.5.ebuilde, -goodwe-0.3.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +goodwe-0.2.32.ebuilde, +goodwe-0.3.5.ebuilde, +goodwe-0.3.6.ebuilde:
+  Fix KEYWORDS
+
+*goodwe-0.3.6 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> +goodwe-0.3.6.ebuild:
+  add 0.3.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3489
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*goodwe-0.3.5 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> goodwe-0.2.32.ebuild,
+  +goodwe-0.3.5.ebuild, metadata.xml:
+  add 0.3.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3328
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -goodwe-0.2.31.ebuild,
+  goodwe-0.2.32.ebuild:
+  drop 0.2.31
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -goodwe-0.2.30.ebuild:
+  drop 0.2.30
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*goodwe-0.2.32 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +goodwe-0.2.32.ebuild:
+  add 0.2.32
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2445
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*goodwe-0.2.31 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -goodwe-0.2.18.ebuild,
+  -goodwe-0.2.25.ebuild, goodwe-0.2.30.ebuild, +goodwe-0.2.31.ebuild:
+  drop olds, add 0.2.31, update 0.2.30
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> goodwe-0.2.18.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*goodwe-0.2.30 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> +goodwe-0.2.30.ebuild:
+  add 0.2.30
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*goodwe-0.2.25 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> -goodwe-0.2.15-r1.ebuild,
+  +goodwe-0.2.25.ebuild:
+  add 0.2.25, drop 0.2.15-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> goodwe-0.2.15-r1.ebuild,
+  goodwe-0.2.18.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> goodwe-0.2.15-r1.ebuild,
+  goodwe-0.2.18.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*goodwe-0.2.18 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> goodwe-0.2.15-r1.ebuild,
+  +goodwe-0.2.18.ebuild:
+  update goodwe-0.2.18
+
+*goodwe-0.2.15-r1 (27 May 2022)
+
+  27 May 2022; Andreas Billmeier <b@edevau.net> -goodwe-0.2.15.ebuild,
+  +goodwe-0.2.15-r1.ebuild:
+  remove pyproject.toml, migrate to PEP517
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> goodwe-0.2.15.ebuild:
+  fix goodwe-0.2.15 quotes
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> goodwe-0.2.15.ebuild:
+  fix some invalid pre-inherit placements of
+  'DISTUTILS_USE_SETUPTOOLS=pyproject.toml'
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> goodwe-0.2.15.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*goodwe-0.2.15 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +goodwe-0.2.15.ebuild,
+  +metadata.xml:
+  goodwe-0.2.15
+

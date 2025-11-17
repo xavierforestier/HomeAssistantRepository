@@ -1,0 +1,89 @@
+# ChangeLog for dev-python/pyxeoma
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyxeoma-1.4.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyxeoma-1.4.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyxeoma-1.4.1.ebuilde, -pyxeoma-1.4.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyxeoma-1.4.1.ebuilde, +pyxeoma-1.4.2.ebuilde:
+  Fix KEYWORDS
+
+*pyxeoma-1.4.2 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.1.ebuild,
+  +pyxeoma-1.4.2.ebuild:
+  add 1.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4082
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -pyxeoma-1.4.0.ebuild,
+  pyxeoma-1.4.1.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyxeoma-1.4.0.ebuild,
+  pyxeoma-1.4.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.0.ebuild,
+  pyxeoma-1.4.1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.0.ebuild,
+  pyxeoma-1.4.1.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> pyxeoma-1.4.0.ebuild,
+  pyxeoma-1.4.1.ebuild:
+  Add missing license strings as far as possible
+
+*pyxeoma-1.4.1 (03 Mar 2019)
+*pyxeoma-1.4.0 (03 Mar 2019)
+
+  03 Mar 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyxeoma-1.4.0.ebuild, +pyxeoma-1.4.1.ebuild:
+  add pyxeoma
+

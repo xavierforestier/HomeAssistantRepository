@@ -1,0 +1,111 @@
+# ChangeLog for dev-python/pvo
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pvo-2.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pvo-2.2.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pvo-2.1.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -pvo-2.1.1.ebuilde,
+  -pvo-2.2.0.ebuilde, -pvo-2.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +pvo-2.1.1.ebuilde,
+  +pvo-2.2.0.ebuilde, +pvo-2.2.1.ebuilde:
+  Fix KEYWORDS
+
+*pvo-2.2.1 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +pvo-2.2.1.ebuild:
+  Homeassistant 2025.4.0
+
+*pvo-2.2.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr> +pvo-2.2.0.ebuild:
+  homeassistant 2025.1.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr> pvo-2.1.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -pvo-1.0.0.ebuild,
+  -pvo-2.0.0.ebuild, pvo-2.1.1.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pvo-2.1.1 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +pvo-2.1.1.ebuild:
+  add 2.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2479
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pvo-0.2.2.ebuild:
+  drop 0.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pvo-2.0.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> pvo-0.2.2.ebuild,
+  pvo-1.0.0.ebuild, +pvo-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2300
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pvo-1.0.0 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> pvo-0.2.2.ebuild,
+  +pvo-1.0.0.ebuild:
+  add 1.0.0, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pvo-0.2.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pvo-0.2.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -pvo-0.2.1.ebuild,
+  pvo-0.2.2.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pvo-0.2.1.ebuild,
+  pvo-0.2.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pvo-0.2.2 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -pvo-0.2.0.ebuild,
+  +pvo-0.2.2.ebuild:
+  bump pvo-0.2.2
+
+*pvo-0.2.1 (04 Feb 2022)
+
+  04 Feb 2022; Andreas Billmeier <b@edevau.net> +pvo-0.2.1.ebuild:
+  bump pvo-0.2.1
+
+*pvo-0.2.0 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pvo-0.2.0.ebuild:
+  add pvo-0.2.0
+

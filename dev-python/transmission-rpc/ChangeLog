@@ -1,0 +1,64 @@
+# ChangeLog for dev-python/transmission-rpc
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  transmission-rpc-7.0.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  transmission-rpc-7.0.3.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -transmission-rpc-7.0.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +transmission-rpc-7.0.3.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  transmission-rpc-7.0.3.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -transmission-rpc-4.1.5.ebuild, transmission-rpc-7.0.3.ebuild:
+  drop 4.1.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -transmission-rpc-3.4.0.ebuild:
+  drop 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*transmission-rpc-7.0.3 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +transmission-rpc-7.0.3.ebuild:
+  add 7.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2499
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*transmission-rpc-4.1.5 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> transmission-rpc-3.4.0.ebuild,
+  +transmission-rpc-4.1.5.ebuild:
+  add 4.1.5, update 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> transmission-rpc-3.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+*transmission-rpc-3.4.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +transmission-rpc-3.4.0.ebuild:
+  new package, add 3.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

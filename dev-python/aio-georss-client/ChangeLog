@@ -1,0 +1,117 @@
+# ChangeLog for dev-python/aio-georss-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aio-georss-client-0.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aio-georss-client-0.11.ebuild, -aio-georss-client-0.12.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aio-georss-client-0.11.ebuilde, -aio-georss-client-0.12.ebuilde,
+  -aio-georss-client-0.14.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aio-georss-client-0.11.ebuilde, +aio-georss-client-0.12.ebuilde,
+  +aio-georss-client-0.14.ebuilde:
+  Fix KEYWORDS
+
+*aio-georss-client-0.14 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> aio-georss-client-0.11.ebuild,
+  aio-georss-client-0.12.ebuild, +aio-georss-client-0.14.ebuild:
+  add 0.14
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aio-georss-client-0.12 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> aio-georss-client-0.11.ebuild,
+  +aio-georss-client-0.12.ebuild:
+  add 0.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aio-georss-client-0.11.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net>
+  -aio-georss-client-0.10.ebuild:
+  drop 0.10
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> aio-georss-client-0.10.ebuild,
+  aio-georss-client-0.11.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aio-georss-client-0.11 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net>
+  +aio-georss-client-0.11.ebuild:
+  add 0.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aio-georss-client-0.10.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aio-georss-client-0.10.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -aio-georss-client-0.7.ebuild,
+  aio-georss-client-0.10.ebuild:
+  cleanup aio-geo* stuff
+
+*aio-georss-client-0.10 (12 Apr 2022)
+
+  12 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +aio-georss-client-0.10.ebuild:
+  bump aio-georss-client-0.10
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> -aio-georss-client-0.5.ebuild,
+  -aio-georss-client-0.6.ebuild, aio-georss-client-0.7.ebuild:
+  fix more RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aio-georss-client-0.5.ebuild,
+  aio-georss-client-0.6.ebuild, aio-georss-client-0.7.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aio-georss-client-0.7.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aio-georss-client-0.7 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +aio-georss-client-0.7.ebuild:
+  update aio-georss-client-0.7
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aio-georss-client-0.5.ebuild,
+  aio-georss-client-0.6.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aio-georss-client-0.6 (09 Nov 2020)
+
+  09 Nov 2020; Andreas Billmeier <b@edevau.net> +aio-georss-client-0.6.ebuild:
+  bump aio-georss-client-0.6
+
+*aio-georss-client-0.5 (07 Sep 2020)
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> +aio-georss-client-0.5.ebuild,
+  +metadata.xml:
+  add aio-georss-client-0.5
+

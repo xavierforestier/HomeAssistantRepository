@@ -1,0 +1,80 @@
+# ChangeLog for dev-python/iammeter
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  iammeter-0.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -iammeter-0.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +iammeter-0.2.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  iammeter-0.2.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -iammeter-0.1.7.ebuild,
+  iammeter-0.2.1.ebuild:
+  drop 0.1.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*iammeter-0.2.1 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> +iammeter-0.2.1.ebuild:
+  add 0.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2618
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> iammeter-0.1.7.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> iammeter-0.1.7.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> iammeter-0.1.7.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> iammeter-0.1.7.ebuild:
+  remove olds, cleanup, enable pytest
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> iammeter-0.1.7.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> iammeter-0.1.7.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net> -iammeter-0.1.3.ebuild,
+  iammeter-0.1.7.ebuild:
+  cleanup, add new Python Targets, Letter 'G-I' all Integrations
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> iammeter-0.1.3.ebuild,
+  iammeter-0.1.7.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*iammeter-0.1.7 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +iammeter-0.1.7.ebuild:
+  update iammeter-0.1.7
+
+*iammeter-0.1.3 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +iammeter-0.1.3.ebuild,
+  +metadata.xml:
+  add iammeter-0.1.3
+

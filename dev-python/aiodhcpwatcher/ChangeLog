@@ -1,0 +1,116 @@
+# ChangeLog for dev-python/aiodhcpwatcher
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiodhcpwatcher-1.2.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*aiodhcpwatcher-1.2.1 (16 Aug 2025)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiodhcpwatcher-1.2.1.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiodhcpwatcher-1.1.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*aiodhcpwatcher-1.2.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiodhcpwatcher-1.2.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiodhcpwatcher-1.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiodhcpwatcher-1.0.0.ebuild, -aiodhcpwatcher-1.0.2.ebuild,
+  -aiodhcpwatcher-1.0.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiodhcpwatcher-1.0.0.ebuilde, -aiodhcpwatcher-1.0.2.ebuilde,
+  -aiodhcpwatcher-1.0.3.ebuilde, -aiodhcpwatcher-1.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiodhcpwatcher-1.0.0.ebuilde, +aiodhcpwatcher-1.0.2.ebuilde,
+  +aiodhcpwatcher-1.0.3.ebuilde, +aiodhcpwatcher-1.1.1.ebuilde:
+  Fix KEYWORDS
+
+*aiodhcpwatcher-1.1.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiodhcpwatcher-1.1.1.ebuild:
+  homeassistant 2025.3.0
+
+*aiodhcpwatcher-1.0.3 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiodhcpwatcher-1.0.3.ebuild:
+  homeassisstant-2025.2.0
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> aiodhcpwatcher-1.0.2.ebuild:
+  style issues ;-)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodhcpwatcher-1.0.2 (22 Sep 2024)
+
+  22 Sep 2024; Andreas Billmeier <b@edevau.net> -aiodhcpwatcher-0.8.2.ebuild,
+  aiodhcpwatcher-1.0.0.ebuild, +aiodhcpwatcher-1.0.2.ebuild:
+  add 1.0.2, drop 0.8.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3602
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodhcpwatcher-1.0.2 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +aiodhcpwatcher-1.0.2.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> -aiodhcpwatcher-0.8.0.ebuild,
+  -aiodhcpwatcher-0.8.1.ebuild:
+  drop 0.8.0, 0.8.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodhcpwatcher-1.0.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +aiodhcpwatcher-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3105
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodhcpwatcher-0.8.2 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> +aiodhcpwatcher-0.8.2.ebuild:
+  add 0.8.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3084
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodhcpwatcher-0.8.1 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> +aiodhcpwatcher-0.8.1.ebuild:
+  add 0.8.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3063
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiodhcpwatcher-0.8.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> +aiodhcpwatcher-0.8.0.ebuild,
+  +metadata.xml:
+  new package, add 0.8.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2958
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

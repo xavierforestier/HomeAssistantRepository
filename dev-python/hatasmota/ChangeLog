@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/hatasmota
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hatasmota-0.10.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*hatasmota-0.10.1 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hatasmota-0.10.1.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hatasmota-0.10.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*hatasmota-0.10.0 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hatasmota-0.10.0.ebuild, +metadata.xml:
+  Fix for pkgcheck
+

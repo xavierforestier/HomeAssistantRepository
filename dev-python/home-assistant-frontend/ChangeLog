@@ -1,0 +1,2086 @@
+# ChangeLog for dev-python/home-assistant-frontend
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*home-assistant-frontend-20251105.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20251001.2.ebuild,
+  +home-assistant-frontend-20251105.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20251001.0.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*home-assistant-frontend-20251001.4 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20251001.4.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*home-assistant-frontend-20251001.2 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250903.5.ebuild,
+  +home-assistant-frontend-20251001.2.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*home-assistant-frontend-20251001.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20251001.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250903.3.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  17 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250903.2.ebuild:
+  app-misc/homeassistant 2025.9.3
+
+*home-assistant-frontend-20250903.5 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250811.1.ebuild,
+  +home-assistant-frontend-20250903.5.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*home-assistant-frontend-20250903.3 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250811.0.ebuild,
+  +home-assistant-frontend-20250903.3.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+*home-assistant-frontend-20250903.2 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250903.2.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*home-assistant-frontend-20250811.1 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250806.0.ebuild,
+  +home-assistant-frontend-20250811.1.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250702.3.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*home-assistant-frontend-20250811.0 (15 Aug 2025)
+
+  15 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250811.0.ebuild:
+  app-misc/homeassistant 2025.8.1
+
+*home-assistant-frontend-20250806.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250702.2.ebuild,
+  +home-assistant-frontend-20250806.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250702.1.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*home-assistant-frontend-20250702.3 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250702.0.ebuild,
+  +home-assistant-frontend-20250702.3.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250531.4.ebuild:
+  Cleansing
+
+*home-assistant-frontend-20250702.2 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250702.2.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+*home-assistant-frontend-20250702.1 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250702.1.ebuild:
+  homeassistant 2025.7.1
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250531.3.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*home-assistant-frontend-20250702.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250702.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*home-assistant-frontend-20250531.4 (27 Jun 2025)
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250531.2.ebuild,
+  +home-assistant-frontend-20250531.4.ebuild:
+  app-misc/homeassistant 2025.6.3
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250516.0.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250509.0.ebuild:
+  clean oldies
+
+*home-assistant-frontend-20250531.3 (17 Jun 2025)
+
+  17 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250531.3.ebuild:
+  homeassistant-2025.6.1
+
+*home-assistant-frontend-20250531.2 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250531.2.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250411.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*home-assistant-frontend-20250516.0 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250516.0.ebuild:
+  homeassistant 2025.5.2
+
+*home-assistant-frontend-20250509.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-frontend-20250509.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  home-assistant-frontend-20250411.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  home-assistant-frontend-20250411.0.ebuild:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20250305.0.ebuild,
+  -home-assistant-frontend-20250306.0.ebuild,
+  -home-assistant-frontend-20250401.0.ebuild,
+  -home-assistant-frontend-20250404.0.ebuild:
+  Fix for pkgcheck
+
+*home-assistant-frontend-20250411.0 (14 Apr 2025)
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250411.0.ebuild:
+  homeassistant-2025.4.2
+
+*home-assistant-frontend-20250404.0 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -home-assistant-frontend-20240501.1.ebuild,
+  -home-assistant-frontend-20240501.1.ebuilde,
+  -home-assistant-frontend-20240610.1.ebuild,
+  -home-assistant-frontend-20240610.1.ebuilde,
+  -home-assistant-frontend-20241002.3.ebuild,
+  -home-assistant-frontend-20241002.3.ebuilde,
+  -home-assistant-frontend-20241002.4.ebuild,
+  -home-assistant-frontend-20241002.4.ebuilde,
+  -home-assistant-frontend-20241031.0.ebuild,
+  -home-assistant-frontend-20241031.0.ebuilde,
+  -home-assistant-frontend-20241106.0.ebuild,
+  -home-assistant-frontend-20241106.0.ebuilde,
+  -home-assistant-frontend-20241106.2.ebuild,
+  -home-assistant-frontend-20241106.2.ebuilde,
+  -home-assistant-frontend-20241127.4.ebuild,
+  -home-assistant-frontend-20241127.4.ebuilde,
+  -home-assistant-frontend-20241127.6.ebuild,
+  -home-assistant-frontend-20241127.6.ebuilde,
+  -home-assistant-frontend-20241127.7.ebuild,
+  -home-assistant-frontend-20241127.7.ebuilde,
+  -home-assistant-frontend-20241127.8.ebuild,
+  -home-assistant-frontend-20241127.8.ebuilde,
+  -home-assistant-frontend-20250103.0.ebuild,
+  -home-assistant-frontend-20250103.0.ebuilde,
+  -home-assistant-frontend-20250106.0.ebuild,
+  -home-assistant-frontend-20250106.0.ebuilde,
+  -home-assistant-frontend-20250109.0.ebuild,
+  -home-assistant-frontend-20250109.0.ebuilde,
+  -home-assistant-frontend-20250109.2.ebuild,
+  -home-assistant-frontend-20250109.2.ebuilde,
+  -home-assistant-frontend-20250205.0.ebuild,
+  -home-assistant-frontend-20250205.0.ebuilde,
+  -home-assistant-frontend-20250210.0.ebuild,
+  -home-assistant-frontend-20250210.0.ebuilde,
+  -home-assistant-frontend-20250214.0.ebuild,
+  -home-assistant-frontend-20250214.0.ebuilde,
+  -home-assistant-frontend-20250221.0.ebuild,
+  -home-assistant-frontend-20250221.0.ebuilde,
+  -home-assistant-frontend-20250305.0.ebuilde,
+  -home-assistant-frontend-20250306.0.ebuilde,
+  -home-assistant-frontend-20250401.0.ebuilde,
+  +home-assistant-frontend-20250404.0.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240501.1.ebuilde,
+  +home-assistant-frontend-20240610.1.ebuilde,
+  +home-assistant-frontend-20241002.3.ebuilde,
+  +home-assistant-frontend-20241002.4.ebuilde,
+  +home-assistant-frontend-20241031.0.ebuilde,
+  +home-assistant-frontend-20241106.0.ebuilde,
+  +home-assistant-frontend-20241106.2.ebuilde,
+  +home-assistant-frontend-20241127.4.ebuilde,
+  +home-assistant-frontend-20241127.6.ebuilde,
+  +home-assistant-frontend-20241127.7.ebuilde,
+  +home-assistant-frontend-20241127.8.ebuilde,
+  +home-assistant-frontend-20250103.0.ebuilde,
+  +home-assistant-frontend-20250106.0.ebuilde,
+  +home-assistant-frontend-20250109.0.ebuilde,
+  +home-assistant-frontend-20250109.2.ebuilde,
+  +home-assistant-frontend-20250205.0.ebuilde,
+  +home-assistant-frontend-20250210.0.ebuilde,
+  +home-assistant-frontend-20250214.0.ebuilde,
+  +home-assistant-frontend-20250221.0.ebuilde,
+  +home-assistant-frontend-20250305.0.ebuilde,
+  +home-assistant-frontend-20250306.0.ebuilde,
+  +home-assistant-frontend-20250401.0.ebuilde:
+  Fix KEYWORDS
+
+*home-assistant-frontend-20250401.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250401.0.ebuild:
+  Homeassistant 2025.4.0
+
+*home-assistant-frontend-20250306.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250306.0.ebuild:
+  homeassistant 2025.3.1
+
+*home-assistant-frontend-20250305.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250305.0.ebuild:
+  homeassistant 2025.3.0
+
+*home-assistant-frontend-20250221.0 (22 Feb 2025)
+
+  22 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250221.0.ebuild:
+  homeassistant 2025.2.5
+
+*home-assistant-frontend-20250214.0 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250214.0.ebuild:
+  homeassistant-2025.2.4
+
+*home-assistant-frontend-20250210.0 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250210.0.ebuild:
+  homeassistant-2025.2.2
+
+*home-assistant-frontend-20250205.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250205.0.ebuild:
+  homeassisstant-2025.2.0
+
+*home-assistant-frontend-20250109.2 (10 Feb 2025)
+
+  10 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250109.2.ebuild:
+  homeassistant 2025.1.4
+
+*home-assistant-frontend-20250109.0 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250109.0.ebuild:
+  homeassistant 2025.1.2
+
+*home-assistant-frontend-20250106.0 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250106.0.ebuild:
+  homeassistant 2025.1.1
+
+*home-assistant-frontend-20250103.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20250103.0.ebuild:
+  homeassistant 2025.1.1
+
+*home-assistant-frontend-20241127.8 (21 Dec 2024)
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241127.8.ebuild:
+  Homeassistant 2024.12.3
+
+*home-assistant-frontend-20241127.7 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241127.7.ebuild:
+  homeassistant 2024.12.2
+
+*home-assistant-frontend-20241127.6 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241127.6.ebuild:
+  homeassistant 2024.12.1
+
+*home-assistant-frontend-20241127.4 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241127.4.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*home-assistant-frontend-20241106.0 (11 Nov 2024)
+
+  11 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241106.0.ebuild:
+  Homeassistant 2024.11.0
+
+*home-assistant-frontend-20241106.2 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241106.2.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+*home-assistant-frontend-20241031.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20241031.0.ebuild:
+  add 20241031.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4088
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20240710.0.ebuild,
+  -home-assistant-frontend-20240809.0.ebuild,
+  -home-assistant-frontend-20240909.1.ebuild,
+  home-assistant-frontend-20241002.3.ebuild,
+  home-assistant-frontend-20241002.4.ebuild:
+  drop olds, adjust 20241002.3 & 20241002.4 to use the official artifacts
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20241002.4 (26 Oct 2024)
+
+  26 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241002.4.ebuild:
+  homeassitant & homeassistant-full 2024.10.4
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20240809.0.ebuild,
+  home-assistant-frontend-20240829.0.ebuild:
+  update DESCRIPTION, HOMEPAGE, SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20240710.0.ebuild:
+  enable py3.13 and disable py3.10
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20241002.3 (24 Oct 2024)
+
+  24 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20241002.3.ebuild:
+  add 20241002.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3947
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240828.0 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240828.0.ebuild:
+  homeassistant 2024.9.0_beta0
+
+*home-assistant-frontend-20240902.0 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240902.0.ebuild:
+  homeassistant 2024.9.0_beta3
+
+*home-assistant-frontend-20240903.1 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240903.1.ebuild:
+  homeassistant 2024.9.0_beta4
+
+*home-assistant-frontend-20240904.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240904.0.ebuild:
+  homeassistant 2024.9.0
+
+*home-assistant-frontend-20240906.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240906.0.ebuild:
+  homeassistant 2024.9.1
+
+*home-assistant-frontend-20240926.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240926.0.ebuild:
+  homeassistant 2024.10.0_beta2
+
+*home-assistant-frontend-20240927.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240927.0.ebuild:
+  homeassistant 2024.10.0_beta5
+
+*home-assistant-frontend-20240930.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240930.0.ebuild:
+  homeassistant 2024.10.0_beta9
+
+*home-assistant-frontend-20241002.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241002.0.ebuild:
+  homeassistant 2024.10.0_beta10
+
+*home-assistant-frontend-20241002.1 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241002.1.ebuild:
+  homeassistant 2024.10.0_beta11
+
+*home-assistant-frontend-20241002.3 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241002.3.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*home-assistant-frontend-20241002.2 (08 Oct 2024)
+
+  08 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20241002.2.ebuild:
+  homeassistant 2024.10.1 + script to generate ebuild dependencies :)
+
+*home-assistant-frontend-20240925.0 (04 Oct 2024)
+*home-assistant-frontend-20240909.1 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240909.1.ebuild,
+  +home-assistant-frontend-20240925.0.ebuild:
+  Home Assitant 2024.9.3 working :)
+
+*home-assistant-frontend-20240829.0 (04 Oct 2024)
+*home-assistant-frontend-20240809.0 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240809.0.ebuild,
+  +home-assistant-frontend-20240829.0.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*home-assistant-frontend-20240829.0 (25 Sep 2024)
+*home-assistant-frontend-20240809.0 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-frontend-20240809.0.ebuild,
+  +home-assistant-frontend-20240829.0.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*home-assistant-frontend-20240710.0 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +home-assistant-frontend-20240710.0.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+*home-assistant-frontend-20240610.1 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20240605.0.ebuild,
+  +home-assistant-frontend-20240610.1.ebuild:
+  add 20240610.1, drop 20240605.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3486
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240605.0 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20240605.0.ebuild:
+  add 20240605.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/y
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240501.1 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20240103.3.ebuild,
+  -home-assistant-frontend-20240207.1.ebuild,
+  home-assistant-frontend-20240307.0.ebuild,
+  -home-assistant-frontend-20240404.1.ebuild,
+  home-assistant-frontend-20240404.2.ebuild,
+  +home-assistant-frontend-20240501.1.ebuild:
+  drop olds, add 20240501.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3327
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240404.2 (12 Apr 2024)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20231208.2.ebuild,
+  -home-assistant-frontend-20240306.0.ebuild,
+  -home-assistant-frontend-20240403.1.ebuild,
+  +home-assistant-frontend-20240404.2.ebuild:
+  add 20240404.2, drop 20231208.2, 20240403.1, 20240306.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3209
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240404.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20240404.1.ebuild:
+  add 20240404.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3183
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240403.1 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20240403.1.ebuild:
+  add 20240403.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3172
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240307.0 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20240104.0.ebuild,
+  +home-assistant-frontend-20240307.0.ebuild:
+  add 20240307.0, drop 20240104.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3066
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240306.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20231208.2.ebuild,
+  home-assistant-frontend-20240103.3.ebuild,
+  home-assistant-frontend-20240104.0.ebuild,
+  home-assistant-frontend-20240207.1.ebuild,
+  +home-assistant-frontend-20240306.0.ebuild:
+  add 20240306.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20231005.0.ebuild,
+  -home-assistant-frontend-20231030.2.ebuild:
+  drop 20231005.0, 20231030.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240207.1 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20240207.1.ebuild:
+  add 20240207.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2786
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240104.0 (06 Jan 2024)
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20231005.0.ebuild,
+  home-assistant-frontend-20231030.2.ebuild,
+  home-assistant-frontend-20231208.2.ebuild,
+  home-assistant-frontend-20240103.3.ebuild,
+  +home-assistant-frontend-20240104.0.ebuild:
+  add 20240104.0
+  dev-python/aiohomekit: add 3.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2688
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2689
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240103.3 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20240103.0.ebuild,
+  +home-assistant-frontend-20240103.3.ebuild:
+  add 20240103.3, drop 20240103.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2678
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20240103.0 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20240103.0.ebuild:
+  add 20240103.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2607
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20231030.0.ebuild,
+  -home-assistant-frontend-20231030.1.ebuild:
+  drop 20231030.0, 20231030.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20231208.2 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20231208.2.ebuild:
+  add 20231208.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2442
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20231005.0.ebuild,
+  home-assistant-frontend-20231030.0.ebuild,
+  home-assistant-frontend-20231030.1.ebuild,
+  home-assistant-frontend-20231030.2.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20231030.2 (10 Nov 2023)
+
+  10 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20231030.2.ebuild:
+  add 20231030.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2383
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20230411.1.ebuild,
+  -home-assistant-frontend-20230503.3.ebuild,
+  -home-assistant-frontend-20230705.1.ebuild,
+  -home-assistant-frontend-20231027.0.ebuild:
+  drop versions
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20231030.1 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20231030.1.ebuild:
+  add 20231030.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2355
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20231030.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20231030.0.ebuild:
+  add 20231030.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2351
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20231027.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20231027.0.ebuild:
+  add 20231027.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2349
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20231005.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20231005.0.ebuild:
+  add 20231005.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230705.1 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20230705.1.ebuild:
+  add home-assistant-frontend-20230705.1
+
+*home-assistant-frontend-20230503.3 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221102.1.ebuild,
+  -home-assistant-frontend-20230202.0.ebuild,
+  -home-assistant-frontend-20230309.1.ebuild,
+  -home-assistant-frontend-20230406.1.ebuild,
+  home-assistant-frontend-20230411.1.ebuild,
+  +home-assistant-frontend-20230503.3.ebuild:
+  drop olds, add 20230503.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230411.1 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20230411.1.ebuild:
+  add 20230411.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230406.1 (07 Apr 2023)
+
+  07 Apr 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20230110.0.ebuild,
+  -home-assistant-frontend-20230306.0.ebuild,
+  -home-assistant-frontend-20230309.0.ebuild,
+  +home-assistant-frontend-20230406.1.ebuild:
+  drop olds, add 20230406.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230309.1 (16 Mar 2023)
+
+  16 Mar 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20230302.0.ebuild,
+  +home-assistant-frontend-20230309.1.ebuild:
+  add 20230309.1, drop 20230302.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230309.0 (09 Mar 2023)
+
+  09 Mar 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221213.1.ebuild,
+  +home-assistant-frontend-20230309.0.ebuild:
+  add 20230309.0, drop 20221213.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230306.0 (09 Mar 2023)
+
+  09 Mar 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20230306.0.ebuild:
+  add 20230306.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230302.0 (03 Mar 2023)
+
+  03 Mar 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20230301.0.ebuild,
+  +home-assistant-frontend-20230302.0.ebuild:
+  add 20230302.0, drop 20230301.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230301.0 (02 Mar 2023)
+
+  02 Mar 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20230227.0.ebuild,
+  +home-assistant-frontend-20230301.0.ebuild:
+  add 20230301.0, drop 20230227.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230227.0 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20230224.0.ebuild,
+  +home-assistant-frontend-20230227.0.ebuild:
+  add 20230227.0, drop 20230224.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230224.0 (27 Feb 2023)
+
+  27 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20230104.0.ebuild,
+  +home-assistant-frontend-20230224.0.ebuild:
+  add 20230224.0, drop 20230104.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230202.0 (05 Feb 2023)
+
+  05 Feb 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20230202.0.ebuild:
+  add 20230202.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20221102.1.ebuild,
+  home-assistant-frontend-20221213.1.ebuild,
+  home-assistant-frontend-20230104.0.ebuild,
+  home-assistant-frontend-20230110.0.ebuild:
+  remove Python 3.8 Support tag
+
+*home-assistant-frontend-20230110.0 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221108.0.ebuild,
+  +home-assistant-frontend-20230110.0.ebuild:
+  add 20230110.0, drop 20221108.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20230104.0 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221212.0.ebuild,
+  -home-assistant-frontend-20221213.0.ebuild,
+  +home-assistant-frontend-20230104.0.ebuild:
+  dop olds, add 20230104.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221213.1 (18 Dec 2022)
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221208.0.ebuild,
+  +home-assistant-frontend-20221213.1.ebuild, metadata.xml:
+  add 20221213.1, drop 20221208.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221213.0 (13 Dec 2022)
+
+  13 Dec 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20221213.0.ebuild:
+  add 20221213.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221212.0 (13 Dec 2022)
+
+  13 Dec 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221010.0.ebuild,
+  -home-assistant-frontend-20221207.0.ebuild,
+  +home-assistant-frontend-20221212.0.ebuild:
+  drop olds, bump 20221212.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221208.0 (09 Dec 2022)
+
+  09 Dec 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220907.2.ebuild,
+  +home-assistant-frontend-20221208.0.ebuild, metadata.xml:
+  add 20221208.0, drop 20220907.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221207.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20221207.0.ebuild:
+  add 20221207.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221108.0 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220802.0.ebuild,
+  -home-assistant-frontend-20221102.0.ebuild,
+  +home-assistant-frontend-20221108.0.ebuild:
+  home-assistant-frontend: remove olds, bump 20221108.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221102.1 (03 Nov 2022)
+
+  03 Nov 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221031.0.ebuild,
+  +home-assistant-frontend-20221102.1.ebuild:
+  add 20221102.1, drop 20221031.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221102.0 (02 Nov 2022)
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221027.0.ebuild,
+  +home-assistant-frontend-20221102.0.ebuild:
+  drop 20221027.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221031.0 (01 Nov 2022)
+
+  01 Nov 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20221031.0.ebuild:
+  add 20221031.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221027.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221006.0.ebuild,
+  +home-assistant-frontend-20221027.0.ebuild:
+  add 20221027.0, drop 20221006.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20220802.0.ebuild,
+  home-assistant-frontend-20220907.2.ebuild,
+  home-assistant-frontend-20221006.0.ebuild,
+  home-assistant-frontend-20221010.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-frontend-20221010.0 (11 Oct 2022)
+
+  11 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221005.0.ebuild,
+  +home-assistant-frontend-20221010.0.ebuild:
+  bump home-assistant-frontend-20221010.0
+
+*home-assistant-frontend-20221006.0 (09 Oct 2022)
+
+  09 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220707.1.ebuild,
+  -home-assistant-frontend-20221003.0.ebuild,
+  +home-assistant-frontend-20221006.0.ebuild:
+  update home-assistant-frontend-20221006.0
+
+*home-assistant-frontend-20221005.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20221002.0.ebuild,
+  +home-assistant-frontend-20221005.0.ebuild:
+  bump home-assistant-frontend-20221005.0
+
+*home-assistant-frontend-20221003.0 (04 Oct 2022)
+
+  04 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220929.0.ebuild,
+  +home-assistant-frontend-20221003.0.ebuild:
+  bump home-assistant-frontend-20221003.0
+
+*home-assistant-frontend-20221002.0 (03 Oct 2022)
+
+  03 Oct 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20221002.0.ebuild:
+  bump home-assistant-frontend-20221002.0
+
+*home-assistant-frontend-20220929.0 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220907.0.ebuild,
+  -home-assistant-frontend-20220907.1.ebuild,
+  +home-assistant-frontend-20220929.0.ebuild:
+  bump home-assistant-frontend-20220929.0
+
+*home-assistant-frontend-20220907.2 (15 Sep 2022)
+
+  15 Sep 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220907.2.ebuild:
+  bump home-assistant-frontend-20220907.2
+
+*home-assistant-frontend-20220907.1 (14 Sep 2022)
+
+  14 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220906.0.ebuild,
+  +home-assistant-frontend-20220907.1.ebuild:
+  bump home-assistant-frontend-20220907.1
+
+*home-assistant-frontend-20220907.0 (08 Sep 2022)
+
+  08 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220905.0.ebuild,
+  +home-assistant-frontend-20220907.0.ebuild:
+  bump home-assistant-frontend-20220907.0
+
+*home-assistant-frontend-20220906.0 (07 Sep 2022)
+
+  07 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220902.0.ebuild,
+  +home-assistant-frontend-20220906.0.ebuild:
+  bump home-assistant-frontend-20220906.0
+
+*home-assistant-frontend-20220905.0 (06 Sep 2022)
+
+  06 Sep 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220905.0.ebuild:
+  bump home-assistant-frontend-20220905.0
+
+*home-assistant-frontend-20220902.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220601.0.ebuild,
+  +home-assistant-frontend-20220902.0.ebuild, metadata.xml:
+  bump home-assistant-frontend-20220902.0
+
+*home-assistant-frontend-20220802.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220504.1-r1.ebuild,
+  home-assistant-frontend-20220601.0.ebuild,
+  -home-assistant-frontend-20220707.0.ebuild,
+  home-assistant-frontend-20220707.1.ebuild,
+  +home-assistant-frontend-20220802.0.ebuild:
+  bump home-assistant-frontend-20220802.0
+
+*home-assistant-frontend-20220707.1 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20220504.1-r1.ebuild,
+  home-assistant-frontend-20220601.0.ebuild,
+  home-assistant-frontend-20220707.0.ebuild,
+  +home-assistant-frontend-20220707.1.ebuild:
+  bump home-assistant-frontend-20220707.1
+
+*home-assistant-frontend-20220707.0 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220405.0-r1.ebuild,
+  -home-assistant-frontend-20220531.0.ebuild,
+  +home-assistant-frontend-20220707.0.ebuild, metadata.xml:
+  bump home-assistant-frontend==20220707.0
+
+*home-assistant-frontend-20220601.0 (04 Jun 2022)
+
+  04 Jun 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220301.0.ebuild,
+  -home-assistant-frontend-20220525.0-r1.ebuild,
+  -home-assistant-frontend-20220526.0.ebuild,
+  +home-assistant-frontend-20220601.0.ebuild:
+  bump home-assistant-frontend-20220601.0
+
+*home-assistant-frontend-20220531.0 (31 May 2022)
+
+  31 May 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220531.0.ebuild:
+  bump home-assistant-frontend-20220531.0
+
+*home-assistant-frontend-20220526.0 (28 May 2022)
+
+  28 May 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220526.0.ebuild:
+  update home-assistant-frontend-20220526.0
+
+*home-assistant-frontend-20220525.0-r1 (27 May 2022)
+*home-assistant-frontend-20220504.1-r1 (27 May 2022)
+*home-assistant-frontend-20220405.0-r1 (27 May 2022)
+
+  27 May 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220405.0.ebuild,
+  +home-assistant-frontend-20220405.0-r1.ebuild,
+  -home-assistant-frontend-20220504.1.ebuild,
+  +home-assistant-frontend-20220504.1-r1.ebuild,
+  -home-assistant-frontend-20220525.0.ebuild,
+  +home-assistant-frontend-20220525.0-r1.ebuild:
+  remove pyproject.toml, migrate to PEP517
+
+*home-assistant-frontend-20220525.0 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220301.2.ebuild,
+  -home-assistant-frontend-20220427.0.ebuild,
+  -home-assistant-frontend-20220429.0.ebuild,
+  -home-assistant-frontend-20220504.0.ebuild,
+  +home-assistant-frontend-20220525.0.ebuild:
+  bump home-assistant-frontend-20220525.0
+
+*home-assistant-frontend-20220504.1 (09 May 2022)
+
+  09 May 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220504.1.ebuild:
+  bump home-assistant-frontend-20220504.1
+
+*home-assistant-frontend-20220504.0 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220504.0.ebuild:
+  bump home-assistant-frontend-20220504.0
+
+*home-assistant-frontend-20220429.0 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220429.0.ebuild:
+  bump home-assistant-frontend-20220429.0
+
+*home-assistant-frontend-20220427.0 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220203.1.ebuild,
+  -home-assistant-frontend-20220401.0.ebuild,
+  +home-assistant-frontend-20220427.0.ebuild:
+  bump home-assistant-frontend-20220427.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20220203.1.ebuild,
+  home-assistant-frontend-20220301.0.ebuild,
+  home-assistant-frontend-20220301.2.ebuild,
+  home-assistant-frontend-20220401.0.ebuild,
+  home-assistant-frontend-20220405.0.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+*home-assistant-frontend-20220405.0 (06 Apr 2022)
+
+  06 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220330.0.ebuild,
+  +home-assistant-frontend-20220405.0.ebuild:
+  bump home-assistant-frontend-20220405.0
+
+*home-assistant-frontend-20220401.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220401.0.ebuild:
+  bump home-assistant-frontend-20220401.0
+
+*home-assistant-frontend-20220330.0 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211229.1.ebuild,
+  home-assistant-frontend-20220203.1.ebuild,
+  -home-assistant-frontend-20220301.1.ebuild,
+  -home-assistant-frontend-20220322.0.ebuild,
+  +home-assistant-frontend-20220330.0.ebuild:
+  update home-assistant-frontend-20220330.0
+
+*home-assistant-frontend-20220322.0 (24 Mar 2022)
+
+  24 Mar 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220322.0.ebuild:
+  bump home-assistant-frontend-20220322.0 (test)
+
+*home-assistant-frontend-20220301.2 (16 Mar 2022)
+
+  16 Mar 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220203.0-r2.ebuild,
+  +home-assistant-frontend-20220301.2.ebuild:
+  bump home-assistant-frontend-20220301.2
+
+*home-assistant-frontend-20220301.1 (08 Mar 2022)
+
+  08 Mar 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211109.0.ebuild,
+  -home-assistant-frontend-20220226.0.ebuild,
+  +home-assistant-frontend-20220301.1.ebuild:
+  bump home-assistant-frontend-20220301.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20211109.0.ebuild,
+  home-assistant-frontend-20211229.1.ebuild,
+  home-assistant-frontend-20220203.0-r2.ebuild,
+  home-assistant-frontend-20220203.1.ebuild,
+  home-assistant-frontend-20220226.0.ebuild,
+  home-assistant-frontend-20220301.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*home-assistant-frontend-20220301.0 (02 Mar 2022)
+
+  02 Mar 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220224.0.ebuild,
+  +home-assistant-frontend-20220301.0.ebuild:
+  bump home-assistant-frontend-20220301.0
+
+  01 Mar 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20220226.0.ebuild:
+  stabilize home-assistant-frontend-20220226.0
+
+*home-assistant-frontend-20220226.0 (27 Feb 2022)
+
+  27 Feb 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220226.0.ebuild:
+  bump home-assistant-frontend-20220226.0
+
+*home-assistant-frontend-20220224.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220214.0.ebuild,
+  +home-assistant-frontend-20220224.0.ebuild:
+  bump home-assistant-frontend-20220224.0
+
+*home-assistant-frontend-20220203.1 (19 Feb 2022)
+
+  19 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220202.0.ebuild,
+  +home-assistant-frontend-20220203.1.ebuild:
+  bump home-assistant-frontend-20220203.1
+
+  17 Feb 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20220214.0.ebuild:
+  make home-assistant-frontend-20220214.0 a beta
+
+*home-assistant-frontend-20220214.0 (16 Feb 2022)
+
+  16 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211007.1.ebuild,
+  -home-assistant-frontend-20220201.0.ebuild,
+  +home-assistant-frontend-20220214.0.ebuild:
+  bump home-assistant-frontend-20220214.0
+
+*home-assistant-frontend-20220203.0-r2 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220202.0-r1.ebuild_,
+  -home-assistant-frontend-20220203.0.ebuild,
+  -home-assistant-frontend-20220203.0-r1.ebuild,
+  +home-assistant-frontend-20220203.0-r2.ebuild:
+  next try: home-assistant-frontend-20220203.0-r2
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220202.0-r1.ebuild_:
+  add test Ebuild for https://github.com/home-assistant/frontend/pull/11566
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20220203.0-r1.ebuild:
+  fix typo in home-assistant-frontend-20220203.0-r1
+
+*home-assistant-frontend-20220203.0-r1 (05 Feb 2022)
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20220127.0.ebuild,
+  +home-assistant-frontend-20220203.0-r1.ebuild:
+  add intermediate home-assistant-frontend-20220203.0-r1 (needs network
+  access)
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20220203.0.ebuild:
+  respect home-assistant-frontend-20220203.0 build failure
+
+*home-assistant-frontend-20220203.0 (04 Feb 2022)
+
+  04 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211229.0.ebuild,
+  +home-assistant-frontend-20220203.0.ebuild:
+  update home-assistant-frontend-20220203.0
+
+*home-assistant-frontend-20220202.0 (02 Feb 2022)
+
+  02 Feb 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220202.0.ebuild:
+  bump home-assistant-frontend-20220202.0
+
+*home-assistant-frontend-20220201.0 (02 Feb 2022)
+
+  02 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211227.0.ebuild,
+  +home-assistant-frontend-20220201.0.ebuild:
+  bump home-assistant-frontend-20220201.0
+
+*home-assistant-frontend-20220127.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20220127.0.ebuild:
+  bump home-assistant-frontend-20220127.0
+
+*home-assistant-frontend-20211229.1 (20 Jan 2022)
+
+  20 Jan 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211220.0.ebuild,
+  +home-assistant-frontend-20211229.1.ebuild:
+  bump home-assistant-frontend-20211229.1
+
+*home-assistant-frontend-20211229.0 (31 Dec 2021)
+
+  31 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211215.0.ebuild,
+  +home-assistant-frontend-20211229.0.ebuild:
+  bump home-assistant-frontend-20211229.0
+
+*home-assistant-frontend-20211227.0 (28 Dec 2021)
+
+  28 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211211.0.ebuild,
+  -home-assistant-frontend-20211212.0.ebuild,
+  +home-assistant-frontend-20211227.0.ebuild:
+  bump home-assistant-frontend-20211227.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20211007.1.ebuild,
+  home-assistant-frontend-20211109.0.ebuild,
+  -home-assistant-frontend-20211209.0.ebuild,
+  home-assistant-frontend-20211211.0.ebuild,
+  home-assistant-frontend-20211212.0.ebuild,
+  home-assistant-frontend-20211215.0.ebuild,
+  home-assistant-frontend-20211220.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*home-assistant-frontend-20211220.0 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211220.0.ebuild:
+  bump home-assistant-frontend-20211220.0.ebuild
+
+*home-assistant-frontend-20211215.0 (16 Dec 2021)
+
+  16 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211215.0.ebuild:
+  bump home-assistant-frontend-20211215.0
+
+*home-assistant-frontend-20211212.0 (13 Dec 2021)
+
+  13 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211212.0.ebuild:
+  bump home-assistant-frontend-20211212.0
+
+*home-assistant-frontend-20211211.0 (11 Dec 2021)
+
+  11 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210830.0.ebuild,
+  -home-assistant-frontend-20211108.0.ebuild,
+  -home-assistant-frontend-20211206.0.ebuild,
+  +home-assistant-frontend-20211211.0.ebuild:
+  bump home-assistant-frontend-20211211.0
+
+*home-assistant-frontend-20211209.0 (10 Dec 2021)
+
+  10 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20211203.0.ebuild,
+  +home-assistant-frontend-20211209.0.ebuild:
+  bump home-assistant-frontend-20211209.0
+
+*home-assistant-frontend-20211206.0 (07 Dec 2021)
+
+  07 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211206.0.ebuild:
+  bump home-assistant-frontend-20211206.0
+
+*home-assistant-frontend-20211203.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210809.0.ebuild,
+  -home-assistant-frontend-20211103.0.ebuild,
+  +home-assistant-frontend-20211203.0.ebuild:
+  bump home-assistant-frontend-20211203.0
+
+*home-assistant-frontend-20211109.0 (12 Nov 2021)
+
+  12 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211109.0.ebuild:
+  bump home-assistant-frontend-20211109.0
+
+*home-assistant-frontend-20211108.0 (09 Nov 2021)
+
+  09 Nov 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210707.0.ebuild,
+  -home-assistant-frontend-20211002.0.ebuild,
+  -home-assistant-frontend-20211006.0.ebuild,
+  -home-assistant-frontend-20211028.0.ebuild,
+  +home-assistant-frontend-20211108.0.ebuild:
+  bump home-assistant-frontend-20211108.0
+
+*home-assistant-frontend-20211103.0 (04 Nov 2021)
+
+  04 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211103.0.ebuild:
+  bump home-assistant-frontend-20211103.0
+
+*home-assistant-frontend-20211028.0 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211028.0.ebuild:
+  bump home-assistant-frontend-20211028.0
+
+*home-assistant-frontend-20211007.1 (12 Oct 2021)
+
+  12 Oct 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211007.1.ebuild:
+  bump home-assistant-frontend-20211007.1
+
+*home-assistant-frontend-20211006.0 (07 Oct 2021)
+
+  07 Oct 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210930.0.ebuild,
+  +home-assistant-frontend-20211006.0.ebuild:
+  bump home-assistant-frontend-20211006.0
+
+*home-assistant-frontend-20211002.0 (03 Oct 2021)
+
+  03 Oct 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20211002.0.ebuild:
+  bump home-assistant-frontend-20211002.0
+
+*home-assistant-frontend-20210930.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210603.0.ebuild,
+  -home-assistant-frontend-20210825.0.ebuild,
+  +home-assistant-frontend-20210930.0.ebuild:
+  bump home-assistant-frontend-20210930.0
+
+*home-assistant-frontend-20210830.0 (31 Aug 2021)
+
+  31 Aug 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210830.0.ebuild:
+  update homeassistant-2021.9.0_beta6
+
+  29 Aug 2021; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20210603.0.ebuild,
+  home-assistant-frontend-20210707.0.ebuild,
+  home-assistant-frontend-20210809.0.ebuild,
+  home-assistant-frontend-20210825.0.ebuild:
+  mark 'knows-as-good-for-long' packages stable
+
+*home-assistant-frontend-20210825.0 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210407.3.ebuild,
+  -home-assistant-frontend-20210504.0.ebuild,
+  -home-assistant-frontend-20210804.0.ebuild,
+  +home-assistant-frontend-20210825.0.ebuild:
+  bump home-assistant-frontend-20210825.0
+
+*home-assistant-frontend-20210809.0 (14 Aug 2021)
+
+  14 Aug 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210803.2.ebuild,
+  +home-assistant-frontend-20210809.0.ebuild:
+  bump home-assistant-frontend-20210809.0
+
+*home-assistant-frontend-20210804.0 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210804.0.ebuild:
+  bump home-assistant-frontend-20210804.0
+
+*home-assistant-frontend-20210803.2 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210302.6.ebuild,
+  -home-assistant-frontend-20210630.0.ebuild,
+  -home-assistant-frontend-20210706.0.ebuild,
+  +home-assistant-frontend-20210803.2.ebuild:
+  update homeassistant-2021.8.0
+  restore pylint-2.9.5 from main repo archive
+  bump home-assistant-frontend-20210803.2
+
+*home-assistant-frontend-20210707.0 (07 Jul 2021)
+*home-assistant-frontend-20210407.3 (07 Jul 2021)
+
+  07 Jul 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20210302.3.ebuild,
+  -home-assistant-frontend-20210302.4.ebuild,
+  -home-assistant-frontend-20210302.5.ebuild,
+  -home-assistant-frontend-20210402.1.ebuild,
+  -home-assistant-frontend-20210407.1.ebuild,
+  -home-assistant-frontend-20210407.2.ebuild,
+  +home-assistant-frontend-20210407.3.ebuild,
+  +home-assistant-frontend-20210707.0.ebuild:
+  bump home-assistant-frontend-20210707.0
+
+*home-assistant-frontend-20210706.0 (06 Jul 2021)
+
+  06 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210706.0.ebuild:
+  bump home-assistant-frontend-20210706.0
+
+*home-assistant-frontend-20210630.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210630.0.ebuild:
+  update home-assistant-frontend-20210630.0
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20210603.0.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for core packages
+
+*home-assistant-frontend-20210603.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210603.0.ebuild:
+  home-assistant-frontend-20210603.0 bump
+
+*home-assistant-frontend-20210504.0 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20201111.2.ebuild,
+  -home-assistant-frontend-20201212.0.ebuild,
+  -home-assistant-frontend-20201229.1.ebuild,
+  -home-assistant-frontend-20210127.7.ebuild,
+  -home-assistant-frontend-20210313.0.ebuild,
+  -home-assistant-frontend-20210314.0.ebuild,
+  -home-assistant-frontend-20210316.0.ebuild,
+  -home-assistant-frontend-20210324.0.ebuild,
+  -home-assistant-frontend-20210328.0.ebuild,
+  -home-assistant-frontend-20210330.0.ebuild,
+  -home-assistant-frontend-20210331.0.ebuild,
+  -home-assistant-frontend-20210402.0.ebuild,
+  -home-assistant-frontend-20210407.3.ebuild,
+  +home-assistant-frontend-20210504.0.ebuild:
+  bump home-assistant-frontend-20210504.0, remove many olds
+
+*home-assistant-frontend-20210407.3 (10 Apr 2021)
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210407.3.ebuild:
+  bump home-assistant-frontend-20210407.3
+  update homeassistant-2021.4.2
+
+*home-assistant-frontend-20210407.2 (10 Apr 2021)
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210407.2.ebuild:
+  bump home-assistant-frontend-20210407.2
+  update homeassistant-2021.4.1
+
+*home-assistant-frontend-20210407.1 (10 Apr 2021)
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210407.1.ebuild:
+  bump home-assistant-frontend-20210407.1
+  update homeassistant-2021.4.0
+
+*home-assistant-frontend-20210402.1 (04 Apr 2021)
+*home-assistant-frontend-20210402.0 (04 Apr 2021)
+*home-assistant-frontend-20210331.0 (04 Apr 2021)
+*home-assistant-frontend-20210330.0 (04 Apr 2021)
+*home-assistant-frontend-20210328.0 (04 Apr 2021)
+*home-assistant-frontend-20210324.0 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210324.0.ebuild,
+  +home-assistant-frontend-20210328.0.ebuild,
+  +home-assistant-frontend-20210330.0.ebuild,
+  +home-assistant-frontend-20210331.0.ebuild,
+  +home-assistant-frontend-20210402.0.ebuild,
+  +home-assistant-frontend-20210402.1.ebuild:
+  bump home-assistant-frontend-20210324.0
+  bump home-assistant-frontend-20210328.0
+  bump home-assistant-frontend-20210330.0
+  bump home-assistant-frontend-20210331.0
+  bump home-assistant-frontend-20210402.0
+  bump home-assistant-frontend-20210402.1
+
+  21 Mar 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20201021.4.ebuild,
+  -home-assistant-frontend-20210127.3.ebuild,
+  -home-assistant-frontend-20210127.5.ebuild,
+  -home-assistant-frontend-20210127.6.ebuild,
+  -home-assistant-frontend-20210208.0.ebuild,
+  -home-assistant-frontend-20210222.0.ebuild,
+  -home-assistant-frontend-20210224.0.ebuild,
+  -home-assistant-frontend-20210225.0.ebuild,
+  -home-assistant-frontend-20210226.0.ebuild,
+  -home-assistant-frontend-20210301.0.ebuild,
+  -home-assistant-frontend-20210302.0.ebuild:
+  clean up
+
+*home-assistant-frontend-20210316.0 (20 Mar 2021)
+
+  20 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210316.0.ebuild:
+  bump home-assistant-frontend-20210316.0
+
+*home-assistant-frontend-20210314.0 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210314.0.ebuild:
+  bump home-assistant-frontend-20210314.0
+
+*home-assistant-frontend-20210313.0 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210313.0.ebuild:
+  bump home-assistant-frontend-20210313.0
+
+*home-assistant-frontend-20210302.6 (14 Mar 2021)
+*home-assistant-frontend-20210302.5 (14 Mar 2021)
+*home-assistant-frontend-20210302.4 (14 Mar 2021)
+*home-assistant-frontend-20210302.3 (14 Mar 2021)
+*home-assistant-frontend-20210302.0 (14 Mar 2021)
+*home-assistant-frontend-20210301.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210301.0.ebuild,
+  +home-assistant-frontend-20210302.0.ebuild,
+  +home-assistant-frontend-20210302.3.ebuild,
+  +home-assistant-frontend-20210302.4.ebuild,
+  +home-assistant-frontend-20210302.5.ebuild,
+  +home-assistant-frontend-20210302.6.ebuild:
+  bump home-assistant-frontend-20210301.0, 20210302.0, 20210302.[3-6]
+
+*home-assistant-frontend-20210226.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210226.0.ebuild:
+  bump home-assistant-frontend-20210226.0
+
+*home-assistant-frontend-20210225.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210225.0.ebuild:
+  bump home-assistant-frontend-20210225.0
+
+*home-assistant-frontend-20210224.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210224.0.ebuild:
+  bump home-assistant-frontend-20210222.0
+
+*home-assistant-frontend-20210222.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210222.0.ebuild:
+  bump home-assistant-frontend-20210222.0
+
+  15 Feb 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20201001.2.ebuild:
+  remove olds
+
+*home-assistant-frontend-20210208.0 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210208.0.ebuild:
+  bump home-assistant-frontend-20210208.0
+
+*home-assistant-frontend-20210127.7 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210127.7.ebuild:
+  bump home-assistant-frontend-20210127.7
+
+*home-assistant-frontend-20210127.6 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210127.6.ebuild:
+  bump home-assistant-frontend-20210127.6
+
+*home-assistant-frontend-20210127.5 (31 Jan 2021)
+*home-assistant-frontend-20210127.3 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20210127.3.ebuild,
+  +home-assistant-frontend-20210127.5.ebuild:
+  bump home-assistant-frontend-20210127.3 & home-assistant-frontend-20210127.5
+
+*home-assistant-frontend-20201001.2 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20200918.2.ebuild,
+  +home-assistant-frontend-20201001.2.ebuild,
+  -home-assistant-frontend-20201021.2.ebuild,
+  -home-assistant-frontend-20201021.3.ebuild,
+  -home-assistant-frontend-20201111.0.ebuild,
+  -home-assistant-frontend-20201111.1.ebuild,
+  -home-assistant-frontend-20201126.0.ebuild,
+  -home-assistant-frontend-20201202.0.ebuild,
+  -home-assistant-frontend-20201203.0.ebuild,
+  -home-assistant-frontend-20201204.0.ebuild,
+  -home-assistant-frontend-20201210.0.ebuild,
+  -home-assistant-frontend-20201229.0.ebuild:
+  home-assistant-frontend cleanup
+
+*home-assistant-frontend-20201229.1 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201229.1.ebuild:
+  bump home-assistant-frontend-20201229.1
+
+*home-assistant-frontend-20201229.0 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201229.0.ebuild:
+  bump home-assistant-frontend-20201229.0
+
+*home-assistant-frontend-20201212.0 (14 Dec 2020)
+
+  14 Dec 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201212.0.ebuild:
+  bump home-assistant-frontend-20201212.0
+
+*home-assistant-frontend-20201210.0 (14 Dec 2020)
+
+  14 Dec 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201210.0.ebuild:
+  bump home-assistant-frontend-20201210.0
+
+*home-assistant-frontend-20201204.0 (05 Dec 2020)
+
+  05 Dec 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201204.0.ebuild:
+  bump home-assistant-frontend-20201204.0
+
+*home-assistant-frontend-20201203.0 (04 Dec 2020)
+
+  04 Dec 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201203.0.ebuild:
+  bump home-assistant-frontend-20201203.0
+
+*home-assistant-frontend-20201202.0 (03 Dec 2020)
+
+  03 Dec 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201202.0.ebuild:
+  bump home-assistant-frontend-20201202.0.ebuild
+
+*home-assistant-frontend-20201126.0 (28 Nov 2020)
+
+  28 Nov 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201126.0.ebuild:
+  bump home-assistant-frontend-20201126.0
+
+*home-assistant-frontend-20201111.2 (19 Nov 2020)
+
+  19 Nov 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201111.2.ebuild:
+  bump home-assistant-frontend-20201111.2
+
+*home-assistant-frontend-20201111.1 (17 Nov 2020)
+
+  17 Nov 2020; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20200519.4.ebuild,
+  -home-assistant-frontend-20200603.3.ebuild,
+  -home-assistant-frontend-20200702.1.ebuild,
+  -home-assistant-frontend-20200716.0.ebuild,
+  -home-assistant-frontend-20200811.0.ebuild,
+  -home-assistant-frontend-20201001.1.ebuild,
+  -home-assistant-frontend-20201001.2.ebuild,
+  -home-assistant-frontend-20201021.0.ebuild,
+  -home-assistant-frontend-20201021.1.ebuild,
+  +home-assistant-frontend-20201111.1.ebuild:
+  bump home-assistant-frontend-20201111.1, remove unused
+
+*home-assistant-frontend-20201111.0 (12 Nov 2020)
+
+  12 Nov 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201111.0.ebuild:
+  bump home-assistant-frontend-20201111.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz>
+  home-assistant-frontend-20200519.4.ebuild,
+  home-assistant-frontend-20200603.3.ebuild,
+  home-assistant-frontend-20200702.1.ebuild,
+  home-assistant-frontend-20200716.0.ebuild,
+  home-assistant-frontend-20200811.0.ebuild,
+  home-assistant-frontend-20200918.2.ebuild,
+  home-assistant-frontend-20201001.1.ebuild,
+  home-assistant-frontend-20201001.2.ebuild,
+  home-assistant-frontend-20201021.0.ebuild,
+  home-assistant-frontend-20201021.1.ebuild,
+  home-assistant-frontend-20201021.2.ebuild,
+  home-assistant-frontend-20201021.3.ebuild,
+  home-assistant-frontend-20201021.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*home-assistant-frontend-20201021.4 (30 Oct 2020)
+
+  30 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201021.4.ebuild:
+  bump home-assistant-frontend-20201021.4
+
+*home-assistant-frontend-20201021.3 (28 Oct 2020)
+
+  28 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201021.3.ebuild:
+  bump home-assistant-frontend-20201021.3
+
+*home-assistant-frontend-20201021.2 (23 Oct 2020)
+
+  23 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201021.2.ebuild:
+  bump home-assistant-frontend-20201021.2
+
+*home-assistant-frontend-20201021.1 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201021.1.ebuild:
+  bump home-assistant-frontend-20201021.1
+
+*home-assistant-frontend-20201021.0 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20200912.0.ebuild,
+  -home-assistant-frontend-20200915.0.ebuild,
+  -home-assistant-frontend-20200916.0.ebuild,
+  -home-assistant-frontend-20200917.1.ebuild,
+  -home-assistant-frontend-20200918.0.ebuild,
+  -home-assistant-frontend-20200930.0.ebuild,
+  -home-assistant-frontend-20201001.0.ebuild,
+  +home-assistant-frontend-20201021.0.ebuild:
+  bump home-assistant-frontend-20201021.0, remove unused
+
+*home-assistant-frontend-20201001.2 (08 Oct 2020)
+
+  08 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201001.2.ebuild:
+  bump home-assistant-frontend-20201001.2
+
+*home-assistant-frontend-20201001.1 (05 Oct 2020)
+
+  05 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201001.1.ebuild:
+  bump home-assistant-frontend-20201001.1
+
+*home-assistant-frontend-20201001.0 (01 Oct 2020)
+
+  01 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20201001.0.ebuild:
+  bump home-assistant-frontend-20201001.0
+
+*home-assistant-frontend-20200930.0 (30 Sep 2020)
+
+  30 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200930.0.ebuild:
+  bump home-assistant-frontend-20200930.0
+
+*home-assistant-frontend-20200918.2 (25 Sep 2020)
+
+  25 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200918.2.ebuild:
+  bump home-assistant-frontend-20200918.2
+
+*home-assistant-frontend-20200918.0 (19 Sep 2020)
+
+  19 Sep 2020; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20200220.5.ebuild,
+  -home-assistant-frontend-20200318.1.ebuild,
+  -home-assistant-frontend-20200407.2.ebuild,
+  -home-assistant-frontend-20200427.2.ebuild,
+  -home-assistant-frontend-20200807.1.ebuild,
+  -home-assistant-frontend-20200820.0.ebuild,
+  -home-assistant-frontend-20200824.0.ebuild,
+  -home-assistant-frontend-20200901.0.ebuild,
+  -home-assistant-frontend-20200904.0.ebuild,
+  -home-assistant-frontend-20200908.0.ebuild,
+  -home-assistant-frontend-20200909.0.ebuild,
+  +home-assistant-frontend-20200918.0.ebuild:
+  update home-assistant-frontend-20200918.0, remove olds
+
+*home-assistant-frontend-20200917.1 (18 Sep 2020)
+
+  18 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200917.1.ebuild:
+  bump home-assistant-frontend-20200917.1
+
+*home-assistant-frontend-20200916.0 (17 Sep 2020)
+
+  17 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200916.0.ebuild:
+  update homeassistant-0.115.0_beta12
+  bump frontend frontend-20200916.0
+  fix frontend deps in the older betas
+
+*home-assistant-frontend-20200915.0 (15 Sep 2020)
+
+  15 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200915.0.ebuild:
+  bump home-assistant-frontend-20200915.0
+
+*home-assistant-frontend-20200912.0 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200912.0.ebuild:
+  bump home-assistant-frontend-20200912.0
+
+*home-assistant-frontend-20200909.0 (10 Sep 2020)
+
+  10 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200909.0.ebuild:
+  bump home-assistant-frontend-20200909.0
+
+*home-assistant-frontend-20200908.0 (09 Sep 2020)
+
+  09 Sep 2020; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20200907.0.ebuild,
+  +home-assistant-frontend-20200908.0.ebuild:
+  bump home-assistant-frontend-20200908.0
+
+*home-assistant-frontend-20200907.0 (08 Sep 2020)
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200907.0.ebuild:
+  bump home-assistant-frontend-20200907.0
+
+*home-assistant-frontend-20200904.0 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net>
+  home-assistant-frontend-20200807.1.ebuild,
+  home-assistant-frontend-20200811.0.ebuild,
+  home-assistant-frontend-20200820.0.ebuild,
+  home-assistant-frontend-20200824.0.ebuild,
+  home-assistant-frontend-20200901.0.ebuild,
+  +home-assistant-frontend-20200904.0.ebuild:
+  bump home-assistant-frontend-20200904.0 (new EAPI=7 build)
+  rework the older home-assistant-frontend to EAPI=7 DEPS
+
+*home-assistant-frontend-20200901.0 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200901.0.ebuild:
+  home-assistant-frontend-20200901.0
+
+*home-assistant-frontend-20200824.0 (25 Aug 2020)
+
+  25 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200824.0.ebuild:
+  bump home-assistant-frontend-20200824.0
+
+*home-assistant-frontend-20200820.0 (24 Aug 2020)
+
+  24 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200820.0.ebuild:
+  bump home-assistant-frontend-20200820.0
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20200603.2.ebuild,
+  -home-assistant-frontend-20200626.1.ebuild,
+  -home-assistant-frontend-20200629.0.ebuild,
+  -home-assistant-frontend-20200701.0.ebuild,
+  -home-assistant-frontend-20200702.0.ebuild,
+  -home-assistant-frontend-20200714.0.ebuild,
+  -home-assistant-frontend-20200715.0.ebuild,
+  -home-assistant-frontend-20200715.1.ebuild,
+  -home-assistant-frontend-20200803.0.ebuild,
+  -home-assistant-frontend-20200805.0.ebuild:
+  remove obsolete frontends
+
+*home-assistant-frontend-20200811.0 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200811.0.ebuild:
+  bump home-assistant-frontend-20200811.0
+
+*home-assistant-frontend-20200807.1 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200807.1.ebuild:
+  bump home-assistant-frontend-20200807.1
+
+*home-assistant-frontend-20200805.0 (11 Aug 2020)
+
+  11 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200805.0.ebuild:
+  bump home-assistant-frontend-20200805.0
+
+*home-assistant-frontend-20200803.0 (10 Aug 2020)
+
+  10 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200803.0.ebuild:
+  bump home-assistant-frontend-20200803.0
+
+*home-assistant-frontend-20200716.0 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200716.0.ebuild:
+  bump home-assistant-frontend-20200716.0
+
+*home-assistant-frontend-20200715.1 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200715.1.ebuild:
+  bump home-assistant-frontend-20200715.1
+
+*home-assistant-frontend-20200715.0 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200715.0.ebuild:
+  bump home-assistant-frontend-20200715.0
+
+*home-assistant-frontend-20200714.0 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200714.0.ebuild:
+  bump home-assistant-frontend-20200714.0
+
+*home-assistant-frontend-20200702.1 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200702.1.ebuild:
+  bump home-assistant-frontend-20200702.1
+
+*home-assistant-frontend-20200702.0 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200702.0.ebuild:
+  bump home-assistant-frontend-20200702.0
+
+*home-assistant-frontend-20200701.0 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200701.0.ebuild:
+  bump home-assistant-frontend-20200701.0
+
+*home-assistant-frontend-20200629.0 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200629.0.ebuild:
+  bump home-assistant-frontend-20200629.0
+
+  28 Jun 2020; Andreas Billmeier <b@edevau.net>
+  -home-assistant-frontend-20200613.0.ebuild,
+  -home-assistant-frontend-20200617.0.ebuild,
+  -home-assistant-frontend-20200620.0.ebuild,
+  -home-assistant-frontend-20200623.2.ebuild,
+  -home-assistant-frontend-20200623.3.ebuild,
+  -home-assistant-frontend-20200626.0.ebuild:
+  * fix (moved) frontend dependencies
+  * remove oldies
+
+*home-assistant-frontend-20200626.1 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200626.1.ebuild:
+  bump home-assistant-frontend-20200626.1
+
+*home-assistant-frontend-20200626.0 (27 Jun 2020)
+*home-assistant-frontend-20200623.3 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200623.3.ebuild,
+  +home-assistant-frontend-20200626.0.ebuild:
+  bump home-assistant-frontend-20200626.0 and 23.3
+
+*home-assistant-frontend-20200623.2 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200623.2.ebuild:
+  bump home-assistant-frontend-20200623.2
+
+*home-assistant-frontend-20200620.0 (21 Jun 2020)
+
+  21 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200620.0.ebuild:
+  bump home-assistant-frontend-20200620.0
+
+*home-assistant-frontend-20200617.0 (21 Jun 2020)
+*home-assistant-frontend-20200613.0 (21 Jun 2020)
+*home-assistant-frontend-20200603.3 (21 Jun 2020)
+*home-assistant-frontend-20200603.2 (21 Jun 2020)
+*home-assistant-frontend-20200519.4 (21 Jun 2020)
+*home-assistant-frontend-20200427.2 (21 Jun 2020)
+*home-assistant-frontend-20200407.2 (21 Jun 2020)
+*home-assistant-frontend-20200318.1 (21 Jun 2020)
+*home-assistant-frontend-20200220.5 (21 Jun 2020)
+
+  21 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +home-assistant-frontend-20200220.5.ebuild,
+  +home-assistant-frontend-20200318.1.ebuild,
+  +home-assistant-frontend-20200407.2.ebuild,
+  +home-assistant-frontend-20200427.2.ebuild,
+  +home-assistant-frontend-20200519.4.ebuild,
+  +home-assistant-frontend-20200603.2.ebuild,
+  +home-assistant-frontend-20200603.3.ebuild,
+  +home-assistant-frontend-20200613.0.ebuild,
+  +home-assistant-frontend-20200617.0.ebuild, +metadata.xml:
+  move home-assistant-frontend to dev-python
+

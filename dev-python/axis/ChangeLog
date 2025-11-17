@@ -1,0 +1,321 @@
+# ChangeLog for dev-python/axis
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -axis-64.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*axis-65 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +axis-65.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  axis-64.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -axis-61.ebuild, -axis-62.ebuild, -axis-63.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -axis-61.ebuilde,
+  -axis-62.ebuilde, -axis-63.ebuilde, -axis-64.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +axis-61.ebuilde,
+  +axis-62.ebuilde, +axis-63.ebuilde, +axis-64.ebuilde:
+  Fix KEYWORDS
+
+*axis-64 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr> +axis-64.ebuild:
+  homeassistant 2025.1.1
+
+*axis-63 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> +axis-63.ebuild:
+  add 63
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3988
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-62 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -axis-48.ebuild,
+  -axis-58.ebuild, -axis-60.ebuild, axis-61.ebuild, +axis-62.ebuild:
+  add 62, drop olds
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3570
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> -axis-54.ebuild:
+  drop 54
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-61 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +axis-61.ebuild:
+  add 61
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3198
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> -axis-50.ebuild:
+  drop 50
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-60 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +axis-60.ebuild:
+  add 60
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3169
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-58 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> +axis-58.ebuild:
+  add 58
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3082
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-54 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> +axis-54.ebuild:
+  add 54
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3057
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-50 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> axis-48.ebuild,
+  +axis-50.ebuild:
+  add 50
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2943
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -axis-47.ebuild:
+  drop 47
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-48 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net> +axis-48.ebuild:
+  add 48
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -axis-44.ebuild,
+  -axis-46.ebuild:
+  drop 44, 46
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> axis-44.ebuild,
+  axis-46.ebuild, axis-47.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-47 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +axis-47.ebuild:
+  add 47
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*axis-46 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> +axis-46.ebuild:
+  add 46
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> axis-44.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> axis-44.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -axis-43.ebuild,
+  axis-44.ebuild:
+  remove olds, cleanup, enable pytest
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> axis-44.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> axis-43.ebuild,
+  axis-44.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  19 Feb 2022; Andreas Billmeier <b@edevau.net> -axis-40.ebuild,
+  -axis-41.ebuild, -axis-42.ebuild, axis-43.ebuild, axis-44.ebuild:
+  cleanup axis-44
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> axis-44.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+*axis-44 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> -axis-39.ebuild,
+  +axis-44.ebuild:
+  bump axis-44
+
+*axis-43 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -axis-37.ebuild,
+  +axis-43.ebuild:
+  bump axis-43
+
+*axis-42 (19 Jan 2021)
+
+  19 Jan 2021; Andreas Billmeier <b@edevau.net> -axis-35.ebuild,
+  +axis-42.ebuild:
+  bump axis-42
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> axis-35.ebuild, axis-37.ebuild,
+  axis-39.ebuild, axis-40.ebuild, axis-41.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*axis-41 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net> -axis-32.ebuild,
+  -axis-33.ebuild, +axis-41.ebuild:
+  bump axis-41
+
+*axis-39 (20 Oct 2020)
+
+  20 Oct 2020; Andreas Billmeier <b@edevau.net> -axis-31.ebuild,
+  +axis-39.ebuild:
+  update axis-39, bump axis-40
+
+*axis-40 (20 Oct 2020)
+
+  20 Oct 2020; Andreas Billmeier <b@edevau.net> -axis-29.ebuild,
+  -axis-30.ebuild, +axis-40.ebuild:
+  update axis-40
+
+*axis-37 (25 Sep 2020)
+
+  25 Sep 2020; Andreas Billmeier <b@edevau.net> +axis-37.ebuild:
+  bump axis-37
+
+*axis-35 (07 Sep 2020)
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> +axis-35.ebuild:
+  update axis-35
+
+*axis-33 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net> -axis-28.ebuild,
+  +axis-33.ebuild:
+  bump axis-33
+
+  20 Jun 2020; Andreas Billmeier <b@edevau.net> axis-31.ebuild,
+  axis-32.ebuild:
+  fix typo in axis-3[1,2] ebuilds
+
+*axis-32 (20 Jun 2020)
+
+  20 Jun 2020; Andreas Billmeier <b@edevau.net> -axis-27.ebuild,
+  +axis-32.ebuild:
+  bump axis-32
+
+*axis-31 (20 Jun 2020)
+
+  20 Jun 2020; Andreas Billmeier <b@edevau.net> -axis-26.ebuild,
+  +axis-31.ebuild:
+  bump axis-31
+
+*axis-30 (14 Jun 2020)
+
+  14 Jun 2020; Andreas Billmeier <b@edevau.net> -axis-25.ebuild,
+  +axis-30.ebuild:
+  bump axis-30
+
+*axis-29 (07 Jun 2020)
+
+  07 Jun 2020; Andreas Billmeier <b@edevau.net> -axis-24.ebuild,
+  +axis-29.ebuild:
+  bump axis-29
+
+*axis-28 (01 Jun 2020)
+
+  01 Jun 2020; Andreas Billmeier <b@edevau.net> +axis-28.ebuild:
+  bump axis-28
+
+*axis-27 (27 May 2020)
+
+  27 May 2020; Andreas Billmeier <b@edevau.net> -axis-22.ebuild,
+  -axis-23.ebuild, +axis-27.ebuild:
+  update axis-27
+
+*axis-26 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +axis-26.ebuild:
+  bump axis-26
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -axis-20.ebuild:
+  clean up, romove olds
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> axis-24.ebuild,
+  axis-25.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> axis-20.ebuild,
+  axis-22.ebuild, axis-23.ebuild, axis-24.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> axis-25.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> axis-20.ebuild,
+  axis-22.ebuild, axis-23.ebuild, axis-24.ebuild, axis-25.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*axis-25 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net> -axis-19.ebuild,
+  +axis-25.ebuild:
+  bump axis-25
+
+*axis-24 (02 Jun 2019)
+
+  02 Jun 2019; Andreas Billmeier <b@edevau.net> +axis-24.ebuild:
+  bump axis-24
+
+*axis-23 (22 May 2019)
+
+  22 May 2019; Andreas Billmeier <b@edevau.net> +axis-23.ebuild:
+  axis-23
+
+*axis-22 (20 Apr 2019)
+*axis-20 (20 Apr 2019)
+*axis-19 (20 Apr 2019)
+
+  20 Apr 2019; Andreas Billmeier <b@edevau.net> +axis-19.ebuild,
+  +axis-20.ebuild, +axis-22.ebuild, +metadata.xml:
+  add axis
+

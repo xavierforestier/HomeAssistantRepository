@@ -1,0 +1,56 @@
+# ChangeLog for dev-python/airtouch5py
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -airtouch5py-0.2.11.ebuild:
+  Cleansing
+
+*airtouch5py-0.3.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +airtouch5py-0.3.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  airtouch5py-0.2.11.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -airtouch5py-0.2.8.ebuild, -airtouch5py-0.2.10.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -airtouch5py-0.2.10.ebuilde, -airtouch5py-0.2.11.ebuilde,
+  -airtouch5py-0.2.8.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +airtouch5py-0.2.10.ebuilde, +airtouch5py-0.2.11.ebuilde,
+  +airtouch5py-0.2.8.ebuilde:
+  Fix KEYWORDS
+
+*airtouch5py-0.2.11 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +airtouch5py-0.2.11.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*airtouch5py-0.2.10 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> airtouch5py-0.2.8.ebuild,
+  +airtouch5py-0.2.10.ebuild:
+  add 0.2.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3542
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airtouch5py-0.2.8 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +airtouch5py-0.2.8.ebuild,
+  +metadata.xml:
+  new package, add 0.2.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2742
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

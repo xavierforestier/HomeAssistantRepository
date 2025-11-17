@@ -1,0 +1,58 @@
+# ChangeLog for dev-python/myuplink
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  myuplink-0.7.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -myuplink-0.0.9.ebuild, -myuplink-0.5.0.ebuild, -myuplink-0.6.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -myuplink-0.0.9.ebuilde, -myuplink-0.5.0.ebuilde, -myuplink-0.6.0.ebuilde,
+  -myuplink-0.7.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +myuplink-0.0.9.ebuilde, +myuplink-0.5.0.ebuilde, +myuplink-0.6.0.ebuilde,
+  +myuplink-0.7.0.ebuilde:
+  Fix KEYWORDS
+
+*myuplink-0.7.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +myuplink-0.7.0.ebuild:
+  homeassisstant-2025.2.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  myuplink-0.6.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*myuplink-0.6.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +myuplink-0.6.0.ebuild:
+  add 0.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3184
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*myuplink-0.5.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> myuplink-0.0.9.ebuild,
+  +myuplink-0.5.0.ebuild:
+  add 0.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3000
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*myuplink-0.0.9 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +myuplink-0.0.9.ebuild:
+  new package, add 0.0.9
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2827
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/systembridgecli
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, systembridgecli-4.0.5.ebuild:
+  pkcheck
+
+*systembridgecli-4.0.5 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/requirements.patch, +systembridgecli-4.0.5.ebuild:
+  app-misc/homeassistant 2025.9.0
+

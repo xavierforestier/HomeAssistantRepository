@@ -1,0 +1,108 @@
+# ChangeLog for dev-python/croniter
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  croniter-6.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*croniter-6.0.0 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -croniter-1.0.6.ebuild, -croniter-2.0.2.ebuild, +croniter-6.0.0.ebuild:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -croniter-1.0.6.ebuilde, -croniter-2.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +croniter-1.0.6.ebuilde, +croniter-2.0.2.ebuilde:
+  Fix KEYWORDS
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -croniter-1.0.9.ebuild:
+  drop 1.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*croniter-2.0.2 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +croniter-2.0.2.ebuild:
+  add 2.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3191
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*croniter-1.0.9 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild,
+  +croniter-1.0.9.ebuild:
+  add 1.0.9 (as replacement for 1.0.6 which still has RDEP to dev-
+  python/future)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -croniter-0.3.34.ebuild,
+  croniter-1.0.6.ebuild:
+  remove olds, cleanup, enable pytest
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild:
+  fix all open uri.https
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> croniter-0.3.34.ebuild,
+  croniter-1.0.6.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> croniter-0.3.34.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  07 Sep 2021; Andreas Billmeier <b@edevau.net> croniter-1.0.6.ebuild:
+  add natsor dep to croniter-1.0.6
+
+*croniter-1.0.6 (07 Sep 2021)
+
+  07 Sep 2021; Andreas Billmeier <b@edevau.net> -croniter-0.3.32.ebuild,
+  croniter-0.3.34.ebuild, +croniter-1.0.6.ebuild:
+  update croniter-1.0.6
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> croniter-0.3.32.ebuild,
+  croniter-0.3.34.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  26 Aug 2020; Andreas Billmeier <b@edevau.net> croniter-0.3.32.ebuild,
+  croniter-0.3.34.ebuild:
+  update RDEPEND in dev-python/croniter
+
+*croniter-0.3.34 (25 Aug 2020)
+*croniter-0.3.32 (25 Aug 2020)
+
+  25 Aug 2020; Andreas Billmeier <b@edevau.net> +croniter-0.3.32.ebuild,
+  +croniter-0.3.34.ebuild, +metadata.xml:
+  bump croniter-0.3.3[2,4]
+

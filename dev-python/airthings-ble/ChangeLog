@@ -1,0 +1,127 @@
+# ChangeLog for dev-python/airthings-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*airthings-ble-1.2.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +airthings-ble-1.2.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  airthings-ble-0.9.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -airthings-ble-0.7.1.ebuild, -airthings-ble-0.9.0.ebuild,
+  -airthings-ble-0.9.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -airthings-ble-0.7.1.ebuilde, -airthings-ble-0.9.0.ebuilde,
+  -airthings-ble-0.9.1.ebuilde, -airthings-ble-0.9.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +airthings-ble-0.7.1.ebuilde, +airthings-ble-0.9.0.ebuilde,
+  +airthings-ble-0.9.1.ebuilde, +airthings-ble-0.9.2.ebuilde:
+  Fix KEYWORDS
+
+*airthings-ble-0.9.2 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +airthings-ble-0.9.2.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*airthings-ble-0.9.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +airthings-ble-0.9.1.ebuild:
+  add 0.9.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3541
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airthings-ble-0.9.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> airthings-ble-0.7.1.ebuild,
+  +airthings-ble-0.9.0.ebuild:
+  add 0.9.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3318
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -airthings-ble-0.6.1.ebuild:
+  drop 0.6.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airthings-ble-0.7.1 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> -airthings-ble-0.6.0.ebuild,
+  airthings-ble-0.6.1.ebuild, +airthings-ble-0.7.1.ebuild:
+  drop 0.6.0, add 0.7.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3056
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airthings-ble-0.6.1 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +airthings-ble-0.6.1.ebuild:
+  add 0.6.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2740
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airthings-ble-0.6.0 (03 Feb 2024)
+
+  03 Feb 2024; Andreas Billmeier <b@edevau.net> +airthings-ble-0.6.0.ebuild,
+  +metadata.xml:
+  add airthings-ble-0.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2733
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -airthings-ble-0.5.2.ebuild,
+  -airthings-ble-0.5.3.ebuild, -airthings-ble-0.5.6.ebuild, -metadata.xml:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airthings-ble-0.5.6 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +airthings-ble-0.5.6.ebuild:
+  add 0.5.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> airthings-ble-0.5.2.ebuild,
+  airthings-ble-0.5.3.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> airthings-ble-0.5.2.ebuild,
+  airthings-ble-0.5.3.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airthings-ble-0.5.3 (17 Nov 2022)
+
+  17 Nov 2022; Andreas Billmeier <b@edevau.net> airthings-ble-0.5.2.ebuild,
+  +airthings-ble-0.5.3.ebuild:
+  update 0.5.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*airthings-ble-0.5.2 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +airthings-ble-0.5.2.ebuild,
+  +metadata.xml:
+  add airthings-ble-0.5.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

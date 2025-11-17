@@ -1,0 +1,65 @@
+# ChangeLog for dev-python/dicttoxml
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dicttoxml-1.7.16.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dicttoxml-1.7.16.ebuild, +metadata.xml:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -dicttoxml-1.7.16.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  dicttoxml-1.7.16.ebuild, +dicttoxml-1.7.16.ebuilde:
+  Fix KEYWORDS
+
+*dicttoxml-1.7.16 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dicttoxml-1.7.16.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -dicttoxml-1.7.4-r4.ebuild,
+  -files/dicttoxml-1.7.4-py3.10.patch, -metadata.xml:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  07 Jan 2024; Andreas Billmeier <b@edevau.net> dicttoxml-1.7.4-r4.ebuild:
+  fix EmptyGlobalAssignment
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> dicttoxml-1.7.4-r4.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> dicttoxml-1.7.4-r4.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> dicttoxml-1.7.4-r4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  21 Jul 2022; Andreas Billmeier <b@edevau.net> dicttoxml-1.7.4-r4.ebuild:
+  fix incorrect LICENSE in dicttoxml and dicttoxml2
+
+*dicttoxml-1.7.4-r4 (20 Jun 2022)
+
+  20 Jun 2022; Andreas Billmeier <b@edevau.net> +dicttoxml-1.7.4-r4.ebuild,
+  +files/dicttoxml-1.7.4-py3.10.patch, +metadata.xml:
+  re-add icttoxml-1.7.4Â
+

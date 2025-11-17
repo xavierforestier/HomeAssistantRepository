@@ -1,0 +1,27 @@
+# ChangeLog for net-analyzer/scapy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  scapy-2.6.1.ebuild:
+  Fixes
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, scapy-2.6.1.ebuild:
+  Fix for pkgcheck
+
+  12 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> scapy-2.6.1.ebuild:
+  fix CI-CD
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> scapy-2.6.1.ebuild:
+  spellcheck
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> scapy-2.6.1.ebuild:
+  spellcheck
+
+*scapy-2.6.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +scapy-2.6.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+

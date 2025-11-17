@@ -1,0 +1,125 @@
+# ChangeLog for dev-python/aio-georss-gdacs
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aio-georss-gdacs-0.10.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aio-georss-gdacs-0.9.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aio-georss-gdacs-0.10.ebuilde, -aio-georss-gdacs-0.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aio-georss-gdacs-0.10.ebuilde, +aio-georss-gdacs-0.9.ebuilde:
+  Fix KEYWORDS
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -aio-georss-gdacs-0.8.ebuild:
+  drop 0.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aio-georss-gdacs-0.10 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.8.ebuild,
+  aio-georss-gdacs-0.9.ebuild, +aio-georss-gdacs-0.10.ebuild:
+  add 0.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3855
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aio-georss-gdacs-0.9 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> +aio-georss-gdacs-0.9.ebuild:
+  add 0.9
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2910
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.8.ebuild:
+  add 0.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2787
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> -aio-georss-gdacs-0.7.ebuild:
+  drop 0.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.7.ebuild,
+  aio-georss-gdacs-0.8.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aio-georss-gdacs-0.8 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +aio-georss-gdacs-0.8.ebuild:
+  add 0.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.7.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.7.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -aio-georss-gdacs-0.5.ebuild,
+  aio-georss-gdacs-0.7.ebuild:
+  cleanup aio-geo* stuff
+
+*aio-georss-gdacs-0.7 (12 Apr 2022)
+
+  12 Apr 2022; Andreas Billmeier <b@edevau.net> +aio-georss-gdacs-0.7.ebuild:
+  bump aio-georss-gdacs-0.7
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> -aio-georss-gdacs-0.3.ebuild,
+  -aio-georss-gdacs-0.4.ebuild, aio-georss-gdacs-0.5.ebuild:
+  fix more RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.3.ebuild,
+  aio-georss-gdacs-0.4.ebuild, aio-georss-gdacs-0.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.5.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aio-georss-gdacs-0.5 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +aio-georss-gdacs-0.5.ebuild:
+  update aio-georss-gdacs-0.5
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aio-georss-gdacs-0.3.ebuild,
+  aio-georss-gdacs-0.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aio-georss-gdacs-0.4 (09 Nov 2020)
+
+  09 Nov 2020; Andreas Billmeier <b@edevau.net> +aio-georss-gdacs-0.4.ebuild:
+  update  aio-georss-gdacs-0.4
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.3.ebuild:
+  fix aio-georss-gdacs-0.3
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aio-georss-gdacs-0.3.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+*aio-georss-gdacs-0.3 (06 Feb 2020)
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> +aio-georss-gdacs-0.3.ebuild,
+  +metadata.xml:
+  add aio-georss-gdacs-0.3
+

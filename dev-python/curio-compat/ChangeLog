@@ -1,0 +1,31 @@
+# ChangeLog for dev-python/curio-compat
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  curio-compat-1.6.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  curio-compat-1.6.7.ebuild, +metadata.xml:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -curio-compat-1.6.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  curio-compat-1.6.7.ebuild, +curio-compat-1.6.7.ebuilde:
+  Fix KEYWORDS
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  curio-compat-1.6.7.ebuild:
+  Fix deps issues for homeassistant-full-2024.10.2
+
+*curio-compat-1.6.7 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +curio-compat-1.6.7.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

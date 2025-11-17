@@ -1,0 +1,141 @@
+# ChangeLog for dev-python/insteon-frontend-home-assistant
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  insteon-frontend-home-assistant-0.5.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -insteon-frontend-home-assistant-0.4.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -insteon-frontend-home-assistant-0.4.0.ebuilde,
+  -insteon-frontend-home-assistant-0.5.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +insteon-frontend-home-assistant-0.4.0.ebuilde,
+  +insteon-frontend-home-assistant-0.5.0.ebuilde:
+  Fix KEYWORDS
+
+*insteon-frontend-home-assistant-0.5.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  insteon-frontend-home-assistant-0.4.0.ebuild,
+  +insteon-frontend-home-assistant-0.5.0.ebuild:
+  add 0.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3276
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -insteon-frontend-home-assistant-0.3.4.ebuild,
+  -insteon-frontend-home-assistant-0.3.5.ebuild:
+  drop 0.3.4, 0.3.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  insteon-frontend-home-assistant-0.4.0.ebuild:
+  fix SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*insteon-frontend-home-assistant-0.4.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +insteon-frontend-home-assistant-0.4.0.ebuild, metadata.xml:
+  add 0.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*insteon-frontend-home-assistant-0.3.5 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net>
+  -insteon-frontend-home-assistant-0.2.0.ebuild,
+  -insteon-frontend-home-assistant-0.3.3.ebuild,
+  insteon-frontend-home-assistant-0.3.4.ebuild,
+  +insteon-frontend-home-assistant-0.3.5.ebuild:
+  add 0.3.5, update 0.3.4, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net>
+  insteon-frontend-home-assistant-0.2.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*insteon-frontend-home-assistant-0.3.4 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net>
+  -insteon-frontend-home-assistant-0.3.2.ebuild,
+  +insteon-frontend-home-assistant-0.3.4.ebuild:
+  add 0.3.4, drop 0.3.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Mar 2023; Andreas Billmeier <b@edevau.net>
+  insteon-frontend-home-assistant-0.3.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*insteon-frontend-home-assistant-0.3.3 (09 Mar 2023)
+
+  09 Mar 2023; Andreas Billmeier <b@edevau.net>
+  +insteon-frontend-home-assistant-0.3.3.ebuild:
+  add 0.3.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*insteon-frontend-home-assistant-0.3.2 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net>
+  +insteon-frontend-home-assistant-0.3.2.ebuild, metadata.xml:
+  add 0.3.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  insteon-frontend-home-assistant-0.2.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  insteon-frontend-home-assistant-0.2.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -insteon-frontend-home-assistant-0.1.0.ebuild,
+  -insteon-frontend-home-assistant-0.1.1.ebuild,
+  insteon-frontend-home-assistant-0.2.0.ebuild:
+  rework, remove olds
+
+*insteon-frontend-home-assistant-0.2.0 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net>
+  +insteon-frontend-home-assistant-0.2.0.ebuild:
+  bump insteon-frontend-home-assistant-0.2.0
+
+*insteon-frontend-home-assistant-0.1.1 (22 Jun 2022)
+
+  22 Jun 2022; Andreas Billmeier <b@edevau.net>
+  insteon-frontend-home-assistant-0.1.0.ebuild,
+  +insteon-frontend-home-assistant-0.1.1.ebuild:
+  bump insteon-frontend-home-assistant-0.1.1
+
+*insteon-frontend-home-assistant-0.1.0 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +insteon-frontend-home-assistant-0.1.0.ebuild, +metadata.xml:
+  add insteon-frontend-home-assistant-0.1.0
+

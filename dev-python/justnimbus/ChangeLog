@@ -1,0 +1,59 @@
+# ChangeLog for dev-python/justnimbus
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  justnimbus-0.7.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -justnimbus-0.6.0.ebuild, -justnimbus-0.7.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -justnimbus-0.6.0.ebuilde, -justnimbus-0.7.3.ebuilde,
+  -justnimbus-0.7.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +justnimbus-0.6.0.ebuilde, +justnimbus-0.7.3.ebuilde,
+  +justnimbus-0.7.4.ebuilde:
+  Fix KEYWORDS
+
+*justnimbus-0.7.4 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> justnimbus-0.6.0.ebuild,
+  justnimbus-0.7.3.ebuild, +justnimbus-0.7.4.ebuild:
+  add 0.7.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3668
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*justnimbus-0.7.3 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> justnimbus-0.6.0.ebuild,
+  +justnimbus-0.7.3.ebuild, metadata.xml:
+  add 0.7.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2808
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  19 Jun 2023; Andreas Billmeier <b@edevau.net> justnimbus-0.6.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> justnimbus-0.6.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> justnimbus-0.6.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*justnimbus-0.6.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +justnimbus-0.6.0.ebuild,
+  +metadata.xml:
+  add justnimbus-0.6.0
+

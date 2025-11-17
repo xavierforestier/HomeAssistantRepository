@@ -1,0 +1,517 @@
+# ChangeLog for dev-python/xknx
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*xknx-3.10.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +xknx-3.10.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -xknx-3.8.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*xknx-3.9.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +xknx-3.9.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -xknx-3.6.0.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*xknx-3.8.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +xknx-3.8.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  xknx-3.6.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -xknx-2.12.2.ebuild, -xknx-3.1.1.ebuild, -xknx-3.2.0.ebuild,
+  -xknx-3.3.0.ebuild, -xknx-3.4.0.ebuild, -xknx-3.5.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -xknx-2.12.2.ebuilde, -xknx-3.1.1.ebuilde, -xknx-3.2.0.ebuilde,
+  -xknx-3.3.0.ebuilde, -xknx-3.4.0.ebuilde, -xknx-3.5.0.ebuilde,
+  -xknx-3.6.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xknx-2.12.2.ebuilde, +xknx-3.1.1.ebuilde, +xknx-3.2.0.ebuilde,
+  +xknx-3.3.0.ebuilde, +xknx-3.4.0.ebuilde, +xknx-3.5.0.ebuilde,
+  +xknx-3.6.0.ebuilde:
+  Fix KEYWORDS
+
+*xknx-3.6.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr> +xknx-3.6.0.ebuild:
+  homeassistant 2025.3.0
+
+*xknx-3.5.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr> +xknx-3.5.0.ebuild:
+  homeassisstant-2025.2.0
+
+*xknx-3.4.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr> +xknx-3.4.0.ebuild:
+  homeassistant 2025.1.1
+
+*xknx-3.3.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> xknx-3.1.1.ebuild,
+  +xknx-3.3.0.ebuild:
+  add 3.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4033
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> -xknx-2.11.2.ebuild,
+  -xknx-2.12.0.ebuild:
+  drop 2.11.2, 2.12.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-3.2.0 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> xknx-2.11.2.ebuild,
+  xknx-2.12.0.ebuild, xknx-2.12.2.ebuild, +xknx-3.2.0.ebuild:
+  add 3.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3954
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-3.1.1 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> +xknx-3.1.1.ebuild:
+  homeassistant 2024.9.3
+
+*xknx-3.2.0 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> +xknx-3.2.0.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*xknx-2.12.2 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> xknx-2.11.2.ebuild,
+  xknx-2.12.0.ebuild, +xknx-2.12.2.ebuild:
+  add 2.12.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2989
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-2.12.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> xknx-2.11.2.ebuild,
+  +xknx-2.12.0.ebuild:
+  add 2.12.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2811
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2894
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -xknx-2.7.0.ebuild,
+  -xknx-2.11.1.ebuild:
+  drop 2.7.0, 2.11.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-2.11.2 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  xknx-2.7.0.ebuild, xknx-2.11.1.ebuild, +xknx-2.11.2.ebuild:
+  add 2.11.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-2.11.1 (03 Oct 2023)
+
+  03 Oct 2023; Andreas Billmeier <b@edevau.net> -xknx-1.2.0.ebuild,
+  -xknx-2.3.0.ebuild, -xknx-2.6.0.ebuild, +xknx-2.11.1.ebuild:
+  add 2.11.1
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> xknx-1.2.0.ebuild,
+  xknx-2.3.0.ebuild, xknx-2.6.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-2.7.0 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net> -xknx-2.1.0.ebuild,
+  -xknx-2.2.0.ebuild, +xknx-2.7.0.ebuild:
+  add 2.7.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-2.6.0 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +xknx-2.6.0.ebuild:
+  add 2.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-2.3.0 (05 Feb 2023)
+
+  05 Feb 2023; Andreas Billmeier <b@edevau.net> -xknx-1.2.1.ebuild,
+  +xknx-2.3.0.ebuild:
+  add 2.3.0, drop 1.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> xknx-1.2.0.ebuild,
+  xknx-1.2.1.ebuild, xknx-2.1.0.ebuild, xknx-2.2.0.ebuild:
+  remove Python 3.8 Support tag
+
+*xknx-2.2.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -xknx-1.0.2.ebuild,
+  -xknx-1.1.0.ebuild, +xknx-2.2.0.ebuild:
+  dop olds, bump 2.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-2.1.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +xknx-2.1.0.ebuild:
+  add 2.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-1.2.1 (21 Nov 2022)
+
+  21 Nov 2022; Andreas Billmeier <b@edevau.net> -xknx-1.0.1.ebuild,
+  xknx-1.0.2.ebuild, xknx-1.1.0.ebuild, xknx-1.2.0.ebuild, +xknx-1.2.1.ebuild:
+  PEP517, add 1.2.1, drop 1.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xknx-1.2.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +xknx-1.2.0.ebuild:
+  add 1.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> xknx-1.0.1.ebuild,
+  xknx-1.0.2.ebuild, xknx-1.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -xknx-0.21.5.ebuild:
+  remove olds
+
+*xknx-1.1.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> -xknx-1.0.0.ebuild,
+  +xknx-1.1.0.ebuild:
+  bump xknx-1.1.0
+
+*xknx-1.0.2 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -xknx-0.21.3.ebuild,
+  +xknx-1.0.2.ebuild:
+  bump xknx-1.0.2
+
+*xknx-1.0.1 (26 Aug 2022)
+
+  26 Aug 2022; Andreas Billmeier <b@edevau.net> -xknx-0.22.1.ebuild,
+  +xknx-1.0.1.ebuild:
+  bump xknx-1.0.1
+
+*xknx-1.0.0 (16 Aug 2022)
+
+  16 Aug 2022; Andreas Billmeier <b@edevau.net> +xknx-1.0.0.ebuild:
+  bump xknx-1.0.0
+
+*xknx-0.22.1 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -xknx-0.21.2.ebuild,
+  xknx-0.21.3.ebuild, xknx-0.21.5.ebuild, +xknx-0.22.1.ebuild:
+  bump xknx-0.22.1
+
+*xknx-0.21.5 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -xknx-0.19.2.ebuild,
+  -xknx-0.20.4.ebuild, xknx-0.21.2.ebuild, xknx-0.21.3.ebuild,
+  +xknx-0.21.5.ebuild:
+  bump xknx-0.21.5
+
+*xknx-0.21.3 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> -xknx-0.20.3.ebuild,
+  +xknx-0.21.3.ebuild:
+  bump xknx-0.21.3
+
+*xknx-0.21.2 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> +xknx-0.21.2.ebuild:
+  bump xknx-0.21.2
+
+*xknx-0.20.4 (25 Apr 2022)
+
+  25 Apr 2022; Andreas Billmeier <b@edevau.net> -xknx-0.20.2.ebuild,
+  +xknx-0.20.4.ebuild:
+  bump xknx-0.20.4
+
+*xknx-0.20.3 (17 Apr 2022)
+
+  17 Apr 2022; Andreas Billmeier <b@edevau.net> -xknx-0.20.1.ebuild,
+  +xknx-0.20.3.ebuild:
+  bump xknx-0.20.3
+
+*xknx-0.20.2 (13 Apr 2022)
+
+  13 Apr 2022; Andreas Billmeier <b@edevau.net> -xknx-0.20.0.ebuild,
+  +xknx-0.20.2.ebuild:
+  update xknx-0.20.2
+
+*xknx-0.20.1 (06 Apr 2022)
+
+  06 Apr 2022; Andreas Billmeier <b@edevau.net> xknx-0.19.2.ebuild,
+  xknx-0.20.0.ebuild, +xknx-0.20.1.ebuild:
+  bump xknx-0.20.1
+
+*xknx-0.20.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -xknx-0.18.11.ebuild,
+  -xknx-0.18.15.ebuild, -xknx-0.19.1.ebuild, xknx-0.19.2.ebuild,
+  +xknx-0.20.0.ebuild:
+  update xknx-0.20.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> xknx-0.18.11.ebuild,
+  xknx-0.18.15.ebuild, xknx-0.19.1.ebuild, xknx-0.19.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*xknx-0.19.2 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -xknx-0.18.9.ebuild,
+  -xknx-0.19.0.ebuild, +xknx-0.19.2.ebuild:
+  bump xknx-0.19.2
+
+*xknx-0.19.1 (31 Jan 2022)
+
+  31 Jan 2022; Andreas Billmeier <b@edevau.net> +xknx-0.19.1.ebuild:
+  bump xknx-0.19.1
+
+*xknx-0.19.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -xknx-0.18.13.ebuild,
+  -xknx-0.18.14.ebuild, +xknx-0.19.0.ebuild:
+  bump xknx-0.19.0
+
+*xknx-0.18.15 (25 Dec 2021)
+
+  25 Dec 2021; Andreas Billmeier <b@edevau.net> +xknx-0.18.15.ebuild:
+  bump xknx-0.18.15
+
+*xknx-0.18.14 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> xknx-0.18.9.ebuild,
+  xknx-0.18.11.ebuild, xknx-0.18.13.ebuild, +xknx-0.18.14.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*xknx-0.18.13 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -xknx-0.17.1.ebuild,
+  -xknx-0.17.5.ebuild, -xknx-0.18.1.ebuild, -xknx-0.18.2.ebuild,
+  -xknx-0.18.4.ebuild, -xknx-0.18.8.ebuild, +xknx-0.18.13.ebuild:
+  bump xknx-0.18.13
+
+*xknx-0.18.11 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +xknx-0.18.11.ebuild:
+  bump xknx-0.18.11
+
+*xknx-0.18.9 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +xknx-0.18.9.ebuild:
+  update xknx-0.18.9
+
+*xknx-0.18.8 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +xknx-0.18.8.ebuild:
+  update xknx-0.18.8
+
+*xknx-0.18.4 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +xknx-0.18.4.ebuild:
+  bump xknx-0.18.4
+
+*xknx-0.18.2 (12 Jun 2021)
+*xknx-0.17.1 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +xknx-0.17.1.ebuild,
+  -xknx-0.17.2.ebuild, -xknx-0.17.3.ebuild, -xknx-0.17.4.ebuild,
+  +xknx-0.18.2.ebuild:
+  update xknx-0.18.2
+
+*xknx-0.18.1 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> -xknx-0.17.0.ebuild,
+  -xknx-0.17.1.ebuild, +xknx-0.18.1.ebuild:
+  bump xknx-0.18.1
+
+*xknx-0.17.5 (04 Apr 2021)
+*xknx-0.17.4 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> -xknx-0.16.2.ebuild,
+  -xknx-0.16.3.ebuild, +xknx-0.17.4.ebuild, +xknx-0.17.5.ebuild:
+  bump xknx-0.17.4, xknx-0.17.5
+
+*xknx-0.17.3 (20 Mar 2021)
+
+  20 Mar 2021; Andreas Billmeier <b@edevau.net> -xknx-0.16.1.ebuild,
+  +xknx-0.17.3.ebuild:
+  bump xknx-0.17.3
+
+*xknx-0.17.2 (14 Mar 2021)
+*xknx-0.17.1 (14 Mar 2021)
+*xknx-0.17.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -xknx-0.15.6.ebuild,
+  -xknx-0.16.0.ebuild, +xknx-0.17.0.ebuild, +xknx-0.17.1.ebuild,
+  +xknx-0.17.2.ebuild:
+  bump xknx-0.17.0, xknx-0.17.1, xknx-0.17.2
+
+*xknx-0.16.3 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net> -xknx-0.15.4.ebuild,
+  +xknx-0.16.3.ebuild:
+  bump xknx-0.16.3
+
+*xknx-0.16.2 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -xknx-0.15.3.ebuild,
+  +xknx-0.16.2.ebuild:
+  update xknx-0.16.2
+
+*xknx-0.16.1 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> -xknx-0.15.0-r1.ebuild,
+  +xknx-0.16.1.ebuild:
+  bump xknx-0.16.1
+
+*xknx-0.16.0 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -xknx-0.14.4.ebuild,
+  +xknx-0.16.0.ebuild:
+  update xknx-0.16.0
+
+*xknx-0.15.6 (28 Nov 2020)
+
+  28 Nov 2020; Andreas Billmeier <b@edevau.net> -xknx-0.14.3.ebuild,
+  +xknx-0.15.6.ebuild:
+  bump xknx-0.15.6
+
+*xknx-0.15.4 (25 Nov 2020)
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> -xknx-0.14.2.ebuild,
+  -xknx-0.15.0.ebuild, +xknx-0.15.4.ebuild:
+  bump xknx-0.15.4
+
+*xknx-0.15.3 (14 Nov 2020)
+
+  14 Nov 2020; Andreas Billmeier <b@edevau.net> -xknx-0.13.0.ebuild,
+  +xknx-0.15.3.ebuild:
+  bump xknx-0.15.3
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> xknx-0.13.0.ebuild,
+  xknx-0.14.2.ebuild, xknx-0.14.3.ebuild, xknx-0.14.4.ebuild,
+  xknx-0.15.0.ebuild, xknx-0.15.0-r1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*xknx-0.15.0-r1 (07 Nov 2020)
+
+  07 Nov 2020; Andreas Billmeier <b@edevau.net> -xknx-0.11.2.ebuild,
+  -xknx-0.11.3.ebuild, -xknx-0.12.0.ebuild, +xknx-0.15.0-r1.ebuild:
+  update xknx-0.15.0-r1 (add a dep for standalone installation)
+
+*xknx-0.15.0 (30 Sep 2020)
+
+  30 Sep 2020; Andreas Billmeier <b@edevau.net> +xknx-0.15.0.ebuild:
+  bump xknx-0.15.0
+
+*xknx-0.14.4 (23 Sep 2020)
+
+  23 Sep 2020; Andreas Billmeier <b@edevau.net> +xknx-0.14.4.ebuild:
+  bump xknx-0.14.4
+
+*xknx-0.14.3 (23 Sep 2020)
+
+  23 Sep 2020; Andreas Billmeier <b@edevau.net> +xknx-0.14.3.ebuild:
+  bump xknx-0.14.3
+
+*xknx-0.14.2 (21 Sep 2020)
+
+  21 Sep 2020; Andreas Billmeier <b@edevau.net> -xknx-0.10.0.ebuild,
+  -xknx-0.11.1.ebuild, +xknx-0.14.2.ebuild:
+  bump xknx-0.14.2
+
+*xknx-0.13.0 (01 Sep 2020)
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> +xknx-0.13.0.ebuild:
+  bump xknx-0.13.0
+
+*xknx-0.12.0 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> xknx-0.11.2.ebuild,
+  xknx-0.11.3.ebuild, +xknx-0.12.0.ebuild:
+  update xknx-0.12.0
+
+  29 May 2020; Andreas Billmeier <b@edevau.net> xknx-0.10.0.ebuild,
+  xknx-0.11.1.ebuild, xknx-0.11.2.ebuild, xknx-0.11.3.ebuild:
+  fix netifaces version typo in xknx
+
+*xknx-0.11.3 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +xknx-0.11.3.ebuild:
+  bump xknx-0.11.3
+
+  02 May 2020; Andreas Billmeier <b@edevau.net> xknx-0.10.0.ebuild,
+  xknx-0.11.1.ebuild, xknx-0.11.2.ebuild:
+  lots of small repoman cleanups
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> xknx-0.11.2.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> xknx-0.10.0.ebuild,
+  xknx-0.11.1.ebuild, xknx-0.11.2.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net> xknx-0.10.0.ebuild,
+  xknx-0.11.1.ebuild, xknx-0.11.2.ebuild:
+  fix uri.https (111 cases)
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> xknx-0.10.0.ebuild,
+  xknx-0.11.1.ebuild, xknx-0.11.2.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*xknx-0.11.2 (03 Oct 2019)
+
+  03 Oct 2019; Andreas Billmeier <b@edevau.net> +xknx-0.11.2.ebuild:
+  bump xknx-0.11.2
+
+*xknx-0.11.1 (12 Jul 2019)
+*xknx-0.10.0 (12 Jul 2019)
+
+  12 Jul 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +xknx-0.10.0.ebuild, +xknx-0.11.1.ebuild:
+  add xknx-0.11.1
+

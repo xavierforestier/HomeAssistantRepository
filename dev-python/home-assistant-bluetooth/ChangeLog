@@ -1,0 +1,183 @@
+# ChangeLog for dev-python/home-assistant-bluetooth
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  home-assistant-bluetooth-1.13.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-bluetooth-1.11.0.ebuild,
+  -home-assistant-bluetooth-1.12.0.ebuild,
+  -home-assistant-bluetooth-1.12.2.ebuild,
+  -home-assistant-bluetooth-1.13.0.ebuild:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -home-assistant-bluetooth-1.11.0.ebuilde,
+  -home-assistant-bluetooth-1.12.0.ebuilde,
+  -home-assistant-bluetooth-1.12.2.ebuilde,
+  -home-assistant-bluetooth-1.13.0.ebuilde,
+  -home-assistant-bluetooth-1.13.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-bluetooth-1.11.0.ebuilde,
+  +home-assistant-bluetooth-1.12.0.ebuilde,
+  +home-assistant-bluetooth-1.12.2.ebuilde,
+  +home-assistant-bluetooth-1.13.0.ebuilde,
+  +home-assistant-bluetooth-1.13.1.ebuilde:
+  Fix KEYWORDS
+
+*home-assistant-bluetooth-1.13.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-bluetooth-1.13.1.ebuild:
+  homeassistant 2025.3.0
+
+*home-assistant-bluetooth-1.13.0 (26 Oct 2024)
+
+  26 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-bluetooth-1.13.0.ebuild:
+  homemasssistant & homeassistant-full 2024.10.3
+
+*home-assistant-bluetooth-1.12.2 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-bluetooth-1.12.2.ebuild:
+  Home Assitant 2024.9.3 working :)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-bluetooth-1.10.3.ebuild,
+  -home-assistant-bluetooth-1.10.4.ebuild,
+  home-assistant-bluetooth-1.11.0.ebuild,
+  home-assistant-bluetooth-1.12.0.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-bluetooth-1.12.0.ebuild:
+  add 1.12.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.12.0 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-bluetooth-1.12.0.ebuild:
+  add 1.12.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2729
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.11.0 (06 Jan 2024)
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-bluetooth-1.10.3.ebuild,
+  home-assistant-bluetooth-1.10.4.ebuild,
+  +home-assistant-bluetooth-1.11.0.ebuild:
+  add 1.11.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2679
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-bluetooth-1.9.3.ebuild,
+  -home-assistant-bluetooth-1.10.0.ebuild:
+  drop 1.9.3, 1.10.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.10.4 (21 Oct 2023)
+*home-assistant-bluetooth-1.10.3 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-bluetooth-1.10.3.ebuild,
+  +home-assistant-bluetooth-1.10.4.ebuild:
+  add 1.10.3, 1.10.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.10.0 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-bluetooth-1.10.0.ebuild:
+  add home-assistant-bluetooth-1.10.0Â
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-bluetooth-1.6.0.ebuild,
+  -home-assistant-bluetooth-1.8.1.ebuild,
+  -home-assistant-bluetooth-1.9.2.ebuild:
+  drop 1.6.0, 1.8.1, 1.9.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  home-assistant-bluetooth-1.6.0.ebuild,
+  home-assistant-bluetooth-1.8.1.ebuild,
+  home-assistant-bluetooth-1.9.2.ebuild,
+  home-assistant-bluetooth-1.9.3.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.9.3 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-bluetooth-1.9.3.ebuild:
+  add 1.9.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  home-assistant-bluetooth-1.6.0.ebuild,
+  home-assistant-bluetooth-1.8.1.ebuild,
+  home-assistant-bluetooth-1.9.2.ebuild:
+  remove Python 3.8 Support tag
+
+*home-assistant-bluetooth-1.9.2 (09 Jan 2023)
+
+  09 Jan 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-bluetooth-1.3.0.ebuild,
+  +home-assistant-bluetooth-1.9.2.ebuild:
+  add 1.9.2, drop 1.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.8.1 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net>
+  -home-assistant-bluetooth-1.4.0.ebuild,
+  +home-assistant-bluetooth-1.8.1.ebuild, metadata.xml:
+  add 1.8.1, drop 1.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.6.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-bluetooth-1.6.0.ebuild:
+  add 1.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  home-assistant-bluetooth-1.3.0.ebuild,
+  home-assistant-bluetooth-1.4.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-bluetooth-1.3.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-bluetooth-1.3.0.ebuild:
+  add home-assistant-bluetooth-1.3.0
+
+*home-assistant-bluetooth-1.4.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net>
+  +home-assistant-bluetooth-1.4.0.ebuild, +metadata.xml:
+  add home-assistant-bluetooth-1.4.0
+

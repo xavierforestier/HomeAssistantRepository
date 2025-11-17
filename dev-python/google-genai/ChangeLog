@@ -1,0 +1,67 @@
+# ChangeLog for dev-python/google-genai
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -google-genai-1.29.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*google-genai-1.38.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/google-genai-1.38.0-build-system.patch,
+  -files/google-genai-1.7.0-build-system.patch, +google-genai-1.38.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -google-genai-1.7.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*google-genai-1.29.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/google-genai-1.29.0-build-system.patch,
+  +files/google-genai-1.7.0-build-system.patch,
+  -files/google-genai-build-system.patch, google-genai-1.7.0.ebuild,
+  +google-genai-1.29.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  google-genai-1.7.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  google-genai-1.7.0.ebuild, +metadata.xml:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -google-genai-1.1.0.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -google-genai-1.1.0.ebuilde, -google-genai-1.7.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  google-genai-1.1.0.ebuild, +google-genai-1.1.0.ebuilde,
+  google-genai-1.7.0.ebuild, +google-genai-1.7.0.ebuilde:
+  Fix KEYWORDS
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  google-genai-1.1.0.ebuild, google-genai-1.7.0.ebuild:
+  spellcheck
+
+*google-genai-1.7.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -files/google-genai-1.1.0-build-system.patch,
+  +files/google-genai-build-system.patch, google-genai-1.1.0.ebuild,
+  +google-genai-1.7.0.ebuild:
+  Homeassistant 2025.4.0
+
+*google-genai-1.1.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/google-genai-1.1.0-build-system.patch, +google-genai-1.1.0.ebuild:
+  homeassistant 2025.3.0
+

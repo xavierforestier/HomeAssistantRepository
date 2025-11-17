@@ -1,0 +1,298 @@
+# ChangeLog for dev-python/pysmartthings
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.3.0.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*pysmartthings-3.3.1 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.2.9.ebuild, +pysmartthings-3.3.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*pysmartthings-3.3.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.3.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.2.8.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+*pysmartthings-3.2.9 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.2.9.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.2.7.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.2.5.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*pysmartthings-3.2.8 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.2.8.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+*pysmartthings-3.2.7 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.2.7.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.2.4.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*pysmartthings-3.2.5 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.2.3.ebuild, +pysmartthings-3.2.5.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.2.1.ebuild, -pysmartthings-3.2.2.ebuild:
+  clean oldies
+
+*pysmartthings-3.2.4 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.2.4.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.0.5.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pysmartthings-3.2.3 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.2.3.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+*pysmartthings-3.2.2 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.2.2.ebuild:
+  homeassistant 2025.5.2
+
+*pysmartthings-3.2.1 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.2.1.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pysmartthings-3.0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-2.5.0.ebuild, -pysmartthings-2.7.0.ebuild,
+  -pysmartthings-2.7.2.ebuild, -pysmartthings-2.7.4.ebuild,
+  -pysmartthings-3.0.1.ebuild, -pysmartthings-3.0.2.ebuild,
+  -pysmartthings-3.0.4.ebuild, pysmartthings-3.0.5.ebuild:
+  Fix for pkgcheck
+
+*pysmartthings-3.0.5 (03 May 2025)
+
+  03 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmartthings-3.0.5.ebuild:
+  homeassistant-2025.4.4 & zigbee2mqtt-2.3.0
+
+*pysmartthings-3.0.4 (14 Apr 2025)
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmartthings-3.0.4.ebuild:
+  homeassistant-2025.4.2
+
+*pysmartthings-3.0.2 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pysmartthings-0.7.8.ebuild, -pysmartthings-0.7.8.ebuilde,
+  -pysmartthings-2.5.0.ebuilde, -pysmartthings-2.7.0.ebuilde,
+  -pysmartthings-2.7.2.ebuilde, -pysmartthings-2.7.4.ebuilde,
+  -pysmartthings-3.0.1.ebuilde, +pysmartthings-3.0.2.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmartthings-0.7.8.ebuilde, +pysmartthings-2.5.0.ebuilde,
+  +pysmartthings-2.7.0.ebuilde, +pysmartthings-2.7.2.ebuilde,
+  +pysmartthings-2.7.4.ebuilde, +pysmartthings-3.0.1.ebuilde:
+  Fix KEYWORDS
+
+*pysmartthings-3.0.1 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmartthings-3.0.1.ebuild:
+  Homeassistant 2025.4.0
+
+*pysmartthings-2.7.4 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmartthings-2.7.4.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*pysmartthings-2.7.2 (15 Mar 2025)
+
+  15 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmartthings-2.7.2.ebuild:
+  homeassistant 2025.3.2 homeassistant 2025.3.3
+
+*pysmartthings-2.7.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmartthings-2.7.0.ebuild:
+  homeassistant 2025.3.1
+
+*pysmartthings-2.5.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmartthings-2.5.0.ebuild:
+  homeassistant 2025.3.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pysmartthings-0.7.8.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -pysmartthings-0.7.6.ebuild:
+  drop 0.7.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pysmartthings-0.7.8 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> pysmartthings-0.7.6.ebuild,
+  +pysmartthings-0.7.8.ebuild:
+  add 0.7.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pysmartthings-0.7.6.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pysmartthings-0.7.6.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pysmartthings-0.7.6.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pysmartthings-0.7.6.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pysmartthings-0.7.6.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net> -pysmartthings-0.7.1.ebuild,
+  -pysmartthings-0.7.2.ebuild, -pysmartthings-0.7.3.ebuild,
+  -pysmartthings-0.7.4.ebuild, pysmartthings-0.7.6.ebuild:
+  cleanup, add new Python Targets, Letter '-T' (med) Integrations
+
+*pysmartthings-0.7.6 (15 Nov 2020)
+
+  15 Nov 2020; Andreas Billmeier <b@edevau.net> -pysmartthings-0.7.0.ebuild,
+  +pysmartthings-0.7.6.ebuild:
+  update pysmartthings-0.7.6
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pysmartthings-0.7.0.ebuild,
+  pysmartthings-0.7.1.ebuild, pysmartthings-0.7.2.ebuild,
+  pysmartthings-0.7.3.ebuild, pysmartthings-0.7.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pysmartthings-0.7.4 (06 Oct 2020)
+
+  06 Oct 2020; Andreas Billmeier <b@edevau.net> -pysmartthings-0.6.9.ebuild,
+  +pysmartthings-0.7.4.ebuild:
+  update pysmartthings-0.7.4
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> pysmartthings-0.6.9.ebuild,
+  pysmartthings-0.7.0.ebuild, pysmartthings-0.7.1.ebuild,
+  pysmartthings-0.7.2.ebuild, pysmartthings-0.7.3.ebuild:
+  #54 pysmartthings tries to install 'tests' package
+
+*pysmartthings-0.7.3 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> -pysmartthings-0.6.8.ebuild,
+  +pysmartthings-0.7.3.ebuild:
+  bump pysmartthings-0.7.3
+
+*pysmartthings-0.7.2 (25 Jul 2020)
+
+  25 Jul 2020; Andreas Billmeier <b@edevau.net> -pysmartthings-0.6.7.ebuild,
+  +pysmartthings-0.7.2.ebuild:
+  bump pysmartthings-0.7.2
+
+*pysmartthings-0.7.1 (16 Apr 2020)
+
+  16 Apr 2020; Andreas Billmeier <b@edevau.net> +pysmartthings-0.7.1.ebuild:
+  bump pysmartthings-0.7.1
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> pysmartthings-0.6.7.ebuild,
+  pysmartthings-0.6.8.ebuild, pysmartthings-0.6.9.ebuild,
+  pysmartthings-0.7.0.ebuild:
+  fix some DESCRIPTION.toolong from RepoMan
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pysmartthings-0.7.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pysmartthings-0.6.7.ebuild,
+  pysmartthings-0.6.8.ebuild, pysmartthings-0.6.9.ebuild,
+  pysmartthings-0.7.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pysmartthings-0.7.0 (31 Dec 2019)
+
+  31 Dec 2019; Andreas Billmeier <b@edevau.net> +pysmartthings-0.7.0.ebuild:
+  bump pysmartthings-0.7.0
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pysmartthings-0.6.7.ebuild,
+  pysmartthings-0.6.8.ebuild, pysmartthings-0.6.9.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> pysmartthings-0.6.7.ebuild,
+  pysmartthings-0.6.8.ebuild, pysmartthings-0.6.9.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*pysmartthings-0.6.9 (22 Jun 2019)
+
+  22 Jun 2019; Andreas Billmeier <b@edevau.net> +pysmartthings-0.6.9.ebuild:
+  bump pysmartthings-0.6.9
+
+*pysmartthings-0.6.8 (12 May 2019)
+*pysmartthings-0.6.7 (12 May 2019)
+
+  12 May 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pysmartthings-0.6.7.ebuild, +pysmartthings-0.6.8.ebuild:
+  pysmartthings-0.6.8.ebuild
+
+  17 Feb 2019; Andreas Billmeier (on testbox) <b@edevau.net> -metadata.xml,
+  -pysmartthings-0.6.2.ebuild:
+  pysmartthings removed
+
+*pysmartthings-0.6.2 (16 Feb 2019)
+
+  16 Feb 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pysmartthings-0.6.2.ebuild:
+  pysmartthings-0.6.2
+

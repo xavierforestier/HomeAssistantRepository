@@ -1,0 +1,1188 @@
+# ChangeLog for dev-embedded/esphome
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*esphome-2025.10.4 (07 Nov 2025)
+
+  07 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.10.1.ebuild, +esphome-2025.10.4.ebuild:
+  2025.10.4
+
+  24 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-2025.10.3.ebuild:
+  esphome 2025.10.3 + Fix issue with lxml-6.0.1
+
+*esphome-2025.10.3 (24 Oct 2025)
+
+  24 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.10.0.ebuild, +esphome-2025.10.3.ebuild:
+  2025.10.3
+
+*esphome-2025.10.2 (22 Oct 2025)
+
+  22 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.9.3.ebuild, +esphome-2025.10.2.ebuild:
+  esphome 2025.10.2
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-2025.10.1.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*esphome-2025.10.1 (20 Oct 2025)
+
+  20 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.9.2.ebuild, +esphome-2025.10.1.ebuild:
+  2025.10.1
+
+*esphome-2025.10.0 (16 Oct 2025)
+
+  16 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.9.1.ebuild, +esphome-2025.10.0.ebuild:
+  2025.10.0
+
+*esphome-2025.9.3 (04 Oct 2025)
+
+  04 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.9.0.ebuild, +esphome-2025.9.3.ebuild:
+  2025.9.3
+
+*esphome-2025.9.2 (03 Oct 2025)
+
+  03 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.8.4.ebuild, +esphome-2025.9.2.ebuild:
+  2025.9.2
+
+*esphome-2025.9.1 (24 Sep 2025)
+
+  24 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.8.3.ebuild, +esphome-2025.9.1.ebuild:
+  2025.8.3
+
+*esphome-2025.9.0 (18 Sep 2025)
+
+  18 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.8.2.ebuild, +esphome-2025.9.0.ebuild:
+  2025.9.0
+
+*esphome-2025.8.4 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.8.1.ebuild, +esphome-2025.8.4.ebuild:
+  2025.8.4
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-2025.8.1.ebuild, esphome-2025.8.2.ebuild, esphome-2025.8.3.ebuild:
+  pkcheck
+
+*esphome-2025.8.3 (09 Sep 2025)
+
+  09 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.8.0.ebuild, +esphome-2025.8.3.ebuild:
+  2025.8.3
+
+*esphome-2025.8.2 (09 Sep 2025)
+
+  09 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.7.5.ebuild, +esphome-2025.8.2.ebuild:
+  2025.8.2
+
+*esphome-2025.8.1 (26 Aug 2025)
+
+  26 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.7.4.ebuild, +esphome-2025.8.1.ebuild:
+  2025.8.1
+
+*esphome-2025.8.0 (22 Aug 2025)
+
+  22 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.7.3.ebuild, +esphome-2025.8.0.ebuild:
+  2025.8.0
+
+*esphome-2025.7.5 (11 Aug 2025)
+
+  11 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.7.0.ebuild, -esphome-2025.7.1.ebuild,
+  -esphome-2025.7.2.ebuild, +esphome-2025.7.5.ebuild:
+  2025.7.5
+
+  04 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -.esphome-2025.7.4.ebuild.swp:
+  app-misc/zigbee2mqtt 2.6.0
+
+*esphome-2025.7.4 (02 Aug 2025)
+
+  02 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +.esphome-2025.7.4.ebuild.swp, +esphome-2025.7.4.ebuild:
+  2025.7.4
+
+*esphome-2025.7.3 (27 Jul 2025)
+
+  27 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.7.3.ebuild:
+  esphome 2025.7.3
+
+*esphome-2025.7.2 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.6.3.ebuild, +esphome-2025.7.2.ebuild:
+  2025.7.2
+
+*esphome-2025.7.1 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.7.1.ebuild:
+  2025.7.1
+
+*esphome-2025.7.0 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.6.2.ebuild, +esphome-2025.7.0.ebuild:
+  2025.7.0
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.6.0.ebuild, -esphome-2025.6.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*esphome-2025.6.3 (06 Jul 2025)
+
+  06 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.6.3.ebuild:
+  2025.6.3
+
+*esphome-2025.6.2 (06 Jul 2025)
+
+  06 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.6.2.ebuild:
+  2025.6.2
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.5.1.ebuild, -esphome-2025.5.2.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*esphome-2025.6.1 (24 Jun 2025)
+
+  24 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.6.1.ebuild:
+  2025.6.1
+
+  20 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-2025.6.0.ebuild:
+  fix tornado dep
+
+*esphome-2025.6.0 (19 Jun 2025)
+
+  19 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.5.0.ebuild, +esphome-2025.6.0.ebuild:
+  esphome 2025.6.0
+
+*esphome-2025.5.2 (08 Jun 2025)
+
+  08 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.5.2.ebuild:
+  2025.5.2
+
+  29 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.4.0_beta1.ebuild, -esphome-2025.4.1.ebuild,
+  -esphome-2025.4.2.ebuild:
+  cleansing
+
+*esphome-2025.5.1 (29 May 2025)
+
+  29 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.5.1.ebuild:
+  2025.5.1
+
+*esphome-2025.5.0 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.5.0.ebuild:
+  2025.5.0
+
+*esphome-2025.4.2 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.4.2.ebuild:
+  esphome 2025.4.2
+
+*esphome-2025.4.1 (10 May 2025)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-2025.4.1.ebuild:
+  pkgcheck
+
+*esphome-2025.4.0_beta1 (24 Apr 2025)
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2023.12.9.ebuild, -esphome-2024.2.2.ebuild,
+  -esphome-2024.3.2-r1.ebuild, -esphome-2024.5.3-r1.ebuild,
+  -esphome-2024.7.0-r1.ebuild, -esphome-2024.10.2.ebuild,
+  -esphome-2024.10.2-r1.ebuild, +esphome-2025.4.0_beta1.ebuild,
+  -esphome-9999.ebuild:
+  Cleansing orphans
+
+*esphome-2024.10.2 (31 Oct 2024)
+
+  31 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +esphome-2024.10.2.ebuild:
+  2024.10.2-r1: unpin cryptography, voluptuous
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.10.2-r1 (28 Oct 2024)
+
+  28 Oct 2024; Andreas Billmeier <b@edevau.net> -esphome-2024.10.2.ebuild,
+  +esphome-2024.10.2-r1.ebuild:
+  2024.10.2-r1: unpin cryptography, voluptuous
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.10.2 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> -esphome-2024.5.2.ebuild,
+  +esphome-2024.10.2.ebuild, esphome-9999.ebuild:
+  add 2024.10.2, update 9999
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.7.0-r1 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> -esphome-2024.7.0.ebuild,
+  +esphome-2024.7.0-r1.ebuild:
+  allow pyyaml-6.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> esphome-2024.7.0.ebuild:
+  update 2024.7.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.7.0 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +esphome-2024.7.0.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> -esphome-2024.5.3-r1.ebuild~:
+  remove stale file
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.5.3-r1 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> +esphome-2024.5.3-r1.ebuild,
+  +esphome-2024.5.3-r1.ebuild~, -esphome-2024.5.3.ebuild:
+  update 2024.5.3-r, pin pillow-10.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.5.3 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> esphome-2023.12.9.ebuild,
+  esphome-2024.2.2.ebuild, esphome-2024.3.2-r1.ebuild,
+  esphome-2024.5.2.ebuild, +esphome-2024.5.3.ebuild, esphome-9999.ebuild:
+  add 2024.5.3, update dev
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> esphome-2024.5.2.ebuild:
+  update 2024.5.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> -esphome-2023.10.6.ebuild,
+  -esphome-2023.11.6.ebuild, -esphome-2024.3.0.ebuild:
+  drop 2023.10.6, 2023.11.6, 2024.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.5.2 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> +esphome-2024.5.2.ebuild:
+  dev-embedded/: add files provided from
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3363, thanks
+  @tabascoz
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.3.2-r1 (28 Apr 2024)
+
+  28 Apr 2024; Andreas Billmeier <b@edevau.net> -esphome-2024.3.2.ebuild,
+  +esphome-2024.3.2-r1.ebuild:
+  fix 2024.3.2 esptool PYTHON_TARGET
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.3.2 (28 Apr 2024)
+
+  28 Apr 2024; Andreas Billmeier <b@edevau.net> +esphome-2024.3.2.ebuild:
+  dev-embedded/esptool: add 4.7.0-r2 (WIP)
+  dev-embedded/esphome: add 2024.3.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> esphome-2024.3.0.ebuild:
+  2024.3.0: remove version from voluptuous
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> esphome-2024.3.0.ebuild:
+  2024.3.0: remove version from icmplib
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> esphome-2024.3.0.ebuild:
+  update RDEP cryptography-42.0.5 for compat to HA 2024.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.3.0 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> +esphome-2024.3.0.ebuild:
+  add 2024.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2024.2.2 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> esphome-2023.10.6.ebuild,
+  esphome-2023.11.6.ebuild, -esphome-2023.12.5.ebuild,
+  esphome-2023.12.9.ebuild, +esphome-2024.2.2.ebuild, esphome-9999.ebuild:
+  add 2024.2.2, drop 2023.12.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> esphome-2023.12.9.ebuild:
+  really unpin voluptuous
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> esphome-2023.12.9.ebuild:
+  voluptuous unpinned
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  remove async-timeout
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  update dev
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2023.12.9 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> esphome-2023.10.6.ebuild,
+  -esphome-2023.11.4.ebuild, esphome-2023.11.6.ebuild,
+  esphome-2023.12.5.ebuild, +esphome-2023.12.9.ebuild, esphome-9999.ebuild:
+  add 2023.12.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2023.12.5 (30 Dec 2023)
+
+  30 Dec 2023; Andreas Billmeier <b@edevau.net> -esphome-2023.10.1.ebuild,
+  -esphome-2023.11.3.ebuild, +esphome-2023.12.5.ebuild, esphome-9999.ebuild:
+  drop 2023.10.1, drop 2023.11.3, add 2023.12.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2023.11.6 (12 Dec 2023)
+
+  12 Dec 2023; Andreas Billmeier <b@edevau.net> +esphome-2023.11.6.ebuild:
+  add 2023.11.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  05 Dec 2023; Gerion Entrup <entrup@sra.uni-hannover.de>
+  esphome-2023.10.1.ebuild, esphome-2023.10.6.ebuild,
+  esphome-2023.11.3.ebuild, esphome-2023.11.4.ebuild, esphome-9999.ebuild:
+  dev-python/esptool: synchronize with Gentoo upstream
+
+  Signed-off-by: Gerion Entrup <gerion.entrup@flump.de>
+
+*esphome-2023.11.4 (24 Nov 2023)
+
+  24 Nov 2023; Andreas Billmeier <b@edevau.net> +esphome-2023.11.4.ebuild:
+  add 2023.11.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2023.11.3 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> -esphome-2022.11.2.ebuild,
+  -esphome-2023.2.4.ebuild, +esphome-2023.11.3.ebuild, esphome-9999.ebuild:
+  add 2023.11.3, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2023.10.6 (03 Nov 2023)
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> esphome-2022.11.2.ebuild,
+  esphome-2023.2.4.ebuild, esphome-2023.10.1.ebuild,
+  +esphome-2023.10.6.ebuild, esphome-9999.ebuild:
+  update esphome-2023.10.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> -esphome-2022.10.2.ebuild:
+  drop 2022.10.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2023.10.1 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +esphome-2023.10.1.ebuild,
+  esphome-9999.ebuild:
+  add 2023.10.1, update dev
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2023.2.4 (10 Mar 2023)
+
+  10 Mar 2023; Andreas Billmeier <b@edevau.net> -esphome-2022.10.1.ebuild,
+  esphome-2022.10.2.ebuild, esphome-2022.11.2.ebuild,
+  +esphome-2023.2.4.ebuild, esphome-9999.ebuild, metadata.xml:
+  add 2023.2.4, use pypi — helper eclass, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Mar 2023; Andreas Billmeier <b@edevau.net> -esphome-2022.8.0.ebuild,
+  -esphome-2022.9.3.ebuild:
+  drop 2022.8.0, 2022.9.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> esphome-2022.8.0.ebuild,
+  esphome-2022.9.3.ebuild, esphome-2022.10.1.ebuild, esphome-2022.10.2.ebuild,
+  esphome-2022.11.2.ebuild, esphome-9999.ebuild:
+  dev-embedded/*: rename zeroconf, again (https://github.com/gentoo/gentoo/com
+  mit/29153ca563b529be4cf0fdc2651105430ecb9ab4)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> esphome-2022.8.0.ebuild,
+  esphome-2022.9.3.ebuild, esphome-2022.10.1.ebuild, esphome-2022.10.2.ebuild,
+  esphome-2022.11.2.ebuild, esphome-9999.ebuild:
+  remove Python 3.8 Support tag
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> esphome-2022.8.0.ebuild,
+  esphome-2022.9.3.ebuild, esphome-2022.10.1.ebuild, esphome-2022.10.2.ebuild,
+  esphome-2022.11.2.ebuild, esphome-9999.ebuild:
+  remove colorama pins
+
+*esphome-2022.11.2 (24 Nov 2022)
+
+  24 Nov 2022; Andreas Billmeier <b@edevau.net> +esphome-2022.11.2.ebuild,
+  esphome-9999.ebuild:
+  update esphome-2022.11.2, bump esphome-dashboard-20221109.0
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net> esphome-2022.10.2.ebuild:
+  2022.10.2: fix deps
+
+*esphome-2022.10.2 (02 Nov 2022)
+
+  02 Nov 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.6.2.ebuild,
+  +esphome-2022.10.2.ebuild, esphome-9999.ebuild:
+  update 2022.10.2, drop 2022.6.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  01 Nov 2022; Andreas Billmeier <b@edevau.net> esphome-2022.10.1.ebuild,
+  esphome-9999.ebuild:
+  Rename {www-servers → dev-python}/tornado, https://github.com/gentoo/gentoo/
+  commit/3352113bdd5ee62808ca4ea5f4bb2c6f0f79daf6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  01 Nov 2022; Andreas Billmeier <b@edevau.net> esphome-2022.6.2.ebuild,
+  esphome-2022.8.0.ebuild, esphome-2022.9.3.ebuild:
+  Rename {www-servers → dev-python}/tornado, https://github.com/gentoo/gentoo/
+  commit/3352113bdd5ee62808ca4ea5f4bb2c6f0f79daf6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2022.10.1 (01 Nov 2022)
+
+  01 Nov 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.5.1.ebuild,
+  -esphome-2022.9.2.ebuild, +esphome-2022.10.1.ebuild, esphome-9999.ebuild:
+  update 2022.10.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Oct 2022; Andreas Billmeier <b@edevau.net> esphome-2022.5.1.ebuild,
+  esphome-2022.6.2.ebuild, esphome-2022.8.0.ebuild, esphome-2022.9.2.ebuild,
+  esphome-2022.9.3.ebuild, esphome-9999.ebuild:
+  dev-embedded/*: rename zeroconf
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net> esphome-2022.5.1.ebuild,
+  esphome-2022.6.2.ebuild, esphome-2022.8.0.ebuild, esphome-2022.9.2.ebuild,
+  esphome-2022.9.3.ebuild, esphome-9999.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*esphome-2022.9.3 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +esphome-2022.9.3.ebuild:
+  bump esphome-2022.9.3
+
+*esphome-2022.9.2 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.4.0.ebuild,
+  +esphome-2022.9.2.ebuild, esphome-9999.ebuild:
+  update esphome-2022.9.2
+
+*esphome-2022.8.0 (19 Aug 2022)
+
+  19 Aug 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.3.2.ebuild,
+  +esphome-2022.8.0.ebuild, esphome-9999.ebuild:
+  update esphome-2022.8.0
+
+*esphome-2022.6.2 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.2.6.ebuild,
+  esphome-2022.3.2.ebuild, esphome-2022.4.0.ebuild, esphome-2022.5.1.ebuild,
+  +esphome-2022.6.2.ebuild, esphome-9999.ebuild:
+  update esphome-2022.6.2
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  update esphome-9999
+
+*esphome-2022.5.1 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +esphome-2022.5.1.ebuild:
+  update esphome-2022.5.1
+
+  07 May 2022; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  update esphome-9999
+
+*esphome-2022.4.0 (07 May 2022)
+
+  07 May 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.3.1.ebuild,
+  +esphome-2022.4.0.ebuild:
+  update esphome-2022.4.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  esphome-9999: remove useless cat
+
+*esphome-2022.3.2 (30 Mar 2022)
+
+  30 Mar 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.1.4.ebuild,
+  -esphome-2022.3.0.ebuild, +esphome-2022.3.2.ebuild:
+  bump esphome-2022.3.2
+
+*esphome-2022.3.1 (27 Mar 2022)
+
+  27 Mar 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.1.3-r2.ebuild,
+  +esphome-2022.3.1.ebuild, esphome-9999.ebuild:
+  update esphome-2022.3.1
+
+*esphome-2022.3.0 (19 Mar 2022)
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.1.2-r1.ebuild,
+  -esphome-2022.2.5.ebuild, +esphome-2022.3.0.ebuild:
+  update esphome-2022.3.0
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  esphome-9999 remove unused eclass
+
+*esphome-2022.2.6 (12 Mar 2022)
+
+  12 Mar 2022; Andreas Billmeier <b@edevau.net> -esphome-2021.12.3-r1.ebuild,
+  +esphome-2022.2.6.ebuild, esphome-9999.ebuild:
+  update esphome-2022.2.6
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix IUSE.invalid for dev-embedded/esphome
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> esphome-2021.12.3-r1.ebuild,
+  esphome-2022.1.2-r1.ebuild, esphome-2022.1.3-r2.ebuild,
+  esphome-2022.1.4.ebuild, esphome-2022.2.5.ebuild, esphome-9999.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  27 Feb 2022; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  update esphome-9999, esphome-dashboard-20220219.0
+
+*esphome-2022.2.5 (27 Feb 2022)
+
+  27 Feb 2022; Andreas Billmeier <b@edevau.net> +esphome-2022.2.5.ebuild:
+  update esphome-2022.2.5
+
+*esphome-2022.1.4 (12 Feb 2022)
+*esphome-2022.1.3-r2 (12 Feb 2022)
+*esphome-2022.1.2-r1 (12 Feb 2022)
+*esphome-2021.12.3-r1 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -esphome-2021.11.4.ebuild,
+  -esphome-2021.12.3.ebuild, +esphome-2021.12.3-r1.ebuild,
+  -esphome-2022.1.2.ebuild, +esphome-2022.1.2-r1.ebuild,
+  -esphome-2022.1.3-r1.ebuild, +esphome-2022.1.3-r2.ebuild,
+  +esphome-2022.1.4.ebuild, esphome-9999.ebuild:
+  update esphome-2022.1.4, remove MULTIUSE
+
+*esphome-2022.1.3-r1 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -esphome-2022.1.3.ebuild,
+  +esphome-2022.1.3-r1.ebuild, esphome-9999.ebuild:
+  adjust esphome-2022.1.3, fixes #262
+
+*esphome-2022.1.3 (04 Feb 2022)
+
+  04 Feb 2022; Andreas Billmeier <b@edevau.net> -esphome-2021.10.3.ebuild,
+  -esphome-2022.1.1.ebuild, +esphome-2022.1.3.ebuild:
+  bump esphome-2022.1.3
+
+*esphome-2022.1.2 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -esphome-2021.12.2.ebuild,
+  +esphome-2022.1.2.ebuild:
+  update esphome-2022.1.2
+
+*esphome-2022.1.1 (20 Jan 2022)
+
+  20 Jan 2022; Andreas Billmeier <b@edevau.net> -esphome-2021.12.1.ebuild,
+  +esphome-2022.1.1.ebuild, esphome-9999.ebuild:
+  update esphome-2022.1.1
+
+  05 Jan 2022; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  remove KEYWORDS for -9999
+
+*esphome-2021.12.3 (31 Dec 2021)
+
+  31 Dec 2021; Andreas Billmeier <b@edevau.net> -esphome-2021.11.1-r1.ebuild,
+  -esphome-2021.12.0.ebuild, +esphome-2021.12.3.ebuild:
+  update esphome-2021.12.3
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> esphome-2021.10.3.ebuild,
+  esphome-2021.11.1-r1.ebuild, esphome-2021.11.4.ebuild,
+  esphome-2021.12.0.ebuild, esphome-2021.12.1.ebuild,
+  esphome-2021.12.2.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*esphome-2021.12.2 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> -esphome-2021.9.3-r1.ebuild,
+  +esphome-2021.12.2.ebuild, esphome-9999.ebuild:
+  update esphome-2021.12.2
+
+*esphome-2021.12.1 (16 Dec 2021)
+
+  16 Dec 2021; Andreas Billmeier <b@edevau.net> -esphome-2021.8.2.ebuild,
+  +esphome-2021.12.1.ebuild, esphome-9999.ebuild:
+  update esphome-2021.12.1
+
+*esphome-2021.12.0 (11 Dec 2021)
+
+  11 Dec 2021; Andreas Billmeier <b@edevau.net> +esphome-2021.12.0.ebuild:
+  update esphome-2021.12.0, bump esphome-dashboard-20211211.0
+
+*esphome-2021.11.4 (11 Dec 2021)
+
+  11 Dec 2021; Andreas Billmeier <b@edevau.net> +esphome-2021.11.4.ebuild:
+  update esphome-2021.11.4
+
+*esphome-2021.11.1-r1 (11 Dec 2021)
+
+  11 Dec 2021; Andreas Billmeier <b@edevau.net> -esphome-2021.11.1.ebuild,
+  +esphome-2021.11.1-r1.ebuild:
+  bump sphome-dashboard-20211021.1, fixes #250
+
+*esphome-2021.11.1 (20 Nov 2021)
+*esphome-2021.9.3-r1 (20 Nov 2021)
+
+  20 Nov 2021; Andreas Billmeier <b@edevau.net> -esphome-2021.9.2.ebuild,
+  -esphome-2021.9.3.ebuild, +esphome-2021.9.3-r1.ebuild,
+  +esphome-2021.11.1.ebuild:
+  update esphome-2021.11.1
+
+*esphome-2021.10.3 (06 Nov 2021)
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> -esphome-2021.9.0.ebuild,
+  +esphome-2021.10.3.ebuild, esphome-9999.ebuild:
+  update esphome-2021.10.3
+
+*esphome-2021.9.3 (17 Oct 2021)
+
+  17 Oct 2021; Andreas Billmeier <b@edevau.net> -esphome-1.20.1.ebuild,
+  -esphome-1.20.4-r2.ebuild, -esphome-2021.8.0.ebuild,
+  +esphome-2021.9.3.ebuild, esphome-9999.ebuild:
+  update esphome-2021.9.3
+
+*esphome-2021.9.2 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +esphome-2021.9.2.ebuild,
+  esphome-9999.ebuild:
+  update esphome-2021.9.2
+
+*esphome-2021.9.0 (19 Sep 2021)
+
+  19 Sep 2021; Andreas Billmeier <b@edevau.net> +esphome-2021.9.0.ebuild,
+  esphome-9999.ebuild:
+  update esphome-2021.9.0
+
+*esphome-2021.8.2 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -esphome-1.16.2.ebuild,
+  -esphome-1.17.2.ebuild, -esphome-1.19.4.ebuild, +esphome-2021.8.2.ebuild:
+  update esphome-2021.8.2
+  update esptool BDEPS, fixes
+  https://github.com/onkelbeh/HomeAssistantRepository/issues/40
+
+*esphome-2021.8.0 (20 Aug 2021)
+
+  20 Aug 2021; Andreas Billmeier <b@edevau.net> +esphome-2021.8.0.ebuild,
+  esphome-9999.ebuild:
+  update esphome-2021.8.0
+
+  08 Aug 2021; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  refresh esphome-9999.ebuild
+
+*esphome-1.20.4-r2 (08 Aug 2021)
+
+  08 Aug 2021; Andreas Billmeier <b@edevau.net> -esphome-1.20.4.ebuild,
+  -esphome-1.20.4-r1.ebuild, +esphome-1.20.4-r2.ebuild:
+  fix esptool==2.8 dep
+
+*esphome-1.20.4-r1 (08 Aug 2021)
+
+  08 Aug 2021; Andreas Billmeier <b@edevau.net> +esphome-1.20.4-r1.ebuild,
+  +files/esphome.init.d-r3:
+  fix esphome 'configuration before the command' issue
+
+*esphome-1.20.4 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> -esphome-1.16.1.ebuild,
+  -esphome-1.19.1.ebuild, +esphome-1.20.4.ebuild:
+  update esphome-1.20.4
+  update esphome-dashboard-20210728.0
+
+*esphome-1.20.1 (27 Jul 2021)
+
+  27 Jul 2021; Andreas Billmeier <b@edevau.net> +esphome-1.20.1.ebuild:
+  update esphome-1.20.1
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  update esphome-9999 deps
+
+*esphome-1.19.4 (07 Jul 2021)
+
+  07 Jul 2021; Andreas Billmeier <b@edevau.net> +esphome-1.19.4.ebuild,
+  esphome-9999.ebuild:
+  update esphome-1.19.4
+
+  18 Jun 2021; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  block esphome-9999
+
+*esphome-1.19.1 (18 Jun 2021)
+
+  18 Jun 2021; Andreas Billmeier <b@edevau.net> -esphome-1.15.3-r3.ebuild,
+  +esphome-1.19.1.ebuild, esphome-9999.ebuild, metadata.xml:
+  update esphome-1.19.1 (fixes #206)
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -esphome-1.15.1.ebuild,
+  -esphome-1.15.2.ebuild, -esphome-1.15.3-r1.ebuild,
+  -esphome-1.15.3-r2.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*esphome-1.17.2 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> -esphome-1.14.5-r2.ebuild,
+  +esphome-1.17.2.ebuild:
+  update esphome-1.17.2
+
+*esphome-1.16.2 (21 Mar 2021)
+
+  21 Mar 2021; Andreas Billmeier <b@edevau.net> -esphome-1.14.5-r1.ebuild,
+  -esphome-1.15.0.ebuild, +esphome-1.16.2.ebuild:
+  update esphome-1.16.2
+
+  17 Feb 2021; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  re-beta esphome-9999, remove pins (again)
+
+*esphome-1.16.1 (15 Feb 2021)
+
+  15 Feb 2021; Andreas Billmeier <b@edevau.net> +esphome-1.16.1.ebuild,
+  esphome-9999.ebuild:
+  update esphome-1.16.1
+
+*esphome-1.15.3-r3 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -esphome-1.14.3-r7.ebuild,
+  -esphome-1.14.4-r1.ebuild, +esphome-1.15.3-r3.ebuild:
+  update esphome-1.15.3-r3 (for homeassistant-2021.1.0)
+
+*esphome-1.15.3-r2 (20 Dec 2020)
+
+  20 Dec 2020; Andreas Billmeier <b@edevau.net> -esphome-1.14.5.ebuild,
+  -esphome-1.15.3.ebuild, +esphome-1.15.3-r2.ebuild, esphome-9999.ebuild:
+  adjust esphome-1.15.3-r2 to homeassistant-2020.12.1 DEPS
+  update esphome-9999 (for testing)
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> esphome-1.15.0.ebuild:
+  fix repoman ebuild.minorsyn
+
+  17 Nov 2020; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  update esphome: platformio-5.0.3
+
+*esphome-1.15.3-r1 (14 Nov 2020)
+
+  14 Nov 2020; Andreas Billmeier <b@edevau.net> -esphome-1.13.2.ebuild,
+  -esphome-1.13.6-r1.ebuild, -esphome-1.14.1.ebuild, -esphome-1.14.2.ebuild,
+  -esphome-1.14.3-r6.ebuild, -esphome-1.14.4.ebuild,
+  -esphome-1.15.0_beta4.ebuild, +esphome-1.15.3-r1.ebuild,
+  esphome-9999.ebuild:
+  update esphome-1.15.3-r1, matches 0.118.0 deps
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> esphome-1.13.2.ebuild,
+  esphome-1.13.6-r1.ebuild, esphome-1.14.1.ebuild, esphome-1.14.2.ebuild,
+  esphome-1.14.3-r6.ebuild, esphome-1.14.3-r7.ebuild, esphome-1.14.4.ebuild,
+  esphome-1.14.4-r1.ebuild, esphome-1.14.5.ebuild, esphome-1.14.5-r1.ebuild,
+  esphome-1.14.5-r2.ebuild, esphome-1.15.0_beta4.ebuild,
+  esphome-1.15.0.ebuild, esphome-1.15.1.ebuild, esphome-1.15.2.ebuild,
+  esphome-1.15.3.ebuild, esphome-9999.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*esphome-1.15.3 (24 Oct 2020)
+
+  24 Oct 2020; Andreas Billmeier <b@edevau.net> +esphome-1.15.3.ebuild:
+  update esphome-1.15.3
+
+  04 Oct 2020; Andreas Billmeier <b@edevau.net> esphome-1.15.1.ebuild,
+  esphome-1.15.2.ebuild:
+  esphome-1.15.2 is not beta
+
+*esphome-1.15.2 (25 Sep 2020)
+
+  25 Sep 2020; Andreas Billmeier <b@edevau.net> -esphome-1.13.6.ebuild,
+  -esphome-1.14.3-r5.ebuild, +esphome-1.15.2.ebuild:
+  bump esphome-1.15.2
+
+  19 Sep 2020; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  update esphome-9999 (protobuf re-pinned)
+
+*esphome-1.15.1 (19 Sep 2020)
+
+  19 Sep 2020; Andreas Billmeier <b@edevau.net> +esphome-1.15.1.ebuild:
+  update esphome-1.15.1
+
+  19 Sep 2020; Andreas Billmeier <b@edevau.net> esphome-1.15.0.ebuild:
+  update esphome
+      - esphome-1.15.0 -> stable
+
+*esphome-1.15.0 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> -esphome-1.15.0_beta3.ebuild,
+  esphome-1.15.0_beta4.ebuild, +esphome-1.15.0.ebuild, esphome-9999.ebuild:
+  update esphome-1.15.0
+  update esphome-9999
+
+*esphome-1.15.0_beta4 (12 Sep 2020)
+
+  12 Sep 2020; Andreas Billmeier <b@edevau.net> -esphome-1.14.3-r4.ebuild,
+  -esphome-1.15.0_beta1.ebuild, -esphome-1.15.0_beta2.ebuild,
+  +esphome-1.15.0_beta4.ebuild, esphome-9999.ebuild:
+  update esphome-1.15.0_beta4, esphome-9999 (without src_prepare())
+
+*esphome-1.14.5-r2 (12 Sep 2020)
+
+  12 Sep 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.5-r2.ebuild:
+  update esphome-1.14.5-r2, Python 3.8 for myproduction box
+
+*esphome-1.15.0_beta3 (16 Aug 2020)
+
+  16 Aug 2020; Andreas Billmeier <b@edevau.net> +esphome-1.15.0_beta3.ebuild:
+  update esphome-1.15.0_beta3 (experimental)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  esphome-9999:
+        reassign ifaddr & tornado to server IUSE for testing
+
+*esphome-1.14.5-r1 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.5-r1.ebuild:
+  patch esphome-1.14.5-r1 to use ~dev-python/ifaddr-0.1.7
+  or just use 1.15.0
+
+  02 Aug 2020; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  bump protobuf-3.12.4
+  bump protobuf-python-3.12.4
+  update esphome-9999
+
+*esphome-1.15.0_beta2 (28 Jul 2020)
+
+  28 Jul 2020; Andreas Billmeier <b@edevau.net> -esphome-1.14.0_beta3.ebuild,
+  +esphome-1.15.0_beta2.ebuild:
+  bump esphome-1.15.0_beta2, read Ebuild before using it
+
+  28 Jul 2020; Andreas Billmeier <b@edevau.net> esphome-1.14.5.ebuild:
+  esphome-1.14.5: avoid downgrade of tzlocal
+
+*esphome-1.15.0_beta1 (28 Jul 2020)
+
+  28 Jul 2020; Andreas Billmeier <b@edevau.net> +esphome-1.15.0_beta1.ebuild,
+  esphome-9999.ebuild:
+  update esphome-1.15.0_beta1, read Ebuild before using it
+
+*esphome-1.14.5 (28 Jul 2020)
+
+  28 Jul 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.5.ebuild,
+  esphome-9999.ebuild:
+  update esphome-1.14.5
+  update esphome-9999 to 1.14.5
+
+*esphome-1.14.4-r1 (28 Jun 2020)
+
+  28 Jun 2020; Andreas Billmeier <b@edevau.net> esphome-1.14.4.ebuild,
+  +esphome-1.14.4-r1.ebuild:
+  update esphome-1.14.4-r1 (only changed deps for HA compatibility)
+  nail some deps in esphome-1.14.4
+
+  21 Jun 2020; Vladimir Rusinov <vrusinov@google.com> esphome-1.14.4.ebuild:
+  Mark ifaddr and tornado DEPS as not optional.
+
+  Without them even 'help' fails with import error.
+
+*esphome-1.14.4 (07 Jun 2020)
+
+  07 Jun 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.4.ebuild,
+  esphome-9999.ebuild:
+  bump platformio-4.3.4
+  update esphome-1.14.4
+  update esphome-9999
+
+*esphome-1.14.3-r7 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.3-r7.ebuild:
+  ESPHome-1.14.3-r7 now loves tornado-6.0.4
+
+  27 Apr 2020; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  esphome-9999 re-add beta flags
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> esphome-1.14.3-r6.ebuild,
+  esphome-9999.ebuild:
+  pin protobuf-python to 3.11.4
+
+*esphome-1.14.3-r6 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.3-r6.ebuild,
+  esphome-9999.ebuild:
+  update compatibility patches for ESPHome's dependencies, remove typing
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -esphome-1.11.2-r1.ebuild,
+  -esphome-1.12.0.ebuild, -esphome-1.12.0-r1.ebuild, -esphome-1.14.3.ebuild,
+  -esphome-1.14.3-r1.ebuild, -esphome-1.14.3-r2.ebuild,
+  -esphome-1.14.3-r3.ebuild:
+  clean up, romove olds
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> esphome-1.11.2-r1.ebuild,
+  esphome-1.12.0.ebuild, esphome-1.12.0-r1.ebuild, esphome-1.13.2.ebuild,
+  esphome-1.13.6.ebuild, esphome-1.13.6-r1.ebuild,
+  esphome-1.14.0_beta3.ebuild, esphome-1.14.1.ebuild, esphome-1.14.2.ebuild,
+  esphome-1.14.3.ebuild, esphome-1.14.3-r1.ebuild, esphome-1.14.3-r2.ebuild,
+  esphome-1.14.3-r3.ebuild, esphome-1.14.3-r4.ebuild,
+  esphome-1.14.3-r5.ebuild, esphome-9999.ebuild:
+  fix ebuild.minorsyn, remove leading spaces
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> esphome-1.14.3-r5.ebuild:
+  remove beta flags from esphome
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> esphome-1.14.3.ebuild,
+  esphome-1.14.3-r5.ebuild, esphome-9999.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS outside dev-python
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> esphome-1.11.2-r1.ebuild,
+  esphome-1.12.0.ebuild, esphome-1.12.0-r1.ebuild, esphome-1.13.2.ebuild,
+  esphome-1.13.6.ebuild, esphome-1.13.6-r1.ebuild,
+  esphome-1.14.0_beta3.ebuild, esphome-1.14.1.ebuild, esphome-1.14.2.ebuild,
+  esphome-1.14.3.ebuild, esphome-1.14.3-r1.ebuild, esphome-1.14.3-r2.ebuild,
+  esphome-1.14.3-r3.ebuild, esphome-1.14.3-r4.ebuild,
+  esphome-1.14.3-r5.ebuild, esphome-9999.ebuild, files/esphome.conf.d,
+  files/esphome.init.d-r1, files/esphome.init.d-r2:
+  minor code cleanups
+
+*esphome-1.14.3-r5 (01 Feb 2020)
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net> esphome-1.14.3-r4.ebuild,
+  +esphome-1.14.3-r5.ebuild:
+  expanded version patches on ESPHome-1.14.3-r5
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*esphome-1.14.3-r4 (09 Jan 2020)
+
+  09 Jan 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.3-r4.ebuild,
+  esphome-9999.ebuild:
+  patch ESPHome for pyyaml-5.2
+
+*esphome-1.14.3-r3 (08 Jan 2020)
+
+  08 Jan 2020; Andreas Billmeier <b@edevau.net> +esphome-1.14.3-r3.ebuild:
+  allow some not so dusty libs for ESPHome
+
+*esphome-1.14.3-r2 (31 Dec 2019)
+
+  31 Dec 2019; Andreas Billmeier <b@edevau.net> +esphome-1.14.3-r2.ebuild:
+  esphome tighten protobuf dependency to protobuf
+
+*esphome-1.14.3-r1 (28 Dec 2019)
+
+  28 Dec 2019; Andreas Billmeier <b@edevau.net> +esphome-1.14.3-r1.ebuild,
+  esphome-9999.ebuild, +files/esphome.init.d-r2:
+  ESPHome: fix Dashboard's Online Check Issue
+
+*esphome-1.14.3 (18 Nov 2019)
+
+  18 Nov 2019; Andreas Billmeier <b@edevau.net> -esphome-1.11.1-r1.ebuild,
+  +esphome-1.14.3.ebuild, esphome-9999.ebuild:
+  update esphome-1.14.3
+
+  18 Nov 2019; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  copy current ebuild to esphome-9999
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> -esphome-1.12.0_beta3.ebuild,
+  -esphome-1.12.0_beta4.ebuild, -esphome-1.14.0_beta2.ebuild,
+  esphome-1.14.1.ebuild:
+  cleaup esphome
+
+*esphome-1.14.2 (11 Nov 2019)
+
+  11 Nov 2019; Andreas Billmeier <b@edevau.net> +esphome-1.14.2.ebuild:
+  bump esphome-1.14.2
+
+*esphome-1.14.1 (03 Nov 2019)
+
+  03 Nov 2019; evadim <evadim@evadim.ru> +esphome-1.14.1.ebuild:
+  bump esphome to 1.14.1
+
+  24 Oct 2019; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  use new version for git
+
+*esphome-1.14.0_beta3 (24 Oct 2019)
+
+  24 Oct 2019; Andreas Billmeier <b@edevau.net> +esphome-1.14.0_beta3.ebuild:
+  bump esphome-1.14.0_beta3
+
+*esphome-1.14.0_beta2 (24 Oct 2019)
+
+  24 Oct 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  -esphome-1.14.0_beta1.ebuild, +esphome-1.14.0_beta2.ebuild:
+  update esphome-1.14.0_beta2
+
+*esphome-1.14.0_beta1 (24 Oct 2019)
+
+  24 Oct 2019; Andreas Billmeier <b@edevau.net> +esphome-1.14.0_beta1.ebuild:
+  bump esphome-1.14.0_beta1
+
+  12 Oct 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  esphome-1.13.6-r1.ebuild:
+  fix a esphome-1.13.6-r1 dep
+
+  11 Oct 2019; Andreas Billmeier <b@edevau.net> esphome-9999.ebuild:
+  add protobuf dep
+
+*esphome-1.13.6-r1 (30 Sep 2019)
+
+  30 Sep 2019; Andreas Billmeier <b@edevau.net> esphome-1.13.6.ebuild,
+  +esphome-1.13.6-r1.ebuild, esphome-9999.ebuild:
+  experiment with esphome without python2.7
+
+*esphome-9999 (24 Sep 2019)
+
+  24 Sep 2019; Kevin Lowe <kevinmichaellowe@gmail.com> +esphome-9999.ebuild:
+  Add ebuild for latest mainline dev branch
+
+  24 Sep 2019; Kevin Lowe <kevinmichaellowe@gmail.com> esphome-1.13.6.ebuild:
+  Bump platformio to remove python2 dependency
+
+*esphome-1.13.6 (21 Jun 2019)
+
+  21 Jun 2019; Andreas Billmeier <b@edevau.net> +esphome-1.13.6.ebuild:
+  bump esphome to 1.13.6
+
+*esphome-1.13.2 (01 Jun 2019)
+
+  01 Jun 2019; evadim <evadim@evadim.ru> +esphome-1.13.2.ebuild:
+  bump esphome to 1.13
+
+*esphome-1.12.0-r1 (22 Mar 2019)
+
+  22 Mar 2019; evadim <evadim@evadim.ru> +esphome-1.12.0-r1.ebuild,
+  -files/esphome.init.d:
+  bump esphome 1.12 deps
+
+*esphome-1.12.0 (18 Mar 2019)
+*esphome-1.12.0_beta4 (18 Mar 2019)
+
+  18 Mar 2019; Andreas Billmeier <b@edevau.net> -esphome-1.10.1-r1.ebuild,
+  -esphome-1.11.0.ebuild, -esphome-1.11.1.ebuild,
+  -esphome-1.12.0_beta1.ebuild, +esphome-1.12.0_beta4.ebuild,
+  +esphome-1.12.0.ebuild:
+  esphome bump 1.12.0
+
+*esphome-1.12.0_beta3 (18 Mar 2019)
+
+  18 Mar 2019; Andreas Billmeier <b@edevau.net> +esphome-1.12.0_beta3.ebuild:
+  esphome-1.12.0_beta3
+
+*esphome-1.12.0_beta1 (16 Mar 2019)
+
+  16 Mar 2019; Andreas Billmeier <b@edevau.net> +esphome-1.12.0_beta1.ebuild:
+  rewrite for beta support & 1.12.0_beta1
+
+*esphome-1.11.2-r1 (27 Feb 2019)
+
+  27 Feb 2019; Andreas Billmeier <b@edevau.net> -esphome-1.10.0.ebuild,
+  -esphome-1.10.1.ebuild, -esphome-1.11.2.ebuild, +esphome-1.11.2-r1.ebuild:
+  port evadim's patch to 1.11.2
+
+*esphome-1.11.2 (27 Feb 2019)
+
+  27 Feb 2019; Andreas Billmeier <b@edevau.net> +esphome-1.11.2.ebuild:
+  update esphome-1.11.2
+
+*esphome-1.11.1-r1 (25 Feb 2019)
+
+  25 Feb 2019; evadim <evadim@evadim.ru> +esphome-1.11.1-r1.ebuild,
+  +files/esphome.init.d-r1:
+  esphome: fix dashboard after version bump
+
+  24 Feb 2019; Andreas Billmeier <b@edevau.net> -esphome-1.9.2.ebuild,
+  -esphome-1.9.3.ebuild:
+  drop olds from esphome
+
+*esphome-1.11.1 (24 Feb 2019)
+*esphome-1.11.0 (24 Feb 2019)
+
+  24 Feb 2019; Andreas Billmeier <b@edevau.net> +esphome-1.11.0.ebuild,
+  +esphome-1.11.1.ebuild:
+  esphome-1.11 added
+
+*esphome-1.10.1-r1 (17 Feb 2019)
+
+  17 Feb 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  +esphome-1.10.1-r1.ebuild, +files/esphome.conf.d, +files/esphome.init.d,
+  metadata.xml:
+  add ESPHome Dashboard Patch from Vadim Efimov
+
+*esphome-1.10.1 (13 Feb 2019)
+*esphome-1.10.0 (13 Feb 2019)
+*esphome-1.9.3 (13 Feb 2019)
+*esphome-1.9.2 (13 Feb 2019)
+
+  13 Feb 2019; Andreas Billmeier <b@edevau.net> +esphome-1.9.2.ebuild,
+  +esphome-1.9.3.ebuild, +esphome-1.10.0.ebuild, +esphome-1.10.1.ebuild,
+  +metadata.xml:
+  rename esphomeyaml to esphome & add some fixes
+

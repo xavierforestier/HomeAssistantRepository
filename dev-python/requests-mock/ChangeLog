@@ -1,0 +1,93 @@
+# ChangeLog for dev-python/requests-mock
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  requests-mock-1.12.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*requests-mock-1.12.1 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -requests-mock-1.11.0.ebuild, +requests-mock-1.12.1.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -requests-mock-1.11.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +requests-mock-1.11.0.ebuilde:
+  Fix KEYWORDS
+
+*requests-mock-1.11.0 (23 Apr 2024)
+
+  23 Apr 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +requests-mock-1.11.0.ebuild:
+  new package, add 1.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -requests-mock-1.9.2.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -requests-mock-1.8.0.ebuild,
+  requests-mock-1.9.2.ebuild:
+  p310: update requests-mock-1.9.2, fixes #266
+
+*requests-mock-1.9.2 (06 Jul 2021)
+
+  06 Jul 2021; Andreas Billmeier <b@edevau.net> +requests-mock-1.9.2.ebuild:
+  bump requests-mock-1.9.2
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -requests-mock-1.6.0.ebuild, requests-mock-1.8.0.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> requests-mock-1.6.0.ebuild,
+  requests-mock-1.8.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*requests-mock-1.8.0 (03 May 2020)
+
+  03 May 2020; Andreas Billmeier <b@edevau.net> -requests-mock-1.7.0.ebuild,
+  +requests-mock-1.8.0.ebuild:
+  update requests-mock-1.8.0, remove dupe
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> requests-mock-1.7.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: Q-R
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> requests-mock-1.6.0.ebuild,
+  requests-mock-1.7.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> requests-mock-1.6.0.ebuild,
+  requests-mock-1.7.0.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> requests-mock-1.6.0.ebuild,
+  requests-mock-1.7.0.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*requests-mock-1.7.0 (01 Oct 2019)
+
+  01 Oct 2019; Andreas Billmeier <b@edevau.net> +requests-mock-1.7.0.ebuild:
+  bump requests-mock-1.7.0
+
+*requests-mock-1.6.0 (09 Jul 2019)
+
+  09 Jul 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +requests-mock-1.6.0.ebuild:
+  upgrade pytest to 5.0.1 with dependencies
+

@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/slack-sdk
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  slack-sdk-3.33.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*slack-sdk-3.33.4 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +slack-sdk-3.33.4.ebuild:
+  Fix for pkgcheck
+

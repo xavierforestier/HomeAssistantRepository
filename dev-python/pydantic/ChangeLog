@@ -1,0 +1,164 @@
+# ChangeLog for dev-python/pydantic
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pydantic-2.12.2 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pydantic-2.12.2.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*pydantic-2.11.9 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pydantic-2.11.9.ebuild:
+  fix deps
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -metadata.xml, -pydantic-2.11.3.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*pydantic-2.11.3 (25 May 2025)
+
+  25 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pydantic-2.11.3.ebuild:
+  pydantic 2.11.3
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -metadata.xml, -pydantic-1.10.12.ebuild, -pydantic-1.10.13.ebuild,
+  -pydantic-1.10.15.ebuild, -pydantic-1.10.17.ebuild,
+  -pydantic-1.10.18.ebuild, -pydantic-1.10.19.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pydantic-1.10.12.ebuild, pydantic-1.10.13.ebuild, pydantic-1.10.15.ebuild,
+  pydantic-1.10.17.ebuild, pydantic-1.10.18.ebuild, pydantic-1.10.19.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pydantic-1.10.12.ebuilde, -pydantic-1.10.13.ebuilde,
+  -pydantic-1.10.15.ebuilde, -pydantic-1.10.17.ebuilde,
+  -pydantic-1.10.18.ebuilde, -pydantic-1.10.19.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydantic-1.10.12.ebuilde, +pydantic-1.10.13.ebuilde,
+  +pydantic-1.10.15.ebuilde, +pydantic-1.10.17.ebuilde,
+  +pydantic-1.10.18.ebuilde, +pydantic-1.10.19.ebuilde:
+  Fix KEYWORDS
+
+*pydantic-1.10.19 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydantic-1.10.19.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*pydantic-1.10.18 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydantic-1.10.18.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> pydantic-1.10.17.ebuild:
+  bump 1.10.17
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3535
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydantic-1.10.13 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydantic-1.10.13.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+*pydantic-1.10.17 (08 Oct 2024)
+
+  08 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydantic-1.10.17.ebuild:
+  homeassistant 2024.10.1 + script to generate ebuild dependencies :)
+
+*pydantic-1.10.15 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net> pydantic-1.10.12.ebuild,
+  +pydantic-1.10.15.ebuild:
+  add 1.10.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3519
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pydantic-1.10.5.ebuild,
+  -pydantic-1.10.7.ebuild:
+  drop 1.10.5, 1.10.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydantic-1.10.12 (28 Oct 2023)
+
+  28 Oct 2023; Andreas Billmeier <b@edevau.net> +pydantic-1.10.12.ebuild:
+  add 1.10.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydantic-1.10.7 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> pydantic-1.10.5.ebuild,
+  +pydantic-1.10.7.ebuild:
+  re-add 1.10.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydantic-1.10.5 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pydantic-1.10.5.ebuild:
+  new package, add 1.10.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Dec 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pydantic-1.9.0.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  24 Dec 2022; Andreas Billmeier <b@edevau.net> -pydantic-1.8.2.ebuild,
+  pydantic-1.9.0.ebuild:
+  dev-python/gcal-sync: drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pydantic-1.8.2.ebuild,
+  pydantic-1.9.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydantic-1.9.0 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> +pydantic-1.9.0.ebuild:
+  re-add pydantic-1.9.0 (from main)
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pydantic-1.8.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pydantic-1.8.2 (15 Jul 2021)
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net> -pydantic-1.6.1.ebuild,
+  +pydantic-1.8.2.ebuild:
+  cleanup, add new Python Targets, Letter '-Z' (med) Integrations
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pydantic-1.6.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pydantic-1.6.1 (13 Oct 2020)
+
+  13 Oct 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pydantic-1.6.1.ebuild:
+  add pydantic-1.6.1
+

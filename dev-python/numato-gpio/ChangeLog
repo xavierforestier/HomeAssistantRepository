@@ -1,0 +1,103 @@
+# ChangeLog for dev-python/numato-gpio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  metadata.xml, numato-gpio-0.13.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  numato-gpio-0.13.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -numato-gpio-0.10.0.ebuild, -numato-gpio-0.12.0.ebuild:
+  Cleansing orphans
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/numato-gpio-0.13.0-poetry.patch, numato-gpio-0.13.0.ebuild:
+  Fix numato-gpio-0.13.0 pylutron-caseta-0.24.0
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -numato-gpio-0.10.0.ebuilde, -numato-gpio-0.12.0.ebuilde,
+  -numato-gpio-0.13.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +numato-gpio-0.10.0.ebuilde, +numato-gpio-0.12.0.ebuilde,
+  +numato-gpio-0.13.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  numato-gpio-0.13.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*numato-gpio-0.13.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +numato-gpio-0.13.0.ebuild:
+  add 0.13.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3131
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*numato-gpio-0.12.0 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  numato-gpio-0.10.0.ebuild, +numato-gpio-0.12.0.ebuild:
+  add 0.12.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3074
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> numato-gpio-0.10.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> numato-gpio-0.10.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> numato-gpio-0.10.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> numato-gpio-0.10.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> numato-gpio-0.10.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -numato-gpio-0.7.1.ebuild,
+  -numato-gpio-0.8.0.ebuild:
+  remove abandoned packages and Ebuilds
+
+*numato-gpio-0.10.0 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> +numato-gpio-0.10.0.ebuild:
+  bump numato-gpio-0.10.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> numato-gpio-0.7.1.ebuild,
+  numato-gpio-0.8.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> numato-gpio-0.8.0.ebuild:
+  update numato-gpio-0.8.0 RDEPEND
+
+*numato-gpio-0.8.0 (10 Aug 2020)
+
+  10 Aug 2020; Andreas Billmeier <b@edevau.net> +numato-gpio-0.8.0.ebuild:
+  bump numato-gpio-0.8.0
+
+*numato-gpio-0.7.1 (30 Apr 2020)
+
+  30 Apr 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +numato-gpio-0.7.1.ebuild:
+  add numato-gpio-0.7.1
+

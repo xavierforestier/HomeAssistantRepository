@@ -1,0 +1,247 @@
+# ChangeLog for dev-python/wled
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  wled-0.21.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -wled-0.18.0.ebuild, -wled-0.20.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -wled-0.18.0.ebuilde, -wled-0.20.2.ebuilde, -wled-0.21.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +wled-0.18.0.ebuilde, +wled-0.20.2.ebuilde, +wled-0.21.0.ebuilde:
+  Fix KEYWORDS
+
+*wled-0.21.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +wled-0.21.0.ebuild:
+  homeassistant 2025.1.1
+
+*wled-0.20.2 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -wled-0.17.0.ebuild,
+  -wled-0.17.1.ebuild, +wled-0.20.2.ebuild:
+  drop 0.17.0, 0.17.1, add 0.20.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3811
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wled-0.18.0 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> +wled-0.18.0.ebuild:
+  add 0.18.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3371
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wled-0.17.1 (20 May 2024)
+
+  20 May 2024; Andreas Billmeier <b@edevau.net> wled-0.17.0.ebuild,
+  +wled-0.17.1.ebuild:
+  add 0.17.1,
+  dev-python/typer: add 0.12.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3355
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -wled-0.16.0.ebuild,
+  wled-0.17.0.ebuild:
+  drop 0.16.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wled-0.17.0 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +wled-0.17.0.ebuild:
+  add 0.17.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> -wled-0.14.1.ebuild,
+  -wled-0.15.0.ebuild:
+  drop 0.14.1, 0.15.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> wled-0.14.1.ebuild,
+  wled-0.15.0.ebuild, wled-0.16.0.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> wled-0.14.1.ebuild,
+  wled-0.15.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wled-0.16.0 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> +wled-0.16.0.ebuild:
+  add 0.16.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> wled-0.14.1.ebuild,
+  wled-0.15.0.ebuild:
+  remove Python 3.8 Support tag
+
+*wled-0.15.0 (09 Jan 2023)
+
+  09 Jan 2023; Andreas Billmeier <b@edevau.net> +wled-0.15.0.ebuild:
+  add 0.15.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> wled-0.14.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -wled-0.13.2.ebuild,
+  wled-0.14.1.ebuild:
+  rework, remove olds
+
+*wled-0.14.1 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -wled-0.13.0.ebuild,
+  -wled-0.13.1.ebuild, wled-0.13.2.ebuild, +wled-0.14.1.ebuild:
+  bump wled-0.14.1
+
+*wled-0.13.2 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> +wled-0.13.2.ebuild:
+  bump wled-0.13.2
+
+*wled-0.13.1 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -wled-0.8.0.ebuild,
+  -wled-0.10.1.ebuild, -wled-0.12.0.ebuild, +wled-0.13.1.ebuild:
+  update wled-0.13.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> wled-0.8.0.ebuild,
+  wled-0.10.1.ebuild, wled-0.12.0.ebuild, wled-0.13.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*wled-0.13.0 (01 Feb 2022)
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> +wled-0.13.0.ebuild:
+  update wled-0.13.0
+
+*wled-0.12.0 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -wled-0.10.2.ebuild,
+  +wled-0.12.0.ebuild:
+  update wled-0.12.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> wled-0.8.0.ebuild,
+  wled-0.10.1.ebuild, wled-0.10.2.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*wled-0.10.1 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> +wled-0.10.1.ebuild:
+  dg wled-0.10.1
+
+*wled-0.10.2 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> -wled-0.4.4.ebuild,
+  -wled-0.7.1.ebuild, +wled-0.10.2.ebuild:
+  update wled-0.10.2
+
+*wled-0.8.0 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> -wled-0.7.0.ebuild,
+  +wled-0.8.0.ebuild:
+  update wled-0.8.0
+
+*wled-0.7.1 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +wled-0.7.1.ebuild:
+  bump wled-0.7.1
+
+*wled-0.7.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +wled-0.7.0.ebuild:
+  update wled-0.7.0
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -wled-0.1.0.ebuild,
+  -wled-0.2.1.ebuild, -wled-0.3.0.ebuild, -wled-0.4.1.ebuild,
+  -wled-0.4.2.ebuild, -wled-0.4.3.ebuild, wled-0.4.4.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> wled-0.1.0.ebuild,
+  wled-0.2.1.ebuild, wled-0.3.0.ebuild, wled-0.4.1.ebuild, wled-0.4.2.ebuild,
+  wled-0.4.3.ebuild, wled-0.4.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*wled-0.4.4 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +wled-0.4.4.ebuild:
+  Update wled-0.4.4
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> wled-0.2.1.ebuild,
+  wled-0.3.0.ebuild, wled-0.4.1.ebuild, wled-0.4.2.ebuild, wled-0.4.3.ebuild:
+  correct wled RDEPENDs
+
+*wled-0.4.3 (17 Jun 2020)
+
+  17 Jun 2020; Andreas Billmeier <b@edevau.net> +wled-0.4.3.ebuild:
+  bump wled-0.4.3
+
+*wled-0.4.2 (11 Jun 2020)
+
+  11 Jun 2020; Andreas Billmeier <b@edevau.net> +wled-0.4.2.ebuild:
+  bump wled-0.4.2
+
+*wled-0.4.1 (03 Jun 2020)
+
+  03 Jun 2020; Andreas Billmeier <b@edevau.net> +wled-0.4.1.ebuild:
+  bump wled-0.4.1
+
+*wled-0.3.0 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +wled-0.3.0.ebuild:
+  bump dev-python/wled
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> wled-0.2.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> wled-0.1.0.ebuild,
+  wled-0.2.1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*wled-0.2.1 (05 Jan 2020)
+
+  05 Jan 2020; Andreas Billmeier <b@edevau.net> +wled-0.2.1.ebuild:
+  bump wled-0.2.1
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> wled-0.1.0.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*wled-0.1.0 (07 Nov 2019)
+
+  07 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +wled-0.1.0.ebuild:
+  add wled-0.1.0
+

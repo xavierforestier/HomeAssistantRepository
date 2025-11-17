@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/rtmapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  rtmapi-0.7.2-r2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*rtmapi-0.7.2-r2 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/RtmAPI-0.7.2-2to3.patch, +metadata.xml, +rtmapi-0.7.2-r2.ebuild:
+  Fix for pkgcheck
+

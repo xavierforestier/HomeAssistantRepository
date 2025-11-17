@@ -1,0 +1,44 @@
+# ChangeLog for dev-python/prometheus-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  prometheus-client-0.21.0.ebuild:
+  Fixes
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  pkgcheck
+
+*prometheus-client-0.21.0 (07 Apr 2025)
+
+  07 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -metadata.xml,
+  -prometheus-client-0.17.1.ebuild, +prometheus-client-0.21.0.ebuild:
+  dev-python/prometeus
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -prometheus-client-0.17.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +prometheus-client-0.17.1.ebuilde:
+  Fix KEYWORDS
+
+*prometheus-client-0.17.1 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +prometheus-client-0.17.1.ebuild:
+  new package, add 0.17.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Jan 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -prometheus-client-0.7.1.ebuild:
+  rename prometheus-client to prometheus_client, fixes #257
+
+*prometheus-client-0.7.1 (19 Dec 2021)
+
+  19 Dec 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +prometheus-client-0.7.1.ebuild:
+  rework/cleanup prometheus-client-0.7.1
+

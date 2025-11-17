@@ -1,0 +1,13 @@
+# ChangeLog for acct-user/zwavejs2mqtt
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> zwavejs2mqtt-0.ebuild:
+  add some quotes [SC2086]
+
+*zwavejs2mqtt-0 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +zwavejs2mqtt-0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+

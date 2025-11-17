@@ -1,0 +1,27 @@
+# ChangeLog for dev-python/python-google-drive-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, python-google-drive-api-0.1.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-google-drive-api-0.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-google-drive-api-0.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  python-google-drive-api-0.1.0.ebuild,
+  +python-google-drive-api-0.1.0.ebuilde:
+  Fix KEYWORDS
+
+*python-google-drive-api-0.1.0 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-google-drive-api-0.1.0.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

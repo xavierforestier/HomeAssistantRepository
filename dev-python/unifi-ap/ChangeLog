@@ -1,0 +1,39 @@
+# ChangeLog for dev-python/unifi-ap
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  unifi-ap-0.0.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  unifi-ap-0.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -unifi-ap-0.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -unifi-ap-0.0.1.ebuilde, -unifi-ap-0.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +unifi-ap-0.0.1.ebuilde, +unifi-ap-0.0.2.ebuilde:
+  Fix KEYWORDS
+
+*unifi-ap-0.0.2 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +unifi-ap-0.0.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*unifi-ap-0.0.1 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +unifi-ap-0.0.1.ebuild:
+  new package, add 0.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2668
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

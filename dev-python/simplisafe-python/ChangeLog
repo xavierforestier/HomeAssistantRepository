@@ -1,0 +1,541 @@
+# ChangeLog for dev-python/simplisafe-python
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  simplisafe-python-2024.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -simplisafe-python-2023.8.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -simplisafe-python-2023.8.0.ebuilde, -simplisafe-python-2024.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +simplisafe-python-2023.8.0.ebuilde, +simplisafe-python-2024.1.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  simplisafe-python-2024.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  simplisafe-python-2024.1.0.ebuild:
+  Some fixes :) for homeassistant 2024.10.2
+
+*simplisafe-python-2024.1.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-2023.8.0.ebuild, +simplisafe-python-2024.1.0.ebuild:
+  add 2024.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2852
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2023.4.0.ebuild:
+  drop 2023.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*simplisafe-python-2023.8.0 (12 Oct 2023)
+
+  12 Oct 2023; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2022.7.1.ebuild, -simplisafe-python-2022.12.0.ebuild,
+  simplisafe-python-2023.4.0.ebuild, +simplisafe-python-2023.8.0.ebuild:
+  add 2023.8.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*simplisafe-python-2023.4.0 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2022.11.2.ebuild, +simplisafe-python-2023.4.0.ebuild:
+  add 2023.4.0, drop 2022.11.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-2022.7.1.ebuild, simplisafe-python-2022.11.2.ebuild,
+  simplisafe-python-2022.12.0.ebuild:
+  remove Python 3.8 Support tag
+
+*simplisafe-python-2022.12.0 (09 Dec 2022)
+
+  09 Dec 2022; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-2022.7.1.ebuild, simplisafe-python-2022.11.2.ebuild,
+  +simplisafe-python-2022.12.0.ebuild:
+  bump 2022.12.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*simplisafe-python-2022.11.2 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +simplisafe-python-2022.11.2.ebuild:
+  add 2022.11.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-2022.7.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2022.5.1.ebuild, -simplisafe-python-2022.6.0.ebuild,
+  -simplisafe-python-2022.6.1.ebuild, -simplisafe-python-2022.7.0.ebuild,
+  simplisafe-python-2022.7.1.ebuild:
+  rework, remove olds
+
+*simplisafe-python-2022.7.1 (28 Jul 2022)
+
+  28 Jul 2022; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-2022.7.1.ebuild:
+  bump simplisafe-python-2022.7.1
+
+*simplisafe-python-2022.7.0 (21 Jul 2022)
+
+  21 Jul 2022; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-2022.7.0.ebuild:
+  bump simplisafe-python-2022.7.0
+
+*simplisafe-python-2022.6.1 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2022.3.0.ebuild, -simplisafe-python-2022.5.2.ebuild,
+  +simplisafe-python-2022.6.1.ebuild:
+  bump simplisafe-python-2022.6.1
+
+*simplisafe-python-2022.6.0 (07 Jun 2022)
+
+  07 Jun 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2022.2.1.ebuild, simplisafe-python-2022.3.0.ebuild,
+  simplisafe-python-2022.5.1.ebuild, simplisafe-python-2022.5.2.ebuild,
+  +simplisafe-python-2022.6.0.ebuild:
+  update simplisafe-python-2022.6.0
+
+*simplisafe-python-2022.5.2 (31 May 2022)
+
+  31 May 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2022.5.0.ebuild, +simplisafe-python-2022.5.2.ebuild:
+  bump simplisafe-python-2022.5.2
+
+*simplisafe-python-2022.5.1 (13 May 2022)
+
+  13 May 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2022.4.1.ebuild, +simplisafe-python-2022.5.1.ebuild:
+  bump simplisafe-python-2022.5.1
+
+*simplisafe-python-2022.5.0 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-2022.5.0.ebuild:
+  bump simplisafe-python-2022.5.0
+
+*simplisafe-python-2022.4.1 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-2022.4.1.ebuild:
+  bump simplisafe-python-2022.4.1
+
+*simplisafe-python-2022.3.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-12.0.2.ebuild, -simplisafe-python-2021.12.2.ebuild,
+  -simplisafe-python-2022.1.0.ebuild, -simplisafe-python-2022.2.0.ebuild,
+  +simplisafe-python-2022.3.0.ebuild:
+  bump simplisafe-python-2022.3.0
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-2022.2.1.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-12.0.2.ebuild, simplisafe-python-2021.12.2.ebuild,
+  simplisafe-python-2022.1.0.ebuild, simplisafe-python-2022.2.0.ebuild,
+  simplisafe-python-2022.2.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*simplisafe-python-2022.2.1 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-2022.2.1.ebuild:
+  bump simplisafe-python-2022.2.1
+
+*simplisafe-python-2022.2.0 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-11.0.7.ebuild, +simplisafe-python-2022.2.0.ebuild:
+  bump simplisafe-python-2022.2.0
+
+*simplisafe-python-2022.1.0 (31 Jan 2022)
+
+  31 Jan 2022; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2021.12.1.ebuild, +simplisafe-python-2022.1.0.ebuild:
+  bump simplisafe-python-2022.1.0
+
+*simplisafe-python-2021.12.2 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-2021.12.0.ebuild, +simplisafe-python-2021.12.2.ebuild:
+  update simplisafe-python-2021.12.2
+
+*simplisafe-python-2021.12.1 (11 Dec 2021)
+
+  11 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-11.0.6.ebuild, -simplisafe-python-2021.11.2.ebuild,
+  +simplisafe-python-2021.12.1.ebuild:
+  bump simplisafe-python-2021.12.1
+
+*simplisafe-python-2021.12.0 (07 Dec 2021)
+
+  07 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-2021.12.0.ebuild:
+  bump simplisafe-python-2021.12.0
+
+*simplisafe-python-2021.11.2 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-11.0.3.ebuild, +simplisafe-python-2021.11.2.ebuild:
+  update simplisafe-python-2021.11.2
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-12.0.2.ebuild:
+  all EAPI=8 without quotes
+
+*simplisafe-python-12.0.2 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-12.0.2.ebuild:
+  bump simplisafe-python-12.0.2
+
+*simplisafe-python-11.0.7 (17 Oct 2021)
+
+  17 Oct 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-10.0.0.ebuild, -simplisafe-python-11.0.2.ebuild,
+  -simplisafe-python-11.0.5.ebuild, +simplisafe-python-11.0.7.ebuild:
+  update simplisafe-python-11.0.7
+
+*simplisafe-python-11.0.6 (30 Aug 2021)
+
+  30 Aug 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-11.0.6.ebuild:
+  bump simplisafe-python-11.0.6
+
+*simplisafe-python-11.0.5 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.6.9.ebuild, -simplisafe-python-9.6.10.ebuild,
+  -simplisafe-python-11.0.0.ebuild, -simplisafe-python-11.0.1.ebuild,
+  +simplisafe-python-11.0.5.ebuild:
+  update simplisafe-python-11.0.5
+
+*simplisafe-python-11.0.3 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-11.0.3.ebuild:
+  update simplisafe-python-11.0.3
+
+*simplisafe-python-11.0.2 (27 Jul 2021)
+
+  27 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-11.0.2.ebuild:
+  bump simplisafe-python-11.0.2
+
+*simplisafe-python-11.0.1 (09 Jul 2021)
+
+  09 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-11.0.1.ebuild:
+  bump simplisafe-python-11.0.1
+
+*simplisafe-python-11.0.0 (07 Jul 2021)
+
+  07 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-11.0.0.ebuild:
+  bump simplisafe-python-11.0.0
+
+*simplisafe-python-10.0.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.6.4.ebuild, -simplisafe-python-9.6.7.ebuild,
+  -simplisafe-python-9.6.8.ebuild, +simplisafe-python-10.0.0.ebuild:
+  update simplisafe-python-10.0.0
+
+*simplisafe-python-9.6.10 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.6.1.ebuild, -simplisafe-python-9.6.2.ebuild,
+  +simplisafe-python-9.6.10.ebuild:
+  update simplisafe-python-9.6.10
+
+  20 Mar 2021; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-9.6.1.ebuild, simplisafe-python-9.6.2.ebuild,
+  simplisafe-python-9.6.4.ebuild, simplisafe-python-9.6.7.ebuild,
+  simplisafe-python-9.6.8.ebuild, simplisafe-python-9.6.9.ebuild:
+  remove pytest-aiohttp from all deps
+
+*simplisafe-python-9.6.9 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.6.0.ebuild, +simplisafe-python-9.6.9.ebuild:
+  bump simplisafe-python-9.6.9
+
+*simplisafe-python-9.6.8 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-9.6.8.ebuild:
+  bump simplisafe-python-9.6.8
+
+*simplisafe-python-9.6.7 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.5.1.ebuild, +simplisafe-python-9.6.7.ebuild:
+  update simplisafe-python-9.6.7
+
+*simplisafe-python-9.6.4 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.4.1.ebuild, +simplisafe-python-9.6.4.ebuild:
+  bump simplisafe-python-9.6.4
+
+*simplisafe-python-9.6.2 (08 Dec 2020)
+*simplisafe-python-9.6.1 (08 Dec 2020)
+
+  08 Dec 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.3.0.ebuild, -simplisafe-python-9.3.3.ebuild,
+  +simplisafe-python-9.6.1.ebuild, +simplisafe-python-9.6.2.ebuild:
+  bump simplisafe-python-9.6.1
+  bump simplisafe-python-9.6.2
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> simplisafe-python-9.3.0.ebuild,
+  simplisafe-python-9.3.3.ebuild, simplisafe-python-9.4.1.ebuild,
+  simplisafe-python-9.5.1.ebuild, simplisafe-python-9.6.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*simplisafe-python-9.6.0 (27 Oct 2020)
+
+  27 Oct 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.2.2.ebuild, +simplisafe-python-9.6.0.ebuild:
+  bump simplisafe-python-9.6.0
+
+*simplisafe-python-9.5.1 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.2.0.ebuild, -simplisafe-python-9.2.1.ebuild,
+  +simplisafe-python-9.5.1.ebuild:
+  bump simplisafe-python-9.5.1
+
+*simplisafe-python-9.4.1 (01 Oct 2020)
+
+  01 Oct 2020; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-9.4.1.ebuild:
+  bump simplisafe-python-9.4.1
+
+*simplisafe-python-9.3.3 (25 Sep 2020)
+
+  25 Sep 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.0.4.ebuild, -simplisafe-python-9.0.6.ebuild,
+  -simplisafe-python-9.0.7.ebuild, -simplisafe-python-9.1.0.ebuild,
+  +simplisafe-python-9.3.3.ebuild:
+  bump simplisafe-python-9.3.3
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-9.0.4.ebuild, simplisafe-python-9.0.6.ebuild,
+  simplisafe-python-9.0.7.ebuild, simplisafe-python-9.1.0.ebuild,
+  simplisafe-python-9.2.0.ebuild, simplisafe-python-9.2.1.ebuild,
+  simplisafe-python-9.2.2.ebuild:
+  fix all remaining async-timeout -> async_timeout
+
+*simplisafe-python-9.3.0 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.0.2.ebuild, +simplisafe-python-9.3.0.ebuild:
+  update simplisafe-python-9.3.0
+
+*simplisafe-python-9.2.2 (01 Aug 2020)
+
+  01 Aug 2020; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +simplisafe-python-9.2.2.ebuild:
+  update simplisafe-python-9.2.2
+
+*simplisafe-python-9.2.1 (25 Jul 2020)
+
+  25 Jul 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-8.1.1.ebuild, +simplisafe-python-9.2.1.ebuild:
+  bump simplisafe-python-9.2.1
+
+*simplisafe-python-9.2.0 (30 Apr 2020)
+
+  30 Apr 2020; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-9.2.0.ebuild:
+  bump simplisafe-python-9.2.0
+
+*simplisafe-python-9.1.0 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-9.0.3.ebuild, -simplisafe-python-9.0.5.ebuild,
+  +simplisafe-python-9.1.0.ebuild:
+  bump simplisafe-python-9.1.0, remove unused
+
+*simplisafe-python-9.0.7 (16 Apr 2020)
+
+  16 Apr 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-7.3.0.ebuild, +simplisafe-python-9.0.7.ebuild:
+  bump simplisafe-python-9.0.7
+
+*simplisafe-python-9.0.6 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-6.1.0.ebuild, -simplisafe-python-7.1.0.ebuild,
+  +simplisafe-python-9.0.6.ebuild:
+  bump simplisafe-python-9.0.6
+
+*simplisafe-python-9.0.5 (29 Mar 2020)
+*simplisafe-python-9.0.4 (29 Mar 2020)
+*simplisafe-python-9.0.3 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-9.0.3.ebuild, +simplisafe-python-9.0.4.ebuild,
+  +simplisafe-python-9.0.5.ebuild:
+  bump simplisafe-python-9.0.[3-5]
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-5.2.0.ebuild, -simplisafe-python-5.3.5.ebuild,
+  -simplisafe-python-5.3.6.ebuild, -simplisafe-python-6.0.0.ebuild:
+  clean up, romove olds
+
+*simplisafe-python-9.0.2 (28 Feb 2020)
+
+  28 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-9.0.2.ebuild:
+  bump simplisafe-python-9.0.2
+
+*simplisafe-python-8.1.1 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-8.1.1.ebuild:
+  bump simplisafe-python-8.1.1
+
+*simplisafe-python-7.3.0 (16 Feb 2020)
+
+  16 Feb 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-5.1.0.ebuild, +simplisafe-python-7.3.0.ebuild:
+  bump simplisafe-python-7.3.0
+
+*simplisafe-python-7.1.0 (13 Feb 2020)
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-7.1.0.ebuild:
+  bump simplisafe-python-7.1.0
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-6.1.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: S
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-5.1.0.ebuild, simplisafe-python-5.2.0.ebuild,
+  simplisafe-python-5.3.5.ebuild, simplisafe-python-5.3.6.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-6.1.0.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-4.3.0.ebuild, -simplisafe-python-5.0.1.ebuild:
+  remove olds
+
+*simplisafe-python-6.1.0 (27 Jan 2020)
+
+  27 Jan 2020; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-4.2.0.ebuild, +simplisafe-python-6.1.0.ebuild:
+  bump simplisafe-python-6.1.0
+
+*simplisafe-python-6.0.0 (13 Jan 2020)
+
+  13 Jan 2020; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-6.0.0.ebuild:
+  bump simplisafe-python-6.0.0
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*simplisafe-python-5.3.6 (21 Dec 2019)
+
+  21 Dec 2019; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-5.3.6.ebuild:
+  bump simplisafe-python-5.3.6
+
+*simplisafe-python-5.3.5 (26 Nov 2019)
+
+  26 Nov 2019; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-5.3.5.ebuild:
+  bump simplisafe-python-5.3.5
+
+*simplisafe-python-5.2.0 (14 Nov 2019)
+
+  14 Nov 2019; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-4.0.0.ebuild, -simplisafe-python-4.0.1.ebuild,
+  +simplisafe-python-5.2.0.ebuild:
+  update simplisafe-python-5.2.0
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net>
+  simplisafe-python-4.0.0.ebuild, simplisafe-python-4.0.1.ebuild,
+  simplisafe-python-4.2.0.ebuild, simplisafe-python-4.3.0.ebuild,
+  simplisafe-python-5.0.1.ebuild, simplisafe-python-5.1.0.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*simplisafe-python-5.1.0 (10 Nov 2019)
+
+  10 Nov 2019; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-3.4.2.ebuild, +simplisafe-python-5.1.0.ebuild:
+  bump simplisafe-python-5.1.0
+
+*simplisafe-python-5.0.1 (01 Oct 2019)
+
+  01 Oct 2019; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-5.0.1.ebuild:
+  bump simplisafe-python-5.0.1
+
+*simplisafe-python-4.3.0 (15 Aug 2019)
+
+  15 Aug 2019; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-3.4.1.ebuild, +simplisafe-python-4.3.0.ebuild:
+  bump simplisafe-python-4.3.0
+
+*simplisafe-python-4.2.0 (31 Jul 2019)
+
+  31 Jul 2019; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-4.2.0.ebuild:
+  bump simplisafe-python-4.2.0
+
+*simplisafe-python-4.0.1 (20 Jul 2019)
+*simplisafe-python-4.0.0 (20 Jul 2019)
+
+  20 Jul 2019; Andreas Billmeier <b@edevau.net>
+  -simplisafe-python-3.1.14.ebuild, simplisafe-python-3.4.2.ebuild,
+  +simplisafe-python-4.0.0.ebuild, +simplisafe-python-4.0.1.ebuild:
+  update simplisafe-python-4.0.[0,1]
+
+*simplisafe-python-3.4.2 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net>
+  +simplisafe-python-3.4.2.ebuild:
+  homeassistant-0.94.1 & simplisafe-python-3.4.2
+
+*simplisafe-python-3.4.1 (03 Mar 2019)
+*simplisafe-python-3.1.14 (03 Mar 2019)
+
+  03 Mar 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +simplisafe-python-3.1.14.ebuild, +simplisafe-python-3.4.1.ebuild:
+  add simplisafe-python
+

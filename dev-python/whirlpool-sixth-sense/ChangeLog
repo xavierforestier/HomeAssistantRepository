@@ -1,0 +1,174 @@
+# ChangeLog for dev-python/whirlpool-sixth-sense
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*whirlpool-sixth-sense-1.0.2 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +whirlpool-sixth-sense-1.0.2.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -whirlpool-sixth-sense-0.21.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*whirlpool-sixth-sense-0.21.3 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +whirlpool-sixth-sense-0.21.3.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -whirlpool-sixth-sense-0.20.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*whirlpool-sixth-sense-0.21.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +whirlpool-sixth-sense-0.21.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -whirlpool-sixth-sense-0.19.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*whirlpool-sixth-sense-0.20.0 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +whirlpool-sixth-sense-0.20.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  whirlpool-sixth-sense-0.19.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -whirlpool-sixth-sense-0.18.12.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -whirlpool-sixth-sense-0.18.4.ebuild, -whirlpool-sixth-sense-0.18.7.ebuild,
+  -whirlpool-sixth-sense-0.18.8.ebuild, -whirlpool-sixth-sense-0.18.11.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -whirlpool-sixth-sense-0.18.11.ebuilde,
+  -whirlpool-sixth-sense-0.18.12.ebuilde,
+  -whirlpool-sixth-sense-0.18.4.ebuilde,
+  -whirlpool-sixth-sense-0.18.7.ebuilde,
+  -whirlpool-sixth-sense-0.18.8.ebuilde,
+  -whirlpool-sixth-sense-0.19.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +whirlpool-sixth-sense-0.18.11.ebuilde,
+  +whirlpool-sixth-sense-0.18.12.ebuilde,
+  +whirlpool-sixth-sense-0.18.4.ebuilde,
+  +whirlpool-sixth-sense-0.18.7.ebuilde,
+  +whirlpool-sixth-sense-0.18.8.ebuilde,
+  +whirlpool-sixth-sense-0.19.1.ebuilde:
+  Fix KEYWORDS
+
+*whirlpool-sixth-sense-0.19.1 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +whirlpool-sixth-sense-0.19.1.ebuild:
+  Homeassistant 2025.4.0
+
+*whirlpool-sixth-sense-0.18.12 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +whirlpool-sixth-sense-0.18.12.ebuild:
+  homeassisstant-2025.2.0
+
+*whirlpool-sixth-sense-0.18.11 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +whirlpool-sixth-sense-0.18.11.ebuild:
+  homeassistant 2025.1.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  whirlpool-sixth-sense-0.18.8.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*whirlpool-sixth-sense-0.18.8 (12 Apr 2024)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +whirlpool-sixth-sense-0.18.8.ebuild:
+  add 0.18.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3213
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*whirlpool-sixth-sense-0.18.7 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net>
+  whirlpool-sixth-sense-0.18.4.ebuild, +whirlpool-sixth-sense-0.18.7.ebuild:
+  add 0.18.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3181
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -whirlpool-sixth-sense-0.18.2.ebuild, -whirlpool-sixth-sense-0.18.3.ebuild:
+  drop 0.18.2, 0.18.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*whirlpool-sixth-sense-0.18.4 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +whirlpool-sixth-sense-0.18.4.ebuild:
+  add 0.18.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*whirlpool-sixth-sense-0.18.3 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net>
+  -whirlpool-sixth-sense-0.17.0.ebuild, whirlpool-sixth-sense-0.18.2.ebuild,
+  +whirlpool-sixth-sense-0.18.3.ebuild:
+  dev-python/aioconsole: update 0.5.1, remove SRC_URI
+  dev-python/whirlpool-sixth-sense: add 0.18.3, drop 0.17.0, update 0.18.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*whirlpool-sixth-sense-0.18.2 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -whirlpool-sixth-sense-0.15.1.ebuild, +whirlpool-sixth-sense-0.18.2.ebuild:
+  add 0.18.2, drop 0.15.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  whirlpool-sixth-sense-0.15.1.ebuild, whirlpool-sixth-sense-0.17.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  whirlpool-sixth-sense-0.15.1.ebuild, whirlpool-sixth-sense-0.17.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*whirlpool-sixth-sense-0.17.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net>
+  whirlpool-sixth-sense-0.15.1.ebuild, +whirlpool-sixth-sense-0.17.0.ebuild:
+  update whirlpool-sixth-sense-0.17.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  whirlpool-sixth-sense-0.15.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*whirlpool-sixth-sense-0.15.1 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +whirlpool-sixth-sense-0.15.1.ebuild:
+  add whirlpool-sixth-sense-0.15.1
+

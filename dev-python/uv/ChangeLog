@@ -1,0 +1,84 @@
+# ChangeLog for dev-python/uv
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  uv-0.8.9.ebuild:
+  pkcheck
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -uv-0.7.1.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  uv-0.8.9.ebuild:
+  [CI]Update pkgcheck status
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  uv-0.8.9.ebuild:
+  shellcheck
+
+*uv-0.8.9 (16 Aug 2025)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +uv-0.8.9.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  uv-0.7.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  uv-0.7.1.ebuild:
+  Fixes
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  uv-0.7.1.ebuild:
+  homeassistant 2025.5.1 deps
+
+*uv-0.7.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +uv-0.7.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -files/tokio-tar-0.3.1-ppc.patch, -files/uv-0.1.43-test.patch,
+  -metadata.xml, -uv-0.1.35.ebuild, -uv-0.1.43.ebuild, -uv-0.4.15.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -uv-0.1.35.ebuilde,
+  -uv-0.1.43.ebuilde, -uv-0.4.15.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +uv-0.1.35.ebuilde,
+  +uv-0.1.43.ebuilde, +uv-0.4.15.ebuilde:
+  Fix KEYWORDS
+
+*uv-0.4.15 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> +uv-0.4.15.ebuild:
+  re-add 0.4.15 from Gentoo archive
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3972
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*uv-0.1.43 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +files/tokio-tar-0.3.1-ppc.patch, +files/uv-0.1.43-test.patch,
+  +uv-0.1.43.ebuild:
+  add 0.1.43
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3527
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*uv-0.1.35 (13 May 2024)
+
+  13 May 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +uv-0.1.35.ebuild:
+  new package, add 0.1.35
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3349
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

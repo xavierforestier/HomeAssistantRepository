@@ -1,0 +1,136 @@
+# ChangeLog for dev-python/maxcube-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  maxcube-api-0.4.3-r1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -maxcube-api-0.4.3-r1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +maxcube-api-0.4.3-r1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  maxcube-api-0.4.3-r1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> maxcube-api-0.4.3-r1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  19 Jun 2023; Andreas Billmeier <b@edevau.net> maxcube-api-0.4.3-r1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> maxcube-api-0.4.3-r1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> maxcube-api-0.4.3-r1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> maxcube-api-0.4.3-r1.ebuild,
+  -maxcube-api-9999.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> maxcube-api-9999.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> maxcube-api-0.4.3-r1.ebuild,
+  maxcube-api-9999.ebuild:
+  minor cleanups
+
+  12 Mar 2022; Andreas Billmeier <b@edevau.net> -maxcube-api-0.3.0.ebuild,
+  -maxcube-api-0.4.2.ebuild:
+  maxcube-api, remove olds
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> maxcube-api-0.4.3-r1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> maxcube-api-0.3.0.ebuild,
+  maxcube-api-0.4.2.ebuild, maxcube-api-0.4.3-r1.ebuild,
+  maxcube-api-9999.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> maxcube-api-0.3.0.ebuild,
+  maxcube-api-0.4.2.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*maxcube-api-0.4.3-r1 (07 Jul 2021)
+
+  07 Jul 2021; Andreas Billmeier <b@edevau.net> -maxcube-api-0.4.3.ebuild,
+  +maxcube-api-0.4.3-r1.ebuild:
+  maxcube-api-0.4.3 bad license assignment, fixes #223
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -maxcube-api-0.1.0-r1.ebuild,
+  -maxcube-api-0.4.1.ebuild, maxcube-api-0.4.3.ebuild,
+  maxcube-api-9999.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for the rest of the -min Ebuild
+  (untested)
+
+*maxcube-api-0.4.3 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +maxcube-api-0.4.3.ebuild:
+  update maxcube-api-0.4.3
+
+*maxcube-api-0.4.2 (24 Apr 2021)
+
+  24 Apr 2021; Andreas Billmeier <b@edevau.net> +maxcube-api-0.4.2.ebuild:
+  bump maxcube-api-0.4.2
+
+*maxcube-api-0.4.1 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> -maxcube-api-0.1.0.ebuild,
+  +maxcube-api-0.4.1.ebuild:
+  bump (commit 89efe6e) maxcube-api-0.4.1
+
+*maxcube-api-0.3.0 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> maxcube-api-0.1.0-r1.ebuild,
+  +maxcube-api-0.3.0.ebuild, maxcube-api-9999.ebuild:
+  bump maxcube-api-0.3.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> maxcube-api-0.1.0-r1.ebuild,
+  maxcube-api-9999.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  05 Nov 2020; Andreas Billmeier <b@edevau.net> maxcube-api-0.1.0-r1.ebuild:
+  fix license string
+
+*maxcube-api-9999 (05 Nov 2020)
+*maxcube-api-0.1.0-r1 (05 Nov 2020)
+
+  05 Nov 2020; Andreas Billmeier <b@edevau.net> maxcube-api-0.1.0.ebuild,
+  +maxcube-api-0.1.0-r1.ebuild, +maxcube-api-9999.ebuild, metadata.xml:
+  'downgrade' maxcube-api-0.1.0-r1, now using the correct commit id
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> maxcube-api-0.1.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: L-O
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> maxcube-api-0.1.0.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  26 May 2019; Andreas Billmeier <b@edevau.net> maxcube-api-0.1.0.ebuild:
+  update license strings
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> maxcube-api-0.1.0.ebuild:
+  minor changes
+
+*maxcube-api-0.1.0 (06 Jan 2019)
+
+  06 Jan 2019; Andreas Billmeier <b@edevau.net> +maxcube-api-0.1.0.ebuild,
+  +metadata.xml:
+  maxcube-api-0.1.0 with patch now working
+

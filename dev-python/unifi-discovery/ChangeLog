@@ -1,0 +1,100 @@
+# ChangeLog for dev-python/unifi-discovery
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  unifi-discovery-1.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -unifi-discovery-1.1.8.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -unifi-discovery-1.1.8.ebuilde, -unifi-discovery-1.2.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +unifi-discovery-1.1.8.ebuilde, +unifi-discovery-1.2.0.ebuilde:
+  Fix KEYWORDS
+
+*unifi-discovery-1.2.0 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -unifi-discovery-1.1.7.ebuild, unifi-discovery-1.1.8.ebuild,
+  +unifi-discovery-1.2.0.ebuild:
+  add 1.2.0, drop 1.1.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3798
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*unifi-discovery-1.1.8 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> unifi-discovery-1.1.7.ebuild,
+  +unifi-discovery-1.1.8.ebuild:
+  add 1.1.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3031
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -unifi-discovery-1.1.5.ebuild,
+  -unifi-discovery-1.1.6.ebuild, unifi-discovery-1.1.7.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> unifi-discovery-1.1.5.ebuild,
+  unifi-discovery-1.1.6.ebuild, unifi-discovery-1.1.7.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> unifi-discovery-1.1.5.ebuild,
+  unifi-discovery-1.1.6.ebuild, unifi-discovery-1.1.7.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -unifi-discovery-1.1.4.ebuild:
+  rework, remove olds
+
+*unifi-discovery-1.1.7 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +unifi-discovery-1.1.7.ebuild:
+  update unifi-discovery-1.1.7
+
+*unifi-discovery-1.1.6 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +unifi-discovery-1.1.6.ebuild:
+  bump unifi-discovery-1.1.6
+
+*unifi-discovery-1.1.5 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -unifi-discovery-1.1.2.ebuild,
+  -unifi-discovery-1.1.3.ebuild, unifi-discovery-1.1.4.ebuild,
+  +unifi-discovery-1.1.5.ebuild:
+  update unifi-discovery-1.1.5
+
+*unifi-discovery-1.1.4 (15 Jun 2022)
+
+  15 Jun 2022; Andreas Billmeier <b@edevau.net> unifi-discovery-1.1.2.ebuild,
+  unifi-discovery-1.1.3.ebuild, +unifi-discovery-1.1.4.ebuild:
+  bump unifi-discovery-1.1.4
+
+*unifi-discovery-1.1.3 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +unifi-discovery-1.1.3.ebuild:
+  bump unifi-discovery-1.1.3
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> unifi-discovery-1.1.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*unifi-discovery-1.1.2 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +unifi-discovery-1.1.2.ebuild:
+  add unifi-discovery-1.1.2
+

@@ -1,0 +1,207 @@
+# ChangeLog for dev-python/vallox-websocket-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  vallox-websocket-api-5.3.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -vallox-websocket-api-5.1.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -vallox-websocket-api-5.1.1.ebuilde, -vallox-websocket-api-5.3.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +vallox-websocket-api-5.1.1.ebuilde, +vallox-websocket-api-5.3.0.ebuilde:
+  Fix KEYWORDS
+
+*vallox-websocket-api-5.3.0 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-4.0.2.ebuild, -vallox-websocket-api-4.0.3.ebuild,
+  -vallox-websocket-api-5.1.0.ebuild, vallox-websocket-api-5.1.1.ebuild,
+  +vallox-websocket-api-5.3.0.ebuild:
+  add 5.3.0, drop 4.0.2, 5.1.0, 4.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3802
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vallox-websocket-api-5.1.1 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +vallox-websocket-api-5.1.1.ebuild:
+  add 5.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3159
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vallox-websocket-api-5.1.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-3.3.0.ebuild, vallox-websocket-api-4.0.2.ebuild,
+  vallox-websocket-api-4.0.3.ebuild, +vallox-websocket-api-5.1.0.ebuild:
+  drop 3.3.0, add 5.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3032
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vallox-websocket-api-4.0.3 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-3.3.0.ebuild, vallox-websocket-api-4.0.2.ebuild,
+  +vallox-websocket-api-4.0.3.ebuild:
+  add 4.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2874
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-3.2.1.ebuild:
+  drop 3.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vallox-websocket-api-4.0.2 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +vallox-websocket-api-4.0.2.ebuild:
+  add 4.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2505
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vallox-websocket-api-3.3.0 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-2.12.0.ebuild, -vallox-websocket-api-3.0.0.ebuild,
+  vallox-websocket-api-3.2.1.ebuild, +vallox-websocket-api-3.3.0.ebuild:
+  add 3.3.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vallox-websocket-api-3.2.1 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net>
+  +vallox-websocket-api-3.2.1.ebuild:
+  add 3.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.12.0.ebuild, vallox-websocket-api-3.0.0.ebuild:
+  remove Python 3.8 Support tag
+
+*vallox-websocket-api-3.0.0 (09 Jan 2023)
+
+  09 Jan 2023; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-2.11.0.ebuild, +vallox-websocket-api-3.0.0.ebuild:
+  add 3.0.0, drop 2.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.11.0.ebuild, vallox-websocket-api-2.12.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vallox-websocket-api-2.12.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-2.8.1.ebuild, -vallox-websocket-api-2.9.0.ebuild,
+  vallox-websocket-api-2.11.0.ebuild, +vallox-websocket-api-2.12.0.ebuild:
+  bump vallox-websocket-api-2.12.0
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.11.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.8.1.ebuild, vallox-websocket-api-2.9.0.ebuild,
+  vallox-websocket-api-2.11.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*vallox-websocket-api-2.11.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net>
+  +vallox-websocket-api-2.11.0.ebuild:
+  bump vallox-websocket-api-2.11.0
+
+*vallox-websocket-api-2.9.0 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-2.4.0.ebuild, +vallox-websocket-api-2.9.0.ebuild:
+  update vallox-websocket-api-2.9.0
+
+  03 Oct 2021; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.4.0.ebuild, vallox-websocket-api-2.8.1.ebuild:
+  fix missing wheel Bdep on vallox-websocket-api, fixes #235
+
+*vallox-websocket-api-2.8.1 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net>
+  +vallox-websocket-api-2.8.1.ebuild:
+  update vallox-websocket-api-2.8.1
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.4.0.ebuild:
+  cleanup, add new Python Targets, Letter '-Z' (med) Integrations
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net>
+  -vallox-websocket-api-2.0.0.ebuild, -vallox-websocket-api-2.2.0.ebuild,
+  vallox-websocket-api-2.4.0.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> vallox-websocket-api-2.0.0.ebuild,
+  vallox-websocket-api-2.2.0.ebuild, vallox-websocket-api-2.4.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.4.0.ebuild:
+  vallox-websocket-api-2.4.0: fix websockets-8.0 compytibility
+
+*vallox-websocket-api-2.4.0 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +vallox-websocket-api-2.4.0.ebuild:
+  vallox-websocket-api-2.4.0 bumped
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.2.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.0.0.ebuild, vallox-websocket-api-2.2.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.0.0.ebuild, vallox-websocket-api-2.2.0.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net>
+  vallox-websocket-api-2.0.0.ebuild, vallox-websocket-api-2.2.0.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*vallox-websocket-api-2.2.0 (23 Jul 2019)
+*vallox-websocket-api-2.0.0 (23 Jul 2019)
+
+  23 Jul 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +vallox-websocket-api-2.0.0.ebuild, +vallox-websocket-api-2.2.0.ebuild:
+  add vallox-websocket-api-2.[0,2].0
+

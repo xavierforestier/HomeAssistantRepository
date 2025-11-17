@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/pyfronius
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyfronius-0.7.7.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*pyfronius-0.8.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyfronius-0.8.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyfronius-0.7.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*pyfronius-0.7.7 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pyfronius-0.7.7.ebuild:
+  Fix for pkgcheck
+

@@ -1,0 +1,89 @@
+# ChangeLog for dev-python/typing-extensions
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  typing-extensions-4.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -typing-extensions-4.4.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +typing-extensions-4.4.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  typing-extensions-4.4.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net>
+  typing-extensions-4.4.0.ebuild:
+  VariableShadowed
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  19 Jun 2023; Andreas Billmeier <b@edevau.net>
+  typing-extensions-4.4.0.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  typing-extensions-4.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: fix some maintainers in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net>
+  typing-extensions-4.4.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+*typing-extensions-4.4.0 (09 Oct 2022)
+
+  09 Oct 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +typing-extensions-4.4.0.ebuild:
+  add typing-extensions-4.4.0
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -typing-extensions-3.6.6.ebuild:
+  remove abandoned packages and Ebuilds
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> typing-extensions-3.6.6.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net>
+  typing-extensions-3.6.6.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  typing-extensions-3.6.6.ebuild:
+  minor code cleanups
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net>
+  typing-extensions-3.6.6.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+  26 May 2019; Andreas Billmeier <b@edevau.net>
+  typing-extensions-3.6.6.ebuild:
+  fix License String
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  typing-extensions-3.6.6.ebuild:
+  minor changes
+
+*typing-extensions-3.6.6 (09 Jan 2019)
+
+  09 Jan 2019; Andreas Billmeier <b@edevau.net>
+  +typing-extensions-3.6.6.ebuild:
+  typing-extensions fix uncommon underscore MY_P=-
+

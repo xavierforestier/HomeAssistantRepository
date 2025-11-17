@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/pypglab
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypglab-0.0.3.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pypglab-0.0.5 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pypglab-0.0.5.ebuild:
+  homeassistant 2025.5.1 deps
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, pypglab-0.0.3.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pypglab-0.0.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pypglab-0.0.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pypglab-0.0.3.ebuild, +pypglab-0.0.3.ebuilde:
+  Fix KEYWORDS
+
+*pypglab-0.0.3 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pypglab-0.0.3.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

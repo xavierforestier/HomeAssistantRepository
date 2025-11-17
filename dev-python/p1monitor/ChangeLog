@@ -1,0 +1,127 @@
+# ChangeLog for dev-python/p1monitor
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -p1monitor-3.1.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*p1monitor-3.2.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +p1monitor-3.2.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  p1monitor-3.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -p1monitor-3.0.0.ebuild, -p1monitor-3.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -p1monitor-3.0.0.ebuilde, -p1monitor-3.0.1.ebuilde,
+  -p1monitor-3.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +p1monitor-3.0.0.ebuilde, +p1monitor-3.0.1.ebuilde,
+  +p1monitor-3.1.0.ebuilde:
+  Fix KEYWORDS
+
+*p1monitor-3.1.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +p1monitor-3.1.0.ebuild:
+  add 3.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4050
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*p1monitor-3.0.1 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> p1monitor-3.0.0.ebuild,
+  +p1monitor-3.0.1.ebuild:
+  add 3.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3725
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -p1monitor-2.1.1.ebuild,
+  p1monitor-3.0.0.ebuild:
+  drop 2.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*p1monitor-3.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +p1monitor-3.0.0.ebuild:
+  add 3.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2474
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -p1monitor-2.1.0.ebuild,
+  p1monitor-2.1.1.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> p1monitor-2.1.0.ebuild,
+  p1monitor-2.1.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*p1monitor-2.1.1 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> -p1monitor-1.0.1.ebuild,
+  p1monitor-2.1.0.ebuild, +p1monitor-2.1.1.ebuild:
+  bump 2.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> p1monitor-1.0.1.ebuild,
+  p1monitor-2.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> p1monitor-2.1.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+*p1monitor-2.1.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -p1monitor-0.2.0.ebuild,
+  -p1monitor-1.0.0.ebuild, p1monitor-1.0.1.ebuild, -p1monitor-1.1.0.ebuild,
+  +p1monitor-2.1.0.ebuild:
+  bump p1monitor-2.1.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> p1monitor-0.2.0.ebuild,
+  p1monitor-1.0.0.ebuild, p1monitor-1.0.1.ebuild, p1monitor-1.1.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*p1monitor-1.0.1 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +p1monitor-1.0.1.ebuild:
+  df p1monitor-1.0.1
+
+*p1monitor-1.1.0 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +p1monitor-1.1.0.ebuild:
+  bump p1monitor-1.0.1
+
+*p1monitor-1.0.0 (30 Aug 2021)
+
+  30 Aug 2021; Andreas Billmeier <b@edevau.net> +p1monitor-1.0.0.ebuild:
+  bump p1monitor-1.0.0
+
+*p1monitor-0.2.0 (29 Aug 2021)
+
+  29 Aug 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +p1monitor-0.2.0.ebuild:
+  add p1monitor-0.2.0
+

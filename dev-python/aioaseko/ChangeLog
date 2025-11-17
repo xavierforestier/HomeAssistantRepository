@@ -1,0 +1,88 @@
+# ChangeLog for dev-python/aioaseko
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioaseko-1.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioaseko-0.1.1.ebuild, -aioaseko-0.2.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioaseko-0.1.1.ebuilde, -aioaseko-0.2.0.ebuilde, -aioaseko-1.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioaseko-0.1.1.ebuilde, +aioaseko-0.2.0.ebuilde, +aioaseko-1.0.0.ebuilde:
+  Fix KEYWORDS
+
+*aioaseko-1.0.0 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> +aioaseko-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3823
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioaseko-0.2.0 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -aioaseko-0.0.2.ebuild,
+  aioaseko-0.1.1.ebuild, +aioaseko-0.2.0.ebuild:
+  add 0.2.0, drop 0.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3561
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioaseko-0.1.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> aioaseko-0.0.2.ebuild,
+  +aioaseko-0.1.1.ebuild:
+  add 0.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3097
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aioaseko-0.0.2.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> aioaseko-0.0.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aioaseko-0.0.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioaseko-0.0.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aioaseko-0.0.1.ebuild,
+  aioaseko-0.0.2.ebuild:
+  rework, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aioaseko-0.0.1.ebuild,
+  aioaseko-0.0.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aioaseko-0.0.2 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> +aioaseko-0.0.2.ebuild:
+  bump aioaseko-0.0.2
+
+*aioaseko-0.0.1 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +aioaseko-0.0.1.ebuild,
+  +metadata.xml:
+  add aioaseko-0.0.1
+

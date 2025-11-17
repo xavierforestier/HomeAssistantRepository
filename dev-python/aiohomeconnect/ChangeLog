@@ -1,0 +1,84 @@
+# ChangeLog for dev-python/aiohomeconnect
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aiohomeconnect-0.23.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomeconnect-0.23.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomeconnect-0.18.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aiohomeconnect-0.19.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomeconnect-0.19.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomeconnect-0.18.0.ebuild:
+  Cleansing
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomeconnect-0.17.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*aiohomeconnect-0.18.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomeconnect-0.18.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*aiohomeconnect-0.18.0 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomeconnect-0.17.0.ebuild, +aiohomeconnect-0.18.0.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*aiohomeconnect-0.17.1 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomeconnect-0.17.1.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomeconnect-0.16.3.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*aiohomeconnect-0.17.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohomeconnect-0.17.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiohomeconnect-0.16.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohomeconnect-0.16.2.ebuild, aiohomeconnect-0.16.3.ebuild, +metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiohomeconnect-0.16.2.ebuilde, -aiohomeconnect-0.16.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohomeconnect-0.16.2.ebuilde, +aiohomeconnect-0.16.3.ebuilde:
+  Fix KEYWORDS
+
+*aiohomeconnect-0.16.3 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohomeconnect-0.16.3.ebuild:
+  homeassistant 2025.3.1
+
+*aiohomeconnect-0.16.2 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohomeconnect-0.16.2.ebuild:
+  homeassistant 2025.3.0
+

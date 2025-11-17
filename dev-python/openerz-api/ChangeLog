@@ -1,0 +1,80 @@
+# ChangeLog for dev-python/openerz-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  openerz-api-0.3.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -openerz-api-0.2.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -openerz-api-0.2.0.ebuilde, -openerz-api-0.3.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +openerz-api-0.2.0.ebuilde, +openerz-api-0.3.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  openerz-api-0.3.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*openerz-api-0.3.0 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> openerz-api-0.2.0.ebuild,
+  +openerz-api-0.3.0.ebuild:
+  add 0.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2734
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -openerz-api-0.1.0.ebuild,
+  openerz-api-0.2.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*openerz-api-0.2.0 (07 Feb 2023)
+
+  07 Feb 2023; Andreas Billmeier <b@edevau.net> +openerz-api-0.2.0.ebuild:
+  add 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> openerz-api-0.1.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> openerz-api-0.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> openerz-api-0.1.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> openerz-api-0.1.0.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> openerz-api-0.1.0.ebuild:
+  openerz-api-0.1.0 fix RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> openerz-api-0.1.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> openerz-api-0.1.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*openerz-api-0.1.0 (05 Apr 2020)
+
+  05 Apr 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +openerz-api-0.1.0.ebuild:
+  add openerz-api-0.1.0
+

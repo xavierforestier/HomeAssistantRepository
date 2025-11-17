@@ -1,0 +1,39 @@
+# ChangeLog for dev-python/pypalazzetti
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pypalazzetti-0.1.19.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pypalazzetti-0.1.19.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypalazzetti-0.1.6.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pypalazzetti-0.1.19.ebuilde, -pypalazzetti-0.1.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pypalazzetti-0.1.19.ebuilde, +pypalazzetti-0.1.6.ebuilde:
+  Fix KEYWORDS
+
+*pypalazzetti-0.1.19 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pypalazzetti-0.1.19.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*pypalazzetti-0.1.6 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pypalazzetti-0.1.6.ebuild:
+  new package, add 0.1.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4052
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

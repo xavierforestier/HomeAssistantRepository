@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/zabbix-utils
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zabbix-utils-2.0.2.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*zabbix-utils-2.0.3 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zabbix-utils-2.0.3.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zabbix-utils-2.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, zabbix-utils-2.0.2.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zabbix-utils-2.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  zabbix-utils-2.0.2.ebuild, +zabbix-utils-2.0.2.ebuilde:
+  Fix KEYWORDS
+
+*zabbix-utils-2.0.2 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zabbix-utils-2.0.2.ebuild:
+  homeassistant 2025.1.1
+

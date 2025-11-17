@@ -1,0 +1,139 @@
+# ChangeLog for dev-python/pysml
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysml-0.0.12.ebuild:
+  Cleansing
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pysml-fix-sml-mqtt-bridge.service.patch, pysml-0.1.5.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*pysml-0.1.5 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysml-0.1.5.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pysml-0.0.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pysml-0.0.12.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pysml-0.0.12.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysml-0.0.12.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pysml-0.0.12.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  pysml-0.0.12.ebuild:
+  MissingRemoteId
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pysml-0.0.8.ebuild,
+  -pysml-0.0.9.ebuild, -pysml-0.0.10.ebuild:
+  drop 0.0.8, 0.0.9, 0.0.10
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pysml-0.0.12 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> pysml-0.0.8.ebuild,
+  pysml-0.0.9.ebuild, pysml-0.0.10.ebuild, +pysml-0.0.12.ebuild:
+  add 0.0.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pysml-0.0.10 (01 May 2023)
+
+  01 May 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pysml-0.0.10.ebuild:
+  add 0.0.10Â
+
+*pysml-0.0.9 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  pysml-0.0.8.ebuild, +pysml-0.0.9.ebuild:
+  add 0.0.9, update SRC_URI, fix stray top-level files
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pysml-0.0.8.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pysml-0.0.8.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pysml-0.0.8.ebuild:
+  remove olds, cleanup, enable pytest
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -pysml-0.0.7-r1.ebuild,
+  pysml-0.0.8.ebuild:
+  rework, remove olds
+
+*pysml-0.0.8 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> pysml-0.0.7-r1.ebuild,
+  +pysml-0.0.8.ebuild:
+  bump pysml-0.0.8
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> pysml-0.0.7-r1.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+*pysml-0.0.7-r1 (27 May 2022)
+
+  27 May 2022; Andreas Billmeier <b@edevau.net> -pysml-0.0.5.ebuild,
+  -pysml-0.0.7.ebuild, +pysml-0.0.7-r1.ebuild:
+  remove pyproject.toml, migrate to PEP517
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pysml-0.0.5.ebuild,
+  pysml-0.0.7.ebuild:
+  fix some invalid pre-inherit placements of
+  'DISTUTILS_USE_SETUPTOOLS=pyproject.toml'
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pysml-0.0.5.ebuild,
+  pysml-0.0.7.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pysml-0.0.7 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -pysml-0.0.2.ebuild,
+  -pysml-0.0.3.ebuild, pysml-0.0.5.ebuild, +pysml-0.0.7.ebuild:
+  update pysml-0.0.7
+
+*pysml-0.0.5 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> +pysml-0.0.5.ebuild:
+  bump pysml-0.0.5
+
+*pysml-0.0.3 (03 Dec 2020)
+
+  03 Dec 2020; Andreas Billmeier <b@edevau.net> +pysml-0.0.3.ebuild:
+  bump pysml-0.0.3
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pysml-0.0.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> pysml-0.0.2.ebuild:
+  fix all remaining async-timeout -> async_timeout
+
+*pysml-0.0.2 (06 Mar 2020)
+
+  06 Mar 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pysml-0.0.2.ebuild:
+  add pysml-0.0.2
+

@@ -1,0 +1,191 @@
+# ChangeLog for dev-python/pytradfri
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  metadata.xml, pytradfri-9.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytradfri-9.0.1.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pytradfri-9.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytradfri-9.0.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pytradfri-9.0.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  24 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pytradfri-9.0.1.ebuild:
+  Home Asssitant 2024.10.2 (full) :)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pytradfri-9.0.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> -pytradfri-9.0.0.ebuild,
+  pytradfri-9.0.1.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytradfri-9.0.1 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> +pytradfri-9.0.1.ebuild:
+  add 9.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pytradfri-9.0.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pytradfri-9.0.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -pytradfri-7.1.1.ebuild,
+  -pytradfri-7.2.1.ebuild, -pytradfri-8.0.1.ebuild, pytradfri-9.0.0.ebuild:
+  rework, remove olds
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pytradfri-9.0.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pytradfri-7.1.1.ebuild,
+  pytradfri-7.2.1.ebuild, pytradfri-8.0.1.ebuild, pytradfri-9.0.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pytradfri-9.0.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -pytradfri-7.0.6.ebuild,
+  +pytradfri-9.0.0.ebuild:
+  update pytradfri-9.0.0
+
+*pytradfri-8.0.1 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +pytradfri-8.0.1.ebuild:
+  bump pytradfri-8.0.1
+
+*pytradfri-7.2.1 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pytradfri-7.2.1.ebuild:
+  update pytradfri-7.2.1
+
+*pytradfri-7.1.1 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +pytradfri-7.1.1.ebuild:
+  bump pytradfri-7.1.1
+
+  18 Jun 2021; Andreas Billmeier <b@edevau.net> pytradfri-7.0.6.ebuild:
+  remove black from pytradfri-7.0.6
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -pytradfri-7.0.2.ebuild,
+  -pytradfri-7.0.3.ebuild, -pytradfri-7.0.4.ebuild, -pytradfri-7.0.5.ebuild,
+  pytradfri-7.0.6.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for the rest of the -min Ebuild
+  (untested)
+
+*pytradfri-7.0.6 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -pytradfri-7.0.1.ebuild,
+  +pytradfri-7.0.6.ebuild:
+  update pytradfri-7.0.6
+
+*pytradfri-7.0.5 (19 Dec 2020)
+
+  19 Dec 2020; Andreas Billmeier <b@edevau.net> -pytradfri-6.4.0.ebuild,
+  +pytradfri-7.0.5.ebuild:
+  update pytradfri-7.0.5
+
+*pytradfri-7.0.4 (17 Nov 2020)
+*pytradfri-7.0.3 (17 Nov 2020)
+
+  17 Nov 2020; Andreas Billmeier <b@edevau.net> -pytradfri-6.0.1.ebuild,
+  -pytradfri-6.3.1.ebuild, +pytradfri-7.0.3.ebuild, +pytradfri-7.0.4.ebuild:
+  bump pytradfri-7.0.3 and pytradfri-7.0.4
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pytradfri-6.0.1.ebuild,
+  pytradfri-6.3.1.ebuild, pytradfri-6.4.0.ebuild, pytradfri-7.0.1.ebuild,
+  pytradfri-7.0.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pytradfri-7.0.2 (07 Sep 2020)
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> -pytradfri-7.0.0.ebuild,
+  +pytradfri-7.0.2.ebuild:
+  bump pytradfri-7.0.2.ebuild
+
+*pytradfri-7.0.1 (06 Sep 2020)
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net> pytradfri-6.0.1.ebuild,
+  pytradfri-6.3.1.ebuild, pytradfri-6.4.0.ebuild, pytradfri-7.0.0.ebuild,
+  +pytradfri-7.0.1.ebuild:
+  update pytradfri-7.0.1, rework the olds
+
+*pytradfri-7.0.0 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pytradfri-7.0.0.ebuild:
+  update pytradfri-7.0.0
+  update dtlssocket-0.1.10
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pytradfri-6.4.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pytradfri-6.0.1.ebuild,
+  pytradfri-6.3.1.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> pytradfri-6.4.0.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pytradfri-6.0.1.ebuild,
+  pytradfri-6.3.1.ebuild, pytradfri-6.4.0.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+*pytradfri-6.4.0 (26 Oct 2019)
+
+  26 Oct 2019; Andreas Billmeier <b@edevau.net> +pytradfri-6.4.0.ebuild:
+  bump pytradfri-6.4.0
+
+*pytradfri-6.3.1 (21 Sep 2019)
+
+  21 Sep 2019; Andreas Billmeier <b@edevau.net> +pytradfri-6.3.1.ebuild:
+  bump pytradfri-6.3.1
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> pytradfri-6.0.1.ebuild:
+  minor changes
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> pytradfri-6.0.1.ebuild:
+  pytradfri fix, certifi now in main repo
+
+  22 Dec 2018; Andreas Billmeier <b@edevau.net> pytradfri-6.0.1.ebuild:
+  firetv & fix some RDEPEND
+
+  01 Nov 2018; Andreas Billmeier <b@edevau.net> -pytradfri-4.1.0.ebuild:
+  several backports from deps
+
+*pytradfri-6.0.1 (21 Oct 2018)
+*pytradfri-4.1.0 (21 Oct 2018)
+
+  21 Oct 2018; Andreas Billmeier <b@edevau.net> +pytradfri-4.1.0.ebuild,
+  +pytradfri-6.0.1.ebuild:
+  release homeassistant-0.80.3
+

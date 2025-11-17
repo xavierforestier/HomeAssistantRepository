@@ -1,0 +1,203 @@
+# ChangeLog for dev-python/debugpy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -debugpy-1.8.14.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*debugpy-1.8.16 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +debugpy-1.8.16.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -debugpy-1.8.13.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*debugpy-1.8.14 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +debugpy-1.8.14.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  debugpy-1.8.13.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -debugpy-1.8.11.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -debugpy-1.8.1.ebuild, -debugpy-1.8.6.ebuild, -debugpy-1.8.8.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -debugpy-1.8.1.ebuilde, -debugpy-1.8.11.ebuilde, -debugpy-1.8.13.ebuilde,
+  -debugpy-1.8.6.ebuilde, -debugpy-1.8.8.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +debugpy-1.8.1.ebuilde, +debugpy-1.8.11.ebuilde, +debugpy-1.8.13.ebuilde,
+  +debugpy-1.8.6.ebuilde, +debugpy-1.8.8.ebuilde:
+  Fix KEYWORDS
+
+*debugpy-1.8.13 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +debugpy-1.8.13.ebuild:
+  Homeassistant 2025.4.0
+
+*debugpy-1.8.11 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +debugpy-1.8.11.ebuild:
+  homeassistant 2025.1.1
+
+*debugpy-1.8.8 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +debugpy-1.8.8.ebuild:
+  homeassistant 2024.12.2
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> -debugpy-1.8.0.ebuild:
+  drop 1.8.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*debugpy-1.8.6 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> debugpy-1.8.0.ebuild,
+  debugpy-1.8.1.ebuild, +debugpy-1.8.6.ebuild:
+  add 1.8.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4003
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*debugpy-1.8.1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> debugpy-1.8.0.ebuild,
+  +debugpy-1.8.1.ebuild, +files/debugpy-1.8.0-unbundle-pydevd.patch:
+  add 1.8.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2955
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -debugpy-1.6.4.ebuild:
+  drop 1.6.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*debugpy-1.8.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> debugpy-1.6.4.ebuild,
+  +debugpy-1.8.0.ebuild:
+  add 1.8.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> debugpy-1.6.4.ebuild:
+  remove Python 3.8 Support tag
+
+*debugpy-1.6.4 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net> -debugpy-1.6.0.ebuild,
+  +debugpy-1.6.4.ebuild, -files/debugpy-1.4.2-unbundle-pydevd.patch:
+  add 1.6.4, drop 1.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*debugpy-1.6.0 (29 Apr 2022)
+
+  29 Apr 2022; Andreas Billmeier <b@edevau.net> +debugpy-1.6.0.ebuild,
+  +files/debugpy-1.4.2-unbundle-pydevd.patch, +metadata.xml:
+  update debugpy-1.6.0
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net> -debugpy-1.4.1.ebuild,
+  -debugpy-1.4.3.ebuild, -debugpy-1.5.0.ebuild,
+  -files/debugpy-1.4.2-unbundle-pydevd.patch,
+  -files/debugpy-1.4.3-unbundle-pydevd.patch, -metadata.xml:
+  remove old debugpy
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> debugpy-1.4.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*debugpy-1.5.0 (20 Nov 2021)
+*debugpy-1.4.1 (20 Nov 2021)
+
+  20 Nov 2021; Andreas Billmeier <b@edevau.net> -debugpy-1.2.0.ebuild,
+  -debugpy-1.2.1.ebuild, -debugpy-1.3.0.ebuild, -debugpy-1.4.0.ebuild,
+  +debugpy-1.4.1.ebuild, +debugpy-1.5.0.ebuild,
+  +files/debugpy-1.4.2-unbundle-pydevd.patch:
+  re-add still needed debugpy-* from main
+
+*debugpy-1.4.3 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +debugpy-1.4.3.ebuild,
+  +files/debugpy-1.4.3-unbundle-pydevd.patch:
+  update debugpy-1.4.3
+
+*debugpy-1.4.0 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +debugpy-1.4.0.ebuild:
+  update debugpy
+
+*debugpy-1.3.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -debugpy-1.0.0_rc2.ebuild,
+  -debugpy-1.0.0.ebuild, -debugpy-1.1.0.ebuild, +debugpy-1.3.0.ebuild:
+  debugpy-1.3.0
+
+*debugpy-1.2.1 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -debugpy-1.0.0_beta12.ebuild,
+  +debugpy-1.2.1.ebuild:
+  bump debugpy-1.2.1
+
+*debugpy-1.2.0 (21 Nov 2020)
+
+  21 Nov 2020; Andreas Billmeier <b@edevau.net> -debugpy-1.0.0_beta11.ebuild,
+  +debugpy-1.2.0.ebuild:
+  bump debugpy-1.2.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> debugpy-1.0.0_beta11.ebuild,
+  debugpy-1.0.0_beta12.ebuild, debugpy-1.0.0_rc2.ebuild, debugpy-1.0.0.ebuild,
+  debugpy-1.1.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*debugpy-1.1.0 (28 Oct 2020)
+
+  28 Oct 2020; Andreas Billmeier <b@edevau.net> +debugpy-1.1.0.ebuild:
+  bump debugpy-1.1.0
+
+*debugpy-1.0.0 (26 Oct 2020)
+
+  26 Oct 2020; Andreas Billmeier <b@edevau.net> +debugpy-1.0.0.ebuild:
+  bump debugpy-1.0.0
+
+*debugpy-1.0.0_rc2 (07 Oct 2020)
+
+  07 Oct 2020; Andreas Billmeier <b@edevau.net> +debugpy-1.0.0_rc2.ebuild:
+  bump debugpy-1.0.0_rc2
+  fix pylacrosse-0.4 version number mismatch
+  implement *_rc version handler (for debugpy-1.0.0_rc2)
+  update homeassistant-0.116.0
+
+*debugpy-1.0.0_beta12 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> +debugpy-1.0.0_beta12.ebuild:
+  bump debugpy-1.0.0_beta12
+
+*debugpy-1.0.0_beta11 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> +debugpy-1.0.0_beta11.ebuild,
+  +metadata.xml:
+  add debugpy-1.0.0_beta11
+

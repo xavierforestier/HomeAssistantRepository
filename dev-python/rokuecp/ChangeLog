@@ -1,0 +1,233 @@
+# ChangeLog for dev-python/rokuecp
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -rokuecp-0.19.3.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*rokuecp-0.19.5 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +rokuecp-0.19.5.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  rokuecp-0.19.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -rokuecp-0.19.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -rokuecp-0.19.2.ebuilde, -rokuecp-0.19.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +rokuecp-0.19.2.ebuilde, +rokuecp-0.19.3.ebuilde:
+  Fix KEYWORDS
+
+*rokuecp-0.19.3 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -rokuecp-0.18.1.ebuild,
+  -rokuecp-0.19.1.ebuild, rokuecp-0.19.2.ebuild, +rokuecp-0.19.3.ebuild:
+  drop 0.18.1, 0.19.1, add 0.19.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3332
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rokuecp-0.19.2 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> rokuecp-0.18.1.ebuild,
+  -rokuecp-0.19.0.ebuild, rokuecp-0.19.1.ebuild, +rokuecp-0.19.2.ebuild:
+  drop 0.19.0, add 0.19.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3075
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rokuecp-0.19.1 (25 Feb 2024)
+
+  25 Feb 2024; Andreas Billmeier <b@edevau.net> +rokuecp-0.19.1.ebuild:
+  add 0.19.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rokuecp-0.19.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> rokuecp-0.18.1.ebuild,
+  +rokuecp-0.19.0.ebuild:
+  add 0.19.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2847
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> rokuecp-0.18.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> -rokuecp-0.17.1.ebuild:
+  drop 0.17.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rokuecp-0.18.1 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> -rokuecp-0.17.0.ebuild,
+  rokuecp-0.17.1.ebuild, +rokuecp-0.18.1.ebuild:
+  add 0.18.1, drop 0.17.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rokuecp-0.17.1 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> -rokuecp-0.16.0.ebuild,
+  +rokuecp-0.17.1.ebuild:
+  add 0.17.1, drop 0.16.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> rokuecp-0.16.0.ebuild,
+  rokuecp-0.17.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> rokuecp-0.16.0.ebuild,
+  rokuecp-0.17.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*rokuecp-0.17.0 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> -rokuecp-0.12.0.ebuild,
+  -rokuecp-0.15.0.ebuild, rokuecp-0.16.0.ebuild, +rokuecp-0.17.0.ebuild:
+  update rokuecp-0.17.0
+
+*rokuecp-0.16.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -rokuecp-0.8.4.ebuild,
+  -rokuecp-0.14.1.ebuild, +rokuecp-0.16.0.ebuild:
+  update rokuecp-0.16.0
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> rokuecp-0.15.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> rokuecp-0.8.4.ebuild,
+  rokuecp-0.12.0.ebuild, rokuecp-0.14.1.ebuild, rokuecp-0.15.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*rokuecp-0.15.0 (07 Mar 2022)
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> -rokuecp-0.8.1.ebuild,
+  +rokuecp-0.15.0.ebuild:
+  bump rokuecp-0.15.0
+
+*rokuecp-0.14.1 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +rokuecp-0.14.1.ebuild:
+  update rokuecp-0.14.1
+
+*rokuecp-0.12.0 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -rokuecp-0.8.0.ebuild,
+  +rokuecp-0.12.0.ebuild:
+  bump rokuecp-0.12.0
+
+*rokuecp-0.8.4 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +rokuecp-0.8.4.ebuild:
+  bump rokuecp-0.8.4
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net> -rokuecp-0.4.2.ebuild,
+  -rokuecp-0.5.0.ebuild, -rokuecp-0.6.0.ebuild, -rokuecp-0.6.1.ebuild,
+  rokuecp-0.8.0.ebuild, rokuecp-0.8.1.ebuild:
+  cleanup, add new Python Targets, Letter '-T' (med) Integrations
+
+*rokuecp-0.8.1 (14 Mar 2021)
+*rokuecp-0.8.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -rokuecp-0.4.0.ebuild,
+  -rokuecp-0.4.1.ebuild, +rokuecp-0.8.0.ebuild, +rokuecp-0.8.1.ebuild:
+  bump rokuecp-0.8.0, bump rokuecp-0.8.1
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> rokuecp-0.4.0.ebuild,
+  rokuecp-0.4.1.ebuild, rokuecp-0.4.2.ebuild, rokuecp-0.5.0.ebuild,
+  rokuecp-0.6.0.ebuild, rokuecp-0.6.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*rokuecp-0.6.1 (08 Sep 2020)
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> -rokuecp-0.2.3.ebuild,
+  -rokuecp-0.3.2.ebuild, rokuecp-0.5.0.ebuild, rokuecp-0.6.0.ebuild,
+  +rokuecp-0.6.1.ebuild:
+  update rokuecp-0.6.1, fix 0.6.0 deps
+      - https://github.com/ctalkington/python-rokuecp/issues/67
+      - https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/113
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> rokuecp-0.2.3.ebuild,
+  rokuecp-0.3.2.ebuild, rokuecp-0.4.0.ebuild, rokuecp-0.4.1.ebuild,
+  rokuecp-0.4.2.ebuild, rokuecp-0.5.0.ebuild, rokuecp-0.6.0.ebuild:
+  rokuecp, forgot to rename distfile
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> rokuecp-0.2.3.ebuild,
+  rokuecp-0.3.2.ebuild, rokuecp-0.4.0.ebuild, rokuecp-0.4.1.ebuild,
+  rokuecp-0.4.2.ebuild, rokuecp-0.5.0.ebuild, rokuecp-0.6.0.ebuild:
+  rokuecp, requirements.txt missing in Pypi SDIST, SRC_URI changed to Github
+
+*rokuecp-0.6.0 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> -rokuecp-0.2.2.ebuild,
+  +rokuecp-0.6.0.ebuild:
+  bump rokuecp-0.6.0
+
+*rokuecp-0.5.0 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net> -rokuecp-0.2.1.ebuild,
+  +rokuecp-0.5.0.ebuild:
+  bump rokuecp-0.5.0
+
+*rokuecp-0.4.2 (25 May 2020)
+
+  25 May 2020; Andreas Billmeier <b@edevau.net> +rokuecp-0.4.2.ebuild:
+  bump rokuecp-0.4.2
+
+*rokuecp-0.4.1 (23 May 2020)
+
+  23 May 2020; Andreas Billmeier <b@edevau.net> -rokuecp-0.2.0.ebuild,
+  +rokuecp-0.4.1.ebuild:
+  bump rokuecp-0.4.1
+
+*rokuecp-0.4.0 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +rokuecp-0.4.0.ebuild:
+  bump rokuecp-0.4.0
+
+*rokuecp-0.3.2 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +rokuecp-0.3.2.ebuild:
+  bump rokuecp-0.3.2
+
+*rokuecp-0.2.3 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +rokuecp-0.2.3.ebuild:
+  bump rokuecp-0.2.3
+
+*rokuecp-0.2.1 (09 May 2020)
+*rokuecp-0.2.0 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> +rokuecp-0.2.0.ebuild,
+  +rokuecp-0.2.1.ebuild:
+  add rokuecp-0.2.0, rokuecp-0.2.1
+
+*rokuecp-0.2.2 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +rokuecp-0.2.2.ebuild:
+  add rokuecp-0.2.2
+

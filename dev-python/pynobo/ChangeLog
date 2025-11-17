@@ -1,0 +1,79 @@
+# ChangeLog for dev-python/pynobo
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pynobo-1.8.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynobo-1.6.0.ebuild, -pynobo-1.8.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pynobo-1.6.0.ebuilde, -pynobo-1.8.0.ebuilde, -pynobo-1.8.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pynobo-1.6.0.ebuilde, +pynobo-1.8.0.ebuilde, +pynobo-1.8.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pynobo-1.8.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pynobo-1.8.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+*pynobo-1.8.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +pynobo-1.8.1.ebuild:
+  add 1.8.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3203
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pynobo-1.8.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> pynobo-1.6.0.ebuild,
+  +pynobo-1.8.0.ebuild:
+  add 1.8.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3130
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -pynobo-1.4.0.ebuild,
+  pynobo-1.6.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pynobo-1.4.0.ebuild,
+  pynobo-1.6.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pynobo-1.6.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +pynobo-1.6.0.ebuild:
+  add 1.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pynobo-1.4.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pynobo-1.4.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pynobo-1.4.0.ebuild:
+  add pynobo-1.4.0
+

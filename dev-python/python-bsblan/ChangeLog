@@ -1,0 +1,135 @@
+# ChangeLog for dev-python/python-bsblan
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*python-bsblan-3.1.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-bsblan-3.1.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-bsblan-1.2.1.ebuild:
+  Cleansing
+
+*python-bsblan-2.1.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-bsblan-2.1.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-bsblan-1.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-bsblan-0.5.18.ebuild, -python-bsblan-0.6.2.ebuild,
+  -python-bsblan-0.6.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-bsblan-0.5.18.ebuilde, -python-bsblan-0.6.2.ebuilde,
+  -python-bsblan-0.6.4.ebuilde, -python-bsblan-1.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-bsblan-0.5.18.ebuilde, +python-bsblan-0.6.2.ebuilde,
+  +python-bsblan-0.6.4.ebuilde, +python-bsblan-1.2.1.ebuilde:
+  Fix KEYWORDS
+
+*python-bsblan-1.2.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-bsblan-1.2.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*python-bsblan-0.6.4 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> +python-bsblan-0.6.4.ebuild:
+  add 0.6.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3995
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-bsblan-0.6.2 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -python-bsblan-0.5.16.ebuild,
+  python-bsblan-0.5.18.ebuild, +python-bsblan-0.6.2.ebuild:
+  add 0.6.2, drop 0.5.16
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3590
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-bsblan-0.5.18 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> python-bsblan-0.5.16.ebuild,
+  +python-bsblan-0.5.18.ebuild:
+  add 0.5.18
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2761
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -python-bsblan-0.5.5.ebuild,
+  -python-bsblan-0.5.9.ebuild, -python-bsblan-0.5.11.ebuild:
+  drop 0.5.5, 0.5.9, 0.5.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-bsblan-0.5.16 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> python-bsblan-0.5.5.ebuild,
+  python-bsblan-0.5.9.ebuild, python-bsblan-0.5.11.ebuild,
+  +python-bsblan-0.5.16.ebuild:
+  add 0.5.16
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> python-bsblan-0.5.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> python-bsblan-0.5.9.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-bsblan-0.5.11 (08 Apr 2023)
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> -python-bsblan-0.5.8.ebuild,
+  +python-bsblan-0.5.11.ebuild:
+  add 0.5.11, drop 0.5.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-bsblan-0.5.9 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> +python-bsblan-0.5.9.ebuild:
+  add 0.5.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> python-bsblan-0.5.5.ebuild,
+  python-bsblan-0.5.8.ebuild:
+  remove Python 3.8 Support tag
+
+*python-bsblan-0.5.8 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -python-bsblan-0.5.6.ebuild, +python-bsblan-0.5.8.ebuild:
+  add 0.5.8, drop 0.5.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  31 Oct 2022; Andreas Billmeier <b@edevau.net> python-bsblan-0.5.5.ebuild:
+  fix #443 source path python-bsblan-0.5.5
+
+*python-bsblan-0.5.6 (30 Oct 2022)
+*python-bsblan-0.5.5 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-bsblan-0.5.5.ebuild, +python-bsblan-0.5.6.ebuild:
+  new package, add 0.5.5, 0.5.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

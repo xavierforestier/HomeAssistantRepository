@@ -1,0 +1,148 @@
+# ChangeLog for dev-python/boschshcpy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -boschshcpy-0.2.91.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+*boschshcpy-0.2.107 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +boschshcpy-0.2.107.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  boschshcpy-0.2.91.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -boschshcpy-0.2.75.ebuild, -boschshcpy-0.2.82.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -boschshcpy-0.2.75.ebuilde, -boschshcpy-0.2.82.ebuilde,
+  -boschshcpy-0.2.91.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +boschshcpy-0.2.75.ebuilde, +boschshcpy-0.2.82.ebuilde,
+  +boschshcpy-0.2.91.ebuilde:
+  Fix KEYWORDS
+
+*boschshcpy-0.2.91 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> boschshcpy-0.2.75.ebuild,
+  boschshcpy-0.2.82.ebuild, +boschshcpy-0.2.91.ebuild:
+  add 0.2.91
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3250
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*boschshcpy-0.2.82 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> -boschshcpy-0.2.57.ebuild,
+  boschshcpy-0.2.75.ebuild, +boschshcpy-0.2.82.ebuild:
+  drop 0.2.57, add 0.2.82
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3058
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> -boschshcpy-0.2.35.ebuild:
+  drop 0.2.35
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*boschshcpy-0.2.75 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +boschshcpy-0.2.75.ebuild:
+  add 0.2.75
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2391
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*boschshcpy-0.2.57 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net> +boschshcpy-0.2.57.ebuild:
+  add 0.2.57
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -boschshcpy-0.2.30.ebuild:
+  drop 0.2.30
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> boschshcpy-0.2.30.ebuild,
+  boschshcpy-0.2.35.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> boschshcpy-0.2.30.ebuild,
+  boschshcpy-0.2.35.ebuild:
+  dev-python/*: rename zeroconf, again (https://github.com/gentoo/gentoo/commi
+  t/29153ca563b529be4cf0fdc2651105430ecb9ab4)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> boschshcpy-0.2.30.ebuild,
+  boschshcpy-0.2.35.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Oct 2022; Andreas Billmeier <b@edevau.net> boschshcpy-0.2.30.ebuild,
+  boschshcpy-0.2.35.ebuild:
+  dev-python/*: rename zeroconf
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> boschshcpy-0.2.30.ebuild,
+  boschshcpy-0.2.35.ebuild:
+  dev-python/bond-async: remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*boschshcpy-0.2.35 (27 Sep 2022)
+
+  27 Sep 2022; Andreas Billmeier <b@edevau.net> -boschshcpy-0.2.29.ebuild,
+  boschshcpy-0.2.30.ebuild, +boschshcpy-0.2.35.ebuild:
+  bump boschshcpy-0.2.35
+
+*boschshcpy-0.2.30 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> -boschshcpy-0.2.19.ebuild,
+  -boschshcpy-0.2.28.ebuild, boschshcpy-0.2.29.ebuild,
+  +boschshcpy-0.2.30.ebuild:
+  bump boschshcpy-0.2.30
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> boschshcpy-0.2.19.ebuild,
+  boschshcpy-0.2.28.ebuild, boschshcpy-0.2.29.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*boschshcpy-0.2.29 (05 Feb 2022)
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net> +boschshcpy-0.2.29.ebuild:
+  bump boschshcpy-0.2.29
+
+*boschshcpy-0.2.28 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -boschshcpy-0.2.17.ebuild,
+  +boschshcpy-0.2.28.ebuild:
+  bump boschshcpy-0.2.28
+
+*boschshcpy-0.2.17 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +boschshcpy-0.2.17.ebuild:
+  add boschshcpy-0.2.17
+
+*boschshcpy-0.2.19 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +boschshcpy-0.2.19.ebuild,
+  +metadata.xml:
+  add boschshcpy-0.2.19
+

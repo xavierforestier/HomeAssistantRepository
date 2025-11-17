@@ -1,0 +1,175 @@
+# ChangeLog for dev-python/tesla-powerwall
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tesla-powerwall-0.5.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tesla-powerwall-0.3.19.ebuild, -tesla-powerwall-0.5.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -tesla-powerwall-0.3.19.ebuilde, -tesla-powerwall-0.5.1.ebuilde,
+  -tesla-powerwall-0.5.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-powerwall-0.3.19.ebuilde, +tesla-powerwall-0.5.1.ebuilde,
+  +tesla-powerwall-0.5.2.ebuilde:
+  Fix KEYWORDS
+
+*tesla-powerwall-0.5.2 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> tesla-powerwall-0.3.19.ebuild,
+  tesla-powerwall-0.5.1.ebuild, +tesla-powerwall-0.5.2.ebuild:
+  add 0.5.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3444
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-powerwall-0.5.1 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  tesla-powerwall-0.3.19.ebuild, +tesla-powerwall-0.5.1.ebuild:
+  add 0.5.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2837
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -tesla-powerwall-0.3.18.ebuild, tesla-powerwall-0.3.19.ebuild:
+  drop 0.3.18, update 0.3.19
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-powerwall-0.3.19 (10 Feb 2023)
+
+  10 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -tesla-powerwall-0.3.17.ebuild, +tesla-powerwall-0.3.19.ebuild:
+  add 0.3.19, drop 0.3.17
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> tesla-powerwall-0.3.17.ebuild,
+  tesla-powerwall-0.3.18.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> tesla-powerwall-0.3.17.ebuild,
+  tesla-powerwall-0.3.18.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-powerwall-0.3.18 (18 Jul 2022)
+
+  18 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -tesla-powerwall-0.3.12.ebuild, tesla-powerwall-0.3.17.ebuild,
+  +tesla-powerwall-0.3.18.ebuild:
+  update tesla-powerwall-0.3.18
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> tesla-powerwall-0.3.17.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> tesla-powerwall-0.3.12.ebuild,
+  tesla-powerwall-0.3.17.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*tesla-powerwall-0.3.17 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -tesla-powerwall-0.3.10.ebuild, -tesla-powerwall-0.3.11.ebuild,
+  -tesla-powerwall-0.3.13.ebuild, +tesla-powerwall-0.3.17.ebuild:
+  bump tesla-powerwall-0.3.17
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> tesla-powerwall-0.3.12.ebuild,
+  tesla-powerwall-0.3.13.ebuild:
+  all EAPI=8 without quotes
+
+*tesla-powerwall-0.3.13 (02 Nov 2021)
+*tesla-powerwall-0.3.12 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +tesla-powerwall-0.3.12.ebuild, +tesla-powerwall-0.3.13.ebuild:
+  bump tesla-powerwall-0.3.13
+
+*tesla-powerwall-0.3.11 (07 Oct 2021)
+
+  07 Oct 2021; Andreas Billmeier <b@edevau.net> -tesla-powerwall-0.3.5.ebuild,
+  +tesla-powerwall-0.3.11.ebuild:
+  bump tesla-powerwall-0.3.11
+
+*tesla-powerwall-0.3.10 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -tesla-powerwall-0.2.5.ebuild, -tesla-powerwall-0.2.8.ebuild,
+  -tesla-powerwall-0.2.12.ebuild, -tesla-powerwall-0.3.3.ebuild,
+  +tesla-powerwall-0.3.10.ebuild:
+  update tesla-powerwall-0.3.10
+
+*tesla-powerwall-0.3.5 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net>
+  -tesla-powerwall-0.2.10.ebuild, -tesla-powerwall-0.2.11.ebuild,
+  +tesla-powerwall-0.3.5.ebuild:
+  bump tesla-powerwall-0.3.5
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> tesla-powerwall-0.2.5.ebuild,
+  tesla-powerwall-0.2.8.ebuild, tesla-powerwall-0.2.10.ebuild,
+  tesla-powerwall-0.2.11.ebuild, tesla-powerwall-0.2.12.ebuild,
+  tesla-powerwall-0.3.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*tesla-powerwall-0.3.3 (08 Oct 2020)
+
+  08 Oct 2020; Andreas Billmeier <b@edevau.net> -tesla-powerwall-0.2.4.ebuild,
+  +tesla-powerwall-0.3.3.ebuild:
+  update tesla-powerwall-0.3.3
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> tesla-powerwall-0.2.12.ebuild:
+  fix dev-python/tesla-powerwall-0.2.12 installs 'tests' package
+  (https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/59)
+
+*tesla-powerwall-0.2.12 (29 Jul 2020)
+
+  29 Jul 2020; Andreas Billmeier <b@edevau.net> -tesla-powerwall-0.2.3.ebuild,
+  +tesla-powerwall-0.2.12.ebuild:
+  bump tesla-powerwall-0.2.12
+
+*tesla-powerwall-0.2.11 (11 Jun 2020)
+
+  11 Jun 2020; Andreas Billmeier <b@edevau.net>
+  +tesla-powerwall-0.2.11.ebuild:
+  bump tesla-powerwall-0.2.11
+
+*tesla-powerwall-0.2.10 (07 Jun 2020)
+
+  07 Jun 2020; Andreas Billmeier <b@edevau.net> -tesla-powerwall-0.1.4.ebuild,
+  +tesla-powerwall-0.2.10.ebuild:
+  bump tesla-powerwall-0.2.10
+
+*tesla-powerwall-0.2.8 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> +tesla-powerwall-0.2.8.ebuild:
+  bump tesla-powerwall-0.2.8
+
+*tesla-powerwall-0.2.5 (18 Apr 2020)
+*tesla-powerwall-0.2.4 (18 Apr 2020)
+*tesla-powerwall-0.2.3 (18 Apr 2020)
+
+  18 Apr 2020; Andreas Billmeier <b@edevau.net> +tesla-powerwall-0.2.3.ebuild,
+  +tesla-powerwall-0.2.4.ebuild, +tesla-powerwall-0.2.5.ebuild:
+  bump tesla-powerwall-0.2.[3-5]
+
+*tesla-powerwall-0.1.4 (05 Apr 2020)
+
+  05 Apr 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +tesla-powerwall-0.1.4.ebuild:
+  add tesla-powerwall-0.1.4
+

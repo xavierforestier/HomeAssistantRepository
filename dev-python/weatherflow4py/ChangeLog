@@ -1,0 +1,118 @@
+# ChangeLog for dev-python/weatherflow4py
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -weatherflow4py-1.3.1.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*weatherflow4py-1.4.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +weatherflow4py-1.4.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  weatherflow4py-1.3.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  metadata.xml, weatherflow4py-1.3.1.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -weatherflow4py-0.2.20.ebuild, -weatherflow4py-0.2.21.ebuild,
+  -weatherflow4py-0.2.23.ebuild, -weatherflow4py-1.0.6.ebuild,
+  -weatherflow4py-1.2.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -weatherflow4py-0.2.20.ebuilde, -weatherflow4py-0.2.21.ebuilde,
+  -weatherflow4py-0.2.23.ebuilde, -weatherflow4py-1.0.6.ebuilde,
+  -weatherflow4py-1.2.0.ebuilde, -weatherflow4py-1.3.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +weatherflow4py-0.2.20.ebuilde, +weatherflow4py-0.2.21.ebuilde,
+  +weatherflow4py-0.2.23.ebuilde, +weatherflow4py-1.0.6.ebuilde,
+  +weatherflow4py-1.2.0.ebuilde, +weatherflow4py-1.3.1.ebuilde:
+  Fix KEYWORDS
+
+*weatherflow4py-1.3.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +weatherflow4py-1.3.1.ebuild:
+  homeassistant 2025.3.0
+
+*weatherflow4py-1.2.0 (24 Nov 2024)
+
+  24 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +weatherflow4py-1.2.0.ebuild:
+  app-misc/homeassistant-full 2024.11.3 and its deps
+
+*weatherflow4py-1.0.6 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +weatherflow4py-1.0.6.ebuild:
+  add 1.0.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3929
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*weatherflow4py-0.2.23 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -weatherflow4py-0.1.17.ebuild, +weatherflow4py-0.2.23.ebuild:
+  add 0.2.23, drop 0.1.17
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3808
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*weatherflow4py-0.2.21 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  weatherflow4py-0.1.17.ebuild, weatherflow4py-0.2.20.ebuild,
+  +weatherflow4py-0.2.21.ebuild:
+  add 0.2.21
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3514
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -weatherflow4py-0.1.12.ebuild,
+  -weatherflow4py-0.2.17.ebuild:
+  drop 0.1.12, 0.2.17
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*weatherflow4py-0.2.20 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +weatherflow4py-0.2.20.ebuild:
+  add 0.2.20
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3188
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*weatherflow4py-0.2.17 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +weatherflow4py-0.2.17.ebuild:
+  add 0.2.17
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3162
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*weatherflow4py-0.1.17 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> +weatherflow4py-0.1.17.ebuild:
+  add 0.1.17
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3079
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*weatherflow4py-0.1.12 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +weatherflow4py-0.1.12.ebuild:
+  new package, add 0.1.12
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3035
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

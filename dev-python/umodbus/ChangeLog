@@ -1,0 +1,18 @@
+# ChangeLog for dev-python/umodbus
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  umodbus-1.0.4.ebuild:
+  Fixes
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  umodbus-1.0.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*umodbus-1.0.4 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +umodbus-1.0.4.ebuild:
+  Fix for pkgcheck
+

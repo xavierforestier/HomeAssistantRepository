@@ -1,0 +1,33 @@
+# ChangeLog for dev-python/nose
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, nose-1.3.7.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  nose-1.3.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -nose-1.3.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> nose-1.3.7.ebuild,
+  +nose-1.3.7.ebuilde:
+  Fix KEYWORDS
+
+  23 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/nose-wtf.patch, nose-1.3.7.ebuild:
+  Still fixing deps issues for ha 2042.10.2
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> nose-1.3.7.ebuild:
+  Fix deps issues for homeassistant-full-2024.10.2
+
+*nose-1.3.7 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> +nose-1.3.7.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

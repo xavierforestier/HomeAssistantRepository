@@ -1,0 +1,122 @@
+# ChangeLog for dev-python/pytraccar
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pytraccar-3.0.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pytraccar-3.0.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytraccar-2.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytraccar-2.0.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pytraccar-2.0.0.ebuilde, -pytraccar-2.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytraccar-2.0.0.ebuilde, +pytraccar-2.1.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pytraccar-2.1.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*pytraccar-2.1.1 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -pytraccar-1.0.0.ebuild,
+  pytraccar-2.0.0.ebuild, +pytraccar-2.1.1.ebuild:
+
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3027
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3028
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytraccar-2.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +pytraccar-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2497
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> -pytraccar-0.10.0.ebuild,
+  pytraccar-1.0.0.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pytraccar-0.10.0.ebuild,
+  pytraccar-1.0.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pytraccar-0.10.0.ebuild,
+  pytraccar-1.0.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytraccar-1.0.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -pytraccar-0.9.0.ebuild, pytraccar-0.10.0.ebuild, +pytraccar-1.0.0.ebuild:
+  update pytraccar-1.0.0
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild,
+  pytraccar-0.10.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pytraccar-0.10.0 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> +pytraccar-0.10.0.ebuild:
+  update pytraccar-0.10.0
+
+  02 Sep 2021; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild:
+  cleanup pytraccar-0.9.0, PYTHON_COMPAT
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pytraccar-0.9.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild:
+  pytraccar-0.9.0:
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/159
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> pytraccar-0.9.0.ebuild:
+  Add missing license strings as far as possible
+
+*pytraccar-0.9.0 (11 Oct 2019)
+
+  11 Oct 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pytraccar-0.9.0.ebuild:
+  add pytraccar-0.9.0
+

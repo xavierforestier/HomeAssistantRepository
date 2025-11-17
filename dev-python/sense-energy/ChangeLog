@@ -1,0 +1,232 @@
+# ChangeLog for dev-python/sense-energy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sense-energy-0.13.7.ebuild:
+  clean oldies
+
+*sense-energy-0.13.8 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +sense-energy-0.13.8.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sense-energy-0.13.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sense-energy-0.13.6.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sense-energy-0.12.2.ebuild, -sense-energy-0.12.4.ebuild,
+  -sense-energy-0.13.2.ebuild, -sense-energy-0.13.3.ebuild,
+  -sense-energy-0.13.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -sense-energy-0.12.2.ebuilde, -sense-energy-0.12.4.ebuilde,
+  -sense-energy-0.13.2.ebuilde, -sense-energy-0.13.3.ebuilde,
+  -sense-energy-0.13.4.ebuilde, -sense-energy-0.13.6.ebuilde,
+  -sense-energy-0.13.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sense-energy-0.12.2.ebuilde, +sense-energy-0.12.4.ebuilde,
+  +sense-energy-0.13.2.ebuilde, +sense-energy-0.13.3.ebuilde,
+  +sense-energy-0.13.4.ebuilde, +sense-energy-0.13.6.ebuilde,
+  +sense-energy-0.13.7.ebuilde:
+  Fix KEYWORDS
+
+*sense-energy-0.13.7 (15 Mar 2025)
+
+  15 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sense-energy-0.13.7.ebuild:
+  homeassistant 2025.3.2 homeassistant 2025.3.3
+
+*sense-energy-0.13.6 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sense-energy-0.13.6.ebuild:
+  homeassistant 2025.3.0
+
+*sense-energy-0.13.4 (17 Nov 2024)
+
+  17 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sense-energy-0.13.4.ebuild:
+  homeassitant 2024.11.2 and its deps
+
+*sense-energy-0.13.3 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +sense-energy-0.13.3.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+*sense-energy-0.13.2 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +sense-energy-0.13.2.ebuild:
+  add 0.13.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4011
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sense-energy-0.12.4 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> sense-energy-0.12.2.ebuild,
+  +sense-energy-0.12.4.ebuild:
+  add 0.12.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3617
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> sense-energy-0.12.2.ebuild:
+  VariableShadowed
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -sense-energy-0.11.1.ebuild,
+  -sense-energy-0.11.2.ebuild:
+  drop 0.11.1, 0.11.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sense-energy-0.12.2 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +sense-energy-0.12.2.ebuild:
+  add 0.12.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sense-energy-0.11.2 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -sense-energy-0.10.4.ebuild,
+  -sense-energy-0.11.0.ebuild, sense-energy-0.11.1.ebuild,
+  +sense-energy-0.11.2.ebuild:
+  update 0.11.1, drop 0.11.0, 0.10.4, add 0.11.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sense-energy-0.11.1 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> sense-energy-0.10.4.ebuild,
+  sense-energy-0.11.0.ebuild, +sense-energy-0.11.1.ebuild:
+  add 0.11.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*sense-energy-0.11.0 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  sense-energy-0.10.4.ebuild, +sense-energy-0.11.0.ebuild:
+  bump 0.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> sense-energy-0.10.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -sense-energy-0.9.6.ebuild,
+  -sense-energy-0.10.2.ebuild, -sense-energy-0.10.3.ebuild,
+  sense-energy-0.10.4.ebuild:
+  rework, remove olds
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> sense-energy-0.9.6.ebuild,
+  sense-energy-0.10.2.ebuild, sense-energy-0.10.3.ebuild,
+  sense-energy-0.10.4.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+*sense-energy-0.10.4 (29 Mar 2022)
+
+  29 Mar 2022; Andreas Billmeier <b@edevau.net> +sense-energy-0.10.4.ebuild:
+  bump sense-energy-0.10.4
+
+*sense-energy-0.10.3 (24 Mar 2022)
+
+  24 Mar 2022; Andreas Billmeier <b@edevau.net> -sense-energy-0.9.2.ebuild,
+  -sense-energy-0.9.3.ebuild, +sense-energy-0.10.3.ebuild:
+  bump sense-energy-0.10.3
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> sense-energy-0.9.2.ebuild,
+  sense-energy-0.9.3.ebuild, sense-energy-0.9.6.ebuild,
+  sense-energy-0.10.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*sense-energy-0.10.2 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +sense-energy-0.10.2.ebuild:
+  bump sense-energy-0.10.2
+
+*sense-energy-0.9.6 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -sense-energy-0.9.0.ebuild,
+  +sense-energy-0.9.6.ebuild:
+  bump sense-energy-0.9.6
+
+*sense-energy-0.9.3 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +sense-energy-0.9.3.ebuild:
+  bump sense-energy-0.9.3
+
+*sense-energy-0.9.2 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -sense-energy-0.7.1.ebuild,
+  -sense-energy-0.7.2.ebuild, -sense-energy-0.8.0.ebuild,
+  -sense-energy-0.8.1.ebuild, sense-energy-0.9.0.ebuild,
+  +sense-energy-0.9.2.ebuild:
+  update sense-energy-0.9.2
+
+*sense-energy-0.9.0 (17 Feb 2021)
+
+  17 Feb 2021; Andreas Billmeier <b@edevau.net> -sense-energy-0.7.0.ebuild,
+  +sense-energy-0.9.0.ebuild:
+  bump sense-energy-0.9.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> sense-energy-0.7.0.ebuild,
+  sense-energy-0.7.1.ebuild, sense-energy-0.7.2.ebuild,
+  sense-energy-0.8.0.ebuild, sense-energy-0.8.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*sense-energy-0.8.1 (08 Oct 2020)
+
+  08 Oct 2020; Andreas Billmeier <b@edevau.net> +sense-energy-0.8.1.ebuild:
+  bump sense-energy-0.8.1
+
+*sense-energy-0.8.0 (06 Sep 2020)
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net> sense-energy-0.7.0.ebuild,
+  sense-energy-0.7.1.ebuild, sense-energy-0.7.2.ebuild,
+  +sense-energy-0.8.0.ebuild:
+  update sense-energy-0.8.0, use new template for all
+
+*sense-energy-0.7.2 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +sense-energy-0.7.2.ebuild:
+  bump sense-energy-0.7.2
+
+*sense-energy-0.7.1 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +sense-energy-0.7.1.ebuild:
+  bump sense-energy-0.7.1
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> sense-energy-0.7.0.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: S
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> sense-energy-0.7.0.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*sense-energy-0.7.0 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +sense-energy-0.7.0.ebuild:
+  add sense-energy-0.7.0
+

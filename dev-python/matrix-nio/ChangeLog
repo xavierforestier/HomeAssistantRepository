@@ -1,0 +1,80 @@
+# ChangeLog for dev-python/matrix-nio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  matrix-nio-0.25.2.ebuild, metadata.xml:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  matrix-nio-0.25.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -matrix-nio-0.24.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -matrix-nio-0.24.0.ebuilde, -matrix-nio-0.25.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +matrix-nio-0.24.0.ebuilde, +matrix-nio-0.25.2.ebuilde:
+  Fix KEYWORDS
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -matrix-nio-0.22.1.ebuild:
+  drop 0.22.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*matrix-nio-0.25.2 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> matrix-nio-0.22.1.ebuild,
+  matrix-nio-0.24.0.ebuild, +matrix-nio-0.25.2.ebuild, metadata.xml:
+  add 0.25.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3882
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  matrix-nio-0.25.2.ebuild:
+  Still fixing deps issues for ha 2042.10.2
+
+*matrix-nio-0.25.2 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +matrix-nio-0.25.2.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -matrix-nio-0.21.2.ebuild,
+  matrix-nio-0.22.1.ebuild, matrix-nio-0.24.0.ebuild:
+  drop 0.21.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*matrix-nio-0.24.0 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> matrix-nio-0.21.2.ebuild,
+  matrix-nio-0.22.1.ebuild, +matrix-nio-0.24.0.ebuild:
+  add 0.24.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2820
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*matrix-nio-0.22.1 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +matrix-nio-0.22.1.ebuild:
+  add 0.22.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2282
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*matrix-nio-0.21.2 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +matrix-nio-0.21.2.ebuild,
+  +metadata.xml:
+  new package, add 0.21.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

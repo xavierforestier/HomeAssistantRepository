@@ -1,0 +1,72 @@
+# ChangeLog for dev-python/aiovlc
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiovlc-0.5.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiovlc-0.1.0.ebuild, -aiovlc-0.3.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiovlc-0.1.0.ebuilde, -aiovlc-0.3.2.ebuilde, -aiovlc-0.5.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiovlc-0.1.0.ebuilde, +aiovlc-0.3.2.ebuilde, +aiovlc-0.5.1.ebuilde:
+  Fix KEYWORDS
+
+*aiovlc-0.5.1 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +aiovlc-0.5.1.ebuild:
+  add 0.5.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3928
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiovlc-0.3.2 (10 Jun 2024)
+
+  10 Jun 2024; Andreas Billmeier <b@edevau.net> aiovlc-0.1.0.ebuild,
+  +aiovlc-0.3.2.ebuild:
+  add 0.3.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3459
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aiovlc-0.1.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiovlc-0.1.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiovlc-0.1.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiovlc-0.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> aiovlc-0.1.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiovlc-0.1.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiovlc-0.1.0 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +aiovlc-0.1.0.ebuild,
+  +metadata.xml:
+  add aiovlc-0.1.0
+

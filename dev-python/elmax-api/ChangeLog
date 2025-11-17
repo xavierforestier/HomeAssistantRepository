@@ -1,0 +1,100 @@
+# ChangeLog for dev-python/elmax-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  elmax-api-0.0.6.4_rc0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  elmax-api-0.0.6.4_rc0.ebuild, +files/elmax-api-fix-build.patch:
+  some fixes for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -elmax-api-0.0.4.ebuild, -elmax-api-0.0.5.ebuild, -elmax-api-0.0.6.1.ebuild,
+  -elmax-api-0.0.6.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -elmax-api-0.0.4.ebuilde, -elmax-api-0.0.5.ebuilde,
+  -elmax-api-0.0.6.1.ebuilde, -elmax-api-0.0.6.3.ebuilde,
+  -elmax-api-0.0.6.4_rc0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +elmax-api-0.0.4.ebuilde, +elmax-api-0.0.5.ebuilde,
+  +elmax-api-0.0.6.1.ebuilde, +elmax-api-0.0.6.3.ebuilde,
+  +elmax-api-0.0.6.4_rc0.ebuilde:
+  Fix KEYWORDS
+
+*elmax-api-0.0.6.4_rc0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +elmax-api-0.0.6.4_rc0.ebuild:
+  homeassistant 2025.1.1
+
+*elmax-api-0.0.6.3 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +elmax-api-0.0.6.3.ebuild:
+  homeassistant 2024.12.1
+
+*elmax-api-0.0.6.1 (24 Nov 2024)
+
+  24 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +elmax-api-0.0.6.1.ebuild:
+  app-misc/homeassistant-full 2024.11.3 and its deps
+
+*elmax-api-0.0.5 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> elmax-api-0.0.4.ebuild,
+  +elmax-api-0.0.5.ebuild:
+  add 0.0.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3405
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -elmax-api-0.0.2.ebuild:
+  drop 0.0.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> elmax-api-0.0.2.ebuild,
+  elmax-api-0.0.4.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*elmax-api-0.0.4 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> elmax-api-0.0.2.ebuild,
+  +elmax-api-0.0.4.ebuild:
+  fix 0.0.2, add 0.0.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> elmax-api-0.0.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> elmax-api-0.0.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> elmax-api-0.0.2.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> elmax-api-0.0.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*elmax-api-0.0.2 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +elmax-api-0.0.2.ebuild,
+  +metadata.xml:
+  add elmax-api-0.0.2
+

@@ -1,0 +1,104 @@
+# ChangeLog for dev-python/advantage-air
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  advantage-air-0.4.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -advantage-air-0.4.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +advantage-air-0.4.4.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  advantage-air-0.4.4.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -advantage-air-0.4.1.ebuild:
+  drop 0.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> advantage-air-0.4.1.ebuild,
+  advantage-air-0.4.4.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> advantage-air-0.4.1.ebuild,
+  advantage-air-0.4.4.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*advantage-air-0.4.4 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -advantage-air-0.3.1.ebuild,
+  advantage-air-0.4.1.ebuild, +advantage-air-0.4.4.ebuild:
+  advantage-air: drop 0.3.1, update 0.4.1, add 0.4.4
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> advantage-air-0.3.1.ebuild,
+  advantage-air-0.4.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> advantage-air-0.3.1.ebuild,
+  advantage-air-0.4.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*advantage-air-0.4.1 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -advantage-air-0.2.5.ebuild,
+  -advantage-air-0.3.0.ebuild, advantage-air-0.3.1.ebuild,
+  +advantage-air-0.4.1.ebuild:
+  bump advantage-air-0.4.1
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> advantage-air-0.2.5.ebuild,
+  advantage-air-0.3.0.ebuild, advantage-air-0.3.1.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> advantage-air-0.2.5.ebuild,
+  advantage-air-0.3.0.ebuild, advantage-air-0.3.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*advantage-air-0.3.1 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +advantage-air-0.3.1.ebuild:
+  bump advantage-air-0.3.1
+
+*advantage-air-0.3.0 (16 Feb 2022)
+
+  16 Feb 2022; Andreas Billmeier <b@edevau.net> -advantage-air-0.2.1.ebuild,
+  +advantage-air-0.3.0.ebuild:
+  bump advantage-air-0.3.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> advantage-air-0.2.5.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*advantage-air-0.2.5 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +advantage-air-0.2.5.ebuild:
+  update advantage-air-0.2.5
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> advantage-air-0.2.1.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> advantage-air-0.2.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*advantage-air-0.2.1 (12 Oct 2020)
+
+  12 Oct 2020; Andreas Billmeier <b@edevau.net> +advantage-air-0.2.1.ebuild,
+  +metadata.xml:
+  add advantage-air-0.2.1
+

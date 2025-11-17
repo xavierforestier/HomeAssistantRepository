@@ -1,0 +1,143 @@
+# ChangeLog for dev-python/orjson
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*orjson-3.11.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/orjson-fix-build.patch, +metadata.xml, +orjson-3.11.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -metadata.xml, -orjson-3.9.9.ebuild, -orjson-3.9.15.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  orjson-3.9.9.ebuild, orjson-3.9.15.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -orjson-3.9.15.ebuilde, -orjson-3.9.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +orjson-3.9.15.ebuilde, +orjson-3.9.9.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  orjson-3.9.15.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*orjson-3.9.15 (12 Apr 2024)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> orjson-3.9.9.ebuild,
+  +orjson-3.9.15.ebuild:
+  re-add 3.9.15 from Gentoo Main Repo Archive
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3218
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*orjson-3.9.9 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +orjson-3.9.9.ebuild:
+  re-add orjson-3.9.9, closes:
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2408
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -orjson-3.8.1.ebuild, -orjson-3.8.5.ebuild, -orjson-3.8.6.ebuild,
+  -orjson-3.8.7.ebuild, -orjson-3.9.1.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*orjson-3.9.1 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net> +orjson-3.9.1.ebuild:
+  add orjson-3.9.1
+
+*orjson-3.8.7 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net> +orjson-3.8.7.ebuild:
+  add 3.8.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*orjson-3.8.6 (26 Feb 2023)
+
+  26 Feb 2023; Andreas Billmeier <b@edevau.net> -orjson-3.7.11.ebuild,
+  +orjson-3.8.6.ebuild:
+  add 3.8.6, drop 3.7.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*orjson-3.8.5 (12 Feb 2023)
+
+  12 Feb 2023; Andreas Billmeier <b@edevau.net> -orjson-3.7.8.ebuild,
+  orjson-3.7.11.ebuild, orjson-3.8.1.ebuild, +orjson-3.8.5.ebuild:
+  fix MisplacedEclassVar, drop 3.7.8, add 3.8.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> orjson-3.7.8.ebuild,
+  orjson-3.7.11.ebuild, orjson-3.8.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*orjson-3.8.1 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> -orjson-3.7.5.ebuild,
+  -orjson-3.7.7.ebuild, +orjson-3.8.1.ebuild:
+  update orjson-3.8.1, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*orjson-3.7.8 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> +orjson-3.7.8.ebuild:
+  update orjson-3.7.8
+
+*orjson-3.7.11 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> orjson-3.7.5.ebuild,
+  orjson-3.7.7.ebuild, +orjson-3.7.11.ebuild:
+  update orjson-3.7.11
+
+  22 Jul 2022; Andreas Billmeier <b@edevau.net> orjson-3.7.5.ebuild,
+  orjson-3.7.7.ebuild:
+  fix orjson BDEPEND
+
+  22 Jul 2022; Andreas Billmeier <b@edevau.net> orjson-3.7.5.ebuild,
+  orjson-3.7.7.ebuild:
+  update orjson BDEPEND
+
+*orjson-3.7.5 (16 Jul 2022)
+
+  16 Jul 2022; Andreas Billmeier <b@edevau.net> +orjson-3.7.5.ebuild:
+  dg orjson-3.7.5
+
+*orjson-3.7.7 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +orjson-3.7.7.ebuild:
+  add orjson-3.7.7
+
+  10 Sep 2020; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -orjson-2.5.1.ebuild:
+  orjson-2.5.1 removed, too complex to compile in Gentoo
+
+  28 Feb 2020; Andreas Billmeier <b@edevau.net> orjson-2.5.1.ebuild:
+  bump orjson-2.5.1.ebuild
+
+*orjson-2.5.1 (25 Feb 2020)
+
+  25 Feb 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +orjson-2.5.1.ebuild:
+  add orjson-2.5.1
+

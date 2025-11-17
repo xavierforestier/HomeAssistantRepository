@@ -1,0 +1,470 @@
+# ChangeLog for dev-python/async-upnp-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -async-upnp-client-0.44.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+*async-upnp-client-0.45.0 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +async-upnp-client-0.45.0.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -async-upnp-client-0.38.3.ebuild, -async-upnp-client-0.40.0.ebuild,
+  -async-upnp-client-0.41.0.ebuild, -async-upnp-client-0.42.0.ebuild,
+  -async-upnp-client-0.43.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  async-upnp-client-0.38.3.ebuild, async-upnp-client-0.40.0.ebuild,
+  async-upnp-client-0.41.0.ebuild, async-upnp-client-0.42.0.ebuild,
+  async-upnp-client-0.43.0.ebuild, async-upnp-client-0.44.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -async-upnp-client-0.38.3.ebuilde, -async-upnp-client-0.40.0.ebuilde,
+  -async-upnp-client-0.41.0.ebuilde, -async-upnp-client-0.42.0.ebuilde,
+  -async-upnp-client-0.43.0.ebuilde, -async-upnp-client-0.44.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +async-upnp-client-0.38.3.ebuilde, +async-upnp-client-0.40.0.ebuilde,
+  +async-upnp-client-0.41.0.ebuilde, +async-upnp-client-0.42.0.ebuilde,
+  +async-upnp-client-0.43.0.ebuilde, +async-upnp-client-0.44.0.ebuilde:
+  Fix KEYWORDS
+
+*async-upnp-client-0.44.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +async-upnp-client-0.44.0.ebuild:
+  Homeassistant 2025.4.0
+
+*async-upnp-client-0.43.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +async-upnp-client-0.43.0.ebuild:
+  homeassisstant-2025.2.0
+
+*async-upnp-client-0.42.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +async-upnp-client-0.42.0.ebuild:
+  homeassistant 2025.1.1
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.39.0.ebuild:
+  drop 0.39.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.41.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.41.0.ebuild:
+  add 0.41.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4005
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.39.0.ebuild:
+  enable py3.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.40.0 (22 Sep 2024)
+
+  22 Sep 2024; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.36.2.ebuild, -async-upnp-client-0.38.0.ebuild,
+  -async-upnp-client-0.38.2.ebuild, async-upnp-client-0.38.3.ebuild,
+  +async-upnp-client-0.40.0.ebuild:
+  add 0.40.0, drop olds
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3604
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.39.0 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +async-upnp-client-0.39.0.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.38.1.ebuild:
+  drop 0.38.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.38.3 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.36.2.ebuild, async-upnp-client-0.38.0.ebuild,
+  async-upnp-client-0.38.1.ebuild, async-upnp-client-0.38.2.ebuild,
+  +async-upnp-client-0.38.3.ebuild:
+  add 0.38.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3108
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.38.2 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.38.2.ebuild:
+  add 0.38.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.38.1 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.36.2.ebuild, async-upnp-client-0.38.0.ebuild,
+  +async-upnp-client-0.38.1.ebuild:
+  add 0.38.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2712
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.38.0 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.38.0.ebuild:
+  add 0.38.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2594
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.36.1.ebuild:
+  drop 0.36.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.36.1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.33.1.ebuild, -async-upnp-client-0.33.2.ebuild:
+  drop 0.33.1, 0.33.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.36.2 (28 Oct 2023)
+
+  28 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.36.2.ebuild:
+  add 0.36.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.36.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.33.1.ebuild, async-upnp-client-0.33.2.ebuild,
+  +async-upnp-client-0.36.1.ebuild:
+  add 0.36.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.33.2 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.32.1.ebuild, -async-upnp-client-0.32.3.ebuild,
+  -async-upnp-client-0.33.0.ebuild, +async-upnp-client-0.33.2.ebuild:
+  async-upnp-client: drop 0.32.1, drop 0.32.3, add 0.33.2, fixes #1561
+
+*async-upnp-client-0.33.1 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.32.2.ebuild, +async-upnp-client-0.33.1.ebuild:
+  add 0.33.1, drop 0.32.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.32.1.ebuild, async-upnp-client-0.32.2.ebuild,
+  async-upnp-client-0.32.3.ebuild, async-upnp-client-0.33.0.ebuild:
+  remove Python 3.8 Support tag
+
+*async-upnp-client-0.33.0 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.31.2.ebuild, +async-upnp-client-0.33.0.ebuild:
+  add 0.33.0, drop 0.31.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.32.3 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.32.3.ebuild, metadata.xml:
+  add 0.32.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.32.2 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.31.2.ebuild, async-upnp-client-0.32.1.ebuild,
+  +async-upnp-client-0.32.2.ebuild:
+  bump 0.32.2, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*async-upnp-client-0.32.1 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.32.1.ebuild:
+  add 0.32.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.31.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.29.0.ebuild, -async-upnp-client-0.31.1.ebuild,
+  async-upnp-client-0.31.2.ebuild:
+  rework, remove olds
+
+*async-upnp-client-0.31.2 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.27.0.ebuild, async-upnp-client-0.29.0.ebuild,
+  -async-upnp-client-0.30.1.ebuild, async-upnp-client-0.31.1.ebuild,
+  +async-upnp-client-0.31.2.ebuild:
+  bump async-upnp-client-0.31.2
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.27.0.ebuild, async-upnp-client-0.29.0.ebuild,
+  async-upnp-client-0.30.1.ebuild, async-upnp-client-0.31.1.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+*async-upnp-client-0.31.1 (10 Jun 2022)
+
+  10 Jun 2022; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.23.5.ebuild, +async-upnp-client-0.31.1.ebuild:
+  bump async-upnp-client-0.31.1
+
+*async-upnp-client-0.30.1 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.30.1.ebuild:
+  bump async-upnp-client-0.30.1
+
+*async-upnp-client-0.29.0 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.23.4.ebuild, async-upnp-client-0.23.5.ebuild,
+  async-upnp-client-0.27.0.ebuild, +async-upnp-client-0.29.0.ebuild:
+  bump async-upnp-client-0.29.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.23.4.ebuild, async-upnp-client-0.23.5.ebuild,
+  async-upnp-client-0.27.0.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+*async-upnp-client-0.27.0 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.22.10.ebuild, -async-upnp-client-0.23.1.ebuild,
+  +async-upnp-client-0.27.0.ebuild:
+  bump async-upnp-client-0.27.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.22.10.ebuild, async-upnp-client-0.23.1.ebuild,
+  async-upnp-client-0.23.4.ebuild, async-upnp-client-0.23.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*async-upnp-client-0.23.5 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.22.12.ebuild, +async-upnp-client-0.23.5.ebuild:
+  bump async-upnp-client-0.23.5
+
+*async-upnp-client-0.23.4 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.23.4.ebuild:
+  bump async-upnp-client-0.23.4
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.22.10.ebuild, async-upnp-client-0.22.12.ebuild,
+  async-upnp-client-0.23.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*async-upnp-client-0.23.1 (21 Dec 2021)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.20.0.ebuild, +async-upnp-client-0.23.1.ebuild:
+  update async-upnp-client-0.23.1
+
+*async-upnp-client-0.22.12 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.19.1.ebuild, -async-upnp-client-0.22.4.ebuild,
+  -async-upnp-client-0.22.5.ebuild, -async-upnp-client-0.22.8.ebuild,
+  +async-upnp-client-0.22.12.ebuild:
+  update async-upnp-client-0.22.12, bump python-didl-lite-1.3.2
+
+*async-upnp-client-0.22.10 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.22.10.ebuild, -async-upnp-client-0.22.11.ebuild:
+  dg async-upnp-client-0.22.10
+
+*async-upnp-client-0.22.11 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.22.11.ebuild:
+  bump async-upnp-client-0.22.11
+
+*async-upnp-client-0.22.8 (12 Oct 2021)
+
+  12 Oct 2021; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.22.8.ebuild:
+  update async-upnp-client-0.22.8
+
+*async-upnp-client-0.22.5 (07 Oct 2021)
+
+  07 Oct 2021; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.22.5.ebuild:
+  bump async-upnp-client-0.22.5
+
+*async-upnp-client-0.22.4 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.18.0.ebuild, -async-upnp-client-0.19.0.ebuild,
+  +async-upnp-client-0.22.4.ebuild:
+  update async-upnp-client-0.22.4
+
+*async-upnp-client-0.20.0 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.13.ebuild, -async-upnp-client-0.16.0.ebuild,
+  -async-upnp-client-0.16.2.ebuild, +async-upnp-client-0.20.0.ebuild:
+  update async-upnp-client-0.20.0
+
+*async-upnp-client-0.19.1 (27 Jul 2021)
+
+  27 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.19.1.ebuild:
+  bump async-upnp-client-0.19.1
+
+*async-upnp-client-0.19.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.19.0.ebuild:
+  update async-upnp-client-0.19.0
+
+*async-upnp-client-0.18.0 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.12.ebuild, -async-upnp-client-0.15.0.ebuild,
+  +async-upnp-client-0.18.0.ebuild:
+  update async-upnp-client-0.18.0
+
+*async-upnp-client-0.16.2 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.11.ebuild, +async-upnp-client-0.16.2.ebuild:
+  bump async-upnp-client-0.16.2
+
+*async-upnp-client-0.16.0 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.14.ebuild, +async-upnp-client-0.16.0.ebuild:
+  bump async-upnp-client-0.16.0
+
+*async-upnp-client-0.15.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.10.ebuild, async-upnp-client-0.14.13.ebuild,
+  async-upnp-client-0.14.14.ebuild, +async-upnp-client-0.15.0.ebuild:
+  async-upnp-client
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> async-upnp-client-0.14.10.ebuild,
+  async-upnp-client-0.14.11.ebuild, async-upnp-client-0.14.12.ebuild,
+  async-upnp-client-0.14.13.ebuild, async-upnp-client-0.14.14.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*async-upnp-client-0.14.14 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.7.ebuild, +async-upnp-client-0.14.14.ebuild,
+  metadata.xml:
+  update python-didl-lite-1.2.4, update old
+  update async-upnp-client-0.14.14
+
+*async-upnp-client-0.14.13 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.4.ebuild, +async-upnp-client-0.14.13.ebuild:
+  bump async-upnp-client-0.14.13
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.14.12.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.14.4.ebuild, async-upnp-client-0.14.7.ebuild,
+  async-upnp-client-0.14.10.ebuild, async-upnp-client-0.14.11.ebuild,
+  async-upnp-client-0.14.12.ebuild:
+  minor code cleanups
+
+*async-upnp-client-0.14.12 (13 Nov 2019)
+
+  13 Nov 2019; Andreas Billmeier <b@edevau.net>
+  -async-upnp-client-0.14.3.ebuild, +async-upnp-client-0.14.12.ebuild:
+  update async-upnp-client-0.14.12
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net>
+  async-upnp-client-0.14.3.ebuild, async-upnp-client-0.14.4.ebuild,
+  async-upnp-client-0.14.7.ebuild, async-upnp-client-0.14.10.ebuild,
+  async-upnp-client-0.14.11.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*async-upnp-client-0.14.11 (10 Sep 2019)
+
+  10 Sep 2019; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.14.11.ebuild:
+  bump async-upnp-client-0.14.11
+
+*async-upnp-client-0.14.10 (23 Jun 2019)
+
+  23 Jun 2019; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.14.10.ebuild:
+  bump async-upnp-client-0.14.10
+
+*async-upnp-client-0.14.7 (30 Mar 2019)
+
+  30 Mar 2019; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.14.7.ebuild:
+  async-upnp-client-0.14.7
+
+  19 Mar 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  async-upnp-client-0.14.3.ebuild, async-upnp-client-0.14.4.ebuild:
+  cleanup
+
+*async-upnp-client-0.14.4 (05 Feb 2019)
+
+  05 Feb 2019; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.14.4.ebuild, +metadata.xml:
+  2019-02-05 small changes
+
+*async-upnp-client-0.14.3 (30 Jan 2019)
+
+  30 Jan 2019; Andreas Billmeier <b@edevau.net>
+  +async-upnp-client-0.14.3.ebuild:
+  async-upnp-client-0.14.3 added
+

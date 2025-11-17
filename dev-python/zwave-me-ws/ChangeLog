@@ -1,0 +1,121 @@
+# ChangeLog for dev-python/zwave-me-ws
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zwave-me-ws-0.4.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zwave-me-ws-0.4.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zwave-me-ws-0.4.3.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  zwave-me-ws-0.4.3.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -zwave-me-ws-0.3.6.ebuild,
+  -zwave-me-ws-0.4.2.ebuild:
+  drop 0.3.6, 0.4.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zwave-me-ws-0.4.3 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> +zwave-me-ws-0.4.3.ebuild:
+  add 0.4.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zwave-me-ws-0.4.2 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -zwave-me-ws-0.2.6.ebuild,
+  -zwave-me-ws-0.3.0.ebuild, -zwave-me-ws-0.3.1.ebuild,
+  zwave-me-ws-0.3.6.ebuild, +zwave-me-ws-0.4.2.ebuild:
+  add 0.4.2, drop olds, update 0.3.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> zwave-me-ws-0.2.6.ebuild,
+  zwave-me-ws-0.3.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zwave-me-ws-0.3.6 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> +zwave-me-ws-0.3.6.ebuild:
+  add 0.3.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zwave-me-ws-0.3.1 (02 Mar 2023)
+
+  02 Mar 2023; Andreas Billmeier <b@edevau.net> -zwave-me-ws-0.2.4.ebuild,
+  +zwave-me-ws-0.3.1.ebuild:
+  add 0.3.1, drop 0.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> zwave-me-ws-0.2.4.ebuild,
+  zwave-me-ws-0.2.6.ebuild, zwave-me-ws-0.3.0.ebuild:
+  remove Python 3.8 Support tag
+
+*zwave-me-ws-0.3.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  zwave-me-ws-0.2.4.ebuild, +zwave-me-ws-0.3.0.ebuild:
+  0.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> zwave-me-ws-0.2.4.ebuild,
+  zwave-me-ws-0.2.6.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -zwave-me-ws-0.3.0.ebuild:
+  rework, remove olds
+
+*zwave-me-ws-0.2.6 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +zwave-me-ws-0.2.6.ebuild:
+  update zwave-me-ws-0.2.6
+
+*zwave-me-ws-0.3.0 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +zwave-me-ws-0.3.0.ebuild:
+  update zwave-me-ws-0.3.0
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -zwave-me-ws-0.2.1.ebuild,
+  -zwave-me-ws-0.2.3.ebuild, zwave-me-ws-0.2.4.ebuild:
+  zwave-me-ws-0.2.4, remove olds
+
+*zwave-me-ws-0.2.4 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> zwave-me-ws-0.2.1.ebuild,
+  zwave-me-ws-0.2.3.ebuild, +zwave-me-ws-0.2.4.ebuild:
+  bump zwave-me-ws-0.2.4
+
+*zwave-me-ws-0.2.3 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -zwave-me-ws-0.2.2.ebuild,
+  +zwave-me-ws-0.2.3.ebuild:
+  bump zwave-me-ws-0.2.3
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> zwave-me-ws-0.2.1.ebuild,
+  zwave-me-ws-0.2.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*zwave-me-ws-0.2.2 (26 Feb 2022)
+*zwave-me-ws-0.2.1 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +zwave-me-ws-0.2.1.ebuild, +zwave-me-ws-0.2.2.ebuild:
+  add zwave-me-ws-0.2.1, zwave-me-ws-0.2.2
+

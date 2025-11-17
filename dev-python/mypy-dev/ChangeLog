@@ -1,0 +1,73 @@
+# ChangeLog for dev-python/mypy-dev
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*mypy-dev-1.16.0_alpha8 (10 May 2025)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -mypy-dev-1.16.0_alpha7.ebuild, +mypy-dev-1.16.0_alpha8.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mypy-dev-1.16.0_alpha7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  mypy-dev-1.16.0_alpha7.ebuild:
+  cleansing
+
+*mypy-dev-1.16.0_alpha7 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mypy-dev-1.16.0_alpha3.ebuild, +mypy-dev-1.16.0_alpha7.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mypy-dev-1.16.0_alpha3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mypy-dev-1.16.0_alpha3.ebuilde:
+  Fix KEYWORDS
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mypy-dev-1.11.0_alpha3.ebuild, mypy-dev-1.16.0_alpha3.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*mypy-dev-1.16.0_alpha3 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mypy-dev-1.12.0_alpha3.ebuild, +mypy-dev-1.16.0_alpha3.ebuild:
+  homeassistant 2025.3.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  mypy-dev-1.12.0_alpha3.ebuild:
+  homeassistant 2024.12.1
+
+*mypy-dev-1.12.0_alpha3 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +mypy-dev-1.12.0_alpha3.ebuild:
+  add 1.12.0_alpha3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3974
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mypy-dev-1.11.0_alpha3 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net>
+  -mypy-dev-1.10.0_alpha3.ebuild, +mypy-dev-1.11.0_alpha3.ebuild:
+  add 1.11.0_alpha3, drop 1.10.0_alpha3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3522
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*mypy-dev-1.10.0_alpha3 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +mypy-dev-1.10.0_alpha3.ebuild:
+  new package, add 1.10.0_alpha3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3192
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,125 @@
+# ChangeLog for dev-python/aioqsw
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioqsw-0.4.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioqsw-0.3.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioqsw-0.3.5.ebuilde, -aioqsw-0.4.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioqsw-0.3.5.ebuilde, +aioqsw-0.4.1.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> aioqsw-0.3.5.ebuild,
+  aioqsw-0.4.1.ebuild:
+  enable py3.13 and disable py3.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3734
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioqsw-0.4.1 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioqsw-0.4.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -aioqsw-0.3.2.ebuild,
+  -aioqsw-0.3.4.ebuild:
+  drop 0.3.2, 0.3.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioqsw-0.3.5 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +aioqsw-0.3.5.ebuild:
+  add 0.3.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioqsw-0.3.4 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> +aioqsw-0.3.4.ebuild:
+  add 0.3.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -aioqsw-0.2.2.ebuild,
+  -aioqsw-0.3.1.ebuild:
+  drop 0.2.2, 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aioqsw-0.2.2.ebuild,
+  aioqsw-0.3.1.ebuild, aioqsw-0.3.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioqsw-0.3.2 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +aioqsw-0.3.2.ebuild:
+  add 0.3.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aioqsw-0.2.2.ebuild,
+  aioqsw-0.3.1.ebuild:
+  remove Python 3.8 Support tag
+
+*aioqsw-0.3.1 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -aioqsw-0.1.1.ebuild,
+  +aioqsw-0.3.1.ebuild:
+  add 0.3.1, drop 0.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioqsw-0.1.1.ebuild,
+  aioqsw-0.2.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioqsw-0.2.2 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -aioqsw-0.0.5.ebuild,
+  -aioqsw-0.0.8.ebuild, -aioqsw-0.1.0.ebuild, aioqsw-0.1.1.ebuild,
+  +aioqsw-0.2.2.ebuild:
+  bump aioqsw-0.2.2
+
+*aioqsw-0.1.1 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> +aioqsw-0.1.1.ebuild:
+  bump aioqsw-0.1.1
+
+*aioqsw-0.1.0 (18 Jul 2022)
+
+  18 Jul 2022; Andreas Billmeier <b@edevau.net> aioqsw-0.0.5.ebuild,
+  aioqsw-0.0.8.ebuild, +aioqsw-0.1.0.ebuild:
+  update aioqsw-0.1.0
+
+*aioqsw-0.0.8 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +aioqsw-0.0.8.ebuild:
+  bump aioqsw-0.0.8
+
+*aioqsw-0.0.5 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> +aioqsw-0.0.5.ebuild,
+  +metadata.xml:
+  add aioqsw-0.0.5
+

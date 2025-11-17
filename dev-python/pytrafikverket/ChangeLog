@@ -1,0 +1,197 @@
+# ChangeLog for dev-python/pytrafikverket
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytrafikverket-1.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytrafikverket-1.1.1.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytrafikverket-0.3.10.ebuild, -pytrafikverket-1.0.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pytrafikverket-0.3.10.ebuilde, -pytrafikverket-1.0.0.ebuilde,
+  -pytrafikverket-1.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytrafikverket-0.3.10.ebuilde, +pytrafikverket-1.0.0.ebuilde,
+  +pytrafikverket-1.1.1.ebuilde:
+  Fix KEYWORDS
+
+*pytrafikverket-1.1.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pytrafikverket-1.1.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net>
+  -pytrafikverket-0.3.9.2.ebuild:
+  drop 0.3.9.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-1.0.0 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  pytrafikverket-0.3.9.2.ebuild, pytrafikverket-0.3.10.ebuild,
+  +pytrafikverket-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3791
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -pytrafikverket-0.3.6.ebuild,
+  -pytrafikverket-0.3.7.ebuild, -pytrafikverket-0.3.9.1.ebuild,
+  pytrafikverket-0.3.9.2.ebuild, pytrafikverket-0.3.10.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-0.3.10 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +pytrafikverket-0.3.10.ebuild:
+  add 0.3.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2871
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-0.3.9.2 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> pytrafikverket-0.3.6.ebuild,
+  pytrafikverket-0.3.7.ebuild, pytrafikverket-0.3.9.1.ebuild,
+  +pytrafikverket-0.3.9.2.ebuild:
+  add 0.3.9.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2666
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-0.3.9.1 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pytrafikverket-0.3.9.1.ebuild:
+  add 0.3.9.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2498
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> pytrafikverket-0.3.6.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pytrafikverket-0.2.3.ebuild:
+  drop 0.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-0.3.7 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +pytrafikverket-0.3.7.ebuild:
+  add 0.3.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-0.3.6 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net>
+  -pytrafikverket-0.2.0.1.ebuild, -pytrafikverket-0.2.1.ebuild,
+  -pytrafikverket-0.2.2.ebuild, pytrafikverket-0.2.3.ebuild,
+  +pytrafikverket-0.3.6.ebuild:
+  drop olds, add 0.3.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-0.2.3 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> +pytrafikverket-0.2.3.ebuild:
+  add 0.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pytrafikverket-0.2.0.1.ebuild,
+  pytrafikverket-0.2.1.ebuild, pytrafikverket-0.2.2.ebuild:
+  remove Python 3.8 Support tag
+
+*pytrafikverket-0.2.2 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  pytrafikverket-0.2.0.1.ebuild, pytrafikverket-0.2.1.ebuild,
+  +pytrafikverket-0.2.2.ebuild:
+  bump 0.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pytrafikverket-0.2.1 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +pytrafikverket-0.2.1.ebuild:
+  add 0.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -pytrafikverket-0.1.6.2.ebuild, pytrafikverket-0.2.0.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> pytrafikverket-0.1.6.2.ebuild,
+  pytrafikverket-0.2.0.1.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+*pytrafikverket-0.2.0.1 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net>
+  +pytrafikverket-0.2.0.1.ebuild:
+  bump pytrafikverket-0.2.0.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pytrafikverket-0.1.6.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  19 Dec 2021; Andreas Billmeier <b@edevau.net> pytrafikverket-0.1.6.2.ebuild:
+  rework/cleanup pytrafikverket-0.1.6.2
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net>
+  -pytrafikverket-0.1.5.9.ebuild, -pytrafikverket-0.1.6.1.ebuild,
+  pytrafikverket-0.1.6.2.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pytrafikverket-0.1.5.9.ebuild,
+  pytrafikverket-0.1.6.1.ebuild, pytrafikverket-0.1.6.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pytrafikverket-0.1.6.2 (24 Aug 2020)
+
+  24 Aug 2020; Andreas Billmeier <b@edevau.net>
+  +pytrafikverket-0.1.6.2.ebuild:
+  bump pytrafikverket-0.1.6.2
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pytrafikverket-0.1.6.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pytrafikverket-0.1.5.9.ebuild,
+  pytrafikverket-0.1.6.1.ebuild:
+  minor code cleanups
+
+*pytrafikverket-0.1.6.1 (01 Feb 2020)
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +pytrafikverket-0.1.6.1.ebuild:
+  bump pytrafikverket-0.1.6.1
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pytrafikverket-0.1.5.9 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pytrafikverket-0.1.5.9.ebuild:
+  add pytrafikverket-0.1.5.9
+

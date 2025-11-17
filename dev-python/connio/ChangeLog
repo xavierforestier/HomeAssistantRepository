@@ -1,0 +1,51 @@
+# ChangeLog for dev-python/connio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  connio-0.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -connio-0.2.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +connio-0.2.0.ebuilde:
+  Fix KEYWORDS
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  connio-0.2.0.ebuild:
+  homeassistant 2025.1.1
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  connio-0.2.0.ebuild:
+  homeassistant 2025.1.1
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> connio-0.2.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> connio-0.2.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> connio-0.2.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*connio-0.2.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> +connio-0.2.0.ebuild,
+  +metadata.xml:
+  add uModbus-1.0.4
+  add nibe-0.5.0
+  add connio-0.2.0
+  add async-modbus-0.2.1
+

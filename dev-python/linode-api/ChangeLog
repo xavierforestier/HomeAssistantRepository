@@ -1,0 +1,74 @@
+# ChangeLog for dev-python/linode-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/linode-api-fix-find_packages.patch, linode-api-4.1.9_beta1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -linode-api-4.1.9_beta1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +linode-api-4.1.9_beta1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  linode-api-4.1.9_beta1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  19 Jun 2023; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  cleanup, add new Python Targets, Letter 'N' and parts of P Integrations
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> linode-api-4.1.9_beta1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  update linode-api-4.1.9_beta1, fix some problems
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: L-O
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> linode-api-4.1.9_beta1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*linode-api-4.1.9_beta1 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net>
+  +linode-api-4.1.9_beta1.ebuild, +metadata.xml:
+  add linode-api-4.1.9_beta1
+

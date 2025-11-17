@@ -1,0 +1,92 @@
+# ChangeLog for dev-python/aiooncue
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiooncue-0.3.9.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiooncue-0.3.5.ebuild, -aiooncue-0.3.7.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiooncue-0.3.5.ebuilde, -aiooncue-0.3.7.ebuilde, -aiooncue-0.3.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiooncue-0.3.5.ebuilde, +aiooncue-0.3.7.ebuilde, +aiooncue-0.3.9.ebuilde:
+  Fix KEYWORDS
+
+*aiooncue-0.3.9 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiooncue-0.3.9.ebuild:
+  homeassistant 2025.3.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aiooncue-0.3.7.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*aiooncue-0.3.7 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> aiooncue-0.3.5.ebuild,
+  +aiooncue-0.3.7.ebuild:
+  add 0.3.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3135
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aiooncue-0.3.4.ebuild:
+  drop 0.3.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aiooncue-0.3.4.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiooncue-0.3.5 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +aiooncue-0.3.5.ebuild:
+  add 0.3.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiooncue-0.3.4.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiooncue-0.3.4.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiooncue-0.3.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aiooncue-0.3.2.ebuild,
+  aiooncue-0.3.4.ebuild:
+  remove olds, cleanup, enable pytest
+
+*aiooncue-0.3.4 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net> +aiooncue-0.3.4.ebuild:
+  bump aiooncue-0.3.4
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiooncue-0.3.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiooncue-0.3.2 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +aiooncue-0.3.2.ebuild,
+  +metadata.xml:
+  add aiooncue-0.3.2
+

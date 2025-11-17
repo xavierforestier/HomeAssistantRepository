@@ -1,0 +1,23 @@
+# ChangeLog for dev-python/js2py
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  js2py-0.74-r2.ebuild, +metadata.xml:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -js2py-0.74-r2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +js2py-0.74-r2.ebuilde:
+  Fix KEYWORDS
+
+*js2py-0.74-r2 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/js2py-0.74-CVE-2024-28397.patch,
+  +files/js2py-0.74-py312-load_attr.patch, +js2py-0.74-r2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+

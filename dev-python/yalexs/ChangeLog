@@ -1,0 +1,305 @@
+# ChangeLog for dev-python/yalexs
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yalexs-9.0.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*yalexs-9.2.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +yalexs-9.2.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yalexs-8.11.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*yalexs-9.0.1 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +yalexs-9.0.1.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yalexs-8.10.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*yalexs-8.11.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +yalexs-8.11.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  yalexs-8.10.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yalexs-3.0.1.ebuild, -yalexs-3.1.0.ebuild, -yalexs-8.6.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -yalexs-3.0.1.ebuilde, -yalexs-3.1.0.ebuilde, -yalexs-8.10.0.ebuilde,
+  -yalexs-8.6.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yalexs-3.0.1.ebuilde, +yalexs-3.1.0.ebuilde, +yalexs-8.10.0.ebuilde,
+  +yalexs-8.6.4.ebuilde:
+  Fix KEYWORDS
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  yalexs-8.10.0.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> -yalexs-1.11.4.ebuild,
+  -yalexs-2.0.0.ebuild, -yalexs-8.5.4.ebuild, -yalexs-8.5.5.ebuild,
+  -yalexs-8.6.2.ebuild, -yalexs-8.6.3.ebuild:
+  drop 1.11.4, 2.0.0, 8.5.4, 8.5.5, 8.6.2, 8.6.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-8.10.0 (01 Nov 2024)
+
+  01 Nov 2024; Andreas Billmeier <b@edevau.net> +yalexs-8.10.0.ebuild:
+  add 8.10.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3985
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  yalexs-8.6.4.ebuild:
+  Some fixes :) for homeassistant 2024.10.2
+
+*yalexs-8.5.4 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yalexs-8.5.4.ebuild:
+  homeassistant 2024.9.0_beta1
+
+*yalexs-8.5.5 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yalexs-8.5.5.ebuild:
+  homeassistant 2024.9.0_beta3
+
+*yalexs-8.6.2 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yalexs-8.6.2.ebuild:
+  homeassistant 2024.9.0_beta4
+
+*yalexs-8.6.3 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +yalexs-8.6.3.ebuild:
+  homeassistant 2024.9.1
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  yalexs-8.6.4.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*yalexs-8.6.4 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +yalexs-8.6.4.ebuild:
+  add 8.6.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3564
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-3.1.0 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +yalexs-3.1.0.ebuild:
+  add 3.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3385
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 May 2024; Andreas Billmeier <b@edevau.net> -yalexs-1.10.0.ebuild,
+  -yalexs-1.11.2.ebuild:
+  drop 1.10.0, 1.11.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-3.0.1 (11 May 2024)
+
+  11 May 2024; Andreas Billmeier <b@edevau.net> yalexs-1.10.0.ebuild,
+  yalexs-1.11.2.ebuild, yalexs-1.11.4.ebuild, yalexs-2.0.0.ebuild,
+  +yalexs-3.0.1.ebuild:
+  add 3.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3242
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-2.0.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +yalexs-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3098
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-1.11.4 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> yalexs-1.10.0.ebuild,
+  yalexs-1.11.2.ebuild, +yalexs-1.11.4.ebuild:
+  add 1.11.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2941
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-1.11.2 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> yalexs-1.10.0.ebuild,
+  +yalexs-1.11.2.ebuild:
+  add 1.11.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -yalexs-1.2.7.ebuild,
+  -yalexs-1.5.1.ebuild:
+  drop 1.2.7, 1.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-1.10.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> yalexs-1.2.7.ebuild,
+  yalexs-1.5.1.ebuild, +yalexs-1.10.0.ebuild:
+  add 1.10.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-1.5.1 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -yalexs-1.2.6.ebuild,
+  yalexs-1.2.7.ebuild, +yalexs-1.5.1.ebuild:
+  yalexs: drop old, update 1.2.7, add 1.5.1, fixes #1531
+
+*yalexs-1.2.7 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +yalexs-1.2.7.ebuild:
+  add 1.2.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> -yalexs-1.1.25.ebuild,
+  -yalexs-1.2.2.ebuild, -yalexs-1.2.4.ebuild:
+  yalexs-ble: add 1.12.8, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> yalexs-1.1.25.ebuild,
+  yalexs-1.2.2.ebuild, yalexs-1.2.4.ebuild, yalexs-1.2.6.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> yalexs-1.1.25.ebuild,
+  yalexs-1.2.2.ebuild, yalexs-1.2.4.ebuild, yalexs-1.2.6.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*yalexs-1.2.6 (15 Oct 2022)
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -yalexs-1.2.1.ebuild,
+  +yalexs-1.2.6.ebuild:
+  bump yalexs-1.2.6
+
+*yalexs-1.2.4 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> +yalexs-1.2.4.ebuild:
+  bump yalexs-1.2.4
+
+*yalexs-1.2.2 (27 Sep 2022)
+
+  27 Sep 2022; Andreas Billmeier <b@edevau.net> +yalexs-1.2.2.ebuild:
+  bump yalexs-1.2.2
+
+*yalexs-1.2.1 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -yalexs-1.1.22.ebuild,
+  -yalexs-1.1.23.ebuild, yalexs-1.1.25.ebuild, +yalexs-1.2.1.ebuild:
+  bump yalexs-1.2.1
+
+*yalexs-1.1.25 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +yalexs-1.1.25.ebuild:
+  bump yalexs-1.1.25
+
+*yalexs-1.1.23 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> -yalexs-1.1.19.ebuild,
+  +yalexs-1.1.23.ebuild:
+  update yalexs-1.1.23
+
+  16 Mar 2022; Andreas Billmeier <b@edevau.net> -yalexs-1.1.13.ebuild,
+  -yalexs-1.1.20.ebuild:
+  cleanup yalexs
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> yalexs-1.1.13.ebuild,
+  yalexs-1.1.19.ebuild, yalexs-1.1.20.ebuild, yalexs-1.1.22.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*yalexs-1.1.22 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -yalexs-1.1.17.ebuild,
+  +yalexs-1.1.22.ebuild:
+  bump yalexs-1.1.22
+
+*yalexs-1.1.20 (01 Feb 2022)
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> +yalexs-1.1.20.ebuild:
+  bump yalexs-1.1.20
+
+*yalexs-1.1.19 (20 Jan 2022)
+
+  20 Jan 2022; Andreas Billmeier <b@edevau.net> +yalexs-1.1.19.ebuild:
+  bump yalexs-1.1.19
+
+*yalexs-1.1.17 (20 Jan 2022)
+
+  20 Jan 2022; Andreas Billmeier <b@edevau.net> -yalexs-1.1.10.ebuild,
+  -yalexs-1.1.11.ebuild, +yalexs-1.1.17.ebuild:
+  bump yalexs-1.1.17
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> yalexs-1.1.11.ebuild,
+  yalexs-1.1.13.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*yalexs-1.1.13 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +yalexs-1.1.13.ebuild:
+  update yalexs-1.1.13
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> -yalexs-1.1.5.ebuild,
+  -yalexs-1.1.6.ebuild, -yalexs-1.1.9.ebuild, yalexs-1.1.11.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+*yalexs-1.1.11 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> -yalexs-1.1.4.ebuild,
+  +yalexs-1.1.11.ebuild:
+  update yalexs-1.1.4
+
+*yalexs-1.1.10 (04 Apr 2021)
+*yalexs-1.1.9 (04 Apr 2021)
+*yalexs-1.1.6 (04 Apr 2021)
+*yalexs-1.1.5 (04 Apr 2021)
+*yalexs-1.1.4 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +yalexs-1.1.4.ebuild, +yalexs-1.1.5.ebuild, +yalexs-1.1.6.ebuild,
+  +yalexs-1.1.9.ebuild, +yalexs-1.1.10.ebuild:
+  bump yalexs-1.1.5
+  bump yalexs-1.1.6
+  bump yalexs-1.1.9
+  bump yalexs-1.1.10
+

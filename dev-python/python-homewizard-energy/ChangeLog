@@ -1,0 +1,223 @@
+# ChangeLog for dev-python/python-homewizard-energy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-homewizard-energy-9.2.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*python-homewizard-energy-9.3.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-homewizard-energy-9.3.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-homewizard-energy-8.3.2.ebuild:
+  Cleansing
+
+*python-homewizard-energy-9.2.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-homewizard-energy-9.2.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-homewizard-energy-8.3.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-homewizard-energy-4.3.1.ebuild,
+  -python-homewizard-energy-5.0.0.ebuild,
+  -python-homewizard-energy-6.0.0.ebuild,
+  -python-homewizard-energy-6.3.0.ebuild,
+  -python-homewizard-energy-7.0.0.ebuild,
+  -python-homewizard-energy-7.0.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-homewizard-energy-4.3.1.ebuilde,
+  -python-homewizard-energy-5.0.0.ebuilde,
+  -python-homewizard-energy-6.0.0.ebuilde,
+  -python-homewizard-energy-6.3.0.ebuilde,
+  -python-homewizard-energy-7.0.0.ebuilde,
+  -python-homewizard-energy-7.0.1.ebuilde,
+  -python-homewizard-energy-8.3.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-homewizard-energy-4.3.1.ebuilde,
+  +python-homewizard-energy-5.0.0.ebuilde,
+  +python-homewizard-energy-6.0.0.ebuilde,
+  +python-homewizard-energy-6.3.0.ebuilde,
+  +python-homewizard-energy-7.0.0.ebuilde,
+  +python-homewizard-energy-7.0.1.ebuilde,
+  +python-homewizard-energy-8.3.2.ebuilde:
+  Fix KEYWORDS
+
+*python-homewizard-energy-8.3.2 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-homewizard-energy-8.3.2.ebuild:
+  homeassisstant-2025.2.0
+
+*python-homewizard-energy-7.0.1 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-homewizard-energy-7.0.1.ebuild:
+  homeassistant 2025.1.1
+
+*python-homewizard-energy-7.0.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-homewizard-energy-7.0.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*python-homewizard-energy-6.3.0 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +python-homewizard-energy-6.3.0.ebuild:
+  add 6.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3650
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-6.0.0 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net>
+  -python-homewizard-energy-4.1.0.ebuild,
+  -python-homewizard-energy-4.3.0.ebuild,
+  python-homewizard-energy-4.3.1.ebuild,
+  python-homewizard-energy-5.0.0.ebuild,
+  +python-homewizard-energy-6.0.0.ebuild:
+  add 6.0.0, drop olds
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3419
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-5.0.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +python-homewizard-energy-5.0.0.ebuild:
+  add 5.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3121
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-4.3.1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net>
+  python-homewizard-energy-4.1.0.ebuild,
+  python-homewizard-energy-4.3.0.ebuild,
+  +python-homewizard-energy-4.3.1.ebuild:
+  add 4.3.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2977
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  -python-homewizard-energy-2.1.0.ebuild,
+  -python-homewizard-energy-2.1.2.ebuild:
+  drop 2.1.0, 2.1.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-4.3.0 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  python-homewizard-energy-2.1.0.ebuild,
+  python-homewizard-energy-2.1.2.ebuild,
+  python-homewizard-energy-4.1.0.ebuild,
+  +python-homewizard-energy-4.3.0.ebuild:
+  add 4.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2799
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-4.1.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +python-homewizard-energy-4.1.0.ebuild:
+  add 4.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2448
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -python-homewizard-energy-2.0.1.ebuild:
+  drop 2.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-2.1.2 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +python-homewizard-energy-2.1.2.ebuild:
+  add 2.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2272
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-2.1.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  -python-homewizard-energy-1.1.0.ebuild,
+  -python-homewizard-energy-1.8.0.ebuild,
+  python-homewizard-energy-2.0.1.ebuild,
+  +python-homewizard-energy-2.1.0.ebuild:
+  drop olds, add 2.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-2.0.1 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net>
+  -python-homewizard-energy-1.3.1.ebuild,
+  +python-homewizard-energy-2.0.1.ebuild:
+  add 2.0.1, drop 1.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-1.8.0 (05 Feb 2023)
+
+  05 Feb 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +python-homewizard-energy-1.8.0.ebuild:
+  add 1.8.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  python-homewizard-energy-1.1.0.ebuild,
+  python-homewizard-energy-1.3.1.ebuild:
+  remove Python 3.8 Support tag
+
+*python-homewizard-energy-1.3.1 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -python-homewizard-energy-1.0.3.ebuild,
+  python-homewizard-energy-1.1.0.ebuild,
+  +python-homewizard-energy-1.3.1.ebuild:
+  bump 1.3.1, drop 1.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  python-homewizard-energy-1.0.3.ebuild,
+  python-homewizard-energy-1.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-homewizard-energy-1.1.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net>
+  python-homewizard-energy-1.0.3.ebuild,
+  +python-homewizard-energy-1.1.0.ebuild:
+  bump python-homewizard-energy-1.1.0
+
+*python-homewizard-energy-1.0.3 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-homewizard-energy-1.0.3.ebuild:
+  add python-homewizard-energy-1.0.3
+

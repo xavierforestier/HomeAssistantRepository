@@ -1,0 +1,55 @@
+# ChangeLog for dev-python/huum
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -huum-0.8.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*huum-0.8.1 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +huum-0.8.1.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -huum-0.7.12.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*huum-0.8.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +huum-0.8.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  huum-0.7.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -huum-0.7.10.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -huum-0.7.10.ebuilde, -huum-0.7.12.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +huum-0.7.10.ebuilde, +huum-0.7.12.ebuilde:
+  Fix KEYWORDS
+
+*huum-0.7.12 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +huum-0.7.12.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*huum-0.7.10 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> +huum-0.7.10.ebuild,
+  +metadata.xml:
+  new package, add 0.7.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2804
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

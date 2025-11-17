@@ -1,0 +1,128 @@
+# ChangeLog for dev-python/ovoenergy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*ovoenergy-3.0.2 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ovoenergy-3.0.2.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ovoenergy-2.0.1.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*ovoenergy-3.0.1 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ovoenergy-3.0.1.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ovoenergy-2.0.0.ebuild:
+  Cleansing
+
+*ovoenergy-2.0.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ovoenergy-2.0.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ovoenergy-2.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ovoenergy-1.2.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -ovoenergy-1.2.0.ebuilde, -ovoenergy-2.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ovoenergy-1.2.0.ebuilde, +ovoenergy-2.0.0.ebuilde:
+  Fix KEYWORDS
+
+*ovoenergy-2.0.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> metadata.xml,
+  ovoenergy-1.2.0.ebuild, +ovoenergy-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3291
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> ovoenergy-1.2.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> ovoenergy-1.2.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> ovoenergy-1.2.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -ovoenergy-1.1.12.ebuild,
+  ovoenergy-1.2.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> ovoenergy-1.1.12.ebuild,
+  ovoenergy-1.2.0.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> ovoenergy-1.1.12.ebuild,
+  ovoenergy-1.2.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*ovoenergy-1.2.0 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> ovoenergy-1.1.12.ebuild,
+  +ovoenergy-1.2.0.ebuild:
+  bump ovoenergy-1.2.0
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -ovoenergy-1.1.6.ebuild,
+  -ovoenergy-1.1.7.ebuild, -ovoenergy-1.1.11.ebuild:
+  remove abandoned packages and Ebuilds
+
+*ovoenergy-1.1.12 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +ovoenergy-1.1.12.ebuild:
+  bump ovoenergy-1.1.12
+
+*ovoenergy-1.1.11 (19 Nov 2020)
+
+  19 Nov 2020; Andreas Billmeier <b@edevau.net> -ovoenergy-1.1.10.ebuild,
+  +ovoenergy-1.1.11.ebuild:
+  update ovoenergy-1.1.11
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> ovoenergy-1.1.6.ebuild,
+  ovoenergy-1.1.7.ebuild, ovoenergy-1.1.10.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*ovoenergy-1.1.10 (06 Sep 2020)
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net> ovoenergy-1.1.6.ebuild,
+  ovoenergy-1.1.7.ebuild, +ovoenergy-1.1.10.ebuild:
+  ovoenergy-1.1.10 bumped
+  P38 for the rest
+
+*ovoenergy-1.1.7 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> +ovoenergy-1.1.7.ebuild:
+  bump ovoenergy-1.1.7
+
+*ovoenergy-1.1.6 (11 Aug 2020)
+
+  11 Aug 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +ovoenergy-1.1.6.ebuild:
+  add ovoenergy-1.1.6
+

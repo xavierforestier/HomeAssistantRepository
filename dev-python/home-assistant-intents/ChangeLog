@@ -1,0 +1,469 @@
+# ChangeLog for dev-python/home-assistant-intents
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*home-assistant-intents-2025.11.7 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.11.7.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+*home-assistant-intents-2025.10.28 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.10.28.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2025.9.3.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*home-assistant-intents-2025.10.1 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.10.1.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2025.7.30.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*home-assistant-intents-2025.9.3 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.9.3.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2025.6.23.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*home-assistant-intents-2025.7.30 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.7.30.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2025.6.10.ebuild:
+  Cleansing
+
+*home-assistant-intents-2025.6.23 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.6.23.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2025.5.7.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*home-assistant-intents-2025.6.10 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.6.10.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2025.3.28.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+  15 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  home-assistant-intents-2025.5.7.ebuild:
+  Fix some deps for homeassistant 2025.5.1
+
+*home-assistant-intents-2025.5.7 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +home-assistant-intents-2025.5.7.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  home-assistant-intents-2025.3.28.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2025.3.5.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-intents-2024.9.4.ebuild,
+  -home-assistant-intents-2024.10.2.ebuild,
+  -home-assistant-intents-2024.10.30.ebuild,
+  -home-assistant-intents-2024.11.4.ebuild,
+  -home-assistant-intents-2024.11.6.ebuild,
+  -home-assistant-intents-2024.12.4.ebuild,
+  -home-assistant-intents-2024.12.9.ebuild,
+  -home-assistant-intents-2025.1.1.ebuild,
+  -home-assistant-intents-2025.2.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -home-assistant-intents-2024.10.2.ebuilde,
+  -home-assistant-intents-2024.10.30.ebuilde,
+  -home-assistant-intents-2024.11.4.ebuilde,
+  -home-assistant-intents-2024.11.6.ebuilde,
+  -home-assistant-intents-2024.12.4.ebuilde,
+  -home-assistant-intents-2024.12.9.ebuilde,
+  -home-assistant-intents-2024.9.4.ebuilde,
+  -home-assistant-intents-2025.1.1.ebuilde,
+  -home-assistant-intents-2025.2.5.ebuilde,
+  -home-assistant-intents-2025.3.28.ebuilde,
+  -home-assistant-intents-2025.3.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.10.2.ebuilde,
+  +home-assistant-intents-2024.10.30.ebuilde,
+  +home-assistant-intents-2024.11.4.ebuilde,
+  +home-assistant-intents-2024.11.6.ebuilde,
+  +home-assistant-intents-2024.12.4.ebuilde,
+  +home-assistant-intents-2024.12.9.ebuilde,
+  +home-assistant-intents-2024.9.4.ebuilde,
+  +home-assistant-intents-2025.1.1.ebuilde,
+  +home-assistant-intents-2025.2.5.ebuilde,
+  +home-assistant-intents-2025.3.28.ebuilde,
+  +home-assistant-intents-2025.3.5.ebuilde:
+  Fix KEYWORDS
+
+*home-assistant-intents-2025.3.28 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2025.3.28.ebuild:
+  Homeassistant 2025.4.0
+
+*home-assistant-intents-2025.3.5 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2025.3.5.ebuild:
+  homeassistant 2025.3.0
+
+*home-assistant-intents-2025.2.5 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2025.2.5.ebuild:
+  homeassisstant-2025.2.0
+
+*home-assistant-intents-2025.1.1 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2025.1.1.ebuild:
+  homeassistant 2025.1.1
+
+*home-assistant-intents-2024.12.9 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.12.9.ebuild:
+  homeassistant 2024.12.2
+
+*home-assistant-intents-2024.12.4 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.12.4.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*home-assistant-intents-2024.11.4 (11 Nov 2024)
+
+  11 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  -home-assistant-intents-2024.4.24.ebuild,
+  -home-assistant-intents-2024.6.21.ebuild,
+  home-assistant-intents-2024.9.4.ebuild,
+  home-assistant-intents-2024.10.2.ebuild,
+  home-assistant-intents-2024.10.30.ebuild,
+  +home-assistant-intents-2024.11.4.ebuild,
+  home-assistant-intents-2024.11.6.ebuild:
+  Homeassistant 2024.11.0
+
+*home-assistant-intents-2024.11.6 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.11.6.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2024.7.3.ebuild,
+  -home-assistant-intents-2024.8.7.ebuild,
+  -home-assistant-intents-2024.8.29.ebuild,
+  -home-assistant-intents-2024.9.23.ebuild:
+  drop 2024.7.3, 2024.8.7, 2024.8.29, 2024.9.23
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.10.30 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2024.10.30.ebuild:
+  add 2024.10.30
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4001
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.8.29 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.8.29.ebuild:
+  homeassistant 2024.9.0_beta5
+
+*home-assistant-intents-2024.10.2 (08 Oct 2024)
+
+  08 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.10.2.ebuild:
+  homeassistant 2024.10.1 + script to generate ebuild dependencies :)
+
+*home-assistant-intents-2024.9.23 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.9.23.ebuild:
+  Home Assitant 2024.9.3 working :)
+
+*home-assistant-intents-2024.8.7 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.8.7.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*home-assistant-intents-2024.8.7 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +home-assistant-intents-2024.8.7.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*home-assistant-intents-2024.9.4 (22 Sep 2024)
+
+  22 Sep 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2024.3.12.ebuild,
+  -home-assistant-intents-2024.4.3.ebuild,
+  +home-assistant-intents-2024.9.4.ebuild:
+  add 2024.9.4, drop olds
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3599
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.7.3 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +home-assistant-intents-2024.7.3.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+*home-assistant-intents-2024.6.21 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2024.6.5.ebuild,
+  +home-assistant-intents-2024.6.21.ebuild:
+  add 2024.6.21, drop 2024.6.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3506
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.6.5 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2024.6.5.ebuild:
+  add 2024.6.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3470
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2024.1.2-r1.ebuild,
+  -home-assistant-intents-2024.2.2.ebuild:
+  drop 2024.1.2-r1, 2024.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.4.24 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-intents-2024.1.2-r1.ebuild,
+  home-assistant-intents-2024.2.2.ebuild,
+  home-assistant-intents-2024.3.12.ebuild,
+  home-assistant-intents-2024.4.3.ebuild,
+  +home-assistant-intents-2024.4.24.ebuild:
+  add 2024.4.24
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3252
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2023.12.5.ebuild,
+  -home-assistant-intents-2024.2.28.ebuild:
+  drop 2023.12.5, 2024.2.28
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.4.3 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2024.4.3.ebuild:
+  add 2024.4.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3170
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.3.12 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2024.3.12.ebuild:
+  add 2024.3.12
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3062
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.2.28 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2023.10.16.ebuild,
+  home-assistant-intents-2023.12.5.ebuild,
+  home-assistant-intents-2024.1.2-r1.ebuild,
+  home-assistant-intents-2024.2.2.ebuild,
+  +home-assistant-intents-2024.2.28.ebuild:
+  add 2024.2.28, drop 2023.10.16
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2954
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.2.2 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2024.2.2.ebuild:
+  add 2024.2.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2769
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.1.2-r1 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net>
+  home-assistant-intents-2023.10.16.ebuild,
+  home-assistant-intents-2023.12.5.ebuild,
+  -home-assistant-intents-2024.1.2.ebuild,
+  +home-assistant-intents-2024.1.2-r1.ebuild:
+  let the main Ebuild take care of pinning versions
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2023.10.2.ebuild:
+  drop 2023.10.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2024.1.2 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2024.1.2.ebuild:
+  add 2024.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2590
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.12.5 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2023.12.5.ebuild:
+  add 2023.12.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2431
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2023.3.29.ebuild,
+  -home-assistant-intents-2023.6.28.ebuild:
+  drop 2023.3.29, 2023.6.28
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.10.16 (31 Oct 2023)
+
+  31 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2023.10.16.ebuild:
+  add 2023.10.16
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.10.2 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2023.10.2.ebuild:
+  add 2023.10.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.6.28 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2023.6.28.ebuild:
+  add home-assistant-intents-2023.6.28
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2023.1.31-r1.ebuild,
+  -home-assistant-intents-2023.2.28.ebuild:
+  drop 2023.1.31-r1, 2023.2.28
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  home-assistant-intents-2023.1.31-r1.ebuild,
+  home-assistant-intents-2023.2.28.ebuild,
+  home-assistant-intents-2023.3.29.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net>
+  home-assistant-intents-2023.1.31-r1.ebuild,
+  home-assistant-intents-2023.2.28.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.3.29 (09 Apr 2023)
+
+  09 Apr 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2023.3.29.ebuild:
+  add 2023.3.29
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.2.28 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2023.2.22.ebuild,
+  +home-assistant-intents-2023.2.28.ebuild:
+  add 2023.2.28, drop 2023.2.22
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.2.22 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2023.2.22.ebuild:
+  add 2023.2.22
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net>
+  home-assistant-intents-2023.1.31-r1.ebuild:
+  remove versions (wip)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.1.31-r1 (14 Feb 2023)
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -home-assistant-intents-2023.1.31.ebuild,
+  +home-assistant-intents-2023.1.31-r1.ebuild:
+  remove versions (wip)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*home-assistant-intents-2023.1.31 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net>
+  +home-assistant-intents-2023.1.31.ebuild, +metadata.xml:
+  new package, add 2023.1.31
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

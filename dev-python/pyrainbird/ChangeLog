@@ -1,0 +1,170 @@
+# ChangeLog for dev-python/pyrainbird
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyrainbird-6.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyrainbird-4.0.1.ebuild, -pyrainbird-4.0.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyrainbird-4.0.1.ebuilde, -pyrainbird-4.0.2.ebuilde,
+  -pyrainbird-6.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyrainbird-4.0.1.ebuilde, +pyrainbird-4.0.2.ebuilde,
+  +pyrainbird-6.0.1.ebuilde:
+  Fix KEYWORDS
+
+*pyrainbird-6.0.1 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> pyrainbird-4.0.1.ebuild,
+  pyrainbird-4.0.2.ebuild, +pyrainbird-6.0.1.ebuild:
+  add 6.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3445
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrainbird-4.0.2 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -pyrainbird-4.0.0.ebuild,
+  pyrainbird-4.0.1.ebuild, +pyrainbird-4.0.2.ebuild:
+  drop 4.0.0, add 4.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3009
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> pyrainbird-4.0.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> -pyrainbird-2.0.0.ebuild:
+  drop 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrainbird-4.0.1 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +pyrainbird-4.0.1.ebuild:
+  add 4.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2401
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrainbird-4.0.0 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> -pyrainbird-0.4.3.ebuild,
+  -pyrainbird-0.6.3.ebuild, -pyrainbird-0.7.1.ebuild, pyrainbird-2.0.0.ebuild,
+  +pyrainbird-4.0.0.ebuild:
+  drop olds, add 4.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrainbird-2.0.0 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> +pyrainbird-2.0.0.ebuild:
+  add 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyrainbird-0.4.3.ebuild,
+  pyrainbird-0.6.3.ebuild, pyrainbird-0.7.1.ebuild:
+  remove Python 3.8 Support tag
+
+*pyrainbird-0.7.1 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pyrainbird-0.7.1.ebuild:
+  add 0.7.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyrainbird-0.6.3 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  pyrainbird-0.4.3.ebuild, +pyrainbird-0.6.3.ebuild:
+  bump 0.6.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyrainbird-0.4.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pyrainbird-0.4.3.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pyrainbird-0.4.3.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  12 Mar 2022; Andreas Billmeier <b@edevau.net> -pyrainbird-0.4.2.ebuild,
+  pyrainbird-0.4.3.ebuild:
+  pyrainbird, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyrainbird-0.4.2.ebuild,
+  pyrainbird-0.4.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pyrainbird-0.4.3 (16 Jul 2021)
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net> +pyrainbird-0.4.3.ebuild:
+  update pyrainbird-0.4.3
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> -pyrainbird-0.4.1.ebuild,
+  pyrainbird-0.4.2.ebuild:
+  use git for pyrainbird-0.4.2, fixes #177
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyrainbird-0.4.1.ebuild,
+  pyrainbird-0.4.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyrainbird-0.4.2 (12 Sep 2020)
+
+  12 Sep 2020; Andreas Billmeier <b@edevau.net> -pyrainbird-0.1.6.ebuild,
+  -pyrainbird-0.2.1.ebuild, pyrainbird-0.4.1.ebuild, +pyrainbird-0.4.2.ebuild:
+  fix pyrainbird, source incomplete, no version tags at github, and a top
+  level violation.
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> pyrainbird-0.4.1.ebuild:
+  remove all old dev-python/datetime RDEPENDs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyrainbird-0.4.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyrainbird-0.1.6.ebuild,
+  pyrainbird-0.2.1.ebuild, pyrainbird-0.4.1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pyrainbird-0.4.1 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +pyrainbird-0.4.1.ebuild:
+  bump pyrainbird-0.4.1
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pyrainbird-0.1.6.ebuild,
+  pyrainbird-0.2.1.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*pyrainbird-0.1.6 (20 Aug 2019)
+
+  20 Aug 2019; Andreas Billmeier <b@edevau.net> +pyrainbird-0.1.6.ebuild:
+  add (currently used) pyrainbird-0.1.6
+
+*pyrainbird-0.2.1 (20 Aug 2019)
+
+  20 Aug 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyrainbird-0.2.1.ebuild:
+  add pyrainbird-0.2.1
+

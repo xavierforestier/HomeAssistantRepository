@@ -1,0 +1,146 @@
+# ChangeLog for dev-python/pipdeptree
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pipdeptree-2.26.1 (10 May 2025)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/pipdeptree-2.13.1-expect-hpy-in-pypy-7.3.3.patch,
+  -files/pipdeptree-2.13.2-fix-pypy-7.3.14.patch,
+  -files/pipdeptree-2.17.0-expect-hpy-in-pypy-7.3.3.patch,
+  -pipdeptree-2.13.2.ebuild, -pipdeptree-2.16.1.ebuild,
+  -pipdeptree-2.19.0.ebuild, +pipdeptree-2.26.1.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pipdeptree-2.13.2.ebuild, pipdeptree-2.16.1.ebuild,
+  pipdeptree-2.19.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pipdeptree-2.13.2.ebuilde, -pipdeptree-2.16.1.ebuilde,
+  -pipdeptree-2.19.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pipdeptree-2.13.2.ebuilde, +pipdeptree-2.16.1.ebuilde,
+  +pipdeptree-2.19.0.ebuilde:
+  Fix KEYWORDS
+
+*pipdeptree-2.19.0 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +files/pipdeptree-2.17.0-expect-hpy-in-pypy-7.3.3.patch,
+  -pipdeptree-2.11.0.ebuild, pipdeptree-2.13.2.ebuild,
+  pipdeptree-2.16.1.ebuild, +pipdeptree-2.19.0.ebuild:
+  add pipdeptree-2.19.0, drop 2.11.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3523
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pipdeptree-2.16.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> pipdeptree-2.11.0.ebuild,
+  pipdeptree-2.13.2.ebuild, +pipdeptree-2.16.1.ebuild:
+  re-add 2.16.1 from main repo archive
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3193
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pipdeptree-2.13.2 (28 Feb 2024)
+
+  28 Feb 2024; Andreas Billmeier <b@edevau.net>
+  +files/pipdeptree-2.13.1-expect-hpy-in-pypy-7.3.3.patch,
+  +files/pipdeptree-2.13.2-fix-pypy-7.3.14.patch, +pipdeptree-2.13.2.ebuild:
+  re-add 2.13.2 from main
+  dev-python/pytest-asyncio: re-add 0.23.4-r1 from main
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pipdeptree-2.3.1.ebuild,
+  -pipdeptree-2.5.0.ebuild, -pipdeptree-2.7.0.ebuild:
+  drop 2.3.1, 2.5.0, 2.7.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pipdeptree-2.11.0 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> pipdeptree-2.3.1.ebuild,
+  pipdeptree-2.5.0.ebuild, pipdeptree-2.7.0.ebuild, +pipdeptree-2.11.0.ebuild:
+  add 2.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> pipdeptree-2.3.1.ebuild,
+  pipdeptree-2.5.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pipdeptree-2.7.0 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> +pipdeptree-2.7.0.ebuild:
+  add 2.7.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pipdeptree-2.5.0 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pipdeptree-2.5.0.ebuild:
+  add 2.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pipdeptree-2.3.1.ebuild:
+  remove Python 3.8 Support tag
+
+*pipdeptree-2.3.1 (12 Dec 2022)
+
+  12 Dec 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pipdeptree-2.3.1.ebuild:
+  new package, add 2.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pipdeptree-2.1.0.ebuild, -pipdeptree-2.2.0.ebuild,
+  -pipdeptree-2.2.1.ebuild:
+  remove unused dev-python/pipdeptree
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> pipdeptree-2.1.0.ebuild,
+  pipdeptree-2.2.0.ebuild, pipdeptree-2.2.1.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pipdeptree-2.1.0.ebuild,
+  pipdeptree-2.2.0.ebuild, pipdeptree-2.2.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pipdeptree-2.2.1 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -pipdeptree-1.0.0.ebuild,
+  +pipdeptree-2.2.1.ebuild:
+  bump pipdeptree-2.2.1
+
+*pipdeptree-2.2.0 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> +pipdeptree-2.2.0.ebuild:
+  bump pipdeptree-2.2.0
+
+*pipdeptree-2.1.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +pipdeptree-2.1.0.ebuild:
+  bump pipdeptree-2.1.0
+
+  18 Jun 2021; Andreas Billmeier <b@edevau.net> pipdeptree-1.0.0.ebuild:
+  update PYTHON_COMPAT pipdeptree-1.0.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pipdeptree-1.0.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pipdeptree-1.0.0 (19 Sep 2020)
+
+  19 Sep 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pipdeptree-1.0.0.ebuild:
+  add pipdeptree-1.0.0
+

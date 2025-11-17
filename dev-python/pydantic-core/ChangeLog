@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/pydantic-core
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pydantic-core-2.41.4 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pydantic-core-2.41.4.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pydantic-core-2.25.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pydantic-core-2.25.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pydantic-core-2.25.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydantic-core-2.25.0.ebuilde:
+  Fix KEYWORDS
+
+*pydantic-core-2.25.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydantic-core-2.25.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+

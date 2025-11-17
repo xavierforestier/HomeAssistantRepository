@@ -1,0 +1,89 @@
+# ChangeLog for dev-python/gassist-text
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gassist-text-0.0.12.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*gassist-text-0.0.14 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +gassist-text-0.0.14.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  gassist-text-0.0.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  gassist-text-0.0.12.ebuild:
+  some fixes for pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gassist-text-0.0.11.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -gassist-text-0.0.10.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -gassist-text-0.0.10.ebuilde, -gassist-text-0.0.11.ebuilde,
+  -gassist-text-0.0.12.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gassist-text-0.0.10.ebuilde, +gassist-text-0.0.11.ebuilde,
+  +gassist-text-0.0.12.ebuilde:
+  Fix KEYWORDS
+
+*gassist-text-0.0.12 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +gassist-text-0.0.12.ebuild:
+  Homeassistant 2025.4.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  gassist-text-0.0.11.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*gassist-text-0.0.11 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> gassist-text-0.0.10.ebuild,
+  +gassist-text-0.0.11.ebuild:
+  add 0.0.11
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3118
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  07 Jan 2024; Andreas Billmeier <b@edevau.net> gassist-text-0.0.10.ebuild:
+  fix EmptyGlobalAssignment
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> gassist-text-0.0.10.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> gassist-text-0.0.10.ebuild,
+  +metadata.xml:
+  update deps, add metadata, renew Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  13 Feb 2023; Fco Javier Felix <ffelix@inode64.com>
+  gassist-text-0.0.10.ebuild:
+  Sort dependencies
+  Fix require dev-python/protobuf-python not dev-libs/protobuf
+
+*gassist-text-0.0.10 (12 Feb 2023)
+
+  12 Feb 2023; Fco Javier Felix <ffelix@inode64.com>
+  +gassist-text-0.0.10.ebuild:
+  gassist-text-0.0.10.ebuild
+  Test ok
+
+  check with pkgcheck 0.10.21
+

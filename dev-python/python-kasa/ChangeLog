@@ -1,0 +1,235 @@
+# ChangeLog for dev-python/python-kasa
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  metadata.xml, python-kasa-0.10.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-kasa-0.10.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-kasa-0.7.3.ebuild, -python-kasa-0.7.5.ebuild,
+  -python-kasa-0.7.6.ebuild, -python-kasa-0.7.7.ebuild,
+  -python-kasa-0.8.0.ebuild, -python-kasa-0.8.1.ebuild,
+  -python-kasa-0.9.0.ebuild, -python-kasa-0.9.1.ebuild,
+  -python-kasa-0.10.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-kasa-0.10.1.ebuilde, -python-kasa-0.10.2.ebuilde,
+  -python-kasa-0.7.3.ebuilde, -python-kasa-0.7.5.ebuilde,
+  -python-kasa-0.7.6.ebuilde, -python-kasa-0.7.7.ebuilde,
+  -python-kasa-0.8.0.ebuilde, -python-kasa-0.8.1.ebuilde,
+  -python-kasa-0.9.0.ebuilde, -python-kasa-0.9.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.10.1.ebuilde, +python-kasa-0.10.2.ebuilde,
+  +python-kasa-0.7.3.ebuilde, +python-kasa-0.7.5.ebuilde,
+  +python-kasa-0.7.6.ebuilde, +python-kasa-0.7.7.ebuilde,
+  +python-kasa-0.8.0.ebuilde, +python-kasa-0.8.1.ebuilde,
+  +python-kasa-0.9.0.ebuilde, +python-kasa-0.9.1.ebuilde:
+  Fix KEYWORDS
+
+*python-kasa-0.10.2 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.10.2.ebuild:
+  homeassistant-2025.2.4
+
+*python-kasa-0.10.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.10.1.ebuild:
+  homeassisstant-2025.2.0
+
+*python-kasa-0.9.1 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.9.1.ebuild:
+  homeassistant 2025.1.1
+
+*python-kasa-0.9.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.9.0.ebuild:
+  homeassistant 2025.1.1
+
+*python-kasa-0.8.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.8.1.ebuild:
+  homeassistant 2024.12.1
+
+*python-kasa-0.8.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.8.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*python-kasa-0.7.7 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.7.7.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -python-kasa-0.7.1.ebuild,
+  -python-kasa-0.7.2.ebuild, -python-kasa-0.7.4.ebuild:
+  drop 0.7.1, 0.7.2, 0.7.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-kasa-0.7.6 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +python-kasa-0.7.6.ebuild:
+  add 0.7.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4072
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> python-kasa-0.7.1.ebuild,
+  python-kasa-0.7.2.ebuild, python-kasa-0.7.3.ebuild,
+  python-kasa-0.7.4.ebuild, python-kasa-0.7.5.ebuild:
+  enable py3.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-kasa-0.7.1 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.7.1.ebuild:
+  homeassistant 2024.9.0_beta2
+
+*python-kasa-0.7.2 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.7.2.ebuild:
+  homeassistant 2024.9.1
+
+*python-kasa-0.7.3 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.7.3.ebuild:
+  homeassistant 2024.10.0_beta3
+
+*python-kasa-0.7.4 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-kasa-0.7.4.ebuild:
+  homeassistant 2024.10.1
+
+*python-kasa-0.7.5 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-kasa-0.5.4.ebuild, -python-kasa-0.6.2.1.ebuild,
+  +python-kasa-0.7.5.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -python-kasa-0.5.3.ebuild,
+  python-kasa-0.5.4.ebuild, python-kasa-0.6.2.1.ebuild:
+  drop 0.5.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> python-kasa-0.6.2.1.ebuild:
+  remove old patch from TP-Link Kasa 0.6.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-kasa-0.6.2.1 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> python-kasa-0.5.3.ebuild,
+  python-kasa-0.5.4.ebuild, +python-kasa-0.6.2.1.ebuild:
+  add 0.6.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2868
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -python-kasa-0.5.1.ebuild:
+  drop 0.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-kasa-0.5.4 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +python-kasa-0.5.4.ebuild:
+  add 0.5.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2358
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-kasa-0.5.3 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> -python-kasa-0.5.0.ebuild,
+  python-kasa-0.5.1.ebuild, +python-kasa-0.5.3.ebuild:
+  drop 0.5.0, add 0.5.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  01 May 2023; Andreas Billmeier <b@edevau.net> python-kasa-0.5.0.ebuild,
+  python-kasa-0.5.1.ebuild:
+  Rename dev-python/{importlib_metadata → importlib-metadata}
+
+*python-kasa-0.5.1 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +python-kasa-0.5.1.ebuild:
+  add 0.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> python-kasa-0.5.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> python-kasa-0.5.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -python-kasa-0.4.1.ebuild,
+  -python-kasa-0.4.3.ebuild, python-kasa-0.5.0.ebuild:
+  rework, remove olds
+
+*python-kasa-0.5.0 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> -python-kasa-0.4.2.ebuild,
+  +python-kasa-0.5.0.ebuild:
+  bump python-kasa-0.5.0
+
+*python-kasa-0.4.3 (06 Apr 2022)
+
+  06 Apr 2022; Andreas Billmeier <b@edevau.net> +python-kasa-0.4.3.ebuild:
+  bump python-kasa-0.4.3
+
+*python-kasa-0.4.2 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -python-kasa-0.4.0.ebuild,
+  +python-kasa-0.4.2.ebuild:
+  update python-kasa-0.4.2
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> python-kasa-0.4.1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> python-kasa-0.4.0.ebuild,
+  python-kasa-0.4.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*python-kasa-0.4.1 (01 Feb 2022)
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> +python-kasa-0.4.1.ebuild:
+  bump python-kasa-0.4.1
+
+*python-kasa-0.4.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-kasa-0.4.0.ebuild:
+  add python-kasa-0.4.0
+

@@ -1,0 +1,92 @@
+# ChangeLog for dev-python/whois
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  whois-0.9.27.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -whois-0.9.27.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +whois-0.9.27.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  whois-0.9.27.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> whois-0.9.27.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> whois-0.9.27.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -whois-0.9.16.ebuild,
+  -whois-0.9.23.ebuild:
+  drop 0.9.16, 0.9.23
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Mar 2023; Andreas Billmeier <b@edevau.net> whois-0.9.16.ebuild,
+  whois-0.9.23.ebuild, whois-0.9.27.ebuild:
+  pypi Eclass
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*whois-0.9.27 (26 Feb 2023)
+
+  26 Feb 2023; Andreas Billmeier <b@edevau.net> +whois-0.9.27.ebuild:
+  remove accidently added dev-ebuild, fix a Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*whois-0.9.23 (12 Feb 2023)
+
+  12 Feb 2023; Andreas Billmeier <b@edevau.net> +whois-0.9.23.ebuild:
+  add 0.9.23
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> whois-0.9.16.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -whois-0.9.13-r1.ebuild,
+  whois-0.9.16.ebuild:
+  remove olds, cleanup, enable pytest
+
+*whois-0.9.16 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> whois-0.9.13-r1.ebuild,
+  +whois-0.9.16.ebuild:
+  bump whois-0.9.16
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> whois-0.9.13-r1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> whois-0.9.13-r1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*whois-0.9.13-r1 (05 Feb 2022)
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net> -whois-0.9.13.ebuild,
+  +whois-0.9.13-r1.ebuild:
+  add soft-blocking between (swapped) whois packages
+
+*whois-0.9.13 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +whois-0.9.13.ebuild:
+  add whois-0.9.13
+

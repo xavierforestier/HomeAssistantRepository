@@ -1,0 +1,39 @@
+# ChangeLog for dev-python/py-ccm15
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-ccm15-0.0.9.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*py-ccm15-0.1.2 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +py-ccm15-0.1.2.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  py-ccm15-0.0.9.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -py-ccm15-0.0.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +py-ccm15-0.0.9.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  py-ccm15-0.0.9.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*py-ccm15-0.0.9 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +py-ccm15-0.0.9.ebuild:
+  new package, add 0.0.9
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2587
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,107 @@
+# ChangeLog for dev-python/lcn-frontend
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lcn-frontend-0.2.6.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*lcn-frontend-0.2.7 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +lcn-frontend-0.2.7.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lcn-frontend-0.2.5.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*lcn-frontend-0.2.6 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +lcn-frontend-0.2.6.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lcn-frontend-0.2.4.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*lcn-frontend-0.2.5 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +lcn-frontend-0.2.5.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lcn-frontend-0.2.3.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*lcn-frontend-0.2.4 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +lcn-frontend-0.2.4.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  lcn-frontend-0.2.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lcn-frontend-0.1.6.ebuild, -lcn-frontend-0.2.0.ebuild,
+  -lcn-frontend-0.2.1.ebuild, -lcn-frontend-0.2.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -lcn-frontend-0.1.6.ebuilde, -lcn-frontend-0.2.0.ebuilde,
+  -lcn-frontend-0.2.1.ebuilde, -lcn-frontend-0.2.2.ebuilde,
+  -lcn-frontend-0.2.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +lcn-frontend-0.1.6.ebuilde, +lcn-frontend-0.2.0.ebuilde,
+  +lcn-frontend-0.2.1.ebuilde, +lcn-frontend-0.2.2.ebuilde,
+  +lcn-frontend-0.2.3.ebuilde:
+  Fix KEYWORDS
+
+*lcn-frontend-0.2.3 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +lcn-frontend-0.2.3.ebuild:
+  homeassisstant-2025.2.0
+
+*lcn-frontend-0.2.2 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +lcn-frontend-0.2.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*lcn-frontend-0.2.1 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +lcn-frontend-0.2.1.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+*lcn-frontend-0.2.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +lcn-frontend-0.2.0.ebuild:
+  add 0.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4037
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*lcn-frontend-0.1.6 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +lcn-frontend-0.1.6.ebuild,
+  +metadata.xml:
+  new package, add 0.1.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3877
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*lcn-frontend-0.1.6 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +lcn-frontend-0.1.6.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

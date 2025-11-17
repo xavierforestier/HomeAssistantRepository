@@ -1,0 +1,93 @@
+# ChangeLog for dev-python/google-api-python-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  google-api-python-client-2.71.0-r1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -google-api-python-client-2.71.0-r1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-api-python-client-2.71.0-r1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  google-api-python-client-2.71.0-r1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-2.71.0-r1.ebuild, metadata.xml:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-api-python-client-2.71.0-r1 (05 Feb 2023)
+
+  05 Feb 2023; Andreas Billmeier <b@edevau.net>
+  -google-api-python-client-1.6.4.ebuild,
+  -google-api-python-client-2.38.0-r1.ebuild,
+  +google-api-python-client-2.71.0-r1.ebuild:
+  re-add 2.71.0-r1 (from main), drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-1.6.4.ebuild,
+  google-api-python-client-2.38.0-r1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-1.6.4.ebuild,
+  google-api-python-client-2.38.0-r1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-api-python-client-2.38.0-r1 (17 Apr 2022)
+
+  17 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -files/google-api-python-client-1.8.3-tests.patch,
+  google-api-python-client-1.6.4.ebuild,
+  +google-api-python-client-2.38.0-r1.ebuild:
+  re-add google-api-python-client-2.38.0-r1 (from main)
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-1.6.4.ebuild:
+  re-work (old) google-api-python-client-1.6.4 again
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-1.6.4.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-1.6.4.ebuild:
+  remove /update EAPI5 Ebuilds
+
+*google-api-python-client-1.6.4 (16 Sep 2020)
+
+  16 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +files/google-api-python-client-1.8.3-tests.patch,
+  +google-api-python-client-1.6.4.ebuild, +metadata.xml:
+  restore google-api-python-client-1.6.4 (still needed)
+
+  11 Jun 2020; Andreas Billmeier <b@edevau.net>
+  -google-api-python-client-1.6.4.ebuild, -metadata.xml:
+  remove google-api-python-client
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-1.6.4.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: E-G
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  google-api-python-client-1.6.4.ebuild:
+  minor code cleanups
+
+*google-api-python-client-1.6.4 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net>
+  +google-api-python-client-1.6.4.ebuild, +metadata.xml:
+  downgrade to some oldfashioned google libraries:
+

@@ -1,0 +1,261 @@
+# ChangeLog for dev-python/pyatv
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyatv-0.16.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*pyatv-0.16.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyatv-0.16.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyatv-0.16.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyatv-0.16.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyatv-0.14.3.ebuild, -pyatv-0.15.0.ebuild, -pyatv-0.15.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyatv-0.14.3.ebuilde, -pyatv-0.15.0.ebuilde, -pyatv-0.15.1.ebuilde,
+  -pyatv-0.16.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyatv-0.14.3.ebuilde, +pyatv-0.15.0.ebuilde, +pyatv-0.15.1.ebuilde,
+  +pyatv-0.16.0.ebuilde:
+  Fix KEYWORDS
+
+*pyatv-0.16.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyatv-0.16.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyatv-0.14.3.ebuild, pyatv-0.15.0.ebuild, pyatv-0.15.1.ebuild:
+  Fix deps
+
+*pyatv-0.15.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyatv-0.15.0.ebuild:
+  homeassistant 2024.9.0
+
+  13 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyatv-0.15.1.ebuild:
+  homeassistant 2024.10.1
+
+*pyatv-0.15.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> pyatv-0.14.3.ebuild,
+  +pyatv-0.15.1.ebuild:
+  add 0.15.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3553
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -pyatv-0.13.4.ebuild,
+  pyatv-0.14.3.ebuild:
+  drop 0.13.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pyatv-0.10.3.ebuild,
+  -pyatv-0.13.2.ebuild:
+  drop 0.10.3, 0.13.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatv-0.14.3 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +pyatv-0.14.3.ebuild:
+  add 0.14.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatv-0.13.4 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +pyatv-0.13.4.ebuild:
+  add 0.13.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatv-0.13.2 (16 Jul 2023)
+
+  16 Jul 2023; Andreas Billmeier <b@edevau.net> -pyatv-0.11.0.ebuild,
+  +pyatv-0.13.2.ebuild:
+  add 0.13.2, drop 0.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyatv-0.11.0 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> pyatv-0.10.3.ebuild,
+  +pyatv-0.11.0.ebuild:
+  add 0.11.0, update 0.10.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> pyatv-0.10.3.ebuild:
+  dev-python/*: rename zeroconf, again (https://github.com/gentoo/gentoo/commi
+  t/29153ca563b529be4cf0fdc2651105430ecb9ab4)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyatv-0.10.3.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Oct 2022; Andreas Billmeier <b@edevau.net> pyatv-0.10.3.ebuild:
+  dev-python/*: rename zeroconf
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyatv-0.10.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -pyatv-0.10.0.ebuild,
+  -pyatv-0.10.2-r1.ebuild, pyatv-0.10.3.ebuild:
+  rework, remove olds
+
+*pyatv-0.10.3 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> pyatv-0.10.0.ebuild,
+  pyatv-0.10.2-r1.ebuild, +pyatv-0.10.3.ebuild:
+  update pyatv-0.10.3
+
+*pyatv-0.10.2-r1 (22 Jul 2022)
+
+  22 Jul 2022; Andreas Billmeier <b@edevau.net> -pyatv-0.10.2.ebuild,
+  +pyatv-0.10.2-r1.ebuild:
+  fix pyatv-0.10.2 RDEPEND
+
+*pyatv-0.10.2 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net> -pyatv-0.8.2.ebuild,
+  pyatv-0.10.0.ebuild, +pyatv-0.10.2.ebuild:
+  update pyatv-0.10.2
+  add chacha20poly1305-reuseable
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pyatv-0.10.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyatv-0.8.2.ebuild,
+  pyatv-0.10.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pyatv-0.10.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -pyatv-0.7.6.ebuild,
+  -pyatv-0.7.7.ebuild, -pyatv-0.8.1.ebuild, +pyatv-0.10.0.ebuild:
+  update pyatv-0.10.0
+  update miniaudio-1.45
+  add srptools-1.0.1
+
+*pyatv-0.8.2 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +pyatv-0.8.2.ebuild:
+  update pyatv-0.8.2, add audio-metadata-0.11.1, add miniaudio-1.44
+
+*pyatv-0.8.1 (16 Jul 2021)
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net> +pyatv-0.8.1.ebuild:
+  update pyatv-0.8.1
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> -pyatv-0.3.13.ebuild,
+  -pyatv-0.7.3.ebuild, -pyatv-0.7.5.ebuild, pyatv-0.7.7.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+*pyatv-0.7.7 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> -pyatv-0.3.12.ebuild,
+  +pyatv-0.7.7.ebuild:
+  update pyatv-0.7.7
+
+*pyatv-0.7.6 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> +pyatv-0.7.6.ebuild:
+  update pyatv-0.7.6
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -pyatv-0.3.9.ebuild:
+  remove some old ebuilds (with Python 3.5 complaints):
+    - RestrictedPython-3.6.0
+    - hiredis-1.0.0
+    - ifaddr-0.1.5
+    - ifaddr-0.1.4
+    - multidict-4.4.2
+    - pbr-5.1.3 (add -r1)
+    - pyatv-0.3.9.ebuild
+    - rxv-0.5.1
+    - esptool-2.7, esptool-2.6
+
+*pyatv-0.7.5 (08 Dec 2020)
+
+  08 Dec 2020; Andreas Billmeier <b@edevau.net> -pyatv-0.7.4.ebuild,
+  +pyatv-0.7.5.ebuild:
+  bump pyatv-0.7.4 -> pyatv-0.7.5
+
+*pyatv-0.7.3 (05 Dec 2020)
+
+  05 Dec 2020; Andreas Billmeier <b@edevau.net> +pyatv-0.7.3.ebuild:
+  dg pyatv-0.7.3
+
+*pyatv-0.7.4 (03 Dec 2020)
+
+  03 Dec 2020; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pyatv-0.7.4.ebuild:
+  update pyatv-0.7.4
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyatv-0.3.9.ebuild,
+  pyatv-0.3.12.ebuild, pyatv-0.3.13.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyatv-0.3.13.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyatv-0.3.9.ebuild,
+  pyatv-0.3.12.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> pyatv-0.3.13.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pyatv-0.3.9.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> pyatv-0.3.13.ebuild:
+  drop support for obsolete python versions
+
+*pyatv-0.3.13 (28 Aug 2019)
+
+  28 Aug 2019; Andreas Billmeier <b@edevau.net> +pyatv-0.3.13.ebuild:
+  pyatv-0.3.13
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> pyatv-0.3.12.ebuild:
+  minor changes
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+*pyatv-0.3.12 (12 Dec 2018)
+*pyatv-0.3.9 (12 Dec 2018)
+
+  12 Dec 2018; Andreas Billmeier <b@edevau.net> +pyatv-0.3.9.ebuild,
+  +pyatv-0.3.12.ebuild:
+  release homeassistant-0.84.1
+

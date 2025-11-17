@@ -1,0 +1,156 @@
+# ChangeLog for dev-python/pylutron
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylutron-0.2.16.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pylutron-0.2.18 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pylutron-0.2.18.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pylutron-0.2.16.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylutron-0.2.12.ebuild, -pylutron-0.2.13.ebuild, -pylutron-0.2.15.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pylutron-0.2.12.ebuilde, -pylutron-0.2.13.ebuilde,
+  -pylutron-0.2.15.ebuilde, -pylutron-0.2.16.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pylutron-0.2.12.ebuilde, +pylutron-0.2.13.ebuilde,
+  +pylutron-0.2.15.ebuilde, +pylutron-0.2.16.ebuilde:
+  Fix KEYWORDS
+
+*pylutron-0.2.16 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pylutron-0.2.16.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+*pylutron-0.2.15 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -pylutron-0.2.8.ebuild,
+  +pylutron-0.2.15.ebuild:
+  add 0.2.15, drop 0.2.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3684
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pylutron-0.2.13 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> pylutron-0.2.8.ebuild,
+  pylutron-0.2.12.ebuild, +pylutron-0.2.13.ebuild:
+  add 0.2.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3430
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pylutron-0.2.12 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> pylutron-0.2.8.ebuild,
+  +pylutron-0.2.12.ebuild:
+  add 0.2.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> pylutron-0.2.8.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pylutron-0.2.8.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pylutron-0.2.8.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -pylutron-0.2.7.ebuild,
+  pylutron-0.2.8.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pylutron-0.2.7.ebuild,
+  pylutron-0.2.8.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pylutron-0.2.8 (09 Jul 2021)
+
+  09 Jul 2021; Andreas Billmeier <b@edevau.net> +pylutron-0.2.8.ebuild:
+  bump pylutron-0.2.8
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -pylutron-0.2.2.ebuild,
+  -pylutron-0.2.5.ebuild, pylutron-0.2.7.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*pylutron-0.2.7 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> +pylutron-0.2.7.ebuild:
+  bump pylutron-0.2.7
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pylutron-0.2.2.ebuild,
+  pylutron-0.2.5.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pylutron-0.2.5.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pylutron-0.2.2.ebuild,
+  pylutron-0.2.5.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pylutron-0.2.2.ebuild,
+  pylutron-0.2.5.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pylutron-0.2.2.ebuild,
+  pylutron-0.2.5.ebuild:
+  fix uri.https
+
+  11 Nov 2019; Andreas Billmeier <b@edevau.net> pylutron-0.2.5.ebuild:
+          * searched and partly updated licenses for:
+            -PyMata
+            -PyMetno
+            -adb-shell
+            -apcaccess
+            -pyvlx
+            -somecomfort
+            -total-connect-client
+            -uvcclient
+          * pylutron-0.2.5 Python Compatibility for 3.5 removed
+          * rename CHANGELOG.txt
+          * coveralls Python Compatibility for 3.5 removed
+
+*pylutron-0.2.5 (01 Oct 2019)
+
+  01 Oct 2019; Andreas Billmeier <b@edevau.net> +pylutron-0.2.5.ebuild:
+  bump pylutron-0.2.5
+
+*pylutron-0.2.2 (31 Jul 2019)
+
+  31 Jul 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pylutron-0.2.2.ebuild:
+  add pylutron-0.2.2
+

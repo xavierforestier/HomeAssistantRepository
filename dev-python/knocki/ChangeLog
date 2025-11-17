@@ -1,0 +1,35 @@
+# ChangeLog for dev-python/knocki
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  knocki-0.4.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knocki-0.3.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -knocki-0.3.5.ebuilde, -knocki-0.4.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knocki-0.3.5.ebuilde, +knocki-0.4.2.ebuilde:
+  Fix KEYWORDS
+
+*knocki-0.4.2 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knocki-0.4.2.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*knocki-0.3.5 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +knocki-0.3.5.ebuild,
+  +metadata.xml:
+  new package, add 0.3.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3872
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

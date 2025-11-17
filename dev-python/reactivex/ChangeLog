@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/reactivex
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*reactivex-4.0.4 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +reactivex-4.0.4.ebuild:
+  homeassistant 2025.6.0 full deps
+

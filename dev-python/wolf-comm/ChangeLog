@@ -1,0 +1,84 @@
+# ChangeLog for dev-python/wolf-comm
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  wolf-comm-0.0.23.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -wolf-comm-0.0.19.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -wolf-comm-0.0.7.ebuild, -wolf-comm-0.0.8.ebuild, -wolf-comm-0.0.9.ebuild,
+  -wolf-comm-0.0.15.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -wolf-comm-0.0.15.ebuilde, -wolf-comm-0.0.19.ebuilde,
+  -wolf-comm-0.0.23.ebuilde, -wolf-comm-0.0.7.ebuilde,
+  -wolf-comm-0.0.8.ebuilde, -wolf-comm-0.0.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +wolf-comm-0.0.15.ebuilde, +wolf-comm-0.0.19.ebuilde,
+  +wolf-comm-0.0.23.ebuilde, +wolf-comm-0.0.7.ebuilde,
+  +wolf-comm-0.0.8.ebuilde, +wolf-comm-0.0.9.ebuilde:
+  Fix KEYWORDS
+
+*wolf-comm-0.0.23 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +wolf-comm-0.0.23.ebuild:
+  Homeassistant 2025.4.0
+
+*wolf-comm-0.0.19 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +wolf-comm-0.0.19.ebuild:
+  homeassistant 2025.3.0
+
+*wolf-comm-0.0.15 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +wolf-comm-0.0.15.ebuild:
+  add 0.0.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3934
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wolf-comm-0.0.9 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -wolf-comm-0.0.6.ebuild,
+  +wolf-comm-0.0.9.ebuild:
+  add 0.0.9, drop 0.0.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3812
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wolf-comm-0.0.8 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net> +wolf-comm-0.0.8.ebuild:
+  add 0.0.8
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3461
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wolf-comm-0.0.7 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> wolf-comm-0.0.6.ebuild,
+  +wolf-comm-0.0.7.ebuild:
+  add 0.0.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3312
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wolf-comm-0.0.6 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +wolf-comm-0.0.6.ebuild:
+  new package, add 0.0.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3039
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

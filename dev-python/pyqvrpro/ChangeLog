@@ -1,0 +1,72 @@
+# ChangeLog for dev-python/pyqvrpro
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyqvrpro-0.52.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyqvrpro-0.52.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyqvrpro-0.52.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyqvrpro-0.52.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> pyqvrpro-0.52.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net> pyqvrpro-0.52.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyqvrpro-0.52.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyqvrpro-0.52.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> pyqvrpro-0.52.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyqvrpro-0.52.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  19 Feb 2022; Andreas Billmeier <b@edevau.net> -pyqvrpro-0.51.ebuild,
+  pyqvrpro-0.52.ebuild:
+  update pyqvrpro-0.52
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> pyqvrpro-0.52.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for the rest of the -min Ebuild
+  (untested)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyqvrpro-0.51.ebuild,
+  pyqvrpro-0.52.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyqvrpro-0.52 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> +pyqvrpro-0.52.ebuild:
+  bump pyqvrpro-0.52
+
+*pyqvrpro-0.51 (04 Mar 2020)
+
+  04 Mar 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyqvrpro-0.51.ebuild:
+  add pyqvrpro-0.51
+

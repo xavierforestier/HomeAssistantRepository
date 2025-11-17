@@ -1,0 +1,40 @@
+# ChangeLog for dev-python/qbittorrent-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -qbittorrent-api-2024.2.59.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*qbittorrent-api-2024.9.67 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +qbittorrent-api-2024.9.67.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  qbittorrent-api-2024.2.59.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -qbittorrent-api-2024.2.59.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +qbittorrent-api-2024.2.59.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  qbittorrent-api-2024.2.59.ebuild:
+  keyword 2024.2.59 for amd64, arm, arm64, x86
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3732
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*qbittorrent-api-2024.2.59 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +qbittorrent-api-2024.2.59.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

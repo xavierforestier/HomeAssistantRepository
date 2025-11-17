@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/tami4edgeapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tami4edgeapi-3.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*tami4edgeapi-3.0 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +tami4edgeapi-3.0.ebuild:
+  Fix for pkgcheck
+

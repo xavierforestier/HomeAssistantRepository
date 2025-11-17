@@ -1,0 +1,79 @@
+# ChangeLog for dev-python/pyvolumio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyvolumio-0.1.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyvolumio-0.1.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyvolumio-0.1.5.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyvolumio-0.1.5.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> pyvolumio-0.1.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyvolumio-0.1.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -pyvolumio-0.1.3.ebuild,
+  pyvolumio-0.1.5.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyvolumio-0.1.3.ebuild,
+  pyvolumio-0.1.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pyvolumio-0.1.5 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +pyvolumio-0.1.5.ebuild:
+  bump pyvolumio-0.1.5
+
+  02 Sep 2021; Andreas Billmeier <b@edevau.net> -pyvolumio-0.1.0.ebuild,
+  -pyvolumio-0.1.1.ebuild, -pyvolumio-0.1.2.ebuild, pyvolumio-0.1.3.ebuild:
+  cleanup pyvolumio, PYTHON_COMPAT
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyvolumio-0.1.0.ebuild,
+  pyvolumio-0.1.1.ebuild, pyvolumio-0.1.2.ebuild, pyvolumio-0.1.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyvolumio-0.1.3 (15 Oct 2020)
+
+  15 Oct 2020; Andreas Billmeier <b@edevau.net> +pyvolumio-0.1.3.ebuild:
+  bump pyvolumio-0.1.3
+
+*pyvolumio-0.1.2 (01 Sep 2020)
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> pyvolumio-0.1.1.ebuild,
+  +pyvolumio-0.1.2.ebuild:
+  update pyvolumio-0.1.2
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> pyvolumio-0.1.0.ebuild:
+  remove all old dev-python/asyncio RDEPENDs
+
+*pyvolumio-0.1.1 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> +pyvolumio-0.1.1.ebuild:
+  bump pyvolumio-0.1.1
+
+*pyvolumio-0.1.0 (28 Jul 2020)
+
+  28 Jul 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyvolumio-0.1.0.ebuild:
+  add pyvolumio-0.1.0
+

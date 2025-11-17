@@ -1,0 +1,124 @@
+# ChangeLog for dev-python/thermobeacon-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thermobeacon-ble-0.8.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*thermobeacon-ble-0.10.0 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +thermobeacon-ble-0.10.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  thermobeacon-ble-0.8.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thermobeacon-ble-0.8.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thermobeacon-ble-0.6.2.ebuild, -thermobeacon-ble-0.7.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -thermobeacon-ble-0.6.2.ebuilde, -thermobeacon-ble-0.7.0.ebuilde,
+  -thermobeacon-ble-0.8.0.ebuilde, -thermobeacon-ble-0.8.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thermobeacon-ble-0.6.2.ebuilde, +thermobeacon-ble-0.7.0.ebuilde,
+  +thermobeacon-ble-0.8.0.ebuilde, +thermobeacon-ble-0.8.1.ebuilde:
+  Fix KEYWORDS
+
+*thermobeacon-ble-0.8.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thermobeacon-ble-0.8.1.ebuild:
+  homeassistant 2025.3.1
+
+*thermobeacon-ble-0.8.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thermobeacon-ble-0.8.0.ebuild:
+  homeassistant 2025.3.0
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> thermobeacon-ble-0.6.2.ebuild,
+  thermobeacon-ble-0.7.0.ebuild:
+  enable py3.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3783
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermobeacon-ble-0.7.0 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thermobeacon-ble-0.7.0.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -thermobeacon-ble-0.6.0.ebuild, thermobeacon-ble-0.6.2.ebuild:
+  drop 0.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermobeacon-ble-0.6.2 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> thermobeacon-ble-0.6.0.ebuild,
+  +thermobeacon-ble-0.6.2.ebuild:
+  add 0.6.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2663
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -thermobeacon-ble-0.3.1.ebuild, -thermobeacon-ble-0.3.2.ebuild,
+  -thermobeacon-ble-0.4.0.ebuild, thermobeacon-ble-0.6.0.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> thermobeacon-ble-0.3.1.ebuild,
+  thermobeacon-ble-0.3.2.ebuild, thermobeacon-ble-0.4.0.ebuild,
+  thermobeacon-ble-0.6.0.ebuild:
+  remove Python 3.8 Support tag
+
+*thermobeacon-ble-0.6.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net>
+  +thermobeacon-ble-0.6.0.ebuild:
+  add 0.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermobeacon-ble-0.4.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  thermobeacon-ble-0.3.1.ebuild, thermobeacon-ble-0.3.2.ebuild,
+  +thermobeacon-ble-0.4.0.ebuild:
+  bump 0.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> thermobeacon-ble-0.3.1.ebuild,
+  thermobeacon-ble-0.3.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermobeacon-ble-0.3.2 (20 Sep 2022)
+
+  20 Sep 2022; Andreas Billmeier <b@edevau.net>
+  +thermobeacon-ble-0.3.2.ebuild:
+  bump thermobeacon-ble-0.3.2
+
+*thermobeacon-ble-0.3.1 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +thermobeacon-ble-0.3.1.ebuild:
+  add thermobeacon-ble-0.3.1
+

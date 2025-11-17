@@ -1,0 +1,397 @@
+# ChangeLog for dev-python/pydeconz
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pydeconz-120.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pydeconz-118.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pydeconz-115.ebuild, -pydeconz-116.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pydeconz-115.ebuilde, -pydeconz-116.ebuilde, -pydeconz-118.ebuilde,
+  -pydeconz-120.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydeconz-115.ebuilde, +pydeconz-116.ebuilde, +pydeconz-118.ebuilde,
+  +pydeconz-120.ebuilde:
+  Fix KEYWORDS
+
+*pydeconz-120 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pydeconz-120.ebuild:
+  Homeassistant 2025.4.0
+
+*pydeconz-118 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +pydeconz-118.ebuild:
+  add 118
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4004
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> -pydeconz-114.ebuild:
+  drop 114
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-116 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> pydeconz-114.ebuild,
+  pydeconz-115.ebuild, +pydeconz-116.ebuild:
+  add 116
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3397
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-115 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> -pydeconz-113.ebuild,
+  pydeconz-114.ebuild, +pydeconz-115.ebuild:
+  drop 113, add 115
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2956
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-114 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +pydeconz-114.ebuild:
+  add 114
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2432
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pydeconz-110.ebuild,
+  -pydeconz-111.ebuild:
+  drop 110, 111
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-113 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net> +pydeconz-113.ebuild:
+  add 113
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-111 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -pydeconz-105.ebuild,
+  -pydeconz-106.ebuild, -pydeconz-108.ebuild, pydeconz-110.ebuild,
+  +pydeconz-111.ebuild:
+  add 111. fix 110, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-110 (14 Mar 2023)
+
+  14 Mar 2023; Andreas Billmeier <b@edevau.net> +pydeconz-110.ebuild:
+  add 110
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-108 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +pydeconz-108.ebuild:
+  add 108
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pydeconz-105.ebuild,
+  pydeconz-106.ebuild:
+  remove Python 3.8 Support tag
+
+*pydeconz-106 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net> -pydeconz-104.ebuild,
+  pydeconz-105.ebuild, +pydeconz-106.ebuild:
+  add 106, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pydeconz-105 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +pydeconz-105.ebuild:
+  add 105
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pydeconz-104.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -pydeconz-92.ebuild,
+  -pydeconz-98.ebuild, -pydeconz-102.ebuild:
+  rework, remove olds
+
+*pydeconz-104 (26 Aug 2022)
+
+  26 Aug 2022; Andreas Billmeier <b@edevau.net> -pydeconz-101.ebuild,
+  +pydeconz-104.ebuild:
+  bump pydeconz-104
+
+*pydeconz-102 (08 Aug 2022)
+
+  08 Aug 2022; Andreas Billmeier <b@edevau.net> pydeconz-92.ebuild,
+  pydeconz-98.ebuild, pydeconz-101.ebuild, +pydeconz-102.ebuild:
+  update pydeconz-102.ebuild
+
+*pydeconz-101 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> pydeconz-92.ebuild,
+  -pydeconz-97.ebuild, pydeconz-98.ebuild, +pydeconz-101.ebuild:
+  bump pydeconz-101
+
+*pydeconz-98 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> +pydeconz-98.ebuild:
+  bvump pydeconz-98
+
+*pydeconz-97 (16 Jul 2022)
+
+  16 Jul 2022; Andreas Billmeier <b@edevau.net> -pydeconz-87.ebuild,
+  -pydeconz-91.ebuild, pydeconz-92.ebuild, +pydeconz-97.ebuild:
+  update pydeconz-97
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> pydeconz-92.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+  14 May 2022; Andreas Billmeier <b@edevau.net> pydeconz-92.ebuild:
+  fix pydeconz-92, using old source from cache
+
+*pydeconz-92 (13 May 2022)
+
+  13 May 2022; Andreas Billmeier <b@edevau.net> -pydeconz-90.ebuild,
+  +pydeconz-92.ebuild:
+  update pydeconz-92
+
+*pydeconz-91 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> +pydeconz-91.ebuild:
+  bump pydeconz-91
+
+*pydeconz-90 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> -pydeconz-85.ebuild,
+  -pydeconz-86.ebuild, +pydeconz-90.ebuild:
+  update pydeconz-90
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pydeconz-87.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pydeconz-85.ebuild,
+  pydeconz-86.ebuild, pydeconz-87.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pydeconz-87 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -pydeconz-82.ebuild,
+  -pydeconz-83.ebuild, -pydeconz-84.ebuild, +pydeconz-87.ebuild:
+  bump pydeconz-87
+
+*pydeconz-86 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +pydeconz-86.ebuild:
+  bump pydeconz-86
+
+*pydeconz-85 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +pydeconz-85.ebuild:
+  bump pydeconz-85
+
+*pydeconz-84 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -pydeconz-79.ebuild,
+  +pydeconz-84.ebuild:
+  bump pydeconz-84
+
+*pydeconz-83 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -pydeconz-77.ebuild,
+  -pydeconz-78.ebuild, -pydeconz-80.ebuild, -pydeconz-81.ebuild,
+  +pydeconz-83.ebuild:
+  update pydeconz-83
+
+*pydeconz-82 (27 Jul 2021)
+
+  27 Jul 2021; Andreas Billmeier <b@edevau.net> +pydeconz-82.ebuild:
+  bump pydeconz-82
+
+*pydeconz-81 (13 Jul 2021)
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> +pydeconz-81.ebuild:
+  bump pydeconz-81
+
+*pydeconz-80 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> -pydeconz-75.ebuild,
+  -pydeconz-76.ebuild, +pydeconz-80.ebuild:
+  update pydeconz-80
+
+*pydeconz-79 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> -pydeconz-74.ebuild,
+  +pydeconz-79.ebuild:
+  bump pydeconz-79
+
+*pydeconz-78 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> -pydeconz-73.ebuild,
+  +pydeconz-78.ebuild:
+  bump pydeconz-78
+
+*pydeconz-77 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -pydeconz-72.ebuild,
+  +pydeconz-77.ebuild:
+  update pydeconz-77
+
+*pydeconz-76 (03 Dec 2020)
+
+  03 Dec 2020; Andreas Billmeier <b@edevau.net> -pydeconz-71.ebuild,
+  +pydeconz-76.ebuild:
+  bump pydeconz-76
+
+*pydeconz-75 (25 Nov 2020)
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> -pydeconz-70.ebuild,
+  +pydeconz-75.ebuild:
+  bump pydeconz-75
+
+*pydeconz-74 (24 Nov 2020)
+
+  24 Nov 2020; Andreas Billmeier <b@edevau.net> -pydeconz-68.ebuild,
+  -pydeconz-69.ebuild, +pydeconz-74.ebuild:
+  bump pydeconz-74
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pydeconz-68.ebuild,
+  pydeconz-69.ebuild, pydeconz-70.ebuild, pydeconz-71.ebuild,
+  pydeconz-72.ebuild, pydeconz-73.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pydeconz-73 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +pydeconz-73.ebuild:
+  update pydeconz-73
+
+*pydeconz-72 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net> -pydeconz-67.ebuild,
+  +pydeconz-72.ebuild:
+  bump pydeconz-72.ebuild
+
+*pydeconz-71 (02 Jun 2020)
+
+  02 Jun 2020; Andreas Billmeier <b@edevau.net> -pydeconz-65.ebuild,
+  -pydeconz-66.ebuild, +pydeconz-71.ebuild:
+  bump pydeconz-71
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pydeconz-70.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pydeconz-65.ebuild,
+  pydeconz-66.ebuild, pydeconz-67.ebuild, pydeconz-68.ebuild,
+  pydeconz-69.ebuild, pydeconz-70.ebuild:
+  minor code cleanups
+
+*pydeconz-70 (03 Feb 2020)
+
+  03 Feb 2020; Andreas Billmeier <b@edevau.net> -pydeconz-64.ebuild,
+  +pydeconz-70.ebuild:
+  bump pydeconz-70
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*pydeconz-69 (29 Jan 2020)
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> -pydeconz-62.ebuild,
+  +pydeconz-69.ebuild:
+  bump pydeconz-69
+
+*pydeconz-68 (18 Jan 2020)
+
+  18 Jan 2020; Andreas Billmeier <b@edevau.net> -pydeconz-60.ebuild,
+  +pydeconz-68.ebuild:
+  bump pydeconz-68
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pydeconz-67 (04 Jan 2020)
+
+  04 Jan 2020; Andreas Billmeier <b@edevau.net> -pydeconz-55.ebuild,
+  -pydeconz-58.ebuild, -pydeconz-59.ebuild, +pydeconz-67.ebuild:
+  bump pydeconz-67, remove some oldies
+
+*pydeconz-66 (04 Jan 2020)
+*pydeconz-65 (04 Jan 2020)
+
+  04 Jan 2020; Andreas Billmeier <b@edevau.net> +pydeconz-65.ebuild,
+  +pydeconz-66.ebuild:
+  bump pydeconz-65/66
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pydeconz-55.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pydeconz-55.ebuild,
+  pydeconz-58.ebuild, pydeconz-59.ebuild, pydeconz-60.ebuild,
+  pydeconz-62.ebuild, pydeconz-64.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*pydeconz-64 (11 Oct 2019)
+
+  11 Oct 2019; Andreas Billmeier <b@edevau.net> +pydeconz-64.ebuild:
+  bump pydeconz-64
+
+*pydeconz-62 (29 Jul 2019)
+
+  29 Jul 2019; Andreas Billmeier <b@edevau.net> -pydeconz-54.ebuild,
+  +pydeconz-62.ebuild:
+  bump pydeconz-62
+
+*pydeconz-60 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net> -pydeconz-52.ebuild,
+  +pydeconz-60.ebuild:
+  bump pydeconz-60
+
+*pydeconz-59 (02 Jun 2019)
+
+  02 Jun 2019; Andreas Billmeier <b@edevau.net> +pydeconz-59.ebuild:
+  bump pydeconz
+
+*pydeconz-58 (12 May 2019)
+
+  12 May 2019; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pydeconz-58.ebuild:
+  pydeconz-58
+
+*pydeconz-55 (28 Apr 2019)
+*pydeconz-54 (28 Apr 2019)
+
+  28 Apr 2019; Andreas Billmeier <b@edevau.net> +pydeconz-54.ebuild,
+  +pydeconz-55.ebuild:
+  bump pydeconz
+
+*pydeconz-52 (18 Feb 2019)
+
+  18 Feb 2019; Andreas Billmeier (on testbox) <b@edevau.net> +metadata.xml,
+  +pydeconz-52.ebuild:
+  add pydeconz-52
+

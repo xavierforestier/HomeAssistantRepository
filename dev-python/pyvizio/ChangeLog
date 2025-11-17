@@ -1,0 +1,229 @@
+# ChangeLog for dev-python/pyvizio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyvizio-0.1.61.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyvizio-0.1.61.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyvizio-0.1.61.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyvizio-0.1.61.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyvizio-0.1.61.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> pyvizio-0.1.61.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.60.ebuild:
+  drop 0.1.60
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyvizio-0.1.61 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.57.ebuild,
+  +pyvizio-0.1.61.ebuild:
+  add 0.1.61, drop 0.1.57
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pyvizio-0.1.60 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild,
+  +pyvizio-0.1.60.ebuild:
+  add 0.1.60, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild:
+  dev-python/*: rename zeroconf, again (https://github.com/gentoo/gentoo/commi
+  t/29153ca563b529be4cf0fdc2651105430ecb9ab4)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  27 Oct 2022; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild:
+  dev-python/*: rename zeroconf
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyvizio-0.1.57.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.47.ebuild,
+  -pyvizio-0.1.48.ebuild, -pyvizio-0.1.49.ebuild, -pyvizio-0.1.51.ebuild,
+  -pyvizio-0.1.56.ebuild, pyvizio-0.1.57.ebuild:
+  cleanup, add new Python Targets, Letter '-Z' (med) Integrations
+
+*pyvizio-0.1.57 (19 Nov 2020)
+
+  19 Nov 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.45.ebuild,
+  -pyvizio-0.1.46.ebuild, +pyvizio-0.1.57.ebuild:
+  bump pyvizio-0.1.57
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyvizio-0.1.45.ebuild,
+  pyvizio-0.1.46.ebuild, pyvizio-0.1.47.ebuild, pyvizio-0.1.48.ebuild,
+  pyvizio-0.1.49.ebuild, pyvizio-0.1.51.ebuild, pyvizio-0.1.56.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyvizio-0.1.56 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.1.56.ebuild:
+  update pyvizio-0.1.56, license changed
+
+*pyvizio-0.1.51 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.44.ebuild,
+  +pyvizio-0.1.51.ebuild:
+  bump pyvizio-0.1.51
+
+*pyvizio-0.1.49 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.35.ebuild,
+  +pyvizio-0.1.49.ebuild:
+  bump pyvizio-0.1.49
+
+*pyvizio-0.1.48 (31 May 2020)
+
+  31 May 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.21.ebuild,
+  -pyvizio-0.1.26.ebuild, +pyvizio-0.1.48.ebuild:
+  bump pyvizio-0.1.48
+
+*pyvizio-0.1.47 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.19.ebuild,
+  +pyvizio-0.1.47.ebuild:
+  bump pyvizio-0.1.47
+
+*pyvizio-0.1.46 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.16.ebuild,
+  +pyvizio-0.1.46.ebuild:
+  bump pyvizio-0.1.46
+
+*pyvizio-0.1.45 (05 Apr 2020)
+
+  05 Apr 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.0.15.ebuild,
+  -pyvizio-0.0.20.ebuild, +pyvizio-0.1.45.ebuild:
+  bump pyvizio-0.1.45
+
+*pyvizio-0.1.44 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.1.44.ebuild:
+  bump pyvizio-0.1.44
+
+*pyvizio-0.1.35 (06 Mar 2020)
+
+  06 Mar 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.0.12.ebuild,
+  +pyvizio-0.1.35.ebuild:
+  bump pyvizio-0.1.35
+
+*pyvizio-0.1.26 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.1.26.ebuild:
+  update pyvizio-0.1.26
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> pyvizio-0.0.12.ebuild,
+  pyvizio-0.0.15.ebuild, pyvizio-0.0.20.ebuild, pyvizio-0.1.16.ebuild,
+  pyvizio-0.1.19.ebuild, pyvizio-0.1.21.ebuild:
+  fix some DESCRIPTION.toolong from RepoMan
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyvizio-0.1.21.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+*pyvizio-0.1.21 (04 Feb 2020)
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.4.ebuild,
+  +pyvizio-0.1.21.ebuild:
+  bump pyvizio-0.1.21
+
+*pyvizio-0.1.19 (03 Feb 2020)
+
+  03 Feb 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.1.1.ebuild,
+  +pyvizio-0.1.19.ebuild:
+  bump pyvizio-0.1.19
+
+*pyvizio-0.1.16 (01 Feb 2020)
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.1.16.ebuild:
+  bump pyvizio-0.1.16
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*pyvizio-0.1.4 (25 Jan 2020)
+
+  25 Jan 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.0.11.ebuild,
+  +pyvizio-0.1.4.ebuild:
+  bump pyvizio-0.1.4
+
+*pyvizio-0.1.1 (18 Jan 2020)
+
+  18 Jan 2020; Andreas Billmeier <b@edevau.net> -pyvizio-0.0.7.ebuild,
+  -pyvizio-0.0.9.ebuild, +pyvizio-0.1.1.ebuild:
+  bump pyvizio-0.1.1
+
+*pyvizio-0.0.20 (15 Jan 2020)
+
+  15 Jan 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.0.20.ebuild:
+  bump pyvizio-0.0.20
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pyvizio-0.0.15 (10 Jan 2020)
+
+  10 Jan 2020; Andreas Billmeier <b@edevau.net> pyvizio-0.0.9.ebuild,
+  pyvizio-0.0.11.ebuild, pyvizio-0.0.12.ebuild, +pyvizio-0.0.15.ebuild:
+  update pyvizio-0.0.15
+
+*pyvizio-0.0.12 (07 Jan 2020)
+
+  07 Jan 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.0.12.ebuild:
+  bump pyvizio-0.0.12
+
+*pyvizio-0.0.11 (07 Jan 2020)
+
+  07 Jan 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.0.11.ebuild:
+  bump pyvizio-0.0.11
+
+*pyvizio-0.0.9 (07 Jan 2020)
+
+  07 Jan 2020; Andreas Billmeier <b@edevau.net> +pyvizio-0.0.9.ebuild:
+  bump pyvizio-0.0.9
+
+*pyvizio-0.0.7 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyvizio-0.0.7.ebuild:
+  add pyvizio-0.0.7
+

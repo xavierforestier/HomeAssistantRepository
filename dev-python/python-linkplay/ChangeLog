@@ -1,0 +1,91 @@
+# ChangeLog for dev-python/python-linkplay
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-linkplay-0.2.11.ebuild:
+  app-misc/homeassistant 2025.6.3
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-linkplay-0.2.5.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-linkplay-0.2.4.ebuild:
+  clean oldies
+
+*python-linkplay-0.2.12 (17 Jun 2025)
+
+  17 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-linkplay-0.2.12.ebuild:
+  homeassistant-2025.6.1
+
+*python-linkplay-0.2.11 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-linkplay-0.2.11.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-linkplay-0.2.2.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*python-linkplay-0.2.5 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-linkplay-0.2.5.ebuild:
+  homeassistant 2025.5.2
+
+*python-linkplay-0.2.4 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-linkplay-0.2.4.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-linkplay-0.2.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-linkplay-0.2.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-linkplay-0.1.3.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-linkplay-0.0.15.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-linkplay-0.0.15.ebuilde, -python-linkplay-0.1.3.ebuilde,
+  -python-linkplay-0.2.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-linkplay-0.0.15.ebuilde, +python-linkplay-0.1.3.ebuilde,
+  +python-linkplay-0.2.2.ebuilde:
+  Fix KEYWORDS
+
+*python-linkplay-0.2.2 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-linkplay-0.2.2.ebuild:
+  Homeassistant 2025.4.0
+
+*python-linkplay-0.1.3 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-linkplay-0.1.3.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*python-linkplay-0.0.15 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-linkplay-0.0.15.ebuild:
+  new package, add 0.0.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3957
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

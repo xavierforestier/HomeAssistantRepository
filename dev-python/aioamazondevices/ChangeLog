@@ -1,0 +1,108 @@
+# ChangeLog for dev-python/aioamazondevices
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aioamazondevices-8.0.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-6.4.4.ebuild, +aioamazondevices-8.0.1.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+*aioamazondevices-6.5.6 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-6.4.0.ebuild, +aioamazondevices-6.5.6.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*aioamazondevices-6.4.6 (25 Oct 2025)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-6.2.7.ebuild, +aioamazondevices-6.4.6.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*aioamazondevices-6.4.4 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-6.4.4.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*aioamazondevices-6.4.0 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-6.4.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aioamazondevices-6.2.7 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.5.1.ebuild, +aioamazondevices-6.2.7.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+  15 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.5.0.ebuild:
+  app-misc/homeassistant 2025.8.1
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.2.10.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+*aioamazondevices-3.5.1 (29 Jul 2025)
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.2.3.ebuild, +aioamazondevices-3.5.1.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+*aioamazondevices-3.5.0 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.2.2.ebuild, +aioamazondevices-3.5.0.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.1.14.ebuild:
+  Cleansing
+
+*aioamazondevices-3.2.10 (19 Jul 2025)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-3.2.10.ebuild:
+  app-misc/homeassistant 2025.7.2
+
+*aioamazondevices-3.2.3 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-3.2.3.ebuild:
+  homeassistant 2025.7.1
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.1.2.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*aioamazondevices-3.2.2 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-3.2.2.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-3.0.6.ebuild:
+  app-misc/homeassistant 2025.6.3
+
+*aioamazondevices-3.1.14 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-3.1.14.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*aioamazondevices-3.1.2 (17 Jun 2025)
+
+  17 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-3.1.2.ebuild:
+  homeassistant-2025.6.1
+
+*aioamazondevices-3.0.6 (13 Jun 2025)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioamazondevices-3.0.6.ebuild, +metadata.xml:
+  homeassistant 2025.6.0 WIP without all deps
+

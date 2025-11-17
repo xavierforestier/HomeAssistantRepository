@@ -1,0 +1,185 @@
+# ChangeLog for dev-python/aioasuswrt
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioasuswrt-1.4.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*aioasuswrt-1.5.1 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioasuswrt-1.5.1.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioasuswrt-1.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioasuswrt-1.4.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioasuswrt-1.4.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aioasuswrt-1.4.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aioasuswrt-1.4.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> aioasuswrt-1.4.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aioasuswrt-1.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioasuswrt-1.4.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.3.4.ebuild,
+  aioasuswrt-1.4.0.ebuild:
+  rework, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aioasuswrt-1.3.4.ebuild,
+  aioasuswrt-1.4.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aioasuswrt-1.3.4.ebuild,
+  aioasuswrt-1.4.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aioasuswrt-1.4.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.3.1-r1.ebuild,
+  +aioasuswrt-1.4.0.ebuild:
+  bump aioasuswrt-1.4.0
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.2.7.ebuild,
+  -aioasuswrt-1.2.8.ebuild, -aioasuswrt-1.3.0.ebuild, aioasuswrt-1.3.4.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+*aioasuswrt-1.3.4 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.2.6.ebuild,
+  +aioasuswrt-1.3.4.ebuild:
+  update aioasuswrt-1.3.4
+
+*aioasuswrt-1.3.1-r1 (14 Feb 2021)
+
+  14 Feb 2021; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.3.1.ebuild,
+  +aioasuswrt-1.3.1-r1.ebuild:
+  update aioasuswrt-1.3.1-r1
+
+*aioasuswrt-1.3.1 (24 Nov 2020)
+
+  24 Nov 2020; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.2.3.ebuild,
+  -aioasuswrt-1.2.5.ebuild, +aioasuswrt-1.3.1.ebuild:
+  bump aioasuswrt-1.3.1
+
+*aioasuswrt-1.3.0 (12 Nov 2020)
+
+  12 Nov 2020; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.1.22.ebuild,
+  -aioasuswrt-1.2.2.ebuild, +aioasuswrt-1.3.0.ebuild:
+  update aioasuswrt-1.3.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aioasuswrt-1.1.22.ebuild,
+  aioasuswrt-1.2.2.ebuild, aioasuswrt-1.2.3.ebuild, aioasuswrt-1.2.5.ebuild,
+  aioasuswrt-1.2.6.ebuild, aioasuswrt-1.2.7.ebuild, aioasuswrt-1.2.8.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aioasuswrt-1.2.8 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +aioasuswrt-1.2.8.ebuild:
+  update aioasuswrt-1.2.8
+
+*aioasuswrt-1.2.7 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.1.21.ebuild,
+  +aioasuswrt-1.2.7.ebuild:
+  bump aioasuswrt-1.2.7
+
+*aioasuswrt-1.2.6 (17 Jun 2020)
+
+  17 Jun 2020; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.1.20.ebuild,
+  +aioasuswrt-1.2.6.ebuild:
+  bump aioasuswrt-1.2.6
+
+*aioasuswrt-1.2.5 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> -aioasuswrt-1.1.18.ebuild,
+  +aioasuswrt-1.2.5.ebuild:
+  bump aioasuswrt-1.2.5
+
+*aioasuswrt-1.2.3 (29 Mar 2020)
+*aioasuswrt-1.2.2 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +aioasuswrt-1.2.2.ebuild,
+  +aioasuswrt-1.2.3.ebuild:
+  bump all new versions of aioasuswrt
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aioasuswrt-1.1.22.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> aioasuswrt-1.1.18.ebuild,
+  aioasuswrt-1.1.20.ebuild, aioasuswrt-1.1.21.ebuild,
+  aioasuswrt-1.1.22.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> aioasuswrt-1.1.21.ebuild,
+  aioasuswrt-1.1.22.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*aioasuswrt-1.1.22 (06 Nov 2019)
+
+  06 Nov 2019; Andreas Billmeier <b@edevau.net> +aioasuswrt-1.1.22.ebuild:
+  bump aioasuswrt-1.1.22
+
+  19 Mar 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  aioasuswrt-1.1.21.ebuild:
+  extend aioasuswrt deps
+
+  19 Mar 2019; Andreas Billmeier <b@edevau.net> aioasuswrt-1.1.21.ebuild:
+  aioasuswrt-1.1.21 fix
+
+*aioasuswrt-1.1.21 (04 Mar 2019)
+
+  04 Mar 2019; Andreas Billmeier <b@edevau.net> +aioasuswrt-1.1.21.ebuild,
+  metadata.xml:
+  bump aioasuswrt-1.1.21
+
+*aioasuswrt-1.1.20 (29 Jan 2019)
+
+  29 Jan 2019; Andreas Billmeier <b@edevau.net> +aioasuswrt-1.1.20.ebuild,
+  +metadata.xml:
+  bump aioasuswrt-1.1.20
+
+  29 Jan 2019; Andreas Billmeier <b@edevau.net> aioasuswrt-1.1.18.ebuild:
+  added variable version for SRC_URI to aioasuswrt
+
+*aioasuswrt-1.1.18 (26 Jan 2019)
+
+  26 Jan 2019; Andreas Billmeier <b@edevau.net> +aioasuswrt-1.1.18.ebuild:
+  aioasuswrt-1.1.18 (with dep) added
+

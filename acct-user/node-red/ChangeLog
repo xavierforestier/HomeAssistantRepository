@@ -1,0 +1,13 @@
+# ChangeLog for acct-user/node-red
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*node-red-0 (20 Feb 2023)
+
+  20 Feb 2023; INODE64 <ffelix@inode64.com> +metadata.xml, +node-red-0.ebuild:
+  Include eclass for new nodejs ebuilds
+  New packages (zigbee2mqtt and node-red) from my gentoo overlay
+  (https://github.com/inode64/inode64-overlay)
+
+  Signed-off-by: INODE64 <ffelix@inode64.com>
+

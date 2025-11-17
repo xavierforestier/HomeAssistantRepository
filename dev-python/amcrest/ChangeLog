@@ -1,0 +1,173 @@
+# ChangeLog for dev-python/amcrest
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -amcrest-1.9.8.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*amcrest-1.9.9 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +amcrest-1.9.9.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  amcrest-1.9.8.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -amcrest-1.9.8.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +amcrest-1.9.8.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  amcrest-1.9.8.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -amcrest-1.9.7.ebuild:
+  drop 1.9.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*amcrest-1.9.8 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +amcrest-1.9.8.ebuild:
+  add 1.9.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> amcrest-1.9.7.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> amcrest-1.9.7.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> amcrest-1.9.7.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -amcrest-1.9.3.ebuild,
+  -amcrest-1.9.4.ebuild, amcrest-1.9.7.ebuild:
+  rework, remove olds
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> amcrest-1.9.3.ebuild,
+  amcrest-1.9.4.ebuild, amcrest-1.9.7.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> amcrest-1.9.7.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+*amcrest-1.9.7 (16 Mar 2022)
+
+  16 Mar 2022; Andreas Billmeier <b@edevau.net> +amcrest-1.9.7.ebuild:
+  bump amcrest-1.9.7
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> amcrest-1.9.3.ebuild,
+  amcrest-1.9.4.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*amcrest-1.9.4 (12 Feb 2022)
+
+  12 Feb 2022; Andreas Billmeier <b@edevau.net> -amcrest-1.7.2.ebuild,
+  -amcrest-1.8.1.ebuild, +amcrest-1.9.4.ebuild:
+  bump amcrest-1.9.4
+
+*amcrest-1.9.3 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -amcrest-1.8.0.ebuild,
+  +amcrest-1.9.3.ebuild:
+  update amcrest-1.9.3
+
+*amcrest-1.8.1 (13 Sep 2021)
+
+  13 Sep 2021; Andreas Billmeier <b@edevau.net> -amcrest-1.7.1.ebuild,
+  +amcrest-1.8.1.ebuild:
+  bump amcrest-1.8.1
+
+*amcrest-1.8.0 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> +amcrest-1.8.0.ebuild:
+  update amcrest-1.8.0
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> amcrest-1.7.2.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -amcrest-1.4.1.ebuild,
+  -amcrest-1.5.3.ebuild, -amcrest-1.5.6.ebuild, -amcrest-1.7.0.ebuild,
+  amcrest-1.7.1.ebuild, amcrest-1.7.2.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*amcrest-1.7.2 (14 Mar 2021)
+*amcrest-1.7.1 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -amcrest-1.3.0.ebuild,
+  -amcrest-1.4.0.ebuild, +amcrest-1.7.1.ebuild, +amcrest-1.7.2.ebuild:
+  bump amcrest-1.7.1, amcrest-1.7.2
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> amcrest-1.3.0.ebuild,
+  amcrest-1.4.0.ebuild, amcrest-1.4.1.ebuild, amcrest-1.5.3.ebuild,
+  amcrest-1.5.6.ebuild, amcrest-1.7.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*amcrest-1.7.0 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +amcrest-1.7.0.ebuild:
+  bump amcrest-1.7.0
+
+*amcrest-1.5.6 (08 Feb 2020)
+
+  08 Feb 2020; Andreas Billmeier <b@edevau.net> +amcrest-1.5.6.ebuild:
+  bump amcrest-1.5.6
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> amcrest-1.5.3.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> amcrest-1.3.0.ebuild,
+  amcrest-1.4.0.ebuild, amcrest-1.4.1.ebuild, amcrest-1.5.3.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> amcrest-1.3.0.ebuild,
+  amcrest-1.4.0.ebuild, amcrest-1.4.1.ebuild, amcrest-1.5.3.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> amcrest-1.3.0.ebuild,
+  amcrest-1.4.0.ebuild, amcrest-1.4.1.ebuild, amcrest-1.5.3.ebuild:
+  fix uri.https
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> amcrest-1.3.0.ebuild,
+  amcrest-1.4.0.ebuild, amcrest-1.4.1.ebuild, amcrest-1.5.3.ebuild:
+  align license strings to /usr/portage/gentoo/licenses
+
+*amcrest-1.5.3 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net> +amcrest-1.5.3.ebuild:
+  bump amcrest-1.5.3
+
+*amcrest-1.4.1 (28 Apr 2019)
+*amcrest-1.4.0 (28 Apr 2019)
+*amcrest-1.3.0 (28 Apr 2019)
+
+  28 Apr 2019; Andreas Billmeier <b@edevau.net> +amcrest-1.3.0.ebuild,
+  +amcrest-1.4.0.ebuild, +amcrest-1.4.1.ebuild, +metadata.xml:
+  add homeassistant.components.amcrest
+

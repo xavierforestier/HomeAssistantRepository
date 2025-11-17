@@ -1,0 +1,460 @@
+# ChangeLog for dev-python/aiounifi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiounifi-86.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aiounifi-87 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiounifi-87.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiounifi-84.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aiounifi-86 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiounifi-86.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiounifi-83.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+*aiounifi-84 (12 Jul 2025)
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiounifi-84.ebuild:
+  homeassistant 2025.7.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiounifi-83.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiounifi-72.ebuild, -aiounifi-74.ebuild, -aiounifi-75.ebuild,
+  -aiounifi-77.ebuild, -aiounifi-80.ebuild, -aiounifi-81.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiounifi-72.ebuilde, -aiounifi-74.ebuilde, -aiounifi-75.ebuilde,
+  -aiounifi-77.ebuilde, -aiounifi-80.ebuilde, -aiounifi-81.ebuilde,
+  -aiounifi-83.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiounifi-72.ebuilde, +aiounifi-74.ebuilde, +aiounifi-75.ebuilde,
+  +aiounifi-77.ebuilde, +aiounifi-80.ebuilde, +aiounifi-81.ebuilde,
+  +aiounifi-83.ebuilde:
+  Fix KEYWORDS
+
+*aiounifi-83 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiounifi-83.ebuild:
+  homeassistant 2025.3.0
+
+*aiounifi-81 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiounifi-81.ebuild:
+  homeassistant 2024.12.2
+
+*aiounifi-80 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +aiounifi-80.ebuild:
+  add 80
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3796
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-77 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -aiounifi-67.ebuild,
+  -aiounifi-68.ebuild, -aiounifi-71.ebuild, aiounifi-72.ebuild,
+  aiounifi-74.ebuild, aiounifi-75.ebuild, +aiounifi-77.ebuild:
+  drop olds, add 77
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3334
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-75 (28 Apr 2024)
+
+  28 Apr 2024; Andreas Billmeier <b@edevau.net> +aiounifi-75.ebuild:
+  add 75
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3230
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> -aiounifi-69.ebuild:
+  drop 69
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-74 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +aiounifi-74.ebuild:
+  add 74
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3179
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-72 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> aiounifi-67.ebuild,
+  aiounifi-68.ebuild, aiounifi-69.ebuild, aiounifi-71.ebuild,
+  +aiounifi-72.ebuild:
+  add 72
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3029
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-71 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +aiounifi-71.ebuild:
+  add 71
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2873
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-69 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> +aiounifi-69.ebuild:
+  add 69
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2724
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> -aiounifi-63.ebuild,
+  -aiounifi-65.ebuild:
+  drop 63, 65
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-68 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> aiounifi-63.ebuild,
+  aiounifi-65.ebuild, aiounifi-67.ebuild, +aiounifi-68.ebuild:
+  add 68
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2667
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aiounifi-64.ebuild:
+  drop 64
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-67 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +aiounifi-67.ebuild:
+  add 67
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2501
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-65 (05 Nov 2023)
+
+  05 Nov 2023; Andreas Billmeier <b@edevau.net> +aiounifi-65.ebuild:
+  add 65
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2371
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -aiounifi-46.ebuild:
+  drop 46
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-64 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> -aiounifi-47.ebuild,
+  +aiounifi-64.ebuild:
+  add 64, drop 47
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-63 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net> aiounifi-46.ebuild,
+  aiounifi-47.ebuild, +aiounifi-63.ebuild:
+  add 63
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-47 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -aiounifi-41.ebuild,
+  -aiounifi-44.ebuild, +aiounifi-47.ebuild:
+  aiounifi: drop olds, add 47
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> aiounifi-41.ebuild,
+  aiounifi-44.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-46 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -aiounifi-42.ebuild,
+  -aiounifi-43.ebuild, +aiounifi-46.ebuild:
+  add 46, drop 43
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-44 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> +aiounifi-44.ebuild:
+  add 44
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiounifi-41.ebuild,
+  aiounifi-42.ebuild, aiounifi-43.ebuild:
+  remove Python 3.8 Support tag
+
+*aiounifi-43 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> -aiounifi-34.ebuild,
+  -aiounifi-39.ebuild, +aiounifi-43.ebuild:
+  drop 34, add 43
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-42 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> aiounifi-34.ebuild,
+  aiounifi-39.ebuild, aiounifi-41.ebuild, +aiounifi-42.ebuild, metadata.xml:
+  bump 42
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiounifi-41 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> -aiounifi-38.ebuild,
+  +aiounifi-41.ebuild:
+  add 41, drop 38
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiounifi-34.ebuild,
+  aiounifi-38.ebuild, aiounifi-39.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aiounifi-37.ebuild:
+  rework, remove olds
+
+*aiounifi-39 (11 Oct 2022)
+
+  11 Oct 2022; Andreas Billmeier <b@edevau.net> +aiounifi-39.ebuild:
+  bump aiounifi-39
+
+*aiounifi-38 (09 Oct 2022)
+
+  09 Oct 2022; Andreas Billmeier <b@edevau.net> +aiounifi-38.ebuild:
+  bump aiounifi-38
+
+*aiounifi-37 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> -aiounifi-31.ebuild,
+  -aiounifi-32.ebuild, aiounifi-34.ebuild, +aiounifi-37.ebuild:
+  bump aiounifi-37
+
+*aiounifi-34 (16 Jul 2022)
+
+  16 Jul 2022; Andreas Billmeier <b@edevau.net> +aiounifi-34.ebuild:
+  bump aiounifi-34
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> aiounifi-32.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+*aiounifi-32 (22 Jun 2022)
+
+  22 Jun 2022; Andreas Billmeier <b@edevau.net> -aiounifi-28.ebuild,
+  -aiounifi-30.ebuild, aiounifi-31.ebuild, +aiounifi-32.ebuild:
+  update aiounifi-32
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> aiounifi-28.ebuild,
+  aiounifi-30.ebuild, aiounifi-31.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> aiounifi-31.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiounifi-28.ebuild,
+  aiounifi-30.ebuild, aiounifi-31.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiounifi-31 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -aiounifi-27.ebuild,
+  +aiounifi-31.ebuild:
+  bump aiounifi-31
+
+*aiounifi-30 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -aiounifi-26.ebuild,
+  -aiounifi-29.ebuild, +aiounifi-30.ebuild:
+  bump aiounifi-30
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> aiounifi-28.ebuild,
+  aiounifi-29.ebuild:
+  all EAPI=8 without quotes
+
+*aiounifi-29 (02 Nov 2021)
+*aiounifi-28 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +aiounifi-28.ebuild,
+  +aiounifi-29.ebuild:
+  bump aiounifi-29
+
+*aiounifi-27 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +aiounifi-27.ebuild:
+  bump aiounifi-27
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net> -aiounifi-20.ebuild,
+  -aiounifi-21.ebuild, -aiounifi-22.ebuild, -aiounifi-23.ebuild,
+  -aiounifi-25.ebuild, aiounifi-26.ebuild:
+  cleanup, add new Python Targets, Letter '-Z' (med) Integrations
+
+*aiounifi-26 (14 Dec 2020)
+
+  14 Dec 2020; Andreas Billmeier <b@edevau.net> -aiounifi-17.ebuild,
+  -aiounifi-18.ebuild, +aiounifi-26.ebuild:
+  bump aiounifi-26
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aiounifi-17.ebuild,
+  aiounifi-18.ebuild, aiounifi-20.ebuild, aiounifi-21.ebuild,
+  aiounifi-22.ebuild, aiounifi-23.ebuild, aiounifi-25.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aiounifi-25 (03 Nov 2020)
+
+  03 Nov 2020; Andreas Billmeier <b@edevau.net> +aiounifi-25.ebuild:
+  bump aiounifi-25
+
+*aiounifi-23 (12 Jul 2020)
+
+  12 Jul 2020; Andreas Billmeier <b@edevau.net> -aiounifi-16.ebuild,
+  +aiounifi-23.ebuild:
+  bump aiounifi-23
+
+*aiounifi-22 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> -aiounifi-15.ebuild,
+  +aiounifi-22.ebuild:
+  bump aiounifi-22
+
+*aiounifi-21 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> -aiounifi-14.ebuild,
+  +aiounifi-21.ebuild:
+  bump aiounifi-21
+
+*aiounifi-20 (03 May 2020)
+
+  03 May 2020; Andreas Billmeier <b@edevau.net> +aiounifi-20.ebuild:
+  bump aiounifi-20
+
+*aiounifi-18 (18 Apr 2020)
+
+  18 Apr 2020; Andreas Billmeier <b@edevau.net> -aiounifi-13.ebuild,
+  +aiounifi-18.ebuild:
+  bump aiounifi-18
+
+*aiounifi-17 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> -aiounifi-12.ebuild,
+  +aiounifi-17.ebuild:
+  bump aiounifi-17
+
+*aiounifi-16 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> -aiounifi-11.ebuild,
+  +aiounifi-16.ebuild:
+  bump aiounifi-16
+
+*aiounifi-15 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> -aiounifi-10.ebuild,
+  +aiounifi-15.ebuild:
+  bump aiounifi-15
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -aiounifi-7.ebuild,
+  -aiounifi-8.ebuild, -aiounifi-9.ebuild:
+  clean up, romove olds
+
+*aiounifi-14 (04 Mar 2020)
+
+  04 Mar 2020; Andreas Billmeier <b@edevau.net> +aiounifi-14.ebuild:
+  bump aiounifi-14
+
+*aiounifi-13 (22 Feb 2020)
+*aiounifi-12 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> +aiounifi-12.ebuild,
+  +aiounifi-13.ebuild:
+  bump aiounifi-13
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aiounifi-11.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> aiounifi-7.ebuild,
+  aiounifi-8.ebuild, aiounifi-9.ebuild, aiounifi-10.ebuild,
+  aiounifi-11.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> aiounifi-7.ebuild,
+  aiounifi-8.ebuild, aiounifi-9.ebuild, aiounifi-10.ebuild,
+  aiounifi-11.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*aiounifi-11 (15 Aug 2019)
+
+  15 Aug 2019; Andreas Billmeier <b@edevau.net> -aiounifi-6.ebuild,
+  +aiounifi-11.ebuild:
+  bump aiounifi-11
+
+*aiounifi-10 (06 Aug 2019)
+
+  06 Aug 2019; Andreas Billmeier <b@edevau.net> -aiounifi-4.ebuild,
+  +aiounifi-10.ebuild:
+  bump aiounifi-10
+
+*aiounifi-9 (02 Aug 2019)
+
+  02 Aug 2019; Andreas Billmeier <b@edevau.net> +aiounifi-9.ebuild:
+  bump aiounifi-9
+
+*aiounifi-8 (01 Aug 2019)
+
+  01 Aug 2019; Andreas Billmeier <b@edevau.net> +aiounifi-8.ebuild:
+  bump aiounifi-8
+
+*aiounifi-7 (25 Jul 2019)
+
+  25 Jul 2019; Andreas Billmeier <b@edevau.net> +aiounifi-7.ebuild:
+  bump aiounifi-7
+
+*aiounifi-6 (03 Jun 2019)
+*aiounifi-4 (03 Jun 2019)
+
+  03 Jun 2019; Andreas Billmeier <b@edevau.net> +aiounifi-4.ebuild,
+  +aiounifi-6.ebuild, +metadata.xml:
+  add components.unifi
+

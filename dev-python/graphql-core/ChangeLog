@@ -1,0 +1,56 @@
+# ChangeLog for dev-python/graphql-core
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  graphql-core-3.3.0_alpha7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -graphql-core-3.3.0_alpha2.ebuild, graphql-core-3.3.0_alpha7.ebuild:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -graphql-core-3.3.0_alpha2.ebuilde, -graphql-core-3.3.0_alpha7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +graphql-core-3.3.0_alpha2.ebuilde, +graphql-core-3.3.0_alpha7.ebuilde:
+  Fix KEYWORDS
+
+*graphql-core-3.3.0_alpha7 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +graphql-core-3.3.0_alpha7.ebuild:
+  homeassisstant-2025.2.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  graphql-core-3.3.0_alpha2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -graphql-core-3.2.3.ebuild,
+  graphql-core-3.3.0_alpha2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> graphql-core-3.2.3.ebuild,
+  graphql-core-3.3.0_alpha2.ebuild:
+  remove Python 3.8 Support tag
+
+*graphql-core-3.3.0_alpha2 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net>
+  +graphql-core-3.3.0_alpha2.ebuild:
+  add 3.3.0_alpha2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*graphql-core-3.2.3 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> +graphql-core-3.2.3.ebuild,
+  +metadata.xml:
+  new package, add 3.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

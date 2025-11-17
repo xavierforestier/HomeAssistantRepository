@@ -1,0 +1,81 @@
+# ChangeLog for dev-python/setuptools-markdown
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  setuptools-markdown-0.4.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -setuptools-markdown-0.4.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +setuptools-markdown-0.4.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  setuptools-markdown-0.4.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.4.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.4.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.4.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.4.1.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.4.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*setuptools-markdown-0.4.1 (11 Jul 2021)
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net>
+  -setuptools-markdown-0.2.ebuild, +setuptools-markdown-0.4.1.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> setuptools-markdown-0.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.2.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: S
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.2.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net>
+  setuptools-markdown-0.2.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*setuptools-markdown-0.2 (19 Mar 2019)
+
+  19 Mar 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +setuptools-markdown-0.2.ebuild:
+  aioasuswrt-1.1.21 fix
+

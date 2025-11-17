@@ -1,0 +1,64 @@
+# ChangeLog for dev-python/tesla-wall-connector
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tesla-wall-connector-1.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -tesla-wall-connector-1.0.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tesla-wall-connector-1.0.2.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  tesla-wall-connector-1.0.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -tesla-wall-connector-1.0.1.ebuild, tesla-wall-connector-1.0.2.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  tesla-wall-connector-1.0.1.ebuild, tesla-wall-connector-1.0.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  tesla-wall-connector-1.0.1.ebuild, tesla-wall-connector-1.0.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*tesla-wall-connector-1.0.2 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -tesla-wall-connector-1.0.0.ebuild, tesla-wall-connector-1.0.1.ebuild,
+  +tesla-wall-connector-1.0.2.ebuild:
+  bump tesla-wall-connector-1.0.2
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  tesla-wall-connector-1.0.0.ebuild, tesla-wall-connector-1.0.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*tesla-wall-connector-1.0.1 (10 Dec 2021)
+
+  10 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +tesla-wall-connector-1.0.1.ebuild:
+  bump tesla-wall-connector-1.0.1
+
+*tesla-wall-connector-1.0.0 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +tesla-wall-connector-1.0.0.ebuild:
+  add tesla-wall-connector-1.0.0
+

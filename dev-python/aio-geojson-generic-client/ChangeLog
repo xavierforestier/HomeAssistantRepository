@@ -1,0 +1,88 @@
+# ChangeLog for dev-python/aio-geojson-generic-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aio-geojson-generic-client-0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aio-geojson-generic-client-0.3.ebuild,
+  -aio-geojson-generic-client-0.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aio-geojson-generic-client-0.3.ebuilde,
+  -aio-geojson-generic-client-0.4.ebuilde,
+  -aio-geojson-generic-client-0.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aio-geojson-generic-client-0.3.ebuilde,
+  +aio-geojson-generic-client-0.4.ebuilde,
+  +aio-geojson-generic-client-0.5.ebuilde:
+  Fix KEYWORDS
+
+*aio-geojson-generic-client-0.5 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aio-geojson-generic-client-0.5.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*aio-geojson-generic-client-0.4 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net>
+  aio-geojson-generic-client-0.3.ebuild,
+  +aio-geojson-generic-client-0.4.ebuild:
+  dev-python/aio-geojson-client: add 0.20
+  dev-python/aio-geojson-generic-client: add 0.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2716
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net>
+  -aio-geojson-generic-client-0.1.ebuild:
+  drop 0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net>
+  aio-geojson-generic-client-0.1.ebuild,
+  aio-geojson-generic-client-0.3.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aio-geojson-generic-client-0.3 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net>
+  +aio-geojson-generic-client-0.3.ebuild:
+  add 0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  aio-geojson-generic-client-0.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  aio-geojson-generic-client-0.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net>
+  aio-geojson-generic-client-0.1.ebuild:
+  cleanup aio-geo* stuff
+
+*aio-geojson-generic-client-0.1 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net>
+  +aio-geojson-generic-client-0.1.ebuild, +metadata.xml:
+  add aio-geojson-generic-client-0.1
+

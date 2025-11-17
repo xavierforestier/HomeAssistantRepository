@@ -1,0 +1,111 @@
+# ChangeLog for dev-python/aioftp
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioftp-0.21.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioftp-0.21.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioftp-0.21.3.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aioftp-0.21.3.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aioftp-0.12.0.ebuild:
+  drop 0.12.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild,
+  aioftp-0.21.3.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild,
+  aioftp-0.21.3.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild,
+  aioftp-0.21.3.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild,
+  aioftp-0.21.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> aioftp-0.21.3.ebuild:
+  remove olds, cleanup, enable pytest
+
+*aioftp-0.21.3 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild,
+  +aioftp-0.21.3.ebuild:
+  bump aioftp-0.21.3
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  15 Jul 2021; Andreas Billmeier <b@edevau.net> -aioftp-0.10.1.ebuild,
+  aioftp-0.12.0.ebuild, -aioftp-0.18.0.ebuild:
+  cleanup, add new Python Targets, Letter '-Z' (med) Integrations
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aioftp-0.10.1.ebuild,
+  aioftp-0.12.0.ebuild, aioftp-0.18.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aioftp-0.18.0 (08 Sep 2020)
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild,
+  +aioftp-0.18.0.ebuild, metadata.xml:
+  fix aioftp-0.12.0, update aioftp-0.18.0
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> aioftp-0.10.1.ebuild,
+  aioftp-0.12.0.ebuild:
+  minor code cleanups
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> aioftp-0.10.1.ebuild,
+  aioftp-0.12.0.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+*aioftp-0.10.1 (08 Jan 2019)
+
+  08 Jan 2019; Andreas Billmeier <b@edevau.net> +aioftp-0.10.1.ebuild:
+  add (old) aioftp-0.10.1
+
+  06 Jan 2019; Andreas Billmeier <b@edevau.net> aioftp-0.12.0.ebuild:
+  Python 3.7 compat aiohttp & aioftp
+
+*aioftp-0.12.0 (31 Dec 2018)
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +aioftp-0.12.0.ebuild:
+  further cleanup inspired by RepoMan
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+

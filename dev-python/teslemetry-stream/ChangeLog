@@ -1,0 +1,79 @@
+# ChangeLog for dev-python/teslemetry-stream
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*teslemetry-stream-0.7.10 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +teslemetry-stream-0.7.10.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -teslemetry-stream-0.7.7.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*teslemetry-stream-0.7.9 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +teslemetry-stream-0.7.9.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -teslemetry-stream-0.6.12.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*teslemetry-stream-0.7.7 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +teslemetry-stream-0.7.7.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  teslemetry-stream-0.6.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -teslemetry-stream-0.6.10.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -teslemetry-stream-0.4.2.ebuild, -teslemetry-stream-0.6.6.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -teslemetry-stream-0.4.2.ebuilde, -teslemetry-stream-0.6.10.ebuilde,
+  -teslemetry-stream-0.6.12.ebuilde, -teslemetry-stream-0.6.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +teslemetry-stream-0.4.2.ebuilde, +teslemetry-stream-0.6.10.ebuilde,
+  +teslemetry-stream-0.6.12.ebuilde, +teslemetry-stream-0.6.6.ebuilde:
+  Fix KEYWORDS
+
+*teslemetry-stream-0.6.12 (15 Mar 2025)
+
+  15 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +teslemetry-stream-0.6.12.ebuild:
+  homeassistant 2025.3.2 homeassistant 2025.3.3
+
+*teslemetry-stream-0.6.10 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +teslemetry-stream-0.6.10.ebuild:
+  homeassistant 2025.3.0
+
+*teslemetry-stream-0.6.6 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +teslemetry-stream-0.6.6.ebuild:
+  homeassisstant-2025.2.0
+
+*teslemetry-stream-0.4.2 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +teslemetry-stream-0.4.2.ebuild:
+  new package, add 0.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4071
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

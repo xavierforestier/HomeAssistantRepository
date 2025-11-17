@@ -1,0 +1,50 @@
+# ChangeLog for dev-python/kegtron-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*kegtron-ble-1.0.2 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +kegtron-ble-1.0.2.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  kegtron-ble-0.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -kegtron-ble-0.4.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +kegtron-ble-0.4.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  kegtron-ble-0.4.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  19 Jun 2023; Andreas Billmeier <b@edevau.net> kegtron-ble-0.4.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> kegtron-ble-0.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> kegtron-ble-0.4.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*kegtron-ble-0.4.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> +kegtron-ble-0.4.0.ebuild,
+  +metadata.xml:
+  add kegtron-ble-0.4.0
+

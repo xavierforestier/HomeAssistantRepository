@@ -1,0 +1,864 @@
+# ChangeLog for dev-python/zha-quirks
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*zha-quirks-0.0.148 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.148.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*zha-quirks-0.0.146 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.146.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+*zha-quirks-0.0.145 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.145.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*zha-quirks-0.0.143 (15 Aug 2025)
+
+  15 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.143.ebuild:
+  app-misc/homeassistant 2025.8.1
+
+*zha-quirks-0.0.142 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.142.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+*zha-quirks-0.0.139 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.139.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*zha-quirks-0.0.138 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.138.ebuild:
+  homeassistant 2025.6.0 full deps
+
+*zha-quirks-0.0.137 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zha-quirks-0.0.137.ebuild:
+  homeassistant 2025.5.1 deps
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zha-quirks-0.0.134.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zha-quirks-0.0.134.ebuild, zha-quirks-0.0.136.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zha-quirks-0.0.134.ebuilde, -zha-quirks-0.0.136.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.134.ebuilde, +zha-quirks-0.0.136.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zha-quirks-0.0.112.ebuild, -zha-quirks-0.0.114.ebuild,
+  -zha-quirks-0.0.115.ebuild, -zha-quirks-0.0.116.ebuild,
+  -zha-quirks-0.0.117.ebuild, -zha-quirks-0.0.122.ebuild,
+  -zha-quirks-0.0.124.ebuild, -zha-quirks-0.0.125.ebuild,
+  -zha-quirks-0.0.129.ebuild, -zha-quirks-0.0.130.ebuild,
+  -zha-quirks-0.0.131.ebuild, -zha-quirks-0.0.132.ebuild,
+  -zha-quirks-0.0.133.ebuild, zha-quirks-0.0.134.ebuild,
+  zha-quirks-0.0.136.ebuild:
+  cleanup + shellcheck
+
+*zha-quirks-0.0.136 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.136.ebuild:
+  Homeassistant 2025.4.0
+
+*zha-quirks-0.0.134 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.134.ebuild:
+  homeassistant 2025.3.0
+
+*zha-quirks-0.0.133 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.133.ebuild:
+  homeassistant-2025.2.4
+
+*zha-quirks-0.0.132 (15 Feb 2025)
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.132.ebuild:
+  homeassistant-2025-2.1
+
+*zha-quirks-0.0.131 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.131.ebuild:
+  homeassisstant-2025.2.0
+
+*zha-quirks-0.0.130 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.130.ebuild:
+  homeassistant 2025.1.1
+
+*zha-quirks-0.0.129 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.129.ebuild:
+  homeassistant 2025.1.1
+
+*zha-quirks-0.0.125 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.125.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*zha-quirks-0.0.124 (02 Nov 2024)
+
+  02 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zha-quirks-0.0.124.ebuild:
+  Some fixes
+
+*zha-quirks-0.0.122 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.122.ebuild:
+  add 0.0.122
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.117 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +zha-quirks-0.0.117.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+*zha-quirks-0.0.116 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.116.ebuild:
+  add 0.0.116
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3482
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.115 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.109.ebuild,
+  -zha-quirks-0.0.111.ebuild, zha-quirks-0.0.112.ebuild,
+  -zha-quirks-0.0.113.ebuild, zha-quirks-0.0.114.ebuild,
+  +zha-quirks-0.0.115.ebuild:
+  drop olds, add 0.0.115
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3340
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.107.ebuild,
+  -zha-quirks-0.0.108.ebuild:
+  drop 0.0.107, 0.0.108
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.114 (12 Apr 2024)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.114.ebuild:
+  add 0.0.114
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3214
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.113 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.113.ebuild:
+  add 0.0.113
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3167
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.112 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.107.ebuild,
+  zha-quirks-0.0.108.ebuild, zha-quirks-0.0.109.ebuild,
+  zha-quirks-0.0.111.ebuild, +zha-quirks-0.0.112.ebuild:
+  add 0.0.112
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3045
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.106.ebuild:
+  drop 0.0.106
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.111 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.111.ebuild:
+  add 0.0.111
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2883
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  05 Jan 2024; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.105-r1.ebuild:
+  drop 0.0.105-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.109 (05 Jan 2024)
+
+  05 Jan 2024; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.105-r1.ebuild,
+  zha-quirks-0.0.106.ebuild, zha-quirks-0.0.107.ebuild,
+  zha-quirks-0.0.108.ebuild, +zha-quirks-0.0.109.ebuild:
+  add 0.0.109
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2674
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.108 (29 Dec 2023)
+
+  29 Dec 2023; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.108.ebuild:
+  add 0.0.108
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2560
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.104-r1.ebuild:
+  drop 0.0.104-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.107 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.107.ebuild:
+  add 0.0.107
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2517
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.104-r1.ebuild,
+  zha-quirks-0.0.105-r1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.97.ebuild,
+  -zha-quirks-0.0.99.ebuild:
+  drop 0.0.97, 0.0.99
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.106 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.106.ebuild:
+  add 0.0.106
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.105-r1 (28 Oct 2023)
+*zha-quirks-0.0.104-r1 (28 Oct 2023)
+
+  28 Oct 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.104.ebuild,
+  +zha-quirks-0.0.104-r1.ebuild, -zha-quirks-0.0.105.ebuild,
+  +zha-quirks-0.0.105-r1.ebuild:
+  update 0.0.10[4,5], fixes #2222
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.105 (11 Oct 2023)
+*zha-quirks-0.0.104 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  zha-quirks-0.0.97.ebuild, zha-quirks-0.0.99.ebuild,
+  +zha-quirks-0.0.104.ebuild, +zha-quirks-0.0.105.ebuild:
+  add 0.0.104, 0.0.105
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.99 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.84.ebuild,
+  -zha-quirks-0.0.92.ebuild, -zha-quirks-0.0.94.ebuild,
+  +zha-quirks-0.0.99.ebuild:
+  add 0.0.99, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.97 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.96.ebuild,
+  +zha-quirks-0.0.97.ebuild:
+  add 0.0.97, drop 0.0.96
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.96 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.90.ebuild,
+  -zha-quirks-0.0.93.ebuild, +zha-quirks-0.0.96.ebuild:
+  update SRC_URI, add 0.0.96, drop 0.0.93
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Mar 2023; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.84.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Mar 2023; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.90.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Mar 2023; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.92.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  14 Mar 2023; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.93.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.94 (14 Mar 2023)
+
+  14 Mar 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.89.ebuild,
+  +zha-quirks-0.0.94.ebuild:
+  add 0.0.94, drop 0.0.89
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.93 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.93.ebuild:
+  add 0.0.93
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.92 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.87.ebuild,
+  +zha-quirks-0.0.92.ebuild:
+  add 0.0.92, drop 0.0.87
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.84.ebuild,
+  zha-quirks-0.0.87.ebuild, zha-quirks-0.0.89.ebuild,
+  zha-quirks-0.0.90.ebuild:
+  remove Python 3.8 Support tag
+
+*zha-quirks-0.0.90 (09 Jan 2023)
+
+  09 Jan 2023; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.86.ebuild,
+  -zha-quirks-0.0.88.ebuild, +zha-quirks-0.0.90.ebuild:
+  drop olds, add 0.0.90
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.89 (13 Dec 2022)
+
+  13 Dec 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.79.ebuild,
+  -zha-quirks-0.0.83.ebuild, +zha-quirks-0.0.89.ebuild:
+  drop olds, bump 0.0.89
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.88 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.88.ebuild:
+  add 0.0.88
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.87 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -zha-quirks-0.0.85.ebuild, +zha-quirks-0.0.87.ebuild:
+  add 0.0.87, drop 0.0.85
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.86 (17 Nov 2022)
+
+  17 Nov 2022; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.86.ebuild:
+  add 0.0.86
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.85 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.78.ebuild,
+  zha-quirks-0.0.79.ebuild, -zha-quirks-0.0.82.ebuild,
+  zha-quirks-0.0.83.ebuild, zha-quirks-0.0.84.ebuild,
+  +zha-quirks-0.0.85.ebuild:
+  bump 0.0.85, drop olds, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.84 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.84.ebuild:
+  add 0.0.84
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zha-quirks-0.0.83 (21 Oct 2022)
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.83.ebuild:
+  bump zha-quirks-0.0.83
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.78.ebuild,
+  zha-quirks-0.0.79.ebuild, zha-quirks-0.0.82.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.77.ebuild:
+  rework, remove olds
+
+*zha-quirks-0.0.82 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.82.ebuild:
+  update ZHA dependencies:
+  zigpy-0.51.2
+  bellows-0.34.1
+  zha-quirks-0.0.82
+  zigpy-deconz-0.19.0
+  zigpy-xbee-0.16.0
+  zigpy-zigate-0.10.0
+  zigpy-znp-0.9.0
+
+*zha-quirks-0.0.79 (04 Sep 2022)
+
+  04 Sep 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.75.ebuild,
+  +zha-quirks-0.0.79.ebuild:
+  bump zha-quirks-0.0.79
+
+*zha-quirks-0.0.78 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.73.ebuild,
+  zha-quirks-0.0.75.ebuild, zha-quirks-0.0.77.ebuild,
+  +zha-quirks-0.0.78.ebuild:
+  bump zha-quirks-0.0.78
+
+*zha-quirks-0.0.77 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.72.ebuild,
+  -zha-quirks-0.0.74.ebuild, +zha-quirks-0.0.77.ebuild:
+  bump zha-quirks-0.0.77
+
+*zha-quirks-0.0.75 (31 May 2022)
+
+  31 May 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.67.ebuild,
+  zha-quirks-0.0.72.ebuild, zha-quirks-0.0.73.ebuild,
+  zha-quirks-0.0.74.ebuild, +zha-quirks-0.0.75.ebuild:
+  update zha-quirks-0.0.75
+
+*zha-quirks-0.0.74 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.74.ebuild:
+  bump zha-quirks-0.0.74
+
+*zha-quirks-0.0.73 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.69.ebuild,
+  -zha-quirks-0.0.71.ebuild, +zha-quirks-0.0.73.ebuild:
+  update zha-quirks-0.0.73
+
+*zha-quirks-0.0.72 (13 Apr 2022)
+
+  13 Apr 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.66.ebuild,
+  +zha-quirks-0.0.72.ebuild:
+  bump zha-quirks-0.0.72
+
+*zha-quirks-0.0.71 (08 Apr 2022)
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.63.ebuild,
+  -zha-quirks-0.0.65.ebuild, +zha-quirks-0.0.71.ebuild:
+  bump zha-quirks-0.0.71
+
+*zha-quirks-0.0.69 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.69.ebuild:
+  update zha-quirks-0.0.69
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.67.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.63.ebuild,
+  zha-quirks-0.0.65.ebuild, zha-quirks-0.0.66.ebuild,
+  zha-quirks-0.0.67.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*zha-quirks-0.0.67 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.62.ebuild,
+  +zha-quirks-0.0.67.ebuild:
+  bump zha-quirks-0.0.67
+
+*zha-quirks-0.0.66 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.64.ebuild,
+  +zha-quirks-0.0.66.ebuild:
+  bump zha-quirks-0.0.66
+
+*zha-quirks-0.0.65 (11 Dec 2021)
+
+  11 Dec 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.60.ebuild,
+  +zha-quirks-0.0.65.ebuild:
+  bump zha-quirks-0.0.65
+
+*zha-quirks-0.0.64 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.59.ebuild,
+  +zha-quirks-0.0.64.ebuild:
+  update zha-quirks-0.0.64
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.63.ebuild:
+  all EAPI=8 without quotes
+
+*zha-quirks-0.0.63 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.63.ebuild:
+  bump zha-quirks-0.0.63
+
+*zha-quirks-0.0.62 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.57.ebuild,
+  -zha-quirks-0.0.58.ebuild, +zha-quirks-0.0.62.ebuild:
+  bump zha-quirks-0.0.62
+
+*zha-quirks-0.0.60 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.54.ebuild,
+  -zha-quirks-0.0.56.ebuild, +zha-quirks-0.0.60.ebuild:
+  update zha-quirks-0.0.60
+
+*zha-quirks-0.0.59 (07 Jul 2021)
+
+  07 Jul 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.53.ebuild,
+  -zha-quirks-0.0.55.ebuild, +zha-quirks-0.0.59.ebuild:
+  bump zha-quirks-0.0.59
+
+*zha-quirks-0.0.58 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.58.ebuild:
+  bump zha-quirks-0.0.58
+
+*zha-quirks-0.0.57 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.51.ebuild,
+  -zha-quirks-0.0.52.ebuild, +zha-quirks-0.0.57.ebuild:
+  bump zha-quirks-0.0.57
+
+*zha-quirks-0.0.56 (10 Apr 2021)
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.56.ebuild:
+  bump zha-quirks-0.0.56
+
+*zha-quirks-0.0.55 (04 Apr 2021)
+
+  04 Apr 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.49.ebuild,
+  -zha-quirks-0.0.50.ebuild, +zha-quirks-0.0.55.ebuild:
+  bump zha-quirks-0.0.55
+
+*zha-quirks-0.0.54 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.54.ebuild:
+  bump zha-quirks-0.0.54
+
+*zha-quirks-0.0.53 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.48.ebuild,
+  +zha-quirks-0.0.53.ebuild:
+  update zha-quirks-0.0.53
+
+*zha-quirks-0.0.52 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.46.ebuild,
+  -zha-quirks-0.0.47.ebuild, +zha-quirks-0.0.52.ebuild:
+  bump zha-quirks-0.0.52
+
+*zha-quirks-0.0.51 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.45.ebuild,
+  +zha-quirks-0.0.51.ebuild:
+  bump zha-quirks-0.0.51
+
+*zha-quirks-0.0.50 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.50.ebuild:
+  bump zha-quirks-0.0.50
+
+*zha-quirks-0.0.49 (14 Dec 2020)
+
+  14 Dec 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.44.ebuild,
+  +zha-quirks-0.0.49.ebuild:
+  bump zha-quirks-0.0.49
+
+*zha-quirks-0.0.48 (08 Dec 2020)
+
+  08 Dec 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.43-r1.ebuild,
+  +zha-quirks-0.0.48.ebuild:
+  bump zha:
+      * zha-quirks-0.0.48
+      * zigpy-0.28.2
+      * zigpy-znp-0.3.0
+
+*zha-quirks-0.0.47 (28 Nov 2020)
+
+  28 Nov 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.42.ebuild,
+  +zha-quirks-0.0.47.ebuild:
+  update zha-quirks-0.0.47
+
+*zha-quirks-0.0.46 (12 Nov 2020)
+
+  12 Nov 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.41.ebuild,
+  +zha-quirks-0.0.46.ebuild:
+  bump zha-quirks-0.0.46
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> zha-quirks-0.0.41.ebuild,
+  zha-quirks-0.0.42.ebuild, zha-quirks-0.0.43-r1.ebuild,
+  zha-quirks-0.0.44.ebuild, zha-quirks-0.0.45.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*zha-quirks-0.0.45 (30 Sep 2020)
+
+  30 Sep 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.38.ebuild,
+  -zha-quirks-0.0.39.ebuild, -zha-quirks-0.0.40.ebuild,
+  +zha-quirks-0.0.45.ebuild:
+  bump zha-quirks-0.0.45
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.41.ebuild,
+  zha-quirks-0.0.42.ebuild, zha-quirks-0.0.43-r1.ebuild,
+  zha-quirks-0.0.44.ebuild:
+  zha-quirks:
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/170
+
+*zha-quirks-0.0.44 (07 Sep 2020)
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.44.ebuild:
+  bump zha-quirks-0.0.44
+
+*zha-quirks-0.0.43-r1 (30 Aug 2020)
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.43.ebuild,
+  +zha-quirks-0.0.43-r1.ebuild:
+  zha-quirks must use dev-python/zigpy, not zigpy-homeassistant
+
+*zha-quirks-0.0.43 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.37.ebuild,
+  +zha-quirks-0.0.43.ebuild:
+  bump zha-quirks-0.0.43.ebuild
+
+*zha-quirks-0.0.42 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.36.ebuild,
+  +zha-quirks-0.0.42.ebuild:
+  bump zha-quirks-0.0.42
+
+*zha-quirks-0.0.41 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.41.ebuild:
+  bump zha-quirks-0.0.41
+
+*zha-quirks-0.0.40 (17 Jun 2020)
+
+  17 Jun 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.35.ebuild,
+  +zha-quirks-0.0.40.ebuild:
+  bump zha-quirks-0.0.40
+
+*zha-quirks-0.0.39 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.32.ebuild,
+  -zha-quirks-0.0.33.ebuild, -zha-quirks-0.0.34.ebuild,
+  +zha-quirks-0.0.39.ebuild:
+  bump zha-quirks-0.0.39
+
+*zha-quirks-0.0.38 (05 Apr 2020)
+
+  05 Apr 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.31.ebuild,
+  +zha-quirks-0.0.38.ebuild:
+  bump zha
+
+*zha-quirks-0.0.37 (29 Mar 2020)
+
+  29 Mar 2020; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.37.ebuild:
+  bump zha-quirks-0.0.37
+
+*zha-quirks-0.0.36 (13 Mar 2020)
+
+  13 Mar 2020; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.36.ebuild:
+  bump zha-quirks-0.0.36
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.25.ebuild,
+  -zha-quirks-0.0.26.ebuild, -zha-quirks-0.0.27-r1.ebuild,
+  -zha-quirks-0.0.28.ebuild, -zha-quirks-0.0.30.ebuild:
+  clean up, romove olds
+
+*zha-quirks-0.0.35 (06 Mar 2020)
+
+  06 Mar 2020; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.35.ebuild:
+  bump zha-quirks-0.0.35
+
+*zha-quirks-0.0.34 (04 Mar 2020)
+
+  04 Mar 2020; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.34.ebuild:
+  bump zha-quirks-0.0.34
+
+*zha-quirks-0.0.33 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.23.ebuild,
+  +zha-quirks-0.0.33.ebuild:
+  bump zha-quirks-0.0.33
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.32.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.23.ebuild,
+  zha-quirks-0.0.25.ebuild, zha-quirks-0.0.26.ebuild,
+  zha-quirks-0.0.27-r1.ebuild, zha-quirks-0.0.28.ebuild,
+  zha-quirks-0.0.30.ebuild:
+  minor code cleanups
+
+*zha-quirks-0.0.32 (01 Feb 2020)
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.22.ebuild,
+  +zha-quirks-0.0.32.ebuild:
+  bump zha-quirks-0.0.32
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*zha-quirks-0.0.31 (13 Jan 2020)
+
+  13 Jan 2020; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.21.ebuild,
+  +zha-quirks-0.0.31.ebuild:
+  bump zha-quirks-0.0.31
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*zha-quirks-0.0.30 (28 Dec 2019)
+
+  28 Dec 2019; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.30.ebuild:
+  Bump ZHA dependencies
+
+*zha-quirks-0.0.28 (13 Nov 2019)
+
+  13 Nov 2019; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.28.ebuild:
+  bump zha-quirks-0.0.28
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> zha-quirks-0.0.21.ebuild,
+  zha-quirks-0.0.22.ebuild, zha-quirks-0.0.23.ebuild,
+  zha-quirks-0.0.25.ebuild, zha-quirks-0.0.26.ebuild,
+  zha-quirks-0.0.27-r1.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*zha-quirks-0.0.27-r1 (12 Nov 2019)
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.27.ebuild,
+  +zha-quirks-0.0.27-r1.ebuild:
+  update zha-quirks-0.0.27-r1
+
+*zha-quirks-0.0.27 (08 Nov 2019)
+
+  08 Nov 2019; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.27.ebuild:
+  bump zha-quirks-0.0.27
+
+  24 Oct 2019; Gitea <gitea@fake.local> zha-quirks-0.0.21.ebuild,
+  zha-quirks-0.0.22.ebuild, zha-quirks-0.0.23.ebuild,
+  zha-quirks-0.0.25.ebuild, zha-quirks-0.0.26.ebuild:
+  standardize license naming per ebuild spec
+
+*zha-quirks-0.0.26 (03 Oct 2019)
+
+  03 Oct 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.20.ebuild,
+  +zha-quirks-0.0.26.ebuild:
+  bump zha-quirks-0.0.26
+
+*zha-quirks-0.0.25 (01 Oct 2019)
+
+  01 Oct 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.19.ebuild,
+  +zha-quirks-0.0.25.ebuild:
+  bump zha-quirks-0.0.25
+
+*zha-quirks-0.0.23 (21 Sep 2019)
+
+  21 Sep 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.18.ebuild,
+  +zha-quirks-0.0.23.ebuild:
+  bump zha-quirks-0.0.23
+
+*zha-quirks-0.0.22 (26 Aug 2019)
+*zha-quirks-0.0.21 (26 Aug 2019)
+
+  26 Aug 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.17.ebuild,
+  +zha-quirks-0.0.21.ebuild, +zha-quirks-0.0.22.ebuild:
+  bump zha-quirks-0.0.22
+
+*zha-quirks-0.0.20 (02 Aug 2019)
+
+  02 Aug 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.15.ebuild,
+  +zha-quirks-0.0.20.ebuild:
+  bump zha-quirks-0.0.20
+
+*zha-quirks-0.0.19 (22 Jul 2019)
+
+  22 Jul 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.13.ebuild,
+  -zha-quirks-0.0.14.ebuild, +zha-quirks-0.0.19.ebuild:
+  update zha-quirks-0.0.19
+
+*zha-quirks-0.0.18 (11 Jul 2019)
+
+  11 Jul 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.12.ebuild,
+  +zha-quirks-0.0.18.ebuild:
+  update all zigbee stuff
+
+*zha-quirks-0.0.17 (29 Jun 2019)
+
+  29 Jun 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.9.ebuild,
+  +zha-quirks-0.0.17.ebuild:
+  bump zha-quirks-0.0.17
+
+*zha-quirks-0.0.15 (24 Jun 2019)
+
+  24 Jun 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.8.ebuild,
+  +zha-quirks-0.0.15.ebuild:
+  bump zha-quirks-0.0.15
+
+*zha-quirks-0.0.14 (02 Jun 2019)
+*zha-quirks-0.0.13 (02 Jun 2019)
+
+  02 Jun 2019; Andreas Billmeier <b@edevau.net> -zha-quirks-0.0.7.ebuild,
+  +zha-quirks-0.0.13.ebuild, +zha-quirks-0.0.14.ebuild:
+  ZHA requirements version bump
+
+*zha-quirks-0.0.12 (12 May 2019)
+*zha-quirks-0.0.9 (12 May 2019)
+
+  12 May 2019; Andreas Billmeier <b@edevau.net> +zha-quirks-0.0.9.ebuild,
+  +zha-quirks-0.0.12.ebuild:
+  bump zha-quirks
+
+*zha-quirks-0.0.8 (21 Apr 2019)
+*zha-quirks-0.0.7 (21 Apr 2019)
+
+  21 Apr 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +zha-quirks-0.0.7.ebuild, +zha-quirks-0.0.8.ebuild:
+  add zha-quirks
+

@@ -1,0 +1,138 @@
+# ChangeLog for dev-python/aioecowitt
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioecowitt-2025.9.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aioecowitt-2025.9.2 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioecowitt-2025.9.2.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioecowitt-2025.9.0.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+*aioecowitt-2025.9.1 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioecowitt-2025.3.1.ebuild, +aioecowitt-2025.9.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aioecowitt-2025.9.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioecowitt-2025.9.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioecowitt-2025.3.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioecowitt-2023.5.0.ebuild, -aioecowitt-2024.2.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioecowitt-2023.5.0.ebuilde, -aioecowitt-2024.2.1.ebuilde,
+  -aioecowitt-2025.3.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioecowitt-2023.5.0.ebuilde, +aioecowitt-2024.2.1.ebuilde,
+  +aioecowitt-2025.3.1.ebuilde:
+  Fix KEYWORDS
+
+*aioecowitt-2025.3.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioecowitt-2025.3.1.ebuild:
+  homeassistant 2025.3.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aioecowitt-2024.2.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*aioecowitt-2024.2.1 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> aioecowitt-2023.5.0.ebuild,
+  +aioecowitt-2024.2.1.ebuild:
+  add 2024.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2775
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aioecowitt-2023.1.0.ebuild:
+  drop 2023.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aioecowitt-2023.1.0.ebuild,
+  aioecowitt-2023.5.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioecowitt-2023.5.0 (03 Oct 2023)
+
+  03 Oct 2023; Andreas Billmeier <b@edevau.net> +aioecowitt-2023.5.0.ebuild:
+  add 2023.5.0
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> -aioecowitt-2022.9.3.ebuild,
+  -aioecowitt-2022.11.0.ebuild:
+  drop 2022.9.3, 2022.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> aioecowitt-2022.9.3.ebuild,
+  aioecowitt-2022.11.0.ebuild, aioecowitt-2023.1.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioecowitt-2023.1.0 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> -aioecowitt-2022.9.1.ebuild,
+  +aioecowitt-2023.1.0.ebuild:
+  add 2023.1.0, drop 2022.9.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aioecowitt-2022.9.1.ebuild,
+  aioecowitt-2022.9.3.ebuild, aioecowitt-2022.11.0.ebuild:
+  remove Python 3.8 Support tag
+
+*aioecowitt-2022.11.0 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> aioecowitt-2022.9.1.ebuild,
+  aioecowitt-2022.9.3.ebuild, +aioecowitt-2022.11.0.ebuild, metadata.xml:
+  bump 2022.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioecowitt-2022.9.1.ebuild,
+  aioecowitt-2022.9.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioecowitt-2022.9.3 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> -aioecowitt-2022.8.3.ebuild,
+  +aioecowitt-2022.9.3.ebuild:
+  bump aioecowitt-2022.9.3
+
+*aioecowitt-2022.9.1 (12 Sep 2022)
+
+  12 Sep 2022; Andreas Billmeier <b@edevau.net> +aioecowitt-2022.9.1.ebuild:
+  update aioecowitt-2022.9.1
+
+*aioecowitt-2022.8.3 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +aioecowitt-2022.8.3.ebuild,
+  +metadata.xml:
+  add aioecowitt-2022.8.3
+

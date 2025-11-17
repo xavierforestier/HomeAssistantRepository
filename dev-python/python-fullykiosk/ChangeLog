@@ -1,0 +1,64 @@
+# ChangeLog for dev-python/python-fullykiosk
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-fullykiosk-0.0.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-fullykiosk-0.0.12.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-fullykiosk-0.0.12.ebuilde, -python-fullykiosk-0.0.14.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-fullykiosk-0.0.12.ebuilde, +python-fullykiosk-0.0.14.ebuilde:
+  Fix KEYWORDS
+
+*python-fullykiosk-0.0.14 (20 Oct 2024)
+
+  20 Oct 2024; Andreas Billmeier <b@edevau.net>
+  python-fullykiosk-0.0.12.ebuild, +python-fullykiosk-0.0.14.ebuild:
+  add 0.0.14
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3631
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -python-fullykiosk-0.0.11.ebuild, python-fullykiosk-0.0.12.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  python-fullykiosk-0.0.11.ebuild, python-fullykiosk-0.0.12.ebuild:
+  remove Python 3.8 Support tag
+
+*python-fullykiosk-0.0.12 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net>
+  +python-fullykiosk-0.0.12.ebuild:
+  add 0.0.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  python-fullykiosk-0.0.11.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-fullykiosk-0.0.11 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-fullykiosk-0.0.11.ebuild:
+  add python-fullykiosk-0.0.11
+

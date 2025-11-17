@@ -1,0 +1,217 @@
+# ChangeLog for dev-python/python-matter-server
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-matter-server-8.0.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-matter-server-8.1.0.ebuild:
+  Fix deps
+
+*python-matter-server-8.1.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-matter-server-8.1.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-matter-server-7.0.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*python-matter-server-8.0.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-matter-server-8.0.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-matter-server-7.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-matter-server-5.10.0.ebuild, -python-matter-server-6.1.0.ebuild,
+  -python-matter-server-6.3.0.ebuild, -python-matter-server-6.5.2.ebuild,
+  -python-matter-server-6.6.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-matter-server-5.10.0.ebuilde, -python-matter-server-6.1.0.ebuilde,
+  -python-matter-server-6.3.0.ebuilde, -python-matter-server-6.5.2.ebuilde,
+  -python-matter-server-6.6.0.ebuilde, -python-matter-server-7.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-matter-server-5.10.0.ebuilde, +python-matter-server-6.1.0.ebuilde,
+  +python-matter-server-6.3.0.ebuilde, +python-matter-server-6.5.2.ebuilde,
+  +python-matter-server-6.6.0.ebuilde, +python-matter-server-7.0.0.ebuilde:
+  Fix KEYWORDS
+
+*python-matter-server-7.0.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-matter-server-7.0.0.ebuild:
+  homeassisstant-2025.2.0
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  -python-matter-server-5.7.0.ebuild, -python-matter-server-6.2.2.ebuild:
+  drop 5.7.0, 6.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-6.6.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +python-matter-server-6.6.0.ebuild:
+  add 6.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4041
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-6.5.2 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +python-matter-server-6.5.2.ebuild:
+  dev-python/home-assistant-chip-clusters: add 2024.9.0
+  dev-python/python-matter-server: add 6.5.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3884
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-6.3.0 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-matter-server-6.3.0.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*python-matter-server-6.2.2 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +python-matter-server-6.2.2.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+*python-matter-server-6.1.0 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +python-matter-server-6.1.0.ebuild:
+  add 6.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3476
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  -python-matter-server-5.1.1.ebuild, -python-matter-server-5.5.0.ebuild:
+  drop 5.1.1, 5.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-5.10.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  python-matter-server-5.1.1.ebuild, python-matter-server-5.5.0.ebuild,
+  python-matter-server-5.7.0.ebuild, +python-matter-server-5.10.0.ebuild:
+  add 5.10.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3284
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -python-matter-server-5.0.0-r1.ebuild:
+  drop 5.0.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-5.7.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net>
+  python-matter-server-5.0.0-r1.ebuild, python-matter-server-5.1.1.ebuild,
+  python-matter-server-5.5.0.ebuild, +python-matter-server-5.7.0.ebuild:
+  add 5.7.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2994
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-5.5.0 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  python-matter-server-5.0.0-r1.ebuild, python-matter-server-5.1.1.ebuild,
+  +python-matter-server-5.5.0.ebuild:
+  add 5.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2821
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-5.1.1 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net>
+  +python-matter-server-5.1.1.ebuild:
+  add 5.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2622
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-5.0.0-r1 (16 Dec 2023)
+
+  16 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -python-matter-server-3.7.0.ebuild, -python-matter-server-5.0.0.ebuild,
+  +python-matter-server-5.0.0-r1.ebuild:
+  update 5.0.0-r1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2462
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-5.0.0 (12 Dec 2023)
+
+  12 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +python-matter-server-5.0.0.ebuild:
+  add 5.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-3.7.0 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-matter-server-3.7.0.ebuild:
+  new package, add 3.7.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -python-matter-server-1.0.6.ebuild, -python-matter-server-1.0.7.ebuild,
+  -python-matter-server-1.0.8.ebuild:
+  treeclean
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  python-matter-server-1.0.6.ebuild, python-matter-server-1.0.7.ebuild,
+  python-matter-server-1.0.8.ebuild:
+  remove Python 3.8 Support tag
+
+*python-matter-server-1.0.8 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +python-matter-server-1.0.8.ebuild:
+  add 1.0.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-1.0.6 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net>
+  +python-matter-server-1.0.6.ebuild:
+  add 1.0.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-matter-server-1.0.7 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-matter-server-1.0.7.ebuild:
+  new package, add 1.0.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,23 @@
+# ChangeLog for dev-python/h2
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  h2-4.1.0.ebuild:
+  Fixes
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -h2-4.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +h2-4.1.0.ebuilde:
+  Fix KEYWORDS
+
+*h2-4.1.0 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr> +h2-4.1.0.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

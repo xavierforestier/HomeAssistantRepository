@@ -1,0 +1,47 @@
+# ChangeLog for dev-python/lektricowifi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lektricowifi-0.0.43.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*lektricowifi-0.1 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +lektricowifi-0.1.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  lektricowifi-0.0.43.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lektricowifi-0.0.42.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -lektricowifi-0.0.42.ebuilde, -lektricowifi-0.0.43.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +lektricowifi-0.0.42.ebuilde, +lektricowifi-0.0.43.ebuilde:
+  Fix KEYWORDS
+
+*lektricowifi-0.0.43 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +lektricowifi-0.0.43.ebuild:
+  add 0.0.43
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4038
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*lektricowifi-0.0.42 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +lektricowifi-0.0.42.ebuild,
+  +metadata.xml:
+  new package, add 0.0.42
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3879
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

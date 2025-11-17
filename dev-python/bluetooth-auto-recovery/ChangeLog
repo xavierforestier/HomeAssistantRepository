@@ -1,0 +1,230 @@
+# ChangeLog for dev-python/bluetooth-auto-recovery
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bluetooth-auto-recovery-1.5.2.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*bluetooth-auto-recovery-1.5.3 (21 Sep 2025)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bluetooth-auto-recovery-1.5.3.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bluetooth-auto-recovery-1.5.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*bluetooth-auto-recovery-1.5.2 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bluetooth-auto-recovery-1.5.2.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bluetooth-auto-recovery-1.4.5.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*bluetooth-auto-recovery-1.5.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bluetooth-auto-recovery-1.5.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bluetooth-auto-recovery-1.3.0.ebuild,
+  -bluetooth-auto-recovery-1.4.0.ebuild,
+  -bluetooth-auto-recovery-1.4.2.ebuild,
+  -bluetooth-auto-recovery-1.4.4.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bluetooth-auto-recovery-1.3.0.ebuild, bluetooth-auto-recovery-1.4.0.ebuild,
+  bluetooth-auto-recovery-1.4.2.ebuild, bluetooth-auto-recovery-1.4.4.ebuild,
+  bluetooth-auto-recovery-1.4.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bluetooth-auto-recovery-1.3.0.ebuild, bluetooth-auto-recovery-1.4.0.ebuild,
+  bluetooth-auto-recovery-1.4.2.ebuild, bluetooth-auto-recovery-1.4.4.ebuild,
+  bluetooth-auto-recovery-1.4.5.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bluetooth-auto-recovery-1.3.0.ebuilde,
+  -bluetooth-auto-recovery-1.4.0.ebuilde,
+  -bluetooth-auto-recovery-1.4.2.ebuilde,
+  -bluetooth-auto-recovery-1.4.4.ebuilde,
+  -bluetooth-auto-recovery-1.4.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bluetooth-auto-recovery-1.3.0.ebuilde,
+  +bluetooth-auto-recovery-1.4.0.ebuilde,
+  +bluetooth-auto-recovery-1.4.2.ebuilde,
+  +bluetooth-auto-recovery-1.4.4.ebuilde,
+  +bluetooth-auto-recovery-1.4.5.ebuilde:
+  Fix KEYWORDS
+
+*bluetooth-auto-recovery-1.4.5 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bluetooth-auto-recovery-1.4.5.ebuild:
+  Homeassistant 2025.4.0
+
+*bluetooth-auto-recovery-1.4.4 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bluetooth-auto-recovery-1.4.4.ebuild:
+  homeassistant 2025.3.0
+
+*bluetooth-auto-recovery-1.4.2 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-1.2.3.ebuild, bluetooth-auto-recovery-1.3.0.ebuild,
+  bluetooth-auto-recovery-1.4.0.ebuild, +bluetooth-auto-recovery-1.4.2.ebuild:
+  drop 1.2.3, add 1.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3321
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-1.4.0 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net>
+  bluetooth-auto-recovery-1.2.3.ebuild, bluetooth-auto-recovery-1.3.0.ebuild,
+  +bluetooth-auto-recovery-1.4.0.ebuild:
+  add 1.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3101
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-1.3.0 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net>
+  bluetooth-auto-recovery-1.2.3.ebuild, +bluetooth-auto-recovery-1.3.0.ebuild:
+  add 1.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2710
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  bluetooth-auto-recovery-1.2.3.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-1.0.3.ebuild,
+  -bluetooth-auto-recovery-1.2.0.ebuild:
+  drop 1.0.3, 1.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-1.2.3 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net>
+  bluetooth-auto-recovery-1.0.3.ebuild, bluetooth-auto-recovery-1.2.0.ebuild,
+  +bluetooth-auto-recovery-1.2.3.ebuild:
+  add 1.2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-1.2.0 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-0.3.6.ebuild,
+  -bluetooth-auto-recovery-1.0.0.ebuild, bluetooth-auto-recovery-1.0.3.ebuild,
+  +bluetooth-auto-recovery-1.2.0.ebuild:
+  add 1.2.0, drop olds, fix 1.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  bluetooth-auto-recovery-0.3.6.ebuild, bluetooth-auto-recovery-1.0.0.ebuild,
+  bluetooth-auto-recovery-1.0.3.ebuild:
+  remove Python 3.8 Support tag
+
+*bluetooth-auto-recovery-1.0.3 (18 Dec 2022)
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-0.5.5.ebuild,
+  +bluetooth-auto-recovery-1.0.3.ebuild:
+  add 1.0.3, drop 0.5.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-1.0.0 (13 Dec 2022)
+
+  13 Dec 2022; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-0.5.4.ebuild,
+  +bluetooth-auto-recovery-1.0.0.ebuild:
+  add 1.0.0, drop 0.5.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-0.5.5 (09 Dec 2022)
+
+  09 Dec 2022; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-0.3.3.ebuild,
+  +bluetooth-auto-recovery-0.5.5.ebuild, metadata.xml:
+  add 0.5.5, drop 0.3.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-0.5.4 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net>
+  bluetooth-auto-recovery-0.3.3.ebuild, -bluetooth-auto-recovery-0.3.4.ebuild,
+  +bluetooth-auto-recovery-0.5.4.ebuild, metadata.xml:
+  update 0.5.4, PEP517, drop 0.3.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-0.3.6 (21 Oct 2022)
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net>
+  +bluetooth-auto-recovery-0.3.6.ebuild:
+  bump bluetooth-auto-recovery-0.3.6
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  bluetooth-auto-recovery-0.3.3.ebuild, bluetooth-auto-recovery-0.3.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bluetooth-auto-recovery-0.3.4 (11 Oct 2022)
+
+  11 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-0.3.2.ebuild,
+  +bluetooth-auto-recovery-0.3.4.ebuild:
+  bump bluetooth-auto-recovery-0.3.4
+
+*bluetooth-auto-recovery-0.3.3 (14 Sep 2022)
+
+  14 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-0.3.1.ebuild,
+  +bluetooth-auto-recovery-0.3.3.ebuild:
+  bump bluetooth-auto-recovery-0.3.3
+
+*bluetooth-auto-recovery-0.3.2 (09 Sep 2022)
+
+  09 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -bluetooth-auto-recovery-0.3.0.ebuild,
+  +bluetooth-auto-recovery-0.3.2.ebuild:
+  bump bluetooth-auto-recovery-0.3.2
+
+*bluetooth-auto-recovery-0.3.1 (07 Sep 2022)
+
+  07 Sep 2022; Andreas Billmeier <b@edevau.net>
+  +bluetooth-auto-recovery-0.3.1.ebuild:
+  update bluetooth-auto-recovery-0.3.1
+
+*bluetooth-auto-recovery-0.3.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net>
+  +bluetooth-auto-recovery-0.3.0.ebuild, +metadata.xml:
+  add bluetooth-auto-recovery-0.3.0
+

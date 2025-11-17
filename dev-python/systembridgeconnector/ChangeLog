@@ -1,0 +1,150 @@
+# ChangeLog for dev-python/systembridgeconnector
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -systembridgeconnector-4.1.10.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*systembridgeconnector-5.1.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/systembridgeconnector-5.1.0-requirement.patch,
+  +systembridgeconnector-5.1.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -systembridgeconnector-4.1.5.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*systembridgeconnector-4.1.10 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/systembridgeconnector-4.1.10-requirement.patch,
+  +systembridgeconnector-4.1.10.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  systembridgeconnector-4.1.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -systembridgeconnector-3.10.0.ebuild, -systembridgeconnector-4.0.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -systembridgeconnector-3.10.0.ebuilde, -systembridgeconnector-4.0.3.ebuilde,
+  -systembridgeconnector-4.1.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +systembridgeconnector-3.10.0.ebuilde, +systembridgeconnector-4.0.3.ebuilde,
+  +systembridgeconnector-4.1.5.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  systembridgeconnector-3.10.0.ebuild, systembridgeconnector-4.0.3.ebuild,
+  systembridgeconnector-4.1.5.ebuild:
+  enable py3.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3771
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgeconnector-4.1.5 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +systembridgeconnector-4.1.5.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -systembridgeconnector-3.8.4.ebuild:
+  drop 3.8.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgeconnector-4.0.3 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net>
+  systembridgeconnector-3.8.4.ebuild, systembridgeconnector-3.10.0.ebuild,
+  +systembridgeconnector-4.0.3.ebuild:
+  add 4.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3151
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgeconnector-3.10.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +systembridgeconnector-3.10.0.ebuild:
+  add 3.10.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2495
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net>
+  -systembridgeconnector-3.4.8.ebuild, -systembridgeconnector-3.8.2.ebuild:
+  drop 3.4.8, 3.8.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgeconnector-3.8.4 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +systembridgeconnector-3.8.4.ebuild:
+  add 3.8.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgeconnector-3.8.2 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net>
+  -systembridgeconnector-3.4.4.ebuild, systembridgeconnector-3.4.8.ebuild,
+  +systembridgeconnector-3.8.2.ebuild:
+  drop 3.4.4, add 3.8.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgeconnector-3.4.8 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net>
+  -systembridgeconnector-3.3.2.ebuild, systembridgeconnector-3.4.4.ebuild,
+  +systembridgeconnector-3.4.8.ebuild:
+  3.4.8, drop 3.3.2, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  systembridgeconnector-3.3.2.ebuild, systembridgeconnector-3.4.4.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  systembridgeconnector-3.3.2.ebuild, systembridgeconnector-3.4.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*systembridgeconnector-3.4.4 (16 Aug 2022)
+
+  16 Aug 2022; Andreas Billmeier <b@edevau.net>
+  -systembridgeconnector-3.1.5.ebuild, systembridgeconnector-3.3.2.ebuild,
+  +systembridgeconnector-3.4.4.ebuild:
+  update systembridgeconnector-3.3.2
+
+*systembridgeconnector-3.3.2 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net>
+  systembridgeconnector-3.1.5.ebuild, +systembridgeconnector-3.3.2.ebuild:
+  bump systembridgeconnector-3.3.2
+
+*systembridgeconnector-3.1.5 (16 Jul 2022)
+
+  16 Jul 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +systembridgeconnector-3.1.5.ebuild:
+  add systembridgeconnector-3.1.5
+

@@ -1,0 +1,241 @@
+# ChangeLog for dev-python/aioambient
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioambient-2024.8.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioambient-2024.1.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioambient-2024.1.0.ebuilde, -aioambient-2024.8.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioambient-2024.1.0.ebuilde, +aioambient-2024.8.0.ebuilde:
+  Fix KEYWORDS
+
+*aioambient-2024.8.0 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -aioambient-2023.4.0.ebuild,
+  aioambient-2024.1.0.ebuild, +aioambient-2024.8.0.ebuild:
+  add 2024.8.0, drop 2023.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3547
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioambient-2024.1.0 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> aioambient-2023.4.0.ebuild,
+  +aioambient-2024.1.0.ebuild:
+  add 2024.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2746
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> -aioambient-2021.11.0.ebuild:
+  drop 2021.11.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> aioambient-2021.11.0.ebuild,
+  aioambient-2023.4.0.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioambient-2023.4.0 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -aioambient-2022.10.0.ebuild,
+  +aioambient-2023.4.0.ebuild:
+  add 2023.4.0, drop 2022.10.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aioambient-2022.10.0 (07 Apr 2023)
+
+  07 Apr 2023; Andreas Billmeier <b@edevau.net> aioambient-2021.11.0.ebuild,
+  +aioambient-2022.10.0.ebuild:
+  add 2022.10.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aioambient-2021.11.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aioambient-2021.11.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aioambient-1.3.0.ebuild,
+  -aioambient-2021.10.1.ebuild, aioambient-2021.11.0.ebuild,
+  -aioambient-2021.12.0.ebuild:
+  rework, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aioambient-1.3.0.ebuild,
+  aioambient-2021.10.1.ebuild, aioambient-2021.11.0.ebuild,
+  aioambient-2021.12.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aioambient-1.3.0.ebuild,
+  aioambient-2021.10.1.ebuild, aioambient-2021.11.0.ebuild,
+  aioambient-2021.12.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aioambient-2021.12.0 (04 Dec 2021)
+*aioambient-2021.11.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> -aioambient-1.2.4.ebuild,
+  -aioambient-1.2.5.ebuild, -aioambient-1.2.6.ebuild,
+  +aioambient-2021.11.0.ebuild, +aioambient-2021.12.0.ebuild:
+  bump aioambient-2021.11.0, aioambient-2021.12.0
+
+*aioambient-2021.10.1 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +aioambient-2021.10.1.ebuild:
+  bump aioambient-2021.10.1
+
+*aioambient-1.3.0 (31 Aug 2021)
+
+  31 Aug 2021; Andreas Billmeier <b@edevau.net> -aioambient-1.2.1.ebuild,
+  +aioambient-1.3.0.ebuild:
+  update aioambient-1.3.0
+
+*aioambient-1.2.6 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> +aioambient-1.2.6.ebuild:
+  aioambient-1.2.6update aioambient-1.2.6
+
+*aioambient-1.2.5 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +aioambient-1.2.5.ebuild:
+  update aioambient-1.2.5
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> -aioambient-1.0.4.ebuild,
+  -aioambient-1.1.0.ebuild, -aioambient-1.1.1.ebuild,
+  -aioambient-1.2.0.ebuild, aioambient-1.2.4.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+*aioambient-1.2.4 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> -aioambient-0.3.2.ebuild,
+  -aioambient-1.0.2.ebuild, +aioambient-1.2.4.ebuild:
+  bump aioambient-1.2.4
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> aioambient-0.3.2.ebuild,
+  aioambient-1.0.2.ebuild, aioambient-1.0.4.ebuild, aioambient-1.1.0.ebuild,
+  aioambient-1.1.1.ebuild, aioambient-1.2.0.ebuild, aioambient-1.2.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aioambient-1.2.1 (10 Aug 2020)
+
+  10 Aug 2020; Andreas Billmeier <b@edevau.net> -aioambient-0.3.1.ebuild,
+  +aioambient-1.2.1.ebuild:
+  bump aioambient-1.2.1
+
+*aioambient-1.2.0 (01 Aug 2020)
+
+  01 Aug 2020; Andreas Billmeier <b@edevau.net> +aioambient-1.2.0.ebuild:
+  bump aioambient-1.2.0
+
+*aioambient-1.1.1 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> -aioambient-0.3.0.ebuild,
+  +aioambient-1.1.1.ebuild:
+  bump aioambient-1.1.1
+
+*aioambient-1.1.0 (31 Mar 2020)
+
+  31 Mar 2020; Andreas Billmeier <b@edevau.net> +aioambient-1.1.0.ebuild:
+  bump aioambient-1.1.0
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -aioambient-0.1.3.ebuild,
+  -aioambient-0.2.0.ebuild:
+  clean up, romove olds
+
+*aioambient-1.0.4 (25 Feb 2020)
+
+  25 Feb 2020; Andreas Billmeier <b@edevau.net> +aioambient-1.0.4.ebuild:
+  bump aioambient-1.0.4
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> aioambient-1.0.2.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> aioambient-0.1.3.ebuild,
+  aioambient-0.2.0.ebuild, aioambient-0.3.0.ebuild, aioambient-0.3.1.ebuild,
+  aioambient-0.3.2.ebuild, aioambient-1.0.2.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*aioambient-1.0.2 (12 Dec 2019)
+
+  12 Dec 2019; Andreas Billmeier <b@edevau.net> +aioambient-1.0.2.ebuild:
+  bump aioambient-1.0.2
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> aioambient-0.1.3.ebuild,
+  aioambient-0.2.0.ebuild, aioambient-0.3.0.ebuild, aioambient-0.3.1.ebuild,
+  aioambient-0.3.2.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*aioambient-0.3.2 (15 Aug 2019)
+
+  15 Aug 2019; Andreas Billmeier <b@edevau.net> -aioambient-0.1.2.ebuild,
+  +aioambient-0.3.2.ebuild:
+  bump aioambient-0.3.2
+
+*aioambient-0.3.1 (17 Jun 2019)
+
+  17 Jun 2019; Andreas Billmeier <b@edevau.net> -aioambient-0.1.1.ebuild,
+  +aioambient-0.3.1.ebuild:
+  bump aioambient-0.3.1
+
+  12 Jun 2019; Andreas Billmeier <b@edevau.net> -aioambient-0.1.0.ebuild:
+  remove olds
+
+*aioambient-0.3.0 (13 Apr 2019)
+
+  13 Apr 2019; Andreas Billmeier <b@edevau.net> +aioambient-0.3.0.ebuild:
+  aioambient-0.3.0
+
+*aioambient-0.2.0 (06 Apr 2019)
+
+  06 Apr 2019; Andreas Billmeier <b@edevau.net> +aioambient-0.2.0.ebuild:
+  bump aioambient-0.2.0
+
+*aioambient-0.1.3 (03 Mar 2019)
+
+  03 Mar 2019; Andreas Billmeier <b@edevau.net> +aioambient-0.1.3.ebuild,
+  metadata.xml:
+  bump aioambient-0.1.3
+
+  17 Feb 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  aioambient-0.1.2.ebuild:
+  aioambient-0.1.2 deps
+
+*aioambient-0.1.2 (16 Feb 2019)
+
+  16 Feb 2019; Andreas Billmeier <b@edevau.net> +aioambient-0.1.2.ebuild:
+  aioambient-0.1.2
+
+*aioambient-0.1.1 (13 Feb 2019)
+*aioambient-0.1.0 (13 Feb 2019)
+
+  13 Feb 2019; Andreas Billmeier <b@edevau.net> +aioambient-0.1.0.ebuild,
+  +aioambient-0.1.1.ebuild, +metadata.xml:
+  add aioambient-0.1.1
+

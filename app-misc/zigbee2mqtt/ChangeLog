@@ -1,0 +1,250 @@
+# ChangeLog for app-misc/zigbee2mqtt
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  07 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/zigbee2mqtt-build-fix.patch:
+  app-misc/zigbee2mqtt
+
+*zigbee2mqtt-2.6.3 (07 Nov 2025)
+
+  07 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigbee2mqtt-2.6.0.ebuild, +zigbee2mqtt-2.6.3.ebuild:
+  2.6.3
+
+*zigbee2mqtt-2.6.2 (03 Oct 2025)
+
+  03 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigbee2mqtt-2.5.1.ebuild, +zigbee2mqtt-2.6.2.ebuild:
+  2.6.2
+
+*zigbee2mqtt-2.6.1 (09 Sep 2025)
+
+  09 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigbee2mqtt-2.5.0.ebuild, +zigbee2mqtt-2.6.1.ebuild:
+  2.6.1
+
+  05 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/zigbee2mqtt-build-fix.patch, zigbee2mqtt-2.6.0.ebuild:
+  2.6.0
+
+*zigbee2mqtt-2.6.0 (04 Aug 2025)
+
+  04 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigbee2mqtt-2.4.0.ebuild, +zigbee2mqtt-2.6.0.ebuild:
+  2.6.0
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigbee2mqtt-2.2.1.ebuild, -zigbee2mqtt-2.3.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zigbee2mqtt-2.2.1.ebuild, zigbee2mqtt-2.3.0.ebuild,
+  zigbee2mqtt-2.4.0.ebuild, zigbee2mqtt-2.5.0.ebuild,
+  zigbee2mqtt-2.5.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*zigbee2mqtt-2.5.1 (06 Jul 2025)
+
+  06 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigbee2mqtt-2.5.1.ebuild:
+  2.5.1
+
+*zigbee2mqtt-2.5.0 (06 Jul 2025)
+
+  06 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigbee2mqtt-2.5.0.ebuild:
+  2.5.0
+
+*zigbee2mqtt-2.4.0 (07 Jun 2025)
+
+  07 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigbee2mqtt-2.2.0.ebuild, +zigbee2mqtt-2.4.0.ebuild:
+  2.4.0
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zigbee2mqtt-2.2.0.ebuild, zigbee2mqtt-2.2.1.ebuild,
+  zigbee2mqtt-2.3.0.ebuild:
+  Fix for pkgcheck
+
+*zigbee2mqtt-2.3.0 (03 May 2025)
+
+  03 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigbee2mqtt-2.3.0.ebuild:
+  homeassistant-2025.4.4 & zigbee2mqtt-2.3.0
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigbee2mqtt-2.1.0.ebuild, -zigbee2mqtt-2.1.1.ebuild,
+  -zigbee2mqtt-2.1.2.ebuild, -zigbee2mqtt-2.1.3.ebuild:
+  Cleansing orphans
+
+*zigbee2mqtt-2.2.1 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-2.2.1.ebuild:
+  zigbee2mqtt-2.2.1
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  zigbee2mqtt-2.1.0.ebuild, zigbee2mqtt-2.1.1.ebuild,
+  zigbee2mqtt-2.1.2.ebuild, zigbee2mqtt-2.1.3.ebuild,
+  zigbee2mqtt-2.2.0.ebuild:
+  spellcheck
+
+*zigbee2mqtt-2.2.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zigbee2mqtt-1.35.2.ebuild, -zigbee2mqtt-1.39.1.ebuild,
+  -zigbee2mqtt-1.40.1.ebuild, -zigbee2mqtt-1.40.2.ebuild,
+  -zigbee2mqtt-1.41.0.ebuild, -zigbee2mqtt-1.42.0.ebuild,
+  -zigbee2mqtt-2.0.0.ebuild, zigbee2mqtt-2.1.0.ebuild,
+  zigbee2mqtt-2.1.1.ebuild, zigbee2mqtt-2.1.2.ebuild,
+  zigbee2mqtt-2.1.3.ebuild, +zigbee2mqtt-2.2.0.ebuild:
+  spellcheck
+
+*zigbee2mqtt-2.1.3 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-2.1.3.ebuild:
+  zigbee2mqtt 2.1.3
+
+*zigbee2mqtt-2.1.2 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-2.1.2.ebuild:
+  zigbee2mqtt 2.1.2
+
+*zigbee2mqtt-2.1.1 (10 Feb 2025)
+
+  10 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-2.1.1.ebuild:
+  zigbee2mqtt-2.1.1
+
+*zigbee2mqtt-2.1.0 (10 Feb 2025)
+
+  10 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-2.1.0.ebuild:
+  zigbee2mqtt 2.1.0
+
+*zigbee2mqtt-2.0.0 (10 Feb 2025)
+
+  10 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-2.0.0.ebuild:
+  zigbee2mqtt-2.0.0
+
+*zigbee2mqtt-1.42.0 (08 Dec 2024)
+
+  08 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  -files/zigbee2mqtt-1.42.0-node_modules.tar.xz, +zigbee2mqtt-1.42.0.ebuild:
+  zigbee2mqtt 1.42.0
+
+  08 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/zigbee2mqtt-1.42.0-node_modules.tar.xz:
+  .
+
+*zigbee2mqtt-1.41.0 (11 Nov 2024)
+
+  11 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zigbee2mqtt-1.41.0-node_modules.tar.xz, +zigbee2mqtt-1.41.0.ebuild:
+  zigbee2mqtt 1.41.0
+
+  11 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-1.41.0-node_modules.tar.xz:
+  WIP
+
+*zigbee2mqtt-1.40.2 (29 Oct 2024)
+
+  29 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-1.40.2.ebuild:
+  zigbee2mqtt 1.40.2
+
+*zigbee2mqtt-1.40.1 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-1.40.1.ebuild:
+  Zigbee2mqtt 1.40.1
+
+*zigbee2mqtt-1.39.1 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigbee2mqtt-1.39.1.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*zigbee2mqtt-1.35.2 (02 Feb 2024)
+
+  02 Feb 2024; INODE64 <web@inode64.com> files/zigbee2mqtt,
+  -zigbee2mqtt-1.34.0.ebuild, +zigbee2mqtt-1.35.2.ebuild:
+  Update zigbee2mqtt
+
+  Signed-off-by: INODE64 <web@inode64.com>
+
+  14 Dec 2023; INODE64 <web@inode64.com> files/zigbee2mqtt,
+  files/zigbee2mqtt.service, zigbee2mqtt-1.34.0.ebuild:
+  Update nodejs.eclass
+  Fix initial installation of zigbee2mqtt
+  New version node-red 3.1.3
+  Refactoring zigbee2mqtt
+
+  Signed-off-by: INODE64 <web@inode64.com>
+
+*zigbee2mqtt-1.34.0 (05 Dec 2023)
+
+  05 Dec 2023; INODE64 <web@inode64.com> files/zigbee2mqtt,
+  files/zigbee2mqtt.service, -zigbee2mqtt-1.33.2.ebuild,
+  +zigbee2mqtt-1.34.0.ebuild:
+  Update zigbee2mqtt and fix init
+
+  Signed-off-by: INODE64 <web@inode64.com>
+
+*zigbee2mqtt-1.33.2 (20 Nov 2023)
+
+  20 Nov 2023; INODE64 <web@inode64.com> -zigbee2mqtt-1.30.1.ebuild,
+  -zigbee2mqtt-1.30.2.ebuild, +zigbee2mqtt-1.33.2.ebuild:
+  Update zigbee2mqtt and nodejs eclass
+
+  Signed-off-by: INODE64 <web@inode64.com>
+
+*zigbee2mqtt-1.30.2 (06 Mar 2023)
+
+  06 Mar 2023; INODE64 <ffelix@inode64.com> +zigbee2mqtt-1.30.2.ebuild:
+  Update eclass to fix small bug
+  Update zigbee2mqtt to 1.30.2
+  Fix Manifest
+
+  Check with pkgcheck 0.10.22
+
+  Signed-off-by: INODE64 <ffelix@inode64.com>
+
+  24 Feb 2023; Fco Javier Felix <ffelix@inode64.com>
+  zigbee2mqtt-1.30.1.ebuild:
+  use nodejs-mod_src_install  in a similar way as with
+  distutils-r1_python_install
+  Fix function names in nodejs-mod.eclass
+  remove dep files in nodejs-pack.eclass too
+
+*zigbee2mqtt-1.30.1 (20 Feb 2023)
+
+  20 Feb 2023; INODE64 <ffelix@inode64.com> +files/zigbee2mqtt,
+  +files/zigbee2mqtt.conf, +files/zigbee2mqtt.service, +metadata.xml,
+  +zigbee2mqtt-1.30.1.ebuild:
+  Include eclass for new nodejs ebuilds
+  New packages (zigbee2mqtt and node-red) from my gentoo overlay
+  (https://github.com/inode64/inode64-overlay)
+
+  Signed-off-by: INODE64 <ffelix@inode64.com>
+
+  20 Feb 2023; INODE64 <ffelix@inode64.com> -files/zigbee2mqtt,
+  -files/zigbee2mqtt.conf, -files/zigbee2mqtt.service, -metadata.xml,
+  -zigbee2mqtt-1.30.1.ebuild:
+  Revert "Include eclass for new nodejs ebuilds"
+
+  This reverts commit ddb5532108040145810fea070b660f3fb2d6f2e6.
+
+*zigbee2mqtt-1.30.1 (20 Feb 2023)
+
+  20 Feb 2023; INODE64 <ffelix@inode64.com> +files/zigbee2mqtt,
+  +files/zigbee2mqtt.conf, +files/zigbee2mqtt.service, +metadata.xml,
+  +zigbee2mqtt-1.30.1.ebuild:
+  Include eclass for new nodejs ebuilds
+  New packages (zigbee2mqtt and node-red) from my gentoo overlay
+  (https://github.com/inode64/inode64-overlay)
+

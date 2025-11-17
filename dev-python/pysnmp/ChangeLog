@@ -1,0 +1,100 @@
+# ChangeLog for dev-python/pysnmp
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, -pysnmp-6.2.5.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pysnmp-6.2.5.ebuild, pysnmp-6.2.6.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pysnmp-6.2.5.ebuilde, -pysnmp-6.2.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysnmp-6.2.5.ebuilde, +pysnmp-6.2.6.ebuilde:
+  Fix KEYWORDS
+
+*pysnmp-6.2.5 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysnmp-6.2.5.ebuild:
+  homeassistant 2024.9.3
+
+*pysnmp-6.2.6 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysnmp-6.2.6.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+  08 Mar 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pysnmp-4.4.12-r1.ebuild:
+  remove dupe (to main)
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pysnmp-4.4.12-r1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> pysnmp-4.4.12-r1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  29 Aug 2021; Andreas Billmeier <b@edevau.net> pysnmp-4.4.12-r1.ebuild:
+  mark 'knows-as-good-for-long' packages stable
+
+*pysnmp-4.4.12-r1 (18 Jun 2021)
+
+  18 Jun 2021; Andreas Billmeier <b@edevau.net> -pysnmp-4.4.12.ebuild,
+  +pysnmp-4.4.12-r1.ebuild:
+  add a useflag for requested crypto in pysnmp-4.4.12
+
+  15 Jun 2021; INODE64 <ffelix@inode64.com> pysnmp-4.4.12.ebuild:
+  Pycryptodomex is required for SNMPv3 encryption
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> pysnmp-4.4.12.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -pysnmp-4.4.11.ebuild,
+  pysnmp-4.4.12.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pysnmp-4.4.11.ebuild,
+  pysnmp-4.4.12.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> pysnmp-4.4.12.ebuild:
+  remove beta flags from good working core modules
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pysnmp-4.4.12.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pysnmp-4.4.11.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> pysnmp-4.4.12.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pysnmp-4.4.11.ebuild,
+  pysnmp-4.4.12.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*pysnmp-4.4.12 (06 Nov 2019)
+
+  06 Nov 2019; Andreas Billmeier <b@edevau.net> +pysnmp-4.4.12.ebuild:
+  bump pysnmp-4.4.12
+
+*pysnmp-4.4.11 (06 Nov 2019)
+
+  06 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pysnmp-4.4.11.ebuild:
+  add pysnmp-4.4.11
+

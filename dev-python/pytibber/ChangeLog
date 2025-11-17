@@ -1,0 +1,50 @@
+# ChangeLog for dev-python/pytibber
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytibber-0.32.1.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytibber-0.31.6.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*pytibber-0.32.2 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pytibber-0.32.2.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*pytibber-0.32.1 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pytibber-0.32.1.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytibber-0.31.2.ebuild:
+  Cleansing
+
+*pytibber-0.31.6 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pytibber-0.31.6.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytibber-0.30.8.ebuild:
+  clean oldies
+
+*pytibber-0.31.2 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pytibber-0.31.2.ebuild:
+  homeassistant 2025.5.2
+
+*pytibber-0.30.8 (10 May 2025)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pytibber-0.30.8.ebuild:
+  pkgcheck
+

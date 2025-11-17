@@ -1,0 +1,65 @@
+# ChangeLog for dev-python/pyownet
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyownet-0.10.0_p1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyownet-0.10.0_p1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyownet-0.10.0_p1.ebuilde:
+  Fix KEYWORDS
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyownet-0.10.0_p1.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> pyownet-0.10.0_p1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyownet-0.10.0_p1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyownet-0.10.0_p1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -pyownet-0.10.0.ebuild,
+  pyownet-0.10.0_p1.ebuild:
+  remove olds, cleanup, enable pytest
+
+*pyownet-0.10.0_p1 (26 May 2022)
+
+  26 May 2022; Andreas Billmeier <b@edevau.net>
+  +files/pyownet-0.10.0_p1-2to3.patch, pyownet-0.10.0.ebuild,
+  +pyownet-0.10.0_p1.ebuild:
+  update pyownet-0.10.0_p1
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net>
+  +files/pyownet-0.10.0-2to3.patch, pyownet-0.10.0.ebuild:
+  fix pyownet-0.10.0, remove 2to3.9 incompatibility for setuptools>58
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyownet-0.10.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyownet-0.10.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pyownet-0.10.0 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyownet-0.10.0.ebuild:
+  add pyownet-0.10.0
+

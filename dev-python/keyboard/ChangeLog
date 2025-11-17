@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/keyboard
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  keyboard-0.13.5.ebuild, +metadata.xml:
+  pkcheck
+
+*keyboard-0.13.5 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +keyboard-0.13.5.ebuild:
+  app-misc/homeassistant 2025.9.0
+

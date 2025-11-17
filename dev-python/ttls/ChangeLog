@@ -1,0 +1,72 @@
+# ChangeLog for dev-python/ttls
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ttls-1.8.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ttls-1.5.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -ttls-1.5.1.ebuilde, -ttls-1.8.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ttls-1.5.1.ebuilde, +ttls-1.8.3.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> ttls-1.5.1.ebuild,
+  ttls-1.8.3.ebuild:
+  enable py3.13 and disable py3.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3794
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ttls-1.8.3 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> +ttls-1.8.3.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -ttls-1.4.3.ebuild,
+  ttls-1.5.1.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> ttls-1.4.3.ebuild,
+  ttls-1.5.1.ebuild:
+  remove Python 3.8 Support tag
+
+*ttls-1.5.1 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  ttls-1.4.3.ebuild, +ttls-1.5.1.ebuild:
+  update 1.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -ttls-1.4.2.ebuild,
+  ttls-1.4.3.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> ttls-1.4.2.ebuild,
+  ttls-1.4.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*ttls-1.4.3 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> +ttls-1.4.3.ebuild:
+  bump ttls-1.4.3
+
+*ttls-1.4.2 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +ttls-1.4.2.ebuild:
+  add ttls-1.4.2
+  add colour-0.1.5
+  add d2to1-0.2.12_p1
+

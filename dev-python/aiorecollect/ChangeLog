@@ -1,0 +1,112 @@
+# ChangeLog for dev-python/aiorecollect
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiorecollect-2023.9.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiorecollect-2023.9.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiorecollect-2023.9.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aiorecollect-2023.9.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aiorecollect-1.0.8.ebuild:
+  drop 1.0.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aiorecollect-1.0.8.ebuild,
+  aiorecollect-2023.9.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiorecollect-2023.9.0 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> +aiorecollect-2023.9.0.ebuild:
+  add 2023.9.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiorecollect-1.0.8.ebuild:
+  DISTUTILS_USE_PEP517=poetry
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiorecollect-1.0.8.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiorecollect-1.0.8.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiorecollect-1.0.8.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aiorecollect-1.0.5.ebuild,
+  -aiorecollect-1.0.7.ebuild, aiorecollect-1.0.8.ebuild:
+  rework, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiorecollect-1.0.5.ebuild,
+  aiorecollect-1.0.7.ebuild, aiorecollect-1.0.8.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> aiorecollect-1.0.7.ebuild,
+  aiorecollect-1.0.8.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aiorecollect-1.0.8 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -aiorecollect-1.0.1.ebuild,
+  -aiorecollect-1.0.4.ebuild, +aiorecollect-1.0.8.ebuild:
+  update aiorecollect-1.0.8
+
+*aiorecollect-1.0.7 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +aiorecollect-1.0.7.ebuild:
+  update aiorecollect-1.0.7
+
+*aiorecollect-1.0.5 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -aiorecollect-0.2.1.ebuild,
+  -aiorecollect-0.2.2.ebuild, aiorecollect-1.0.4.ebuild,
+  +aiorecollect-1.0.5.ebuild:
+  bump aiorecollect-1.0.5
+
+*aiorecollect-1.0.4 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +aiorecollect-1.0.4.ebuild:
+  bump aiorecollect-1.0.4
+
+*aiorecollect-1.0.1 (14 Dec 2020)
+
+  14 Dec 2020; Andreas Billmeier <b@edevau.net> +aiorecollect-1.0.1.ebuild:
+  bump aiorecollect-1.0.1
+
+*aiorecollect-0.2.2 (01 Dec 2020)
+
+  01 Dec 2020; Andreas Billmeier <b@edevau.net> +aiorecollect-0.2.2.ebuild:
+  update aiorecollect-0.2.2
+
+*aiorecollect-0.2.1 (12 Nov 2020)
+
+  12 Nov 2020; Andreas Billmeier <b@edevau.net> +aiorecollect-0.2.1.ebuild,
+  +metadata.xml:
+  add aiorecollect-0.2.1
+

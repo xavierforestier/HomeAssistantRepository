@@ -1,0 +1,66 @@
+# ChangeLog for dev-python/pyusb
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyusb-1.3.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*pyusb-1.3.1 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -files/pyusb-1.2.1-setuptools.patch, -pyusb-1.2.1-r2.ebuild,
+  +pyusb-1.3.1.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyusb-1.2.1-r2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyusb-1.2.1-r2.ebuilde:
+  Fix KEYWORDS
+
+*pyusb-1.2.1-r2 (25 Feb 2024)
+
+  25 Feb 2024; Andreas Billmeier <b@edevau.net>
+  +files/pyusb-1.2.1-setuptools.patch, +metadata.xml, +pyusb-1.2.1-r2.ebuild:
+  new package, add 1.2.1-r2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pyusb-1.0.2.ebuild:
+  remove olds: pyusb
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyusb-1.0.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyusb-1.0.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyusb-1.0.2.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyusb-1.0.2.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  02 Dec 2019; Andreas Billmeier <b@edevau.net> pyusb-1.0.2.ebuild:
+  fix uri.https (111 cases)
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> pyusb-1.0.2.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*pyusb-1.0.2 (22 Jun 2019)
+
+  22 Jun 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyusb-1.0.2.ebuild:
+  add BlinkStick & pyusb
+

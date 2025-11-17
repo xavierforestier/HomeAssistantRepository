@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/auth0-python
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  app-misc/homeassistant 2025.10.0
+
+*auth0-python-4.10.0 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +auth0-python-4.10.0.ebuild, +files/auth0-python-build-system.patch:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+

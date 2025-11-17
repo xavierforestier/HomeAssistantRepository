@@ -1,0 +1,37 @@
+# ChangeLog for dev-python/coinbase-advanced-py
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  coinbase-advanced-py-1.2.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  coinbase-advanced-py-1.2.2.ebuild, files/rename-coinbase.patch:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  coinbase-advanced-py-1.2.2.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -coinbase-advanced-py-1.2.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +coinbase-advanced-py-1.2.2.ebuilde:
+  Fix KEYWORDS
+
+  23 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  coinbase-advanced-py-1.2.2.ebuild, +files/rename-coinbase.patch:
+  This is a f*king nightmare :'(
+
+*coinbase-advanced-py-1.2.2 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net>
+  +coinbase-advanced-py-1.2.2.ebuild, +metadata.xml:
+  new package, add 1.2.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3595
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

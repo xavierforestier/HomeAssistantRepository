@@ -1,0 +1,69 @@
+# ChangeLog for dev-python/hass-splunk
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hass-splunk-0.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -hass-splunk-0.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hass-splunk-0.1.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hass-splunk-0.1.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.1.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.1.ebuild:
+  hass-splunk-0.1.1 fix RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -hass-splunk-0.1.0.ebuild:
+  remove abandoned packages and Ebuilds
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> hass-splunk-0.1.0.ebuild,
+  hass-splunk-0.1.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*hass-splunk-0.1.1 (07 Oct 2020)
+
+  07 Oct 2020; Andreas Billmeier <b@edevau.net> hass-splunk-0.1.0.ebuild,
+  +hass-splunk-0.1.1.ebuild:
+  update hass-splunk-0.1.0, bump hass-splunk-0.1.1
+
+*hass-splunk-0.1.0 (20 Sep 2020)
+
+  20 Sep 2020; Andreas Billmeier <b@edevau.net> +hass-splunk-0.1.0.ebuild,
+  +metadata.xml:
+  add hass-splunk-0.1.0
+

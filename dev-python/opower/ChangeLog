@@ -1,0 +1,317 @@
+# ChangeLog for dev-python/opower
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.15.7.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+*opower-0.15.9 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.15.6.ebuild, +opower-0.15.9.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*opower-0.15.8 (25 Oct 2025)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.15.5.ebuild, +opower-0.15.8.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*opower-0.15.7 (21 Oct 2025)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.15.7.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+*opower-0.15.6 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.15.6.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.15.4.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*opower-0.15.5 (21 Sep 2025)
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.15.5.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.15.2.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.15.1.ebuild:
+  app-misc/homeassistant 2025.9.1
+
+*opower-0.15.4 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.15.4.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*opower-0.15.2 (23 Aug 2025)
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.15.2.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.12.4.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*opower-0.15.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.15.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.12.3.ebuild:
+  app-misc/homeassistant 2025.6.3
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.12.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.12.0.ebuild:
+  clean oldies
+
+*opower-0.12.4 (17 Jun 2025)
+
+  17 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.12.4.ebuild:
+  homeassistant-2025.6.1
+
+*opower-0.12.3 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.12.3.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.11.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*opower-0.12.1 (24 May 2025)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.12.1.ebuild:
+  app-misc/homeassistant 2025.5.3
+
+*opower-0.12.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.12.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  opower-0.11.1.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  opower-0.11.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.9.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -opower-0.4.4.ebuild, -opower-0.4.7.ebuild, -opower-0.8.3.ebuild,
+  -opower-0.8.6.ebuild, -opower-0.8.7.ebuild, -opower-0.8.9.ebuild:
+  Cleansing orphans
+
+*opower-0.11.1 (14 Apr 2025)
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +opower-0.11.1.ebuild:
+  homeassistant-2025.4.2
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -opower-0.4.4.ebuilde, -opower-0.4.7.ebuilde, -opower-0.8.3.ebuilde,
+  -opower-0.8.6.ebuilde, -opower-0.8.7.ebuilde, -opower-0.8.9.ebuilde,
+  -opower-0.9.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +opower-0.4.4.ebuilde, +opower-0.4.7.ebuilde, +opower-0.8.3.ebuilde,
+  +opower-0.8.6.ebuilde, +opower-0.8.7.ebuilde, +opower-0.8.9.ebuilde,
+  +opower-0.9.0.ebuilde:
+  Fix KEYWORDS
+
+*opower-0.9.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +opower-0.9.0.ebuild:
+  homeassistant 2025.3.0
+
+*opower-0.8.9 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +opower-0.8.9.ebuild:
+  homeassisstant-2025.2.0
+
+*opower-0.8.7 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +opower-0.8.7.ebuild:
+  homeassistant 2025.1.1
+
+*opower-0.8.6 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +opower-0.8.6.ebuild:
+  add 0.8.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4049
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> -opower-0.3.1.ebuild,
+  -opower-0.4.3.ebuild:
+  drop 0.3.1, 0.4.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.8.3 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net> +opower-0.8.3.ebuild:
+  add 0.8.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3960
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.4.7 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> +opower-0.4.7.ebuild:
+  add 0.4.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3494
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.4.4 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -opower-0.1.0.ebuild,
+  opower-0.3.1.ebuild, opower-0.4.3.ebuild, +opower-0.4.4.ebuild:
+  drop 0.1.0, add 0.4.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3289
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -opower-0.0.39.ebuild:
+  drop 0.0.39
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> -opower-0.4.2.ebuild:
+  drop 0.4.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.4.3 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +opower-0.4.3.ebuild:
+  add 0.4.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3185
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> -opower-0.2.0.ebuild:
+  drop 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.4.2 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> opower-0.0.39.ebuild,
+  opower-0.1.0.ebuild, opower-0.2.0.ebuild, opower-0.3.1.ebuild,
+  +opower-0.4.2.ebuild:
+  add 0.4.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3175
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.3.1 (28 Feb 2024)
+
+  28 Feb 2024; Andreas Billmeier <b@edevau.net> -opower-0.0.36.ebuild,
+  +opower-0.3.1.ebuild:
+  add 0.3.1, drop 0.0.36
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2929
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.2.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> opower-0.0.36.ebuild,
+  opower-0.0.39.ebuild, opower-0.1.0.ebuild, +opower-0.2.0.ebuild:
+  add 0.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2833
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.1.0 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> +opower-0.1.0.ebuild:
+  add 0.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2628
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -opower-0.0.38.ebuild:
+  drop 0.0.38
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  05 Nov 2023; Andreas Billmeier <b@edevau.net> -opower-0.0.35.ebuild:
+  drop 0.0.35
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.0.39 (05 Nov 2023)
+
+  05 Nov 2023; Andreas Billmeier <b@edevau.net> +opower-0.0.39.ebuild:
+  add 0.0.39
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2369
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -opower-0.0.37.ebuild:
+  drop 0.0.37
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.0.37 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> opower-0.0.35.ebuild,
+  opower-0.0.36.ebuild, +opower-0.0.37.ebuild, opower-0.0.38.ebuild:
+  installs 'demo', add missing 0.0.37
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2346
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.0.38 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +opower-0.0.38.ebuild:
+  add 0.0.38
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.0.36 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +opower-0.0.36.ebuild:
+  add 0.0.36
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*opower-0.0.35 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +opower-0.0.35.ebuild:
+  new package, add 0.0.35
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

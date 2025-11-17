@@ -1,0 +1,213 @@
+# ChangeLog for dev-python/boto3
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -boto3-1.34.131.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  boto3-1.37.1.ebuild:
+  Fixes
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  boto3-1.37.1.ebuild:
+  homeassistant 2025.5.1 deps
+
+*boto3-1.37.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +boto3-1.37.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  boto3-1.34.131.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -boto3-1.34.51.ebuild, boto3-1.34.131.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -boto3-1.34.131.ebuilde, -boto3-1.34.51.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +boto3-1.34.131.ebuilde, +boto3-1.34.51.ebuilde:
+  Fix KEYWORDS
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  boto3-1.34.131.ebuild:
+  homeassistant 2025.1.1
+
+*boto3-1.34.131 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -boto3-1.33.13.ebuild,
+  +boto3-1.34.131.ebuild:
+  add 1.34.131, drop 1.33.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3545
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*boto3-1.34.51 (11 May 2024)
+
+  11 May 2024; Andreas Billmeier <b@edevau.net> -boto3-1.28.17.ebuild,
+  boto3-1.33.13.ebuild, +boto3-1.34.51.ebuild:
+  re-add old version from Gentoo Archive
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3236
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*boto3-1.33.13 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> boto3-1.28.17.ebuild,
+  +boto3-1.33.13.ebuild:
+  add 1.33.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2744
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -boto3-1.20.24.ebuild:
+  drop 1.20.24
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*boto3-1.28.17 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> -boto3-1.16.52.ebuild,
+  +boto3-1.28.17.ebuild:
+  add 1.28.17, drop 1.16.52
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> boto3-1.16.52.ebuild,
+  boto3-1.20.24.ebuild:
+  update
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> boto3-1.20.24.ebuild:
+  add path to find in boto3-1.20.24
+
+*boto3-1.20.24 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -boto3-1.9.252.ebuild,
+  +boto3-1.20.24.ebuild:
+  update boto3-1.20.24
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> boto3-1.9.252.ebuild,
+  boto3-1.16.52.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> boto3-1.16.52.ebuild:
+  cleanup, add new Python Targets, Letter 'A'
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -boto3-1.9.233.ebuild,
+  -boto3-1.9.233-r2.ebuild, boto3-1.9.252.ebuild, boto3-1.16.52.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+*boto3-1.16.52 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> -boto3-1.9.115.ebuild,
+  -boto3-1.9.116.ebuild, -boto3-1.9.233-r1.ebuild, +boto3-1.16.52.ebuild:
+  restored boto3-1.16.52 from main repo
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> boto3-1.9.115.ebuild,
+  boto3-1.9.116.ebuild, boto3-1.9.233.ebuild, boto3-1.9.233-r1.ebuild,
+  boto3-1.9.233-r2.ebuild, boto3-1.9.252.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -boto3-1.9.35.ebuild,
+  -boto3-1.9.57.ebuild:
+  clean up, romove olds
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> boto3-1.9.252.ebuild:
+  remove beta flags from good working core modules
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> boto3-1.9.252.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: B
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> boto3-1.9.35.ebuild,
+  boto3-1.9.57.ebuild, boto3-1.9.115.ebuild, boto3-1.9.116.ebuild,
+  boto3-1.9.233.ebuild, boto3-1.9.233-r1.ebuild, boto3-1.9.233-r2.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> boto3-1.9.252.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  18 Nov 2019; Andreas Billmeier <b@edevau.net> boto3-1.9.252.ebuild:
+  fix typo in boto3-1.9.252.ebuild
+
+*boto3-1.9.252 (15 Nov 2019)
+
+  15 Nov 2019; Andreas Billmeier <b@edevau.net> -boto3-1.9.16.ebuild,
+  +boto3-1.9.252.ebuild:
+  update boto3-1.9.252
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> boto3-1.9.16.ebuild,
+  boto3-1.9.35.ebuild, boto3-1.9.57.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+*boto3-1.9.233-r2 (04 Nov 2019)
+
+  04 Nov 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  +boto3-1.9.233-r2.ebuild:
+  now it runs on Python 3.7
+
+*boto3-1.9.233-r1 (04 Nov 2019)
+
+  04 Nov 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  +boto3-1.9.233-r1.ebuild:
+  use newer s3transfer
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> boto3-1.9.233.ebuild:
+  drop support for obsolete python versions
+
+*boto3-1.9.233 (03 Oct 2019)
+
+  03 Oct 2019; Andreas Billmeier <b@edevau.net> +boto3-1.9.233.ebuild:
+  bump boto3-1.9.233
+
+*boto3-1.9.116 (19 Mar 2019)
+
+  19 Mar 2019; Andreas Billmeier <b@edevau.net> +boto3-1.9.116.ebuild:
+  bump boto3-1.9.116
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> boto3-1.9.115.ebuild:
+  bump s3transfer-0.2.0
+
+*boto3-1.9.115 (17 Mar 2019)
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> +boto3-1.9.115.ebuild:
+  update boto3/botocore
+
+  09 Jan 2019; Andreas Billmeier <b@edevau.net> boto3-1.9.57.ebuild:
+  set PYTHON_COMPAT=( python3_{6,7} )
+
+  06 Jan 2019; Andreas Billmeier <b@edevau.net> boto3-1.9.57.ebuild:
+  Python 3.7 -> boto3-1.9.57
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+*boto3-1.9.57 (30 Nov 2018)
+
+  30 Nov 2018; Andreas Billmeier <b@edevau.net> +boto3-1.9.57.ebuild:
+  homeassistant-0.83.1, and some more system-wide python libs.
+
+*boto3-1.9.35 (01 Nov 2018)
+
+  01 Nov 2018; Andreas Billmeier <b@edevau.net> +boto3-1.9.35.ebuild:
+  several backports from deps
+
+*boto3-1.9.16 (29 Oct 2018)
+
+  29 Oct 2018; Andreas Billmeier <b@edevau.net> +boto3-1.9.16.ebuild:
+  release homeassistant-0.81.1
+

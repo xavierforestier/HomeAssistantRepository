@@ -1,0 +1,76 @@
+# ChangeLog for dev-python/go2rtc-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  go2rtc-client-0.2.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  go2rtc-client-0.2.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -go2rtc-client-0.1.2.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*go2rtc-client-0.2.1 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +go2rtc-client-0.2.1.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  go2rtc-client-0.1.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -go2rtc-client-0.0.1_beta3.ebuild, -go2rtc-client-0.1.0.ebuild,
+  -go2rtc-client-0.1.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -go2rtc-client-0.0.1_beta3.ebuilde, -go2rtc-client-0.1.0.ebuilde,
+  -go2rtc-client-0.1.1.ebuilde, -go2rtc-client-0.1.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +go2rtc-client-0.0.1_beta3.ebuilde, +go2rtc-client-0.1.0.ebuilde,
+  +go2rtc-client-0.1.1.ebuilde, +go2rtc-client-0.1.2.ebuilde:
+  Fix KEYWORDS
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  go2rtc-client-0.1.2.ebuild:
+  homeassisstant-2025.2.0
+
+*go2rtc-client-0.1.2 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  go2rtc-client-0.1.1.ebuild, +go2rtc-client-0.1.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  go2rtc-client-0.1.1.ebuild:
+  Homeassistant 2024.11.2
+
+*go2rtc-client-0.1.1 (17 Nov 2024)
+
+  17 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +go2rtc-client-0.1.1.ebuild:
+  homeassitant 2024.11.2 and its deps
+
+*go2rtc-client-0.1.0 (10 Nov 2024)
+
+  10 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +go2rtc-client-0.1.0.ebuild:
+  Homeassistant 2024.11.1 + it's dependencies :)
+
+*go2rtc-client-0.0.1_beta3 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +go2rtc-client-0.0.1_beta3.ebuild, +metadata.xml:
+  new package, add 0.0.1_beta3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4020
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,182 @@
+# ChangeLog for dev-python/nibe
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*nibe-2.19.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +nibe-2.19.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nibe-2.17.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*nibe-2.18.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +nibe-2.18.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  nibe-2.17.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nibe-2.14.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nibe-2.8.0.ebuild, -nibe-2.11.0.ebuild, -nibe-2.13.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -nibe-2.11.0.ebuilde, -nibe-2.13.0.ebuilde, -nibe-2.14.0.ebuilde,
+  -nibe-2.17.0.ebuilde, -nibe-2.8.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nibe-2.11.0.ebuilde, +nibe-2.13.0.ebuilde, +nibe-2.14.0.ebuilde,
+  +nibe-2.17.0.ebuilde, +nibe-2.8.0.ebuilde:
+  Fix KEYWORDS
+
+*nibe-2.17.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nibe-2.17.0.ebuild:
+  Homeassistant 2025.4.0
+
+  30 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr> nibe-2.13.0.ebuild:
+  Update USE flags
+
+*nibe-2.14.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nibe-2.14.0.ebuild:
+  homeassistant 2025.1.1
+
+*nibe-2.13.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nibe-2.13.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -nibe-2.5.2.ebuild:
+  drop 2.5.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-2.11.0 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> nibe-2.5.2.ebuild,
+  nibe-2.8.0.ebuild, +nibe-2.11.0.ebuild:
+  add 2.11.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3711
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> -nibe-2.2.0.ebuild,
+  -nibe-2.4.0.ebuild:
+  drop 2.2.0, 2.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-2.8.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> nibe-2.2.0.ebuild,
+  nibe-2.4.0.ebuild, nibe-2.5.2.ebuild, +nibe-2.8.0.ebuild:
+  add 2.8.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2831
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-2.5.2 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +nibe-2.5.2.ebuild:
+  add 2.5.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2468
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -nibe-2.1.4.ebuild:
+  drop 2.1.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-2.4.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +nibe-2.4.0.ebuild:
+  add 2.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2289
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-2.2.0 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +nibe-2.2.0.ebuild:
+  add 2.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -nibe-0.5.0.ebuild,
+  -nibe-1.6.0.ebuild, -nibe-2.0.0.ebuild, nibe-2.1.4.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-2.1.4 (16 Mar 2023)
+
+  16 Mar 2023; Andreas Billmeier <b@edevau.net> -nibe-1.3.0-r1.ebuild,
+  +nibe-2.1.4.ebuild:
+  add 2.1.4, drop 1.3.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-2.0.0 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +nibe-2.0.0.ebuild:
+  add 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> nibe-0.5.0.ebuild,
+  nibe-1.3.0-r1.ebuild, nibe-1.6.0.ebuild:
+  remove Python 3.8 Support tag
+
+*nibe-1.6.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> +nibe-1.6.0.ebuild:
+  add 1.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-1.3.0-r1 (03 Jan 2023)
+
+  03 Jan 2023; Andreas Billmeier <b@edevau.net> -nibe-1.3.0.ebuild,
+  +nibe-1.3.0-r1.ebuild:
+  update nibe-1.3.0-r1, add missing depency, fixes #195
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-1.3.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +nibe-1.3.0.ebuild:
+  add 1.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> nibe-0.5.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nibe-0.5.0 (05 Oct 2022)
+
+  05 Oct 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +nibe-0.5.0.ebuild:
+  add uModbus-1.0.4
+  add nibe-0.5.0
+  add connio-0.2.0
+  add async-modbus-0.2.1
+

@@ -1,0 +1,33 @@
+# ChangeLog for dev-python/bx-py-utils
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bx-py-utils-75.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bx-py-utils-75.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bx-py-utils-75.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  bx-py-utils-75.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> bx-py-utils-75.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bx-py-utils-75 (12 Feb 2023)
+
+  12 Feb 2023; Andreas Billmeier <b@edevau.net> +bx-py-utils-75.ebuild,
+  +metadata.xml:
+  new package, add 75
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

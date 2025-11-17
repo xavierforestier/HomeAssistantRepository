@@ -1,0 +1,272 @@
+# ChangeLog for dev-python/ical
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ical-10.0.4.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*ical-11.0.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ical-11.0.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ical-10.0.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*ical-10.0.4 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ical-9.2.4.ebuild, +ical-10.0.4.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  18 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ical-9.2.0.ebuild:
+  clean oldies
+
+*ical-10.0.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ical-10.0.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ical-9.1.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*ical-9.2.4 (17 May 2025)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ical-9.2.4.ebuild:
+  homeassistant 2025.5.2
+
+*ical-9.2.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ical-9.2.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -ical-8.0.0.ebuild, -ical-8.0.1.ebuild, -ical-8.1.1.ebuild,
+  -ical-8.2.0.ebuild, -ical-8.3.0.ebuild, -ical-9.0.3.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  ical-8.0.0.ebuild, ical-8.0.1.ebuild, ical-8.1.1.ebuild, ical-8.2.0.ebuild,
+  ical-8.3.0.ebuild, ical-9.0.3.ebuild, ical-9.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*ical-9.1.0 (14 Apr 2025)
+
+  14 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +ical-9.1.0.ebuild:
+  homeassistant-2025.4.2
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -ical-8.0.0.ebuilde, -ical-8.0.1.ebuilde, -ical-8.1.1.ebuilde,
+  -ical-8.2.0.ebuilde, -ical-8.3.0.ebuilde, -ical-9.0.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +ical-8.0.0.ebuilde, +ical-8.0.1.ebuilde, +ical-8.1.1.ebuilde,
+  +ical-8.2.0.ebuilde, +ical-8.3.0.ebuilde, +ical-9.0.3.ebuilde:
+  Fix KEYWORDS
+
+*ical-9.0.3 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> +ical-9.0.3.ebuild:
+  Homeassistant 2025.4.0
+
+*ical-8.3.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr> +ical-8.3.0.ebuild:
+  homeassisstant-2025.2.0
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -ical-7.0.3.ebuild:
+  drop 7.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-8.2.0 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +ical-8.2.0.ebuild:
+  add 8.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3858
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-8.1.1 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> +ical-8.1.1.ebuild:
+  homeassistant 2024.10.0_beta4
+
+*ical-8.2.0 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr> +ical-8.2.0.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*ical-8.0.1 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> -ical-6.1.1.ebuild,
+  ical-7.0.3.ebuild, ical-8.0.0.ebuild, +ical-8.0.1.ebuild:
+  drop 6.1.1, add 8.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3411
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-8.0.0 (28 Apr 2024)
+
+  28 Apr 2024; Andreas Billmeier <b@edevau.net> +ical-8.0.0.ebuild:
+  add 8.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3224
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -ical-6.1.0.ebuild,
+  -ical-7.0.0.ebuild, -ical-7.0.1.ebuild:
+  drop 6.1.0, 7.0.0, 7.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/n
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-7.0.3 (24 Mar 2024)
+
+  24 Mar 2024; Andreas Billmeier <b@edevau.net> +ical-7.0.3.ebuild:
+  add 7.0.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3086
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-7.0.1 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> +ical-7.0.1.ebuild:
+  add 7.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3067
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-7.0.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -ical-5.0.1.ebuild,
+  -ical-5.1.0.ebuild, ical-6.1.0.ebuild, ical-6.1.1.ebuild,
+  +ical-7.0.0.ebuild:
+  drop 5.1.0, drop 5.0.1, add 7.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2972
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-6.1.1 (17 Dec 2023)
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> +ical-6.1.1.ebuild:
+  add 6.1.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2532
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2531
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-6.1.0 (23 Nov 2023)
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> +ical-6.1.0.ebuild:
+  add 6.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -ical-4.2.9.ebuild,
+  -ical-4.5.1.ebuild:
+  drop 4.2.9, 4.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-5.1.0 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +ical-5.1.0.ebuild:
+  add 5.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-5.0.1 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net> ical-4.2.9.ebuild,
+  ical-4.5.1.ebuild, +ical-5.0.1.ebuild:
+  add 5.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.5.1 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -ical-4.2.4.ebuild,
+  ical-4.2.9.ebuild, +ical-4.5.1.ebuild:
+  add 4.5.1, update SRC_URI, drop old
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  26 Feb 2023; Andreas Billmeier <b@edevau.net> -ical-4.2.3.ebuild,
+  -ical-4.2.8.ebuild:
+  drop 4.2.3, 4.2.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.2.9 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> ical-4.2.3.ebuild,
+  ical-4.2.4.ebuild, ical-4.2.8.ebuild, +ical-4.2.9.ebuild:
+  add 4.2.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.2.8 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net> -ical-4.2.2.ebuild,
+  +ical-4.2.8.ebuild:
+  add 4.2.8, drop 4.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.2.4 (24 Dec 2022)
+
+  24 Dec 2022; Andreas Billmeier <b@edevau.net> +ical-4.2.4.ebuild:
+  add 4.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.2.3 (18 Dec 2022)
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> -ical-4.2.1.ebuild,
+  +ical-4.2.3.ebuild:
+  add 4.2.3, drop 4.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.2.2 (09 Dec 2022)
+
+  09 Dec 2022; Andreas Billmeier <b@edevau.net> -ical-4.1.0.ebuild,
+  -ical-4.1.1.ebuild, ical-4.2.1.ebuild, +ical-4.2.2.ebuild:
+  bump 4.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.2.1 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> +ical-4.2.1.ebuild,
+  metadata.xml:
+  add 4.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.1.1 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> ical-4.1.0.ebuild,
+  +ical-4.1.1.ebuild:
+  bump 4.1.1, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*ical-4.1.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +ical-4.1.0.ebuild,
+  +metadata.xml:
+  new package, add 4.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

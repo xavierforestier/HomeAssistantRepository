@@ -1,0 +1,30 @@
+# ChangeLog for dev-python/volvocarsapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*volvocarsapi-0.4.3 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +volvocarsapi-0.4.3.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -volvocarsapi-0.4.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  volvocarsapi-0.4.1.ebuild, volvocarsapi-0.4.2.ebuild:
+  pkcheck
+
+*volvocarsapi-0.4.2 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +volvocarsapi-0.4.2.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*volvocarsapi-0.4.1 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +volvocarsapi-0.4.1.ebuild:
+  app-misc/homeassistant 2025.8.0
+

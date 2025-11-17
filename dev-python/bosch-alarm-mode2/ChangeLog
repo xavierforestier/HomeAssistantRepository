@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/bosch-alarm-mode2
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bosch-alarm-mode2-0.4.3.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*bosch-alarm-mode2-0.4.6 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bosch-alarm-mode2-0.4.6.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bosch-alarm-mode2-0.4.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bosch-alarm-mode2-0.4.3.ebuild, +metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bosch-alarm-mode2-0.4.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  bosch-alarm-mode2-0.4.3.ebuild, +bosch-alarm-mode2-0.4.3.ebuilde:
+  Fix KEYWORDS
+
+*bosch-alarm-mode2-0.4.3 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bosch-alarm-mode2-0.4.3.ebuild:
+  Homeassistant 2025.4.0
+

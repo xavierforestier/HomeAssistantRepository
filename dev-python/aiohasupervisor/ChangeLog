@@ -1,0 +1,105 @@
+# ChangeLog for dev-python/aiohasupervisor
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohasupervisor-0.3.3_beta0.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohasupervisor-0.3.2.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aiohasupervisor-0.3.3 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohasupervisor-0.3.3.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*aiohasupervisor-0.3.3_beta0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohasupervisor-0.3.3_beta0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohasupervisor-0.3.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aiohasupervisor-0.3.2 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohasupervisor-0.3.2.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohasupervisor-0.3.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*aiohasupervisor-0.3.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohasupervisor-0.3.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiohasupervisor-0.3.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiohasupervisor-0.1.0.ebuild, -aiohasupervisor-0.2.1.ebuild,
+  -aiohasupervisor-0.2.2_beta5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiohasupervisor-0.1.0.ebuilde, -aiohasupervisor-0.2.1.ebuilde,
+  -aiohasupervisor-0.2.2_beta5.ebuilde, -aiohasupervisor-0.3.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohasupervisor-0.1.0.ebuilde, +aiohasupervisor-0.2.1.ebuilde,
+  +aiohasupervisor-0.2.2_beta5.ebuilde, +aiohasupervisor-0.3.0.ebuilde:
+  Fix KEYWORDS
+
+*aiohasupervisor-0.3.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohasupervisor-0.3.0.ebuild:
+  homeassisstant-2025.2.0
+
+*aiohasupervisor-0.2.2_beta5 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiohasupervisor-0.2.2_beta5.ebuild:
+  homeassistant 2025.1.1
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -aiohasupervisor-0.2.0.ebuild:
+  drop 0.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohasupervisor-0.2.1 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +aiohasupervisor-0.2.1.ebuild:
+  add 0.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4096
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohasupervisor-0.2.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> +aiohasupervisor-0.2.0.ebuild:
+  add 0.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4024
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiohasupervisor-0.1.0 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +aiohasupervisor-0.1.0.ebuild,
+  +metadata.xml:
+  new package, add 0.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3865
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

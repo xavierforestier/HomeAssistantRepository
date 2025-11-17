@@ -1,0 +1,110 @@
+# ChangeLog for dev-python/hyperion-py
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hyperion-py-0.7.5.ebuild:
+  Cleansing
+
+*hyperion-py-0.7.6 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +hyperion-py-0.7.6.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  hyperion-py-0.7.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -hyperion-py-0.7.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +hyperion-py-0.7.5.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  hyperion-py-0.7.5.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Feb 2023; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.5.ebuild:
+  0.7.5: fix top level violation
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -hyperion-py-0.7.4.ebuild,
+  hyperion-py-0.7.5.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.4.ebuild,
+  hyperion-py-0.7.5.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+*hyperion-py-0.7.5 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> -hyperion-py-0.7.0.ebuild,
+  hyperion-py-0.7.4.ebuild, +hyperion-py-0.7.5.ebuild:
+  bump hyperion-py-0.7.5
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.0.ebuild,
+  hyperion-py-0.7.4.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.4.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  29 Aug 2021; Andreas Billmeier <b@edevau.net> hyperion-py-0.7.4.ebuild:
+  mark 'knows-as-good-for-long' packages stable
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -hyperion-py-0.3.0.ebuild,
+  -hyperion-py-0.6.0.ebuild, -hyperion-py-0.6.1.ebuild,
+  hyperion-py-0.7.4.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for the rest of the -min Ebuild
+  (untested)
+
+*hyperion-py-0.7.4 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> +hyperion-py-0.7.4.ebuild:
+  bump hyperion-py-0.7.4
+
+*hyperion-py-0.7.0 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> +hyperion-py-0.7.0.ebuild:
+  bump hyperion-py-0.7.0
+
+*hyperion-py-0.6.1 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> +hyperion-py-0.6.1.ebuild:
+  update hyperion-py-0.6.1
+
+*hyperion-py-0.6.0 (01 Dec 2020)
+
+  01 Dec 2020; Andreas Billmeier <b@edevau.net> +hyperion-py-0.6.0.ebuild:
+  update hyperion-py-0.6.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> hyperion-py-0.3.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*hyperion-py-0.3.0 (01 Oct 2020)
+
+  01 Oct 2020; Andreas Billmeier <b@edevau.net> +hyperion-py-0.3.0.ebuild,
+  +metadata.xml:
+  add hyperion-py-0.3.0
+

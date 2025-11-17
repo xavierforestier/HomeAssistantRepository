@@ -1,0 +1,55 @@
+# ChangeLog for dev-python/pywmspro
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  15 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pywmspro-0.3.0.ebuild:
+  app-misc/homeassistant 2025.8.1
+
+*pywmspro-0.3.2 (29 Jul 2025)
+
+  29 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pywmspro-0.3.2.ebuild:
+  app-misc/homeassistant 2025.7.4
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pywmspro-0.2.2.ebuild:
+  Cleansing
+
+*pywmspro-0.3.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pywmspro-0.3.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pywmspro-0.2.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*pywmspro-0.2.2 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pywmspro-0.2.2.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pywmspro-0.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pywmspro-0.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pywmspro-0.2.1.ebuilde:
+  Fix KEYWORDS
+
+*pywmspro-0.2.1 (18 Oct 2024)
+
+  18 Oct 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pywmspro-0.2.1.ebuild:
+  new package, add 0.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3965
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

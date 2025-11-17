@@ -1,0 +1,53 @@
+# ChangeLog for dev-python/amqtt
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  amqtt-0.10.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -amqtt-0.10.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +amqtt-0.10.1.ebuilde:
+  Fix KEYWORDS
+
+  22 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  amqtt-0.10.1.ebuild:
+  Some fixes :) for homeassistant 2024.10.2
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  amqtt-0.10.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> amqtt-0.10.1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> amqtt-0.10.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> amqtt-0.10.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*amqtt-0.10.1 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> +amqtt-0.10.1.ebuild,
+  +metadata.xml:
+  amqtt-0.10.1 added
+

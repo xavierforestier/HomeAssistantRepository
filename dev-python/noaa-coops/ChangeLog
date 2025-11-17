@@ -1,0 +1,82 @@
+# ChangeLog for dev-python/noaa-coops
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  noaa-coops-0.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -noaa-coops-0.1.9.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -noaa-coops-0.1.9.ebuilde, -noaa-coops-0.4.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +noaa-coops-0.1.9.ebuilde, +noaa-coops-0.4.0.ebuilde:
+  Fix KEYWORDS
+
+*noaa-coops-0.4.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +noaa-coops-0.4.0.ebuild:
+  homeassistant 2025.3.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  noaa-coops-0.1.9.ebuild:
+  homeassistant 2024.12.1
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -noaa-coops-0.1.8.ebuild:
+  drop 0.1.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*noaa-coops-0.1.9 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild,
+  +noaa-coops-0.1.9.ebuild:
+  revert DISTUTILS change, add 0.1.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Jul 2023; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  19 Mar 2022; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild:
+  noaa-coops-0.1.8 fix RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> noaa-coops-0.1.8.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> noaa-coops-0.1.8.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*noaa-coops-0.1.8 (05 Sep 2020)
+
+  05 Sep 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +noaa-coops-0.1.8.ebuild:
+  add noaa-coops-0.1.8
+

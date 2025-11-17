@@ -1,0 +1,85 @@
+# ChangeLog for dev-python/crownstone-sse
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  crownstone-sse-2.0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -crownstone-sse-2.0.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -crownstone-sse-2.0.4.ebuilde, -crownstone-sse-2.0.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +crownstone-sse-2.0.4.ebuilde, +crownstone-sse-2.0.5.ebuilde:
+  Fix KEYWORDS
+
+*crownstone-sse-2.0.5 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> crownstone-sse-2.0.4.ebuild,
+  +crownstone-sse-2.0.5.ebuild, metadata.xml:
+  add 2.0.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3366
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -crownstone-sse-2.0.3.ebuild:
+  drop 2.0.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> crownstone-sse-2.0.3.ebuild,
+  crownstone-sse-2.0.4.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> crownstone-sse-2.0.3.ebuild,
+  crownstone-sse-2.0.4.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> crownstone-sse-2.0.3.ebuild,
+  crownstone-sse-2.0.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> crownstone-sse-2.0.4.ebuild:
+  remove olds, cleanup, enable pytest
+
+*crownstone-sse-2.0.4 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> -crownstone-sse-2.0.2.ebuild,
+  crownstone-sse-2.0.3.ebuild, +crownstone-sse-2.0.4.ebuild:
+  bump crownstone-sse-2.0.4
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> crownstone-sse-2.0.2.ebuild,
+  crownstone-sse-2.0.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*crownstone-sse-2.0.3 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +crownstone-sse-2.0.3.ebuild:
+  bump crownstone-sse-2.0.3
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> crownstone-sse-2.0.2.ebuild:
+  fix two typos
+
+*crownstone-sse-2.0.2 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +crownstone-sse-2.0.2.ebuild,
+  +metadata.xml:
+  add crownstone-cloud-1.4.8
+  add crownstone-core-3.0.1
+  add crownstone-sse-2.0.2
+  add crownstone-uart-2.1.0
+

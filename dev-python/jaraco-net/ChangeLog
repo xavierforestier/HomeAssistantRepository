@@ -1,0 +1,43 @@
+# ChangeLog for dev-python/jaraco-net
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  jaraco-net-10.2.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  07 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  jaraco-net-10.2.3.ebuild:
+  fix dependencies
+
+*jaraco-net-10.2.3 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -jaraco-net-9.3.1.ebuild, +jaraco-net-10.2.3.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -jaraco-net-9.3.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +jaraco-net-9.3.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  jaraco-net-9.3.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> jaraco-net-9.3.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*jaraco-net-9.3.1 (12 Feb 2023)
+
+  12 Feb 2023; Andreas Billmeier <b@edevau.net> +jaraco-net-9.3.1.ebuild,
+  +metadata.xml:
+  new package, add 9.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

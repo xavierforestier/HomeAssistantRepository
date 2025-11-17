@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/iometer
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  25 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -iometer-0.1.0.ebuild:
+  app-misc/homeassistant 2025.10.4
+
+*iometer-0.2.0 (13 Oct 2025)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +iometer-0.2.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  iometer-0.1.0.ebuild, +metadata.xml:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -iometer-0.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  iometer-0.1.0.ebuild, +iometer-0.1.0.ebuilde:
+  Fix KEYWORDS
+
+*iometer-0.1.0 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +iometer-0.1.0.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

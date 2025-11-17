@@ -1,0 +1,48 @@
+# ChangeLog for dev-python/google-cloud-speech
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -google-cloud-speech-2.27.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*google-cloud-speech-2.31.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +google-cloud-speech-2.31.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  google-cloud-speech-2.27.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  metadata.xml:
+  some fixes for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -google-cloud-speech-2.27.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-cloud-speech-2.27.0.ebuilde:
+  Fix KEYWORDS
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  google-cloud-speech-2.27.0.ebuild:
+  Fix deps
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net>
+  google-cloud-speech-2.27.0.ebuild:
+  disable py3.10
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3860
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*google-cloud-speech-2.27.0 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +google-cloud-speech-2.27.0.ebuild, +metadata.xml:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+

@@ -1,0 +1,135 @@
+# ChangeLog for dev-python/pyps4-2ndscreen
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyps4-2ndscreen-1.3.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pyps4-2ndscreen-1.3.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pyps4-2ndscreen-1.3.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pyps4-2ndscreen-1.3.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.3.1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.3.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.3.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.3.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -pyps4-2ndscreen-1.2.0.ebuild,
+  pyps4-2ndscreen-1.3.1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.3.1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.2.0.ebuild,
+  pyps4-2ndscreen-1.3.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pyps4-2ndscreen-1.3.1 (01 Feb 2022)
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +pyps4-2ndscreen-1.3.1.ebuild:
+  update pyps4-2ndscreen-1.3.1
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -pyps4-2ndscreen-1.0.6.ebuild,
+  -pyps4-2ndscreen-1.0.7.ebuild, -pyps4-2ndscreen-1.1.0.ebuild,
+  -pyps4-2ndscreen-1.1.1.ebuild, pyps4-2ndscreen-1.2.0.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+*pyps4-2ndscreen-1.2.0 (19 Dec 2020)
+
+  19 Dec 2020; Andreas Billmeier <b@edevau.net> -pyps4-2ndscreen-1.0.3.ebuild,
+  -pyps4-2ndscreen-1.0.4.ebuild, +pyps4-2ndscreen-1.2.0.ebuild:
+  update pyps4-2ndscreen-1.2.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pyps4-2ndscreen-1.0.3.ebuild,
+  pyps4-2ndscreen-1.0.4.ebuild, pyps4-2ndscreen-1.0.6.ebuild,
+  pyps4-2ndscreen-1.0.7.ebuild, pyps4-2ndscreen-1.1.0.ebuild,
+  pyps4-2ndscreen-1.1.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.0.3.ebuild,
+  pyps4-2ndscreen-1.0.4.ebuild, pyps4-2ndscreen-1.0.6.ebuild,
+  pyps4-2ndscreen-1.0.7.ebuild, pyps4-2ndscreen-1.1.0.ebuild,
+  pyps4-2ndscreen-1.1.1.ebuild:
+  'requirements.txt' is missing in pyps4-2ndscreen, fix
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/68
+
+*pyps4-2ndscreen-1.1.1 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> -pyps4-2ndscreen-1.0.1.ebuild,
+  +pyps4-2ndscreen-1.1.1.ebuild:
+  bump pyps4-2ndscreen-1.1.1
+
+*pyps4-2ndscreen-1.1.0 (27 Jun 2020)
+
+  27 Jun 2020; Andreas Billmeier <b@edevau.net> +pyps4-2ndscreen-1.1.0.ebuild:
+  bump pyps4-2ndscreen-1.1.0
+
+*pyps4-2ndscreen-1.0.7 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> +pyps4-2ndscreen-1.0.7.ebuild:
+  bump pyps4-2ndscreen-1.0.7
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.0.6.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> pyps4-2ndscreen-1.0.1.ebuild,
+  pyps4-2ndscreen-1.0.3.ebuild, pyps4-2ndscreen-1.0.4.ebuild,
+  pyps4-2ndscreen-1.0.6.ebuild:
+  minor code cleanups
+
+*pyps4-2ndscreen-1.0.6 (30 Jan 2020)
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> +pyps4-2ndscreen-1.0.6.ebuild:
+  bump pyps4-2ndscreen-1.0.6
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*pyps4-2ndscreen-1.0.4 (04 Jan 2020)
+
+  04 Jan 2020; Andreas Billmeier <b@edevau.net> +pyps4-2ndscreen-1.0.4.ebuild:
+  bump pyps4-2ndscreen-1.0.4
+
+*pyps4-2ndscreen-1.0.1 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +pyps4-2ndscreen-1.0.1.ebuild:
+  dg pyps4-2ndscreen-1.0.1
+
+*pyps4-2ndscreen-1.0.3 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pyps4-2ndscreen-1.0.3.ebuild:
+  add pyps4-2ndscreen-1.0.3
+

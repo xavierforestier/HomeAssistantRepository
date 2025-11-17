@@ -1,0 +1,80 @@
+# ChangeLog for dev-python/xbox-webapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  xbox-webapi-2.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -xbox-webapi-2.0.11.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -xbox-webapi-2.0.11.ebuilde, -xbox-webapi-2.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xbox-webapi-2.0.11.ebuilde, +xbox-webapi-2.1.0.ebuilde:
+  Fix KEYWORDS
+
+*xbox-webapi-2.1.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xbox-webapi-2.1.0.ebuild:
+  homeassistant 2025.1.1
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  xbox-webapi-2.0.11.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> xbox-webapi-2.0.11.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> xbox-webapi-2.0.11.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> xbox-webapi-2.0.11.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> xbox-webapi-2.0.11.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> xbox-webapi-2.0.11.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -xbox-webapi-2.0.7.ebuild,
+  -xbox-webapi-2.0.8.ebuild:
+  remove abandoned packages and Ebuilds
+
+*xbox-webapi-2.0.11 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +xbox-webapi-2.0.11.ebuild:
+  bump xbox-webapi-2.0.11
+
+  25 Nov 2020; Andreas Billmeier <b@edevau.net> xbox-webapi-2.0.7.ebuild,
+  xbox-webapi-2.0.8.ebuild:
+  update xbox-webapi licenses
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> xbox-webapi-2.0.7.ebuild,
+  xbox-webapi-2.0.8.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*xbox-webapi-2.0.8 (15 Oct 2020)
+
+  15 Oct 2020; Andreas Billmeier <b@edevau.net> +xbox-webapi-2.0.8.ebuild:
+  bump xbox-webapi-2.0.8
+
+*xbox-webapi-2.0.7 (13 Oct 2020)
+
+  13 Oct 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +xbox-webapi-2.0.7.ebuild:
+  add xbox-webapi-2.0.7
+

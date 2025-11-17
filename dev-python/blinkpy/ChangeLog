@@ -1,0 +1,288 @@
+# ChangeLog for dev-python/blinkpy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*blinkpy-0.24.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +blinkpy-0.24.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  blinkpy-0.23.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -blinkpy-0.22.6.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -blinkpy-0.22.6.ebuilde, -blinkpy-0.23.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +blinkpy-0.22.6.ebuilde, +blinkpy-0.23.0.ebuilde:
+  Fix KEYWORDS
+
+*blinkpy-0.23.0 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -blinkpy-0.22.3.ebuild,
+  -blinkpy-0.22.4.ebuild, blinkpy-0.22.6.ebuild, +blinkpy-0.23.0.ebuild:
+  add 0.23.0, drop olds
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3577
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> blinkpy-0.22.3.ebuild,
+  blinkpy-0.22.4.ebuild, -blinkpy-0.22.5.ebuild, blinkpy-0.22.6.ebuild:
+  drop 0.22.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blinkpy-0.22.6 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +blinkpy-0.22.6.ebuild:
+  add 0.22.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2755
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blinkpy-0.22.5 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> blinkpy-0.22.3.ebuild,
+  blinkpy-0.22.4.ebuild, +blinkpy-0.22.5.ebuild:
+  add 0.22.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2708
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  28 Dec 2023; Andreas Billmeier <b@edevau.net> -blinkpy-0.21.0-r1.ebuild:
+  drop 0.21.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blinkpy-0.22.4 (28 Dec 2023)
+
+  28 Dec 2023; Andreas Billmeier <b@edevau.net> +blinkpy-0.22.4.ebuild:
+  add 0.22.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2549
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -blinkpy-0.22.2.ebuild:
+  drop 0.22.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blinkpy-0.22.3 (10 Nov 2023)
+
+  10 Nov 2023; Andreas Billmeier <b@edevau.net> +blinkpy-0.22.3.ebuild:
+  add 0.22.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2378
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -blinkpy-0.19.2.ebuild:
+  drop 0.19.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blinkpy-0.21.0-r1 (31 Oct 2023)
+
+  31 Oct 2023; Andreas Billmeier <b@edevau.net> -blinkpy-0.21.0.ebuild,
+  +blinkpy-0.21.0-r1.ebuild:
+  fix a typo in 0.21.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blinkpy-0.22.2 (31 Oct 2023)
+
+  31 Oct 2023; Andreas Billmeier <b@edevau.net> +blinkpy-0.22.2.ebuild:
+  add 0.22.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*blinkpy-0.21.0 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net> blinkpy-0.19.2.ebuild,
+  +blinkpy-0.21.0.ebuild:
+  add 0.21.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -blinkpy-0.19.0.ebuild:
+  drop 0.19.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> blinkpy-0.19.0.ebuild,
+  blinkpy-0.19.2.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> blinkpy-0.19.0.ebuild,
+  blinkpy-0.19.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> blinkpy-0.19.0.ebuild,
+  blinkpy-0.19.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> blinkpy-0.19.2.ebuild:
+  remove olds, cleanup, enable pytest
+
+*blinkpy-0.19.2 (14 Sep 2022)
+
+  14 Sep 2022; Andreas Billmeier <b@edevau.net> -blinkpy-0.18.0.ebuild,
+  blinkpy-0.19.0.ebuild, +blinkpy-0.19.2.ebuild:
+  bump blinkpy-0.19.2
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> blinkpy-0.18.0.ebuild,
+  blinkpy-0.19.0.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+*blinkpy-0.19.0 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> -blinkpy-0.17.0.ebuild,
+  +blinkpy-0.19.0.ebuild:
+  bump blinkpy-0.19.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> blinkpy-0.17.0.ebuild,
+  blinkpy-0.18.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*blinkpy-0.18.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> +blinkpy-0.18.0.ebuild:
+  bump blinkpy-0.18.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> blinkpy-0.17.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  11 Jul 2021; Andreas Billmeier <b@edevau.net> -blinkpy-0.15.0.ebuild,
+  -blinkpy-0.15.1.ebuild, -blinkpy-0.16.3.ebuild, -blinkpy-0.16.4.ebuild,
+  blinkpy-0.17.0.ebuild:
+  cleanup, add new Python Targets, Letter 'B' Integrations
+
+*blinkpy-0.17.0 (17 Feb 2021)
+
+  17 Feb 2021; Andreas Billmeier <b@edevau.net> -blinkpy-0.14.3.ebuild,
+  +blinkpy-0.17.0.ebuild:
+  bump blinkpy-0.17.0
+
+*blinkpy-0.16.4 (24 Nov 2020)
+
+  24 Nov 2020; Andreas Billmeier <b@edevau.net> -blinkpy-0.14.1-r1.ebuild,
+  -blinkpy-0.14.2.ebuild, +blinkpy-0.16.4.ebuild:
+  bump blinkpy-0.16.4
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> blinkpy-0.14.1-r1.ebuild,
+  blinkpy-0.14.2.ebuild, blinkpy-0.14.3.ebuild, blinkpy-0.15.0.ebuild,
+  blinkpy-0.15.1.ebuild, blinkpy-0.16.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> blinkpy-0.15.0.ebuild,
+  blinkpy-0.15.1.ebuild, blinkpy-0.16.3.ebuild:
+  recheck and remove some hard coded version pins
+
+*blinkpy-0.16.3 (11 Aug 2020)
+
+  11 Aug 2020; Andreas Billmeier <b@edevau.net> +blinkpy-0.16.3.ebuild:
+  bump blinkpy-0.16.3
+
+*blinkpy-0.15.1 (12 Jul 2020)
+
+  12 Jul 2020; Andreas Billmeier <b@edevau.net> +blinkpy-0.15.1.ebuild:
+  blinkpy-0.15.1 bumped
+
+*blinkpy-0.15.0 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +blinkpy-0.15.0.ebuild:
+  bump blinkpy-0.15.0
+
+*blinkpy-0.14.3 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> -blinkpy-0.13.1.ebuild,
+  -blinkpy-0.14.0.ebuild, -blinkpy-0.14.1.ebuild, +blinkpy-0.14.3.ebuild:
+  bump blinkpy-0.14.3
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -blinkpy-0.12.1.ebuild:
+  clean up, romove olds
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> blinkpy-0.14.2.ebuild:
+  remove beta flags from good working core modules
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> blinkpy-0.14.2.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: B
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> blinkpy-0.12.1.ebuild,
+  blinkpy-0.13.1.ebuild, blinkpy-0.14.0.ebuild, blinkpy-0.14.1.ebuild,
+  blinkpy-0.14.1-r1.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> blinkpy-0.14.2.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> blinkpy-0.13.1.ebuild,
+  blinkpy-0.14.0.ebuild, blinkpy-0.14.1.ebuild, blinkpy-0.14.1-r1.ebuild,
+  blinkpy-0.14.2.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*blinkpy-0.14.2 (30 Oct 2019)
+
+  30 Oct 2019; Andreas Billmeier <b@edevau.net> +blinkpy-0.14.2.ebuild:
+  bump blinkpy-0.14.2
+
+*blinkpy-0.14.1-r1 (22 Aug 2019)
+
+  22 Aug 2019; Andreas Billmeier <b@edevau.net> -blinkpy-0.11.2.ebuild,
+  +blinkpy-0.14.1-r1.ebuild:
+  loosen blinkpy-0.14.1 deps
+
+  22 Jun 2019; Andreas Billmeier <b@edevau.net> blinkpy-0.14.1.ebuild:
+  unlock blinkpy's dateutil version
+
+*blinkpy-0.14.1 (22 Jun 2019)
+
+  22 Jun 2019; Andreas Billmeier <b@edevau.net> -blinkpy-0.11.1.ebuild,
+  +blinkpy-0.14.1.ebuild:
+  bump blinkpy-0.14.1
+
+*blinkpy-0.14.0 (02 Jun 2019)
+
+  02 Jun 2019; Andreas Billmeier <b@edevau.net> +blinkpy-0.14.0.ebuild:
+  blink motion detection
+
+*blinkpy-0.13.1 (03 Mar 2019)
+
+  03 Mar 2019; Andreas Billmeier <b@edevau.net> +blinkpy-0.13.1.ebuild,
+  +metadata.xml:
+  bump blinkpy-0.13.1
+
+*blinkpy-0.12.1 (01 Feb 2019)
+
+  01 Feb 2019; Andreas Billmeier <b@edevau.net> +blinkpy-0.12.1.ebuild:
+  blinkpy-0.12.1
+
+*blinkpy-0.11.2 (27 Jan 2019)
+*blinkpy-0.11.1 (27 Jan 2019)
+
+  27 Jan 2019; Andreas Billmeier <b@edevau.net> +blinkpy-0.11.1.ebuild,
+  +blinkpy-0.11.2.ebuild:
+  blinkpy added.
+

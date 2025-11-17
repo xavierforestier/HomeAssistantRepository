@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/aiohttp-sse
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiohttp-sse-2.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*aiohttp-sse-2.2.0 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiohttp-sse-2.2.0.ebuild, +metadata.xml:
+  Fix for pkgcheck
+

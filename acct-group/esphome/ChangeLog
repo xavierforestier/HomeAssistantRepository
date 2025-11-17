@@ -1,0 +1,17 @@
+# ChangeLog for acct-group/esphome
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix acct-group/esphome/metadata.xml margins
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> esphome-0.ebuild,
+  metadata.xml:
+  minor code cleanups
+
+*esphome-0 (03 Feb 2020)
+
+  03 Feb 2020; Andreas Billmeier <b@edevau.net> +esphome-0.ebuild,
+  +metadata.xml:
+  homeassistant-0.105.0_beta6
+

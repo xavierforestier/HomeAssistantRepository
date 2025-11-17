@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/meteo-lt-pkg
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*meteo-lt-pkg-0.2.4 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +meteo-lt-pkg-0.2.4.ebuild:
+  app-misc/homeassistant 2025.11.0
+

@@ -1,0 +1,377 @@
+# ChangeLog for dev-python/homematicip
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*homematicip-2.3.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +homematicip-2.3.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-2.2.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*homematicip-2.3.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +homematicip-2.3.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-2.0.7.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*homematicip-2.2.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-2.0.6.ebuild, +homematicip-2.2.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+*homematicip-2.0.7 (26 Jul 2025)
+
+  26 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +homematicip-2.0.7.ebuild:
+  app-misc/homeassistant 2025.7.3
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-2.0.5.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-2.0.4.ebuild:
+  app-misc/homeassistant 2025.6.3
+
+*homematicip-2.0.6 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-2.0.1.1.ebuild, +homematicip-2.0.6.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*homematicip-2.0.5 (17 Jun 2025)
+
+  17 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +homematicip-2.0.5.ebuild:
+  homeassistant-2025.6.1
+
+*homematicip-2.0.4 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +homematicip-2.0.4.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-1.1.7.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*homematicip-2.0.1.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +homematicip-2.0.1.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  homematicip-1.1.7.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homematicip-1.1.0.ebuild, -homematicip-1.1.1.ebuild,
+  -homematicip-1.1.2.ebuild, -homematicip-1.1.3.ebuild,
+  -homematicip-1.1.5.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -homematicip-1.1.0.ebuilde, -homematicip-1.1.1.ebuilde,
+  -homematicip-1.1.2.ebuilde, -homematicip-1.1.3.ebuilde,
+  -homematicip-1.1.5.ebuilde, -homematicip-1.1.7.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +homematicip-1.1.0.ebuilde, +homematicip-1.1.1.ebuilde,
+  +homematicip-1.1.2.ebuilde, +homematicip-1.1.3.ebuilde,
+  +homematicip-1.1.5.ebuilde, +homematicip-1.1.7.ebuilde:
+  Fix KEYWORDS
+
+*homematicip-1.1.7 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +homematicip-1.1.7.ebuild:
+  homeassisstant-2025.2.0
+
+*homematicip-1.1.5 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +homematicip-1.1.5.ebuild:
+  homeassistant 2025.1.1
+
+*homematicip-1.1.3 (24 Nov 2024)
+
+  24 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +homematicip-1.1.3.ebuild:
+  app-misc/homeassistant-full 2024.11.3 and its deps
+
+*homematicip-1.1.2 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> +homematicip-1.1.2.ebuild:
+  add 1.1.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3649
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*homematicip-1.1.1 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> -homematicip-1.0.16.ebuild,
+  homematicip-1.1.0.ebuild, +homematicip-1.1.1.ebuild:
+  add 1.1.1, drop 1.0.16
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3418
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -homematicip-1.0.15.ebuild:
+  drop 1.0.15
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*homematicip-1.1.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> homematicip-1.0.15.ebuild,
+  homematicip-1.0.16.ebuild, +homematicip-1.1.0.ebuild:
+  add 1.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2976
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*homematicip-1.0.16 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +homematicip-1.0.16.ebuild:
+  add 1.0.16
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2447
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -homematicip-1.0.13.ebuild,
+  -homematicip-1.0.14.ebuild:
+  drop 1.0.13, 1.0.14
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*homematicip-1.0.15 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +homematicip-1.0.15.ebuild,
+  metadata.xml:
+  add 1.0.15
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> homematicip-1.0.13.ebuild,
+  homematicip-1.0.14.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*homematicip-1.0.14 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -homematicip-1.0.7.ebuild,
+  -homematicip-1.0.11.ebuild, homematicip-1.0.13.ebuild,
+  +homematicip-1.0.14.ebuild:
+  drop olds, fix 1.0.13, add 1.0.14
+  dev-python/aenum: drop 3.1.8, fix 3.1.11, add 3.1.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> homematicip-1.0.7.ebuild,
+  homematicip-1.0.11.ebuild, homematicip-1.0.13.ebuild:
+  remove Python 3.8 Support tag
+
+*homematicip-1.0.13 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net> +homematicip-1.0.13.ebuild,
+  metadata.xml:
+  add 1.0.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*homematicip-1.0.11 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> homematicip-1.0.7.ebuild,
+  +homematicip-1.0.11.ebuild, metadata.xml:
+  bump 1.0.11
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> homematicip-1.0.7.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -homematicip-1.0.2.ebuild,
+  -homematicip-1.0.4.ebuild:
+  rework, remove olds
+
+*homematicip-1.0.7 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> homematicip-1.0.2.ebuild,
+  -homematicip-1.0.3.ebuild, homematicip-1.0.4.ebuild,
+  +homematicip-1.0.7.ebuild:
+  update homematicip-1.0.7
+
+*homematicip-1.0.4 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> +homematicip-1.0.4.ebuild:
+  bump homematicip-1.0.4
+
+*homematicip-1.0.3 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -homematicip-1.0.1.ebuild,
+  homematicip-1.0.2.ebuild, +homematicip-1.0.3.ebuild, metadata.xml:
+  update homematicip-1.0.3
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> homematicip-1.0.1.ebuild,
+  homematicip-1.0.2.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> homematicip-1.0.1.ebuild,
+  homematicip-1.0.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*homematicip-1.0.2 (05 Feb 2022)
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net> -homematicip-0.13.1.ebuild,
+  +homematicip-1.0.2.ebuild:
+  bump homematicip-1.0.2
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> homematicip-1.0.1.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*homematicip-1.0.1 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +homematicip-1.0.1.ebuild:
+  update homematicip-1.0.1
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> -homematicip-0.10.19.ebuild,
+  -homematicip-0.11.0.ebuild, -homematicip-0.12.1.ebuild,
+  -homematicip-0.13.0.ebuild, homematicip-0.13.1.ebuild:
+  cleanup, add new Python Targets, Letter 'N' and parts of P Integrations
+
+*homematicip-0.13.1 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -homematicip-0.10.18.ebuild,
+  +homematicip-0.13.1.ebuild:
+  bump homematicip-0.13.1
+
+*homematicip-0.13.0 (08 Dec 2020)
+
+  08 Dec 2020; Andreas Billmeier <b@edevau.net> -homematicip-0.10.15.ebuild,
+  -homematicip-0.10.17.ebuild, +homematicip-0.13.0.ebuild:
+  bump homematicip-0.13.0
+
+*homematicip-0.12.1 (12 Nov 2020)
+
+  12 Nov 2020; Andreas Billmeier <b@edevau.net> -homematicip-0.10.13.ebuild,
+  -homematicip-0.10.14.ebuild, +homematicip-0.12.1.ebuild:
+  bump homematicip-0.12.1
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> homematicip-0.10.13.ebuild,
+  homematicip-0.10.14.ebuild, homematicip-0.10.15.ebuild,
+  homematicip-0.10.17.ebuild, homematicip-0.10.18.ebuild,
+  homematicip-0.10.19.ebuild, homematicip-0.11.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*homematicip-0.11.0 (01 Sep 2020)
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> homematicip-0.10.14.ebuild,
+  homematicip-0.10.15.ebuild, homematicip-0.10.17.ebuild,
+  homematicip-0.10.18.ebuild, homematicip-0.10.19.ebuild,
+  +homematicip-0.11.0.ebuild:
+  update homematicip-*
+
+*homematicip-0.10.19 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net> -homematicip-0.10.10.ebuild,
+  -homematicip-0.10.11.ebuild, +homematicip-0.10.19.ebuild:
+  bump homematicip-0.10.19
+
+*homematicip-0.10.18 (11 Jun 2020)
+
+  11 Jun 2020; Andreas Billmeier <b@edevau.net> -homematicip-0.10.7.ebuild,
+  -homematicip-0.10.9.ebuild, +homematicip-0.10.18.ebuild:
+  bump homematicip-0.10.18
+
+*homematicip-0.10.17 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net> +homematicip-0.10.17.ebuild:
+  bump homematicip-0.10.17
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> homematicip-0.10.14.ebuild,
+  homematicip-0.10.15.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: H-I
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> homematicip-0.10.7.ebuild,
+  homematicip-0.10.9.ebuild, homematicip-0.10.10.ebuild,
+  homematicip-0.10.11.ebuild, homematicip-0.10.13.ebuild,
+  homematicip-0.10.14.ebuild, homematicip-0.10.15.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*homematicip-0.10.15 (04 Jan 2020)
+
+  04 Jan 2020; Andreas Billmeier <b@edevau.net> -homematicip-0.10.6.ebuild,
+  +homematicip-0.10.15.ebuild:
+  bump homematicip-0.10.15
+
+*homematicip-0.10.14 (29 Dec 2019)
+
+  29 Dec 2019; Andreas Billmeier <b@edevau.net> +homematicip-0.10.14.ebuild:
+  bump homematicip-0.10.14
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> homematicip-0.10.6.ebuild,
+  homematicip-0.10.7.ebuild, homematicip-0.10.9.ebuild,
+  homematicip-0.10.10.ebuild, homematicip-0.10.11.ebuild,
+  homematicip-0.10.13.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> homematicip-0.10.6.ebuild,
+  homematicip-0.10.7.ebuild, homematicip-0.10.9.ebuild,
+  homematicip-0.10.10.ebuild, homematicip-0.10.11.ebuild,
+  homematicip-0.10.13.ebuild:
+  Add missing license strings as far as possible
+
+*homematicip-0.10.13 (20 Oct 2019)
+
+  20 Oct 2019; Andreas Billmeier <b@edevau.net> +homematicip-0.10.13.ebuild:
+  bump homematicip-0.10.13
+
+*homematicip-0.10.11 (01 Oct 2019)
+
+  01 Oct 2019; Andreas Billmeier <b@edevau.net> -homematicip-0.10.5.ebuild,
+  homematicip-0.10.10.ebuild, +homematicip-0.10.11.ebuild:
+  bump homematicip-0.10.11
+
+*homematicip-0.10.10 (03 Aug 2019)
+
+  03 Aug 2019; Andreas Billmeier <b@edevau.net> +homematicip-0.10.10.ebuild:
+  update homematicip-0.10.10
+
+*homematicip-0.10.9 (09 Jul 2019)
+
+  09 Jul 2019; Andreas Billmeier <b@edevau.net> +homematicip-0.10.9.ebuild:
+  bump homematicip-0.10.9
+
+*homematicip-0.10.7 (13 Apr 2019)
+
+  13 Apr 2019; Andreas Billmeier <b@edevau.net> +homematicip-0.10.7.ebuild:
+  homematicip-0.10.7
+
+*homematicip-0.10.6 (04 Mar 2019)
+*homematicip-0.10.5 (04 Mar 2019)
+
+  04 Mar 2019; Andreas Billmeier <b@edevau.net> +homematicip-0.10.5.ebuild,
+  +homematicip-0.10.6.ebuild, +metadata.xml:
+  add homematicip
+

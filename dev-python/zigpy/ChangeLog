@@ -1,0 +1,668 @@
+# ChangeLog for dev-python/zigpy
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*zigpy-0.86.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigpy-0.86.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*zigpy-0.83.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigpy-0.83.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*zigpy-0.82.2 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigpy-0.82.2.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+*zigpy-0.80.1 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigpy-0.80.1.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigpy-0.78.0.ebuild:
+  clean old versions
+
+*zigpy-0.79.0 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigpy-0.79.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigpy-0.70.0.ebuild, -zigpy-0.72.0.ebuild, -zigpy-0.73.1.ebuild,
+  -zigpy-0.75.1.ebuild, -zigpy-0.76.1.ebuild, -zigpy-0.77.0.ebuild,
+  -zigpy-0.77.1.ebuild, zigpy-0.78.0.ebuild, zigpy-0.78.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*zigpy-0.78.1 (21 Apr 2025)
+
+  21 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +zigpy-0.78.1.ebuild:
+  app-misc/homeassistant-2025.4.3
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zigpy-0.70.0.ebuilde, -zigpy-0.72.0.ebuilde, -zigpy-0.73.1.ebuilde,
+  -zigpy-0.75.1.ebuilde, -zigpy-0.76.1.ebuilde, -zigpy-0.77.0.ebuilde,
+  -zigpy-0.77.1.ebuilde, -zigpy-0.78.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.70.0.ebuilde, +zigpy-0.72.0.ebuilde, +zigpy-0.73.1.ebuilde,
+  +zigpy-0.75.1.ebuilde, +zigpy-0.76.1.ebuilde, +zigpy-0.77.0.ebuilde,
+  +zigpy-0.77.1.ebuilde, +zigpy-0.78.0.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -zigpy-0.64.0.ebuild, -zigpy-0.64.1.ebuild, -zigpy-0.67.0.ebuild,
+  zigpy-0.70.0.ebuild, -zigpy-0.71.0.ebuild, zigpy-0.72.0.ebuild,
+  zigpy-0.73.1.ebuild, -zigpy-0.73.3.ebuild, zigpy-0.75.1.ebuild,
+  zigpy-0.76.1.ebuild, zigpy-0.77.0.ebuild, zigpy-0.77.1.ebuild,
+  zigpy-0.78.0.ebuild:
+  Cleanup + spellcheck
+
+*zigpy-0.78.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.78.0.ebuild:
+  Homeassistant 2025.4.0
+
+*zigpy-0.77.1 (15 Mar 2025)
+
+  15 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.77.1.ebuild:
+  homeassistant 2025.3.2 homeassistant 2025.3.3
+
+*zigpy-0.77.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.77.0.ebuild:
+  homeassistant 2025.3.0
+
+*zigpy-0.76.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.76.1.ebuild:
+  homeassisstant-2025.2.0
+
+*zigpy-0.75.1 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.75.1.ebuild:
+  homeassistant 2025.1.1
+
+*zigpy-0.73.3 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.73.3.ebuild:
+  homeassistant 2025.1.1
+
+*zigpy-0.73.1 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.73.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*zigpy-0.72.0 (17 Nov 2024)
+
+  17 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +zigpy-0.72.0.ebuild:
+  homeassitant 2024.11.2 and its deps
+
+*zigpy-0.71.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +zigpy-0.71.0.ebuild:
+  add 0.71.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.70.0 (26 Oct 2024)
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> +zigpy-0.70.0.ebuild:
+  add 0.70.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2562
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.67.0 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net> -zigpy-0.63.4.ebuild,
+  -zigpy-0.63.5.ebuild, +zigpy-0.67.0.ebuild:
+  drop 0.63.5, 0.63.4, add 0.67.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.64.1 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> +zigpy-0.64.1.ebuild:
+  add 0.64.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3502
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.64.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -zigpy-0.60.4.ebuild,
+  -zigpy-0.62.3.ebuild, zigpy-0.63.4.ebuild, zigpy-0.63.5.ebuild,
+  +zigpy-0.64.0.ebuild:
+  drop olds, add 0.64.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3341
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -zigpy-0.60.0.ebuild:
+  drop 0.60.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> -zigpy-0.60.2.ebuild,
+  -zigpy-0.60.7.ebuild:
+  drop 0.60.2, 0.60.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.63.5 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> +zigpy-0.63.5.ebuild:
+  add 0.63.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3168
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.63.4 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> zigpy-0.60.0.ebuild,
+  zigpy-0.60.2.ebuild, zigpy-0.60.4.ebuild, -zigpy-0.60.6.ebuild,
+  zigpy-0.60.7.ebuild, zigpy-0.62.3.ebuild, +zigpy-0.63.4.ebuild:
+  drop 0.60.6, add 0.63.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3047
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> -zigpy-0.59.0.ebuild,
+  -zigpy-0.60.1.ebuild:
+  drop 0.59.0, 0.60.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.62.3 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +zigpy-0.62.3.ebuild:
+  add 0.62.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2885
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.60.7 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +zigpy-0.60.7.ebuild:
+  add 0.60.7
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2737
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.60.6 (27 Jan 2024)
+
+  27 Jan 2024; Andreas Billmeier <b@edevau.net> +zigpy-0.60.6.ebuild:
+  add 0.60.6
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2726
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  05 Jan 2024; Andreas Billmeier <b@edevau.net> -zigpy-0.57.2-r1.ebuild:
+  drop 0.57.2-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.60.4 (05 Jan 2024)
+
+  05 Jan 2024; Andreas Billmeier <b@edevau.net> zigpy-0.57.2-r1.ebuild,
+  zigpy-0.59.0.ebuild, zigpy-0.60.0.ebuild, zigpy-0.60.1.ebuild,
+  zigpy-0.60.2.ebuild, +zigpy-0.60.4.ebuild:
+  add 0.60.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2676
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.60.2 (29 Dec 2023)
+
+  29 Dec 2023; Andreas Billmeier <b@edevau.net> +zigpy-0.60.2.ebuild:
+  add 0.60.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2562
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.60.1 (17 Dec 2023)
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> +zigpy-0.60.1.ebuild:
+  add 0.60.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2540
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.60.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +zigpy-0.60.0.ebuild:
+  add 0.60.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2519
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -zigpy-0.54.1.ebuild,
+  -zigpy-0.55.0.ebuild:
+  drop 0.54.1, 0.55.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.59.0 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +zigpy-0.59.0.ebuild:
+  add 0.59.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.57.2-r1 (28 Oct 2023)
+
+  28 Oct 2023; Andreas Billmeier <b@edevau.net> -zigpy-0.57.2.ebuild,
+  +zigpy-0.57.2-r1.ebuild:
+  update 0.57.2-r1, fixes #2223
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.57.2 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> zigpy-0.54.1.ebuild,
+  zigpy-0.55.0.ebuild, +zigpy-0.57.2.ebuild:
+  add 0.57.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.55.0 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -zigpy-0.51.5.ebuild,
+  -zigpy-0.53.0.ebuild, -zigpy-0.53.2.ebuild, -zigpy-0.54.0.ebuild,
+  +zigpy-0.55.0.ebuild:
+  zigpy: drop olds, bump 0.55.0, fixes #1565
+
+*zigpy-0.54.1 (13 Apr 2023)
+
+  13 Apr 2023; Andreas Billmeier <b@edevau.net> +zigpy-0.54.1.ebuild:
+  add 0.54.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> zigpy-0.51.5.ebuild,
+  zigpy-0.53.0.ebuild, zigpy-0.53.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.54.0 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> -zigpy-0.52.3.ebuild,
+  +zigpy-0.54.0.ebuild:
+  add 0.54.0, drop 0.52.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.53.2 (02 Mar 2023)
+
+  02 Mar 2023; Andreas Billmeier <b@edevau.net> +zigpy-0.53.2.ebuild:
+  add 0.53.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.53.0 (29 Jan 2023)
+
+  29 Jan 2023; Andreas Billmeier <b@edevau.net> -zigpy-0.50.3.ebuild,
+  -zigpy-0.51.3.ebuild, zigpy-0.51.5.ebuild, -zigpy-0.51.6.ebuild,
+  zigpy-0.52.3.ebuild, +zigpy-0.53.0.ebuild:
+  drop olds, add 0.53.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.52.3 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> +zigpy-0.52.3.ebuild:
+  add 0.52.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.51.6 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -zigpy-0.50.2.ebuild, zigpy-0.50.3.ebuild, zigpy-0.51.3.ebuild,
+  zigpy-0.51.5.ebuild, +zigpy-0.51.6.ebuild:
+  bump 0.51.6, PEP517
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*zigpy-0.51.5 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +zigpy-0.51.5.ebuild:
+  add 0.51.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> zigpy-0.50.2.ebuild,
+  zigpy-0.50.3.ebuild, zigpy-0.51.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.51.2.ebuild:
+  rework, remove olds
+
+*zigpy-0.51.3 (09 Oct 2022)
+
+  09 Oct 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.47.3.ebuild,
+  +zigpy-0.51.3.ebuild:
+  bump zigpy-0.51.3
+
+*zigpy-0.51.2 (06 Oct 2022)
+
+  06 Oct 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.49.1.ebuild,
+  +zigpy-0.51.2.ebuild:
+  update ZHA dependencies:
+  zigpy-0.51.2
+  bellows-0.34.1
+  zha-quirks-0.0.82
+  zigpy-deconz-0.19.0
+  zigpy-xbee-0.16.0
+  zigpy-zigate-0.10.0
+  zigpy-znp-0.9.0
+
+*zigpy-0.50.3 (13 Sep 2022)
+
+  13 Sep 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.45.1.ebuild,
+  +zigpy-0.50.3.ebuild:
+  bump zigpy-0.50.3
+
+*zigpy-0.50.2 (26 Aug 2022)
+
+  26 Aug 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.49.0.ebuild,
+  +zigpy-0.50.2.ebuild:
+  update ZHA deps:
+  zigpy-0.50.2
+  bellows-0.33.1
+
+*zigpy-0.49.1 (13 Aug 2022)
+
+  13 Aug 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.48.0.ebuild,
+  +zigpy-0.49.1.ebuild:
+  bump zigpy-0.49.1
+
+*zigpy-0.49.0 (08 Aug 2022)
+
+  08 Aug 2022; Andreas Billmeier <b@edevau.net> +zigpy-0.49.0.ebuild:
+  bump zigpy-0.49.0
+
+*zigpy-0.48.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> zigpy-0.45.1.ebuild,
+  -zigpy-0.47.2.ebuild, zigpy-0.47.3.ebuild, +zigpy-0.48.0.ebuild:
+  bump zigpy-0.48.0
+
+*zigpy-0.47.3 (19 Jul 2022)
+
+  19 Jul 2022; Andreas Billmeier <b@edevau.net> +zigpy-0.47.3.ebuild:
+  bump zigpy-0.47.3
+
+*zigpy-0.47.2 (17 Jul 2022)
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.43.0.ebuild,
+  -zigpy-0.44.2.ebuild, zigpy-0.45.1.ebuild, +zigpy-0.47.2.ebuild:
+  bump zigpy-0.47.2
+
+*zigpy-0.45.1 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.44.1.ebuild,
+  zigpy-0.44.2.ebuild, +zigpy-0.45.1.ebuild:
+  update zigpy-0.45.1
+
+*zigpy-0.44.2 (13 Apr 2022)
+
+  13 Apr 2022; Andreas Billmeier <b@edevau.net> +zigpy-0.44.2.ebuild:
+  bump zigpy-0.44.2
+
+*zigpy-0.44.1 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.42.0.ebuild,
+  +zigpy-0.44.1.ebuild:
+  bump zigpy-0.44.1
+
+  21 Mar 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.38.0.ebuild,
+  -zigpy-0.39.0.ebuild, zigpy-0.42.0.ebuild, zigpy-0.43.0.ebuild:
+  zigpy, remove blocker, remove olds
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> zigpy-0.38.0.ebuild,
+  zigpy-0.39.0.ebuild, zigpy-0.42.0.ebuild, zigpy-0.43.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*zigpy-0.43.0 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> -zigpy-0.37.1.ebuild,
+  +zigpy-0.43.0.ebuild:
+  bump zigpy-0.43.0
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> zigpy-0.37.1.ebuild,
+  zigpy-0.38.0.ebuild, zigpy-0.39.0.ebuild, zigpy-0.42.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.36.1.ebuild,
+  -zigpy-0.40.0.ebuild:
+  remove olds
+
+*zigpy-0.42.0 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> +zigpy-0.42.0.ebuild:
+  update zigpy-0.42.0
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> zigpy-0.39.0.ebuild,
+  zigpy-0.40.0.ebuild:
+  all EAPI=8 without quotes
+
+*zigpy-0.40.0 (02 Nov 2021)
+*zigpy-0.39.0 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +zigpy-0.39.0.ebuild,
+  +zigpy-0.40.0.ebuild:
+  bump zigpy-0.39.0, zigpy-0.40.0<
+
+*zigpy-0.38.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.33.0.ebuild,
+  -zigpy-0.35.2.ebuild, +zigpy-0.38.0.ebuild:
+  update zigpy-0.38.0
+
+*zigpy-0.37.1 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.34.0.ebuild,
+  -zigpy-0.35.0.ebuild, -zigpy-0.35.1.ebuild, +zigpy-0.37.1.ebuild:
+  update zigpy-0.37.1
+
+*zigpy-0.36.1 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +zigpy-0.36.1.ebuild:
+  update zigpy-0.36.1
+
+*zigpy-0.35.2 (13 Jul 2021)
+
+  13 Jul 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.30.0.ebuild,
+  -zigpy-0.30.1.ebuild, -zigpy-0.31.0.ebuild, -zigpy-0.32.0.ebuild,
+  +zigpy-0.35.2.ebuild:
+  bump zigpy-0.35.2
+
+*zigpy-0.35.1 (06 Jul 2021)
+
+  06 Jul 2021; Andreas Billmeier <b@edevau.net> +zigpy-0.35.1.ebuild:
+  bump zigpy-0.35.1
+
+*zigpy-0.35.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +zigpy-0.35.0.ebuild:
+  bump zigpy-0.35.0
+
+*zigpy-0.34.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +zigpy-0.34.0.ebuild:
+  update zigpy-0.34.0
+
+  20 Mar 2021; Andreas Billmeier <b@edevau.net> zigpy-0.30.0.ebuild,
+  zigpy-0.30.1.ebuild, zigpy-0.31.0.ebuild, zigpy-0.32.0.ebuild,
+  zigpy-0.33.0.ebuild:
+  remove pytest-aiohttp from all deps
+
+*zigpy-0.33.0 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.29.0.ebuild,
+  +zigpy-0.33.0.ebuild:
+  bump zigpy-0.33.0
+
+*zigpy-0.32.0 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.28.0.ebuild,
+  -zigpy-0.28.1.ebuild, -zigpy-0.28.2.ebuild, +zigpy-0.32.0.ebuild:
+  bump zigpy-0.32.0
+
+*zigpy-0.30.1 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> +zigpy-0.30.1.ebuild:
+  dg zigpy-0.30.1
+
+*zigpy-0.31.0 (21 Jan 2021)
+*zigpy-0.30.0 (21 Jan 2021)
+
+  21 Jan 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.27.1.ebuild,
+  +zigpy-0.30.0.ebuild, +zigpy-0.31.0.ebuild:
+  bump bump zigpy-0.30.0
+  bump bump zigpy-0.31.0
+
+*zigpy-0.29.0 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> -zigpy-0.27.0.ebuild,
+  +zigpy-0.29.0.ebuild:
+  bump zigpy-0.29.0
+
+*zigpy-0.28.2 (08 Dec 2020)
+
+  08 Dec 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.26.0.ebuild,
+  +zigpy-0.28.2.ebuild:
+  bump zha:
+      * zha-quirks-0.0.48
+      * zigpy-0.28.2
+      * zigpy-znp-0.3.0
+
+*zigpy-0.28.1 (28 Nov 2020)
+
+  28 Nov 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.25.0.ebuild,
+  +zigpy-0.28.1.ebuild:
+  bump zigpy-0.28.1
+
+*zigpy-0.28.0 (21 Nov 2020)
+
+  21 Nov 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.24.1.ebuild,
+  -zigpy-0.24.3.ebuild, +zigpy-0.28.0.ebuild:
+  update zigpy-0.28.0
+
+*zigpy-0.27.1 (19 Nov 2020)
+
+  19 Nov 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.23.2.ebuild,
+  +zigpy-0.27.1.ebuild:
+  update zigpy-0.27.1
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> zigpy-0.23.2.ebuild,
+  zigpy-0.24.1.ebuild, zigpy-0.24.3.ebuild, zigpy-0.25.0.ebuild,
+  zigpy-0.26.0.ebuild, zigpy-0.27.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*zigpy-0.27.0 (01 Nov 2020)
+
+  01 Nov 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.22.2.ebuild,
+  -zigpy-0.23.1.ebuild, +zigpy-0.27.0.ebuild:
+  update zigpy-0.27.0
+
+*zigpy-0.26.0 (07 Oct 2020)
+
+  07 Oct 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.22.1.ebuild,
+  +zigpy-0.26.0.ebuild:
+  bump zigpy-0.26.0
+
+*zigpy-0.25.0 (01 Oct 2020)
+
+  01 Oct 2020; Andreas Billmeier <b@edevau.net> +zigpy-0.25.0.ebuild:
+  zigpy-0.25.0 bumped
+
+*zigpy-0.24.3 (28 Sep 2020)
+
+  28 Sep 2020; Andreas Billmeier <b@edevau.net> zigpy-0.24.1.ebuild,
+  +zigpy-0.24.3.ebuild:
+  update zigpy-0.24.3, fix zigpy-0.24.1
+
+*zigpy-0.24.1 (19 Sep 2020)
+
+  19 Sep 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.20.3.ebuild,
+  -zigpy-0.20.4.ebuild, -zigpy-0.21.0.ebuild, +zigpy-0.24.1.ebuild:
+  bump bump zigpy-0.24.1
+
+*zigpy-0.23.2 (10 Sep 2020)
+
+  10 Sep 2020; Andreas Billmeier <b@edevau.net> -zigpy-0.20.1.ebuild,
+  +zigpy-0.23.2.ebuild:
+  bump zigpy-0.23.2
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> zigpy-0.20.1.ebuild,
+  zigpy-0.20.3.ebuild, zigpy-0.20.4.ebuild, zigpy-0.21.0.ebuild,
+  zigpy-0.22.1.ebuild, zigpy-0.22.2.ebuild, zigpy-0.23.1.ebuild:
+  zigpy replaces zogpy-homeassistant
+
+*zigpy-0.23.1 (07 Sep 2020)
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> +zigpy-0.23.1.ebuild:
+  Update zigpy-0.23.1
+
+  30 Aug 2020; Andreas Billmeier <b@edevau.net> zigpy-0.22.2.ebuild:
+  update zigpy-0.22.2
+
+*zigpy-0.22.2 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net> +zigpy-0.22.2.ebuild:
+  bump zigpy-0.22.2
+
+*zigpy-0.22.1 (18 Jul 2020)
+
+  18 Jul 2020; Andreas Billmeier <b@edevau.net> +zigpy-0.22.1.ebuild:
+  bump zigpy-0.22.1
+
+*zigpy-0.21.0 (14 Jun 2020)
+
+  14 Jun 2020; Andreas Billmeier <b@edevau.net> +zigpy-0.21.0.ebuild:
+  bump zigpy-0.21.0
+
+*zigpy-0.20.4 (17 May 2020)
+
+  17 May 2020; Andreas Billmeier <b@edevau.net> +zigpy-0.20.4.ebuild:
+  bump zigpy-0.20.4
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> zigpy-0.20.1.ebuild,
+  zigpy-0.20.3.ebuild:
+  RepoMan complaints corrected
+
+*zigpy-0.20.3 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +zigpy-0.20.3.ebuild:
+  bump zigpy-0.20.3
+
+*zigpy-0.20.1 (09 May 2020)
+
+  09 May 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +zigpy-0.20.1.ebuild:
+  add zigpy-0.20.1
+

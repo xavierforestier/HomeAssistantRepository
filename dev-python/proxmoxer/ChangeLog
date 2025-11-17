@@ -1,0 +1,111 @@
+# ChangeLog for dev-python/proxmoxer
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  proxmoxer-2.0.1.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  proxmoxer-2.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -proxmoxer-2.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +proxmoxer-2.0.1.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  proxmoxer-2.0.1.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> proxmoxer-2.0.1.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -proxmoxer-1.3.1.ebuild:
+  drop 1.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*proxmoxer-2.0.1 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -proxmoxer-1.1.1.ebuild, proxmoxer-1.3.1.ebuild, +proxmoxer-2.0.1.ebuild:
+  add 2.0.1, drop olds, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> proxmoxer-1.1.1.ebuild,
+  proxmoxer-1.3.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> proxmoxer-1.1.1.ebuild,
+  proxmoxer-1.3.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*proxmoxer-1.3.1 (18 Jul 2022)
+
+  18 Jul 2022; Andreas Billmeier <b@edevau.net> +proxmoxer-1.3.1.ebuild:
+  update proxmoxer-1.3.1
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> proxmoxer-1.1.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  02 Sep 2021; Andreas Billmeier <b@edevau.net> proxmoxer-1.1.1.ebuild:
+  cleanup proxmoxer-1.1.1, PYTHON_COMPAT
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -proxmoxer-1.0.3.ebuild,
+  -proxmoxer-1.0.4.ebuild, -proxmoxer-1.1.0.ebuild, proxmoxer-1.1.1.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> proxmoxer-1.0.3.ebuild,
+  proxmoxer-1.0.4.ebuild, proxmoxer-1.1.0.ebuild, proxmoxer-1.1.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  08 Sep 2020; Andreas Billmeier <b@edevau.net> proxmoxer-1.0.3.ebuild,
+  proxmoxer-1.0.4.ebuild, proxmoxer-1.1.0.ebuild, proxmoxer-1.1.1.ebuild:
+  proxmoxer:
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/140
+
+*proxmoxer-1.1.1 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> +proxmoxer-1.1.1.ebuild:
+  bump proxmoxer-1.1.1
+
+*proxmoxer-1.1.0 (23 May 2020)
+
+  23 May 2020; Andreas Billmeier <b@edevau.net> +proxmoxer-1.1.0.ebuild:
+  bump proxmoxer-1.1.0
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> proxmoxer-1.0.4.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> proxmoxer-1.0.3.ebuild,
+  proxmoxer-1.0.4.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*proxmoxer-1.0.4 (29 Jan 2020)
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> +proxmoxer-1.0.4.ebuild:
+  bump proxmoxer-1.0.4
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*proxmoxer-1.0.3 (24 Nov 2019)
+
+  24 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +proxmoxer-1.0.3.ebuild:
+  add proxmoxer-1.0.3
+

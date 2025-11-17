@@ -1,0 +1,96 @@
+# ChangeLog for dev-python/idasen-ha
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  idasen-ha-2.6.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -idasen-ha-2.5.ebuild, -idasen-ha-2.5.1.ebuild, -idasen-ha-2.5.3.ebuild,
+  -idasen-ha-2.6.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -idasen-ha-2.5.1.ebuilde, -idasen-ha-2.5.3.ebuilde, -idasen-ha-2.5.ebuilde,
+  -idasen-ha-2.6.2.ebuilde, -idasen-ha-2.6.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +idasen-ha-2.5.1.ebuilde, +idasen-ha-2.5.3.ebuilde, +idasen-ha-2.5.ebuilde,
+  +idasen-ha-2.6.2.ebuilde, +idasen-ha-2.6.3.ebuilde:
+  Fix KEYWORDS
+
+*idasen-ha-2.6.3 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +idasen-ha-2.6.3.ebuild:
+  homeassistant 2025.1.1
+
+*idasen-ha-2.6.2 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> -idasen-ha-2.4.ebuild,
+  +idasen-ha-2.6.2.ebuild:
+  add 2.6.2, drop 2.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3655
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*idasen-ha-2.5.3 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net> idasen-ha-2.4.ebuild,
+  idasen-ha-2.5.ebuild, idasen-ha-2.5.1.ebuild, +idasen-ha-2.5.3.ebuild:
+  add 2.5.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3422
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> -idasen-ha-1.4.1.ebuild,
+  -idasen-ha-2.3.ebuild:
+  drop 1.4.1, 2.3
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*idasen-ha-2.5.1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> idasen-ha-1.4.1.ebuild,
+  idasen-ha-2.3.ebuild, idasen-ha-2.4.ebuild, idasen-ha-2.5.ebuild,
+  +idasen-ha-2.5.1.ebuild:
+  add 2.5.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2985
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*idasen-ha-2.5 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> idasen-ha-1.4.1.ebuild,
+  idasen-ha-2.3.ebuild, idasen-ha-2.4.ebuild, +idasen-ha-2.5.ebuild:
+  add 2.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2806
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*idasen-ha-2.4 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +idasen-ha-2.4.ebuild:
+  add 2.4
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2454
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*idasen-ha-2.3 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +idasen-ha-2.3.ebuild:
+  add 2.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2274
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*idasen-ha-1.4.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +idasen-ha-1.4.1.ebuild,
+  +metadata.xml:
+  new package, add 1.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

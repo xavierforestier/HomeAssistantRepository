@@ -1,0 +1,49 @@
+# ChangeLog for dev-python/sensorpush-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sensorpush-api-2.1.2.ebuild:
+  Cleansing
+
+*sensorpush-api-2.1.3 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/sensorpush-api-2.1.3-option-json-missing.patch,
+  +sensorpush-api-2.1.3.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -sensorpush-api-2.1.1.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*sensorpush-api-2.1.2 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/sensorpush-api-2.1.2-option-json-missing.patch,
+  +sensorpush-api-2.1.2.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sensorpush-api-2.1.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, sensorpush-api-2.1.1.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -sensorpush-api-2.1.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  sensorpush-api-2.1.1.ebuild, +sensorpush-api-2.1.1.ebuilde:
+  Fix KEYWORDS
+
+*sensorpush-api-2.1.1 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/sensorpush-api-2.1.1-option-json-missing.patch,
+  +files/sensorpush-api-build-system.patch, +sensorpush-api-2.1.1.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

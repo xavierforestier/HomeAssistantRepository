@@ -1,0 +1,122 @@
+# ChangeLog for dev-python/dateparser
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  dateparser-1.2.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -dateparser-1.2.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +dateparser-1.2.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  dateparser-1.2.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -dateparser-1.1.7-r1.ebuild,
+  dateparser-1.2.0.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dateparser-1.2.0 (18 Feb 2024)
+*dateparser-1.1.7-r1 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> -dateparser-1.1.7.ebuild,
+  +dateparser-1.1.7-r1.ebuild, +dateparser-1.2.0.ebuild:
+  add 1.2.0, update 1.1.7
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -dateparser-1.1.1.ebuild:
+  drop 1.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> dateparser-1.1.1.ebuild,
+  dateparser-1.1.7.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dateparser-1.1.7 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> -dateparser-1.0.0.ebuild,
+  +dateparser-1.1.7.ebuild:
+  add 1.1.7, drop 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> dateparser-1.0.0.ebuild,
+  dateparser-1.1.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> dateparser-1.0.0.ebuild,
+  dateparser-1.1.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*dateparser-1.1.1 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> -dateparser-0.7.1.ebuild,
+  dateparser-1.0.0.ebuild, +dateparser-1.1.1.ebuild:
+  update dateparser-1.1.1
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> dateparser-0.7.1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  22 Mar 2022; Andreas Billmeier <b@edevau.net> dateparser-1.0.0.ebuild:
+  update enault-api-0.1.10
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> dateparser-0.7.1.ebuild,
+  dateparser-1.0.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*dateparser-1.0.0 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +dateparser-1.0.0.ebuild:
+  add renault-api-0.1.4
+  update dateparser-1.0.0
+  add marshmallow-dataclass-8.5.0
+  add typing-inspect-0.7.1
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> dateparser-0.7.1.ebuild:
+  add PYTHON_COMPAT=( python3_{8..10} ) for dateparser, httpcore, pip-19.0.2,
+  pytest-runner-5.2 and sniffio
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> dateparser-0.7.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> dateparser-0.7.1.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: D
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> dateparser-0.7.1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> dateparser-0.7.1.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+*dateparser-0.7.1 (19 Jul 2019)
+
+  19 Jul 2019; Andreas Billmeier <b@edevau.net> +dateparser-0.7.1.ebuild,
+  +metadata.xml:
+  home-assistant-cli experiments
+

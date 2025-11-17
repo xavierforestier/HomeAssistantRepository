@@ -1,0 +1,116 @@
+# ChangeLog for dev-python/anyio
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -anyio-4.1.0.ebuild, -anyio-4.3.0-r1.ebuild, -anyio-4.4.0.ebuild,
+  -anyio-4.7.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  anyio-4.1.0.ebuild, anyio-4.3.0-r1.ebuild, anyio-4.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -anyio-4.1.0.ebuilde, -anyio-4.3.0-r1.ebuilde, -anyio-4.4.0.ebuilde,
+  -anyio-4.7.0.ebuilde, -anyio-4.9.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +anyio-4.1.0.ebuilde, +anyio-4.3.0-r1.ebuilde, +anyio-4.4.0.ebuilde,
+  +anyio-4.7.0.ebuilde, +anyio-4.9.0.ebuilde:
+  Fix KEYWORDS
+
+*anyio-4.9.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +anyio-4.9.0.ebuild:
+  Homeassistant 2025.4.0
+
+*anyio-4.7.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +anyio-4.7.0.ebuild:
+  homeassistant 2025.1.1
+
+*anyio-4.4.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +anyio-4.4.0.ebuild:
+  homeassistant 2024.10.0_beta4
+
+*anyio-4.3.0-r1 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net> -anyio-4.0.0.ebuild,
+  anyio-4.1.0.ebuild, +anyio-4.3.0-r1.ebuild:
+  re-add 4.3.0-r1 from Gentoo Archive, drop 4.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3518
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> anyio-4.0.0.ebuild,
+  anyio-4.1.0.ebuild:
+  disable py3.10
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*anyio-4.1.0 (06 Jan 2024)
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> anyio-4.0.0.ebuild,
+  +anyio-4.1.0.ebuild:
+  re-add 4.1.0 (from main repo archive)
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2684
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -anyio-3.6.2.ebuild,
+  -anyio-3.7.0.ebuild:
+  drop 3.6.2, 3.7.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> anyio-4.0.0.ebuild,
+  -anyio-4.0.0.ebuild.1:
+  update 4.0.0 (from main)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*anyio-4.0.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +anyio-4.0.0.ebuild,
+  +anyio-4.0.0.ebuild.1:
+  add 4.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*anyio-3.7.0 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net> +anyio-3.7.0.ebuild:
+  add anyio-3.7.0
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> anyio-3.6.2.ebuild:
+  update HOMEPAGE, SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> anyio-3.6.2.ebuild:
+  remove Python 3.8 Support tag
+
+*anyio-3.6.2 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> +anyio-3.6.2.ebuild,
+  +metadata.xml:
+  new package, add 3.6.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> -anyio-3.3.1.ebuild,
+  -metadata.xml:
+  anyio: remove olds & dupe
+
+*anyio-3.3.1 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> +anyio-3.3.1.ebuild,
+  +metadata.xml:
+  add anyio-3.3.1
+

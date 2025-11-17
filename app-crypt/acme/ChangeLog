@@ -1,0 +1,99 @@
+# ChangeLog for app-crypt/acme
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*acme-5.1.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +acme-5.1.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+*acme-5.0.0 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +acme-5.0.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*acme-4.2.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +acme-4.2.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+*acme-4.1.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +acme-4.1.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  acme-3.3.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+*acme-3.3.0 (08 Jun 2025)
+
+  08 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +acme-3.3.0.ebuild, +metadata.xml:
+  Fix certbot / acme 3.3.0 deps
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -acme-2.8.0-r1.ebuild, -acme-2.9.0-r1.ebuild, -metadata.xml:
+  Fix for pkgcheck
+
+*acme-2.9.0-r1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> acme-2.8.0-r1.ebuild,
+  +acme-2.9.0-r1.ebuild, +metadata.xml:
+  add 2.9.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*acme-2.8.0-r1 (25 Feb 2024)
+
+  25 Feb 2024; Andreas Billmeier <b@edevau.net> +acme-2.8.0-r1.ebuild:
+  new package, add 2.8.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  21 Oct 2022; Andreas Billmeier <b@edevau.net> -acme-1.17.0.ebuild,
+  -acme-1.18.0-r1.ebuild, -metadata.xml:
+  remove outdated app-crypt/acme
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> acme-1.17.0.ebuild:
+  fix acme-1.17.0 [SC2086]
+
+*acme-1.18.0-r1 (11 Nov 2021)
+*acme-1.17.0 (11 Nov 2021)
+
+  11 Nov 2021; Andreas Billmeier <b@edevau.net> -acme-1.11.0.ebuild,
+  -acme-1.12.0.ebuild, -acme-1.14.0.ebuild, -acme-1.15.0.ebuild,
+  +acme-1.17.0.ebuild, +acme-1.18.0-r1.ebuild, metadata.xml:
+  re-add (still needed) acme-1.[17|18] from main repo
+
+*acme-1.15.0 (10 Jul 2021)
+
+  10 Jul 2021; Andreas Billmeier <b@edevau.net> +acme-1.15.0.ebuild:
+  restore acme-1.15.0 from main repo
+
+*acme-1.14.0 (14 Jun 2021)
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> +acme-1.14.0.ebuild:
+  re-add (still required) acme-1.14.0 from main repo archive, fixes #205
+
+*acme-1.12.0 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> +acme-1.12.0.ebuild:
+  restore (still needed) acme-1.12.0 from commit 266c660
+
+*acme-1.11.0 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> -acme-1.4.0.ebuild,
+  +acme-1.11.0.ebuild:
+  add a copy (from main repo) of acme-1.11.0, still needed
+
+*acme-1.4.0 (25 Jul 2020)
+
+  25 Jul 2020; Andreas Billmeier <b@edevau.net> +acme-1.4.0.ebuild,
+  +metadata.xml:
+  add old app-crypt/acme-1.4.0 for nabucasa compatibility
+

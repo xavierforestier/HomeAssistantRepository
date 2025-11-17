@@ -1,0 +1,70 @@
+# ChangeLog for dev-python/apsystems-ez1
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -apsystems-ez1-2.6.0.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*apsystems-ez1-2.7.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +apsystems-ez1-2.7.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -apsystems-ez1-2.4.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*apsystems-ez1-2.6.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +apsystems-ez1-2.6.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  apsystems-ez1-2.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  apsystems-ez1-2.4.0.ebuild, metadata.xml:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -apsystems-ez1-1.3.1.ebuild, -apsystems-ez1-2.2.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -apsystems-ez1-1.3.1.ebuilde, -apsystems-ez1-2.2.1.ebuilde,
+  -apsystems-ez1-2.4.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +apsystems-ez1-1.3.1.ebuilde, +apsystems-ez1-2.2.1.ebuilde,
+  +apsystems-ez1-2.4.0.ebuilde:
+  Fix KEYWORDS
+
+*apsystems-ez1-2.4.0 (24 Nov 2024)
+
+  24 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +apsystems-ez1-2.4.0.ebuild:
+  app-misc/homeassistant-full 2024.11.3 and its deps
+
+*apsystems-ez1-2.2.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +apsystems-ez1-2.2.1.ebuild,
+  metadata.xml:
+  add 2.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3555
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*apsystems-ez1-1.3.1 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> +apsystems-ez1-1.3.1.ebuild,
+  +metadata.xml:
+  new package, add 1.3.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3383
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

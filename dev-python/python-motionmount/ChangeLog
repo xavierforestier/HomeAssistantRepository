@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/python-motionmount
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*python-motionmount-2.3.0 (10 May 2025)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +python-motionmount-2.3.0.ebuild:
+  pkgcheck
+

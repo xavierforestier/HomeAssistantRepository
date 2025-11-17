@@ -1,0 +1,110 @@
+# ChangeLog for dev-python/slixmpp
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  slixmpp-1.8.5.ebuild:
+  Fixes
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml:
+  Fix for pkgcheck
+
+*slixmpp-1.8.5 (07 Apr 2025)
+
+  07 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> -metadata.xml,
+  -slixmpp-1.8.4.ebuild, +slixmpp-1.8.5.ebuild:
+  dev-python/slixmpp
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -slixmpp-1.8.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +slixmpp-1.8.4.ebuilde:
+  Fix KEYWORDS
+
+*slixmpp-1.8.4 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> -slixmpp-1.8.2.ebuild,
+  +slixmpp-1.8.4.ebuild:
+  add 1.8.4, drop 1.8.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> slixmpp-1.8.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> slixmpp-1.8.2.ebuild:
+  remove Python 3.8 Support tag
+
+*slixmpp-1.8.2 (17 Nov 2022)
+
+  17 Nov 2022; Andreas Billmeier <b@edevau.net> -slixmpp-1.8.0.1.ebuild,
+  +slixmpp-1.8.2.ebuild:
+  add 1.8.2, drop 1.8.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*slixmpp-1.8.0.1 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +slixmpp-1.8.0.1.ebuild:
+  dg slixmpp-1.8.0.1 (from main)
+
+  19 Feb 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -slixmpp-1.4.2-r1.ebuild, -slixmpp-1.5.1.ebuild, -slixmpp-1.6.0.ebuild,
+  -slixmpp-1.7.0.ebuild:
+  remove slixmpp
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> slixmpp-1.6.0.ebuild,
+  slixmpp-1.7.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*slixmpp-1.7.0 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> +slixmpp-1.7.0.ebuild:
+  update slixmpp-1.7.0
+
+*slixmpp-1.6.0 (09 Jan 2021)
+
+  09 Jan 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -slixmpp-1.4.2.ebuild, -slixmpp-1.5.2.ebuild, +slixmpp-1.6.0.ebuild:
+  update slixmpp-1.6.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> slixmpp-1.4.2.ebuild,
+  slixmpp-1.4.2-r1.ebuild, slixmpp-1.5.1.ebuild, slixmpp-1.5.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*slixmpp-1.5.2 (24 Aug 2020)
+
+  24 Aug 2020; Andreas Billmeier <b@edevau.net> +slixmpp-1.5.2.ebuild:
+  bump slixmpp-1.5.2
+
+*slixmpp-1.5.1 (16 May 2020)
+
+  16 May 2020; Andreas Billmeier <b@edevau.net> +slixmpp-1.5.1.ebuild:
+  bump slixmpp-1.5.1
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> slixmpp-1.4.2-r1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: S
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> slixmpp-1.4.2.ebuild:
+  minor code cleanups
+
+*slixmpp-1.4.2-r1 (01 Feb 2020)
+
+  01 Feb 2020; Andreas Billmeier <b@edevau.net> +slixmpp-1.4.2-r1.ebuild:
+  added slixmpp-1.4.2-r1, update aioharmony-0.1.13-r1
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> slixmpp-1.4.2.ebuild:
+  replace stale 'Gentoo Foundation' copright notices
+
+*slixmpp-1.4.2 (12 Feb 2019)
+
+  12 Feb 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +slixmpp-1.4.2.ebuild:
+  add slixmpp-1.4.2
+

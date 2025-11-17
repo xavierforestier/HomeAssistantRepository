@@ -1,0 +1,148 @@
+# ChangeLog for dev-python/bleak-esphome
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*bleak-esphome-3.4.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bleak-esphome-3.4.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  21 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-esphome-3.2.0.ebuild:
+  app-misc/homeassistant 2025.9.4
+
+*bleak-esphome-3.3.0 (14 Sep 2025)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-esphome-3.1.0.ebuild, +bleak-esphome-3.3.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*bleak-esphome-3.2.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bleak-esphome-3.2.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-esphome-2.16.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*bleak-esphome-3.1.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bleak-esphome-3.1.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-esphome-2.15.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*bleak-esphome-2.16.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bleak-esphome-2.16.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-esphome-2.12.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*bleak-esphome-2.15.1 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bleak-esphome-2.15.1.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bleak-esphome-2.12.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-esphome-2.8.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-esphome-1.0.0.ebuild, -bleak-esphome-1.1.0.ebuild,
+  -bleak-esphome-2.0.0.ebuild, -bleak-esphome-2.7.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bleak-esphome-1.0.0.ebuilde, -bleak-esphome-1.1.0.ebuilde,
+  -bleak-esphome-2.0.0.ebuilde, -bleak-esphome-2.12.0.ebuilde,
+  -bleak-esphome-2.7.0.ebuilde, -bleak-esphome-2.8.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bleak-esphome-1.0.0.ebuilde, +bleak-esphome-1.1.0.ebuilde,
+  +bleak-esphome-2.0.0.ebuilde, +bleak-esphome-2.12.0.ebuilde,
+  +bleak-esphome-2.7.0.ebuilde, +bleak-esphome-2.8.0.ebuilde:
+  Fix KEYWORDS
+
+*bleak-esphome-2.12.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bleak-esphome-2.12.0.ebuild:
+  Homeassistant 2025.4.0
+
+*bleak-esphome-2.8.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bleak-esphome-2.8.0.ebuild:
+  homeassistant 2025.3.0
+
+*bleak-esphome-2.7.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bleak-esphome-2.7.0.ebuild:
+  homeassisstant-2025.2.0
+
+*bleak-esphome-2.0.0 (28 Jan 2025)
+
+  28 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bleak-esphome-2.0.0.ebuild:
+  homeassistant 2025.1.1
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> -bleak-esphome-0.4.0.ebuild,
+  -bleak-esphome-0.4.1.ebuild:
+  drop 0.4.0, 0.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-esphome-1.1.0 (02 Nov 2024)
+
+  02 Nov 2024; Andreas Billmeier <b@edevau.net> bleak-esphome-0.4.0.ebuild,
+  bleak-esphome-0.4.1.ebuild, bleak-esphome-1.0.0.ebuild,
+  +bleak-esphome-1.1.0.ebuild:
+  add 1.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4013
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-esphome-1.0.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> bleak-esphome-0.4.0.ebuild,
+  bleak-esphome-0.4.1.ebuild, +bleak-esphome-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2967
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-esphome-0.4.1 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net> bleak-esphome-0.4.0.ebuild,
+  +bleak-esphome-0.4.1.ebuild:
+  add 0.4.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2783
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bleak-esphome-0.4.0 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +bleak-esphome-0.4.0.ebuild,
+  +metadata.xml:
+  new package, add 0.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2603
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

@@ -1,0 +1,56 @@
+# ChangeLog for dev-python/autarco
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*autarco-3.2.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +autarco-3.2.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  autarco-3.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -autarco-3.0.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -autarco-3.0.0.ebuilde, -autarco-3.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +autarco-3.0.0.ebuilde, +autarco-3.1.0.ebuilde:
+  Fix KEYWORDS
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -autarco-2.0.0.ebuild:
+  drop 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*autarco-3.1.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> +autarco-3.1.0.ebuild:
+  add 3.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4094
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*autarco-3.0.0 (27 Oct 2024)
+
+  27 Oct 2024; Andreas Billmeier <b@edevau.net> +autarco-3.0.0.ebuild:
+  add 3.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3969
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*autarco-2.0.0 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> +autarco-2.0.0.ebuild,
+  +metadata.xml:
+  new package, add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3567
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

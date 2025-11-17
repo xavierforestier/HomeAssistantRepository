@@ -1,0 +1,55 @@
+# ChangeLog for dev-python/onedrive-personal-sdk
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*onedrive-personal-sdk-0.0.16 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/onedrive-personal-sdk-0.0.13-build-system.patch,
+  +files/onedrive-personal-sdk-0.0.16-build-system.patch,
+  +onedrive-personal-sdk-0.0.16.ebuild:
+  app-misc/homeassistant 2025.11.1
+
+*onedrive-personal-sdk-0.0.15 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/onedrive-personal-sdk-0.0.15-build-system.patch,
+  +onedrive-personal-sdk-0.0.15.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -onedrive-personal-sdk-0.0.13.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*onedrive-personal-sdk-0.0.14 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/onedrive-personal-sdk-0.0.13-build-system.patch,
+  +files/onedrive-personal-sdk-0.0.14-build-system.patch,
+  -files/onedrive-personal-sdk-build-system.patch,
+  onedrive-personal-sdk-0.0.13.ebuild, +onedrive-personal-sdk-0.0.14.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, onedrive-personal-sdk-0.0.13.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  onedrive-personal-sdk-0.0.13.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -onedrive-personal-sdk-0.0.13.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  onedrive-personal-sdk-0.0.13.ebuild, +onedrive-personal-sdk-0.0.13.ebuilde:
+  Fix KEYWORDS
+
+*onedrive-personal-sdk-0.0.13 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/onedrive-personal-sdk-build-system.patch,
+  +onedrive-personal-sdk-0.0.13.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

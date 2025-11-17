@@ -1,0 +1,115 @@
+# ChangeLog for dev-python/vehicle
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  vehicle-2.2.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -vehicle-2.2.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -vehicle-2.2.1.ebuilde, -vehicle-2.2.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +vehicle-2.2.1.ebuilde, +vehicle-2.2.2.ebuilde:
+  Fix KEYWORDS
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> vehicle-2.2.1.ebuild,
+  vehicle-2.2.2.ebuild:
+  enable py3.13
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3736
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vehicle-2.2.2 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +vehicle-2.2.2.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -vehicle-2.0.0.ebuild,
+  vehicle-2.2.1.ebuild:
+  drop 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -vehicle-1.0.1.ebuild:
+  drop 1.0.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vehicle-2.2.1 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +vehicle-2.2.1.ebuild:
+  add 2.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2481
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -vehicle-1.0.0.ebuild:
+  drop 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vehicle-2.0.0 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> vehicle-1.0.0.ebuild,
+  vehicle-1.0.1.ebuild, +vehicle-2.0.0.ebuild:
+  add 2.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vehicle-1.0.1 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> -vehicle-0.4.0.ebuild,
+  +vehicle-1.0.1.ebuild:
+  add 1.0.1, drop 0.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vehicle-1.0.0 (10 Apr 2023)
+
+  10 Apr 2023; Andreas Billmeier <b@edevau.net> vehicle-0.4.0.ebuild,
+  +vehicle-1.0.0.ebuild:
+  add 1.0.0, update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> vehicle-0.4.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -vehicle-0.3.1.ebuild,
+  vehicle-0.4.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+*vehicle-0.4.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net> -vehicle-0.2.2.ebuild,
+  vehicle-0.3.1.ebuild, +vehicle-0.4.0.ebuild:
+  bump vehicle-0.4.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> vehicle-0.2.2.ebuild,
+  vehicle-0.3.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*vehicle-0.3.1 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +vehicle-0.3.1.ebuild:
+  bump vehicle-0.3.1
+
+*vehicle-0.2.2 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +vehicle-0.2.2.ebuild:
+  add vehicle-0.2.2
+

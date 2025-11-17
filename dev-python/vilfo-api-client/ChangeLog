@@ -1,0 +1,88 @@
+# ChangeLog for dev-python/vilfo-api-client
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  vilfo-api-client-0.5.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -vilfo-api-client-0.4.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -vilfo-api-client-0.4.1.ebuilde, -vilfo-api-client-0.5.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +vilfo-api-client-0.4.1.ebuilde, +vilfo-api-client-0.5.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  vilfo-api-client-0.5.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*vilfo-api-client-0.5.0 (03 Apr 2024)
+
+  03 Apr 2024; Andreas Billmeier <b@edevau.net> vilfo-api-client-0.4.1.ebuild,
+  +vilfo-api-client-0.5.0.ebuild:
+  add 0.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3160
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net>
+  -vilfo-api-client-0.3.2-r1.ebuild:
+  drop 0.3.2-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*vilfo-api-client-0.4.1 (21 Oct 2023)
+
+  21 Oct 2023; Andreas Billmeier <b@edevau.net>
+  vilfo-api-client-0.3.2-r1.ebuild, +vilfo-api-client-0.4.1.ebuild:
+  add 0.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  vilfo-api-client-0.3.2-r1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net>
+  vilfo-api-client-0.3.2-r1.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net>
+  vilfo-api-client-0.3.2-r1.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  vilfo-api-client-0.3.2-r1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*vilfo-api-client-0.3.2-r1 (10 Apr 2021)
+
+  10 Apr 2021; Andreas Billmeier <b@edevau.net>
+  -vilfo-api-client-0.3.2.ebuild, +vilfo-api-client-0.3.2-r1.ebuild:
+  update vilfo-api-client-0.3.2-r1 (fixes
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/169
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> vilfo-api-client-0.3.2.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  09 Sep 2020; Andreas Billmeier <b@edevau.net> vilfo-api-client-0.3.2.ebuild:
+  consolidate get-mac in getmac (dupe), fixes
+  https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/131
+
+*vilfo-api-client-0.3.2 (13 Feb 2020)
+
+  13 Feb 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +vilfo-api-client-0.3.2.ebuild:
+  add vilfo-api-client-0.3.2
+

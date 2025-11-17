@@ -1,0 +1,148 @@
+# ChangeLog for dev-python/wakeonlan
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  27 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -wakeonlan-2.1.0.ebuild:
+  app-misc/homeassistant 2025.6.3
+
+*wakeonlan-3.1.0 (17 Jun 2025)
+
+  17 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +wakeonlan-3.1.0.ebuild:
+  homeassistant-2025.6.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  wakeonlan-2.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -wakeonlan-2.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +wakeonlan-2.1.0.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  wakeonlan-2.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> wakeonlan-2.1.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jul 2023; Andreas Billmeier <b@edevau.net> -wakeonlan-2.0.1.ebuild,
+  wakeonlan-2.1.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> wakeonlan-2.0.1.ebuild,
+  wakeonlan-2.1.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> wakeonlan-2.0.1.ebuild,
+  wakeonlan-2.1.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*wakeonlan-2.1.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> wakeonlan-2.0.1.ebuild,
+  +wakeonlan-2.1.0.ebuild:
+  update wakeonlan-2.1.0
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> wakeonlan-2.0.1.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> wakeonlan-2.0.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  19 Oct 2021; Andreas Billmeier <b@edevau.net>
+  -files/wakeonlan-1.1.6-setuptools-scm.patch, -wakeonlan-1.1.6-r1.ebuild,
+  wakeonlan-2.0.1.ebuild:
+  cleanup  wakeonlan-2.0.1, fixes #245
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> -wakeonlan-1.1.6.ebuild,
+  -wakeonlan-2.0.0.ebuild, wakeonlan-2.0.1.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+*wakeonlan-2.0.1 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> +wakeonlan-2.0.1.ebuild:
+  bump wakeonlan-2.0.1
+
+*wakeonlan-2.0.0 (05 Apr 2021)
+
+  05 Apr 2021; Andreas Billmeier <b@edevau.net> metadata.xml,
+  +wakeonlan-2.0.0.ebuild:
+  update wakeonlan-2.0.0
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> wakeonlan-1.1.6.ebuild,
+  wakeonlan-1.1.6-r1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*wakeonlan-1.1.6-r1 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> +wakeonlan-1.1.6-r1.ebuild:
+  update wakeonlan-1.1.6-r1
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> wakeonlan-1.1.6.ebuild:
+  remove beta flags from good working core modules
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> wakeonlan-1.1.6.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> wakeonlan-1.1.6.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  21 Dec 2019; Andreas Billmeier <b@edevau.net> wakeonlan-1.1.6.ebuild:
+  clean up KEYWORDS where KEYWORDS.invalid
+
+  19 Mar 2019; Andreas Billmeier (on testbox) <b@edevau.net> +metadata.xml:
+  cleanup
+
+  19 Mar 2019; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -wakeonlan-1.0.0.ebuild, -wakeonlan-1.1.5.ebuild:
+  aioasuswrt-1.1.21 fix
+
+  19 Mar 2019; Andreas Billmeier (on testbox) <b@edevau.net>
+  +files/wakeonlan-1.1.6-setuptools-scm.patch, wakeonlan-1.1.6.ebuild:
+  add a patch for unnecessary wakeonlan-1.1.6 setuptools-scm version
+  restriction
+
+  19 Mar 2019; Andreas Billmeier <b@edevau.net> wakeonlan-1.1.6.ebuild:
+  wakeonlan sucks.
+
+  19 Mar 2019; Andreas Billmeier <b@edevau.net> wakeonlan-1.1.6.ebuild:
+  fix wakeonlan-1.1.6 compile error
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> wakeonlan-1.1.6.ebuild:
+  minor changes
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+  09 Dec 2018; Andreas Billmeier <b@edevau.net> wakeonlan-1.0.0.ebuild,
+  wakeonlan-1.1.5.ebuild, wakeonlan-1.1.6.ebuild:
+  changed newest dev-python ebuild to unstable
+
+*wakeonlan-1.1.6 (01 Dec 2018)
+*wakeonlan-1.1.5 (01 Dec 2018)
+*wakeonlan-1.0.0 (01 Dec 2018)
+
+  01 Dec 2018; Andreas Billmeier <b@edevau.net> +wakeonlan-1.0.0.ebuild,
+  +wakeonlan-1.1.5.ebuild, +wakeonlan-1.1.6.ebuild:
+  homeassistant-0.83.2, and now nearly all python libs.
+

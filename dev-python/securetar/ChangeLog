@@ -1,0 +1,88 @@
+# ChangeLog for dev-python/securetar
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  securetar-2025.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -securetar-2023.3.0.ebuild, -securetar-2024.2.1.ebuild,
+  -securetar-2024.11.0.ebuild, -securetar-2025.1.4.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -securetar-2023.3.0.ebuilde, -securetar-2024.11.0.ebuilde,
+  -securetar-2024.2.1.ebuilde, -securetar-2025.1.4.ebuilde,
+  -securetar-2025.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +securetar-2023.3.0.ebuilde, +securetar-2024.11.0.ebuilde,
+  +securetar-2024.2.1.ebuilde, +securetar-2025.1.4.ebuilde,
+  +securetar-2025.2.1.ebuilde:
+  Fix KEYWORDS
+
+*securetar-2025.2.1 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +securetar-2025.2.1.ebuild:
+  homeassistant 2025.3.0
+
+*securetar-2025.1.4 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +securetar-2025.1.4.ebuild:
+  homeassisstant-2025.2.0
+
+*securetar-2024.11.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +securetar-2024.11.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*securetar-2024.2.1 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> securetar-2023.3.0.ebuild,
+  +securetar-2024.2.1.ebuild:
+  add 2024.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2944
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -securetar-2022.2.0.ebuild:
+  drop 2022.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> securetar-2022.2.0.ebuild,
+  securetar-2023.3.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*securetar-2023.3.0 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> securetar-2022.2.0.ebuild,
+  +securetar-2023.3.0.ebuild:
+  add 2023.3.0, fix 2023.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> securetar-2022.2.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> securetar-2022.2.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+*securetar-2022.2.0 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +securetar-2022.2.0.ebuild:
+  add securetar-2022.2.0
+

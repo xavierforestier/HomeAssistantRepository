@@ -1,0 +1,84 @@
+# ChangeLog for dev-python/python-opendata-transport
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-opendata-transport-0.5.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-opendata-transport-0.4.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -python-opendata-transport-0.4.0.ebuilde,
+  -python-opendata-transport-0.5.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +python-opendata-transport-0.4.0.ebuilde,
+  +python-opendata-transport-0.5.0.ebuilde:
+  Fix KEYWORDS
+
+*python-opendata-transport-0.5.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net>
+  python-opendata-transport-0.4.0.ebuild,
+  +python-opendata-transport-0.5.0.ebuild:
+  add 0.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4066
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -python-opendata-transport-0.3.0.ebuild,
+  python-opendata-transport-0.4.0.ebuild:
+  drop 0.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*python-opendata-transport-0.4.0 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net>
+  python-opendata-transport-0.3.0.ebuild,
+  +python-opendata-transport-0.4.0.ebuild:
+  add 0.4.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2654
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net>
+  python-opendata-transport-0.3.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  python-opendata-transport-0.3.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  python-opendata-transport-0.3.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net>
+  python-opendata-transport-0.3.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  python-opendata-transport-0.3.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*python-opendata-transport-0.3.0 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +python-opendata-transport-0.3.0.ebuild:
+  update python-opendata-transport-0.3.0
+

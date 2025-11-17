@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/fing-agent-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*fing-agent-api-1.0.3 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +fing-agent-api-1.0.3.ebuild, +metadata.xml:
+  app-misc/homeassistant 2025.11.0
+

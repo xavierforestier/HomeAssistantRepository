@@ -1,0 +1,34 @@
+# ChangeLog for dev-python/azure-storage-blob
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -azure-storage-blob-12.20.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  azure-storage-blob-12.20.0.ebuild, azure-storage-blob-12.24.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -azure-storage-blob-12.20.0.ebuilde, -azure-storage-blob-12.24.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +azure-storage-blob-12.20.0.ebuilde, +azure-storage-blob-12.24.0.ebuilde:
+  Fix KEYWORDS
+
+*azure-storage-blob-12.24.0 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +azure-storage-blob-12.24.0.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+*azure-storage-blob-12.20.0 (24 Jun 2024)
+
+  24 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +azure-storage-blob-12.20.0.ebuild, +metadata.xml:
+  new package, add 12.20.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

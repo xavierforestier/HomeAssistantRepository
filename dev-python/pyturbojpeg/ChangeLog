@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/pyturbojpeg
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyturbojpeg-1.7.5.ebuild:
+  Cleansing
+
+*pyturbojpeg-1.8.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyturbojpeg-1.8.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyturbojpeg-1.7.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*pyturbojpeg-1.7.5 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pyturbojpeg-1.7.5.ebuild:
+  Fix for pkgcheck
+

@@ -1,0 +1,157 @@
+# ChangeLog for dev-python/pycognito
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pycognito-2023.5.0.ebuild, -pycognito-2024.2.0.ebuild,
+  pycognito-2024.5.1.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pycognito-2023.5.0.ebuild, pycognito-2024.2.0.ebuild,
+  pycognito-2024.5.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pycognito-2023.5.0.ebuilde, -pycognito-2024.2.0.ebuilde,
+  -pycognito-2024.5.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pycognito-2023.5.0.ebuilde, +pycognito-2024.2.0.ebuilde,
+  +pycognito-2024.5.1.ebuilde:
+  Fix KEYWORDS
+
+*pycognito-2024.5.1 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net> pycognito-2023.5.0.ebuild,
+  pycognito-2024.2.0.ebuild, +pycognito-2024.5.1.ebuild:
+  add 2024.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pycognito-2024.2.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> pycognito-2023.5.0.ebuild,
+  +pycognito-2024.2.0.ebuild:
+  add 2024.2.
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pycognito-2022.8.0.ebuild,
+  -pycognito-2022.12.0.ebuild:
+  drop 2022.8.0, 2022.12.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pycognito-2023.5.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +pycognito-2023.5.0.ebuild:
+  add 2023.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pycognito-2022.12.0 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net> +pycognito-2022.12.0.ebuild:
+  add pycognito-2022.12.0
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> -pycognito-2022.5.0.ebuild:
+  drop 2022.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> pycognito-2022.5.0.ebuild,
+  pycognito-2022.8.0.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pycognito-2022.5.0.ebuild,
+  pycognito-2022.8.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pycognito-2022.5.0.ebuild,
+  pycognito-2022.8.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*pycognito-2022.8.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> -pycognito-2021.3.1.ebuild,
+  -pycognito-2022.1.0.ebuild, pycognito-2022.5.0.ebuild,
+  +pycognito-2022.8.0.ebuild:
+  update hass-nabucasa-0.55.0
+  bump pycognito-2022.8.0
+
+*pycognito-2022.5.0 (09 Jul 2022)
+
+  09 Jul 2022; Andreas Billmeier <b@edevau.net> pycognito-2021.3.1.ebuild,
+  pycognito-2022.1.0.ebuild, +pycognito-2022.5.0.ebuild:
+  bump pycognito-2022.5.0
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> pycognito-2022.1.0.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pycognito-2021.3.1.ebuild,
+  pycognito-2022.1.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pycognito-2022.1.0 (20 Jan 2022)
+
+  20 Jan 2022; Andreas Billmeier <b@edevau.net> -pycognito-0.1.2.ebuild,
+  -pycognito-0.1.3.ebuild, -pycognito-0.1.4.ebuild, -pycognito-0.1.5.ebuild,
+  pycognito-2021.3.1.ebuild, +pycognito-2022.1.0.ebuild:
+  bump pycognito-2022.1.0
+
+  07 Jun 2021; INODE64 <ffelix@inode64.com> pycognito-0.1.2.ebuild,
+  pycognito-0.1.3.ebuild, pycognito-0.1.4.ebuild, pycognito-0.1.5.ebuild,
+  pycognito-2021.3.1.ebuild:
+  Include requirements of python-jose
+
+*pycognito-2021.3.1 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> +pycognito-2021.3.1.ebuild:
+  update pycognito-2021.3.1
+
+*pycognito-0.1.5 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> +pycognito-0.1.5.ebuild:
+  bump pycognito-0.1.5
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pycognito-0.1.2.ebuild,
+  pycognito-0.1.3.ebuild, pycognito-0.1.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pycognito-0.1.4 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> +pycognito-0.1.4.ebuild:
+  bump pycognito-0.1.4
+
+  20 Jun 2020; Andreas Billmeier <b@edevau.net> pycognito-0.1.3.ebuild:
+  remove python-jose dep from pycognito due to fileconflicts with python-jose-
+  cryptodome
+
+*pycognito-0.1.3 (20 Jun 2020)
+
+  20 Jun 2020; Andreas Billmeier <b@edevau.net> +pycognito-0.1.3.ebuild:
+  update pycognito-0.1.3
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> pycognito-0.1.2.ebuild:
+  cannot use >=dev-python/boto3-1.10.49 with 0.108.3
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> pycognito-0.1.2.ebuild:
+  cannot use >=dev-python/boto3-1.10.49 with 0.108.3
+
+*pycognito-0.1.2 (12 Apr 2020)
+
+  12 Apr 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pycognito-0.1.2.ebuild:
+  add pycognito-0.1.2
+

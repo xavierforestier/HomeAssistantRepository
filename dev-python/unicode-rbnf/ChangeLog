@@ -1,0 +1,61 @@
+# ChangeLog for dev-python/unicode-rbnf
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -unicode-rbnf-1.0.0.ebuild, -unicode-rbnf-1.1.0.ebuild,
+  -unicode-rbnf-2.1.0.ebuild, -unicode-rbnf-2.2.0.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  unicode-rbnf-1.0.0.ebuild, unicode-rbnf-1.1.0.ebuild,
+  unicode-rbnf-2.1.0.ebuild, unicode-rbnf-2.2.0.ebuild,
+  unicode-rbnf-2.3.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -unicode-rbnf-1.0.0.ebuilde, -unicode-rbnf-1.1.0.ebuilde,
+  -unicode-rbnf-2.1.0.ebuilde, -unicode-rbnf-2.2.0.ebuilde,
+  -unicode-rbnf-2.3.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +unicode-rbnf-1.0.0.ebuilde, +unicode-rbnf-1.1.0.ebuilde,
+  +unicode-rbnf-2.1.0.ebuilde, +unicode-rbnf-2.2.0.ebuilde,
+  +unicode-rbnf-2.3.0.ebuilde:
+  Fix KEYWORDS
+
+*unicode-rbnf-2.3.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +unicode-rbnf-2.3.0.ebuild:
+  Homeassistant 2025.4.0
+
+*unicode-rbnf-2.2.0 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +unicode-rbnf-2.2.0.ebuild:
+  homeassisstant-2025.2.0
+
+*unicode-rbnf-2.1.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +unicode-rbnf-2.1.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*unicode-rbnf-1.1.0 (26 Jun 2024)
+
+  26 Jun 2024; Andreas Billmeier <b@edevau.net> unicode-rbnf-1.0.0.ebuild,
+  +unicode-rbnf-1.1.0.ebuild:
+  add 1.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*unicode-rbnf-1.0.0 (12 Dec 2023)
+
+  12 Dec 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +unicode-rbnf-1.0.0.ebuild:
+  new package, add 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

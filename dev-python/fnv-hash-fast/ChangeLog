@@ -1,0 +1,117 @@
+# ChangeLog for dev-python/fnv-hash-fast
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*fnv-hash-fast-1.6.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +fnv-hash-fast-1.6.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -fnv-hash-fast-1.4.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*fnv-hash-fast-1.5.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +fnv-hash-fast-1.5.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  fnv-hash-fast-1.4.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -fnv-hash-fast-1.2.6.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -fnv-hash-fast-0.5.0.ebuild, -fnv-hash-fast-1.0.2.ebuild,
+  -fnv-hash-fast-1.2.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -fnv-hash-fast-0.5.0.ebuilde, -fnv-hash-fast-1.0.2.ebuilde,
+  -fnv-hash-fast-1.2.2.ebuilde, -fnv-hash-fast-1.2.6.ebuilde,
+  -fnv-hash-fast-1.4.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +fnv-hash-fast-0.5.0.ebuilde, +fnv-hash-fast-1.0.2.ebuilde,
+  +fnv-hash-fast-1.2.2.ebuilde, +fnv-hash-fast-1.2.6.ebuilde,
+  +fnv-hash-fast-1.4.0.ebuilde:
+  Fix KEYWORDS
+
+*fnv-hash-fast-1.4.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +fnv-hash-fast-1.4.0.ebuild:
+  Homeassistant 2025.4.0
+
+*fnv-hash-fast-1.2.6 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +fnv-hash-fast-1.2.6.ebuild:
+  homeassistant 2025.3.0
+
+*fnv-hash-fast-1.2.2 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +fnv-hash-fast-1.2.2.ebuild:
+  homeassisstant-2025.2.0
+
+*fnv-hash-fast-1.0.2 (20 Oct 2024)
+
+  20 Oct 2024; Andreas Billmeier <b@edevau.net> fnv-hash-fast-0.5.0.ebuild,
+  +fnv-hash-fast-1.0.2.ebuild:
+  add 1.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3646
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*fnv-hash-fast-1.0.2 (04 Oct 2024)
+
+  04 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +fnv-hash-fast-1.0.2.ebuild:
+  Home Assitant 2024.9.3 working :)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -fnv-hash-fast-0.4.1.ebuild,
+  fnv-hash-fast-0.5.0.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -fnv-hash-fast-0.3.1.ebuild:
+  drop 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*fnv-hash-fast-0.5.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +fnv-hash-fast-0.5.0.ebuild:
+  add 0.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2269
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*fnv-hash-fast-0.4.1 (17 Oct 2023)
+
+  17 Oct 2023; Andreas Billmeier <b@edevau.net> +fnv-hash-fast-0.4.1.ebuild:
+  add 0.4.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> fnv-hash-fast-0.3.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*fnv-hash-fast-0.3.1 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> +fnv-hash-fast-0.3.1.ebuild,
+  +metadata.xml:
+  new package, add 0.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

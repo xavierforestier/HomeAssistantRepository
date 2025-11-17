@@ -1,0 +1,92 @@
+# ChangeLog for dev-python/oralb-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  oralb-ble-0.17.6.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -oralb-ble-0.17.6.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +oralb-ble-0.17.6.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  oralb-ble-0.17.6.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -oralb-ble-0.10.0.ebuild,
+  -oralb-ble-0.14.3.ebuild, -oralb-ble-0.17.5.ebuild, oralb-ble-0.17.6.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oralb-ble-0.17.6 (23 Mar 2023)
+
+  23 Mar 2023; Andreas Billmeier <b@edevau.net> -oralb-ble-0.17.4.ebuild,
+  +oralb-ble-0.17.6.ebuild:
+  add 0.17.6, drop 0.17.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oralb-ble-0.17.5 (14 Feb 2023)
+
+  14 Feb 2023; Andreas Billmeier <b@edevau.net> +oralb-ble-0.17.5.ebuild:
+  add 0.17.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oralb-ble-0.17.4 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> -oralb-ble-0.14.2.ebuild,
+  +oralb-ble-0.17.4.ebuild:
+  add 0.17.4, drop 0.14.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> oralb-ble-0.10.0.ebuild,
+  oralb-ble-0.14.2.ebuild, oralb-ble-0.14.3.ebuild:
+  remove Python 3.8 Support tag
+
+*oralb-ble-0.14.3 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -oralb-ble-0.13.0.ebuild, +oralb-ble-0.14.3.ebuild:
+  add 0.14.3, drop 0.13.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oralb-ble-0.14.2 (17 Nov 2022)
+
+  17 Nov 2022; Andreas Billmeier <b@edevau.net> -oralb-ble-0.9.0.ebuild,
+  +oralb-ble-0.14.2.ebuild:
+  add 0.14.2, drop 0.9.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oralb-ble-0.13.0 (08 Nov 2022)
+
+  08 Nov 2022; Andreas Billmeier <b@edevau.net> oralb-ble-0.9.0.ebuild,
+  oralb-ble-0.10.0.ebuild, +oralb-ble-0.13.0.ebuild:
+  bump 0.13.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oralb-ble-0.10.0 (01 Nov 2022)
+
+  01 Nov 2022; Andreas Billmeier <b@edevau.net> +oralb-ble-0.10.0.ebuild:
+  add 0.10.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*oralb-ble-0.9.0 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +oralb-ble-0.9.0.ebuild:
+  new package, add 0.9.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

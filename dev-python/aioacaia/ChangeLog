@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/aioacaia
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioacaia-0.1.14.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*aioacaia-0.1.17 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioacaia-0.1.17.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioacaia-0.1.14.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioacaia-0.1.14.ebuild, +metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aioacaia-0.1.14.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  aioacaia-0.1.14.ebuild, +aioacaia-0.1.14.ebuilde:
+  Fix KEYWORDS
+
+*aioacaia-0.1.14 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aioacaia-0.1.14.ebuild, +files/aioacaia-build-system.patch:
+  Some deps missing for homeassistant-full 2025.3.4
+

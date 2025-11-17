@@ -1,0 +1,70 @@
+# ChangeLog for dev-python/mac-vendor-lookup
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mac-vendor-lookup-0.1.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -mac-vendor-lookup-0.1.12.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +mac-vendor-lookup-0.1.12.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  mac-vendor-lookup-0.1.12.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  -mac-vendor-lookup-0.1.11-r1.ebuild:
+  drop 0.1.11-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net>
+  mac-vendor-lookup-0.1.11-r1.ebuild, mac-vendor-lookup-0.1.12.ebuild:
+  enable py3.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  mac-vendor-lookup-0.1.11-r1.ebuild, mac-vendor-lookup-0.1.12.ebuild:
+  remove Python 3.8 Support tag
+
+*mac-vendor-lookup-0.1.12 (08 Dec 2022)
+*mac-vendor-lookup-0.1.11-r1 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> -files/mac-vendors.txt.xz,
+  -mac-vendor-lookup-0.1.11.ebuild, +mac-vendor-lookup-0.1.11-r1.ebuild,
+  +mac-vendor-lookup-0.1.12.ebuild, metadata.xml:
+  fix 0.1.11 (file size), update 0.1.12
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  mac-vendor-lookup-0.1.11.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net>
+  mac-vendor-lookup-0.1.11.ebuild:
+  remove olds, cleanup, enable pytest
+
+  20 Mar 2022; Andreas Billmeier <b@edevau.net>
+  mac-vendor-lookup-0.1.11.ebuild:
+  minor cleanups
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  mac-vendor-lookup-0.1.11.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*mac-vendor-lookup-0.1.11 (29 Jan 2022)
+
+  29 Jan 2022; Andreas Billmeier <b@edevau.net> +files/mac-vendors.txt.xz,
+  +mac-vendor-lookup-0.1.11.ebuild, +metadata.xml:
+  add mac-vendor-lookup-0.1.11
+

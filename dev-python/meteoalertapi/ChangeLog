@@ -1,0 +1,139 @@
+# ChangeLog for dev-python/meteoalertapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  meteoalertapi-0.3.1.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  meteoalertapi-0.3.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -meteoalertapi-0.3.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -meteoalertapi-0.3.0.ebuilde, -meteoalertapi-0.3.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +meteoalertapi-0.3.0.ebuilde, +meteoalertapi-0.3.1.ebuilde:
+  Fix KEYWORDS
+
+*meteoalertapi-0.3.1 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> meteoalertapi-0.3.0.ebuild,
+  +meteoalertapi-0.3.1.ebuild:
+  add 0.3.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3695
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> meteoalertapi-0.3.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> -meteoalertapi-0.2.0.ebuild,
+  meteoalertapi-0.3.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> meteoalertapi-0.2.0.ebuild,
+  meteoalertapi-0.3.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> meteoalertapi-0.2.0.ebuild,
+  meteoalertapi-0.3.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*meteoalertapi-0.3.0 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> -meteoalertapi-0.1.6.ebuild,
+  meteoalertapi-0.2.0.ebuild, +meteoalertapi-0.3.0.ebuild:
+  bump meteoalertapi-0.3.0
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> meteoalertapi-0.1.6.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> meteoalertapi-0.1.6.ebuild,
+  meteoalertapi-0.2.0.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*meteoalertapi-0.2.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +meteoalertapi-0.2.0.ebuild:
+  update meteoalertapi-0.2.0
+
+  04 Jun 2021; Andreas Billmeier <b@edevau.net> -meteoalertapi-0.0.8.ebuild,
+  -meteoalertapi-0.1.3.ebuild, -meteoalertapi-0.1.5.ebuild,
+  meteoalertapi-0.1.6.ebuild:
+  cleanup PYTHON_COMPAT, remove unused Ebuilds
+  (https://bugs.gentoo.org/793464)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> meteoalertapi-0.0.8.ebuild,
+  meteoalertapi-0.1.3.ebuild, meteoalertapi-0.1.5.ebuild,
+  meteoalertapi-0.1.6.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> meteoalertapi-0.0.8.ebuild,
+  meteoalertapi-0.1.3.ebuild, meteoalertapi-0.1.5.ebuild,
+  meteoalertapi-0.1.6.ebuild:
+  fix the rest of 75 DESCRIPTION.toolong
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> meteoalertapi-0.1.6.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: L-O
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> meteoalertapi-0.0.8.ebuild,
+  meteoalertapi-0.1.3.ebuild, meteoalertapi-0.1.5.ebuild,
+  meteoalertapi-0.1.6.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> meteoalertapi-0.0.8.ebuild,
+  meteoalertapi-0.1.3.ebuild, meteoalertapi-0.1.5.ebuild,
+  meteoalertapi-0.1.6.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  01 Nov 2019; Andreas Billmeier <b@edevau.net> meteoalertapi-0.0.8.ebuild,
+  meteoalertapi-0.1.3.ebuild, meteoalertapi-0.1.5.ebuild,
+  meteoalertapi-0.1.6.ebuild:
+  Add missing license strings as far as possible
+
+*meteoalertapi-0.1.6 (01 Oct 2019)
+
+  01 Oct 2019; Andreas Billmeier <b@edevau.net> +meteoalertapi-0.1.6.ebuild:
+  bump meteoalertapi-0.1.6
+
+*meteoalertapi-0.1.5 (15 Jun 2019)
+
+  15 Jun 2019; Andreas Billmeier <b@edevau.net> +meteoalertapi-0.1.5.ebuild:
+  bump meteoalertapi-0.1.5
+
+*meteoalertapi-0.1.3 (08 Jun 2019)
+
+  08 Jun 2019; Andreas Billmeier <b@edevau.net> +meteoalertapi-0.1.3.ebuild:
+  bump meteoalertapi-0.1.3
+
+*meteoalertapi-0.0.8 (12 May 2019)
+
+  12 May 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +meteoalertapi-0.0.8.ebuild:
+  add meteoalertapi
+

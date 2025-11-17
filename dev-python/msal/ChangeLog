@@ -1,0 +1,30 @@
+# ChangeLog for dev-python/msal
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*msal-1.32.3 (10 May 2025)
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -msal-1.29.0.ebuild, +msal-1.32.3.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  msal-1.29.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -msal-1.29.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +msal-1.29.0.ebuilde:
+  Fix KEYWORDS
+
+*msal-1.29.0 (24 Jun 2024)
+
+  24 Jun 2024; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +msal-1.29.0.ebuild:
+  new package, add 1.29.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

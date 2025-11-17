@@ -1,0 +1,149 @@
+# ChangeLog for dev-python/py-nextbusnext
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-nextbusnext-2.2.0.ebuild:
+  Cleansing
+
+*py-nextbusnext-2.3.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +py-nextbusnext-2.3.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-nextbusnext-2.1.2.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*py-nextbusnext-2.2.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +py-nextbusnext-2.2.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-nextbusnext-2.0.5.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*py-nextbusnext-2.1.2 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +py-nextbusnext-2.1.2.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  py-nextbusnext-2.0.5.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  py-nextbusnext-2.0.5.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-nextbusnext-1.0.2.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -py-nextbusnext-1.0.2.ebuilde, -py-nextbusnext-2.0.5.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +py-nextbusnext-1.0.2.ebuilde, +py-nextbusnext-2.0.5.ebuilde:
+  Fix KEYWORDS
+
+*py-nextbusnext-2.0.5 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> py-nextbusnext-1.0.2.ebuild,
+  +py-nextbusnext-2.0.5.ebuild:
+  add 2.0.5
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3892
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -py-nextbusnext-0.1.5.ebuild,
+  py-nextbusnext-1.0.2.ebuild:
+  drop 0.1.5
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -py-nextbusnext-1.0.0.ebuild:
+  drop 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*py-nextbusnext-1.0.2 (05 Nov 2023)
+
+  05 Nov 2023; Andreas Billmeier <b@edevau.net> +py-nextbusnext-1.0.2.ebuild:
+  add 1.0.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2368
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*py-nextbusnext-1.0.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> +py-nextbusnext-1.0.0.ebuild:
+  add 1.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2287
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.5.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.5.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.5.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -py-nextbusnext-0.1.4.ebuild,
+  py-nextbusnext-0.1.5.ebuild:
+  remove olds, cleanup, enable pytest
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.4.ebuild:
+  remove 332 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.4.ebuild,
+  py-nextbusnext-0.1.5.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*py-nextbusnext-0.1.5 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.4.ebuild,
+  +py-nextbusnext-0.1.5.ebuild:
+  update py-nextbusnext-0.1.5
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> py-nextbusnext-0.1.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  15 Feb 2020; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.4.ebuild:
+  fix the rest of 75 DESCRIPTION.toolong
+
+  10 Feb 2020; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.4.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: P
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> py-nextbusnext-0.1.4.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*py-nextbusnext-0.1.4 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +py-nextbusnext-0.1.4.ebuild:
+  add py-nextbusnext-0.1.4
+

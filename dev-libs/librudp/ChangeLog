@@ -1,0 +1,27 @@
+# ChangeLog for dev-libs/librudp
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  librudp-0.3.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  librudp-0.3.ebuild, +metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> librudp-0.3.ebuild:
+  shellcheck
+
+*librudp-0.3 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +librudp-0.3.ebuild, -librudp-9999.ebuild:
+  feature/Freebox librairies
+
+*librudp-9999 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +files/meson_link_with.patch, +librudp-9999.ebuild:
+  freebox
+

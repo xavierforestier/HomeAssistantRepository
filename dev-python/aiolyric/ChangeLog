@@ -1,0 +1,131 @@
+# ChangeLog for dev-python/aiolyric
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiolyric-2.0.1.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*aiolyric-2.0.2 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiolyric-2.0.1.ebuild, +aiolyric-2.0.2.ebuild,
+  +files/aiolyric-2.0.1-fix-setup.patch,
+  +files/aiolyric-2.0.2-fix-setup.patch, -files/fix-setup.patch:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiolyric-2.0.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiolyric-1.1.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiolyric-1.1.0.ebuilde, -aiolyric-2.0.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolyric-1.1.0.ebuilde, +aiolyric-2.0.1.ebuilde:
+  Fix KEYWORDS
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  aiolyric-2.0.1.ebuild:
+  spellcheck
+
+  23 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aiolyric-2.0.1.ebuild, +files/fix-setup.patch:
+  This is a f*king nightmare :'(
+
+*aiolyric-2.0.1 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net> aiolyric-1.1.0.ebuild,
+  +aiolyric-2.0.1.ebuild, metadata.xml:
+  add 2.0.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3686
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolyric-2.0.1 (21 Oct 2024)
+
+  21 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiolyric-2.0.1.ebuild:
+  homeassistant-full 2024.10.2 full dependencies update
+  (not compiled yet :ouch: )
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -aiolyric-1.0.9.ebuild:
+  drop 1.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aiolyric-1.0.9.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiolyric-1.1.0 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +aiolyric-1.1.0.ebuild:
+  add 1.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -aiolyric-1.0.8.ebuild:
+  drop 1.0.8
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiolyric-1.0.8.ebuild,
+  aiolyric-1.0.9.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiolyric-1.0.8.ebuild,
+  aiolyric-1.0.9.ebuild:
+  remove Python 3.8 Support tag
+
+*aiolyric-1.0.9 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> aiolyric-1.0.8.ebuild,
+  +aiolyric-1.0.9.ebuild, metadata.xml:
+  bump 1.0.9
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiolyric-1.0.8.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aiolyric-1.0.7.ebuild,
+  aiolyric-1.0.8.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiolyric-1.0.7.ebuild,
+  aiolyric-1.0.8.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiolyric-1.0.8 (05 Dec 2021)
+
+  05 Dec 2021; Andreas Billmeier <b@edevau.net> -aiolyric-1.0.5.ebuild,
+  -aiolyric-1.0.6.ebuild, +aiolyric-1.0.8.ebuild:
+  bump aiolyric-1.0.8
+
+*aiolyric-1.0.7 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +aiolyric-1.0.7.ebuild:
+  bump aiolyric-1.0.7
+
+*aiolyric-1.0.6 (15 Mar 2021)
+
+  15 Mar 2021; Andreas Billmeier <b@edevau.net> +aiolyric-1.0.6.ebuild:
+  bump aiolyric-1.0.6
+
+*aiolyric-1.0.5 (09 Feb 2021)
+
+  09 Feb 2021; Andreas Billmeier <b@edevau.net> +aiolyric-1.0.5.ebuild,
+  +metadata.xml:
+  add aiolyric-1.0.5
+

@@ -1,0 +1,175 @@
+# ChangeLog for dev-python/universal-silabs-flasher
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*universal-silabs-flasher-0.0.37 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +universal-silabs-flasher-0.0.37.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  21 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -universal-silabs-flasher-0.0.34.ebuild:
+  homeassistant 2025.10.3 + fix deps with esphome
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -universal-silabs-flasher-0.0.31.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*universal-silabs-flasher-0.0.35 (07 Oct 2025)
+
+  07 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +universal-silabs-flasher-0.0.35.ebuild:
+  app-misc/homeassistant 2025.10.1
+
+*universal-silabs-flasher-0.0.34 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +universal-silabs-flasher-0.0.34.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -universal-silabs-flasher-0.0.30.ebuild:
+  Cleansing
+
+*universal-silabs-flasher-0.0.31 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +universal-silabs-flasher-0.0.31.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -universal-silabs-flasher-0.0.29.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  universal-silabs-flasher-0.0.29.ebuild,
+  universal-silabs-flasher-0.0.30.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  universal-silabs-flasher-0.0.29.ebuild,
+  universal-silabs-flasher-0.0.30.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -universal-silabs-flasher-0.0.29.ebuilde,
+  -universal-silabs-flasher-0.0.30.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +universal-silabs-flasher-0.0.29.ebuilde,
+  +universal-silabs-flasher-0.0.30.ebuilde:
+  Fix KEYWORDS
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -universal-silabs-flasher-0.0.18.ebuild,
+  -universal-silabs-flasher-0.0.20.ebuild,
+  -universal-silabs-flasher-0.0.22.ebuild,
+  -universal-silabs-flasher-0.0.24.ebuild,
+  -universal-silabs-flasher-0.0.25.ebuild,
+  universal-silabs-flasher-0.0.29.ebuild,
+  universal-silabs-flasher-0.0.30.ebuild:
+  cleanup + shellspell
+
+*universal-silabs-flasher-0.0.30 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +universal-silabs-flasher-0.0.30.ebuild:
+  Homeassistant 2025.4.0
+
+*universal-silabs-flasher-0.0.29 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +universal-silabs-flasher-0.0.29.ebuild:
+  homeassistant 2025.3.0
+
+*universal-silabs-flasher-0.0.25 (17 Nov 2024)
+
+  17 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +universal-silabs-flasher-0.0.25.ebuild:
+  homeassitant 2024.11.2 and its deps
+
+*universal-silabs-flasher-0.0.24 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net>
+  +universal-silabs-flasher-0.0.24.ebuild:
+  add 0.0.24
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4085
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*universal-silabs-flasher-0.0.22 (30 Sep 2024)
+
+  30 Sep 2024; Andreas Billmeier <b@edevau.net>
+  +universal-silabs-flasher-0.0.22.ebuild:
+  add 0.0.22
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3819
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*universal-silabs-flasher-0.0.22 (25 Sep 2024)
+
+  25 Sep 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +universal-silabs-flasher-0.0.22.ebuild:
+  feature/upgrade Home Assistant to version 2024.8.3
+
+*universal-silabs-flasher-0.0.20 (08 Jun 2024)
+
+  08 Jun 2024; Andreas Billmeier <b@edevau.net>
+  -universal-silabs-flasher-0.0.15.ebuild,
+  universal-silabs-flasher-0.0.18.ebuild,
+  +universal-silabs-flasher-0.0.20.ebuild:
+  add 0.0.20, drop 0.0.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3483
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -universal-silabs-flasher-0.0.14-r1.ebuild,
+  universal-silabs-flasher-0.0.15.ebuild,
+  universal-silabs-flasher-0.0.18.ebuild:
+  drop 0.0.14-r1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/n
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*universal-silabs-flasher-0.0.18 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net>
+  universal-silabs-flasher-0.0.14-r1.ebuild,
+  universal-silabs-flasher-0.0.15.ebuild,
+  +universal-silabs-flasher-0.0.18.ebuild:
+  add 0.0.18
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2886
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*universal-silabs-flasher-0.0.15 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  universal-silabs-flasher-0.0.14-r1.ebuild,
+  +universal-silabs-flasher-0.0.15.ebuild:
+  add 0.0.15
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2523
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*universal-silabs-flasher-0.0.14-r1 (28 Oct 2023)
+
+  28 Oct 2023; Andreas Billmeier <b@edevau.net>
+  -universal-silabs-flasher-0.0.14.ebuild,
+  +universal-silabs-flasher-0.0.14-r1.ebuild:
+  update 0.0.14-r1, fixes #2221
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*universal-silabs-flasher-0.0.14 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +universal-silabs-flasher-0.0.14.ebuild:
+  dev-python/*: add universal-silabs-flasher-0.0.14, add crc-5.0.0, add
+  gpiod-1.5.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

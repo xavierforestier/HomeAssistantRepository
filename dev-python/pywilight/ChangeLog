@@ -1,0 +1,76 @@
+# ChangeLog for dev-python/pywilight
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pywilight-0.0.74.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pywilight-0.0.74.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pywilight-0.0.74.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  pywilight-0.0.74.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -pywilight-0.0.70.ebuild,
+  pywilight-0.0.74.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pywilight-0.0.70.ebuild,
+  pywilight-0.0.74.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> pywilight-0.0.70.ebuild,
+  pywilight-0.0.74.ebuild:
+  remove olds, cleanup, enable pytest
+
+*pywilight-0.0.74 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> pywilight-0.0.70.ebuild,
+  +pywilight-0.0.74.ebuild:
+  bump pywilight-0.0.74
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pywilight-0.0.70.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  18 Feb 2022; Andreas Billmeier <b@edevau.net> -pywilight-0.0.68.ebuild:
+  remove abandoned packages and Ebuilds
+
+*pywilight-0.0.70 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -pywilight-0.0.65.ebuild,
+  -pywilight-0.0.66.ebuild, +pywilight-0.0.70.ebuild:
+  update pywilight-0.0.70
+
+*pywilight-0.0.68 (13 Feb 2021)
+
+  13 Feb 2021; Andreas Billmeier <b@edevau.net> +pywilight-0.0.68.ebuild:
+  update pywilight-0.0.68
+
+*pywilight-0.0.66 (31 Jan 2021)
+
+  31 Jan 2021; Andreas Billmeier <b@edevau.net> +pywilight-0.0.66.ebuild:
+  bump pywilight-0.0.66
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pywilight-0.0.65.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*pywilight-0.0.65 (24 Aug 2020)
+
+  24 Aug 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pywilight-0.0.65.ebuild:
+  add pywilight-0.0.65
+

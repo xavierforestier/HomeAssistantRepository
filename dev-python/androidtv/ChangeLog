@@ -1,0 +1,413 @@
+# ChangeLog for dev-python/androidtv
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  androidtv-0.0.75.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -androidtv-0.0.73-r1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -androidtv-0.0.73-r1.ebuilde, -androidtv-0.0.75.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +androidtv-0.0.73-r1.ebuilde, +androidtv-0.0.75.ebuilde:
+  Fix KEYWORDS
+
+*androidtv-0.0.75 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +androidtv-0.0.75.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -androidtv-0.0.72.ebuild,
+  androidtv-0.0.73-r1.ebuild:
+  drop 0.0.72
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  07 Jan 2024; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: fix 'UnknownUseFlags'
+
+*androidtv-0.0.73-r1 (17 Dec 2023)
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -androidtv-0.0.73.ebuild,
+  +androidtv-0.0.73-r1.ebuild:
+  add async useflag
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -androidtv-0.0.70.ebuild:
+  drop 0.0.70
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtv-0.0.73 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +androidtv-0.0.73.ebuild:
+  add 0.0.73
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtv-0.0.72 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +androidtv-0.0.72.ebuild:
+  add 0.0.72
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> -androidtv-0.0.69.ebuild:
+  drop 0.0.69
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> androidtv-0.0.69.ebuild,
+  androidtv-0.0.70.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> androidtv-0.0.69.ebuild,
+  androidtv-0.0.70.ebuild:
+  remove Python 3.8 Support tag
+
+*androidtv-0.0.70 (12 Dec 2022)
+
+  12 Dec 2022; Andreas Billmeier <b@edevau.net> -androidtv-0.0.67.ebuild,
+  androidtv-0.0.69.ebuild, +androidtv-0.0.70.ebuild, metadata.xml:
+  drop 0.0.67, bump 0.0.70
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*androidtv-0.0.69 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +androidtv-0.0.69.ebuild:
+  bump androidtv-0.0.69
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> androidtv-0.0.67.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -androidtv-0.0.63.ebuild,
+  -androidtv-0.0.66.ebuild, androidtv-0.0.67.ebuild:
+  rework, remove olds
+
+*androidtv-0.0.67 (27 Apr 2022)
+
+  27 Apr 2022; Andreas Billmeier <b@edevau.net> +androidtv-0.0.67.ebuild:
+  bump androidtv-0.0.67
+
+*androidtv-0.0.66 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> -androidtv-0.0.60.ebuild,
+  -androidtv-0.0.61.ebuild, +androidtv-0.0.66.ebuild:
+  bump androidtv-0.0.66
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> androidtv-0.0.60.ebuild,
+  androidtv-0.0.61.ebuild, androidtv-0.0.63.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*androidtv-0.0.63 (05 Feb 2022)
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net> -androidtv-0.0.61-r1.ebuild,
+  +androidtv-0.0.63.ebuild:
+  bump androidtv-0.0.63
+
+*androidtv-0.0.61-r1 (01 Feb 2022)
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> +androidtv-0.0.61-r1.ebuild:
+  add usb support for androidtv
+
+*androidtv-0.0.61 (01 Feb 2022)
+
+  01 Feb 2022; Andreas Billmeier <b@edevau.net> -androidtv-0.0.57.ebuild,
+  -androidtv-0.0.59.ebuild, +androidtv-0.0.61.ebuild:
+  update androidtv-0.0.61
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> androidtv-0.0.60.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  29 Aug 2021; Andreas Billmeier <b@edevau.net> androidtv-0.0.60.ebuild:
+  mark 'knows-as-good-for-long' packages stable
+
+*androidtv-0.0.60 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> -androidtv-0.0.53.ebuild,
+  -androidtv-0.0.54.ebuild, -androidtv-0.0.56.ebuild,
+  -androidtv-0.0.58.ebuild, +androidtv-0.0.60.ebuild:
+  update androidtv-0.0.60
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> androidtv-0.0.59.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+*androidtv-0.0.59 (15 May 2021)
+
+  15 May 2021; Andreas Billmeier <b@edevau.net> +androidtv-0.0.59.ebuild:
+  bump androidtv-0.0.59
+
+*androidtv-0.0.58 (14 May 2021)
+
+  14 May 2021; Andreas Billmeier <b@edevau.net> -androidtv-0.0.52.ebuild,
+  +androidtv-0.0.58.ebuild:
+  bump androidtv-0.0.58
+
+*androidtv-0.0.57 (20 Dec 2020)
+
+  20 Dec 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.51.ebuild,
+  +androidtv-0.0.57.ebuild:
+  bump androidtv-0.0.57
+
+*androidtv-0.0.56 (03 Dec 2020)
+
+  03 Dec 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.50.ebuild,
+  +androidtv-0.0.56.ebuild:
+  bump androidtv-0.0.56
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> androidtv-0.0.50.ebuild,
+  androidtv-0.0.51.ebuild, androidtv-0.0.52.ebuild, androidtv-0.0.53.ebuild,
+  androidtv-0.0.54.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*androidtv-0.0.54 (05 Nov 2020)
+*androidtv-0.0.53 (05 Nov 2020)
+
+  05 Nov 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.47.ebuild,
+  -androidtv-0.0.48.ebuild, -androidtv-0.0.49.ebuild,
+  +androidtv-0.0.53.ebuild, +androidtv-0.0.54.ebuild:
+  bump androidtv-0.0.53
+  bump androidtv-0.0.54
+
+*androidtv-0.0.52 (22 Oct 2020)
+
+  22 Oct 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.45.ebuild,
+  -androidtv-0.0.46.ebuild, +androidtv-0.0.52.ebuild:
+  bump androidtv-0.0.52
+
+*androidtv-0.0.51 (20 Oct 2020)
+
+  20 Oct 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.41.ebuild,
+  -androidtv-0.0.43.ebuild, +androidtv-0.0.51.ebuild:
+  bump androidtv-0.0.51
+
+*androidtv-0.0.50 (14 Sep 2020)
+
+  14 Sep 2020; Andreas Billmeier <b@edevau.net> +androidtv-0.0.50.ebuild:
+  update androidtv-0.0.50
+
+*androidtv-0.0.49 (15 Aug 2020)
+
+  15 Aug 2020; Andreas Billmeier <b@edevau.net> +androidtv-0.0.49.ebuild:
+  bump androidtv-0.0.49
+
+*androidtv-0.0.48 (11 Aug 2020)
+
+  11 Aug 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.40.ebuild,
+  +androidtv-0.0.48.ebuild:
+  bump androidtv-0.0.48
+
+  01 Aug 2020; Andreas Billmeier <b@edevau.net> androidtv-0.0.46.ebuild,
+  androidtv-0.0.47.ebuild:
+  update aiofiles>=0.4.0 dep for androidtv
+
+*androidtv-0.0.47 (01 Aug 2020)
+
+  01 Aug 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.39.ebuild,
+  +androidtv-0.0.47.ebuild:
+  bump androidtv-0.0.47
+
+*androidtv-0.0.46 (25 Jul 2020)
+
+  25 Jul 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.38.ebuild,
+  +androidtv-0.0.46.ebuild:
+  bump androidtv-0.0.46
+
+*androidtv-0.0.45 (11 Jul 2020)
+
+  11 Jul 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.37.ebuild,
+  +androidtv-0.0.45.ebuild:
+  update androidtv-0.0.45
+
+*androidtv-0.0.43 (11 Jun 2020)
+
+  11 Jun 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.35.ebuild,
+  -androidtv-0.0.36.ebuild, +androidtv-0.0.43.ebuild:
+  bump androidtv-0.0.43
+
+*androidtv-0.0.41 (25 Apr 2020)
+
+  25 Apr 2020; Andreas Billmeier <b@edevau.net> +androidtv-0.0.41.ebuild:
+  bump androidtv-0.0.41
+
+*androidtv-0.0.40 (16 Apr 2020)
+
+  16 Apr 2020; Andreas Billmeier <b@edevau.net> +androidtv-0.0.40.ebuild:
+  update androidtv-0.0.40
+
+  08 Mar 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.30.ebuild,
+  -androidtv-0.0.32.ebuild, -androidtv-0.0.34.ebuild:
+  clean up, romove olds
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net> androidtv-0.0.39.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> androidtv-0.0.30.ebuild,
+  androidtv-0.0.32.ebuild, androidtv-0.0.34.ebuild, androidtv-0.0.35.ebuild,
+  androidtv-0.0.36.ebuild:
+  minor code cleanups
+
+  30 Jan 2020; Andreas Billmeier <b@edevau.net> androidtv-0.0.39.ebuild:
+  preparation for tests with Python 3.8 and/on arm64/Raspberry
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+*androidtv-0.0.39 (26 Jan 2020)
+
+  26 Jan 2020; Andreas Billmeier <b@edevau.net> +androidtv-0.0.39.ebuild:
+  bump androidtv-0.0.39
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*androidtv-0.0.38 (07 Jan 2020)
+
+  07 Jan 2020; Andreas Billmeier <b@edevau.net> +androidtv-0.0.38.ebuild:
+  bump androidtv-0.0.38
+
+*androidtv-0.0.37 (07 Jan 2020)
+
+  07 Jan 2020; Andreas Billmeier <b@edevau.net> -androidtv-0.0.26.ebuild,
+  -androidtv-0.0.27.ebuild, -androidtv-0.0.28.ebuild,
+  -androidtv-0.0.29.ebuild, +androidtv-0.0.37.ebuild:
+  update androidtv-0.0.37
+
+*androidtv-0.0.36 (17 Dec 2019)
+
+  17 Dec 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.36.ebuild:
+  bump ndroidtv-0.0.36 & adb-shell-0.1.0
+
+*androidtv-0.0.35 (15 Dec 2019)
+
+  15 Dec 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.35.ebuild:
+  bump androidtv-0.0.35
+
+*androidtv-0.0.34 (01 Dec 2019)
+
+  01 Dec 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.34.ebuild:
+  update androidtv-0.0.34, fix deps and deps of deps
+
+  12 Nov 2019; Andreas Billmeier <b@edevau.net> androidtv-0.0.26.ebuild,
+  androidtv-0.0.27.ebuild, androidtv-0.0.28.ebuild, androidtv-0.0.29.ebuild,
+  androidtv-0.0.30.ebuild, androidtv-0.0.32.ebuild:
+  align all ebuild headers to https://devmanual.gentoo.org/ebuild-
+  writing/file-format/index.html
+
+  24 Oct 2019; Andreas Billmeier <b@edevau.net> androidtv-0.0.32.ebuild:
+  androidtv-0.0.32.ebuild fix adb-shell==0.0.7
+
+*androidtv-0.0.32 (17 Oct 2019)
+
+  17 Oct 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.32.ebuild:
+  bump androidtv-0.0.32
+
+*androidtv-0.0.30 (06 Oct 2019)
+
+  06 Oct 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.24.ebuild,
+  +androidtv-0.0.30.ebuild:
+  update androidtv-0.0.30
+
+*androidtv-0.0.29 (03 Oct 2019)
+*androidtv-0.0.28 (03 Oct 2019)
+
+  03 Oct 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.22.ebuild,
+  -androidtv-0.0.23.ebuild, +androidtv-0.0.28.ebuild,
+  +androidtv-0.0.29.ebuild:
+  bump androidtv-0.0.29
+
+*androidtv-0.0.27 (10 Sep 2019)
+
+  10 Sep 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.21.ebuild,
+  +androidtv-0.0.27.ebuild:
+  bump androidtv-0.0.27
+
+*androidtv-0.0.26 (06 Sep 2019)
+
+  06 Sep 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.18.ebuild,
+  +androidtv-0.0.26.ebuild:
+  bump androidtv-0.0.24
+
+*androidtv-0.0.24 (25 Aug 2019)
+
+  25 Aug 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.17.ebuild,
+  +androidtv-0.0.24.ebuild:
+  bump androidtv-0.0.24
+
+*androidtv-0.0.23 (15 Aug 2019)
+
+  15 Aug 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.16.ebuild,
+  +androidtv-0.0.23.ebuild:
+  bump androidtv-0.0.23
+
+*androidtv-0.0.22 (11 Aug 2019)
+
+  11 Aug 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.15.ebuild,
+  +androidtv-0.0.22.ebuild:
+  androidtv-0.0.22 bump
+
+*androidtv-0.0.21 (06 Aug 2019)
+
+  06 Aug 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.21.ebuild:
+  bump androidtv-0.0.21
+
+*androidtv-0.0.18 (03 Jul 2019)
+
+  03 Jul 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.12.ebuild,
+  -androidtv-0.0.14.ebuild, +androidtv-0.0.18.ebuild:
+  bump androidtv-0.0.18
+
+*androidtv-0.0.17 (01 Jul 2019)
+
+  01 Jul 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.11.ebuild,
+  +androidtv-0.0.17.ebuild:
+  bump androidtv-0.0.17
+
+*androidtv-0.0.16 (17 Jun 2019)
+
+  17 Jun 2019; Andreas Billmeier <b@edevau.net> -androidtv-0.0.7.ebuild,
+  -androidtv-0.0.9.ebuild, +androidtv-0.0.16.ebuild:
+  update androidtv-0.0.16
+
+*androidtv-0.0.15 (18 Apr 2019)
+
+  18 Apr 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.15.ebuild:
+  bump androidtv-0.0.15
+
+  06 Apr 2019; Andreas Billmeier <b@edevau.net> androidtv-0.0.14.ebuild:
+  try to get androidtv working, still does not
+
+*androidtv-0.0.14 (30 Mar 2019)
+
+  30 Mar 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.14.ebuild:
+  androidtv-0.0.14
+
+*androidtv-0.0.11 (17 Mar 2019)
+*androidtv-0.0.9 (17 Mar 2019)
+*androidtv-0.0.7 (17 Mar 2019)
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.7.ebuild,
+  +androidtv-0.0.9.ebuild, +androidtv-0.0.11.ebuild:
+  finally rename firetv to androidtv
+
+*androidtv-0.0.12 (17 Mar 2019)
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> +androidtv-0.0.12.ebuild,
+  +metadata.xml:
+  firetv is now androidtv
+

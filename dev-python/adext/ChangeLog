@@ -1,0 +1,103 @@
+# ChangeLog for dev-python/adext
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  adext-0.4.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -adext-0.4.2.ebuild, -adext-0.4.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -adext-0.4.2.ebuilde, -adext-0.4.3.ebuilde, -adext-0.4.4.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +adext-0.4.2.ebuilde, +adext-0.4.3.ebuilde, +adext-0.4.4.ebuilde:
+  Fix KEYWORDS
+
+*adext-0.4.4 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +adext-0.4.4.ebuild:
+  homeassistant 2025.3.0
+
+*adext-0.4.3 (23 Jun 2024)
+
+  23 Jun 2024; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild,
+  +adext-0.4.3.ebuild:
+  add 0.4.3
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3379
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  07 Jan 2024; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild:
+  fix EmptyGlobalAssignment
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Mar 2023; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild:
+  dev-python/*: fix #1240 setuptools_scm was renamed (https://github.com/gento
+  o/gentoo/commit/20a310b95d42e4ccef8eaa539c7654c39394a0cb)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -adext-0.4.1.ebuild,
+  adext-0.4.2.ebuild:
+  remove olds, cleanup, enable pytest
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net> adext-0.4.2.ebuild:
+  flag all Ebuilds use by ha-med as stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> adext-0.4.1.ebuild,
+  adext-0.4.2.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*adext-0.4.2 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> -adext-0.3.ebuild,
+  +adext-0.4.2.ebuild:
+  update adext-0.4.2
+
+*adext-0.4.1 (14 Mar 2021)
+
+  14 Mar 2021; Andreas Billmeier <b@edevau.net> +adext-0.4.1.ebuild:
+  bump adext-0.4.1, alarmdecoder-1.13.10
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> adext-0.3.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  07 Sep 2020; Andreas Billmeier <b@edevau.net> adext-0.3.ebuild:
+  fix alarmdecoder, P38
+
+*adext-0.3 (17 Jun 2020)
+
+  17 Jun 2020; Andreas Billmeier <b@edevau.net> +adext-0.3.ebuild,
+  +metadata.xml:
+  add adext-0.3
+

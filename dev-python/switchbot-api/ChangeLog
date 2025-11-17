@@ -1,0 +1,125 @@
+# ChangeLog for dev-python/switchbot-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -switchbot-api-2.7.0.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*switchbot-api-2.8.0 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +switchbot-api-2.8.0.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -switchbot-api-2.5.0.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*switchbot-api-2.7.0 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +switchbot-api-2.7.0.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -switchbot-api-2.4.0.ebuild:
+  Cleansing
+
+*switchbot-api-2.5.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +switchbot-api-2.5.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -switchbot-api-2.3.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*switchbot-api-2.4.0 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +switchbot-api-2.4.0.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  switchbot-api-2.3.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -switchbot-api-2.0.0.ebuild, -switchbot-api-2.1.0.ebuild,
+  -switchbot-api-2.2.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -switchbot-api-2.0.0.ebuilde, -switchbot-api-2.1.0.ebuilde,
+  -switchbot-api-2.2.1.ebuilde, -switchbot-api-2.3.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +switchbot-api-2.0.0.ebuilde, +switchbot-api-2.1.0.ebuilde,
+  +switchbot-api-2.2.1.ebuilde, +switchbot-api-2.3.1.ebuilde:
+  Fix KEYWORDS
+
+*switchbot-api-2.3.1 (31 Jan 2025)
+
+  31 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +switchbot-api-2.3.1.ebuild:
+  homeassistant 2025.1.3
+
+*switchbot-api-2.2.1 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +switchbot-api-2.2.1.ebuild:
+  add 2.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3768
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*switchbot-api-2.1.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> -switchbot-api-1.3.0.ebuild,
+  switchbot-api-2.0.0.ebuild, +switchbot-api-2.1.0.ebuild:
+  drop 1.3.0, add 2.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3307
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -switchbot-api-1.1.0.ebuild,
+  -switchbot-api-1.2.1.ebuild, switchbot-api-1.3.0.ebuild,
+  switchbot-api-2.0.0.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*switchbot-api-2.0.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> +switchbot-api-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2859
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*switchbot-api-1.3.0 (04 Jan 2024)
+
+  04 Jan 2024; Andreas Billmeier <b@edevau.net> switchbot-api-1.1.0.ebuild,
+  switchbot-api-1.2.1.ebuild, +switchbot-api-1.3.0.ebuild:
+  add 1.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2656
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*switchbot-api-1.2.1 (30 Oct 2023)
+
+  30 Oct 2023; Andreas Billmeier <b@edevau.net> +switchbot-api-1.2.1.ebuild:
+  add 1.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*switchbot-api-1.1.0 (11 Oct 2023)
+
+  11 Oct 2023; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +switchbot-api-1.1.0.ebuild:
+  new package, add 1.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

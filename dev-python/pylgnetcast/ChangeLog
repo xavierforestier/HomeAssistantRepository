@@ -1,0 +1,75 @@
+# ChangeLog for dev-python/pylgnetcast
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pylgnetcast-0.3.9.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pylgnetcast-0.3.7.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pylgnetcast-0.3.7.ebuilde, -pylgnetcast-0.3.9.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pylgnetcast-0.3.7.ebuilde, +pylgnetcast-0.3.9.ebuilde:
+  Fix KEYWORDS
+
+*pylgnetcast-0.3.9 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> pylgnetcast-0.3.7.ebuild,
+  +pylgnetcast-0.3.9.ebuild:
+  add 0.3.9
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3280
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net> pylgnetcast-0.3.7.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> pylgnetcast-0.3.7.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> pylgnetcast-0.3.7.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net> -pylgnetcast-0.3.5.ebuild,
+  pylgnetcast-0.3.7.ebuild:
+  remove olds, cleanup, enable pytest
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> pylgnetcast-0.3.5.ebuild,
+  pylgnetcast-0.3.7.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*pylgnetcast-0.3.7 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -pylgnetcast-0.3.3.ebuild,
+  +pylgnetcast-0.3.7.ebuild:
+  bump pylgnetcast-0.3.7
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net> pylgnetcast-0.3.5.ebuild:
+  all EAPI=8 without quotes
+
+*pylgnetcast-0.3.5 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net> +pylgnetcast-0.3.5.ebuild:
+  bump pylgnetcast-0.3.5
+
+*pylgnetcast-0.3.3 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pylgnetcast-0.3.3.ebuild:
+  add pylgnetcast-0.3.3
+

@@ -1,0 +1,142 @@
+# ChangeLog for dev-python/aiogithubapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aiogithubapi-24.6.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiogithubapi-23.11.0-r1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aiogithubapi-23.11.0-r1.ebuilde, -aiogithubapi-24.6.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aiogithubapi-23.11.0-r1.ebuilde, +aiogithubapi-24.6.0.ebuilde:
+  Fix KEYWORDS
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -aiogithubapi-22.10.1.ebuild:
+  drop 22.10.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiogithubapi-24.6.0 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +aiogithubapi-24.6.0.ebuild:
+  add 24.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3856
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiogithubapi-23.11.0-r1 (26 May 2024)
+
+  26 May 2024; Andreas Billmeier <b@edevau.net> -aiogithubapi-23.11.0.ebuild,
+  +aiogithubapi-23.11.0-r1.ebuild:
+  update 23.11.0-r1
+  (https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3358)
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiogithubapi-23.11.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> aiogithubapi-22.10.1.ebuild,
+  +aiogithubapi-23.11.0.ebuild:
+  add 23.11.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3268
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> aiogithubapi-22.10.1.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jul 2023; Andreas Billmeier <b@edevau.net> aiogithubapi-22.10.1.ebuild:
+  fix typo
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> aiogithubapi-22.10.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> aiogithubapi-22.10.1.ebuild:
+  remove Python 3.8 Support tag
+
+  09 Jan 2023; Andreas Billmeier <b@edevau.net> -aiogithubapi-22.2.4.ebuild:
+  drop 22.2.4
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aiogithubapi-22.10.1 (30 Oct 2022)
+
+  30 Oct 2022; Andreas Billmeier <b@edevau.net> +aiogithubapi-22.10.1.ebuild:
+  add 22.10.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> aiogithubapi-22.2.4.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -aiogithubapi-22.2.0.ebuild,
+  -aiogithubapi-22.2.3.ebuild, aiogithubapi-22.2.4.ebuild:
+  rework, remove olds
+
+  03 Jul 2022; Andreas Billmeier <b@edevau.net> aiogithubapi-22.2.0.ebuild,
+  aiogithubapi-22.2.3.ebuild, aiogithubapi-22.2.4.ebuild:
+  Rename dev-python/{async_timeout → async-timeout}
+
+*aiogithubapi-22.2.4 (01 Apr 2022)
+
+  01 Apr 2022; Andreas Billmeier <b@edevau.net> -aiogithubapi-21.8.0.ebuild,
+  -aiogithubapi-21.11.0.ebuild, +aiogithubapi-22.2.4.ebuild, metadata.xml:
+  bump aiogithubapi-22.2.4
+
+  11 Mar 2022; Andreas Billmeier <b@edevau.net> aiogithubapi-22.2.3.ebuild:
+  flag current -min deps stable
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> aiogithubapi-21.8.0.ebuild,
+  aiogithubapi-21.11.0.ebuild, aiogithubapi-22.2.0.ebuild,
+  aiogithubapi-22.2.3.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*aiogithubapi-22.2.3 (26 Feb 2022)
+
+  26 Feb 2022; Andreas Billmeier <b@edevau.net> -aiogithubapi-22.1.0.ebuild,
+  +aiogithubapi-22.2.3.ebuild:
+  bump aiogithubapi-22.2.3
+
+*aiogithubapi-22.2.0 (05 Feb 2022)
+
+  05 Feb 2022; Andreas Billmeier <b@edevau.net> +aiogithubapi-22.2.0.ebuild:
+  bump aiogithubapi-22.2.0
+
+*aiogithubapi-22.1.0 (28 Jan 2022)
+
+  28 Jan 2022; Andreas Billmeier <b@edevau.net> -aiogithubapi-21.8.1.ebuild,
+  +aiogithubapi-22.1.0.ebuild:
+  bump aiogithubapi-22.1.0
+
+*aiogithubapi-21.11.0 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +aiogithubapi-21.11.0.ebuild:
+  bump aiogithubapi-21.11.0
+
+*aiogithubapi-21.8.1 (28 Aug 2021)
+*aiogithubapi-21.8.0 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> +aiogithubapi-21.8.0.ebuild,
+  +aiogithubapi-21.8.1.ebuild, +metadata.xml:
+  add aiogithubapi-21.8.1
+

@@ -1,0 +1,128 @@
+# ChangeLog for dev-python/thermopro-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thermopro-ble-0.13.0.ebuild:
+  Cleansing
+
+*thermopro-ble-0.13.1 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +thermopro-ble-0.13.1.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thermopro-ble-0.11.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*thermopro-ble-0.13.0 (14 May 2025)
+
+  14 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +thermopro-ble-0.13.0.ebuild:
+  homeassistant 2025.5.1 deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  thermopro-ble-0.11.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -thermopro-ble-0.5.0.ebuild, -thermopro-ble-0.9.0.ebuild,
+  -thermopro-ble-0.10.0.ebuild, -thermopro-ble-0.10.1.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -thermopro-ble-0.10.0.ebuilde, -thermopro-ble-0.10.1.ebuilde,
+  -thermopro-ble-0.11.0.ebuilde, -thermopro-ble-0.5.0.ebuilde,
+  -thermopro-ble-0.9.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thermopro-ble-0.10.0.ebuilde, +thermopro-ble-0.10.1.ebuilde,
+  +thermopro-ble-0.11.0.ebuilde, +thermopro-ble-0.5.0.ebuilde,
+  +thermopro-ble-0.9.0.ebuilde:
+  Fix KEYWORDS
+
+*thermopro-ble-0.11.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thermopro-ble-0.11.0.ebuild:
+  homeassistant 2025.3.0
+
+*thermopro-ble-0.10.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +thermopro-ble-0.10.1.ebuild:
+  homeassisstant-2025.2.0
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  thermopro-ble-0.10.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*thermopro-ble-0.10.0 (10 Mar 2024)
+
+  10 Mar 2024; Andreas Billmeier <b@edevau.net> -thermopro-ble-0.4.5.ebuild,
+  thermopro-ble-0.5.0.ebuild, thermopro-ble-0.9.0.ebuild,
+  +thermopro-ble-0.10.0.ebuild:
+  drop 0.4.5, add 0.10.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3025
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermopro-ble-0.9.0 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net> thermopro-ble-0.4.5.ebuild,
+  thermopro-ble-0.5.0.ebuild, +thermopro-ble-0.9.0.ebuild:
+  add 0.9.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2867
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermopro-ble-0.5.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +thermopro-ble-0.5.0.ebuild:
+  add 0.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2496
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -thermopro-ble-0.4.3.ebuild,
+  thermopro-ble-0.4.5.ebuild:
+  change SRC_URI, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermopro-ble-0.4.5 (11 Feb 2023)
+
+  11 Feb 2023; Andreas Billmeier <b@edevau.net> -thermopro-ble-0.4.0.ebuild,
+  +thermopro-ble-0.4.5.ebuild:
+  add 0.4.5, drop 0.4.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> thermopro-ble-0.4.0.ebuild,
+  thermopro-ble-0.4.3.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> thermopro-ble-0.4.0.ebuild,
+  thermopro-ble-0.4.3.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*thermopro-ble-0.4.3 (07 Sep 2022)
+
+  07 Sep 2022; Andreas Billmeier <b@edevau.net> +thermopro-ble-0.4.3.ebuild:
+  bump thermopro-ble-0.4.3
+
+*thermopro-ble-0.4.0 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +thermopro-ble-0.4.0.ebuild:
+  add thermopro-ble-0.4.0
+

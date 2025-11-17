@@ -1,0 +1,135 @@
+# ChangeLog for dev-python/aio-geojson-geonetnz-quakes
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aio-geojson-geonetnz-quakes-0.16.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aio-geojson-geonetnz-quakes-0.15.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -aio-geojson-geonetnz-quakes-0.15.ebuilde,
+  -aio-geojson-geonetnz-quakes-0.16.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +aio-geojson-geonetnz-quakes-0.15.ebuilde,
+  +aio-geojson-geonetnz-quakes-0.16.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  aio-geojson-geonetnz-quakes-0.16.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*aio-geojson-geonetnz-quakes-0.16 (18 Feb 2024)
+
+  18 Feb 2024; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.15.ebuild,
+  +aio-geojson-geonetnz-quakes-0.16.ebuild:
+  add 0.16
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2789
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.15.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net>
+  -aio-geojson-geonetnz-quakes-0.13.ebuild:
+  drop 0.13
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Jun 2023; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.13.ebuild,
+  aio-geojson-geonetnz-quakes-0.15.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*aio-geojson-geonetnz-quakes-0.15 (05 Feb 2023)
+
+  05 Feb 2023; Andreas Billmeier <b@edevau.net>
+  +aio-geojson-geonetnz-quakes-0.15.ebuild:
+  add 0.15
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.13.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.13.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Jul 2022; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.13.ebuild:
+  cleanup aio-geo* stuff
+
+  18 Mar 2022; Andreas Billmeier <b@edevau.net>
+  -aio-geojson-geonetnz-quakes-0.11.ebuild,
+  -aio-geojson-geonetnz-quakes-0.12.ebuild,
+  aio-geojson-geonetnz-quakes-0.13.ebuild:
+  fix more RequiredUseDefaults
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.11.ebuild,
+  aio-geojson-geonetnz-quakes-0.12.ebuild,
+  aio-geojson-geonetnz-quakes-0.13.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.13.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+*aio-geojson-geonetnz-quakes-0.13 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +aio-geojson-geonetnz-quakes-0.13.ebuild:
+  update aio-geojson-geonetnz-quakes-0.13
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz>
+  aio-geojson-geonetnz-quakes-0.11.ebuild,
+  aio-geojson-geonetnz-quakes-0.12.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*aio-geojson-geonetnz-quakes-0.12 (22 Feb 2020)
+
+  22 Feb 2020; Andreas Billmeier <b@edevau.net>
+  +aio-geojson-geonetnz-quakes-0.12.ebuild:
+  update 4 of aio-geojson-* ebuilds
+
+  06 Feb 2020; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.11.ebuild:
+  PYTHON_COMPAT & KEYWORDS Letters: A
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net>
+  aio-geojson-geonetnz-quakes-0.11.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*aio-geojson-geonetnz-quakes-0.11 (22 Nov 2019)
+
+  22 Nov 2019; Andreas Billmeier <b@edevau.net>
+  +aio-geojson-geonetnz-quakes-0.11.ebuild, +metadata.xml:
+  add aio-geojson-client-0.11 and aio-geojson-geonetnz-quakes-0.11
+

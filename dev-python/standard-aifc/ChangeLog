@@ -1,0 +1,30 @@
+# ChangeLog for dev-python/standard-aifc
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  standard-aifc-3.13.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, standard-aifc-3.13.0.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -standard-aifc-3.13.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  standard-aifc-3.13.0.ebuild, +standard-aifc-3.13.0.ebuilde:
+  Fix KEYWORDS
+
+  21 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  standard-aifc-3.13.0.ebuild:
+  Homeassistant 2024.12.3
+
+*standard-aifc-3.13.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +standard-aifc-3.13.0.ebuild:
+  homeassistant 2024.12.1
+

@@ -1,0 +1,134 @@
+# ChangeLog for dev-python/nextdns
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nextdns-4.0.0.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*nextdns-4.1.0 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +nextdns-4.1.0.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  nextdns-4.0.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nextdns-3.0.0.ebuild, -nextdns-3.3.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -nextdns-3.0.0.ebuilde, -nextdns-3.3.0.ebuilde, -nextdns-4.0.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nextdns-3.0.0.ebuilde, +nextdns-3.3.0.ebuilde, +nextdns-4.0.0.ebuilde:
+  Fix KEYWORDS
+
+*nextdns-4.0.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nextdns-4.0.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> -nextdns-2.1.0.ebuild:
+  drop 2.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nextdns-3.3.0 (25 Oct 2024)
+
+  25 Oct 2024; Andreas Billmeier <b@edevau.net> +nextdns-3.3.0.ebuild:
+  add 3.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3893
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nextdns-3.0.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net> nextdns-2.1.0.ebuild,
+  +nextdns-3.0.0.ebuild:
+  add 3.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3288
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> -nextdns-1.4.0.ebuild,
+  -nextdns-2.0.0.ebuild, nextdns-2.1.0.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nextdns-2.1.0 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net> +nextdns-2.1.0.ebuild:
+  add 2.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2467
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net> nextdns-1.4.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -nextdns-1.3.0.ebuild:
+  drop 1.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nextdns-2.0.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net> nextdns-1.3.0.ebuild,
+  nextdns-1.4.0.ebuild, +nextdns-2.0.0.ebuild:
+  add 2.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2288
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nextdns-1.4.0 (28 May 2023)
+
+  28 May 2023; Andreas Billmeier <b@edevau.net> -nextdns-1.1.1.ebuild,
+  -nextdns-1.2.2.ebuild, +nextdns-1.4.0.ebuild:
+  nextdns: drop olds, add 1.4.0
+
+*nextdns-1.3.0 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net> +nextdns-1.3.0.ebuild:
+  add 1.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> nextdns-1.1.1.ebuild,
+  nextdns-1.2.2.ebuild:
+  remove Python 3.8 Support tag
+
+*nextdns-1.2.2 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  -nextdns-1.0.2.ebuild, nextdns-1.1.1.ebuild, +nextdns-1.2.2.ebuild:
+  update nextdns-1.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> nextdns-1.0.2.ebuild,
+  nextdns-1.1.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nextdns-1.1.1 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +nextdns-1.1.1.ebuild:
+  bump nextdns-1.1.1
+
+*nextdns-1.0.2 (06 Aug 2022)
+
+  06 Aug 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +nextdns-1.0.2.ebuild:
+  update quantum-gateway-0.0.8
+  add nextdns/nextdns-1.0.2
+

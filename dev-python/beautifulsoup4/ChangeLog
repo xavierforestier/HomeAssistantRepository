@@ -1,0 +1,68 @@
+# ChangeLog for dev-python/beautifulsoup4
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -beautifulsoup4-4.12.3.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*beautifulsoup4-4.13.3 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +beautifulsoup4-4.13.3.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  beautifulsoup4-4.12.3.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -beautifulsoup4-4.12.2.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -beautifulsoup4-4.12.2.ebuilde, -beautifulsoup4-4.12.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +beautifulsoup4-4.12.2.ebuilde, +beautifulsoup4-4.12.3.ebuilde:
+  Fix KEYWORDS
+
+*beautifulsoup4-4.12.3 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +beautifulsoup4-4.12.3.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -beautifulsoup4-4.11.1.ebuild,
+  beautifulsoup4-4.12.2.ebuild:
+  drop 4.11.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*beautifulsoup4-4.12.2 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> +beautifulsoup4-4.12.2.ebuild:
+  add 4.12.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2738
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  06 Jan 2024; Andreas Billmeier <b@edevau.net> beautifulsoup4-4.11.1.ebuild:
+  VariableShadowed
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  10 Jun 2023; Andreas Billmeier <b@edevau.net> beautifulsoup4-4.11.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*beautifulsoup4-4.11.1 (04 Mar 2023)
+
+  04 Mar 2023; Andreas Billmeier <b@edevau.net> +beautifulsoup4-4.11.1.ebuild,
+  +metadata.xml:
+  new package, add 4.11.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

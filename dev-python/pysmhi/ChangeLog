@@ -1,0 +1,48 @@
+# ChangeLog for dev-python/pysmhi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pysmhi-1.1.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmhi-1.1.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmhi-1.0.1.ebuild:
+  clean old versions
+
+  10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, pysmhi-1.0.1.ebuild, pysmhi-1.0.2.ebuild:
+  pkgcheck
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pysmhi-1.0.1.ebuild, pysmhi-1.0.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmhi-1.0.0.ebuild:
+  Fix for pkgcheck
+
+*pysmhi-1.0.2 (21 Apr 2025)
+
+  21 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pysmhi-1.0.2.ebuild:
+  app-misc/homeassistant-2025.4.3
+
+*pysmhi-1.0.1 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -pysmhi-1.0.0.ebuilde, +pysmhi-1.0.1.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  pysmhi-1.0.0.ebuild, +pysmhi-1.0.0.ebuilde:
+  Fix KEYWORDS
+
+*pysmhi-1.0.0 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +pysmhi-1.0.0.ebuild:
+  homeassistant 2025.3.0
+

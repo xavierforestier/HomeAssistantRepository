@@ -1,0 +1,228 @@
+# ChangeLog for dev-python/bthome-ble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*bthome-ble-3.15.0 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bthome-ble-3.15.0.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bthome-ble-3.13.1.ebuild:
+  app-misc/homeassistant 2025.10.2
+
+*bthome-ble-3.14.2 (06 Oct 2025)
+
+  06 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bthome-ble-3.14.2.ebuild:
+  app-misc/homeassistant 2025.10.0
+
+  12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bthome-ble-3.12.4.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+*bthome-ble-3.13.1 (25 Jun 2025)
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bthome-ble-3.13.1.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bthome-ble-3.12.4.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bthome-ble-3.8.1.ebuild, -bthome-ble-3.9.1.ebuild,
+  -bthome-ble-3.12.3.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -bthome-ble-3.12.3.ebuilde, -bthome-ble-3.12.4.ebuilde,
+  -bthome-ble-3.8.1.ebuilde, -bthome-ble-3.9.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bthome-ble-3.12.3.ebuilde, +bthome-ble-3.12.4.ebuilde,
+  +bthome-ble-3.8.1.ebuilde, +bthome-ble-3.9.1.ebuilde:
+  Fix KEYWORDS
+
+*bthome-ble-3.12.4 (08 Mar 2025)
+
+  08 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bthome-ble-3.12.4.ebuild:
+  homeassistant 2025.3.0
+
+*bthome-ble-3.12.3 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +bthome-ble-3.12.3.ebuild:
+  homeassisstant-2025.2.0
+
+*bthome-ble-3.9.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> -bthome-ble-3.2.0.ebuild,
+  -bthome-ble-3.3.1.ebuild, -bthome-ble-3.5.0.ebuild,
+  -bthome-ble-3.8.0.ebuild, bthome-ble-3.8.1.ebuild, +bthome-ble-3.9.1.ebuild:
+  add 3.9.1, drop olds
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3591
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  09 Apr 2024; Andreas Billmeier <b@edevau.net> -bthome-ble-3.6.0.ebuild:
+  drop 3.6.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-3.8.1 (08 Apr 2024)
+
+  08 Apr 2024; Andreas Billmeier <b@edevau.net> +bthome-ble-3.8.1.ebuild:
+  add 3.8.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3103
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-3.8.0 (14 Mar 2024)
+
+  14 Mar 2024; Andreas Billmeier <b@edevau.net> +bthome-ble-3.8.0.ebuild:
+  add 3.8.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3061
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-3.6.0 (09 Mar 2024)
+
+  09 Mar 2024; Andreas Billmeier <b@edevau.net> bthome-ble-3.2.0.ebuild,
+  bthome-ble-3.3.1.ebuild, bthome-ble-3.5.0.ebuild, +bthome-ble-3.6.0.ebuild:
+  add 3.6.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2950
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> -bthome-ble-3.1.1.ebuild:
+  drop 3.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-3.5.0 (11 Feb 2024)
+
+  11 Feb 2024; Andreas Billmeier <b@edevau.net> bthome-ble-3.1.1.ebuild,
+  bthome-ble-3.2.0.ebuild, bthome-ble-3.3.1.ebuild, +bthome-ble-3.5.0.ebuild:
+  add 3.5.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2762
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-3.3.1 (03 Jan 2024)
+
+  03 Jan 2024; Andreas Billmeier <b@edevau.net> +bthome-ble-3.3.1.ebuild:
+  add 3.3.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2585
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  03 Nov 2023; Andreas Billmeier <b@edevau.net> -bthome-ble-2.9.0.ebuild,
+  -bthome-ble-2.12.1.ebuild:
+  drop 2.9.0, 2.12.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-3.2.0 (31 Oct 2023)
+
+  31 Oct 2023; Andreas Billmeier <b@edevau.net> +bthome-ble-3.2.0.ebuild:
+  add 3.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-3.1.1 (20 Oct 2023)
+
+  20 Oct 2023; Andreas Billmeier <b@edevau.net> +bthome-ble-3.1.1.ebuild:
+  add 3.1.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-2.12.1 (29 Jul 2023)
+
+  29 Jul 2023; Andreas Billmeier <b@edevau.net> -bthome-ble-1.2.2.ebuild,
+  -bthome-ble-2.5.1.ebuild, -bthome-ble-2.5.2.ebuild, bthome-ble-2.9.0.ebuild,
+  +bthome-ble-2.12.1.ebuild:
+  drop olds, add 2.12.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> bthome-ble-1.2.2.ebuild,
+  bthome-ble-2.5.1.ebuild, bthome-ble-2.5.2.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> bthome-ble-2.9.0.ebuild:
+  2.9.0, fix a dep
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-2.9.0 (08 Apr 2023)
+
+  08 Apr 2023; Andreas Billmeier <b@edevau.net> -bthome-ble-2.3.1.ebuild,
+  -bthome-ble-2.4.1.ebuild, +bthome-ble-2.9.0.ebuild:
+  add 2.9.0, drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-2.5.2 (28 Feb 2023)
+
+  28 Feb 2023; Andreas Billmeier <b@edevau.net> +bthome-ble-2.5.2.ebuild:
+  add 2.5.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-2.5.1 (04 Feb 2023)
+
+  04 Feb 2023; Andreas Billmeier <b@edevau.net> +bthome-ble-2.5.1.ebuild:
+  add 2.5.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> bthome-ble-1.2.2.ebuild,
+  bthome-ble-2.3.1.ebuild, bthome-ble-2.4.1.ebuild:
+  remove Python 3.8 Support tag
+
+*bthome-ble-2.4.1 (07 Jan 2023)
+
+  07 Jan 2023; Andreas Billmeier <b@edevau.net> -bthome-ble-1.0.0.ebuild,
+  +bthome-ble-2.4.1.ebuild:
+  add 2.4.1, drop 1.0.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-2.3.1 (07 Dec 2022)
+
+  07 Dec 2022; Andreas Billmeier <b@edevau.net> bthome-ble-1.0.0.ebuild,
+  +bthome-ble-2.3.1.ebuild, metadata.xml:
+  bump 2.3.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> bthome-ble-1.0.0.ebuild,
+  bthome-ble-1.2.2.ebuild:
+  dev-python/bt-proximity: remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*bthome-ble-1.2.2 (02 Oct 2022)
+
+  02 Oct 2022; Andreas Billmeier <b@edevau.net> -bthome-ble-0.5.2.ebuild,
+  +bthome-ble-1.2.2.ebuild:
+  update bthome-ble-1.2.2
+
+*bthome-ble-1.0.0 (06 Sep 2022)
+
+  06 Sep 2022; Andreas Billmeier <b@edevau.net> +bthome-ble-1.0.0.ebuild:
+  bump bthome-ble-1.0.0
+
+*bthome-ble-0.5.2 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net> +bthome-ble-0.5.2.ebuild,
+  +metadata.xml:
+  bthome-ble-0.5.2
+

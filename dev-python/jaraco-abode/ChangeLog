@@ -1,0 +1,75 @@
+# ChangeLog for dev-python/jaraco-abode
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  jaraco-abode-6.2.1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -jaraco-abode-3.3.0.ebuild, -jaraco-abode-5.2.1.ebuild,
+  -jaraco-abode-6.2.0.ebuild:
+  cleansing
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -jaraco-abode-3.3.0.ebuilde, -jaraco-abode-5.2.1.ebuilde,
+  -jaraco-abode-6.2.0.ebuilde, -jaraco-abode-6.2.1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +jaraco-abode-3.3.0.ebuilde, +jaraco-abode-5.2.1.ebuilde,
+  +jaraco-abode-6.2.0.ebuilde, +jaraco-abode-6.2.1.ebuilde:
+  Fix KEYWORDS
+
+*jaraco-abode-6.2.1 (26 Oct 2024)
+
+  26 Oct 2024; Andreas Billmeier <b@edevau.net> +jaraco-abode-6.2.1.ebuild,
+  metadata.xml:
+  add 6.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3831
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*jaraco-abode-6.2.0 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +jaraco-abode-6.2.0.ebuild:
+  homeassistant 2024.10.0_beta0
+
+*jaraco-abode-6.2.1 (13 Oct 2024)
+
+  13 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +jaraco-abode-6.2.1.ebuild:
+  Complete the test.sh, that (try to) compiles all USE flags at once
+
+*jaraco-abode-5.2.1 (21 Sep 2024)
+
+  21 Sep 2024; Andreas Billmeier <b@edevau.net> jaraco-abode-3.3.0.ebuild,
+  +jaraco-abode-5.2.1.ebuild:
+  add 5.2.1
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3536
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*jaraco-abode-5.2.1 (27 Jul 2024)
+
+  27 Jul 2024; Elliott Johnson <elliott@elliottjohnson.net>
+  +jaraco-abode-5.2.1.ebuild:
+  Adding homeassistant 2024.07.03 and some Tuya libs.
+
+  I used the gentoo PYPI.eclass's wheel functionality for a few libraries.
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> jaraco-abode-3.3.0.ebuild:
+  3.3.0: update SRC_URI
+  dev-python/jaraco-classes: drop dupe
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*jaraco-abode-3.3.0 (12 Feb 2023)
+
+  12 Feb 2023; Andreas Billmeier <b@edevau.net> +jaraco-abode-3.3.0.ebuild,
+  +metadata.xml:
+  new package, add 3.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

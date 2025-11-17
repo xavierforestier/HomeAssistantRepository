@@ -1,0 +1,130 @@
+# ChangeLog for dev-python/forecast-solar
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  24 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -forecast-solar-4.1.0.ebuild:
+  Drop old app-misc/homeassistant 2025.4.4
+
+*forecast-solar-4.2.0 (13 May 2025)
+
+  13 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +forecast-solar-4.2.0.ebuild:
+  Deps form homeassistant 2025.5.1
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  forecast-solar-4.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -forecast-solar-4.0.0.ebuild:
+  Fix for pkgcheck
+
+*forecast-solar-4.1.0 (06 Apr 2025)
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -forecast-solar-3.0.0.ebuild, -forecast-solar-3.0.0.ebuilde,
+  -forecast-solar-3.1.0.ebuild, -forecast-solar-3.1.0.ebuilde,
+  -forecast-solar-4.0.0.ebuilde, +forecast-solar-4.1.0.ebuild:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +forecast-solar-3.0.0.ebuilde, +forecast-solar-3.1.0.ebuilde,
+  +forecast-solar-4.0.0.ebuilde:
+  Fix KEYWORDS
+
+*forecast-solar-4.0.0 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +forecast-solar-4.0.0.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*forecast-solar-3.1.0 (12 Apr 2024)
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net> forecast-solar-3.0.0.ebuild,
+  +forecast-solar-3.1.0.ebuild:
+  add 3.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3208
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -forecast-solar-2.2.0.ebuild:
+  drop 2.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*forecast-solar-3.0.0 (29 May 2023)
+
+  29 May 2023; Andreas Billmeier <b@edevau.net> forecast-solar-2.2.0.ebuild,
+  +forecast-solar-3.0.0.ebuild:
+  add 3.0.0, fix 2.2.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> forecast-solar-2.2.0.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> forecast-solar-2.2.0.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  16 Oct 2022; Andreas Billmeier <b@edevau.net>
+  -forecast-solar-2.1.0-r1.ebuild, forecast-solar-2.2.0.ebuild:
+  remove olds, cleanup, enable pytest
+
+  09 Apr 2022; Andreas Billmeier <b@edevau.net>
+  forecast-solar-2.1.0-r1.ebuild, forecast-solar-2.2.0.ebuild:
+  shellcheck optimization
+
+  09 Apr 2022; Andreas Billmeier <b@edevau.net>
+  forecast-solar-2.1.0-r1.ebuild, forecast-solar-2.2.0.ebuild:
+  repair forecast-solar version substitution
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net>
+  forecast-solar-2.1.0-r1.ebuild, forecast-solar-2.2.0.ebuild:
+  cleanup forecast-solar
+
+*forecast-solar-2.2.0 (02 Apr 2022)
+
+  02 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -forecast-solar-1.3.1-r1.ebuild, -forecast-solar-2.0.0-r1.ebuild,
+  +forecast-solar-2.2.0.ebuild:
+  bump forecast-solar-2.2.0
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  forecast-solar-1.3.1-r1.ebuild, forecast-solar-2.0.0-r1.ebuild,
+  forecast-solar-2.1.0-r1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*forecast-solar-2.1.0-r1 (22 Dec 2021)
+*forecast-solar-2.0.0-r1 (22 Dec 2021)
+*forecast-solar-1.3.1-r1 (22 Dec 2021)
+
+  22 Dec 2021; Andreas Billmeier <b@edevau.net> -forecast-solar-1.3.1.ebuild,
+  +forecast-solar-1.3.1-r1.ebuild, -forecast-solar-2.0.0.ebuild,
+  +forecast-solar-2.0.0-r1.ebuild, -forecast-solar-2.1.0.ebuild,
+  +forecast-solar-2.1.0-r1.ebuild:
+  forecast-solar fill version, fixes #254
+
+*forecast-solar-2.1.0 (28 Aug 2021)
+
+  28 Aug 2021; Andreas Billmeier <b@edevau.net> +forecast-solar-2.1.0.ebuild:
+  update forecast-solar-2.1.0
+
+*forecast-solar-2.0.0 (07 Aug 2021)
+
+  07 Aug 2021; Andreas Billmeier <b@edevau.net> +forecast-solar-2.0.0.ebuild:
+  update forecast-solar-2.0.0
+
+*forecast-solar-1.3.1 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net> +forecast-solar-1.3.1.ebuild,
+  +metadata.xml:
+  add forecast-solar-1.3.1Â
+

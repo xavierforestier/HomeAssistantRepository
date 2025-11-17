@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/pyephember2
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pyephember2-0.4.12 (12 May 2025)
+
+  12 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pyephember2-0.4.12.ebuild:
+  homeassitant 2025.5.1
+

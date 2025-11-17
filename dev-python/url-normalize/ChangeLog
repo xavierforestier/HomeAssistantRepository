@@ -1,0 +1,53 @@
+# ChangeLog for dev-python/url-normalize
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  17 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  url-normalize-1.4.3-r1.ebuild:
+  Fixes
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  url-normalize-1.4.3-r1.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, url-normalize-1.4.3-r1.ebuild:
+  Fix for pkgcheck
+
+*url-normalize-1.4.3-r1 (21 Apr 2025)
+
+  21 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +url-normalize-1.4.3-r1.ebuild:
+  app-misc/homeassistant-2025.4.3
+
+  17 Oct 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -url-normalize-1.4.1.ebuild:
+  remove outdated url-normalize
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> url-normalize-1.4.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+  16 Jul 2021; Andreas Billmeier <b@edevau.net> url-normalize-1.4.1.ebuild:
+  cleanup, add new Python Targets, Letter 'G-I' all Integrations
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> url-normalize-1.4.1.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  11 Feb 2020; Andreas Billmeier <b@edevau.net> url-normalize-1.4.1.ebuild:
+  clean up PYTHON_COMPAT & KEYWORDS Letters: T-Z
+
+  04 Feb 2020; Andreas Billmeier <b@edevau.net> url-normalize-1.4.1.ebuild:
+  minor code cleanups
+
+  29 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  fix some (complained) metadata issues
+
+  11 Jan 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
+  cleanup Manifests, remove obsolete <herd> tags
+
+*url-normalize-1.4.1 (23 Nov 2019)
+
+  23 Nov 2019; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +url-normalize-1.4.1.ebuild:
+  add url-normalize-1.4.1 and poetry-0.12.17
+

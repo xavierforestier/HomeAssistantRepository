@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/twitterapi
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  twitterapi-2.7.12.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*twitterapi-2.7.12 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +twitterapi-2.7.12.ebuild:
+  Fix for pkgcheck
+

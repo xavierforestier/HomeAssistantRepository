@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/pysrdaligateway
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pysrdaligateway-0.13.1 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pysrdaligateway-0.13.1.ebuild:
+  app-misc/homeassistant 2025.11.0
+

@@ -1,0 +1,225 @@
+# ChangeLog for dev-python/nettigo-air-monitor
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  19 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nettigo-air-monitor-4.1.0.ebuild:
+  Cleansing
+
+*nettigo-air-monitor-5.0.0 (10 Jul 2025)
+
+  10 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +nettigo-air-monitor-5.0.0.ebuild:
+  app-misc/homeassistant 2025.7.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  nettigo-air-monitor-4.1.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nettigo-air-monitor-4.0.0.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -nettigo-air-monitor-3.0.0.ebuild, -nettigo-air-monitor-3.1.0.ebuild,
+  -nettigo-air-monitor-3.3.0.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -nettigo-air-monitor-3.0.0.ebuilde, -nettigo-air-monitor-3.1.0.ebuilde,
+  -nettigo-air-monitor-3.3.0.ebuilde, -nettigo-air-monitor-4.0.0.ebuilde,
+  -nettigo-air-monitor-4.1.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nettigo-air-monitor-3.0.0.ebuilde, +nettigo-air-monitor-3.1.0.ebuilde,
+  +nettigo-air-monitor-3.3.0.ebuilde, +nettigo-air-monitor-4.0.0.ebuilde,
+  +nettigo-air-monitor-4.1.0.ebuilde:
+  Fix KEYWORDS
+
+*nettigo-air-monitor-4.1.0 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nettigo-air-monitor-4.1.0.ebuild:
+  Homeassistant 2025.4.0
+
+*nettigo-air-monitor-4.0.0 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +nettigo-air-monitor-4.0.0.ebuild:
+  homeassistant 2025.1.1
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-2.2.2.ebuild:
+  drop 2.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-3.3.0 (21 Oct 2024)
+
+  21 Oct 2024; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-3.3.0.ebuild:
+  add 3.3.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3705
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-3.1.0 (16 Jun 2024)
+
+  16 Jun 2024; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-3.1.0.ebuild:
+  add 3.1.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3435
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-3.0.0 (12 May 2024)
+
+  12 May 2024; Andreas Billmeier <b@edevau.net>
+  nettigo-air-monitor-2.2.2.ebuild, +nettigo-air-monitor-3.0.0.ebuild:
+  add 3.0.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3286
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Apr 2024; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-2.1.0.ebuild, -nettigo-air-monitor-2.2.0.ebuild,
+  nettigo-air-monitor-2.2.2.ebuild:
+  drop olds
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-2.2.2 (10 Dec 2023)
+
+  10 Dec 2023; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-2.2.2.ebuild:
+  add 2.2.2
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2466
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  23 Nov 2023; Andreas Billmeier <b@edevau.net>
+  nettigo-air-monitor-2.1.0.ebuild, nettigo-air-monitor-2.2.0.ebuild:
+  dev-python/*: remove obsolete setuptools BDEP, update Manifest
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-2.2.0 (01 Nov 2023)
+
+  01 Nov 2023; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-2.2.0.ebuild:
+  add 2.2.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2286
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  12 Jul 2023; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-1.4.2.ebuild, -nettigo-air-monitor-1.5.0.ebuild,
+  -nettigo-air-monitor-1.6.0.ebuild, nettigo-air-monitor-2.1.0.ebuild:
+  drop olds, change SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-2.1.0 (01 Mar 2023)
+
+  01 Mar 2023; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-2.1.0.ebuild:
+  add 2.1.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net>
+  nettigo-air-monitor-1.4.2.ebuild, nettigo-air-monitor-1.5.0.ebuild,
+  nettigo-air-monitor-1.6.0.ebuild:
+  remove Python 3.8 Support tag
+
+*nettigo-air-monitor-1.6.0 (08 Jan 2023)
+
+  08 Jan 2023; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-1.3.0.ebuild, +nettigo-air-monitor-1.6.0.ebuild:
+  add 1.6.0, drop 1.3.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-1.5.0 (08 Dec 2022)
+
+  08 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml,
+  nettigo-air-monitor-1.3.0.ebuild, nettigo-air-monitor-1.4.2.ebuild,
+  +nettigo-air-monitor-1.5.0.ebuild:
+  update 1.5.0
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net>
+  nettigo-air-monitor-1.3.0.ebuild, nettigo-air-monitor-1.4.2.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*nettigo-air-monitor-1.4.2 (03 Sep 2022)
+
+  03 Sep 2022; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-1.2.4.ebuild, nettigo-air-monitor-1.3.0.ebuild,
+  +nettigo-air-monitor-1.4.2.ebuild:
+  update nettigo-air-monitor-1.4.2
+  add aqipy-atmotech-0.1.5
+
+*nettigo-air-monitor-1.3.0 (18 Jul 2022)
+
+  18 Jul 2022; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-1.2.1.ebuild, -nettigo-air-monitor-1.2.3.ebuild,
+  nettigo-air-monitor-1.2.4.ebuild, +nettigo-air-monitor-1.3.0.ebuild:
+  update nettigo-air-monitor-1.3.0
+
+*nettigo-air-monitor-1.2.4 (13 May 2022)
+
+  13 May 2022; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-1.2.2.ebuild, +nettigo-air-monitor-1.2.4.ebuild:
+  bump nettigo-air-monitor-1.2.4
+
+*nettigo-air-monitor-1.2.3 (06 May 2022)
+
+  06 May 2022; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-1.2.3.ebuild:
+  bump nettigo-air-monitor-1.2.3
+
+*nettigo-air-monitor-1.2.2 (30 Apr 2022)
+
+  30 Apr 2022; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-1.0.0.ebuild, -nettigo-air-monitor-1.1.1.ebuild,
+  +nettigo-air-monitor-1.2.2.ebuild:
+  update nettigo-air-monitor-1.2.2
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net>
+  nettigo-air-monitor-1.0.0.ebuild, nettigo-air-monitor-1.1.1.ebuild,
+  nettigo-air-monitor-1.2.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*nettigo-air-monitor-1.2.1 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-1.2.1.ebuild:
+  bump nettigo-air-monitor-1.2.1
+
+  06 Nov 2021; Andreas Billmeier <b@edevau.net>
+  nettigo-air-monitor-1.1.1.ebuild:
+  all EAPI=8 without quotes
+
+*nettigo-air-monitor-1.1.1 (02 Nov 2021)
+
+  02 Nov 2021; Andreas Billmeier <b@edevau.net>
+  -nettigo-air-monitor-0.2.6.ebuild, +nettigo-air-monitor-1.1.1.ebuild:
+  bump nettigo-air-monitor-1.1.1
+
+*nettigo-air-monitor-1.0.0 (02 Jul 2021)
+
+  02 Jul 2021; Andreas Billmeier <b@edevau.net>
+  +nettigo-air-monitor-1.0.0.ebuild:
+  update nettigo-air-monitor-1.0.0
+
+*nettigo-air-monitor-0.2.6 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +nettigo-air-monitor-0.2.6.ebuild:
+  add nettigo-air-monitor-0.2.6
+

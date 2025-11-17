@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/pymicrobot
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pymicrobot-0.0.17.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*pymicrobot-0.0.23 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pymicrobot-0.0.23.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pymicrobot-0.0.17.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+*pymicrobot-0.0.17 (08 May 2025)
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pymicrobot-0.0.17.ebuild:
+  Fix for pkgcheck
+

@@ -1,0 +1,86 @@
+# ChangeLog for dev-python/goalzero
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  goalzero-0.2.2.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -goalzero-0.2.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +goalzero-0.2.2.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  goalzero-0.2.2.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  17 Dec 2023; Andreas Billmeier <b@edevau.net> -goalzero-0.2.1.ebuild:
+  drop 0.2.1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*goalzero-0.2.2 (22 Oct 2023)
+
+  22 Oct 2023; Andreas Billmeier <b@edevau.net> +goalzero-0.2.2.ebuild:
+  add 0.2.2
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  11 Jun 2023; Andreas Billmeier <b@edevau.net> goalzero-0.2.1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  30 Jan 2023; Andreas Billmeier <b@edevau.net> goalzero-0.2.1.ebuild:
+  remove Python 3.8 Support tag
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Oct 2022; Andreas Billmeier <b@edevau.net> goalzero-0.2.1.ebuild:
+  remove (deprecated) nosetests
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -goalzero-0.1.7.ebuild,
+  -goalzero-0.2.0.ebuild, goalzero-0.2.1.ebuild:
+  rework, remove olds
+
+  08 Apr 2022; Andreas Billmeier <b@edevau.net> goalzero-0.1.7.ebuild:
+  remove 141 already emtpy DEPEND nestings
+
+  07 Mar 2022; Andreas Billmeier <b@edevau.net> goalzero-0.1.7.ebuild,
+  goalzero-0.2.0.ebuild, goalzero-0.2.1.ebuild:
+  add RESTRICT="!test? ( test )" to all Ebuilds where missing
+
+*goalzero-0.2.1 (04 Dec 2021)
+
+  04 Dec 2021; Andreas Billmeier <b@edevau.net> +goalzero-0.2.1.ebuild:
+  update goalzero-0.2.1
+
+*goalzero-0.2.0 (02 Oct 2021)
+
+  02 Oct 2021; Andreas Billmeier <b@edevau.net> -goalzero-0.1.4.ebuild,
+  +goalzero-0.2.0.ebuild:
+  bump goalzero-0.2.0
+
+*goalzero-0.1.7 (12 Jun 2021)
+
+  12 Jun 2021; Andreas Billmeier <b@edevau.net> +goalzero-0.1.7.ebuild:
+  goalzero-0.1.7 update
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> goalzero-0.1.4.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+*goalzero-0.1.4 (28 Sep 2020)
+
+  28 Sep 2020; Andreas Billmeier <b@edevau.net> +goalzero-0.1.4.ebuild,
+  +metadata.xml:
+  add goalzero-0.1.4
+

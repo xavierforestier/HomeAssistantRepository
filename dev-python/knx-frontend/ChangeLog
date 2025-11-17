@@ -1,0 +1,171 @@
+# ChangeLog for dev-python/knx-frontend
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*knx-frontend-2025.10.31.195356 (09 Nov 2025)
+
+  09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +knx-frontend-2025.10.31.195356.ebuild:
+  app-misc/homeassistant 2025.11.0
+
+  14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-frontend-2025.8.9.63154.ebuild:
+  app-misc/homeassistant 2025.9.2 + drop 2025.8.*
+
+*knx-frontend-2025.8.24.205840 (13 Sep 2025)
+
+  13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +knx-frontend-2025.8.24.205840.ebuild:
+  app-misc/homeassistant 2025.9.0
+
+  23 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-frontend-2025.8.6.52906.ebuild:
+  app-misc/homeassistant 2025.8.3
+
+  16 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-frontend-2025.4.1.91934.ebuild:
+  app-misc/homeassistant 2025.8.2
+
+*knx-frontend-2025.8.9.63154 (15 Aug 2025)
+
+  15 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +knx-frontend-2025.8.9.63154.ebuild:
+  app-misc/homeassistant 2025.8.1
+
+*knx-frontend-2025.8.6.52906 (14 Aug 2025)
+
+  14 Aug 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +knx-frontend-2025.8.6.52906.ebuild:
+  app-misc/homeassistant 2025.8.0
+
+  25 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-frontend-2025.3.8.214559.ebuild:
+  app-misc/homeassistant 2025.6.2
+
+*knx-frontend-2025.4.1.91934 (16 Jun 2025)
+
+  16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +knx-frontend-2025.4.1.91934.ebuild:
+  homeassistant 2025.6.0 full deps
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  knx-frontend-2025.3.8.214559.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-frontend-2025.1.30.194235.ebuild:
+  Fix for pkgcheck
+
+  24 Apr 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-frontend-2024.1.20.105944.ebuild, -knx-frontend-2024.8.9.225351.ebuild,
+  -knx-frontend-2024.9.4.64538.ebuild, -knx-frontend-2024.9.10.221729.ebuild,
+  -knx-frontend-2024.11.16.205004.ebuild,
+  -knx-frontend-2024.12.26.233449.ebuild,
+  -knx-frontend-2025.1.18.164225.ebuild:
+  Cleansing orphans
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -knx-frontend-2024.1.20.105944.ebuilde,
+  -knx-frontend-2024.11.16.205004.ebuilde,
+  -knx-frontend-2024.12.26.233449.ebuilde,
+  -knx-frontend-2024.8.9.225351.ebuilde,
+  -knx-frontend-2024.9.10.221729.ebuilde,
+  -knx-frontend-2024.9.4.64538.ebuilde,
+  -knx-frontend-2025.1.18.164225.ebuilde,
+  -knx-frontend-2025.1.30.194235.ebuilde,
+  -knx-frontend-2025.3.8.214559.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2024.1.20.105944.ebuilde,
+  +knx-frontend-2024.11.16.205004.ebuilde,
+  +knx-frontend-2024.12.26.233449.ebuilde,
+  +knx-frontend-2024.8.9.225351.ebuilde,
+  +knx-frontend-2024.9.10.221729.ebuilde,
+  +knx-frontend-2024.9.4.64538.ebuilde,
+  +knx-frontend-2025.1.18.164225.ebuilde,
+  +knx-frontend-2025.1.30.194235.ebuilde,
+  +knx-frontend-2025.3.8.214559.ebuilde:
+  Fix KEYWORDS
+
+*knx-frontend-2025.3.8.214559 (05 Apr 2025)
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2025.3.8.214559.ebuild:
+  Homeassistant 2025.4.0
+
+*knx-frontend-2025.1.30.194235 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2025.1.30.194235.ebuild:
+  homeassisstant-2025.2.0
+
+*knx-frontend-2025.1.18.164225 (31 Jan 2025)
+
+  31 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2025.1.18.164225.ebuild:
+  homeassistant 2025.1.3
+
+*knx-frontend-2024.12.26.233449 (26 Jan 2025)
+
+  26 Jan 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2024.12.26.233449.ebuild:
+  homeassistant 2025.1.1
+
+*knx-frontend-2024.11.16.205004 (19 Dec 2024)
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2024.11.16.205004.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net>
+  -knx-frontend-2023.6.23.191712.ebuild:
+  drop 2023.6.23.191712
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*knx-frontend-2024.9.10.221729 (22 Oct 2024)
+
+  22 Oct 2024; Andreas Billmeier <b@edevau.net>
+  knx-frontend-2023.6.23.191712.ebuild, knx-frontend-2024.1.20.105944.ebuild,
+  +knx-frontend-2024.9.10.221729.ebuild:
+  add knx-frontend-2024.9.10.221729
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/3956
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*knx-frontend-2024.8.9.225351 (17 Oct 2024)
+
+  17 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2024.8.9.225351.ebuild:
+  homeassistant 2024.9.0_beta4
+
+*knx-frontend-2024.9.4.64538 (16 Oct 2024)
+
+  16 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2024.9.4.64538.ebuild:
+  homeassistant 2024.9.1
+
+*knx-frontend-2024.9.10.221729 (14 Oct 2024)
+
+  14 Oct 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +knx-frontend-2024.9.10.221729.ebuild:
+  Add missing dependencies for ha 2024.10.2 :)
+
+*knx-frontend-2024.1.20.105944 (17 Feb 2024)
+
+  17 Feb 2024; Andreas Billmeier <b@edevau.net>
+  knx-frontend-2023.6.23.191712.ebuild, +knx-frontend-2024.1.20.105944.ebuild:
+  add 2024.1.20.105944
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/2813
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*knx-frontend-2023.6.23.191712 (07 Oct 2023)
+
+  07 Oct 2023; Andreas Billmeier <b@edevau.net>
+  +knx-frontend-2023.6.23.191712.ebuild, +metadata.xml:
+  new package, add 2023.6.23.191712
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+

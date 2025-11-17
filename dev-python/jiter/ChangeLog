@@ -1,0 +1,24 @@
+# ChangeLog for dev-python/jiter
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*jiter-0.9.0 (09 May 2025)
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -jiter-0.8.2.ebuild, +jiter-0.9.0.ebuild, +metadata.xml:
+  Update copyright, python version and fix pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -jiter-0.8.2.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr> jiter-0.8.2.ebuild,
+  +jiter-0.8.2.ebuilde:
+  Fix KEYWORDS
+
+*jiter-0.8.2 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +jiter-0.8.2.ebuild:
+  homeassisstant-2025.2.0
+

@@ -1,0 +1,36 @@
+# ChangeLog for dev-python/protobuf
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  13 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  protobuf-5.29.2.ebuild:
+  homeassistant 2025.6.0 WIP without all deps
+
+*protobuf-5.29.2 (07 Jun 2025)
+
+  07 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +protobuf-5.29.2.ebuild:
+  Fix deps
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -protobuf-5.28.3.ebuild:
+  protobuf
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -protobuf-5.28.3.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +protobuf-5.28.3.ebuilde:
+  Fix KEYWORDS
+
+  19 Dec 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  protobuf-5.28.3.ebuild:
+  hommeassitant-full 2024.12.0 including migration to python13 !
+
+*protobuf-5.28.3 (16 Nov 2024)
+
+  16 Nov 2024; Xavier FORESTIER <xavier.forestier@free.fr>
+  +protobuf-5.28.3.ebuild:
+  Fix deps
+

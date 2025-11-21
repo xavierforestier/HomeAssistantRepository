@@ -37,7 +37,7 @@ jobs:
       options: --privileged
     steps:
     # synchronys my own git
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     # 
     - name: Setup HomeAssistant repository     
       run: |
@@ -55,7 +55,7 @@ jobs:
       options: --privileged
     steps:
     # synchronys my own git
-    - uses: actions/checkout@v5
+    - uses: actions/checkout@v6
     # 
     - name: Setup HomeAssistant repository     
       run: |

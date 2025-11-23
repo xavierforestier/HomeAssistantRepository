@@ -358,7 +358,7 @@
     <flag name="hko">The HKO integration retrieves weather data from the Hong Kong Observatory Open Data API for meteorological data in HKSAR.</flag>
     <flag name="hlk-sw16">The HLK-SW16 by Hi-Link is a simple networkable 16 port relay device.</flag>
     <flag name="holiday">The Holiday integration allows you to create a calendar of holidays in Home Assistant for powering automations.</flag>
-    <flag name="homeassistant-hardware">The Home Assistant Hardware integration provides functionalityshared between Home Assistant Connect ZBT-1, Home Assistant Green, and Home Assistant Yellow.</flag>
+    <flag name="homeassistant-hardware">The Home Assistant Hardware integration provides functionalityshared between Home Assistant Connect ZBT-2, Home Assistant Connect ZBT-1, Home Assistant Green, and Home Assistant Yellow.</flag>
     <flag name="home-connect">The Home Connect integration allows users to integrate their home appliances supporting the Home Connect standard for Bosch and Siemens using the official cloud API.</flag>
     <flag name="homee">homee is a smart home system, able to integrate various protocols such as Z-Wave, Zigbee, EnOcean, and more. The homee integration from your homee in Home Assistant.</flag>
     <flag name="homekit-controller">The HomeKit Device integration allows you to connect accessories with the “Works with HomeKit” logo to Home Assistant. This integration should not be confused with the HomeKit Bridge integration, which allows you to control Home Assistant devices via HomeKit.</flag>
@@ -757,7 +757,7 @@
     <flag name="saj">The saj integration will poll a SAJ solar inverter and present the values as sensors in Home Assistant.</flag>
     <flag name="samsungtv">The samsungtv platform allows you to control a Samsung Smart TV.</flag>
     <flag name="sanix">The Sanix integration allows you to get water/sewage level sensor measurements from the Sanix devices made by BIT Complex.</flag>
-    <flag name="satel-integra">The satel_integra integration will allow Home Assistant users who own a Satel Integra alarm panel to leverage their alarm system and its sensors to provide Home Assistant with information about their homes. Connectivity between Home Assistant and the alarm is accomplished through a ETHM extension module that must be installed in the alarm. Compatible with ETHM-1 Plus module with firmware version &gt; 2.00 (version 2.04 confirmed).</flag>
+    <flag name="satel-integra">The Satel Integra integration allows you to connect your Satel Integra alarm system to Home Assistant to control and monitor your alarm system.</flag>
     <flag name="schlage">The Schlage integration provides connectivity with Schlage WiFi smart locks through Schlage’s cloud API.</flag>
     <flag name="schluter">The schluter integration allows you to integrate your Schluter-DITRA-HEAT-E-WiFi electric floor heating thermostat in Home Assistant.</flag>
     <flag name="scrape">The Scrape sensor integration scrapes information from websites. The sensor loads an HTML page, and allows you to search and extract specific values. As this is not a fully featured web scraper like scrapy, it will work with simple web pages and it can be time-consuming to get the right section.</flag>

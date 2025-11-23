@@ -2,6 +2,12 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*ohme-1.6.0 (23 Nov 2025)
+
+  23 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ohme-1.6.0.ebuild:
+  app-misc/homeassistant 2025.11.3
+
   17 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -ohme-1.5.1.ebuild:
   app-misc/homeassistant 2025.9.3

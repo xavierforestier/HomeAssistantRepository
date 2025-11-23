@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  18 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -holidays-0.83.ebuild:
+  app-misc/homeassistant 2025.11.2
+
   09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -holidays-0.82.ebuild:
   app-misc/homeassistant 2025.11.1

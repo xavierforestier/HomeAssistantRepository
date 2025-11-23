@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  18 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-melissa-climate-2.1.4.ebuild:
+  app-misc/homeassistant 2025.11.2
+
 *py-melissa-climate-3.0.2 (09 Nov 2025)
 
   09 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

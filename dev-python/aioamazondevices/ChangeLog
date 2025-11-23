@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  23 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-6.5.6.ebuild:
+  app-misc/homeassistant 2025.11.3
+
   18 Nov 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -aioamazondevices-6.4.6.ebuild:
   app-misc/homeassistant 2025.11.2

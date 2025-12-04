@@ -2,6 +2,12 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*node-red-4.1.2 (04 Dec 2025)
+
+  04 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -node-red-4.0.9.ebuild, +node-red-4.1.2.ebuild:
+  4.1.2
+
 *node-red-4.1.1 (14 Oct 2025)
 
   14 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

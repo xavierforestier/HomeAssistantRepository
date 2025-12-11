@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <remote-id type="pypi">google-air-quality-api</remote-id>
+    <remote-id type="github">Thomas55555/python-google-air-quality-api</remote-id>
+  </upstream>
+</pkgmetadata>

@@ -1,0 +1,31 @@
+--- a/pyproject.toml	2025-12-10 08:31:15.911364449 +0100
++++ b/pyproject.toml	2025-12-10 08:31:54.860145598 +0100
+@@ -83,17 +83,17 @@
+ 
+ [tool.poetry.scripts]
+ rvl = "redisvl.cli.runner:main"
+-format = "scripts:format"
+-check-format = "scripts:check_format"
+-sort-imports = "scripts:sort_imports"
+-check-sort-imports = "scripts:check_sort_imports"
+-check-lint = "scripts:check_lint"
+-check-mypy = "scripts:check_mypy"
+-test = "scripts:test"
+-test-verbose = "scripts:test_verbose"
+-test-notebooks = "scripts:test_notebooks"
+-build-docs = "scripts:build_docs"
+-serve-docs = "scripts:serve_docs"
++rvl-format = "scripts:format"
++rvl-check-format = "scripts:check_format"
++rvl-sort-imports = "scripts:sort_imports"
++rvl-check-sort-imports = "scripts:check_sort_imports"
++rvl-check-lint = "scripts:check_lint"
++rvl-check-mypy = "scripts:check_mypy"
++rvl-test = "scripts:test"
++rvl-test-verbose = "scripts:test_verbose"
++rvl-test-notebooks = "scripts:test_notebooks"
++rvl-build-docs = "scripts:build_docs"
++rvl-serve-docs = "scripts:serve_docs"
+ 
+ [build-system]
+ requires = ["poetry-core>=1.0.0"]

@@ -1,0 +1,11 @@
+# ChangeLog for dev-python/google-air-quality-api
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*google-air-quality-api-1.1.3 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/google-air-quality-api-fix-poetry.patch,
+  +google-air-quality-api-1.1.3.ebuild, +metadata.xml:
+  app-misc/homeassistant 2025-12.0
+

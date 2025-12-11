@@ -1,0 +1,11 @@
+# ChangeLog for dev-python/aurelio-sdk
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aurelio-sdk-0.0.19 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aurelio-sdk-0.0.19.ebuild, +files/aurelio-sdk-fix-poetry.patch,
+  +metadata.xml:
+  app-misc/homeassistant 2025-12.0
+

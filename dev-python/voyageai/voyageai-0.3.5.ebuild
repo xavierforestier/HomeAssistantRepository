@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Voyage AI provides cutting-edge embedding and rerankers."
 HOMEPAGE="https://pypi.org/project/voyageai/"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

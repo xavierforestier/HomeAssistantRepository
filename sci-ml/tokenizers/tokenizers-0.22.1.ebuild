@@ -63,7 +63,7 @@ pkg_setup() {
 src_prepare() {
 	default
 	cd bindings/python || exit
-	eapply "${FILESDIR}"/${PN}-0.21.2-test.patch
+	eapply "${FILESDIR}/${PN}-0.21.2-test.patch"
 	distutils-r1_src_prepare
 }
 

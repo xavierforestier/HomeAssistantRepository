@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/annotated-doc
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*annotated-doc-0.0.4 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +annotated-doc-0.0.4.ebuild, +metadata.xml:
+  app-misc/homeassistant 2025-12.0
+

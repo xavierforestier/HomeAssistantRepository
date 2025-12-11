@@ -2,6 +2,17 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tokenizers-0.22.1.ebuild:
+  fix shellcheck
+
+*tokenizers-0.22.1 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/tokenizers-0.21.2-test.patch, +metadata.xml,
+  +tokenizers-0.22.1.ebuild:
+  app-misc/homeassistant 2025-12.0
+
   08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -tokenizers-0.21.0.ebuild:
   Fix for pkgcheck

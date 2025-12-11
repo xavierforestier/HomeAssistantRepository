@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Package for LiteLLM Enterprise features"
 HOMEPAGE="https://pypi.org/project/litellm-enterprise/"
 
-LICENSE=""
+LICENSE="BerriAI"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

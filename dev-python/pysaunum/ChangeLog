@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/pysaunum
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pysaunum-0.1.0 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pysaunum-0.1.0.ebuild:
+  app-misc/homeassistant 2025-12.0
+

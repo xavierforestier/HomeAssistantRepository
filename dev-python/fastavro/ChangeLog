@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/fastavro
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*fastavro-1.12.1 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +fastavro-1.12.1.ebuild, +metadata.xml:
+  app-misc/homeassistant 2025-12.0
+

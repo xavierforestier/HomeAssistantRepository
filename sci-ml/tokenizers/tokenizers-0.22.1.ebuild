@@ -23,7 +23,7 @@ SRC_URI="
 	-> ${P}.gh.tar.gz
 	${CARGO_CRATE_URIS}
 "
-if [[ ${PKGBUMPING} != ${PVR} ]]; then
+if [[ "${PKGBUMPING}" != "${PVR}" ]]; then
 	SRC_URI+="
 		https://dev.gentoo.org/~tupone/distfiles/${PN}-0.22.0-crates.tar.xz
 		https://dev.gentoo.org/~tupone/distfiles/${PN}-python-${PV}-crates.tar.xz
@@ -62,31 +62,31 @@ pkg_setup() {
 
 src_prepare() {
 	default
-	cd bindings/python
+	cd bindings/python || exit
 	eapply "${FILESDIR}"/${PN}-0.21.2-test.patch
 	distutils-r1_src_prepare
 }
 
 src_configure() {
-	cd tokenizers
+	cd tokenizers || exit
 	cargo_src_configure
-	cd ../bindings/python
+	cd ../bindings/python || exit
 	distutils-r1_src_configure
 }
 
 src_compile() {
 	export RUSTONIG_SYSTEM_LIBONIG=1
-	cd tokenizers
+	cd tokenizers || exit
 	cargo_src_compile
-	cd ../bindings/python
+	cd ../bindings/python || exit
 	distutils-r1_src_compile
 }
 
 src_test() {
-	cd tokenizers
+	cd tokenizers || exit
 	# Tests do not work
 	#cargo_src_test
-	cd ../bindings/python
+	cd ../bindings/python || exit
 	local -x EPYTEST_IGNORE=( benches/ )
 	local -x EPYTEST_DESELECT=(
 		tests/bindings/test_encoding.py::TestEncoding::test_sequence_ids
@@ -136,7 +136,7 @@ src_test() {
 }
 
 src_install() {
-	cd tokenizers
-	cd ../bindings/python
+	cd tokenizers || exit
+	cd ../bindings/python || exit
 	distutils-r1_src_install
 }

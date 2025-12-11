@@ -2,6 +2,12 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*music-assistant-models-1.1.70 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +music-assistant-models-1.1.70.ebuild:
+  app-misc/homeassistant 2025-12.0
+
 *music-assistant-models-1.1.51 (12 Jul 2025)
 
   12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

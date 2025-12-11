@@ -1,0 +1,32 @@
+# ChangeLog for dev-python/vobject
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*vobject-0.9.9 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +vobject-0.9.9.ebuild:
+  app-misc/homeassistant 2025-12.0
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -vobject-0.9.6.1.ebuild:
+  remove vobject-0.9.6.1 dupe
+
+  17 Mar 2019; Andreas Billmeier <b@edevau.net> metadata.xml,
+  vobject-0.9.6.1.ebuild:
+  simplify vobject
+
+  18 Jan 2019; Andreas Billmeier <b@edevau.net> vobject-0.9.6.1.ebuild:
+  minor changes
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> vobject-0.9.6.1.ebuild:
+  further cleanup inspired by RepoMan
+
+  31 Dec 2018; Andreas Billmeier <b@edevau.net> +metadata.xml:
+  add missing metadata-xml
+
+*vobject-0.9.6.1 (01 Nov 2018)
+
+  01 Nov 2018; Andreas Billmeier <b@edevau.net> +vobject-0.9.6.1.ebuild:
+  several backports from deps
+

@@ -1,0 +1,10 @@
+--- a/pyproject.toml	2025-12-05 08:56:11.305060965 +0100
++++ b/pyproject.toml	2025-12-05 08:56:47.627174110 +0100
+@@ -1,6 +1,6 @@
+ [build-system]
+ requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+-build-backend = "poetry_dynamic_versioning.backend"
++build-backend = "poetry.core.masonry.api"
+ 
+ [project]
+ name = "google_air_quality_api"

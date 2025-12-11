@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/victron-ble-ha-parser
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*victron-ble-ha-parser-0.4.9 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +victron-ble-ha-parser-0.4.9.ebuild:
+  app-misc/homeassistant 2025-12.0
+

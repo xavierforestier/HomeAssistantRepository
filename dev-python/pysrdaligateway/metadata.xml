@@ -2,6 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
+    <remote-id type="github">maginawin/PySrDaliGateway</remote-id>
     <remote-id type="pypi">PySrDaliGateway</remote-id>
   </upstream>
 </pkgmetadata>

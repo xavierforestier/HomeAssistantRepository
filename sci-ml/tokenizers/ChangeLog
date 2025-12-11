@@ -1,0 +1,33 @@
+# ChangeLog for sci-ml/tokenizers
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tokenizers-0.22.1.ebuild:
+  fix shellcheck
+
+*tokenizers-0.22.1 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/tokenizers-0.21.2-test.patch, +metadata.xml,
+  +tokenizers-0.22.1.ebuild:
+  app-misc/homeassistant 2025-12.0
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -tokenizers-0.21.0.ebuild:
+  Fix for pkgcheck
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  tokenizers-0.21.0.ebuild:
+  spellcheck
+
+  05 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  tokenizers-0.21.0.ebuild:
+  spellcheck
+
+*tokenizers-0.21.0 (28 Mar 2025)
+
+  28 Mar 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +tokenizers-0.21.0.ebuild:
+  Some deps missing for homeassistant-full 2025.3.4
+

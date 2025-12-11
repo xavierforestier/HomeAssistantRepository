@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/hueble
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*hueble-1.0.8 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/hueble-build-system.patch, +hueble-1.0.8.ebuild, +metadata.xml:
+  app-misc/homeassistant 2025-12.0
+

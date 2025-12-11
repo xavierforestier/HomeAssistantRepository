@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/docstring-parser
+# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*docstring-parser-0.15 (11 Dec 2025)
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +docstring-parser-0.15.ebuild, +metadata.xml:
+  app-misc/homeassistant 2025-12.0
+

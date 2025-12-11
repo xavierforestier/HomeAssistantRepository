@@ -1,0 +1,9 @@
+--- a/pyproject.toml	2025-12-05 09:30:40.686707240 +0100
++++ b/pyproject.toml	2025-12-05 09:31:17.190855714 +0100
+@@ -1,2 +1,5 @@
++[build-system]
++build-backend = "setuptools.build_meta"
++
+ [project]
+ name = "HueBLE"
+

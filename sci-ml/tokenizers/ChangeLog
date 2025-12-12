@@ -4,6 +4,10 @@
 
   11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   tokenizers-0.22.1.ebuild:
+  Fix licences / update changelogs
+
+  11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  tokenizers-0.22.1.ebuild:
   fix shellcheck
 
 *tokenizers-0.22.1 (11 Dec 2025)

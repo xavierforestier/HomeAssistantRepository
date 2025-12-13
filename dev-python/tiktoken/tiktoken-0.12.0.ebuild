@@ -52,6 +52,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 RDEPENDS="
+	dev-python/setuptools-rust[${PYTHON_USEDEPS}]
 	>=dev-python/regex-2022.1.18[${PYTHON_USEDEPS}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEPS}]
 "

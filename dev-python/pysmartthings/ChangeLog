@@ -3,6 +3,10 @@
 # (auto-generated from git log)
 
   13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmartthings-3.3.4.ebuild:
+  app-misc/homeassistant 2025.12.2
+
+  13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -pysmartthings-3.3.3.ebuild:
   app-misc/homeassistant 2025.12.1
 

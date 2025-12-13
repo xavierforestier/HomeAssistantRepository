@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioesphomeapi-42.4.0.ebuild:
+  app-misc/homeassistant 2025.12.2
+
 *aioesphomeapi-42.9.0 (11 Dec 2025)
 
   11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

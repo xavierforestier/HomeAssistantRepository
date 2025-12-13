@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -actron-neo-api-0.1.84.ebuild:
+  app-misc/homeassistant 2025.12.2
+
 *actron-neo-api-0.1.87 (11 Dec 2025)
 
   11 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

@@ -14,6 +14,12 @@ HOMEPAGE="https://github.com/mdomke/python-ulid https://pypi.org/project/python-
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-
+RDEPEND="
+	dev-python/gpep517[${PYTHON_USEDEP}]
+	dev-python/installer[${PYTHON_USEDEP}]
+	dev-python/hatchling[${PYTHON_USEDEP}]
+	dev-python/hatch-fancy-pypi-readme[${PYTHON_USEDEP}]
+	dev-python/hatch-vcs[${PYTHON_USEDEP}]
+"
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

@@ -2,13 +2,13 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
+
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=poetry
-PYPI_NO_NORMALIZE=1
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="asyncio client for the Awair GraphQL and Local APIs"
-HOMEPAGE="https://github.com/ahayworth/python_awair https://pypi.org/project/python-awair/"
+DESCRIPTION="Python API for Shark IQ robots"
+HOMEPAGE="https://github.com/JeffResc/sharkiq-ng https://pypi.org/project/sharkiq/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,15 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
-	>=dev-python/voluptuous-0.11.7[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/aiohttp-3.8.1[${PYTHON_USEDEP}]
+	>=dev-python/auth0-python-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.27.1[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

@@ -7,19 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 MY_PN=${PN//-/_}
-
-if [[ ${PV} == *9999* ]]; then
-	inherit git-r3
-
-	EGIT_REPO_URI="https://github.com/home-assistant/frontend.git"
-	EGIT_BRANCH="dev"
-	S="${WORKDIR}/home-assistant-frontend-9999/"
-else
-	MY_PV=${PV/_beta/b}
-	MY_P=${MY_PN}-${MY_PV}
-	SRC_URI="https://github.com/home-assistant/frontend/releases/download/${MY_PV}/${MY_PN}-${MY_PV}.tar.gz -> ${P}-artifacts.gh.tar.gz"
-	S="${WORKDIR}/${MY_PN}-${PV}"
-fi
+SRC_URI="https://github.com/home-assistant/frontend/releases/download/${PV}/${MY_PN}-${PV}.tar.gz -> ${P}-artifacts.gh.tar.gz"
+S="${WORKDIR}/${MY_PN}-${PV}"
 
 DESCRIPTION="The Home Assistant frontend"
 HOMEPAGE="https://github.com/home-assistant/frontend https://pypi.org/project/home-assistant-frontend/"

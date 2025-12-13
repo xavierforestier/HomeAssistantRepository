@@ -8,18 +8,18 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API wrapper for the Actron Neo API"
-HOMEPAGE="https://github.com/kclif9/actronneoapi https://pypi.org/project/actron-neo-api/"
+DESCRIPTION="Python module for controlling and monitoring Bluetooth Philips Hue bulbs"
+HOMEPAGE="https://github.com/flip-dots/HueBLE https://pypi.org/project/hueble/"
+PATCHES="${FILESDIR}/${PN}-build-system.patch"
+
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	dev-python/pydantic[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/pytest[${PYTHON_USEDEP}]
-	dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	>=dev-python/bleak-0.19.0[${PYTHON_USEDEP}]
+	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

@@ -3,6 +3,10 @@
 # (auto-generated from git log)
 
   13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -uiprotect-7.31.0.ebuild:
+  app-misc/homeassistant 2025.12.3
+
+  13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -uiprotect-7.23.0.ebuild:
   app-misc/homeassistant 2025.12.2
 

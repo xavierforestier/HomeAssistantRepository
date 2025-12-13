@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -oralb-ble-0.17.6.ebuild:
+  app-misc/homeassistant 2025.12.3
+
 *oralb-ble-1.0.2 (13 Dec 2025)
 
   13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

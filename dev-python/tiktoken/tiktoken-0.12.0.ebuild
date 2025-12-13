@@ -51,8 +51,15 @@ SRC_URI="$(pypi_sdist_url "${PN^}") ${CARGO_CRATE_URIS}"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-RDEPENDS="
+BDEPENDS="
+	dev-python/gpep517[${PYTHON_USEDEPS}]
+	dev-python/installer[${PYTHON_USEDEPS}]
+	dev-python/setuptools[${PYTHON_USEDEPS}]
 	dev-python/setuptools-rust[${PYTHON_USEDEPS}]
+	dev-python/setuptools-scm[${PYTHON_USEDEPS}]
+	dev-python/wheel[${PYTHON_USEDEPS}]
+"
+RDEPENDS="
 	>=dev-python/regex-2022.1.18[${PYTHON_USEDEPS}]
 	>=dev-python/requests-2.26.0[${PYTHON_USEDEPS}]
 "

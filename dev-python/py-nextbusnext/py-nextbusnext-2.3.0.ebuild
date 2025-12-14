@@ -15,6 +15,6 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 DOCS="README.md"
 
-RDEPENDS="
+RDEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
 "

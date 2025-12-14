@@ -17,7 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 OCS="README.md"
-RDEPENDS="
+RDEPEND="
 	>=dev-python/aiohttp-3.13.2[${PYTHON_USEDEP}]
 	>=dev-python/bleak-1.1.1[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-4.4.3[${PYTHON_USEDEP}]

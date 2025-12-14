@@ -51,17 +51,17 @@ SRC_URI="$(pypi_sdist_url "${PN^}") ${CARGO_CRATE_URIS}"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-BDEPENDS="
-	dev-python/gpep517[${PYTHON_USEDEPS}]
-	dev-python/installer[${PYTHON_USEDEPS}]
-	dev-python/setuptools[${PYTHON_USEDEPS}]
-	dev-python/setuptools-rust[${PYTHON_USEDEPS}]
-	dev-python/setuptools-scm[${PYTHON_USEDEPS}]
-	dev-python/wheel[${PYTHON_USEDEPS}]
+BDEPEND="
+	dev-python/gpep517[${PYTHON_USEDEP}]
+	dev-python/installer[${PYTHON_USEDEP}]
+	dev-python/setuptools[${PYTHON_USEDEP}]
+	dev-python/setuptools-rust[${PYTHON_USEDEP}]
+	dev-python/setuptools-scm[${PYTHON_USEDEP}]
+	dev-python/wheel[${PYTHON_USEDEP}]
 "
-RDEPENDS="
-	>=dev-python/regex-2022.1.18[${PYTHON_USEDEPS}]
-	>=dev-python/requests-2.26.0[${PYTHON_USEDEPS}]
+RDEPEND="
+	>=dev-python/regex-2022.1.18[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.26.0[${PYTHON_USEDEP}]
 "
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

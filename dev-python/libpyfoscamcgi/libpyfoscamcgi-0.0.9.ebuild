@@ -15,7 +15,7 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-RDEPENDS="dev-python/defusedxml${PYTHON_USEDEP}]"
+RDEPEND="dev-python/defusedxml[${PYTHON_USEDEP}]"
 
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

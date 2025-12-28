@@ -29,7 +29,7 @@ dev-python/adafruit-circuitpython-dht 3.7.0: CircuitPython support for DHT11 and
 dev-python/adafruit-pureio 1.1.9: Pure python access to Linux IO including I2C and SPI
 dev-python/adax 0.4.0: A python3 library to communicate with Adax
 dev-python/adax-local 0.2.0: A python3 library to communicate with Adax
-dev-python/adb-shell 0.4.4-r1: A Python implementation of ADB with shell and FileSync functionality.
+dev-python/adb-shell 0.4.4: A Python implementation of ADB with shell and FileSync functionality.
 dev-python/adext 0.4.4: AlarmDecoder extended
 dev-python/adguardhome 0.8.1: Asynchronous Python client for the AdGuard Home API.
 dev-python/advantage-air 0.4.4: API helper for Advantage Air's MyAir and e-zone API

@@ -15,7 +15,7 @@ app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2025.12.2 2025.12.3 2025.12.4: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.0 4.1.1 4.1.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.6.3 2.7.0 2.7.1: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2025.11.4 2025.11.5 2025.12.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2025.11.5 2025.12.0 2025.12.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20250904.0 20251013.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18: An open source ecosystem for IoT development
@@ -205,6 +205,7 @@ dev-python/asyncio-throttle 1.0.2: Simple, easy-to-use throttler for asyncio
 dev-python/asyncmock 0.4.2: Extension to the standard mock framework to support support async
 dev-python/asyncpysupla 0.0.5: Simple Supla's OpenAPI async wrapper
 dev-python/asyncsleepiq 1.6.0: ASync SleepIQ API
+dev-python/asyncssh 2.21.0: Asynchronous SSHv2 client and server library
 dev-python/asynctest 0.13.0: Unit test package with features for testing asyncio libraries
 dev-python/attrs 25.1.0: Attributes without boilerplate
 dev-python/audioop-lts 0.2.1: An LTS port of Python's audioop module

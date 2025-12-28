@@ -75,9 +75,41 @@ jobs:
       autoretry: true
     secrets: inherit
 
+  check_deps:
+    needs: [ pkgcheck_complete ]
+    runs-on: ubuntu-lastest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci:main
+      options: --privileged
+    steps:
+    # synchronys my own git
+    - name: Checkout code
+      uses: actions/checkout@v6
+    # 
+    - name: Setup HomeAssistant repository     
+      run: |
+        rsync -aHDPSv etc/portage/ /etc/portage/
+        echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
+        pwd -P >> /etc/portage/repos.conf/homeassistant.conf
+        git config --global --add safe.directory . 
+    - name: Check deps...homeassistant[full]
+      run: |
+        rm /etc/portage/package.use/._cfg0000_zzz.use || true
+        touch /etc/portage/package.use/zzz.use
+        echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant  
+    - name: Check deps... app-misc/zigbee2mqtt
+      run: |
+        echo -n "" > /etc/portage/package.use/zzz.use
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 app-misc/zigbee2mqtt
+    - name: Check deps... dev-embedded/esphome...
+      run: |
+        echo -n "" > /etc/portage/package.use/zzz.use
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 dev-embedded/esphome
+  
   esphome_init:  
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: [ pkgcheck_complete ]
+    needs: [ check_deps ]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6

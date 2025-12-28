@@ -142,6 +142,20 @@ jobs:
         echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
         pwd -P >> /etc/portage/repos.conf/homeassistant.conf
         git config --global --add safe.directory .   
+    - name: Check deps...homeassistant[minimal]
+      run: |
+        rm /etc/portage/package.use/._cfg0000_zzz.use || true
+        touch /etc/portage/package.use/zzz.use
+        echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant  
+
+    - name: Check deps...homeassistant[normal]
+      run: |
+        rm /etc/portage/package.use/._cfg0000_zzz.use || true
+        touch /etc/portage/package.use/zzz.use
+        echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant  
+
     - name: Check deps...homeassistant[full]
       run: |
         rm /etc/portage/package.use/._cfg0000_zzz.use || true

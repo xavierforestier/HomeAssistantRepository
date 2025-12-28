@@ -2,6 +2,14 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  14 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pynecil-4.2.1.ebuild:
+  Fix deps
+
+  14 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pynecil-4.2.1.ebuild:
+  syntax error DEPEND (with no S :'-( )
+
   13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -pynecil-4.2.0.ebuild:
   app-misc/homeassistant 2025.12.2

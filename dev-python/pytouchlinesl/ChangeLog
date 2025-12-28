@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  14 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pytouchlinesl-0.5.0.ebuild:
+  syntax error DEPEND (with no S :'-( )
+
   14 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -pytouchlinesl-0.4.0.ebuild:
   app-misc/homeassistant 2025.9.2 + drop 2025.8.*

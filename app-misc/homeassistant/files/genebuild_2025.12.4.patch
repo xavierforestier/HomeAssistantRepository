@@ -1,5 +1,5 @@
---- a/core-2025.12.1/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
-+++ b/core-2025.12.1/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
+--- a/core-2025.12.4/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
++++ b/core-2025.12.4/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
 @@ -194,7 +194,7 @@
  
  # homeassistant.components.ambient_network
@@ -194,7 +194,7 @@
  
  # homeassistant.components.irish_rail_transport
  pyirishrail==0.0.2
-@@ -2250,7 +2250,7 @@
+@@ -2253,7 +2253,7 @@
  pyombi==0.1.10
  
  # homeassistant.components.openuv
@@ -203,7 +203,7 @@
  
  # homeassistant.components.openweathermap
  pyopenweathermap==0.2.2
-@@ -2481,7 +2481,7 @@
+@@ -2484,7 +2484,7 @@
  python-fullykiosk==0.0.14
  
  # homeassistant.components.gc100
@@ -212,7 +212,7 @@
  
  # homeassistant.components.gitlab_ci
  python-gitlab==1.6.0
-@@ -2545,7 +2545,7 @@
+@@ -2548,7 +2548,7 @@
  python-overseerr==0.7.1
  
  # homeassistant.components.picnic
@@ -221,7 +221,7 @@
  
  # homeassistant.components.pooldose
  python-pooldose==0.7.8
-@@ -2708,7 +2708,7 @@
+@@ -2711,7 +2711,7 @@
  refoss-ha==1.2.5
  
  # homeassistant.components.rainmachine
@@ -230,7 +230,7 @@
  
  # homeassistant.components.renault
  renault-api==0.5.1
-@@ -2756,7 +2756,7 @@
+@@ -2759,7 +2759,7 @@
  rpi-bad-power==0.1.0
  
  # homeassistant.components.russound_rnet
@@ -239,7 +239,7 @@
  
  # homeassistant.components.ruuvitag_ble
  ruuvitag-ble==0.3.0
-@@ -2838,7 +2838,7 @@
+@@ -2841,7 +2841,7 @@
  simplepush==2.2.3
  
  # homeassistant.components.simplisafe
@@ -248,8 +248,8 @@
  
  # homeassistant.components.sisyphus
  sisyphus-control==3.1.4
---- a/core-2025.12.1/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
-+++ b/core-2025.12.1/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+--- a/core-2025.12.4/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
++++ b/core-2025.12.4/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -133,7 +133,7 @@
  pydantic==2.12.2
  

@@ -77,7 +77,7 @@ jobs:
 
   check_deps:
     needs: [ pkgcheck_complete ]
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci:main
       options: --privileged

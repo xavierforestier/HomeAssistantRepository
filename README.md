@@ -1,6 +1,6 @@
 # Home Assistant for Gentoo
 
-[![homeassistant-version](https://img.shields.io/badge/homeassistant-2025.12.3-lightgrey?logo=homeassistant&label=app-misc%2Fhomeassistant)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/homeassistant)
+[![homeassistant-version](https://img.shields.io/badge/homeassistant-2025.12.4-lightgrey?logo=homeassistant&label=app-misc%2Fhomeassistant)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/homeassistant)
 [![zigbee2mqtt-version](https://img.shields.io/badge/zigbee2mqtt-2.7.1-lightgrey?logo=zigbee2mqtt&label=app-misc%2Fzigbee2mqqt)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/zigbee2mqtt)
 [![esphome-version](https://img.shields.io/badge/esphome-2025.11.5-lightgrey?logo=esphome&label=dev-embedded%2Fesphome)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/dev-embedded/esphome)
 

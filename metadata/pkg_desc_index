@@ -15,7 +15,7 @@ app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2025.12.2 2025.12.3 2025.12.4: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.0 4.1.1 4.1.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.6.3 2.7.0 2.7.1: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2025.11.5 2025.12.0 2025.12.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2025.12.0 2025.12.1 2025.12.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20250904.0 20251013.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18: An open source ecosystem for IoT development
@@ -73,7 +73,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2025.9.2: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 42.7.0 42.9.0 43.2.1: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 42.9.0 43.2.1: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -247,7 +247,7 @@ dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.17.3: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: Conversions between Python values and C bit field structs
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
-dev-python/bleak 1.0.1 1.1.1 2.0.0: Bluetooth Low Energy platform Agnostic Klient
+dev-python/bleak 1.0.1 2.0.0: Bluetooth Low Energy platform Agnostic Klient
 dev-python/bleak-esphome 3.4.0: Bleak backend of ESPHome
 dev-python/bleak-retry-connector 4.4.3: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.5.0: Python API for accessing BleBox smart home devices

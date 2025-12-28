@@ -3,18 +3,19 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
-
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library for Miele integration with Home Assistant"
-HOMEPAGE="https://pypi.org/project/pymiele/ https://github.com/nordicopen/pymiele"
+DESCRIPTION="LCN-PCK library"
+HOMEPAGE="https://github.com/alengwenus/pypck https://pypi.org/project/pypck/"
 
-LICENSE="MIT"
+LICENSE="EPL-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+DOCS="README.md"
 
 distutils_enable_tests pytest

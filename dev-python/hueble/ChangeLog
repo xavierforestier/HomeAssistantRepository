@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  28 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -hueble-1.0.8.ebuild:
+  app-misc/homeassistant 2025.12.4
+
 *hueble-2.1.0 (13 Dec 2025)
 
   13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

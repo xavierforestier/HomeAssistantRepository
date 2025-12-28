@@ -2,6 +2,14 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*systembridgeconnector-5.2.4 (28 Dec 2025)
+
+  28 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/systembridgeconnector-4.1.10-requirement.patch,
+  +files/systembridgeconnector-5.2.4-requirement.patch,
+  +systembridgeconnector-5.2.4.ebuild:
+  app-misc/homeassistant 2025.12.4
+
   13 Oct 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -systembridgeconnector-4.1.10.ebuild:
   app-misc/homeassistant 2025.10.2

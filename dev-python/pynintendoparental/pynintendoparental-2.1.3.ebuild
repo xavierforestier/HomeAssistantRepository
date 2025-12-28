@@ -8,18 +8,17 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python module for controlling and monitoring Bluetooth Philips Hue bulbs"
-HOMEPAGE="https://github.com/flip-dots/HueBLE https://pypi.org/project/hueble/"
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
-
+DESCRIPTION="A Python module to interact with Nintendo Parental Controls"
+HOMEPAGE="https://github.com/pantherale0/pynintendoparental https://pypi.org/project/pynintendoparental"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/bleak-0.19.0[${PYTHON_USEDEP}]
-	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/python-dotenv[${PYTHON_USEDEP}]
+	dev-python/pynintendoauth[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

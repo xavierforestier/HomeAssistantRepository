@@ -76,7 +76,7 @@ jobs:
     secrets: inherit
 
   check_deps:
-    needs: [ pkgcheck_complete ]
+    needs: [ pkgcheck ]
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci:main
@@ -109,7 +109,7 @@ jobs:
   
   esphome_init:  
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: [ check_deps ]
+    needs: [ check_deps, pkgcheck_complete ]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6

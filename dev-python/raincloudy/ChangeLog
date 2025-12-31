@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  31 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  raincloudy-0.0.7-r1.ebuild:
+  app-misc/homeassistant 2025.12.5
+
   09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   raincloudy-0.0.7-r1.ebuild:
   Update copyright, python version and fix pkgcheck

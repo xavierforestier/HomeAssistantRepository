@@ -17,10 +17,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/requests-2.18.2[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	>=dev-python/urllib3-1.22[${PYTHON_USEDEP}]
-	~dev-python/html5lib-1.1[${PYTHON_USEDEP}]"
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

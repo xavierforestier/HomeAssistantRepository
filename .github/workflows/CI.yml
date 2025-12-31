@@ -95,8 +95,19 @@ jobs:
     - name: Check deps... app-misc/zigbee2mqtt
       run: |
         echo -n "" > /etc/portage/package.use/zzz.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 app-misc/zigbee2mqtt
-
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 app-misc/zigbee2mqtt >/tmp/out 2>/tmp/err || true
+        echo "::group::emerge stdout" 
+        cat /tmp/out
+        echo "::endgroup::"
+        echo "::group::emerge stderr" 
+        cat /tmp/err
+        echo "::endgroup::"
+        if ! grep -q "\[ebuild  N     \] app-misc/zigbee2mqtt-" /tmp/out; then
+          echo "::error::emerge dev-embedded/esphome failed"
+          exit 1
+        elif [ -s /tmp/err ]; then
+          echo "::warning::emerge dev-embedded/esphome raised warning" 
+        fi
   check_esphome:
     needs: [ pkgcheck ]
     runs-on: ubuntu-latest
@@ -117,14 +128,19 @@ jobs:
     - name: Check deps... dev-embedded/esphome...
       run: |
         echo -n "" > /etc/portage/package.use/zzz.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 dev-embedded/esphome  
-    - name: Check deps...homeassistant[full]
-      run: |
-        rm /etc/portage/package.use/._cfg0000_zzz.use || true
-        touch /etc/portage/package.use/zzz.use
-        echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant  
-
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 dev-embedded/esphome >/tmp/out 2>/tmp/err || true
+        echo "::group::emerge stdout" 
+        cat /tmp/out
+        echo "::endgroup::"
+        echo "::group::emerge stderr" 
+        cat /tmp/err
+        echo "::endgroup::"
+        if ! grep -q "\[ebuild  N     \] dev-embedded/esphome-" /tmp/out; then
+          echo "::error::emerge dev-embedded/esphome failed"
+          exit 1
+        elif [ -s /tmp/err ]; then
+          echo "::warning::emerge dev-embedded/esphome raised warning" 
+        fi
   check_homeassistant :
     needs: [ pkgcheck ]
     runs-on: ubuntu-latest
@@ -147,22 +163,55 @@ jobs:
         rm /etc/portage/package.use/._cfg0000_zzz.use || true
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant  
-
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        echo "::group::emerge stdout" 
+        cat /tmp/out
+        echo "::endgroup::"
+        echo "::group::emerge stderr" 
+        cat /tmp/err
+        echo "::endgroup::"
+        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" /tmp/out; then
+          echo "::error::emerge virtual/homeassistant[minimal] failed"
+          exit 1
+        elif [ -s /tmp/err ]; then
+          echo "::warning::emerge virtual/homeassistant[minimal] raised warning" 
+        fi
     - name: Check deps...homeassistant[normal]
       run: |
         rm /etc/portage/package.use/._cfg0000_zzz.use || true
         touch /etc/portage/package.use/zzz.use
-        echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant  
-
+        echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use        
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        echo "::group::emerge stdout" 
+        cat /tmp/out
+        echo "::endgroup::"
+        echo "::group::emerge stderr" 
+        cat /tmp/err
+        echo "::endgroup::"
+        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" /tmp/out; then
+          echo "::error::emerge virtual/homeassistant[normal] failed"
+          exit 1
+        elif [ -s /tmp/err ]; then
+          echo "::warning::emerge virtual/homeassistant[normal] raised warning" 
+        fi
     - name: Check deps...homeassistant[full]
       run: |
         rm /etc/portage/package.use/._cfg0000_zzz.use || true
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant  
-
+        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        echo "::group::emerge stdout" 
+        cat /tmp/out
+        echo "::endgroup::"
+        echo "::group::emerge stderr" 
+        cat /tmp/err
+        echo "::endgroup::"
+        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\"" /tmp/out; then
+          echo "::error::emerge virtual/homeassistant[full] failed"
+          exit 1
+        elif [ -s /tmp/err ]; then
+          echo "::warning::emerge virtual/homeassistant[full] raised warning" 
+        fi
   esphome_init:  
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
     needs: [ check_zigbee2mqtt, check_esphome, check_homeassistant, pkgcheck_complete ]

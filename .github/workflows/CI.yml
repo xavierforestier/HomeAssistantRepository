@@ -46,7 +46,6 @@ jobs:
     
   pkgcheck_init:
     uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
-    needs: shellcheck_init
     with:
       pkg-name: pkgcheck
       pkg-version: 'pkgcheck%20(running...)'
@@ -76,7 +75,6 @@ jobs:
     secrets: inherit
     
   check_zigbee2mqtt:
-    needs: [ pkgcheck ]
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci:main
@@ -109,7 +107,6 @@ jobs:
           echo "::warning::emerge dev-embedded/esphome raised warning" 
         fi
   check_esphome:
-    needs: [ pkgcheck ]
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci:main
@@ -142,7 +139,6 @@ jobs:
           echo "::warning::emerge dev-embedded/esphome raised warning" 
         fi
   check_homeassistant :
-    needs: [ pkgcheck ]
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci:main
@@ -214,7 +210,7 @@ jobs:
         fi
   esphome_init:  
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: [ check_zigbee2mqtt, check_esphome, check_homeassistant, pkgcheck_complete ]
+    needs: [ check_zigbee2mqtt, check_esphome, check_homeassistant, pkgcheck_complete, shellcheck_complete ]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6

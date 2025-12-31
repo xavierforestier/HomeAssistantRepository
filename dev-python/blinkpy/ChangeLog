@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  31 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -blinkpy-0.24.1.ebuild:
+  app-misc/homeassistant 2025.12.5
+
 *blinkpy-0.25.2 (28 Dec 2025)
 
   28 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

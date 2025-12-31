@@ -46,7 +46,6 @@ app-misc/homeassistant:aladdin-connect - The Aladdin Connect integration lets yo
 app-misc/homeassistant:alarmdecoder - The AlarmDecoder integration will allow Home Assistant users who own either a DSC or Honeywell alarm panel to leverage their alarm system and its sensors to provide Home Assistant with rich information about their homes. Connectivity between Home Assistant and the alarm panel is accomplished through a device produced by Nu Tech Software Solutions, known as the AlarmDecoder. The AlarmDecoder devices provide a serial, TCP/IP socket or USB interface to the alarm panel, where it emulates an alarm keypad.
 app-misc/homeassistant:alexa-devices - The Alexa Devices integration lets you control Alexa-enabled devices connected to your Amazon account.
 app-misc/homeassistant:alpha-vantage - The Alpha Vantage integration uses Alpha Vantage to monitor the stock market. This platform also provides detail about exchange rates.
-app-misc/homeassistant:altruist - The Altruist integration connects Home Assistant to Air Quality Sensor “Altruist“ — a device designed for decentralized environmental monitoring. It captures noise, dust, and temperature data from the sensor over HTTP, making it available as locally usable entities within Home Assistant.
 app-misc/homeassistant:amazon-polly - The Amazon Polly integration works with Amazon Polly to create the spoken output.Polly is a paid service via Amazon Web Services. There is a free tier for the first 12 months and then a charge per million characters afterwards.
 app-misc/homeassistant:amberelectric - Amber is an Australian electricity retailer that provides access to wholesale electricity prices. Customers monitor the wholesale price and shift their energy usage to cheaper, greener times. This saves them money and supports the shift to a more renewably-powered Australia.
 app-misc/homeassistant:ambient-network - The Ambient Weather Network integration retrieves local weather station informationvia the Ambient Weather Network.
@@ -72,7 +71,7 @@ app-misc/homeassistant:aprs - The APRS (Automatic Packet Reporting System) integ
 app-misc/homeassistant:apsystems - The APsystems integration allows you to read the data from your APsystems EZ1 microinverter. It also allows you to set the output limit to anything above 30 watts.
 app-misc/homeassistant:aquacell - AquaCell is a water-softening device made by Culligan. The AquaCell integration allows you to monitor your AquaCell device in Home Assistant.You will need your Aquacell account information as used in the AquaCell app.
 app-misc/homeassistant:aqualogic - The AquaLogic integration provides connectivity to a Hayward/Goldline AquaLogic/ProLogic pool controller. Note that an RS-485 to Ethernet adapter connected to the pool controller is required.
-app-misc/homeassistant:aquostv - The aquostv platform allows you to control a Sharp Aquos TV.
+app-misc/homeassistant:aquostv - The Sharp Aquos TV integration allows you to control a Sharp Aquos TV.
 app-misc/homeassistant:aranet - Integrates Aranet devices into Home Assistant.
 app-misc/homeassistant:arcam-fmj - The Arcam FMJ Receivers integration allows you to control Arcam Receivers and Processors from Home Assistant.
 app-misc/homeassistant:arris-tg2492lg - This integration allows you to detect presence by looking at connected devices to an Arris TG2492LG router.
@@ -127,7 +126,7 @@ app-misc/homeassistant:bmw-connected-drive - There is an active alert for this i
 app-misc/homeassistant:bond - The Bond integration allows you to control appliances through your Bond Bridge. Duplicates your RF remote control.
 app-misc/homeassistant:bosch-alarm - The Bosch Alarm Panel integration allows you to connect your Bosch Alarm Panel to Home Assistant to control and monitor your Bosch Alarm Panel.
 app-misc/homeassistant:bosch-shc - The Bosch SHC integration allows you to connect your Bosch Smart Home Controller to Home Assistant in order to control and monitor your Bosch Smart Home devices.
-app-misc/homeassistant:braviatv - The Bravia TV integration allows you to control a Sony Bravia TV.
+app-misc/homeassistant:braviatv - The Sony Bravia TV integration allows you to control a Sony Bravia TV.
 app-misc/homeassistant:bring - The Bring! integration allows you to sync your Bring! shopping lists with Home Assistant.
 app-misc/homeassistant:broadlink - The Broadlink integration allows you to control and monitor Broadlink universal remotes, smart plugs, power strips, switches and sensors.
 app-misc/homeassistant:brother - The Brother Printer integration allows you to read current data from your local Brother printer.
@@ -160,7 +159,7 @@ app-misc/homeassistant:co2signal - The Electricity Maps integration (formerly kn
 app-misc/homeassistant:coinbase - The Coinbase integration lets you access account balances and exchange rates from Coinbase.
 app-misc/homeassistant:color-extractor - The ColorExtractor integration.
 app-misc/homeassistant:comelit - The Comelit SimpleHome integration allows you to control your Comelit home automation devices.
-app-misc/homeassistant:comfoconnect - The comfoconnect integration lets you control Zehnder ComfoAir Q350/Q450/Q600ventilation units from Home Assistant. You need a ComfoConnect LAN Cbridge to connect the unit to your local network.
+app-misc/homeassistant:comfoconnect - The Zehnder ComfoAir Q integration lets you control Zehnder ComfoAir Q350/Q450/Q600ventilation units from Home Assistant. You need a ComfoConnect LAN Cbridge to connect the unit to your local network.
 app-misc/homeassistant:command-line - The Command line integration offers functionality that issues specific commands to get data or to control a device.
 app-misc/homeassistant:compensation - The Compensation integration and the following values as attributes: entity_id and coefficients. A single polynomial, linear by default, is fit to all data points provided.
 app-misc/homeassistant:compit - The Compit integration allows you to integrate air conditioning, ventilation, and heating controllers with Home Assistant. You need a Compit iNext account, which you can set up at inext.compit.pl.
@@ -240,7 +239,7 @@ app-misc/homeassistant:elvia - The Elvia integration will import your historical
 app-misc/homeassistant:emby - The Emby integration allows you to control a Emby multimedia system from Home Assistant.
 app-misc/homeassistant:emoncms - The Emoncms integration creates sensors for the feeds available in your local or cloud based version of Emoncms.
 app-misc/homeassistant:emoncms-history - The Emoncms History integration makes it possible to transfer (write) details collected with Home Assistant to Emoncms.org or your local running Emoncms instance. It will send the data to a specific input node on Emoncms with the entity IDs as a key. Afterwards you can create feeds and dashboards in Emoncms with the collected data.
-app-misc/homeassistant:emonitor - The SiteSage Emonitor allows local power monitoring on a per circuit basis via an Emonitor device.
+app-misc/homeassistant:emonitor - The SiteSage Emonitor integration allows local power monitoring on a per circuit basis via an Emonitor device.
 app-misc/homeassistant:emulated-kasa - The Emulated Kasa integration emulates a TP-Link Kasa smart plug and announces the power usage of configured devices to any that might request it on the local network.
 app-misc/homeassistant:emulated-roku - The Emulated Roku integration integrates an emulated Roku API into Home Assistant,so remotes such as Harmony and Android apps can connect to it through Wi-Fi as if it were a Roku player.Home Assistant will see key presses and app launches as Events, which you can use as triggers for automations.Multiple Roku servers may be started if you run out of buttons by specifying multiple server entries.
 app-misc/homeassistant:energenie-power-sockets - The Energenie Power-Sockets integration allows you to include Energenie USB Power-Sockets into your Home Assistant setup.
@@ -268,7 +267,7 @@ app-misc/homeassistant:evil-genius-labs - This integration allows you to control
 app-misc/homeassistant:evohome - The Evohome integration links Home Assistant with all non-US Honeywell Total Connect Comfort (TCC) CH/DHW systems, such as:
 app-misc/homeassistant:ezviz - The EZVIZ integration uses the ezvizlife.com API to interact with the devices.It also exposes an RTSP stream, by using the local camera IPs (so the device hosting Home Assistant has to be able to access the local IP of the cameras).
 app-misc/homeassistant:faa-delays - The FAA Delays integration collects and displays information about delays at US Airports based on theFAA’s National Airspace System Status.
-app-misc/homeassistant:familyhub - The familyhub integration allows you to get images of the inside of your Samsung Family Hub refrigerator in Home Assistant.
+app-misc/homeassistant:familyhub - The Samsung Family Hub integration allows you to get images of the inside of your Samsung Family Hub refrigerator in Home Assistant.
 app-misc/homeassistant:fastdotcom - The Fast.com integration uses the Fast.com web service to measure network bandwidth performance.
 app-misc/homeassistant:feedreader - Add an RSS/Atom feed reader that polls feeds every hour and sends new entries into the event bus.
 app-misc/homeassistant:ffmpeg - The FFmpeg integration allows other Home Assistant integrations to processvideo and audio streams.
@@ -308,7 +307,7 @@ app-misc/homeassistant:frontend - This offers the official frontend to control H
 app-misc/homeassistant:frontier-silicon - This integration provides support for Internet Radios based on the Frontier Silicon chipset. Some of the manufacturers which offer products based on these chips include: Hama, Medion, Slivercrest, Auna, Technisat, Revo, Pinnel, etc. These devices will be usually controlled by the OKTIV or UNDOK apps.
 app-misc/homeassistant:fujitsu-fglair - The FGLair integration provides support for Fujitsu heat pumps and air conditioners that use the FGLair app.To find out which app to use for your heat pump, check the Fujitsu FGLair FAQ.
 app-misc/homeassistant:fully-kiosk - Fully Kiosk Browser is a powerful kiosk browser for Android devices. It provides a number of features for monitoring and controlling your Android device. This integration gives you access to control your device and view the status in Home Assistant.
-app-misc/homeassistant:futurenow - The futurenow light integration allows you to use P5 FutureNow relay/dimmer units as lights. Currently supported units:
+app-misc/homeassistant:futurenow - The P5 FutureNow integration allows you to use P5 FutureNow relay/dimmer units as lights. Currently supported units:
 app-misc/homeassistant:fyta - The FYTA integration uses the open API of FYTA to obtain the data from your plant sensors and integrate these into Home Assistant.
 app-misc/homeassistant:garages-amsterdam - The Garages Amsterdam integration uses an API provided by the municipality of Amsterdam, to measure the occupancy of Amsterdam parking garages in the Netherlands. You can track multiple garages by adding the integration multiple times.
 app-misc/homeassistant:gardena-bluetooth - The Gardena Bluetooth integration allows users to integrate their Gardena Bluetooth devices into Home Assistant.
@@ -381,7 +380,7 @@ app-misc/homeassistant:homematicip-cloud - There is an active alert for this int
 app-misc/homeassistant:homewizard - Integration for the HomeWizard platform. It can collect data locally from HomeWizard products and create them as sensors in Home Assistant. Use this integration to monitor your energy, gas, and water usage to optimize your energy consumption. The information collected by this integration can be used by the Energy dashboard.
 app-misc/homeassistant:homeworks - Lutron is an American lighting control company. The Lutron Homeworks Series 4 & 8 systems are relatively old (~2003), and use RS-232 connections to communicate with home automation systems. The homeworks integration in Home Assistant is responsible for communicating with the main controller for these systems. Communication is through an ethernet to serial converter (NPort, for example).
 app-misc/homeassistant:honeywell - The Honeywell Total Connect Comfort integration integrates Home Assistant with US-based Honeywell Total Connect Comfort (TCC) climate systems.
-app-misc/homeassistant:horizon - The horizon integration allows you to control a Unitymedia Horizon HD Recorder from Home Assistant.
+app-misc/homeassistant:horizon - The Unitymedia Horizon HD Recorder integration allows you to control a Unitymedia Horizon HD Recorder from Home Assistant.
 app-misc/homeassistant:hp-ilo - The HP Integrated Lights-Out integration allows you to do an API call to the HP ILO (Integrated Lights-Out) sensor of your server, and use this data in Home Assistant sensors.
 app-misc/homeassistant:html5 - The HTML5 Push Notifications integration enables you to receive push notifications to Chrome or Firefox, no matter where you are in the world. html5 also supports Chrome and Firefox on Android, which enables native-app-like integrations without actually needing a native app.
 app-misc/homeassistant:http - http
@@ -416,7 +415,7 @@ app-misc/homeassistant:immich - This integration allows adding an Immich user ac
 app-misc/homeassistant:improv-ble - The Improv via BLE integration allows connecting devices implementing Improv via BLE to Wi-Fi.
 app-misc/homeassistant:incomfort - This integration links Home Assistant with your Intergas gateway, including the boiler and any room thermostats attached to it.The integration uses the incomfort-client library.
 app-misc/homeassistant:inels - The iNELS integration allows you to control and monitor the devices connected to your control units (BUS or eLAN).
-app-misc/homeassistant:influxdb - The InfluxDB integration makes it possible to transfer all state changes to an external InfluxDB database. See the official installation documentation for how to set up an InfluxDB database.
+app-misc/homeassistant:influxdb - The InfluxDB integration lets you transfer all state changes to an external InfluxDB database. This integration supports:
 app-misc/homeassistant:inkbird - Integrates INKBIRD devices into Home Assistant.
 app-misc/homeassistant:insteon - Important
 app-misc/homeassistant:intellifire - IntelliFire Wi-Fi fireplace modules provide app-based and Alexa control to various fireplaces. The modules do expose an unencrypted HTTP endpoint on the network that provides status information. This integration will read that URL and create a set of sensors displaying the current fireplace state.
@@ -544,7 +543,7 @@ app-misc/homeassistant:moat - Integrates Moat devices into Home Assistant.
 app-misc/homeassistant:mobile-app - The Mobile App integration allows Home Assistant mobile apps to easily integrate with Home Assistant.
 app-misc/homeassistant:mochad - The Mochad integration is the main integration to integrate all X10 platforms being controlled by mochad. Besides this integration you will have to setup your X10 devices separately.
 app-misc/homeassistant:modbus - modbus is a communication protocol to control PLCs (Programmable Logic Controller) and RTUs (Remote Terminal Unit).
-app-misc/homeassistant:modem-callerid - The modem_callerid integration uses an available modem for collecting caller ID information. It requires a Hayes AT compatible modem that supports caller ID detection (via AT+VCID=1). Usually any modem that uses a CX93001 will support this.
+app-misc/homeassistant:modem-callerid - The Phone Modem integration uses an available modem for collecting caller ID information. It requires a Hayes AT compatible modem that supports caller ID detection (via AT+VCID=1). Usually any modem that uses a CX93001 will support this.
 app-misc/homeassistant:modern-forms - Modern Forms has a line of smart Wi-Fi-connected fans that allow for cloud or local control of the fan and light. There is support for individual sleep timers for the fan and light that can be set and cleared independently.
 app-misc/homeassistant:moehlenhoff-alpha2 - The Möhlenhoff Alpha 2 integration allows you to control a Möhlenhoff Alpha 2
 app-misc/homeassistant:monarch-money - Monarch Money is a personal finance aggregation and budgeting service that integrates with Plaid, MX, and FinCity, the three major financial backends.
@@ -555,7 +554,7 @@ app-misc/homeassistant:mosquitto - mosquitto
 app-misc/homeassistant:motion-blinds - The Motionblinds integration allows you to control Motionblinds from Coulisse B.V..
 app-misc/homeassistant:motionblinds-ble - This integration adds support for Motionblinds Bluetooth motors. Want to motorize your existing blinds? This can be done with Motionblinds motor CMD-03. Made-to-measure window coverings with Motionblinds are available through a worldwide reseller network.Beware that this integration does not work with Eve Motionblinds motors. Eve Motionblinds can be added to Home Assistant using the HomeKit Device integration or the Matter integration.
 app-misc/homeassistant:motioneye - The motionEye integration allows you to integrate yourmotionEye server into Home Assistant. motionEyeis an open source web-frontend for the motion daemon, used to centralize the managementand visualization of multiple types of cameras.
-app-misc/homeassistant:motionmount - The motionmount integration allows you to control the position of your TVM 7675 Pro SIGNATURE MotionMount from Vogel’s.
+app-misc/homeassistant:motionmount - The Vogel’s MotionMount integration allows you to control the position of your TVM 7675 Pro SIGNATURE MotionMount from Vogel’s.
 app-misc/homeassistant:mpd - The Music Player Daemon integration allows you to control a Music Player Daemon from Home Assistant. Unfortunately, it does not allow you to manipulate the playlist (add or delete songs) or add transitions between the songs.
 app-misc/homeassistant:mqtt - MQTT (aka MQ Telemetry Transport) is a machine-to-machine or “Internet of Things” connectivity protocol on top of TCP/IP. It allows extremely lightweight publish/subscribe messaging transport.
 app-misc/homeassistant:msteams - The Microsoft Teams integration allows you to send notifications from Home Assistant to a team channel in Microsoft Teams.
@@ -567,7 +566,7 @@ app-misc/homeassistant:mysensors - The MySensors project combines devices like A
 app-misc/homeassistant:mystrom - There is currently support for the following device types within Home Assistant:
 app-misc/homeassistant:mythicbeastsdns - With the Mythic Beasts DNS integration you can automatically update your dynamic DNS entry at Mythic Beasts.
 app-misc/homeassistant:myuplink - The myUplink integration lets you get information about and control heat-pump devices supporting myUplink using the official cloud API.
-app-misc/homeassistant:nad - The nad integration allows you to control an NAD receiver through RS232, TCP and Telnet from Home Assistant.
+app-misc/homeassistant:nad - The NAD integration allows you to control an NAD receiver through RS232, TCP and Telnet from Home Assistant.
 app-misc/homeassistant:nam - The Nettigo Air Monitor integration allows you to read temperature, humidity, pressure and air quality data from Nettigo Air Monitor devices. Nettigo Air Monitor is a DIY air quality monitoring system with open source firmware, based on an open hardware project.
 app-misc/homeassistant:namecheapdns - With the Namecheap FreeDNS integration you can automatically update your dynamic DNS entry hosted by Namecheap’s FreeDNS service.
 app-misc/homeassistant:nanoleaf - The Nanoleaf integration allows you to control and monitor Nanoleaf Light Panels, Canvas, Shapes, Elements, and Lines.
@@ -576,50 +575,50 @@ app-misc/homeassistant:neato - There is an active alert for this integration! LE
 app-misc/homeassistant:nederlandse-spoorwegen - The Nederlandse Spoorwegen (NS) integration provides real-time information about Dutch train schedules using the NS API. This integration allows you to monitor departure times, delays, and travel information for your regular routes.
 app-misc/homeassistant:ness-alarm - The Ness Alarm integration will allow Home Assistant users who own a Ness D8x/D16x alarm system to leverage their alarm system and its sensors to provide Home Assistant with information about their homes. Connectivity between Home Assistant and the alarm is accomplished through a IP232 module that must be connected to the alarm.
 app-misc/homeassistant:nest - The Google Nest integration allows you to integrate a few supported Google Nest devices in Home Assistant. This integration uses the Smart Device Management API and Google’s Cloud Pubsub to efficiently listen for changes in device state or other events. See Supported Devices for all devices supported by the SDM API.
-app-misc/homeassistant:netatmo - The Netatmo integration platform is the main integration to integrate all Netatmo related platforms.
-app-misc/homeassistant:netdata - The netdata sensor integration allows you to display information collected by Netdata.
-app-misc/homeassistant:netgear - This platform allows you to detect presence by looking at connected devices to a NETGEAR device and control the NETGEAR device.Both routers and access points can be used with this integration. Some access points will not be automatically discovered and need to be set up manually.Attached devices are only tracked on NETGEAR devices set to the router mode, otherwise, duplicate entities will occur from access points that also report the same devices.
+app-misc/homeassistant:netatmo - The Netatmo integration is the main integration to integrate all Netatmo related platforms.
+app-misc/homeassistant:netdata - The Netdata integration allows you to display information collected by Netdata.
+app-misc/homeassistant:netgear - This integration allows you to detect presence by looking at connected devices to a NETGEAR device and control the NETGEAR device.Both routers and access points can be used with this integration. Some access points will not be automatically discovered and need to be set up manually.Attached devices are only tracked on NETGEAR devices set to the router mode, otherwise, duplicate entities will occur from access points that also report the same devices.
 app-misc/homeassistant:netgear-lte - The NETGEAR LTE integration for Home Assistant allows you to observe and control NETGEAR LTE modems.
-app-misc/homeassistant:netio - The netio switch integration allows you to control your Netio Netio4, Netio4 All, and Netio 230B. These are smart outlets controllable through Ethernet and/or Wi-Fi that reports consumptions (Netio4all). This integration requires Telnet to be enabled on the Netio device.
+app-misc/homeassistant:netio - The Netio integration allows you to control your Netio Netio4, Netio4 All, and Netio 230B. These are smart outlets controllable through Ethernet and/or Wi-Fi that reports consumptions (Netio4all). This integration requires Telnet to be enabled on the Netio device.
 app-misc/homeassistant:network - The Network configuration integration provides network configuration for integrations such as Zeroconf. It is managed by going to Settings > System > Network and is only available to users that have “Advanced Mode” enabled on their user profile.
 app-misc/homeassistant:neurio-energy - Integrate your Neurio meter information into Home Assistant. To get an API key and secret, login to your Neurio account and register an application. Note the Homepage URL and Callback URL are optional.
-app-misc/homeassistant:nexia - The nexia integration allows you to integrate your Nexia (Trane) thermostats or American Standard thermostats into Home Assistant.
-app-misc/homeassistant:nextbus - The nextbus sensor will give you the next departure time and associated data from your public transit station/stop. The data comes from NextBus, which provides real time transit data for a number of transit authorities.
+app-misc/homeassistant:nexia - The Nexia/American Standard/Trane integration allows you to integrate your Nexia (Trane) thermostats or American Standard thermostats into Home Assistant.
+app-misc/homeassistant:nextbus - The NextBus integration will give you the next departure time and associated data from your public transit station/stop. The data comes from NextBus, which provides real time transit data for a number of transit authorities.
 app-misc/homeassistant:nextcloud - The Nextcloud integration pulls summary Nextcloud information into Home Assistant.
 app-misc/homeassistant:nextdns - NextDNS is a DNS service that protects from all kinds of security threats, blocks ADS and trackers on websites and in apps, and provides a safe and supervised Internet for kids — on all devices and on all networks. The NextDNS integration allows you to monitor NextDNS statistics and control its configuration.
 app-misc/homeassistant:nfandroidtv - Notification integration for Notifications for Android TV and Notifications for Fire TV. You can use this integration to send notifications to your Android TV device. An overlay with the message content will appear for a configurable amount of seconds and then disappear again. Sending images (e.g., security cam) and custom icons is supported too. Icons are essentially the same as images (any image format supported by Android TV is supported), but are displayed small and to the left of the notification whereas images are large and above the notification.
 app-misc/homeassistant:nibe-heatpump - The Nibe Heat Pump integration allows you to control and monitor Nibe Heat Pumps in Home Assistant.
 app-misc/homeassistant:nice-go - The Nice G.O. integration is used to integrate with Nice/Linear and Mighty Mule products.This integration is used for garage doors and gate openers created by these companies.
 app-misc/homeassistant:nightscout - The Nightscout integration allows you to view your CGM data from Nightscout in Home Assistant.
-app-misc/homeassistant:niko-home-control - The niko_home_control integration allows you to integrate your Niko connected controller (with Home Control 1) into Home Assistant.
-app-misc/homeassistant:nilu - The nilu air quality integration shows measurements of current air quality from NILU (Norsk Institutt for luftforskning/Norwegian Institute for Air Research) sensor stations within Norway. Makes data from the open API at luftkvalitet.info and nilu.no available in Home Assistant.
+app-misc/homeassistant:niko-home-control - The Niko Home Control integration allows you to integrate your Niko connected controller (with Home Control 1) into Home Assistant.
+app-misc/homeassistant:nilu - The NILU integration shows measurements of current air quality from NILU (Norsk Institutt for luftforskning/Norwegian Institute for Air Research) sensor stations within Norway. Makes data from the open API at luftkvalitet.info and nilu.no available in Home Assistant.
 app-misc/homeassistant:nina - The NINA integration displays warnings from the Bundesamt für Bevölkerungsschutz und Katastrophenhilfe in Germany.
 app-misc/homeassistant:nintendo-parental-controls - The Nintendo Switch Parental Controls integration integrates with the Nintendo Switch Parental Controls service, allowing parents to monitor and control screentime for their children.
-app-misc/homeassistant:nissan-leaf - The nissan_leaf integration offers integration with the NissanConnect EV cloud service. NissanConnect EV was previously known as Nissan Carwings.
+app-misc/homeassistant:nissan-leaf - The Nissan Leaf integration offers integration with the NissanConnect EV cloud service. NissanConnect EV was previously known as Nissan Carwings.
 app-misc/homeassistant:nmap-tracker - As an alternative to the router-based device tracking, it is possible to directly scan the network for devices by using Nmap. The IP addresses to scan can be specified in any format that Nmap understands, including the network-prefix notation (192.168.1.1/24) and the range notation (192.168.1.1-255).
 app-misc/homeassistant:nmbs - The NMBS integration will create sensors for monitoring travel time and information between 2 stations.
-app-misc/homeassistant:noaa-tides - The noaa_tides sensor integration uses details from NOAA Tides and Currents to provide information about the prediction for the tides for any location in the United States.
+app-misc/homeassistant:noaa-tides - The NOAA Tides integration uses details from NOAA Tides and Currents to provide information about the prediction for the tides for any location in the United States.
 app-misc/homeassistant:nobo-hub - Integrates Nobø Ecohubinto Home Assistant. This integration is not officially supported or endorsed by Glen Dimplex Nordic AS,and the authors/maintainers are not official partners of Glen Dimplex Nordic AS.
 app-misc/homeassistant:nordpool - The Nord Pool integration integrates Nord Pool Group energy prices into Home Assistant.
-app-misc/homeassistant:norway-air - The norway_air integration queries the Norway air quality data feed provided by the Norwegian Meteorological Institute.
+app-misc/homeassistant:norway-air - The Norway Air integration queries the Norway air quality data feed provided by the Norwegian Meteorological Institute.
 app-misc/homeassistant:notify-events - Description The Notify.Events service is an integration for the notify integration.
 app-misc/homeassistant:notion - The Notion integration retrieves data from Notion wirelesshome monitoring sensor kits.
-app-misc/homeassistant:nsw-fuel-station - The nsw_fuel_station sensor platform uses the NSW Fuel Check App data as a source for current fuel price data.
-app-misc/homeassistant:nsw-rural-fire-service-feed - The nsw_rural_fire_service_feed platform lets you integrate a GeoJSON feed provided by the NSW Rural Fire Service with information about bush fires, grass fires, hazard reductions and more. It retrieves incidents from a feed and shows information of those incidents filtered by distance to Home Assistant’s location.
+app-misc/homeassistant:nsw-fuel-station - The NSW Fuel Station Price integration uses the NSW Fuel Check App data as a source for current fuel price data.
+app-misc/homeassistant:nsw-rural-fire-service-feed - The NSW Rural Fire Service Incidents integration lets you integrate a GeoJSON feed provided by the NSW Rural Fire Service with information about bush fires, grass fires, hazard reductions and more. It retrieves incidents from a feed and shows information of those incidents filtered by distance to Home Assistant’s location.
 app-misc/homeassistant:ntfy - The ntfy integration allows publishing push notifications on ntfy.sh or other ntfy services.
-app-misc/homeassistant:nuheat - The nuheat integration lets control your connected NuHeat Signature floor heating thermostats from NuHeat.
-app-misc/homeassistant:nuki - The Nuki integration allows you to control Nuki Smart Locks via a Nuki Bridge.Many Nuki Smart Locks also support local integrations using a different integration.
-app-misc/homeassistant:numato - The numato integration is the base for all related GPIO platforms of theNumato 32 Port USB GPIO expander:
+app-misc/homeassistant:nuheat - The NuHeat integration lets control your connected NuHeat Signature floor heating thermostats from NuHeat.
+app-misc/homeassistant:nuki - The Nuki Bridge integration allows you to control Nuki Smart Locks via a Nuki Bridge.Many Nuki Smart Locks also support local integrations using a different integration.
+app-misc/homeassistant:numato - The Numato USB GPIO Expander integration is the base for all related GPIO platforms of theNumato 32 Port USB GPIO expander:
 app-misc/homeassistant:nut - The Network UPS Tools (NUT) integration allows you to monitor and manage an Uninterruptible Power Supply (UPS) for battery backup, a Power Distribution Unit (PDU), or other similar power device using a NUT server. It lets you view the status, receive notifications about important events, and execute commands as device actions for one or more such devices.
-app-misc/homeassistant:nws - The nws platform uses the National Weather Service web API as a source for meteorological data for your location.
-app-misc/homeassistant:nx584 - The nx584 integration provides integration with GE, Caddx, Interlogix (and other brands) alarm panels that support the NX584 interface module (or have it built in). Supported panels include NX4/6/8/8E. Actual integration is done through pynx584 which is required for this to work.
+app-misc/homeassistant:nws - The NWS integration uses the National Weather Service web API as a source for meteorological data for your location.
+app-misc/homeassistant:nx584 - The NX584 integration provides integration with GE, Caddx, Interlogix (and other brands) alarm panels that support the NX584 interface module (or have it built in). Supported panels include NX4/6/8/8E. Actual integration is done through pynx584 which is required for this to work.
 app-misc/homeassistant:nyt-games - The NYT Games integration fetches data about your progress on their daily puzzles.
 app-misc/homeassistant:nzbget - The NZBGet integration allows you to monitor and control your downloads with NZBGet from within Home Assistant. It also allows you to setup automation based on the information.
 app-misc/homeassistant:oasa-telematics - The OASA Telematics integration will provide you with bus and trolley arrival times for Greek public transport for Athens, using real-time data from OASA Telematics.
-app-misc/homeassistant:obihai - The obihai integration allows you to view the call status for your Obihai devices.
+app-misc/homeassistant:obihai - The Obihai integration allows you to view the call status for your Obihai devices.
 app-misc/homeassistant:octoprint - OctoPrint is a web interface for your 3D printer. This is the main integration to integrate OctoPrint sensors.
 app-misc/homeassistant:oem - This integration supports the ESP8266 based “WiFi MQTT Relay / Thermostat” sold by OpenEnergyMonitor (archived page, no longer for sale). The underlying library only supports this single relay variant of the original device.
-app-misc/homeassistant:ohmconnect - The ohmconnect integration will show you the current OhmConnect status for the given OhmConnect ID.
+app-misc/homeassistant:ohmconnect - The OhmConnect integration will show you the current OhmConnect status for the given OhmConnect ID.
 app-misc/homeassistant:ohme - The Ohme integration allows you to connect your Ohme EV charger to Home Assistant.
 app-misc/homeassistant:ollama - The Ollama integration adds a conversation agent in Home Assistant powered by a local Ollama server.
 app-misc/homeassistant:ombi - The Ombi integration monitors data from your Ombi instance.
@@ -627,40 +626,40 @@ app-misc/homeassistant:omnilogic - Hayward OmniLogic smart pool and spa technolo
 app-misc/homeassistant:ondilo-ico - ICO by Ondilo is a small connected device that you simply drop into the pool or spa. ICO continuously analyzes the water quality of your pool/spa and notifies you via its application. ICO provides personalized recommendations so that you use the right products in the right proportions at the right time.
 app-misc/homeassistant:onedrive - This integration allows you to use OneDrive for Home Assistant Backups as well as uploading generic files to your OneDrive.
 app-misc/homeassistant:onewire - The 1-Wire integration supports sensors that use the 1-wire bus for communication.
-app-misc/homeassistant:onkyo - The onkyo integration allows you to control Onkyo and Integra (from 2011 onward) and also Pioneer (from 2016 onward) receivers using Home Assistant.Please be aware that you need to enable “Network Standby” for this integration to work with your hardware.
-app-misc/homeassistant:onvif - The ONVIF camera integration allows you to use an ONVIF Profile S conformant device in Home Assistant. This requires the ffmpeg integration to be already configured.
+app-misc/homeassistant:onkyo - The Onkyo integration allows you to control Onkyo and Integra (from 2011 onward) and also Pioneer (from 2016 onward) receivers using Home Assistant.Please be aware that you need to enable “Network Standby” for this integration to work with your hardware.
+app-misc/homeassistant:onvif - The ONVIF integration allows you to use an ONVIF Profile S conformant device in Home Assistant. This requires the ffmpeg integration to be already configured.
 app-misc/homeassistant:open-meteo - The Open-Meteo integration integrates the free weather forecast fromOpen-Meteo with Home Assistant.
 app-misc/homeassistant:open-router - The OpenRouter integration allows you to use the OpenRouter API as a conversation agent in Home Assistant.
 app-misc/homeassistant:openai-conversation - The OpenAI integration adds a conversation agent powered by OpenAI in Home Assistant.
-app-misc/homeassistant:openerz - This openerz sensor integration uses OpenERZ API to access data from Entsorgung und Recycling Zürich (ERZ). It reports the next pickup date for the specified zip and waste type.
-app-misc/homeassistant:openevse - This openevse sensor integration pulls data from an OpenEVSE Charging station equipped with an ESP8266-based Wi-Fi connection.
+app-misc/homeassistant:openerz - The Open ERZ integration uses OpenERZ API to access data from Entsorgung und Recycling Zürich (ERZ). It reports the next pickup date for the specified zip and waste type.
+app-misc/homeassistant:openevse - The OpenEVSE integration pulls data from an OpenEVSE Charging station equipped with an ESP8266-based Wi-Fi connection.
 app-misc/homeassistant:openexchangerates - The Open Exchange Rates integration will show you the current exchange rate from Open Exchange Rates that provides real-time exchange rates for 170 currencies. The free account is limited to only USD as a base currency, allows 1000 requests per month, and updates every hour.
 app-misc/homeassistant:opengarage - The OpenGarage integration lets you control the open-source OpenGarage.io device through Home Assistant.
 app-misc/homeassistant:openhome - The Linn / OpenHome integration allows you to connect an Openhome Compliant Renderer to Home Assistant such as a Linn Products Ltd HiFi streamer. It will allow you to control media playback, volume, source and see the current playing item.
 app-misc/homeassistant:openrgb - The OpenRGB integration is used to integrate the RGB lighting devices from computers running OpenRGB.OpenRGB provides a unified interface for controlling various RGB lighting hardware from different manufacturers.
-app-misc/homeassistant:opensensemap - The opensensemap air quality integration will query the open data API of openSenseMap.org to monitor air quality sensor station.
+app-misc/homeassistant:opensensemap - The openSenseMap integration will query the open data API of openSenseMap.org to monitor air quality sensor station.
 app-misc/homeassistant:opensky - The OpenSky integration allows one to track overhead flights in a given region. It uses crowd-sourced data from the OpenSky Network public API. It will also fire Home Assistant events when flights enter and exit the defined region.
-app-misc/homeassistant:opentherm-gw - The opentherm_gw integration is used to control the OpenTherm Gateway from Home Assistant.
+app-misc/homeassistant:opentherm-gw - The OpenTherm Gateway integration is used to control the OpenTherm Gateway from Home Assistant.
 app-misc/homeassistant:openuv - The OpenUV integration displays UV and Ozone data from openuv.io.
-app-misc/homeassistant:openweathermap - The OpenWeatherMap weather integration uses OpenWeatherMap as a source for meteorological and air quality data for your location.
+app-misc/homeassistant:openweathermap - The OpenWeatherMap integration uses OpenWeatherMap as a source for meteorological and air quality data for your location.
 app-misc/homeassistant:opnsense - OPNsense is an open source FreeBSD based firewalland routing platform. There is currently support for the following device typeswithin Home Assistant:
 app-misc/homeassistant:opower - The Opower integration allows you to get energy information from utilities that use Opower.
-app-misc/homeassistant:opple - The opple light integration allows you to control the state of your Opple smart light.
+app-misc/homeassistant:opple - The Opple integration allows you to control the state of your Opple smart light.
 app-misc/homeassistant:oralb - Integrates Oral-B devices into Home Assistant.
-app-misc/homeassistant:oru - Orange and Rockland Utility is an energy provider in NY and NJ, USA.The oru sensor integration fetches your current energy usage from your ORU smart meter.
+app-misc/homeassistant:oru - Orange and Rockland Utility is an energy provider in NY and NJ, USA.The ORU integration fetches your current energy usage from your ORU smart meter.
 app-misc/homeassistant:orvibo - Caution
 app-misc/homeassistant:osoenergy - The OSO Energy integration for Home Assistant allows you to interact with supported devices and services offered by OSO Energy
-app-misc/homeassistant:osramlightify - The osramlightify integration allows you to integrate your Osram Lightify into Home Assistant.
+app-misc/homeassistant:osramlightify - The Osramlightify integration allows you to integrate your Osram Lightify into Home Assistant.
 app-misc/homeassistant:otbr - The Open Thread Border Router integration allows calling an Open Thread Border Router’s REST API from Python and via WebSocket.
-app-misc/homeassistant:otp - The otp integration generates One-Time Passwords according to RFC6238 that is compatible with most OTP generators available, including Google Authenticator. You can use this when building custom security solutions and want to use “rolling codes”, that change every 30 seconds.
+app-misc/homeassistant:otp - The One-Time Password (OTP) integration generates One-Time Passwords according to RFC6238 that is compatible with most OTP generators available, including Google Authenticator. You can use this when building custom security solutions and want to use “rolling codes”, that change every 30 seconds.
 app-misc/homeassistant:ourgroceries - This integration connects with an OurGroceries account and integrates your shopping lists into Home Assistant.It adds a to-do list entity for each shopping list, allowing you to create, update, or delete items on the list from the To-do list dashboard.
 app-misc/homeassistant:overkiz - The Overkiz (by Somfy) IoT platform is used by many different vendors, like Somfy, Hitachi, and Atlantic. This integration will allow users to integrate their devices into Home Assistant using the Overkiz API.
 app-misc/homeassistant:overseerr - Overseerr is a service that allows you to manage media requests and to integrate these media requests with Plex, Radarr, and Sonarr. The Overseerr integration allows you to integrate your Overseerr instance.
-app-misc/homeassistant:ovo-energy - The ovo_energy integration allows you to monitor your energy consumption datain Home Assistant.
+app-misc/homeassistant:ovo-energy - The OVO Energy integration allows you to monitor your energy consumption datain Home Assistant.
 app-misc/homeassistant:owntracks - OwnTracks is a free and open source application for iOS and Android that allows you to track your location and send it directly to Home Assistant. OwnTracks can be set up via Settings > Devices & services.
 app-misc/homeassistant:p1-monitor - The P1 Monitor integration allows you to gather data from your P1 Monitor device and use it in Home Assistant.
 app-misc/homeassistant:palazzetti - The Palazzetti integration integrates the Palazzettistoves equipped with a Connection Box.It is accessing the device’s local API. WPalaControldevices have a compatible API and are supported by this integration too.
-app-misc/homeassistant:panasonic-bluray - The panasonic_bluray platform allows you to control a Panasonic Blu-Ray player. Note that the device must be on the same subnet as Home Assistant; connections from a different subnet will return an error.
+app-misc/homeassistant:panasonic-bluray - The Panasonic Blu-Ray Player integration allows you to control a Panasonic Blu-Ray player. Note that the device must be on the same subnet as Home Assistant; connections from a different subnet will return an error.
 app-misc/homeassistant:panasonic-viera - The Panasonic Viera integration allows you to control a Panasonic Viera TV.
 app-misc/homeassistant:paperless-ngx - The Paperless-ngx integration allows you to connect your Paperless-ngx instance to Home Assistant and monitor its status and activity.
 app-misc/homeassistant:peblar - The Peblar integration integrates the Peblar Rocksolid EV Charger into your smart home ecosystem. It enables real-time monitoring of charging status, tracking energy consumption, controlling charging behavior, and integrating EV charging data into the Home Assistant energy dashboard.
@@ -669,35 +668,35 @@ app-misc/homeassistant:pegel-online - This integration uses the data from the Ge
 app-misc/homeassistant:pencom - Pencom Design is a manufacturer of computer-controlled relay, I/O and custom boards for commercial and industrial applications. This interface to Pencom’s Relay Control Boards is designed to work over an ethernet to serial adapter (NPort). Each switch (relay) can be turned on/off, and the state of the relay can be read.
 app-misc/homeassistant:permobil - The MyPermobil integration allows you to view various sensors with information about your Permobil wheelchair. For example: battery status, distance traveled, and number of seating adjustments. The values of the sensors may be delayed by several minutes and should not be relied on for any crucial applications. For the integration to work, you must ensure that voice assistant linking is activated in the MyPermobil app. To do this, open the app and navigate to Settings > My Account > Connection Settings.
 app-misc/homeassistant:pglab - The PG LAB Electronics integrations allows you to control PG LAB Electronics devices in Home Assistant.
-app-misc/homeassistant:philips-js - The philips_js platform allows you to control Philips TVs which expose the jointSPACE JSON-API.
+app-misc/homeassistant:philips-js - The Philips TV integration allows you to control Philips TVs which expose the jointSPACE JSON-API.
 app-misc/homeassistant:pi-hole - The Pi-hole integration allows you to retrieve statistics and interact with aPi-hole system.
 app-misc/homeassistant:picnic - The Picnic integration allows one to get information from Picnic about orders, deliveries and cart content.
 app-misc/homeassistant:pilight - Pilight is a modular and open source solution to communicate with 433 MHz devices and runs on various small form factor computers. A lot of common protocols are already available.
 app-misc/homeassistant:ping - There is currently support for the following device types within Home Assistant:
-app-misc/homeassistant:pjlink - The pjlink integration allows you to control from Home Assistant, projectors with support for the PJLink protocol.
+app-misc/homeassistant:pjlink - The PJLink integration allows you to control from Home Assistant, projectors with support for the PJLink protocol.
 app-misc/homeassistant:plaato - This integration sets up integration with Plaato Airlock and Keg.
 app-misc/homeassistant:playstation-network - The PlayStation Network integration enables you to seamlessly integrate information from your currently playing game in Home Assistant.
-app-misc/homeassistant:plex - The Plex integration allows you to connect Home Assistant to a Plex Media Server. Once configured, actively streaming Plex Clients show up as media players and report playback status and library sizes via sensors in Home Assistant. Media players will allow you to control media playback and see the current playing item.
+app-misc/homeassistant:plex - The Plex Media Server integration allows you to connect Home Assistant to a Plex Media Server. Once configured, actively streaming Plex Clients show up as media players and report playback status and library sizes via sensors in Home Assistant. Media players will allow you to control media playback and see the current playing item.
 app-misc/homeassistant:plugwise - Plugwise provides smart home devices that allow you to monitor and control your climate, energy (including gas) consumption, and energy production. The energy information can be used for the energy dashboard.
-app-misc/homeassistant:pocketcasts - The pocketcasts sensor integration lets you monitor how many unplayed episodes you have of your favorite podcasts at Pocket Casts. This integration requires a Pocket Casts + Plus subscription to work!
+app-misc/homeassistant:pocketcasts - The Pocket Casts integration lets you monitor how many unplayed episodes you have of your favorite podcasts at Pocket Casts. This integration requires a Pocket Casts + Plus subscription to work!
 app-misc/homeassistant:point - The Point hub enables integration with the Minut Point.
-app-misc/homeassistant:pooldose - The PoolDose integration connects a SEKO water treatment system with Home Assistant. SEKO is a manufacturer of various monitoring and control devices for pools and spas.
+app-misc/homeassistant:pooldose - The SEKO PoolDose integration connects a SEKO water treatment system with Home Assistant. SEKO is a manufacturer of various monitoring and control devices for pools and spas.
 app-misc/homeassistant:poolsense - PoolSense is a smart pool monitor that publishes data to the cloud via SigFox. PoolSense eliminates the time and effort spent fixing what’s wrong with your pool water. Accurate sensors, in the PoolSense smart pool monitor, send data to a cloud server in timed intervals.
 app-misc/homeassistant:portainer - The Portainer integration is used as an interface to the Portainer API.Portainer is a lightweight management UI that allows you to easily manage your Docker containers, images, networks, and volumes. It works on every Docker host or Swarm cluster.
 app-misc/homeassistant:powerfox - The Powerfox integration allows you to gather data from your Poweropti devices, by using their cloud API and fetching the data in Home Assistant.
-app-misc/homeassistant:powerwall - The powerwall integration allows you to integrate your Tesla Powerwall into Home Assistant.
+app-misc/homeassistant:powerwall - The Tesla Powerwall integration allows you to integrate your Tesla Powerwall into Home Assistant.
 app-misc/homeassistant:private-ble-device - Some BLE devices use a privacy feature called Resolvable Private Addresses to stop businesses from tracking you when you are out with your smart devices. Instead of having a single static address that can be used to track you, its Bluetooth address changes frequently. If you have Bluetooth enabled and functioning and know your device’s Identity Resolving Key, you can add it to Home Assistant as a Private BLE Device. We can then work out which random MAC addresses are related to the IRK and track those.
 app-misc/homeassistant:probe-plus - The Probe Plus integration allows you to view food temperature probe details supported by Probe Plus through Home Assistant.
 app-misc/homeassistant:profiler - The Profiler integration provides a profile which is a set of statistics that identifies how much time each part of Home Assistant is taking. It can help track down a performance issue or provide insight about a misbehaving integration.
-app-misc/homeassistant:progettihwsw - The progettihwsw integration brings the automation experience with ProgettiHWSW boards to Home Assistant.
-app-misc/homeassistant:proliphix - The proliphix climate platform let you control Proliphix thermostats from Home Assistant.
-app-misc/homeassistant:prometheus - The prometheus integration exposes metrics in a format which Prometheus can read.
+app-misc/homeassistant:progettihwsw - The ProgettiHWSW Automation integration brings the automation experience with ProgettiHWSW boards to Home Assistant.
+app-misc/homeassistant:proliphix - The Proliphix integration let you control Proliphix thermostats from Home Assistant.
+app-misc/homeassistant:prometheus - The Prometheus integration exposes metrics in a format which Prometheus can read.
 app-misc/homeassistant:prosegur - Integrate Prosegur Smart Alarms into Home Assistant.
-app-misc/homeassistant:prowl - The prowl integration uses Prowl to deliver push notifications from Home Assistant to your iOS device.
+app-misc/homeassistant:prowl - The Prowl integration uses Prowl to deliver push notifications from Home Assistant to your iOS device.
 app-misc/homeassistant:proxmoxve - Proxmox VE is an open-source server virtualization environment. This integration allows you to poll various data from your instance.
 app-misc/homeassistant:proxy - The Camera Proxy integration allows you to pass another camera’s output through post-processing routines and generate a new camera with the post-processed output.
 app-misc/homeassistant:prusalink - The PrusaLink integration allows you to monitor your Prusa 3D printer and its progress with your Home Assistant installation. This integration works with Prusa MINI/MINI+, Prusa MK3.9/MK4, Prusa XL, Prusa CORE One, and with the older Raspberry Pi-based Prusa MK2.5/MK3.
-app-misc/homeassistant:ps4 - The ps4 integration allows you to control aSony PlayStation 4 console.
+app-misc/homeassistant:ps4 - The Sony PlayStation 4 integration allows you to control aSony PlayStation 4 console.
 app-misc/homeassistant:pterodactyl - Pterodactyl is a game server management panel designed to simplify the administration of game servers. It offers a user-friendly interface which allows users to manage multiple game servers from a single dashboard, supporting popular games like Minecraft. Its key features include an intuitive web-based control panel, automated server installation, real-time server monitoring, scheduled backups and more. Each game server runs in an isolated Docker container, ensuring security and stability.
 app-misc/homeassistant:pulseaudio-loopback - The goal behind this switch is to allow a very flexible whole home audio system based upon PulseAudio.
 app-misc/homeassistant:pure-energie - The Pure Energie integration integrates the Pure Energie Monitordevice with Home Assistant.
@@ -705,17 +704,17 @@ app-misc/homeassistant:purpleair - PurpleAir makes sensors that measure hyper-lo
 app-misc/homeassistant:pushbullet - There is currently support for the following device types within Home Assistant:
 app-misc/homeassistant:pushover - The Pushover service is a platform for the notify integration. This allows integrations to send messages to the user using Pushover.
 app-misc/homeassistant:pvoutput - The PVOutput integration consumes information from PVOutput which was uploaded by your solar photovoltaic (PV) system.
-app-misc/homeassistant:pvpc-hourly-pricing - This sensor uses the official API to get the hourly price of electricity in Spain from https://www.esios.ree.es/en/pvpc.
+app-misc/homeassistant:pvpc-hourly-pricing - This integration uses the official API to get the hourly price of electricity in Spain from https://www.esios.ree.es/en/pvpc.
 app-misc/homeassistant:pyload - The pyLoad integration enables monitoring your downloads directly in Home Assistant. This integration provides various sensors to keep track of your download activities and allows creating automations based on the sensor information, alongside button and switch controls for performing specific tasks such as aborting downloads and managing file restarts.
 app-misc/homeassistant:python-script - This integration allows you to write Python scripts that are exposed as actions in Home Assistant. Each Python file created in the <config>/python_scripts/ folder will be exposed as an action. The content is not cached so you can easily develop: edit file, save changes, perform action. The scripts are run in a sandboxed environment. The following variables are available in the sandbox:
-app-misc/homeassistant:qbittorrent - The qbittorrent platform allows you to monitor your downloads with qBittorrent from within Home Assistant and setup automations based on the information.You can control the alternative speed via the Alternative speed switch.
+app-misc/homeassistant:qbittorrent - The qBittorrent integration allows you to monitor your downloads with qBittorrent from within Home Assistant and setup automations based on the information.You can control the alternative speed via the Alternative speed switch.
 app-misc/homeassistant:qbus - The Qbus integration allows you to integrate your Qbus Control into Home Assistant. Qbus is a Belgian manufacturer of Home Automation systems.
 app-misc/homeassistant:qingping - Integrates Qingping devices into Home Assistant.
-app-misc/homeassistant:qld-bushfire - The qld_bushfire platform lets you integrate aGeoRSS feed containing bushfire alerts for Queensland. It retrieves alerts from a feedand shows information of those alerts filtered by distance to Home Assistant’slocation.
+app-misc/homeassistant:qld-bushfire - The Queensland Bushfire Alert integration lets you integrate aGeoRSS feed containing bushfire alerts for Queensland. It retrieves alerts from a feedand shows information of those alerts filtered by distance to Home Assistant’slocation.
 app-misc/homeassistant:qnap - The QNAP integration allows getting various statistics from your QNAP NAS.
 app-misc/homeassistant:qnap-qsw - This integration interacts with the local API of QNAP QSW managed switches.
-app-misc/homeassistant:qrcode - The qrcode image processing integration enables QR code recognition from cameras.
-app-misc/homeassistant:quantum-gateway - The quantum_gateway device tracker platform offers presence detection by looking at devices connected to a Verizon Fios gateway.
+app-misc/homeassistant:qrcode - The QR Code integration enables QR code recognition from cameras.
+app-misc/homeassistant:quantum-gateway - The Quantum Gateway integration offers presence detection by looking at devices connected to a Verizon Fios gateway.
 app-misc/homeassistant:qvr-pro - QVR Pro allows you to createan independent and expandable surveillance environment on your QNAP NAS. Theqvr_pro integration allows you to view your QVR Pro channels in Home Assistant.
 app-misc/homeassistant:qwikswitch - The QwikSwitch QSUSB integration is the main integration to integrate various QwikSwitch devices with Home Assistant. The integration requires the QSUSB Modem device and connects to the QS Mobile application.
 app-misc/homeassistant:rabbitair - The Rabbit Air integration lets you control your air purifier over the local network. The following device models are currently supported:
@@ -752,7 +751,7 @@ app-misc/homeassistant:ridwell - The Ridwell integration allows users to track w
 app-misc/homeassistant:ring - The Ring integration allows you to control your Ring.com doorbell, stick up cam, chime, and intercom devices in Home Assistant.
 app-misc/homeassistant:ripple - The ripple sensor integration displays Ripple wallet balances from Ripple.com.
 app-misc/homeassistant:risco - This integration connects with Risco Alarms, in one of two ways:
-app-misc/homeassistant:rituals-perfume-genie - The Rituals Perfume Genie integration allows you to control and monitor your Rituals perfume diffusers connected to your Rituals account. The integration is compatible with the first and second 2.0 versions.
+app-misc/homeassistant:rituals-perfume-genie - The Rituals Perfume Genie integration allows you to control and monitor your Rituals perfume diffusers connected to your Rituals account.
 app-misc/homeassistant:rmvtransport - The RMV integration will give you the departure time of the next bus, tram, subway or train at the next station or stop in the Rhein-Main area public transport network. Additional details such as the line number and destination are present in the attributes.
 app-misc/homeassistant:roborock - The Roborock integration allows you to connect your Roborock robotic vacuums to your Home Assistant. Roborock vacuums areintelligent home cleaning robots and, depending on the specific device, may have featureslike mopping capabilities, laser navigation, and options for changing cleaningperformance or location in the home. This integration enables you to control andmonitor your Roborock vacuum directly from Home Assistant.
 app-misc/homeassistant:rocketchat - The rocketchat notify integration allows you to send messages to your Rocket.Chat instance from Home Assistant.
@@ -771,18 +770,18 @@ app-misc/homeassistant:ruuvi-gateway - Integrates Ruuvi Gateway devices aspollin
 app-misc/homeassistant:ruuvitag-ble - Integrates Ruuvi’s RuuviTag and Ruuvi Air BLE devices into Home Assistant.
 app-misc/homeassistant:rympro - This integration connects with a Read Your Meter Pro account to get water meter reads into Home Assistant.
 app-misc/homeassistant:sabnzbd - The SABnzbd integration allows you to monitor and control your downloads with SABnzbd from within Home Assistant and set up automations based on download status and activity.
-app-misc/homeassistant:saj - The saj integration will poll a SAJ solar inverter and present the values as sensors in Home Assistant.
-app-misc/homeassistant:samsungtv - The samsungtv platform allows you to control a Samsung Smart TV.
+app-misc/homeassistant:saj - The SAJ Solar Inverter integration will poll a SAJ solar inverter and present the values as sensors in Home Assistant.
+app-misc/homeassistant:samsungtv - The Samsung Smart TV integration allows you to control a Samsung Smart TV.
 app-misc/homeassistant:sanix - The Sanix integration allows you to get water/sewage level sensor measurements from the Sanix devices made by BIT Complex.
 app-misc/homeassistant:satel-integra - The Satel Integra integration allows you to connect your Satel Integra alarm system to Home Assistant to control and monitor your alarm system.
 app-misc/homeassistant:saunum - The Saunum integration integrates your Saunum Leil sauna control unit with Home Assistant. Saunum is an Estonian company that creates advanced sauna heaters and control systems with smart features.
 app-misc/homeassistant:schlage - The Schlage integration provides connectivity with Schlage WiFi smart locks through Schlage’s cloud API.
-app-misc/homeassistant:schluter - The schluter integration allows you to integrate your Schluter-DITRA-HEAT-E-WiFi electric floor heating thermostat in Home Assistant.
+app-misc/homeassistant:schluter - The Schluter integration allows you to integrate your Schluter-DITRA-HEAT-E-WiFi electric floor heating thermostat in Home Assistant.
 app-misc/homeassistant:scrape - The Scrape sensor integration scrapes information from websites. The sensor loads an HTML page, and allows you to search and extract specific values. As this is not a fully featured web scraper like scrapy, it will work with simple web pages and it can be time-consuming to get the right section.
 app-misc/homeassistant:screenlogic - The Pentair ScreenLogic integration allows you to integrate your Pentair IntelliTouch or EasyTouch pool controller with Home Assistant via the Pentair ScreenLogic gateway.
 app-misc/homeassistant:scsgate - The SCSGate integration support the SCSGate device. This a home-brew device allows to interact with the MyHome system from BTicino/Legrande.
 app-misc/homeassistant:season - The Season integration will provide the current astronomical or meteorological season (Spring, Summer, Autumn, Winter)as a sensor.
-app-misc/homeassistant:sendgrid - The sendgrid notification integration sends email notifications via SendGrid, a proven cloud-based email platform.
+app-misc/homeassistant:sendgrid - The SendGrid integration sends email notifications via SendGrid, a proven cloud-based email platform.
 app-misc/homeassistant:sense - Integrate your Sense meter information into Home Assistant.
 app-misc/homeassistant:sensibo - The Sensibo integration integrates Sensibo devices into Home Assistant.
 app-misc/homeassistant:sensirion-ble - Integrates sensors talking Sensirion’s BLE protocol into Home Assistant.
@@ -791,94 +790,94 @@ app-misc/homeassistant:sensorpush - Integrates SensorPush devices into Home Assi
 app-misc/homeassistant:sensorpush-cloud - Integrates SensorPush Cloud devices into Home Assistant.
 app-misc/homeassistant:sensoterra - This integration communicates with your Sensoterra soil moisture probes using the public Sensoterra Customer API via HTTPS.
 app-misc/homeassistant:sentry - Important
-app-misc/homeassistant:senz - The SENZ integration allows you to control and monitor your nVent RAYCHEM SENZ-WIFI thermostats.
-app-misc/homeassistant:serial - The serial sensor integration is using the data provided by a device connected to the serial port of the system where Home Assistant is running. With ser2net and socat would it also work for sensors connected to a remote system.
+app-misc/homeassistant:senz - The nVent RAYCHEM SENZ integration allows you to control and monitor your nVent RAYCHEM SENZ-WIFI thermostats.
+app-misc/homeassistant:serial - The Serial integration is using the data provided by a device connected to the serial port of the system where Home Assistant is running. With ser2net and socat would it also work for sensors connected to a remote system.
 app-misc/homeassistant:serial-pm - Particulate matter sensors measure the amount of very small particles in the air.
-app-misc/homeassistant:sesame - The sesame integration allows you to control your Sesame smart locks made by CANDY HOUSE, Inc.
-app-misc/homeassistant:seven-segments - The seven_segments image processing integration allows you to read physical seven segments displays through Home Assistant. ssocr is used to extract the value shown on the display which is observed by a camera.
+app-misc/homeassistant:sesame - The Sesame Smart Lock integration allows you to control your Sesame smart locks made by CANDY HOUSE, Inc.
+app-misc/homeassistant:seven-segments - The Seven Segments OCR integration allows you to read physical seven segments displays through Home Assistant. ssocr is used to extract the value shown on the display which is observed by a camera.
 app-misc/homeassistant:seventeentrack - The 17TRACK integration allows users to get package data tied to their 17track.net account. The integration creates both summary sensors, which show the number of packages in a current state (e.g., “In Transit”), as well as individual sensors for each package within the account.
 app-misc/homeassistant:sfr-box - The SFR Box integration offers integration with the SFR broadband router.
 app-misc/homeassistant:sftp-storage - The SFTP Storage integration works with the core Backup integration. When you enable SFTP Storage in the Locations section of your Backup integration settings, Home Assistant automatically stores manual and automatic backups on your remote SSH/SFTP server.
 app-misc/homeassistant:sharkiq - The Shark IQ integration allows you to control your Shark IQ vacuum.
 app-misc/homeassistant:shelly - Integrate Shelly devices into Home Assistant.
-app-misc/homeassistant:shodan - The shodan sensor integration is displaying the total of result of aShodan query.
+app-misc/homeassistant:shodan - The Shodan integration is displaying the total of result of aShodan query.
 app-misc/homeassistant:sia - The SIA Alarm Systems integration provides integration with several alarm systems that implement the SIA Protocol, including Ajax Systems. This protocol is listen-only, so does not allow you to turn on/off your alarm system, it just updates the state to reflect your alarm and allows you to act on that state, for instance turning on all lights and opening the curtains when the alarm triggers. The underlying package has support for different variants of SIA, including DC-09, DC-04 and a limited set of ADM-CID. If your alarm system uses the ADM-CID standard and it isn’t working, please log an issue here.
 app-misc/homeassistant:sighthound - Detect people in camera images using Sighthound Cloud. The Sighthound Developer tier (free for non-commercial use) allows 5000 images to be processed per month. If you need more processing per month you will need to sign up for a production account (i.e., a Basic or Pro account).
-app-misc/homeassistant:signal-messenger - The signal_messenger integration uses the Signal Messenger REST API to deliver notifications from Home Assistant to your Android or iOS device.
+app-misc/homeassistant:signal-messenger - The Signal Messenger integration uses the Signal Messenger REST API to deliver notifications from Home Assistant to your Android or iOS device.
 app-misc/homeassistant:simplefin - SimpleFIN allows users to share read-only financial data. This is a paid service although it is quite affordable ($1.50 a month).
-app-misc/homeassistant:simplepush - The simplepush platform uses Simplepush to deliver notifications from Home Assistant to your Android and iOS device. Unlike similar apps the Simplepush app requires no registration and supports end-to-end encryption.
-app-misc/homeassistant:simplisafe - The simplisafe integration integrates SimpliSafe home security (V2 and V3) systems into Home Assistant. Multiple SimpliSafe accounts can be accommodated.
-app-misc/homeassistant:sinch - The sinch integration uses Sinch to deliver notifications from Home Assistant.
+app-misc/homeassistant:simplepush - The Simplepush integration uses Simplepush to deliver notifications from Home Assistant to your Android and iOS device. Unlike similar apps the Simplepush app requires no registration and supports end-to-end encryption.
+app-misc/homeassistant:simplisafe - The SimpliSafe integration integrates SimpliSafe home security (V2 and V3) systems into Home Assistant. Multiple SimpliSafe accounts can be accommodated.
+app-misc/homeassistant:sinch - The Sinch SMS integration uses Sinch to deliver notifications from Home Assistant.
 app-misc/homeassistant:sisyphus - The Sisyphus integration for Home Assistant allows you to observe and control your Sisyphus Kinetic Art Table.
-app-misc/homeassistant:sky-hub - The sky_hub integration offers presence detection by looking at connected devices to a Sky Hub router based router.
-app-misc/homeassistant:sky-remote - The Sky Remote integration lets you control a Sky box using Home Assistant.
-app-misc/homeassistant:skybeacon - The skybeacon sensor integration supports CR2477-powered iBeacon/eddystone sensors that come with temperature/sensor module.
-app-misc/homeassistant:skybell - The skybell implementation allows you to integrate your Skybell.com doorbells in Home Assistant.
-app-misc/homeassistant:slack - The slack platform allows you to deliver notifications from Home Assistant to Slack.
+app-misc/homeassistant:sky-hub - The Sky Hub integration offers presence detection by looking at connected devices to a Sky Hub router based router.
+app-misc/homeassistant:sky-remote - The Sky Remote Control integration lets you control a Sky box using Home Assistant.
+app-misc/homeassistant:skybeacon - The Skybeacon integration supports CR2477-powered iBeacon/eddystone sensors that come with temperature/sensor module.
+app-misc/homeassistant:skybell - The SkyBell integration allows you to integrate your Skybell.com doorbells in Home Assistant.
+app-misc/homeassistant:slack - The Slack integration allows you to deliver notifications from Home Assistant to Slack.
 app-misc/homeassistant:sleepiq - The SleepIQ integration lets you integrate your SleepNumber Bed via SleepIQ by SleepNumber.
-app-misc/homeassistant:slide - The slide integration allows you to integrate your slide.store devices in Home Assistant using the official API.
+app-misc/homeassistant:slide - The Slide integration allows you to integrate your slide.store devices in Home Assistant using the official API.
 app-misc/homeassistant:slide-local - The Slide Local integration allows you to integrate your Slide devices in Home Assistant using the local API.
 app-misc/homeassistant:slimproto - The SlimProto integration allows you to control a Squeezebox music player directly from Home Assistant, without the need for an external Media Server such as Logitech Media Server. This lets you control Squeezebox hardware like the Classic, Transporter, Duet, Boom, Radio, and Touch and software players like Squeezelite, PiCorePlayer or Max2Play. For the real DIY enthusiast, there even is a player for the ESP32.
 app-misc/homeassistant:sma - The SMA Solar integration will poll a SMA (US) solar inverter, energy meter or battery inverter and present the values as sensors in Home Assistant.
 app-misc/homeassistant:smappee - The Smappee integration will allow users to integrate their Smappee monitors, Smappee Comfort Plugs and Smappee Switches into Home Assistant using the official cloud API or the limited local option.
-app-misc/homeassistant:smarla - The smarla integration enables Home Assistant to integrate Swing2Sleep (Smarla) motorized cradles. This integration will allow you to control your Smarla device.
+app-misc/homeassistant:smarla - The Swing2Sleep Smarla integration enables Home Assistant to integrate Swing2Sleep (Smarla) motorized cradles. This integration will allow you to control your Smarla device.
 app-misc/homeassistant:smart-meter-texas - The Smart Meter Texas integration allows Texas residents to integrate their electric meters into Home Assistant. This integration will create a sensor for each meter that shows the current reading.
 app-misc/homeassistant:smarthab - smarthab
 app-misc/homeassistant:smartthings - SmartThings is a home automation platform for connecting with Samsung or third-party devices.
-app-misc/homeassistant:smarttub - The smarttub integration allows you to view and control hot tubs which use the SmartTub system, in Home Assistant.
-app-misc/homeassistant:smarty - The smarty integration lets you control Salda Smarty ventilation units from Home Assistant. You need a MB-GATEWAY or something similar to connect to your local network.
+app-misc/homeassistant:smarttub - The SmartTub integration allows you to view and control hot tubs which use the SmartTub system, in Home Assistant.
+app-misc/homeassistant:smarty - The Salda Smarty integration lets you control Salda Smarty ventilation units from Home Assistant. You need a MB-GATEWAY or something similar to connect to your local network.
 app-misc/homeassistant:smhi - The SMHI integration adds support for the SMHI.se web service as a source for meteorological data for your location.
-app-misc/homeassistant:smlight - The SMLIGHT SLZB-06x ethernet Zigbee coordinators provide a reliable and convenient way to integrate Zigbee devices into your smart home setup. By placing the Zigbee gateway closer to your devices, you can improve connectivity and reduce interference, avoiding the limitations of gateways hidden in cupboards or distant locations.
+app-misc/homeassistant:smlight - The SMLIGHT SLZB-06x Ethernet Zigbee coordinators provide a reliable and convenient way to integrate Zigbee devices into your smart home setup. By placing the Zigbee gateway closer to your devices, you can improve connectivity and reduce interference, avoiding the limitations of gateways hidden in cupboards or distant locations.
 app-misc/homeassistant:snapcast - The Snapcast integration allows you to control Snapcast from Home Assistant.
 app-misc/homeassistant:snmp - Many routers, Wi-Fi access points, printers, and other network-connected devices support the Simple Network Management Protocol (SNMP). This is a standardized method for monitoring/managing network-connected devices. SNMP uses a tree-like hierarchy where each node is an object. Many of these objects contain continuously updated lists of metrics like network interfaces throughput, disk activity, active devices on the network, toner levels, and such.
 app-misc/homeassistant:snoo - The Snoo is a smart bassinet made by Happiest Baby that helps get your baby to sleep and helps keep them asleep.
 app-misc/homeassistant:snooz - Integrates SNOOZ devices into Home Assistant.
 app-misc/homeassistant:socat - socat
 app-misc/homeassistant:solaredge - The SolarEdge integration allows you to get details from your SolarEdge solar power setup and integrate these in your Home Assistant installation.It provides two main features:
-app-misc/homeassistant:solaredge-local - The solaredge_local integration uses the local API available on some SolarEdge Inverters to allow you to get details from your SolarEdge solar power setup and integrate these into your Home Assistant installation.
-app-misc/homeassistant:solarlog - The Solarlog integration uses the open JSON interface on Solar-Log PV monitoring systems to get details from your Solar-Log device and integrate these into your Home Assistant installation. With the integration you may monitor the solar power production and power consumption as tracked with your Solar-Log device.
-app-misc/homeassistant:solax - The solax integration connects Home Assistant to Solax solar power inverters. Solax inverters may be connected to a home Wi-Fi network and expose a REST API. This integration retrieves information such as photovoltaic power production, battery levels and power, and how much power is being fed back into the grid.
-app-misc/homeassistant:soma - The Soma integration will allow users to integrate their Soma Smarthome devices into Home Assistant using the Soma Connect hub.
+app-misc/homeassistant:solaredge-local - The SolarEdge Local integration uses the local API available on some SolarEdge Inverters to allow you to get details from your SolarEdge solar power setup and integrate these into your Home Assistant installation.
+app-misc/homeassistant:solarlog - The Solar-Log integration uses the open JSON interface on Solar-Log PV monitoring systems to get details from your Solar-Log device and integrate these into your Home Assistant installation. With the integration you may monitor the solar power production and power consumption as tracked with your Solar-Log device.
+app-misc/homeassistant:solax - The SolaX Power integration connects Home Assistant to Solax solar power inverters. Solax inverters may be connected to a home Wi-Fi network and expose a REST API. This integration retrieves information such as photovoltaic power production, battery levels and power, and how much power is being fed back into the grid.
+app-misc/homeassistant:soma - The Soma Connect integration will allow users to integrate their Soma Smarthome devices into Home Assistant using the Soma Connect hub.
 app-misc/homeassistant:somfy - somfy
 app-misc/homeassistant:somfy-mylink - The Somfy MyLink integration is used as an interface to a compatible Somfy MyLink hub utilizing the Synergy API. It allows the addition of covers from the Somfy MyLink platform to Home Assistant.
 app-misc/homeassistant:sonarr - The Sonarr integration pulls data from a given Sonarr instance. This integration only supports Sonarr v3 instances.
-app-misc/homeassistant:songpal - The songpal platform allows you to control Sony’s Songpal (”Audio Control API”) compatible devices such as soundbars, AV receivers and wireless speakers from Home Assistant.
-app-misc/homeassistant:sonos - The sonos integration allows you to control your Sonos wireless speakers from Home Assistant. It also works with IKEA Symfonisk speakers.
-app-misc/homeassistant:sony-projector - The sony_projector switch platform allows you to control the state of SDCP compatible network-connected projectors from Sony.
+app-misc/homeassistant:songpal - The Sony Songpal integration allows you to control Sony’s Songpal (”Audio Control API”) compatible devices such as soundbars, AV receivers and wireless speakers from Home Assistant.
+app-misc/homeassistant:sonos - The Sonos integration allows you to control your Sonos wireless speakers from Home Assistant. It also works with IKEA Symfonisk speakers.
+app-misc/homeassistant:sony-projector - The Sony Projector integration allows you to control the state of SDCP compatible network-connected projectors from Sony.
 app-misc/homeassistant:soundtouch - The Bose SoundTouch integration allows you to control your Bose SoundTouch speakers from Home Assistant.
 app-misc/homeassistant:spc - Home Assistant has support to integrate your Vanderbilt SPC alarm panel and any connected motion, door, smoke and technical sensors.
 app-misc/homeassistant:speedtestdotnet - The Speedtest.net integration uses the Speedtest.net web service to measure network bandwidth performance.
-app-misc/homeassistant:splunk - The splunk integration makes it possible to log all state changes to an external Splunk database using Splunk’s HTTP Event Collector (HEC) feature. You can either use this alone, or with the Home Assistant for Splunk app. Since the HEC feature is new to Splunk, you will need to use at least version 6.3.
+app-misc/homeassistant:splunk - The Splunk integration makes it possible to log all state changes to an external Splunk database using Splunk’s HTTP Event Collector (HEC) feature. You can either use this alone, or with the Home Assistant for Splunk app. Since the HEC feature is new to Splunk, you will need to use at least version 6.3.
 app-misc/homeassistant:spotify - The Spotify integration lets you control your Spotifyaccount playback and browse the Spotify medialibrary from Home Assistant.
-app-misc/homeassistant:sql - The sql sensor integration enables you to use values from an SQL database supported by the sqlalchemy library, to populate a sensor state (and attributes).This can be used to present statistics about Home Assistant sensors if used with the recorder integration database. It can also be used with an external data source.
+app-misc/homeassistant:sql - The SQL integration enables you to use values from an SQL database supported by the sqlalchemy library, to populate a sensor state (and attributes).This can be used to present statistics about Home Assistant sensors if used with the recorder integration database. It can also be used with an external data source.
 app-misc/homeassistant:squeezebox - The Squeezebox integration allows you to control music players from the Lyrion Music Server (LMS) ecosystem. Lyrion Music Server was formerly known as Logitech Media Server.
 app-misc/homeassistant:srp-energy - The SRP Energy integration shows information from SRP hourly energy usage report for their customers.
-app-misc/homeassistant:ssdp - The ssdp “Simple Service Discovery Protocol” (part of UPnP) integration will scan the network for supported devices and services. Discovered integrations will show up in the discovered section on the integrations page in the configuration panel.
-app-misc/homeassistant:starline - The starline integration lets you retrieve data of your StarLine security system from the StarLine portal. You will need a working StarLine account.
-app-misc/homeassistant:starlingbank - The Starling Bank sensor integration allows you to monitor your account balance data as sensors in Home Assistant.
+app-misc/homeassistant:ssdp - The Simple Service Discovery Protocol (SSDP) (part of UPnP) integration will scan the network for supported devices and services. Discovered integrations will show up in the discovered section on the integrations page in the configuration panel.
+app-misc/homeassistant:starline - The StarLine integration lets you retrieve data of your StarLine security system from the StarLine portal. You will need a working StarLine account.
+app-misc/homeassistant:starlingbank - The Starling Bank integration allows you to monitor your account balance data as sensors in Home Assistant.
 app-misc/homeassistant:starlink - The Starlink integration allows you to integrate your Starlink into Home Assistant.
 app-misc/homeassistant:startca - Integrate your Start.ca account information into Home Assistant.
-app-misc/homeassistant:statsd - The statsd integration makes it possible to transfer all state changes to an external StatsD instance.
+app-misc/homeassistant:statsd - The StatsD integration makes it possible to transfer all state changes to an external StatsD instance.
 app-misc/homeassistant:steam-online - The Steam integration will allow you to track the online status of public Steam accounts.
-app-misc/homeassistant:steamist - The Steamist will allow you to monitor the state of your Steamist steam shower and turn on and off the steam generator.
-app-misc/homeassistant:stiebel-eltron - The stiebel_eltron integration lets you control integral ventilation or heat pump units of STIEBEL ELTRON.
+app-misc/homeassistant:steamist - The Steamist integration allows you to monitor the state of your Steamist steam shower and turn on and off the steam generator.
+app-misc/homeassistant:stiebel-eltron - The STIEBEL ELTRON integration lets you control integral ventilation or heat pump units of STIEBEL ELTRON.
 app-misc/homeassistant:stookwijzer - The Stookwijzer integration queries the Atlas Leefomgeving Stookwijzer API for windspeed and air quality index. Based on these values, Stookwijzer advises people not to burn pallets or wood or use barbecues. This can help prevent health issues for people in the area.
-app-misc/homeassistant:stream - The stream integration provides a way to proxy live streams through Home Assistant. Most users should not need to configure anything or interface with the integration directly since it is an internal integration used by the camera integration.
-app-misc/homeassistant:streamlabswater - The StreamLabs Water integration is used to interact with StreamLabs water monitoring devices in order to retrieve usage information and manage the away mode of the device. The StreamLabs Water API is used to retrieve daily, monthly, and yearly water usage along with the current away mode.
+app-misc/homeassistant:stream - The Stream integration provides a way to proxy live streams through Home Assistant. Most users should not need to configure anything or interface with the integration directly since it is an internal integration used by the camera integration.
+app-misc/homeassistant:streamlabswater - The StreamLabs integration is used to interact with StreamLabs water monitoring devices in order to retrieve usage information and manage the away mode of the device. The StreamLabs Water API is used to retrieve daily, monthly, and yearly water usage along with the current away mode.
 app-misc/homeassistant:subaru - This integration retrieves vehicle information and actuates remote services provided by MySubaru Connected Services(formerly known as Subaru STARLINK). This service is currently only available in the USA and Canada.
 app-misc/homeassistant:suez-water - The Suez Water integration fetches your water consumption data from the French water provider Tout Sur Mon Eau website.
 app-misc/homeassistant:sunricher-dali - The Sunricher DALI integration allows you to control and monitor DALI lighting devices connected to Sunricher gateways. The integration receives real-time push updates to keep entity states synchronized.
 app-misc/homeassistant:supla - The SUPLA integration allows you to use SUPLA devices in Home Assistant.
 app-misc/homeassistant:surepetcare - The Sure Petcare integration allows you to get information on your Sure Petcare Connect Pet or Cat Flap.
-app-misc/homeassistant:swiss-hydrological-data - The swiss_hydrological_data integration will show you details (temperature, level, and discharge) of rivers and lakes in Switzerland.
+app-misc/homeassistant:swiss-hydrological-data - The Swiss Hydrological Data integration will show you details (temperature, level, and discharge) of rivers and lakes in Switzerland.
 app-misc/homeassistant:swiss-public-transport - The Swiss public transport integration will give you the next three departure times from a given location to another one in Switzerland.
 app-misc/homeassistant:switchbee - SwitchBee, is an innovation company making smart homes more accessible and affordable to any household environment.
-app-misc/homeassistant:switchbot - The SwitchBot integration allows you to control SwitchBot devices such as sensors, locks, shades, lights, plugs, robot vacuums, hubs and etc.
+app-misc/homeassistant:switchbot - The SwitchBot Bluetooth integration allows you to control SwitchBot devices such as sensors, locks, shades, lights, plugs, robot vacuums, hubs and etc.
 app-misc/homeassistant:switchbot-cloud - The SwitchBot Cloud integration allows you to control SwitchBot devices connected through the SwitchBot hub.
-app-misc/homeassistant:switcher-kis - This Switcher integration allows you to control your Switcher Devices.
-app-misc/homeassistant:switchmate - This Switchmate switch platform allows you to control Switchmate devices.
+app-misc/homeassistant:switcher-kis - The Switcher integration allows you to control your Switcher Devices.
+app-misc/homeassistant:switchmate - The Switchmate SimplySmart Home integration allows you to control Switchmate devices.
 app-misc/homeassistant:syncthing - Syncthing is a continuous file synchronization program. It synchronizes files between two or more computersin real-time, safely protected from prying eyes.
-app-misc/homeassistant:syncthru - The Samsung SyncThru Printer platform allows Home Assistant to read current data from a local Samsung printer.
+app-misc/homeassistant:syncthru - The Samsung SyncThru Printer integration allows Home Assistant to read current data from a local Samsung printer.
 app-misc/homeassistant:synology-dsm - The Synology DSM integration location.
 app-misc/homeassistant:synology-srm - This integration allows you to detect presence by looking at connected devices to a Synology SRM router.
 app-misc/homeassistant:system-bridge - System Bridge is an application that runs on your local machine to share system information via its API/WebSocket. You can also send commands to the device such as opening a URL or sending keyboard keypresses.
@@ -888,17 +887,17 @@ app-misc/homeassistant:tailscale - The Tailscale integration connects to the Tai
 app-misc/homeassistant:tailwind - The Tailwind integration integrates Tailwindgarage door controllers fully locally.
 app-misc/homeassistant:tami4 - The Tami4 Edge integration allows you to control and monitor Tami4 Edge / Edge+ by Strauss devices in Home Assistant.
 app-misc/homeassistant:tank-utility - Add Tank Utility propane tank monitors to Home Assistant.
-app-misc/homeassistant:tankerkoenig - The tankerkoenig integration allows you to monitor the fuel prices with tankerkoenig.de from within Home Assistant and setup automations based on the information.
-app-misc/homeassistant:tapsaff - The tapsaff binary sensor integration provides the ‘Taps Aff’ status for a given location within the UK using Taps Aff.
+app-misc/homeassistant:tankerkoenig - The Tankerkoenig integration allows you to monitor the fuel prices with tankerkoenig.de from within Home Assistant and setup automations based on the information.
+app-misc/homeassistant:tapsaff - The Taps Aff integration provides the ‘Taps Aff’ status for a given location within the UK using Taps Aff.
 app-misc/homeassistant:tasmota - This integration allows you to control Tasmota devices over MQTT.
 app-misc/homeassistant:tautulli - The Tautulli integration will monitor activity on a given Tautulli Server. It will create a sensor that shows the number of currently active streams as the state. If you click the sensor for more details, it will show you more statistics.
 app-misc/homeassistant:technove - The TechnoVE integration provides connectivity with TechnoVE Smart Charging Station through the station local API.
-app-misc/homeassistant:ted5000 - The ted 5000 monitors electricity consumption/production by connecting to the TED gateway, itself connected to one or several Measuring Transmitting Units (MTU). The platform creates up to two sensors per MTU, one for Wattage the other for Voltage.
+app-misc/homeassistant:ted5000 - The The Energy Detective TED5000 integration monitors electricity consumption/production by connecting to the TED gateway, itself connected to one or several Measuring Transmitting Units (MTU). The platform creates up to two sensors per MTU, one for Wattage the other for Voltage.
 app-misc/homeassistant:tedee - This integration interacts with your Tedee locks by communicating with the Tedee bridge through HTTP. The integration will communicate with your lock locally.
 app-misc/homeassistant:telegram-bot - Use Telegram on your mobile or desktop device to send and receive messages or commands to/from your Home Assistant.This integration creates notification actions to send, edit or receive messages from a Telegram Bot account.
-app-misc/homeassistant:tellduslive - The tellduslive integration let you connect to the Telldus Live API. It’s cloud platform that connects to your Tellstick Net or Tellstick ZNet connected gear at home.
-app-misc/homeassistant:tellstick - The tellstick integration integrates TellStick devices into Home Assistant. This integration allows users to add switches, lights, and sensors which are communicating with 433 MHz. There are a number of vendors (Capidi Elro, Intertechno, Nexa, Proove, Sartano, and Viking) who are selling products that work with TellStick. For more details, please check the TellStick protocol list.
-app-misc/homeassistant:temper - This temper sensor integration allows you to get the current temperature from a TEMPer device.
+app-misc/homeassistant:tellduslive - The Telldus Live integration let you connect to the Telldus Live API. It’s cloud platform that connects to your Tellstick Net or Tellstick ZNet connected gear at home.
+app-misc/homeassistant:tellstick - The TellStick integration integrates TellStick devices into Home Assistant. This integration allows users to add switches, lights, and sensors which are communicating with 433 MHz. There are a number of vendors (Capidi Elro, Intertechno, Nexa, Proove, Sartano, and Viking) who are selling products that work with TellStick. For more details, please check the TellStick protocol list.
+app-misc/homeassistant:temper - This TEMPer integration allows you to get the current temperature from a TEMPer device.
 app-misc/homeassistant:tesla - tesla
 app-misc/homeassistant:tesla-fleet - The Tesla Fleet integration lets you control Tesla vehicles and energy sites using the Tesla Fleet API.
 app-misc/homeassistant:tesla-wall-connector - The Tesla Wall Connector integration allows you to integrate your Gen 3 Tesla Wall Connector with Wi-Fi into Home Assistant.
@@ -906,27 +905,27 @@ app-misc/homeassistant:teslemetry - The Teslemetry integration exposes various c
 app-misc/homeassistant:tessie - The Tessie integration exposes various commands and sensors from the Tesla vehicles and energy products connected to your Tessie subscription.
 app-misc/homeassistant:thermobeacon - Integrates ThermoBeacon devices into Home Assistant.
 app-misc/homeassistant:thermopro - Integrates ThermoPro devices into Home Assistant.
-app-misc/homeassistant:thethingsnetwork - The thethingsnetwork integration allows you to interact with the The Things Network from within Home Assistant. This community-driven and open network supports LoRaWAN for long-range (~5 to 15 km) communication with low bandwidth (51 bytes/message). Gateways transfer the received data from the sensors to The Things Network.
-app-misc/homeassistant:thingspeak - The thingspeak integrations makes Home Assistant communicate with the ThingSpeak API.For now, it records exactly one entity at once, which is great for testing purposes. For long-time storage you should rely on the InfluxDB integration.
+app-misc/homeassistant:thethingsnetwork - The The Things Network integration allows you to interact with the The Things Network from within Home Assistant. This community-driven and open network supports LoRaWAN for long-range (~5 to 15 km) communication with low bandwidth (51 bytes/message). Gateways transfer the received data from the sensors to The Things Network.
+app-misc/homeassistant:thingspeak - The ThingSpeak integration makes Home Assistant communicate with the ThingSpeak API.For now, it records exactly one entity at once, which is great for testing purposes. For long-time storage you should rely on the InfluxDB integration.
 app-misc/homeassistant:thinkingcleaner - There is currently support for the following device types within Home Assistant:
 app-misc/homeassistant:thread - The Thread integration helps you track the different Thread networks in your home and store the Thread network credentials (similar to a Wi-Fi password). The Thread integration in Home Assistant is currently still a work in progress.
-app-misc/homeassistant:tibber - The tibber integration provides a sensor with the current electricity price if you are a Tibber customer.If you have a Tibber Pulse or Watty it will also show the electricity consumption in real-time. You get a sensor for monthly consumption, monthly cost, and monthly peak hour. If you do have a real-time meter it is updated once every hour, otherwise it is updated once per day. Statistics with hourly consumption and cost data is generated that can be used in the Energy Dashboard (the ids are tibber:energy_consumption_HOMEID and tibber:energy_totalcost_HOMEID). If you produce energy there are also statistics with hourly production and profit data generated which can also be used there (the ids are tibber:energy_production_HOMEID and tibber:energy_profit_HOMEID).
+app-misc/homeassistant:tibber - The Tibber integration provides a sensor with the current electricity price if you are a Tibber customer.If you have a Tibber Pulse or Watty it will also show the electricity consumption in real-time. You get a sensor for monthly consumption, monthly cost, and monthly peak hour. If you do have a real-time meter it is updated once every hour, otherwise it is updated once per day. Statistics with hourly consumption and cost data is generated that can be used in the Energy Dashboard (the ids are tibber:energy_consumption_HOMEID and tibber:energy_totalcost_HOMEID). If you produce energy there are also statistics with hourly production and profit data generated which can also be used there (the ids are tibber:energy_production_HOMEID and tibber:energy_profit_HOMEID).
 app-misc/homeassistant:tikteck - Support for the Bluetooth smart bulb from Tikteck. To enable these lights, add the following lines to your configuration.yaml file:
-app-misc/homeassistant:tile - The tile platform allows Home Assistant to utilize Tile® Bluetooth trackers.The official Tile mobile app handles the actual tracking of Tile devices usingthe mobile device’s Bluetooth and GPS.
+app-misc/homeassistant:tile - The Tile integration allows Home Assistant to utilize Tile® Bluetooth trackers.The official Tile mobile app handles the actual tracking of Tile devices usingthe mobile device’s Bluetooth and GPS.
 app-misc/homeassistant:tilt-ble - Integrates Tilt Hydrometer BLE devices into Home Assistant.
 app-misc/homeassistant:tilt-pi - The Tilt Pi integration allows you to connect a Tilt Pi to Home Assistant toautomatically discover Tilt Hydrometer devices.
-app-misc/homeassistant:tmb - This sensor will provide you the remaining time, in minutes, for the next bus in a specific stop by using the iBus service.
-app-misc/homeassistant:todoist - This platform allows you to connect to your Todoist projects as todo or calendar entities. All tasks get updated roughly every minute.
+app-misc/homeassistant:tmb - This integration will provide you the remaining time, in minutes, for the next bus in a specific stop by using the iBus service.
+app-misc/homeassistant:todoist - This integration allows you to connect to your Todoist projects as todo or calendar entities. All tasks get updated roughly every minute.
 app-misc/homeassistant:togrill - The ToGrill integration allows you to connect your ToGrill compatible Bluetooth grill thermometer.
-app-misc/homeassistant:tolo - The TOLO integration allows to control Steamtec TOLO devices with Home Assistant.
+app-misc/homeassistant:tolo - The TOLO Sauna integration allows to control Steamtec TOLO devices with Home Assistant.
 app-misc/homeassistant:tomorrowio - The Tomorrow.io integration allows you to obtain weather, air quality, pollen, and fire information from the Tomorrow.io API.
 app-misc/homeassistant:toon - The Toon integration platform can be used to control your Quby Toon thermostat,which is currently being sold as:
-app-misc/homeassistant:totalconnect - The totalconnect integration provides connectivity with Resideo Total Connect 2.0-enabled alarm systems.
+app-misc/homeassistant:totalconnect - The Total Connect integration provides connectivity with Resideo Total Connect 2.0-enabled alarm systems.
 app-misc/homeassistant:touchline - The touchline climate platform let you control ROTH Touchline floor heating thermostats from Roth.
 app-misc/homeassistant:touchline-sl - The Roth Touchline SL climate integration enables you to control Roth Touchline SL underfloor heating systems.
 app-misc/homeassistant:tplink - The TP-Link Smart Home integration allows you to control your TP-Link Kasa Smart Home Devices and TP-Link Tapo Devices such as cameras, doorbells, chimes, lights, plugs, wall switches, robot vacuums, hubs, and hub-attached devices.
 app-misc/homeassistant:tplink-lte - The TP-Link LTE integration for Home Assistant makes it possible to send SMS’s from the TP-Link LTE router. Phone numbers have to be pre-defined as part of the YAML configuration, and each phone number will turn up as additional notify action in Home Assistant. The integration adds a new notify action for each adds a notification action to Home Assistant that can be used to send SMSs provides a notification action that will send an SMS. Tested only with TL-MR6400 v4.
-app-misc/homeassistant:tplink-omada - The TP-Link Omada SDN Controller integration allows you to control your TP-Link Omada SDN Devices such as network switches, access points, and internet gateways.
+app-misc/homeassistant:tplink-omada - The TP-Link Omada integration allows you to control your TP-Link Omada SDN Devices such as network switches, access points, and internet gateways.
 app-misc/homeassistant:traccar - Traccar uses GPS for tracking and has support for over 1500 different types of devices. You can use the Traccar Client app on a smartphone via webhook.
 app-misc/homeassistant:traccar-server - Traccar uses GPS for tracking and has support for over 1500 different types of devices. You can use the Traccar Server integration to communicate with your own Traccar Server, which is also available as Home Assistant add-on.
 app-misc/homeassistant:tractive - Tractive is an Austrian company that develops real-time location trackers for pets and other animals using GPS and GSM technology.
@@ -936,40 +935,40 @@ app-misc/homeassistant:trafikverket-ferry - Retrieve ferry departure information
 app-misc/homeassistant:trafikverket-train - Retrieve train departure information from Trafikverket.
 app-misc/homeassistant:trafikverket-weatherstation - Showing weather information provided by Trafikverket weather stations in Sweden.
 app-misc/homeassistant:transmission - The Transmission integration allows you to monitor your Transmission BitTorrent downloads from within Home Assistant and set up automations based on that information.
-app-misc/homeassistant:transport-nsw - The transport_nsw sensor will give you the time until the next departure from a Transport NSW stop for bus, train, light rail or ferry.
-app-misc/homeassistant:travisci - With this sensor platform, you will be able to integrate the test build results reported by Travis-CI working within Home Assistant.
-app-misc/homeassistant:trend - The trend platform allows you to create sensors which show the trend ofnumeric state orstate_attributes from other entities. This sensor requiresat least two updates of the underlying sensor to establish a trend.Thus it can take some time to show an accurate state. It can be usefulas part of automations, where you want to base an action on a trend.
+app-misc/homeassistant:transport-nsw - The Transport NSW integration will give you the time until the next departure from a Transport NSW stop for bus, train, light rail or ferry.
+app-misc/homeassistant:travisci - With this integration, you will be able to integrate the test build results reported by Travis-CI working within Home Assistant.
+app-misc/homeassistant:trend - The Trend integration allows you to create sensors which show the trend ofnumeric state orstate_attributes from other entities. This sensor requiresat least two updates of the underlying sensor to establish a trend.Thus it can take some time to show an accurate state. It can be usefulas part of automations, where you want to base an action on a trend.
 app-misc/homeassistant:triggercmd - The TRIGGERcmd integration allows you to run commands on computers via TRIGGERcmd with Home Assistant.
 app-misc/homeassistant:tts - Text-to-speech (TTS) enables Home Assistant to speak to you.
 app-misc/homeassistant:tuya - The Tuya integration integrates all Powered by Tuya devices you have added to the Tuya Smart and Tuya Smart Life apps.
 app-misc/homeassistant:twentemilieu - The Twente Milieu integration enables you to monitor the upcoming waste collection schedules provided by Twente Milieu, a waste collection company serving municipalities in the Twente region of the Netherlands, including Enschede, Hengelo, Almelo, Borne, Hof van Twente, Oldenzaal, and Losser. This integration helps you stay informed about the next pickup dates for different types of waste (like organic, paper, plastic, and non-recyclable), ensuring you never miss a collection day.
-app-misc/homeassistant:twilio - The twilio integration enables the sending of notifications via SMS and the creation of calls with Twilio.
+app-misc/homeassistant:twilio - The Twilio integration enables the sending of notifications via SMS and the creation of calls with Twilio.
 app-misc/homeassistant:twinkly - The Twinkly integration allows you to control Twinkly LED string from Home Assistant.
 app-misc/homeassistant:twitch - The Twitch integration allows you to monitor Twitch channel status from within Home Assistant and set up automation based on the information.
-app-misc/homeassistant:twitter - The twitter notification platform uses X to deliver notifications from Home Assistant.
+app-misc/homeassistant:twitter - The X integration uses X to deliver notifications from Home Assistant.
 app-misc/homeassistant:ubus - This is a presence detection scanner for OpenWrt using ubus. It scans for changes in hostapd.*, which will detect and report changes in devices connected to the access point on the router.
 app-misc/homeassistant:ukraine-alarm - The Ukraine Alarm integration will create 6 binary sensors for your selected region in Ukraine:
 app-misc/homeassistant:unifi - UniFi Network by Ubiquiti Networks, inc. is a software that binds gateways, switches and wireless access points together with one graphical front end.
 app-misc/homeassistant:unifi-direct - This integration allows you to detect presence by looking at devices connected to a UniFi AP. This device tracker differs from Ubiquiti UniFi because it doesn’t require the UniFi Network application.
 app-misc/homeassistant:unifiled - UniFi LED by Ubiquiti Networks, inc. is a system of controller managed LED light panels and dimmers.
 app-misc/homeassistant:unifiprotect - The UniFi Protect integration adds support for retrieving camera feeds and sensor data from a UniFi Protect application by Ubiquiti Networks, inc. that is running on a UniFi OS Console.
-app-misc/homeassistant:upb - The *Universal Powerline Bus (UPB) integration allows Home Assistant to connect to a Universal Powerline Bus Powerline Interface Module (UPB PIM) to get status and control UPB devices and UPB links. The UPB PIM may be connected either to a serial port or over TCP. The integration implements the following platforms:
-app-misc/homeassistant:upc-connect - The upc_connect integration offers presence detection by looking at connected devices to a Connect Box from Liberty Global (also known as UPC Cablecom in Switzerland) which is an Internet provider in Switzerland, Austria, the Netherlands (under Ziggo), Hungary (under Vodafone) and Poland (under PLAY).
+app-misc/homeassistant:upb - The Universal Powerline Bus (UPB) integration allows Home Assistant to connect to a Universal Powerline Bus Powerline Interface Module (UPB PIM) to get status and control UPB devices and UPB links. The UPB PIM may be connected either to a serial port or over TCP. The integration implements the following platforms:
+app-misc/homeassistant:upc-connect - The UPC Connect Box integration offers presence detection by looking at connected devices to a Connect Box from Liberty Global (also known as UPC Cablecom in Switzerland) which is an Internet provider in Switzerland, Austria, the Netherlands (under Ziggo), Hungary (under Vodafone) and Poland (under PLAY).
 app-misc/homeassistant:upcloud - The UpCloud integration allows you to access the information about your UpCloud servers from Home Assistant.
 app-misc/homeassistant:upnp - The UPnP/IGD integration enables you to collect network statistics from your router such as bytes in/out and packets in/out, uptime, WAN IP address, and WAN connectivity status. This information is provided by the UPnP/Internet Gateway Device (IGD) Protocol if enabled on your router.
 app-misc/homeassistant:uptime-kuma - The Uptime Kuma integration connects Home Assistant with your Uptime Kuma monitoring tool.
 app-misc/homeassistant:uptimerobot - The UptimeRobot integration provides entities to get the status for all of your monitors from your account on UptimeRobot.
 app-misc/homeassistant:usb - The USB Discovery integration will detect newly connected USB devices. Discovered devices will show up in the discovered section on the integrations page in the configuration panel.
-app-misc/homeassistant:usgs-earthquakes-feed - The usgs_earthquakes_feed platform lets you integrate a GeoJSON feed provided by the U.S. Geological Survey with information about seismic events like earthquakes. It retrieves incidents from a feed and shows information of those incidents filtered by distance to Home Assistant’s location.
+app-misc/homeassistant:usgs-earthquakes-feed - The U.S. Geological Survey Earthquake Hazards (USGS) integration lets you integrate a GeoJSON feed provided by the U.S. Geological Survey with information about seismic events like earthquakes. It retrieves incidents from a feed and shows information of those incidents filtered by distance to Home Assistant’s location.
 app-misc/homeassistant:utility-meter - The Utility Meter integration provides functionality to track consumptions of various utilities (e.g., energy, gas, water, heating).
-app-misc/homeassistant:uvc - The uvc camera integration allows you to integrate UniFi Video Camera (UVC) into Home Assistant.
+app-misc/homeassistant:uvc - The Ubiquiti UniFi Video integration allows you to integrate UniFi Video Camera (UVC) into Home Assistant.
 app-misc/homeassistant:v2c - The V2C integration allows monitoring and control of a local V2C Trydan EVSE in Home Assistant.
 app-misc/homeassistant:vallox - The Vallox integration lets you control any Vallox ventilation unit that is supported by the vallox_websocket_api (follow the link for a list of supported units).
 app-misc/homeassistant:vasttrafik - The Västtrafik integration will provide you traveling details for the larger Göteborg area in Sweden from the Västtrafik public transportation service.
 app-misc/homeassistant:vegehub - The Vegetronix VegeHub is a compact, network-connected device designed for agricultural monitoring and control. It supports a variety of environmental sensors—including soil moisture, soil temperature, light, and more—making it suitable for use in gardening, landscaping, and precision agriculture. In addition to monitoring, the VegeHub can also control actuators such as relays, pumps, or water valves, enabling automation of irrigation and other systems. This integration allows Home Assistant to receive real-time data from VegeHub devices and optionally control connected outputs.
 app-misc/homeassistant:velbus - The Velbus integration is used to control Velbus modules. It supports the Velbus USB, Velbus serial and a TCP/IP gateway.
-app-misc/homeassistant:velux - Velux integration for Home Assistant allows you to connect to a Velux KLF 200 interface, to control io-homecontrol devices like windows and blinds. The module allows you to start scenes configured within KLF 200.
-app-misc/homeassistant:venstar - The Venstar climate integration allows you to control Venstar thermostats from Home Assistant.Venstar thermostats feature a local API that allows for automation without the need for their Skyport cloud service.
+app-misc/homeassistant:velux - The Velux integration for Home Assistant allows you to connect to a Velux KLF 200 interface, to control io-homecontrol devices like windows and blinds. The module allows you to start scenes configured within KLF 200.
+app-misc/homeassistant:venstar - The Venstar integration allows you to control Venstar thermostats from Home Assistant.Venstar thermostats feature a local API that allows for automation without the need for their Skyport cloud service.
 app-misc/homeassistant:vera - The Vera hub is a controller mainly for connecting to Z-Wave devices.
 app-misc/homeassistant:verisure - Home Assistant has support to integrate your Verisure devices.
 app-misc/homeassistant:versasense - The VersaSense integration supports the VersaSense Edge Gateway. The gateway is able to control hubs and their peripherals (sensors and actuators) in the mesh network.
@@ -979,9 +978,9 @@ app-misc/homeassistant:vicare - The Viessmann ViCare integration lets you contro
 app-misc/homeassistant:victron-ble - The Victron BLE integration integrates Victron Energy devices that support the BLE protocol into Home Assistant.
 app-misc/homeassistant:victron-remote-monitoring - The Victron Remote Monitoring (VRM) integration pulls site statistics, solar production and consumption forecasts from Victron Energy’s VRM portal into Home Assistant. It provides day-ahead, next-hour, and six-day outlooks for both production and consumption. It also includes peak-time predictions. The integration requires at least 30 days of VRM history before forecasts become available.
 app-misc/homeassistant:vilfo - The Vilfo Router integration allows you to observe the state of your Vilfo Router from Home Assistant.
-app-misc/homeassistant:vivotek - The VIVOTEK camera integration allows you to integrate a VIVOTEK IP camera into Home Assistant.
+app-misc/homeassistant:vivotek - The VIVOTEK integration allows you to integrate a VIVOTEK IP camera into Home Assistant.
 app-misc/homeassistant:vizio - The VIZIO SmartCast integration allows you to control SmartCast-compatible TVs and sound bars (2016+ models).
-app-misc/homeassistant:vlc - The vlc platform allows you to control VLC media player.
+app-misc/homeassistant:vlc - The VLC media player integration allows you to control VLC media player.
 app-misc/homeassistant:vlc-telnet - The VLC media player via Telnet integration allows you to control a VLC media player using the built in telnet interface.
 app-misc/homeassistant:vodafone-station - The Vodafone Station integration allows you to control your Vodafone Station based router.
 app-misc/homeassistant:voip - The VoIP integration enables users to talk to Assist using an analog phone and a VoIP adapter. Currently, the system works with the Grandstream HT801. See the tutorial for detailed instructions.
@@ -1020,37 +1019,37 @@ app-misc/homeassistant:ws66i - The Soundavo WS66i 6-Zone Amplifier integration a
 app-misc/homeassistant:wsdot - The Washington State Department of Transportation (WSDOT) integration will give you travel time information from the Washington State Department of Transportation (WSDOT).
 app-misc/homeassistant:wyoming - The Wyoming integration connects external voice services to Home Assistant using a small protocol. This enables Assist to use a variety of local speech-to-text, text-to-speech, and wake-word-detection systems, such as:
 app-misc/homeassistant:xbox - The Xbox integration allows you to connect Home Assistant to the Xbox Network.
-app-misc/homeassistant:xeoma - The Xeoma camera integration allows you to view the video feeds from a Xeoma video surveillance server.
+app-misc/homeassistant:xeoma - The Xeoma integration allows you to view the video feeds from a Xeoma video surveillance server.
 app-misc/homeassistant:xiaomi-aqara - The Xiaomi Gateway (Aqara) integration allows you to integrate Xiaomi Aqara-compatible devices into Home Assistant.
 app-misc/homeassistant:xiaomi-ble - Integrates devices that use the Xiaomi Mijia BLE MiBeacon protocol and the BLE protocols implemented in the MiScales and the MiFora plant sensor. This integration does not support Xiaomi BLE Mesh devices. The integration listens to Bluetooth broadcasts that the device makes by itself, allowing it to track the latest sensor values or events without waking the device up for polling (except HHCCJCY01, see note below). This method conserves battery lifetime.
 app-misc/homeassistant:xiaomi-miio - The Xiaomi Home integration supports the following devices:
-app-misc/homeassistant:xiaomi-tv - The xiaomi_tv integration allows you to control a Xiaomi TV.The Xiaomi TV integration only supports Xiaomi TVs running MIUI.
+app-misc/homeassistant:xiaomi-tv - The Xiaomi TV integration allows you to control a Xiaomi TV.The Xiaomi TV integration only supports Xiaomi TVs running MIUI.
 app-misc/homeassistant:xmpp - The Jabber (XMPP) integration allows you to deliver notifications from Home Assistant to a Jabber (XMPP) account.
 app-misc/homeassistant:xs1 - The EZcontrol XS1 integration for Home Assistant allows you to observe and control devices configured on the XS1 Gateway. Please have a look at the official documentation for using this gateway Bedienungsanleitung v3.0.0.0.
 app-misc/homeassistant:yale - There is an active alert for this integration! LEARN MORE The Yale integration allows you to integrate your Yale devices in Home Assistant.
 app-misc/homeassistant:yale-smart-alarm - The Yale Smart Living integration provides connectivity with the Yale Smart Alarm systems and Smart Hub through Yale’s API.
 app-misc/homeassistant:yalexs-ble - Integrates Yale Access Bluetooth devices into Home Assistant.
-app-misc/homeassistant:yamaha - The yamaha integration allows you to control Yamaha Network Receivers from Home Assistant.
+app-misc/homeassistant:yamaha - The Yamaha Network Receivers integration allows you to control Yamaha Network Receivers from Home Assistant.
 app-misc/homeassistant:yamaha-musiccast - The Yamaha MusicCast integration allows you to control Yamaha MusicCast Receivers from Home Assistant.
-app-misc/homeassistant:yandex-transport - The yandex_tranport integration uses Yandex Maps it will give you the time until the next departure time from a bus/tramway/etc stop.
+app-misc/homeassistant:yandex-transport - The Yandex Transport integration uses Yandex Maps it will give you the time until the next departure time from a bus/tramway/etc stop.
 app-misc/homeassistant:yardian - The Yardian integration allows you to control your Yardian Smart Sprinkler Controller.
 app-misc/homeassistant:yeelight - The Yeelight integration allows you to control your Yeelight Wi-Fi bulbs with Home Assistant.
-app-misc/homeassistant:yeelightsunflower - The yeelightsunflower integration allows you to control your Yeelight Sunflower light bulbs with Home Assistant.
-app-misc/homeassistant:yi - The yi camera platform allows you to utilize Yi Home Cameras within Home Assistant. Specifically, this platform supports the line of Yi Home Cameras that are based on the Hi3518e Chipset. This includes:
+app-misc/homeassistant:yeelightsunflower - The Yeelight Sunflower integration allows you to control your Yeelight Sunflower light bulbs with Home Assistant.
+app-misc/homeassistant:yi - The Yi Home Cameras integration allows you to utilize Yi Home Cameras within Home Assistant. Specifically, this platform supports the line of Yi Home Cameras that are based on the Hi3518e Chipset. This includes:
 app-misc/homeassistant:yolink - Integrates YoLink Devices into Home Assistant.
 app-misc/homeassistant:youless - The YouLess integration for Home Assistant allows you to read the meter values from sensors created by YouLess.
 app-misc/homeassistant:youtube - The YouTube integration allows you to connect YouTube channels to Home Assistant.
 app-misc/homeassistant:zabbix - The Zabbix integration to connect to a Zabbix monitoring instance via the Zabbix API.
 app-misc/homeassistant:zamg - The GeoSphere Austria integration uses meteorological details published by the Austrian weather service GeoSphere Austria.
-app-misc/homeassistant:zeroconf - The zeroconf integration will scan the network for supported devices and services. Discovered integrations will show up in the discovered section on the integrations page in the configuration panel. It will also make Home Assistant discoverable for other services in the network. Zeroconf is also sometimes known as Bonjour, Rendezvous, and Avahi.
+app-misc/homeassistant:zeroconf - The Zero-configuration networking (zeroconf) integration will scan the network for supported devices and services. Discovered integrations will show up in the discovered section on the integrations page in the configuration panel. It will also make Home Assistant discoverable for other services in the network. Zeroconf is also sometimes known as Bonjour, Rendezvous, and Avahi.
 app-misc/homeassistant:zerproc - This integration discovers nearby Zerproc lights and adds them to Home Assistant.
-app-misc/homeassistant:zestimate - The zestimate sensor allows one to track the Zestimate® value of properties using the Zillow API. According to Zillow’s website, a Zestimate® home valuation is Zillow’s estimated market value. It is not an appraisal. Use it as a starting point to determine a home’s value. The Zestimate® is provided by Zillow, a website primarily for listing homes to buy/sell/rent in the United States.
+app-misc/homeassistant:zestimate - The Zestimate integration allows one to track the Zestimate® value of properties using the Zillow API. According to Zillow’s website, a Zestimate® home valuation is Zillow’s estimated market value. It is not an appraisal. Use it as a starting point to determine a home’s value. The Zestimate® is provided by Zillow, a website primarily for listing homes to buy/sell/rent in the United States.
 app-misc/homeassistant:zeversolar - The Zeversolar integration allows you to collect and save data providing a historical overview of your Zeversolarproduction.
 app-misc/homeassistant:zha - The Zigbee Home Automation (ZHA) integration allows you to wirelessly connect many off-the-shelf Zigbee-based devices directly to Home Assistant, using one of many compatible hardware adapters called Zigbee coordinators.
-app-misc/homeassistant:zhong-hong - The zhong_hong climate platform lets you control Zhonghong HVAC Gateway Controller thermostats through Home Assistant.
+app-misc/homeassistant:zhong-hong - The ZhongHong integration lets you control Zhonghong HVAC Gateway Controller thermostats through Home Assistant.
 app-misc/homeassistant:ziggo-mediabox-xl - The Ziggo Mediabox XL integration allows you to control a Ziggo Mediabox XL from Home Assistant.
 app-misc/homeassistant:zimi - The Zimi Cloud Controller integration allows you to connect your Zimi Cloud Controller to Home Assistant and, via this integration, control local devices connected to the Zimi mesh.
-app-misc/homeassistant:zoneminder - The zoneminder integration sets up Home Assistant with your ZoneMinder instance.
+app-misc/homeassistant:zoneminder - The ZoneMinder integration sets up Home Assistant with your ZoneMinder instance.
 app-misc/homeassistant:zwave-js - The Z-Wave integration allows you to control a Z-Wave network from Home Assistant via the Z-Wave JS driver.
 app-misc/homeassistant:zwave-me - This integration allows you to control a Z-Wave network via the Z-Wave.Me Z-Way. It combines the performance and the power of the diagnostics tools built-in Z-Way with the flexibility of Home Assistant. The integration brings all Z-Way devices in Home Assistant (Z-Wave, Zigbee, EnOcean, HTTP based, and others).
 dev-embedded/esphome:server - add server for ESPHome dashboard

@@ -2,6 +2,10 @@
 # Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  31 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pypck-0.9.5.ebuild:
+  app-misc/homeassistant 2025.12.5
+
 *pypck-0.9.8 (28 Dec 2025)
 
   28 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

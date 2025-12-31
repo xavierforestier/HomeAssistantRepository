@@ -8,16 +8,16 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python client for the HannaCloud API"
-HOMEPAGE="https://github.com/bestycame/hanna_cloud https://pypi.org/project/hanna-cloud/"
+DESCRIPTION="Async Typed Python package for the Chemelex (nVent) RAYCHEM SENZ RestAPI"
+HOMEPAGE="https://github.com/nordicopen/pysenz https://pypi.org/project/pysenz/"
 
-LICENSE="MIT"
+LICENSE="LGPLv3+"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/requests-2.25.0[${PYTHON_USEDEP}]
-	>=dev-python/pycryptodome-3.19.0[${PYTHON_USEDEP}]
+	dev-python/httpx[${PYTHON_USEDEP}]
+	dev-python/authlib[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

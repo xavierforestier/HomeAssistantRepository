@@ -35,7 +35,7 @@ jobs:
   shellcheck_complete:
     if: success() || failure()
     name: shellcheck_complete
-    needs: [ shellcheck, pkgcheck_init ]
+    needs: shellcheck
     uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
     with:
       pkg-name: shellcheck
@@ -65,7 +65,7 @@ jobs:
       
   pkgcheck_complete:
     if: success() || failure()
-    needs: [ pkgcheck, shellcheck_complete ]
+    needs: pkgcheck
     uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
     with:
       pkg-name: pkgcheck
@@ -236,7 +236,7 @@ jobs:
    
   zigbee2mqtt_init:
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: [ esphome_init ]
+    needs: esphome_init
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
@@ -262,7 +262,7 @@ jobs:
 
   homeassistant_init:
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: [ zigbee2mqtt_init ]
+    needs: zigbee2mqtt_init
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6

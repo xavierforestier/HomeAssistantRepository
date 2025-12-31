@@ -105,7 +105,7 @@ jobs:
         echo "::group::emerge stderr" 
         cat /tmp/err
         echo "::endgroup::"
-        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\" /tmp/out; then
+        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\"" /tmp/out; then
           echo "::error::emerge virtual/homeassistant[full] failed"
           exit 1
         elif [ -s /tmp/err ]; then

@@ -28,7 +28,7 @@ jobs:
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
         emerge --jobs=1 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 -v dev-embedded/esphome
-        
+        cat /var/log/emerge.log
   report_status:
     if: success() || failure()
     needs: emerge

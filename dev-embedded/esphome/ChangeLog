@@ -1,6 +1,13 @@
 # ChangeLog for dev-embedded/esphome
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+*esphome-2025.12.4 (01 Jan 2026)
+
+  01 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2025.12.1.ebuild, +esphome-2025.12.4.ebuild:
+  2025.12.4
+   #
 
 *esphome-2025.12.3 (31 Dec 2025)
 

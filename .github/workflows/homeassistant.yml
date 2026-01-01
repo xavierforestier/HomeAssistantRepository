@@ -33,7 +33,7 @@ jobs:
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
         emerge --jobs=1 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300  virtual/homeassistant -v
-     
+        cat /var/log/emerge.log
     - name: Update README, and cleanup up some space
       run: |
         rm /var/cache/distfiles/* || true 
@@ -51,7 +51,7 @@ jobs:
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
         emerge --jobs=1 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant -v
-        
+        cat /var/log/emerge.log
     - name: Free up some space
       run: |
         rm /var/cache/distfiles/* || true 
@@ -69,7 +69,7 @@ jobs:
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "\n$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "\n$log\n======"; cat $log; done
         emerge --jobs=1 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant -v
-        
+        cat /var/log/emerge.log
     - name: Free up space
       if: success() || failure()
       run: |

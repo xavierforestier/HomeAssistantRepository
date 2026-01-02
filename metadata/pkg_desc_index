@@ -14,7 +14,7 @@ app-crypt/certbot-nginx 3.3.0: Nginx plugin for Certbot (Let's Encrypt client)
 app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2025.12.3 2025.12.4 2025.12.5: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.0 4.1.1 4.1.2: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 2.6.3 2.7.0 2.7.1: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 2.7.0 2.7.1 2.7.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2025.12.2 2025.12.3 2025.12.4: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20250904.0 20251013.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32

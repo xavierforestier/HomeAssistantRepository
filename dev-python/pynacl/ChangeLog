@@ -1,0 +1,34 @@
+# ChangeLog for dev-python/pynacl
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  15 Oct 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
+  -pynacl-1.4.0.ebuild:
+  remove olds
+
+*pynacl-1.4.0 (17 Feb 2022)
+
+  17 Feb 2022; Andreas Billmeier <b@edevau.net>
+  -files/pynacl-1.3.0-hypothesis-4.patch, metadata.xml, -pynacl-1.3.0.ebuild,
+  +pynacl-1.4.0.ebuild:
+  update pynacl-1.4.0 (from main)
+
+  21 Dec 2021; Andreas Billmeier <b@edevau.net> pynacl-1.3.0.ebuild:
+  cleanup, rework ~arm & ~arm64 KEYWORDS, all untested, fixes #46
+
+  14 Jun 2021; Andreas Billmeier <b@edevau.net> pynacl-1.3.0.ebuild:
+  extend some PYTHON_COMPAT on request (untested)
+
+  10 Nov 2020; Ivan Vecera <ivan@cera.cz> pynacl-1.3.0.ebuild:
+  Add ~arm keyword to all ebuilds to support 32bit ARM SBCs
+
+  06 Sep 2020; Andreas Billmeier <b@edevau.net>
+  +files/pynacl-1.3.0-hypothesis-4.patch:
+  add pynacl-1.3.0-hypothesis-4.patch
+
+*pynacl-1.3.0 (01 Sep 2020)
+
+  01 Sep 2020; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +pynacl-1.3.0.ebuild:
+  restore a copy of pynacl-1.3.0 from main repo archive
+

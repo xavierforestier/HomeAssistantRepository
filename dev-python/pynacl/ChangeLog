@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*pynacl-1.6.0 (08 Jan 2026)
+
+  08 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pynacl-1.6.0.ebuild:
+  Missing dep
+
   15 Oct 2022; Andreas Billmeier <b@edevau.net> -metadata.xml,
   -pynacl-1.4.0.ebuild:
   remove olds

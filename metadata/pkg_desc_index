@@ -15,7 +15,7 @@ app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2025.12.3 2025.12.4 2025.12.5: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.0 4.1.1 4.1.2: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.7.0 2.7.1 2.7.2: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2025.12.2 2025.12.3 2025.12.4: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2025.12.3 2025.12.4 2025.12.5: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20250904.0 20251013.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18: An open source ecosystem for IoT development
@@ -953,6 +953,7 @@ dev-python/pymodbus 3.11.2: A fully featured modbus protocol stack in python
 dev-python/pymonoprice 0.5: Python API for talking to Monoprice 6-zone amplifier
 dev-python/pymsteams 0.1.12: Format messages and post to Microsoft Teams.
 dev-python/pymysensors 0.26.0: Python API for talking to a MySensors gateway
+dev-python/pynacl 1.6.0: Python binding to the Networking and Cryptography (NaCl) library
 dev-python/pynecil 4.2.1: Python library to communicate with Pinecil V2 soldering irons via Bluetooth
 dev-python/pynetgear 0.10.10: Access Netgear routers using their SOAP API
 dev-python/pynetio 0.1.9.1: Binding library for Koukaam netio devices

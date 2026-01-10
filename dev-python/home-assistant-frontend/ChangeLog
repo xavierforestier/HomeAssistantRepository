@@ -1,6 +1,13 @@
 # ChangeLog for dev-python/home-assistant-frontend
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+*home-assistant-frontend-20260107.0 (10 Jan 2026)
+
+  10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20251203.2.ebuild,
+  +home-assistant-frontend-20260107.0.ebuild:
+  app-misc/homeassistant 2026.1.0
 
 *home-assistant-frontend-20251203.3 (28 Dec 2025)
 

@@ -1,6 +1,12 @@
 # ChangeLog for dev-python/pyvlx
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+*pyvlx-0.2.27 (10 Jan 2026)
+
+  10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyvlx-0.2.27.ebuild:
+  app-misc/homeassistant 2026.1.0
 
   16 Jun 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   pyvlx-0.2.26.ebuild:

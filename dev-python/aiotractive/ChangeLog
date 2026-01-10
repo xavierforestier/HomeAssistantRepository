@@ -1,6 +1,12 @@
 # ChangeLog for dev-python/aiotractive
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+*aiotractive-0.7.0 (10 Jan 2026)
+
+  10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiotractive-0.7.0.ebuild:
+  app-misc/homeassistant 2026.1.0
 
   09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   aiotractive-0.6.0.ebuild:

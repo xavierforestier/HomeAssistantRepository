@@ -9,113 +9,43 @@ on:
       - master
 jobs:
 
-  shellcheck_init:
-    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
-    with:
-      pkg-name: shellcheck
-      pkg-version: 'shellcheck%20(running...)'
-      pkg-status: ''
-      autoretry: true
-    secrets: inherit
-    
+  ##########################################################################################
+  ### Static checks
+  ###
+
+  pkgcheck:
+
+    runs-on: ubuntu-latest
+    needs: state_pkgcheck_init
+    steps:
+    - uses: actions/checkout@v6
+    - uses: pkgcore/pkgcheck-action@v1
+
   shellcheck:
+
     name: shellcheck
-    needs: shellcheck_init
+    needs: state_shellcheck_init
     runs-on: ubuntu-latest
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v6
-    - name: Run shellcheck
-      uses: ludeeus/action-shellcheck@master
+    - uses: actions/checkout@v6
+    - uses: ludeeus/action-shellcheck@master
       env:
         SHELLCHECK_OPTS: -s bash -e SC2034 -e SC2016
       with:
         additional_files: '*.ebuild'
-        
-  shellcheck_complete:
-    if: success() || failure()
-    name: shellcheck_complete
-    needs: shellcheck
-    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
-    with:
-      pkg-name: shellcheck
-      pkg-version: shellcheck
-      pkg-status: ${{ needs.shellcheck.result }}
-      autoretry: true
-    secrets: inherit
-    
-  pkgcheck_init:
-    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
-    with:
-      pkg-name: pkgcheck
-      pkg-version: 'pkgcheck%20(running...)'
-      pkg-status: ''
-      autoretry: true
-    secrets: inherit
   
-  pkgcheck:
-    runs-on: ubuntu-latest
-    needs: pkgcheck_init
-    steps:
-    - name: Checkout code
-      uses: actions/checkout@v6
+  ##########################################################################################
+  ### CHECK gentoo dependencies aka. emerge --pretend
+  ###
 
-    - name: Run pkgcheck
-      uses: pkgcore/pkgcheck-action@v1
-      
-  pkgcheck_complete:
-    if: success() || failure()
-    needs: pkgcheck
-    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
-    with:
-      pkg-name: pkgcheck
-      pkg-version: pkgcheck
-      pkg-status: ${{ needs.pkgcheck.result }}
-      autoretry: true
-    secrets: inherit
-    
-  check_zigbee2mqtt:
-    runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
-      options: --privileged
-    steps:
-    # synchronys my own git
-    - name: Checkout code
-      uses: actions/checkout@v6
-    # 
-    - name: Setup HomeAssistant repository     
-      run: |
-        rsync -aHDPSv etc/portage/ /etc/portage/
-        echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
-        pwd -P >> /etc/portage/repos.conf/homeassistant.conf
-        git config --global --add safe.directory . 
-    - name: Check deps... app-misc/zigbee2mqtt
-      run: |
-        echo -n "" > /etc/portage/package.use/zzz.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 app-misc/zigbee2mqtt >/tmp/out 2>/tmp/err || true
-        echo "::group::emerge stdout" 
-        cat /tmp/out
-        echo "::endgroup::"
-        echo "::group::emerge stderr" 
-        cat /tmp/err
-        echo "::endgroup::"
-        if ! grep -q "\[ebuild  N     \] app-misc/zigbee2mqtt-" /tmp/out; then
-          echo "::error::emerge dev-embedded/esphome failed"
-          exit 1
-        elif [ -s /tmp/err ]; then
-          echo "::warning::emerge dev-embedded/esphome raised warning" 
-        fi
   check_esphome:
+  
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci-ha:main
       options: --privileged
     steps:
-    # synchronys my own git
-    - name: Checkout code
-      uses: actions/checkout@v6
-    # 
+    - uses: actions/checkout@v6
     - name: Setup HomeAssistant repository     
       run: |
         rsync -aHDPSv etc/portage/ /etc/portage/
@@ -125,7 +55,10 @@ jobs:
     - name: Check deps... dev-embedded/esphome...
       run: |
         echo -n "" > /etc/portage/package.use/zzz.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 dev-embedded/esphome >/tmp/out 2>/tmp/err || true
+        emerge -pv --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y \
+          --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          dev-embedded/esphome >/tmp/out 2>/tmp/err || true
         echo "::group::emerge stdout" 
         cat /tmp/out
         echo "::endgroup::"
@@ -138,35 +71,38 @@ jobs:
         elif [ -s /tmp/err ]; then
           echo "::warning::emerge dev-embedded/esphome raised warning" 
         fi
+
   check_homeassistant :
+
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/xavierforestier/gentoo-ci-ha:main
       options: --privileged
     steps:
-    # synchronys my own git
-    - name: Checkout code
-      uses: actions/checkout@v6
-    # 
+    - uses: actions/checkout@v6
     - name: Setup HomeAssistant repository     
       run: |
         rsync -aHDPSv etc/portage/ /etc/portage/
         echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
         pwd -P >> /etc/portage/repos.conf/homeassistant.conf
-        git config --global --add safe.directory .   
+        git config --global --add safe.directory .
+         echo "<app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" > /etc/portage/package.mask
     - name: Check deps...homeassistant[minimal]
       run: |
         rm /etc/portage/package.use/._cfg0000_zzz.use || true
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        emerge -pv --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y \
+          --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) virtual/homeassistant >/tmp/out 2>/tmp/err || true
         echo "::group::emerge stdout" 
         cat /tmp/out
         echo "::endgroup::"
         echo "::group::emerge stderr" 
         cat /tmp/err
         echo "::endgroup::"
-        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"minimal -full -normal\"" /tmp/out; then
+        if ! grep -q "\[ebuild  N     \] app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)::HomeAssistantRepository " /tmp/out; then
           echo "::error::emerge virtual/homeassistant[minimal] failed"
           exit 1
         elif [ -s /tmp/err ]; then
@@ -177,14 +113,17 @@ jobs:
         rm /etc/portage/package.use/._cfg0000_zzz.use || true
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use        
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        emerge -pv --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y \
+          --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) virtual/homeassistant >/tmp/out 2>/tmp/err || true
         echo "::group::emerge stdout" 
         cat /tmp/out
         echo "::endgroup::"
         echo "::group::emerge stderr" 
         cat /tmp/err
         echo "::endgroup::"
-        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"normal -full -minimal\"" /tmp/out; then
+        if ! grep -q "\[ebuild  N     \] app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)::HomeAssistantRepository " /tmp/out; then
           echo "::error::emerge virtual/homeassistant[normal] failed"
           exit 1
         elif [ -s /tmp/err ]; then
@@ -195,22 +134,135 @@ jobs:
         rm /etc/portage/package.use/._cfg0000_zzz.use || true
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
-        emerge -pv --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --verbose-conflicts --deep --with-bdeps=y --newuse --autounmask-keep-masks=n --autounmask-keep-keywords=n --backtrack=300 virtual/homeassistant >/tmp/out 2>/tmp/err || true
+        emerge -pv --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y \
+          --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) virtual/homeassistant >/tmp/out 2>/tmp/err || true
         echo "::group::emerge stdout" 
         cat /tmp/out
         echo "::endgroup::"
         echo "::group::emerge stderr" 
         cat /tmp/err
         echo "::endgroup::"
-        if ! grep -q "\[ebuild  N     \] virtual/homeassistant-0::HomeAssistantRepository  USE=\"full -minimal -normal\"" /tmp/out; then
+        if ! grep -q "\[ebuild  N     \] app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)::HomeAssistantRepository " /tmp/out; then
           echo "::error::emerge virtual/homeassistant[full] failed"
           exit 1
         elif [ -s /tmp/err ]; then
           echo "::warning::emerge virtual/homeassistant[full] raised warning" 
         fi
-  esphome_init:  
+  
+  check_zigbee2mqtt:
+
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      options: --privileged
+    steps:
+    - uses: actions/checkout@v6
+    - name: Setup HomeAssistant repository
+      run: |
+        rsync -aHDPSv etc/portage/ /etc/portage/
+        echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
+        pwd -P >> /etc/portage/repos.conf/homeassistant.conf
+        git config --global --add safe.directory .
+    - name: Check deps... app-misc/zigbee2mqtt
+      run: |
+        echo -n "" > /etc/portage/package.use/zzz.use
+        emerge -pv --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y \
+          --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          app-misc/zigbee2mqtt >/tmp/out 2>/tmp/err || true
+        echo "::group::emerge stdout"
+        cat /tmp/out
+        echo "::endgroup::"
+        echo "::group::emerge stderr"
+        cat /tmp/err
+        echo "::endgroup::"
+        if ! grep -q "\[ebuild  N     \] app-misc/zigbee2mqtt-" /tmp/out; then
+          echo "::error::emerge dev-embedded/esphome failed"
+          exit 1
+        elif [ -s /tmp/err ]; then
+          echo "::warning::emerge dev-embedded/esphome raised warning"
+        fi
+
+  ##########################################################################################
+  ### BUILD part (aka make sure emerge each main packages and its dependencies)
+  ###
+
+  build_esphome:
+
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: [ check_zigbee2mqtt, check_esphome, check_homeassistant, pkgcheck_complete, shellcheck_complete ]
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/esphome.yml@master
+    needs: state_esphome_init
+    secrets: inherit
+   
+  build_homeassistant:
+
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/homeassistant.yml@master
+    needs: state_homeassistant_init
+    secrets: inherit
+           
+  build_zigbee2mqtt:
+
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/zigbee2mqtt.yml@master
+    needs: state_zigbee2mqtt_init
+    secrets: inherit
+
+  ##########################################################################################
+  ### README.md state updates steps
+  ###
+  
+  state_pkgcheck_init:
+
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
+    with:
+      pkg-name: pkgcheck
+      pkg-version: 'pkgcheck%20(running...)'
+      pkg-status: ''
+      autoretry: true
+    secrets: inherit
+
+  state_pkgcheck_complete:
+
+    if: success() || failure()
+    needs: pkgcheck
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
+    with:
+      pkg-name: pkgcheck
+      pkg-version: pkgcheck
+      pkg-status: ${{ needs.pkgcheck.result }}
+      autoretry: true
+    secrets: inherit
+
+  state_shellcheck_init:
+
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
+    with:
+      pkg-name: shellcheck
+      pkg-version: 'shellcheck%20(running...)'
+      pkg-status: ''
+      autoretry: true
+    secrets: inherit
+
+  state_shellcheck_complete:
+
+    if: success() || failure()
+    name: shellcheck_complete
+    needs: shellcheck
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
+    with:
+      pkg-name: shellcheck
+      pkg-version: shellcheck
+      pkg-status: ${{ needs.shellcheck.result }}
+      autoretry: true
+    secrets: inherit
+
+  state_esphome_init:
+
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
+    needs: [ check_zigbee2mqtt, check_esphome, check_homeassistant, state_pkgcheck_complete, state_shellcheck_complete ]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
@@ -227,42 +279,11 @@ jobs:
         git commit -m "[CI]Update esphome status" || true
         git pull --no-rebase
         git push --force-with-lease
-    
-  esphome:
-    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    uses: xavierforestier/HomeAssistantRepository/.github/workflows/esphome.yml@master
-    needs: esphome_init
-    secrets: inherit
-   
-  zigbee2mqtt_init:
-    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: esphome_init
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v6
-    - run: |
-        git config --local user.name "xavier.forestier"
-        git config --local user.email "{ID}+{username}@users.noreply.github.com"
-        git fetch
-        version=$( echo $( find ./app-misc/zigbee2mqtt -type f -name "*.ebuild" | sort -r | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
-        git switch master
-        git pull --no-rebase
-        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/zigbee2mqttjob-\\)[^-]*-[^\\?]*/\\1zigbee2mqtt%20\\(running\\.\\.\\.\\)-lightgrey/" README.md
-        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/zigbee2mqtt-\\)[^-]*-[^\\?]*/\\1${version}-lightgrey/" README.md
-        git add README.md
-        git commit -m "[CI]Update zigbee2mqtt status" || true
-        git pull --no-rebase
-        git push --force-with-lease
-            
-  zigbee2mqtt:
-    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    uses: xavierforestier/HomeAssistantRepository/.github/workflows/zigbee2mqtt.yml@master
-    needs: zigbee2mqtt_init
-    secrets: inherit
 
-  homeassistant_init:
+  state_homeassistant_init:
+
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: zigbee2mqtt_init
+    needs: state_esphome_init
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
@@ -281,9 +302,24 @@ jobs:
         git commit -m "[CI]Update homeassistant status" || true
         git pull --no-rebase
         git push --force-with-lease
-    
-  homeassistant:
+
+  state_zigbee2mqtt_init:
+
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    uses: xavierforestier/HomeAssistantRepository/.github/workflows/homeassistant.yml@master
-    needs: homeassistant_init
-    secrets: inherit
+    needs: state_homeassistant_init
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - run: |
+        git config --local user.name "xavier.forestier"
+        git config --local user.email "{ID}+{username}@users.noreply.github.com"
+        git fetch
+        version=$( echo $( find ./app-misc/zigbee2mqtt -type f -name "*.ebuild" | sort -r | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
+        git switch master
+        git pull --no-rebase
+        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/zigbee2mqttjob-\\)[^-]*-[^\\?]*/\\1zigbee2mqtt%20\\(running\\.\\.\\.\\)-lightgrey/" README.md
+        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/zigbee2mqtt-\\)[^-]*-[^\\?]*/\\1${version}-lightgrey/" README.md
+        git add README.md
+        git commit -m "[CI]Update zigbee2mqtt status" || true
+        git pull --no-rebase
+        git push --force-with-lease

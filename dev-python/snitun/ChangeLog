@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/snitun
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  snitun-0.40.0.ebuild, snitun-0.44.0.ebuild, snitun-0.45.1.ebuild:
+  Happy new year
 
 *snitun-0.45.1 (09 Nov 2025)
 

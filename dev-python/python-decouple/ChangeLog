@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/python-decouple
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*python-decouple-3.8 (14 Jan 2026)
+
+  14 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +python-decouple-3.8.ebuild:
+  app-misc/homeassistant 2026.1.1
+

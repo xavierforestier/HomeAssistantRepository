@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bellows-0.44.1.ebuild, bellows-0.45.0.ebuild, bellows-0.45.1.ebuild,
+  bellows-0.45.2.ebuild, bellows-0.45.3.ebuild, bellows-0.46.0.ebuild,
+  bellows-0.46.1.ebuild, bellows-0.47.2.ebuild, bellows-0.48.0.ebuild,
+  bellows-0.48.2.ebuild, bellows-0.49.0.ebuild:
+  Happy new year
+
 *bellows-0.49.0 (10 Jan 2026)
 
   10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

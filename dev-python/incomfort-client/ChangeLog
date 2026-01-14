@@ -1,6 +1,16 @@
 # ChangeLog for dev-python/incomfort-client
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+*incomfort-client-0.6.11 (13 Jan 2026)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +incomfort-client-0.6.11.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  incomfort-client-0.6.10.ebuild:
+  Happy new year
 
   13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -incomfort-client-0.6.9.ebuild:

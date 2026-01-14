@@ -1,6 +1,14 @@
 # ChangeLog for dev-python/py-melissa-climate
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  14 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -py-melissa-climate-3.0.2.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  py-melissa-climate-3.0.2.ebuild, py-melissa-climate-3.0.3.ebuild:
+  Happy new year
 
 *py-melissa-climate-3.0.3 (31 Dec 2025)
 

@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/samsungctl
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  samsungctl-0.7.1.ebuild:
+  Happy new year
 
   09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   samsungctl-0.7.1.ebuild:

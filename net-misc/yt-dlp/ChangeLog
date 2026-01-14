@@ -1,6 +1,10 @@
 # ChangeLog for net-misc/yt-dlp
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  yt-dlp-2025.12.08.ebuild:
+  Happy new year
 
   28 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -yt-dlp-2025.11.12.ebuild:

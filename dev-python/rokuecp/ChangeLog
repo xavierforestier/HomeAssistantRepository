@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/rokuecp
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  rokuecp-0.19.5.ebuild:
+  Happy new year
 
   12 Jul 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -rokuecp-0.19.3.ebuild:

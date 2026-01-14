@@ -2,6 +2,26 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*zha-quirks-0.0.152 (13 Jan 2026)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zha-quirks-0.0.136.ebuild, -zha-quirks-0.0.137.ebuild,
+  -zha-quirks-0.0.138.ebuild, -zha-quirks-0.0.139.ebuild,
+  -zha-quirks-0.0.142.ebuild, -zha-quirks-0.0.143.ebuild,
+  -zha-quirks-0.0.145.ebuild, -zha-quirks-0.0.146.ebuild,
+  -zha-quirks-0.0.148.ebuild, -zha-quirks-0.0.149.ebuild,
+  +zha-quirks-0.0.152.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zha-quirks-0.0.136.ebuild, zha-quirks-0.0.137.ebuild,
+  zha-quirks-0.0.138.ebuild, zha-quirks-0.0.139.ebuild,
+  zha-quirks-0.0.142.ebuild, zha-quirks-0.0.143.ebuild,
+  zha-quirks-0.0.145.ebuild, zha-quirks-0.0.146.ebuild,
+  zha-quirks-0.0.148.ebuild, zha-quirks-0.0.149.ebuild,
+  zha-quirks-0.0.150.ebuild, zha-quirks-0.0.151.ebuild:
+  Happy new year
+
 *zha-quirks-0.0.151 (10 Jan 2026)
 
   10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/jsonpath-ng
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  jsonpath-ng-1.7.0.ebuild:
+  Happy new year
 
 *jsonpath-ng-1.7.0 (09 May 2025)
 

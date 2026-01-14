@@ -1,6 +1,14 @@
 # ChangeLog for dev-python/axis
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  14 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -axis-65.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  axis-65.ebuild, axis-66.ebuild:
+  Happy new year
 
 *axis-66 (31 Dec 2025)
 

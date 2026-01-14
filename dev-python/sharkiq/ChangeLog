@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/sharkiq
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  sharkiq-1.5.0.ebuild:
+  Happy new year
 
   13 Dec 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -sharkiq-1.4.2.ebuild:

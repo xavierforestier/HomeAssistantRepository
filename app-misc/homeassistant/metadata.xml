@@ -47,6 +47,7 @@
     <flag name="alarmdecoder">The AlarmDecoder integration will allow Home Assistant users who own either a DSC or Honeywell alarm panel to leverage their alarm system and its sensors to provide Home Assistant with rich information about their homes. Connectivity between Home Assistant and the alarm panel is accomplished through a device produced by Nu Tech Software Solutions, known as the AlarmDecoder. The AlarmDecoder devices provide a serial, TCP/IP socket or USB interface to the alarm panel, where it emulates an alarm keypad.</flag>
     <flag name="alexa-devices">The Alexa Devices integration lets you control Alexa-enabled devices connected to your Amazon account.</flag>
     <flag name="alpha-vantage">The Alpha Vantage integration uses Alpha Vantage to monitor the stock market. This platform also provides detail about exchange rates.</flag>
+    <flag name="altruist">The Altruist integration connects Home Assistant to Air Quality Sensor “Altruist“ — a device designed for decentralized environmental monitoring. It captures noise, dust, and temperature data from the sensor over HTTP, making it available as locally usable entities within Home Assistant.</flag>
     <flag name="amazon-polly">The Amazon Polly integration works with Amazon Polly to create the spoken output.Polly is a paid service via Amazon Web Services. There is a free tier for the first 12 months and then a charge per million characters afterwards.</flag>
     <flag name="amberelectric">Amber is an Australian electricity retailer that provides access to wholesale electricity prices. Customers monitor the wholesale price and shift their energy usage to cheaper, greener times. This saves them money and supports Australia’s shift towards more renewable energy. Customers can also sell their unused electricity for fluctuating prices. This differs from other wholesale providers, where selling prices vary based on grid demand.</flag>
     <flag name="ambient-network">The Ambient Weather Network integration retrieves local weather station informationvia the Ambient Weather Network.</flag>
@@ -407,6 +408,7 @@
     <flag name="image-upload">The Image upload integration allows Home Assistant to handle image assets inHome Assistant, for example, the profile photos of your systems account.</flag>
     <flag name="imap">The IMAP integration is observing your IMAP server. It can report the number of unread emails and can send a custom event that can be used to trigger an automation. Other search criteria can be used, as shown in the example below.</flag>
     <flag name="imeon-inverter">The Imeon Inverter integration will poll an Imeon solar inverter in Home Assistant.</flag>
+    <flag name="imgw-pib">The IMGW-PIB integration uses hydrological data from Institute of Meteorology and Water Management - National Research Institute to present information about rivers and water reservoirs in Poland.</flag>
     <flag name="immich">This integration allows adding an Immich user account to Home Assistant.</flag>
     <flag name="improv-ble">The Improv via BLE integration allows connecting devices implementing Improv via BLE to Wi-Fi.</flag>
     <flag name="incomfort">This integration links Home Assistant with your Intergas gateway, including the boiler and any room thermostats attached to it.The integration uses the incomfort-client library.</flag>
@@ -880,6 +882,7 @@
     <flag name="tankerkoenig">The Tankerkoenig integration allows you to monitor the fuel prices with tankerkoenig.de from within Home Assistant and setup automations based on the information.</flag>
     <flag name="tank-utility">Add Tank Utility propane tank monitors to Home Assistant.</flag>
     <flag name="tapsaff">The Taps Aff integration provides the ‘Taps Aff’ status for a given location within the UK using Taps Aff.</flag>
+    <flag name="tasmota">This integration allows you to control Tasmota devices over MQTT.</flag>
     <flag name="tautulli">The Tautulli integration will monitor activity on a given Tautulli Server. It will create a sensor that shows the number of currently active streams as the state. If you click the sensor for more details, it will show you more statistics.</flag>
     <flag name="technove">The TechnoVE integration provides connectivity with TechnoVE Smart Charging Station through the station local API.</flag>
     <flag name="ted5000">The The Energy Detective TED5000 integration monitors electricity consumption/production by connecting to the TED gateway, itself connected to one or several Measuring Transmitting Units (MTU). The platform creates up to two sensors per MTU, one for Wattage the other for Voltage.</flag>

@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/bimmer-connected
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  bimmer-connected-0.17.3.ebuild:
+  Happy new year
 
   17 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -bimmer-connected-0.17.2.ebuild:

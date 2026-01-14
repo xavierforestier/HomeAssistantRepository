@@ -1,6 +1,10 @@
 # ChangeLog for acct-group/esphome
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-0.ebuild:
+  Happy new year
 
   11 Feb 2020; Andreas Billmeier <b@edevau.net> metadata.xml:
   fix acct-group/esphome/metadata.xml margins

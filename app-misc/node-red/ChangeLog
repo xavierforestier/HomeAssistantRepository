@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  node-red-4.1.1.ebuild, node-red-4.1.2.ebuild, node-red-4.1.3.ebuild:
+  Happy new year
+
 *node-red-4.1.3 (08 Jan 2026)
 
   08 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

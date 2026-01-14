@@ -1,6 +1,14 @@
 # ChangeLog for dev-python/yalexs-ble
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  14 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yalexs-ble-3.2.1.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  yalexs-ble-3.2.1.ebuild, yalexs-ble-3.2.4.ebuild:
+  Happy new year
 
 *yalexs-ble-3.2.4 (31 Dec 2025)
 

@@ -2,6 +2,14 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  14 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -uiprotect-7.33.2.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  uiprotect-7.33.2.ebuild, uiprotect-7.33.3.ebuild, uiprotect-8.0.0.ebuild:
+  Happy new year
+
 *uiprotect-8.0.0 (10 Jan 2026)
 
   10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

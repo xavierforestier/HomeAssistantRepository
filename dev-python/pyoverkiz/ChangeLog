@@ -2,6 +2,16 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*pyoverkiz-1.19.4 (13 Jan 2026)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyoverkiz-1.19.4.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pyoverkiz-1.19.0.ebuild, pyoverkiz-1.19.3.ebuild:
+  Happy new year
+
 *pyoverkiz-1.19.3 (10 Jan 2026)
 
   10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

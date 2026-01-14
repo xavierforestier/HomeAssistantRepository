@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/pylint-per-file-ignores
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pylint-per-file-ignores-1.4.0.ebuild:
+  Happy new year
 
 *pylint-per-file-ignores-1.4.0 (10 May 2025)
 

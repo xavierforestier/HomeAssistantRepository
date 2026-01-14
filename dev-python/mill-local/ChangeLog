@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mill-local-0.3.0.ebuild, mill-local-0.5.0.ebuild:
+  Happy new year
+
 *mill-local-0.5.0 (10 Jan 2026)
 
   10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

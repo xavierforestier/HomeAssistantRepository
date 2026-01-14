@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/pycognito
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  pycognito-2024.5.1.ebuild:
+  Happy new year
 
   10 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -pycognito-2023.5.0.ebuild, -pycognito-2024.2.0.ebuild,

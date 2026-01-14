@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/zigpy-znp
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zigpy-znp-0.14.0.ebuild, zigpy-znp-0.14.1.ebuild, zigpy-znp-0.14.2.ebuild:
+  Happy new year
 
 *zigpy-znp-0.14.2 (09 Nov 2025)
 

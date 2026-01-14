@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mozart-api-5.1.0.247.1.ebuild, mozart-api-5.3.1.108.0.ebuild:
+  Happy new year
+
 *mozart-api-5.3.1.108.0 (10 Jan 2026)
 
   10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

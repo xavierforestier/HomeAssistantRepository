@@ -2,6 +2,16 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*opower-0.16.1 (13 Jan 2026)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +opower-0.16.1.ebuild:
+  app-misc/homeassistant 2026.1.1
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  opower-0.15.9.ebuild, opower-0.16.0.ebuild:
+  Happy new year
+
 *opower-0.16.0 (10 Jan 2026)
 
   10 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

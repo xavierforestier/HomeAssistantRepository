@@ -1,6 +1,10 @@
 # ChangeLog for dev-python/gql
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+  13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  gql-3.5.0.ebuild, gql-3.5.3.ebuild, gql-4.0.0.ebuild:
+  Happy new year
 
 *gql-4.0.0 (14 Sep 2025)
 

@@ -214,7 +214,7 @@
     <flag name="ecoforest">The Ecoforest integration allows monitoring and control of local Ecoforest fireplaces in Home Assistant.</flag>
     <flag name="econet">The EcoNet integration is consuming the information provided by a EcoNet enabled Rheem water heater or thermostat.</flag>
     <flag name="ecovacs">The Ecovacs integration is the main integration to integrate Ecovacs (Deebot) vacuums and mowers.</flag>
-    <flag name="ecowitt">Configuration To add the Ecowitt device to your Home Assistant instance, use this My button:</flag>
+    <flag name="ecowitt">The Ecowitt integration allows you to integrate Ecowitt devices into Home Assistant.</flag>
     <flag name="edimax">This Edimax integration allows you to control the state of your Edimax switches.</flag>
     <flag name="edl21">The EDL21 integration lets you read German EDL21 smart meters using SML from Home Assistant.</flag>
     <flag name="efergy">Integrate your Efergy meter information into Home Assistant.</flag>

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -teslemetry-stream-0.7.10.ebuild:
+  app-misc/homeassistant 2026.1.2
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   teslemetry-stream-0.7.10.ebuild, teslemetry-stream-0.9.0.ebuild:
   Happy new year

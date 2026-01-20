@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -reolink-aio-0.17.1.ebuild:
+  app-misc/homeassistant 2026.1.2
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   reolink-aio-0.17.1.ebuild, reolink-aio-0.18.0.ebuild:
   Happy new year

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -solarlog-cli-0.6.0.ebuild:
+  app-misc/homeassistant 2026.1.2
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   solarlog-cli-0.6.0.ebuild, solarlog-cli-0.7.0.ebuild:
   Happy new year

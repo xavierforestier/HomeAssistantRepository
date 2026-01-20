@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*knx-frontend-2026.1.15.112308 (20 Jan 2026)
+
+  20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-frontend-2025.10.31.195356.ebuild,
+  +knx-frontend-2026.1.15.112308.ebuild:
+  app-misc/homeassistant 2026.1.2
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   knx-frontend-2025.10.31.195356.ebuild,
   knx-frontend-2025.12.30.151231.ebuild:

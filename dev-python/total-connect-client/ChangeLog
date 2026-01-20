@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -total-connect-client-2025.5.ebuild:
+  app-misc/homeassistant 2026.1.2
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   total-connect-client-2025.5.ebuild, total-connect-client-2025.12.2.ebuild:
   Happy new year

@@ -5,13 +5,17 @@ EAPI=8
 
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{12..14} )
+PYTHON_COMPAT=( python3_{11..14} )
 
 inherit distutils-r1 flag-o-matic multiprocessing pypi
 
 MY_P=grpc-${PV}
 DESCRIPTION="HTTP/2-based RPC framework"
-HOMEPAGE="https://grpc.io/ https://github.com/grpc/grpc/ https://pypi.org/project/grpcio/"
+HOMEPAGE="
+	https://grpc.io/
+	https://github.com/grpc/grpc/
+	https://pypi.org/project/grpcio/
+"
 # Tests need other packages from the source tree, so use a GitHub
 # archive.  sdist provides bundled library sources (git submodules).
 SRC_URI+="
@@ -24,29 +28,42 @@ SRC_URI+="
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 x86"
+KEYWORDS="amd64 arm64 x86"
 
 DEPEND="
 	dev-libs/openssl:=
 	net-dns/c-ares:=
-	sys-libs/zlib:=
+	virtual/zlib:=
 "
 RDEPEND="
 	${DEPEND}
+	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
 "
 # TODO: try to remove coverage dep
 BDEPEND="
-	dev-python/cython[${PYTHON_USEDEP}]
+	>=dev-python/cython-3.1.1[${PYTHON_USEDEP}]
 	test? (
 		dev-python/coverage[${PYTHON_USEDEP}]
-		>=dev-python/protobuf-6.30.0[${PYTHON_USEDEP}]
+		>=dev-python/protobuf-6.31.1[${PYTHON_USEDEP}]
 	)
 "
 
+EPYTEST_PLUGINS=()
 EPYTEST_XDIST=1
 distutils_enable_tests pytest
 
+src_prepare() {
+	distutils-r1_src_prepare
+
+	sed -i -e '/INSTALL_REQUIRES/s:~=:>=:' setup.py || die
+}
+
 src_configure() {
+	# -Werror=odr -Werror=lto-type-mismatch
+	# https://bugs.gentoo.org/856775
+	# https://github.com/grpc/grpc/issues/36158
+	filter-lto
+
 	export GRPC_PYTHON_BUILD_EXT_COMPILER_JOBS
 	GRPC_PYTHON_BUILD_EXT_COMPILER_JOBS="$(makeopts_jobs)"
 	# system abseil-cpp crashes with USE=-debug, sigh
@@ -73,6 +90,7 @@ python_test() {
 		# Internet
 		tests/unit/_dns_resolver_test.py::DNSResolverTest::test_connect_loopback
 		# not a test
+		tests/unit/_compression_test.py::test_compression
 		tests_aio/unit/channel_argument_test.py::test_if_reuse_port_enabled
 		# expects grpcio-admin
 		tests/unit/test_all_modules_installed.py::TestAllModulesInstalled::test_import_all_modules
@@ -85,7 +103,6 @@ python_test() {
 		# requires oauth2client
 		tests/unit/beta/_implementations_test.py
 	)
-	local -x PYTEST_DISABLE_PLUGIN_AUTOLOAD=1
 
 	cp -a "${BUILD_DIR}"/{install,test} || die
 	local -x PATH=${BUILD_DIR}/test/usr/bin:${PATH}

@@ -222,7 +222,7 @@ app-misc/homeassistant:ecobee - The ecobee integration lets you control and view
 app-misc/homeassistant:ecoforest - The Ecoforest integration allows monitoring and control of local Ecoforest fireplaces in Home Assistant.
 app-misc/homeassistant:econet - The EcoNet integration is consuming the information provided by a EcoNet enabled Rheem water heater or thermostat.
 app-misc/homeassistant:ecovacs - The Ecovacs integration is the main integration to integrate Ecovacs (Deebot) vacuums and mowers.
-app-misc/homeassistant:ecowitt - Configuration To add the Ecowitt device to your Home Assistant instance, use this My button:
+app-misc/homeassistant:ecowitt - The Ecowitt integration allows you to integrate Ecowitt devices into Home Assistant.
 app-misc/homeassistant:edimax - This Edimax integration allows you to control the state of your Edimax switches.
 app-misc/homeassistant:edl21 - The EDL21 integration lets you read German EDL21 smart meters using SML from Home Assistant.
 app-misc/homeassistant:efergy - Integrate your Efergy meter information into Home Assistant.

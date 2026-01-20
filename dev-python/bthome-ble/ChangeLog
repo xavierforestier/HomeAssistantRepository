@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bthome-ble-3.15.0.ebuild:
+  app-misc/homeassistant 2026.1.2
+
 *bthome-ble-3.16.0 (13 Jan 2026)
 
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

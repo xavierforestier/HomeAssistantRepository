@@ -15,8 +15,8 @@ app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2026.1.0 2026.1.1 2026.1.2: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.1 4.1.2 4.1.3: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.7.0 2.7.1 2.7.2: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2025.12.5 2025.12.6 2025.12.7: Make creating custom firmwares for ESP32/ESP8266 super easy.
-dev-embedded/esphome-dashboard 20250904.0 20251013.0: ESPHome dashboard
+dev-embedded/esphome 2025.12.6 2025.12.7 2026.1.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome-dashboard 20251013.0 20260110.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18: An open source ecosystem for IoT development
 dev-libs/foils_hid 0.3: Freebox Network HID devices library
@@ -73,7 +73,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2025.9.2: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 43.2.1 43.9.1: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 43.2.1 43.9.1 43.13.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -248,7 +248,7 @@ dev-python/bidict 0.22.0: The bidirectional mapping library for Python.
 dev-python/bimmer-connected 0.17.3: Library to read data from the BMW Connected Drive portal
 dev-python/bitstruct 8.17.0: Conversions between Python values and C bit field structs
 dev-python/bizkaibus 0.1.1: Online information for buses of Biscay bus services (Basque Country, Spain).
-dev-python/bleak 2.0.0: Bluetooth Low Energy platform Agnostic Klient
+dev-python/bleak 2.0.0 2.1.1: Bluetooth Low Energy platform Agnostic Klient
 dev-python/bleak-esphome 3.4.0: Bleak backend of ESPHome
 dev-python/bleak-retry-connector 4.4.3: A connector for Bleak Clients that handles transient connection failures
 dev-python/blebox-uniapi 2.5.0: Python API for accessing BleBox smart home devices
@@ -1179,6 +1179,7 @@ dev-python/requests-aws4auth 1.3.1: AWS4 authentication for Requests
 dev-python/requests-mock 1.12.1: Mock out responses from the requests package
 dev-python/respx 0.22.0-r1: Mock HTTPX with awesome request patterns and response side effects
 dev-python/restrictedpython 8.1: subset of Python which allows program input into a trusted environment.
+dev-python/resvg-py 0.2.5: A safe and high level binding for the resvg project
 dev-python/retry2 0.9.5: easy to use retry decorator in python
 dev-python/reverse-geocode 1.6.5: Reverse geocode the given latitude / longitude
 dev-python/rfk101py 0.0.1: RFK101 Proximity card reader over Ethernet

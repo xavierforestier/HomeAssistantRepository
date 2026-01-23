@@ -35,7 +35,7 @@ RDEPEND="
 	$( python_gen_cond_dep '
 	server? (
 		acct-group/esphome acct-user/esphome
-		~dev-python/tornado-6.5.2[${PYTHON_USEDEP}]
+		~dev-python/tornado-6.5.4[${PYTHON_USEDEP}]
 	)
 	>=dev-python/cryptography-45.0.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  25 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -snitun-0.40.0.ebuild, -snitun-0.44.0.ebuild:
+  app-misc/homeassistant 2026.1.3
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   snitun-0.40.0.ebuild, snitun-0.44.0.ebuild, snitun-0.45.1.ebuild:
   Happy new year

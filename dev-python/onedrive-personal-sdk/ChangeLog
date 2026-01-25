@@ -2,6 +2,15 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*onedrive-personal-sdk-0.1.1 (25 Jan 2026)
+
+  25 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/onedrive-personal-sdk-0.0.15-build-system.patch,
+  -files/onedrive-personal-sdk-0.0.16-build-system.patch,
+  +files/onedrive-personal-sdk-0.1.1-build-system.patch,
+  +onedrive-personal-sdk-0.1.1.ebuild:
+  app-misc/homeassistant 2026.1.3
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   onedrive-personal-sdk-0.0.17.ebuild:
   Happy new year

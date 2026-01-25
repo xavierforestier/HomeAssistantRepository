@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Music Assistant Base Models"
-HOMEPAGE="https://pypi.org/project/music-assistant-models/"
+DESCRIPTION="Music Assistant Client"
+HOMEPAGE="https://pypi.org/project/music-assistant-client/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,13 +19,14 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
+	>=dev-python/aiohttp-3.8.6[${PYTHON_USEDEP}]
+	~dev-python/music-assistant-models-1.1.89[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.14[${PYTHON_USEDEP}]
 "
 
 src_prepare() {
-	echo -ne '\n[build-system]\nrequires = ["setuptools"]\n' >> pyproject.toml || die
-	echo -ne 'build-backend = "setuptools.build_meta"\n' >> pyproject.toml || die
+	echo -ne '\n[build-system]\nrequires = ["setuptools"]' >> pyproject.toml || die
+	echo -ne '\nbuild-backend = "setuptools.build_meta"\n' >> pyproject.toml || die
 	default
 }
 

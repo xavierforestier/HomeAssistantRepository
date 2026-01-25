@@ -2,19 +2,6 @@
 # your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using egencache *
 
-app-crypt/certbot:certbot-apache - Enable Apache plugin.
-app-crypt/certbot:certbot-dns-dnsimple - Enable DNSimple Authenticator plugin.
-app-crypt/certbot:certbot-dns-dnsmadeeasy - Enable DNS Made Easy DNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-gehirn - Enable Gehirn Infrastructure Service DNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-google - Enable Google Cloud DNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-linode - Enable Linode DNS Authenticator plugin plugin.
-app-crypt/certbot:certbot-dns-luadns - Enable LuaDNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-nsone - Enable NS1 DNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-ovh - Enable OVH DNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-rfc2136 - Enable RFC 2136 DNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-route53 - Enable Route53 DNS Authenticator plugin.
-app-crypt/certbot:certbot-dns-sakuracloud - Enable Sakura Cloud DNS Authenticator plugin.
-app-crypt/certbot:certbot-nginx - Enable Nginx plugin.
 app-misc/homeassistant:abode - The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.
 app-misc/homeassistant:acaia - The Acaia integration allows you to control Acaia scales through Home Assistant.
 app-misc/homeassistant:accuweather - There is an active alert for this integration! LEARN MORE The AccuWeather integration uses the AccuWeather web service as a source for weather data for your location. A paid subscription is required to use this integration.
@@ -1070,7 +1057,6 @@ dev-python/aiobotocore:boto3 - Enable boto3
 dev-python/aiocoap:oscore - oscore
 dev-python/aiocoap:tinydtls - tindtls
 dev-python/aiocoap:ws - ws
-dev-python/amqtt:ci - Continous Integration
 dev-python/androidtv:async - Add async support.
 dev-python/azure-kusto-data:aio - Add support for aio
 dev-python/azure-kusto-data:pandas - Add support for pandas

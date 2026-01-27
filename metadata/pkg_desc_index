@@ -13,7 +13,7 @@ app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2026.1.0 2026.1.1 2026.1.2 2026.1.3: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.2 4.1.3 4.1.4: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.7.0 2.7.1 2.7.2: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2025.12.7 2026.1.0 2026.1.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.1.0 2026.1.1 2026.1.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20251013.0 20260110.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18: An open source ecosystem for IoT development
@@ -71,7 +71,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2025.9.2: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 43.2.1 43.9.1 43.13.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 43.9.1 43.13.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio

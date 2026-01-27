@@ -10,7 +10,7 @@
 [![monthly commits](https://img.shields.io/github/commit-activity/m/xavierforestier/HomeAssistantRepository)](https://github.com/xavierforestier/HomeAssistantRepository/commits/)
 
 ## Static Quality check 
-[![shellcheck](https://img.shields.io/badge/shellcheck-shellcheck-238636?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/shellcheck.yml) 
+[![shellcheck](https://img.shields.io/badge/shellcheck-shellcheck%20(running...)-lightgrey?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/shellcheck.yml) 
 [![pkgcheck](https://img.shields.io/badge/pkgcheck-pkgcheck%20(running...)-lightgrey?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/pkgcheck.yml) 
 
 ## Automatic emerge build status

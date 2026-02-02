@@ -739,7 +739,7 @@ dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/opower 0.16.0 0.16.1 0.16.3 0.16.5: A library for getting historical and forecasted from opower.com
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 1.0.2: Bluetooth library for Oral B devices
-dev-python/orjson 3.11.1: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+dev-python/orjson 3.11.3: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/ormsgpack 1.12.1: Python msgpack library supporting dataclasses, datetimes, and numpy
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.2: Control Orvibo products.

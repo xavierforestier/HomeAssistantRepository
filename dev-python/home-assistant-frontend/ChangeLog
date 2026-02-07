@@ -2,6 +2,14 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*home-assistant-frontend-20260128.6 (07 Feb 2026)
+
+  07 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -home-assistant-frontend-20260107.0.ebuild,
+  -home-assistant-frontend-20260107.1.ebuild,
+  +home-assistant-frontend-20260128.6.ebuild:
+  app-misc/homeassistant 2026.2.0
+
 *home-assistant-frontend-20260107.2 (20 Jan 2026)
 
   20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

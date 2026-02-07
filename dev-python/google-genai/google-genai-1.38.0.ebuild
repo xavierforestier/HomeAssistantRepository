@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="GenAI Python SDK"
 HOMEPAGE="https://github.com/googleapis/python-genai https://pypi.org/project/google-genai/"
-PATCHES="${FILESDIR}/${P}-build-system.patch"
+PATCHES="${FILESDIR}/${PN}-build-system.patch"
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

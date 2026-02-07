@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/viaggiatreno-ha
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*viaggiatreno-ha-0.2.4 (07 Feb 2026)
+
+  07 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +viaggiatreno-ha-0.2.4.ebuild:
+  app-misc/homeassistant 2026.2.0
+

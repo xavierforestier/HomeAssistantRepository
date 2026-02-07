@@ -22,7 +22,7 @@ RESTRICT="!test? ( test )"
 RDEPEND="
 	>=dev-python/hassil-3.5.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
-	>=dev-python/voluptuous-0.15.2[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/regex-2026.1.15[${PYTHON_USEDEP}]
 	>=dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 "

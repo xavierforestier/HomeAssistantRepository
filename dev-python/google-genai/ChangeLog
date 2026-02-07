@@ -2,6 +2,15 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*google-genai-1.59.0 (07 Feb 2026)
+
+  07 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -files/google-genai-1.29.0-build-system.patch,
+  -files/google-genai-1.38.0-build-system.patch,
+  +files/google-genai-build-system.patch, google-genai-1.38.0.ebuild,
+  +google-genai-1.59.0.ebuild:
+  app-misc/homeassistant 2026.2.0
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   google-genai-1.38.0.ebuild:
   Happy new year

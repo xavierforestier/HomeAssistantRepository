@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  07 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysrdaligateway-0.18.0.ebuild:
+  app-misc/homeassistant 2026.2.0
+
 *pysrdaligateway-0.19.3 (20 Jan 2026)
 
   20 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

@@ -6,19 +6,7 @@ DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_SINGLE_IMPL=1
 PYTHON_COMPAT=( python3_{12..14} )
 
-inherit readme.gentoo-r1 distutils-r1
-
-if [[ ${PV} == *9999* ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/esphome/esphome.git"
-	EGIT_BRANCH="dev"
-	S="${WORKDIR}/${P}/"
-else
-	inherit pypi
-	MY_P=${P/_beta/b}
-	MY_PV=${PV/_beta/b}
-	S="${WORKDIR}/${MY_P}/"
-fi
+inherit readme.gentoo-r1 distutils-r1 pypi
 
 DESCRIPTION="Make creating custom firmwares for ESP32/ESP8266 super easy."
 HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"

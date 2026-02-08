@@ -21,6 +21,7 @@
 
 [![zigbee2mqtt](https://img.shields.io/badge/zigbee2mqttjob-zigbee2mqtt-238636?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/zigbee2mqtt.yml)
 [![esphome](https://img.shields.io/badge/esphomejob-esphome-238636?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/esphome.yml)
+[![nodered](https://img.shields.io/badge/noderedjob-nodered-238636?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/nodered.yml)
 
 ## without Docker & Virtual Environments
 

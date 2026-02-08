@@ -150,7 +150,41 @@ jobs:
         elif [ -s /tmp/err ]; then
           echo "::warning::emerge virtual/homeassistant[full] raised warning" 
         fi
-  
+    
+  check_nodered:
+
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      options: --privileged
+    steps:
+    - uses: actions/checkout@v6
+    - name: Setup HomeAssistant repository
+      run: |
+        rsync -aHDPSv etc/portage/ /etc/portage/
+        echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
+        pwd -P >> /etc/portage/repos.conf/homeassistant.conf
+        git config --global --add safe.directory .
+    - name: Check deps... app-misc/node-red
+      run: |
+        echo -n "" > /etc/portage/package.use/zzz.use
+        emerge -pv --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
+          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y \
+          --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
+          app-misc/node-red >/tmp/out 2>/tmp/err || true
+        echo "::group::emerge stdout"
+        cat /tmp/out
+        echo "::endgroup::"
+        echo "::group::emerge stderr"
+        cat /tmp/err
+        echo "::endgroup::"
+        if ! grep -q "\[ebuild  N     \] app-misc/node-red-" /tmp/out; then
+          echo "::error::emerge app-misc/node-red failed"
+          exit 1
+        elif [ -s /tmp/err ]; then
+          echo "::warning::emerge app-misc/node-red raised warning"
+        fi
+        
   check_zigbee2mqtt:
 
     runs-on: ubuntu-latest
@@ -179,10 +213,10 @@ jobs:
         cat /tmp/err
         echo "::endgroup::"
         if ! grep -q "\[ebuild  N     \] app-misc/zigbee2mqtt-" /tmp/out; then
-          echo "::error::emerge dev-embedded/esphome failed"
+          echo "::error::emerge app-misc/zigbee2mqtt failed"
           exit 1
         elif [ -s /tmp/err ]; then
-          echo "::warning::emerge dev-embedded/esphome raised warning"
+          echo "::warning::emerge app-misc/zigbee2mqtt raised warning"
         fi
 
   ##########################################################################################
@@ -203,6 +237,13 @@ jobs:
     needs: state_homeassistant_init
     secrets: inherit
            
+  build_nodered:
+
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/nodered.yml@master
+    needs: state_nodered_init
+    secrets: inherit
+    
   build_zigbee2mqtt:
 
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
@@ -262,7 +303,7 @@ jobs:
   state_esphome_init:
 
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
-    needs: [ check_zigbee2mqtt, check_esphome, check_homeassistant, state_pkgcheck_complete, state_shellcheck_complete ]
+    needs: [ check_zigbee2mqtt, check_esphome, check_nodered, check_homeassistant, state_pkgcheck_complete, state_shellcheck_complete ]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6
@@ -303,10 +344,31 @@ jobs:
         git pull --no-rebase
         git push --force-with-lease
 
-  state_zigbee2mqtt_init:
+  state_nodered_init:
 
     if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
     needs: state_homeassistant_init
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+    - run: |
+        git config --local user.name "xavier.forestier"
+        git config --local user.email "{ID}+{username}@users.noreply.github.com"
+        git fetch
+        version=$( echo $( find ./app-misc/node-red -type f -name "*.ebuild" | sort -r | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
+        git switch master
+        git pull --no-rebase
+        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/noderedjob-\\)[^-]*-[^\\?]*/\\1node-red%20\\(running\\.\\.\\.\\)-lightgrey/" README.md
+        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/nodered-\\)[^-]*-[^\\?]*/\\1${version}-lightgrey/" README.md
+        git add README.md
+        git commit -m "[CI]Update node-red status" || true
+        git pull --no-rebase
+        git push --force-with-lease
+        
+  state_zigbee2mqtt_init:
+
+    if: github.event_name == 'pull_request' || github.ref == 'refs/heads/master'
+    needs: state_nodered_init
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v6

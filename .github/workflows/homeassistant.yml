@@ -82,7 +82,6 @@ jobs:
         emerge -v --jobs=1 --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
           --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
           virtual/homeassistant
-        cat /var/log/emerge.log
     - name: Free up space
       if: success() || failure()
       run: |
@@ -91,12 +90,13 @@ jobs:
         stat_cancelled=lightgrey
         stat_skipped=lightgrey
         stat_=lightgrey
+        version=$( echo $( find ./app-misc/homeassistant -type f -name "*.ebuild" | sort -r | head -n1 )  | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
         git fetch
         git switch master
         git pull
-        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/homeassistant-\\)[^-]*-[^\\?]*/\\1$( echo $( find ./app-misc/homeassistant -type f -name "*.ebuild" | sort -r | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )-${stat_${{ steps.merge_min.conclusion }}}/" README.md
+        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/homeassistant-\\)[^-]*-[^\\?]*/\\1${version}-${stat_${{ steps.merge_min.conclusion }}}/" README.md
         sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/homeassistant_minimal-\\)[^-]*-[^\\?]*/\\1homeassistant[minimal]-${stat_${{ steps.merge_min.conclusion }}}/" README.md
         sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/homeassistant_normal-\\)[^-]*-[^\\?]*/\\1homeassistant[normal]-${stat_${{ steps.merge_normal.conclusion }}}/" README.md
         sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/homeassistant_full-\\)[^-]*-[^\\?]*/\\1homeassistant[full]-${stat_${{ steps.merge_full.conclusion }}}/" README.md

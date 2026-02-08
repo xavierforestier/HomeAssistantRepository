@@ -1,0 +1,52 @@
+name: nodered
+on:
+  workflow_dispatch:
+  workflow_call:
+
+jobs:
+  emerge:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      options: --privileged
+    steps:
+    # synchronys my own git
+    - name: Checkout code
+      uses: actions/checkout@v6
+    # Sync custom files found /etc/portage files
+    - name: Setup HomeAssistant repository     
+      run: |
+        rsync -aHDPSv etc/portage/ /etc/portage/
+        echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
+        pwd -P >> /etc/portage/repos.conf/homeassistant.conf
+        git config --global --add safe.directory .
+    # Compile zigbee2mqtt and its dependencies
+    - name: emerge app-misc/node-red...
+      run: |
+        echo -n "" > /etc/portage/package.use/zzz.use
+        emerge --jobs=16 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 --jobs-tmpdir-require-free-gb=0 -q app-misc/node-red || true
+        for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
+        for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
+        emerge --jobs=1 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 -v app-misc/node-red
+        cat /var/log/emerge.log
+  report_status:
+    if: success() || failure()
+    needs: emerge
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
+    with:
+      pkg-name: noderedjob
+      pkg-version: nodered
+      pkg-status: ${{ needs.emerge.result }}
+      autoretry: true
+    secrets: inherit
+  
+  report_version:
+    if: success() || failure()
+    needs: [emerge, report_status]
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
+    with:
+      pkg-name: nodered
+      pkg-category: app-misc
+      pkg-status: ${{ needs.emerge.result }}
+      autoretry: true
+    secrets: inherit

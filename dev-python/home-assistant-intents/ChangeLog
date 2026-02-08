@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  07 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  home-assistant-intents-2026.1.28.ebuild:
+  app-misc/homeassistant 2026.2.1
+
 *home-assistant-intents-2026.1.28 (07 Feb 2026)
 
   07 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

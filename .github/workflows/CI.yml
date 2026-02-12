@@ -359,7 +359,7 @@ jobs:
         git switch master
         git pull --no-rebase
         sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/noderedjob-\\)[^-]*-[^\\?]*/\\1node-red%20\\(running\\.\\.\\.\\)-lightgrey/" README.md
-        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/nodered-\\)[^-]*-[^\\?]*/\\1${version}-lightgrey/" README.md
+        sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/node-red-\\)[^-]*-[^\\?]*/\\1${version}-lightgrey/" README.md
         git add README.md
         git commit -m "[CI]Update node-red status" || true
         git pull --no-rebase

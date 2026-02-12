@@ -45,7 +45,7 @@ jobs:
     needs: [emerge, report_status]
     uses: xavierforestier/HomeAssistantRepository/.github/workflows/update-readme.yml@master
     with:
-      pkg-name: nodered
+      pkg-name: node-red
       pkg-category: app-misc
       pkg-status: ${{ needs.emerge.result }}
       autoretry: true

@@ -3,7 +3,7 @@
 [![homeassistant-version](https://img.shields.io/badge/homeassistant-2026.2.1-238636?logo=homeassistant&label=app-misc%2Fhomeassistant)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/homeassistant)
 [![zigbee2mqtt-version](https://img.shields.io/badge/zigbee2mqtt-2.8.0-238636?logo=zigbee2mqtt&label=app-misc%2Fzigbee2mqqt)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/zigbee2mqtt)
 [![esphome-version](https://img.shields.io/badge/esphome-2026.1.5-238636?logo=esphome&label=dev-embedded%2Fesphome)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/dev-embedded/esphome)
-[![nodered-version](https://img.shields.io/badge/nodered--238636?logo=nodered&label=app-misc%2Fnode-red)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/node-red)
+[![nodered-version](https://img.shields.io/badge/nodered-4.1.4-238636?logo=nodered&label=app-misc%2Fnode-red)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/node-red)
 
 ## Repo activty
 [![OS](https://img.shields.io/badge/OS-Gentoo%20Linux-blue)](https://www.gentoo.org/)

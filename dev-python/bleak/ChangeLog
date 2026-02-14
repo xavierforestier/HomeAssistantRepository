@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  14 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bleak-2.0.0.ebuild:
+  app-misc/homeassistant 2026.2.2
+
 *bleak-2.1.1 (21 Jan 2026)
 
   21 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

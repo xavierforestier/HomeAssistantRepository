@@ -9,10 +9,7 @@ PYTHON_COMPAT=( python3_{10..13} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Package used for parsing and generating iCalendar files (RFC 2445)"
-HOMEPAGE="
-	https://github.com/collective/icalendar/
-	https://pypi.org/project/icalendar/
-"
+HOMEPAGE="https://github.com/collective/icalendar/ https://pypi.org/project/icalendar/"
 
 LICENSE="BSD-2"
 SLOT="0"

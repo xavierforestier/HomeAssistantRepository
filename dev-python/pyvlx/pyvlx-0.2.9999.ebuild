@@ -20,9 +20,4 @@ DOCS="README.md"
 
 RDEPEND="dev-python/pyyaml[${PYTHON_USEDEP}]"
 
-src_prepare() {
-	sed -i "s/packages=find_packages()/packages=find_packages(exclude=['test*'])/g" -i setup.py || die
-	eapply_user
-}
-
 distutils_enable_tests pytest

@@ -10,10 +10,10 @@ acct-user/zigbee2mqtt 0-r2: A user for zigbee2mqtt
 acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 5.1.0 5.2.2: An implementation of the ACME protocol
 app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2026.2.0 2026.2.1 2026.2.2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2026.2.0 2026.2.1 2026.2.2 2026.2.3: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.3 4.1.4 4.1.5: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.7.1 2.7.2 2.8.0: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2026.1.4 2026.1.5 2026.2.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.1.5 2026.2.0 2026.2.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18 6.1.19: An open source ecosystem for IoT development
@@ -363,7 +363,7 @@ dev-python/easyenergy 2.2.0: Asynchronous Python client providing energy/gas pri
 dev-python/ebusdpy 0.0.17: eBusd python integration library
 dev-python/ecoaliface 0.4.0: Interface to eSterownik.pl eCoal water boiler controller.
 dev-python/egauge-async 0.4.0: Async client for eGauge energy monitor (https://www.egauge.net)
-dev-python/eheimdigital 1.5.0: Offers a Python API for the EHEIM Digital smart aquarium devices.
+dev-python/eheimdigital 1.5.0 1.6.0: Offers a Python API for the EHEIM Digital smart aquarium devices.
 dev-python/ekey-bionyxpy 1.0.1: Interact with the bionyx third party API of the ekey biometric systems.
 dev-python/electrickiwi-api 0.9.14: Electric Kiwi Python API
 dev-python/elevenlabs 2.3.0: The official Python API for ElevenLabs text-to-speech software.
@@ -546,7 +546,7 @@ dev-python/iammeter 0.2.1: IamMeter api
 dev-python/iaqualink 0.6.0: Asynchronous library for Jandy iAqualink
 dev-python/ibeacon-ble 1.2.0: Parser for iBeacon devices
 dev-python/ibmiotf 0.3.4: Python Client for IBM Watson IoT Platform
-dev-python/ical 12.1.3: Python iCalendar implementation (rfc 2445)
+dev-python/ical 12.1.3 13.2.0: Python iCalendar implementation (rfc 2445)
 dev-python/icalendar 6.3.1: Package used for parsing and generating iCalendar files (RFC 2445)
 dev-python/icmplib 3.0.4: Easily forge ICMP packets and make your own ping and traceroute.
 dev-python/idasen 0.10.3: ikea IDASEN desk API and CLI.
@@ -994,7 +994,7 @@ dev-python/pypandoc 1.7.4: Thin wrapper for pandoc.
 dev-python/pypaperless 4.1.1: Little api client for paperless(-ngx).
 dev-python/pypasser 0.0.5: Bypassing reCaptcha V3 by solving reCaptcha V2 using speech to text
 dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
-dev-python/pypck 0.9.9: LCN-PCK library
+dev-python/pypck 0.9.9 0.9.11: LCN-PCK library
 dev-python/pypglab 0.0.5: Library to communicate with PG LAB Electronics devices over MQTT.
 dev-python/pypjlink2 1.2.1: PJLink is a standard for controlling data projectors.
 dev-python/pyplaato 0.0.19: Asynchronous Python client for getting Plaato Airlock and Keg data
@@ -1009,7 +1009,7 @@ dev-python/pyqrcode 1.2.1-r3: A pure Python QR code generator with SVG, EPS, PNG
 dev-python/pyqvrpro 0.52: QVR Pro API wrapper.
 dev-python/pyqwikswitch 0.93: Library to interface Qwikswitch USB Hub
 dev-python/pyrail 0.4.1: Python wrapper for the iRail API
-dev-python/pyrainbird 6.0.1: Rain Bird Controller
+dev-python/pyrainbird 6.0.1 6.0.5: Rain Bird Controller
 dev-python/pyrecswitch 1.0.2: A pure-python interface for controlling Ankuoo RecSwitch MS6126
 dev-python/pyrepetierng 0.1.0-r1: A updated python Repetier-Server library based on Mtrabs library
 dev-python/pyrfxtrx 0.31.1: a library to communicate with the RFXtrx family of devices
@@ -1038,7 +1038,7 @@ dev-python/pyskyqhub 0.1.4: Library for Sky Q hub
 dev-python/pysma 1.1.0: Library to interface an SMA Solar WebConnect module
 dev-python/pysmappee 0.2.29: Offical Smappee dev API and MQTT python wrapper
 dev-python/pysmarlaapi 0.9.3: Swing2Sleep Smarla API
-dev-python/pysmartthings 3.5.1 3.5.2: Library for interacting with the SmartThings cloud API
+dev-python/pysmartthings 3.5.1 3.5.2 3.5.3: Library for interacting with the SmartThings cloud API
 dev-python/pysmarty2 0.10.3: Python API for Salda Smarty Modbus TCP
 dev-python/pysmhi 1.1.0: Retrieve open data from SMHI api
 dev-python/pysml 0.1.5: Python library for EDL21 smart meters using Smart Message Language (SML)
@@ -1140,7 +1140,7 @@ dev-python/pyversasense 0.0.6: Versasense API consumer
 dev-python/pyvesync 3.4.1: pyvesync is a library to manage Etekcity Devices and Levoit Air Purifier
 dev-python/pyvicare 2.56.0: Library to communicate with the Viessmann ViCare API
 dev-python/pyvizio 0.1.61: Library for interfacing with Vizio SmartCast TVs and Sound Bars (2016+ models)
-dev-python/pyvlx 0.2.26 0.2.27 0.2.28 0.2.29-r9999: Enables you to run scenes and or open and close VELUX windows via KLF200
+dev-python/pyvlx 0.2.28 0.2.29-r9999: Enables you to run scenes and or open and close VELUX windows via KLF200
 dev-python/pyvolumio 0.1.5: A python library to control Volumio.
 dev-python/pyw215 0.8.0: Interface for d-link W215 Smart Plugs.
 dev-python/pyw800rf32 0.4: A library to communicate with the W800rf32 family of devices

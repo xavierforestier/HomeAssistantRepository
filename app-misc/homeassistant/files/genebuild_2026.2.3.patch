@@ -1,5 +1,5 @@
---- a/core-2026.2.0/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
-+++ b/core-2026.2.0/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
+--- a/core-2026.2.3/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
++++ b/core-2026.2.3/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
 @@ -194,7 +194,7 @@
  
  # homeassistant.components.ambient_network
@@ -248,8 +248,8 @@
  
  # homeassistant.components.sisyphus
  sisyphus-control==3.1.4
---- a/core-2026.2.0/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
-+++ b/core-2026.2.0/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+--- a/core-2026.2.3/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
++++ b/core-2026.2.3/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -73,7 +73,7 @@
  uv==0.9.26
  voluptuous-openapi==0.2.0
@@ -277,10 +277,13 @@
 
  # Pin pytest-rerunfailures to prevent accidental breaks
  pytest-rerunfailures==16.0.1
-@@ -234,4 +234,4 @@
+@@ -234,7 +234,7 @@
  # auth0-python v5.0 is a major rewrite with breaking changes
  # used by sharkiq==1.5.0
  # https://github.com/auth0/auth0-python/releases/tag/5.0.0
 -auth0-python<5.0
 +auth0-python<=4.99
 
+ # Setuptools >=82.0.0 doesn't contain pkg_resources anymore
+-setuptools<82.0.0
++

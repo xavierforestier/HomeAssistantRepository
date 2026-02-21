@@ -3,6 +3,6 @@
 <pkgmetadata>
   <upstream>
     <remote-id type="pypi">eheimdigital</remote-id>
-    <remote-id type="github">autinerd/eheimdigital</remote-id>
+    <remote-id type="codeberg">autinerd/eheimdigital</remote-id>
   </upstream>
 </pkgmetadata>

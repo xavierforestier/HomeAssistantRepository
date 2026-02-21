@@ -6,19 +6,7 @@ DISTUTILS_USE_PEP517=setuptools
 DISTUTILS_SINGLE_IMPL=1
 PYTHON_COMPAT=( python3_{12..14} )
 
-inherit readme.gentoo-r1 distutils-r1
-
-if [[ ${PV} == *9999* ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/esphome/esphome.git"
-	EGIT_BRANCH="dev"
-	S="${WORKDIR}/${P}/"
-else
-	inherit pypi
-	MY_P=${P/_beta/b}
-	MY_PV=${PV/_beta/b}
-	S="${WORKDIR}/${MY_P}/"
-fi
+inherit readme.gentoo-r1 distutils-r1 pypi
 
 DESCRIPTION="Make creating custom firmwares for ESP32/ESP8266 super easy."
 HOMEPAGE="https://github.com/esphome/esphome https://pypi.org/project/esphome/"
@@ -46,21 +34,22 @@ RDEPEND="
 	~dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2021.1[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	~dev-embedded/platformio-6.1.18[${PYTHON_SINGLE_USEDEP}]
+	~dev-embedded/platformio-6.1.19[${PYTHON_SINGLE_USEDEP}]
 	~dev-embedded/esptool-5.1.0[${PYTHON_SINGLE_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
-	~dev-embedded/esphome-dashboard-20260110.0[${PYTHON_USEDEP}]
-	~dev-python/aioesphomeapi-43.13.0[${PYTHON_USEDEP}]
+	~dev-embedded/esphome-dashboard-20260210.0[${PYTHON_USEDEP}]
+	~dev-python/aioesphomeapi-44.0.0[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.148.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.30[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.15[${PYTHON_USEDEP}]
 	~dev-python/esphome-glyphsets-0.2.0[${PYTHON_USEDEP}]
 	>=dev-python/pillow-11.3.0[${PYTHON_USEDEP}]
-	~dev-python/resvg-py-0.2.5[${PYTHON_USEDEP}]
+	~dev-python/resvg-py-0.2.6[${PYTHON_USEDEP}]
 	~dev-python/freetype-py-2.5.1[${PYTHON_USEDEP}]
 	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	~dev-python/bleak-2.1.1[${PYTHON_USEDEP}]
+	~dev-python/requests-2.32.5[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.0[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-2.0.0[${PYTHON_USEDEP}]
 	' )

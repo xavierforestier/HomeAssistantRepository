@@ -1,0 +1,10 @@
+--- a/pyproject.toml	2026-02-15 12:30:13.907934092 +0100
++++ b/pyproject.toml	2026-02-15 12:30:44.243113294 +0100
+@@ -1,6 +1,6 @@
+ [project]
+ name = "pyvlx"
+-dynamic = ["version"]
++version = "0.2.29"
+ description = "PyVLX is a wrapper for the Velux KLF 200 API. PyVLX enables you to run scenes and or open and close velux windows."
+ readme = "README.md"
+ requires-python = ">=3.11"

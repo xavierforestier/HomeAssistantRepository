@@ -29,7 +29,7 @@ jobs:
       run: |
         fix_readme() {
           my_package=${${{ inputs.pkg-name }}//-/}${${{ inputs.pkg-name }}//-/}
-          sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/${my_package}-\\)[^-]*-[^\\?]*/\\1${version}-${stat_${{ inputs.pkg-status }}}/" README.md
+          sed -ie "s/(https:\\/\\/img\\.shields\\.io\\/badge\\/)${my_package}-[^-]*-[^?]*/\\1${version}-${stat_${{ inputs.pkg-status }}}/" README.md
           git add README.md
           git commit -m "[CI]Update ${{ inputs.pkg-name }} status" || true
           git pull --no-rebase

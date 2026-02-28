@@ -1456,3 +1456,4 @@ net-misc/yt-dlp 2026.02.04: youtube-dl fork with additional features and fixes
 sci-geosciences/geopy 2.3.0-r2: Python client for several popular geocoding web services
 sci-ml/tokenizers 0.22.1: Implementation of today's most used tokenizers
 virtual/homeassistant 0: Homeassistant features set
+www-nginx/ngx-http-auth-totp 1.1.0: Time-based one-time password (TOTP) authentication for Nginx

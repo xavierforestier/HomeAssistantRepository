@@ -1,0 +1,29 @@
+--- a/ngx_http_auth_totp.c	2026-02-28 14:05:02.722721841 +0100
++++ b/ngx_http_auth_totp.c	2026-02-28 14:10:25.110626915 +0100
+@@ -736,6 +736,7 @@
+     ngx_http_auth_totp_loc_conf_t *lcf;
+     uint64_t count, index;
+     u_char buffer[8];
++    char fmt[] = "%00uD"; // Don't change without adjusting manipulation below
+     time_t now;
+ 
+     /*
+@@ -753,6 +754,7 @@
+     if (r->headers_in.passwd.len != digits) {
+         return ngx_http_auth_totp_set_realm(r, realm);
+     }
++    fmt[2] = '0' + digits;
+ 
+     now = time(NULL);
+     if (start > now) {
+@@ -763,8 +765,8 @@
+     ngx_http_auth_totp_cleanup_reuse(r, count - lcf->skew);
+     for (index = 0; index <= (uint64_t)lcf->skew; index++) {
+         /* assert(count >= index); */
+-        ngx_snprintf(buffer, sizeof(buffer), "%0*i", 
+-                digits, ngx_http_auth_totp_algorithm_hotp(key, length, count - index, digits));
++        ngx_snprintf(buffer, sizeof(buffer), fmt,
++                ngx_http_auth_totp_algorithm_hotp(key, length, count - index, digits));
+         if (ngx_strncmp(r->headers_in.passwd.data, buffer, digits) == 0) {
+ 
+             if (ngx_http_auth_totp_check_reuse(r, count - index) != 0) {

@@ -10,6 +10,10 @@ HOMEPAGE="https://github.com/61131/nginx-http-auth-totp"
 SRC_URI="https://github.com/61131/nginx-http-auth-totp/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
 S="${WORKDIR}/${MY_PN}-${PV}"
 
+PATCHES=(
+	${FILESDIR}/${P}-fix-auth.patch
+	${FILESDIR}/${P}-handle-token-starting-with-zero.patch
+)
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm64"

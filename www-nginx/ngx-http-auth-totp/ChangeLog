@@ -1,0 +1,28 @@
+# ChangeLog for www-nginx/ngx-http-auth-totp
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  28 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/ngx-http-auth-totp-1.1.0-fix-auth.patch,
+  +files/ngx-http-auth-totp-1.1.0-handle-token-starting-with-zero.patch,
+  ngx-http-auth-totp-1.1.0.ebuild:
+  Major patches : it doesn't work by default !!!
+
+*ngx-http-auth-totp-1.1.0 (28 Feb 2026)
+
+  28 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +ngx-http-auth-totp-1.1.0.ebuild:
+  www-nginx/ngx-http-auth-totp
+
+  28 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/ngx-http-auth-totp-1.1.0-fix-auth.patch,
+  +files/ngx-http-auth-totp-1.1.0-handle-token-starting-with-zero.patch,
+  ngx-http-auth-totp-1.1.0.ebuild:
+  Major patches : it doesn't work by default !!!
+
+*ngx-http-auth-totp-1.1.0 (27 Feb 2026)
+
+  27 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +ngx-http-auth-totp-1.1.0.ebuild:
+  www-nginx/ngx-http-auth-totp
+

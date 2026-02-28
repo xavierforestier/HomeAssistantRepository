@@ -1,0 +1,19 @@
+--- a/ngx_http_auth_totp.c	2026-02-27 20:13:01.420171340 +0100
++++ b/ngx_http_auth_totp.c	2026-02-27 20:16:26.716423313 +0100
+@@ -470,7 +470,6 @@
+     length = 0;
+     offset = 0;
+     state = STATE_USER;
+-    rc = NGX_OK;
+ 
+     for (;;) {
+         rv = ngx_read_file(&file, buffer + count, NGX_HTTP_AUTH_TOTP_BUF_SIZE - count, offset);
+@@ -567,6 +566,8 @@
+         offset += rv;
+     }
+ 
++    rc = ngx_http_auth_totp_set_realm(r, &realm);
++
+ finish:
+     if (ngx_close_file(file.fd) == NGX_FILE_ERROR) {
+         ngx_log_error(NGX_LOG_ALERT, r->connection->log, ngx_errno,

@@ -1,7 +1,7 @@
 # Home Assistant for Gentoo
 ## Main package version & CI/CD status
 [![homeassistant-version](https://img.shields.io/badge/homeassistant-2026.2.3-lightgrey?logo=homeassistant&label=app-misc%2Fhomeassistant)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/homeassistant)
-[![zigbee2mqtt-version](https://img.shields.io/badge/zigbee2mqtt-2.9.0-lightgrey?logo=zigbee2mqtt&label=app-misc%2Fzigbee2mqqt)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/zigbee2mqtt)
+[![zigbee2mqtt-version](https://img.shields.io/badge/zigbee2mqtt-2.9.1-lightgrey?logo=zigbee2mqtt&label=app-misc%2Fzigbee2mqqt)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/zigbee2mqtt)
 [![esphome-version](https://img.shields.io/badge/esphome-2026.2.2-lightgrey?logo=esphome&label=dev-embedded%2Fesphome)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/dev-embedded/esphome)
 [![nodered-version](https://img.shields.io/badge/nodered-4.1.5-238636?logo=nodered&label=app-misc%2Fnode-red)](https://github.com/xavierforestier/HomeAssistantRepository/tree/master/app-misc/node-red)
 

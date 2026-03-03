@@ -10,9 +10,7 @@ if [[ ${PV} == *9999* ]]; then
 else
 	SRC_URI="
 		https://github.com/Koenkk/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz
-		https://github.com/xavierforestier/${PN}/releases/download/v${PV}/${P}-nodes_modules.tar.xz
-	"
-
+		https://github.com/xavierforestier/${PN}/releases/download/v${PV}/${P}-nodes_modules.tar.xz"
 fi
 
 inherit nodejs-mod systemd tmpfiles

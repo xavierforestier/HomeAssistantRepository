@@ -1,0 +1,11 @@
+--- a/pyproject.toml	2026-03-07 21:09:12.527278124 +0100
++++ b/pyproject.toml	2026-03-07 21:09:44.716171581 +0100
+@@ -1,7 +1,7 @@
+ [project]
+ name = "b2sdk"
+ description = "Backblaze B2 SDK"
+-dynamic = ["version"]
++version = "2.10.1"
+ authors = [
+     {name = "Backblaze Inc", email = "support@backblaze.com"},
+ ]

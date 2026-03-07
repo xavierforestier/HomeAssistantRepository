@@ -1,0 +1,12 @@
+--- a/pyproject.toml       2026-03-07 19:01:20.111629667 +0100
++++ b/pyproject.toml      2026-03-07 19:03:56.851795495 +0100
+@@ -35,7 +35,7 @@
+ build-backend = "setuptools.build_meta"
+ 
+ [tool.setuptools.packages.find]
+-exclude = ["test*"]
++exclude = [ "test*", "examples*" ]
+ 
+ [tool.setuptools.package-data]
+ pyvlx = ["py.typed"]
+

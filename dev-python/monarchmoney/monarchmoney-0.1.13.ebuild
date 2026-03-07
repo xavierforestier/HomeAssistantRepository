@@ -18,9 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	!dev-python/monarchmoneycommunity[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/oathtool[${PYTHON_USEDEP}]"
+	dev-python/oathtool[${PYTHON_USEDEP}]
+"
 
 src_prepare() {
 	echo "aiohttp>=3.8.4" >> requirements.txt || die

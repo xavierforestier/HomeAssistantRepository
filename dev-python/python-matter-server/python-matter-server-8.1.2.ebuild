@@ -19,6 +19,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
+	!dev-python/matter-python-client[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.13.2[${PYTHON_USEDEP}]
 	>=dev-python/aiorun-2025.1.1[${PYTHON_USEDEP}]
 	>=dev-python/atomicwrites-1.4.1[${PYTHON_USEDEP}]

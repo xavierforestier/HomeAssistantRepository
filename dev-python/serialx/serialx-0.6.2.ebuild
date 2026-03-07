@@ -54,6 +54,7 @@ CRATES="
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
+PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1
 
 inherit distutils-r1 pypi cargo
 
@@ -70,6 +71,9 @@ RDEPEND="dev-python/typing-extensions[${PYTHON_USEDEP}]"
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest
 
+src_compile() {
+	PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 cargo_src_compile
+}
 src_install() {
 	dolib.so target/release/lib_serialx_rust.so
 	distutils-r1_python_install_all

@@ -15,6 +15,8 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
+PATCHES="${FILESDIR}/${P}-build-python-3.14.patch"
+
 RDEPEND="
 	>=dev-python/aiohttp-3.11.13[${PYTHON_USEDEP}]
 	>=dev-python/pytest-8.3.5[${PYTHON_USEDEP}]

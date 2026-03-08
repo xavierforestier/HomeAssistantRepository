@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/aionanoleaf2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aionanoleaf2-1.0.2 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aionanoleaf2-1.0.2.ebuild, +metadata.xml:
+  app-misc/homeassistant 2026.3.0
+

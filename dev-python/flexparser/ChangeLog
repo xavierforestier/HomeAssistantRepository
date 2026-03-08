@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/flexparser
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*flexparser-0.4 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +flexparser-0.4.ebuild:
+  app-misc/homeassistant 2026.3.0
+

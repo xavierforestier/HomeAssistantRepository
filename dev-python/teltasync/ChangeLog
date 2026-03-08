@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/teltasync
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*teltasync-0.1.3 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +teltasync-0.1.3.ebuild:
+  app-misc/homeassistant 2026.3.0
+

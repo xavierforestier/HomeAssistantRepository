@@ -85,7 +85,7 @@ if [[ ${PV} != *9999* ]] ; then
 fi
 
 PATCHES=(
-	"${WORKDIR}"/${PN}-7.97-patches-1
+	"${WORKDIR}/${PN}-7.97-patches-1"
 )
 
 pkg_setup() {
@@ -140,17 +140,17 @@ src_configure() {
 	python_setup
 
 	local myeconfargs=(
-		$(use_enable ipv6)
-		$(use_enable nls)
-		$(use_with libssh2)
-		$(use_with ncat)
-		$(use_with ndiff)
-		$(use_with nping)
-		$(use_with nse liblua)
-		$(use_with ssl openssl)
-		$(use_with zenmap)
-		$(usex libssh2 --with-zlib)
-		$(usex nse --with-zlib)
+		"$(use_enable ipv6)"
+		"$(use_enable nls)"
+		"$(use_with libssh2)"
+		"$(use_with ncat)"
+		"$(use_with ndiff)"
+		"$(use_with nping)"
+		"$(use_with nse liblua)"
+		"$(use_with ssl openssl)"
+		"$(use_with zenmap)"
+		"$(usex libssh2 --with-zlib)"
+		"$(usex nse --with-zlib)"
 		--cache-file="${S}"/config.cache
 		# The bundled libdnet is incompatible with the version available in the
 		# tree, so we cannot use the system library here.

@@ -44,16 +44,16 @@ parse_package() {
       version=$( echo "${l:$pos}" | cut -d\; -f1 )
     fi
     local package
-    package=$( eix -es# "$d" --use python_targets_python3_13 )
+    package=$( eix -es# "$d" --use python_targets_python3_14 )
     dlower=${d,,}
     if [ -z "$package" ];then
-      package=$( eix -es# "${d,,}" --use python_targets_python3_13 )
+      package=$( eix -es# "${d,,}" --use python_targets_python3_14 )
     fi
     if [ -z "$package" ];then
-      package=$( eix -es# "${dlower//_/-}" --use python_targets_python3_13 )
+      package=$( eix -es# "${dlower//_/-}" --use python_targets_python3_14 )
     fi
     if [ -z "$package" ];then
-      package=$( eix -es# "${dlower//./-}" --use python_targets_python3_13 )
+      package=$( eix -es# "${dlower//./-}" --use python_targets_python3_14 )
     fi
     case $d in
       atomicwrites-homeassistant)
@@ -95,9 +95,9 @@ parse_package() {
     local dep_use
     dep_use=$( echo "$dep" | cut -sd[ -f2 | cut -sd] -f1 )
     if [ "$dep_use" = "" ]; then
-      echo -n "[\${PYTHON_USEDEP}]" >> "$2"
+      echo -n "" >> "$2"
     else
-      echo -n "[$dep_use,\${PYTHON_USEDEP}]" >> "$2"
+      echo -n "[$dep_use]" >> "$2"
     fi
     break
   done
@@ -210,15 +210,11 @@ cat >> metadata.xml << EOF
     <flag name="bme280">bme280</flag>
     <flag name="bme680">bme680</flag>
     <flag name="cli">cli</flag>
-    <flag name="coronavirus">coronavirus</flag>
-    <flag name="deutsche-bahn">deutsche-bahn</flag>
     <flag name="dht">dht</flag>
-    <flag name="http">http</flag>
     <flag name="mariadb">mariadb</flag>
     <flag name="mosquitto">mosquitto</flag>
     <flag name="smarthab">smarthab</flag>
-    <flag name="socat">socat</flag>
-    <flag name="somfy">somfy</flag>
+    <falg name="socat"socat</flag>
     <flag name="tesla">tesla</flag>
     <flag name="wink">wink</flag>
   </use>
@@ -231,8 +227,8 @@ cat > "$EBUILD_PATH" << EOF
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
-PYTHON_COMPAT=( python3_{12..13} )
+PYTHON_COMPAT=( python3_14 )
+DISTUTILS_SINGLE_IMPL=python3_14
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 PYPI_PN="homeassistant"
@@ -259,7 +255,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 EOF
-echo -n "IUSE=\"bh1750 blinkt bme280 bme680 cli coronavirus deutsche-bahn dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink " >> "$EBUILD_PATH"
+echo -n "IUSE=\"bh1750 blinkt bme280 bme680 cli dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink " >> "$EBUILD_PATH"
 
 grep "\<flag" "metadata.xml" | cut -d\" -f2 | while read -r u; do 
   case $u in
@@ -276,7 +272,7 @@ RESTRICT="!test? ( test )"
 
 # external deps
 RDEPEND="\${PYTHON_DEPS} acct-group/\${MY_PN} acct-user/\${MY_PN}
-	|| ( dev-lang/python:3.12 dev-lang/python:3.13 )
+	dev-lang/python:3.14
 	app-admin/logrotate
 	dev-db/sqlite
 	dev-libs/libfastjson
@@ -292,24 +288,22 @@ cat >> "$EBUILD_PATH" <<EOF
 
 # Module requirements from useflags
 RDEPEND="\${RDEPEND}
-	bh1750? ( dev-python/i2csense[\${PYTHON_USEDEP}] )
-	blinkt? ( ~dev-python/blinkt-0.1.0[\${PYTHON_USEDEP}] )
-	bme280? ( dev-python/i2csense[\${PYTHON_USEDEP}] dev-python/bme280spi[\${PYTHON_USEDEP}] )
-	bme680? ( dev-python/bme680[\${PYTHON_USEDEP}] )
+	bh1750? ( dev-python/i2csense )
+	blinkt? ( ~dev-python/blinkt-0.1.0 )
+	bme280? ( dev-python/i2csense dev-python/bme280spi )
+	bme680? ( dev-python/bme680 )
 	cli? ( app-misc/home-assistant-cli )
-	coronavirus? ( dev-python/coronavirus[\${PYTHON_USEDEP}] )
-	deutsche-bahn? ( dev-python/schiene[\${PYTHON_USEDEP}] )
-	dht? ( ~dev-python/adafruit-circuitpython-dht-3.7.0[\${PYTHON_USEDEP}] ~dev-python/rpi-gpio-0.7.1_alpha4[\${PYTHON_USEDEP}] )
-	http? ( dev-python/aiohttp[\${PYTHON_USEDEP}] ~dev-python/aiohttp-fast-url-dispatcher-0.3.0[\${PYTHON_USEDEP}] ~dev-python/aiohttp-zlib-ng-0.3.1[\${PYTHON_USEDEP}] )
-	mariadb? ( dev-python/mysqlclient[\${PYTHON_USEDEP}] )
+	dht? ( ~dev-python/adafruit-circuitpython-dht-3.7.0 ~dev-python/rpi-gpio-0.7.1_alpha4 )
+	http? ( dev-python/aiohttp ~dev-python/aiohttp-fast-url-dispatcher-0.3.0 ~dev-python/aiohttp-zlib-ng-0.3.1 )
+	mariadb? ( dev-python/mysqlclient )
 	mosquitto? ( app-misc/mosquitto )
-	mysql? ( dev-python/mysqlclient[\${PYTHON_USEDEP}] )
-	smarthab? ( ~dev-python/smarthab-0.21[\${PYTHON_USEDEP}] )
+	mysql? ( dev-python/mysqlclient )
+	smarthab? ( ~dev-python/smarthab-0.21 )
 	socat? ( net-misc/socat )
-	somfy? ( ~dev-python/pymfy-0.11.0[\${PYTHON_USEDEP}] )
+	somfy? ( ~dev-python/pymfy-0.11.0 )
 	ssl? ( dev-libs/openssl app-crypt/certbot net-proxy/haproxy )
-	tesla? ( ~dev-python/teslajsonpy-0.18.3[\${PYTHON_USEDEP}] )
-	wink? ( ~dev-python/pubnubsub-handler-1.0.9[\${PYTHON_USEDEP}] ~dev-python/python-wink-1.10.5[\${PYTHON_USEDEP}] )
+	tesla? ( ~dev-python/teslajsonpy-0.18.3 )
+	wink? ( ~dev-python/pubnubsub-handler-1.0.9 ~dev-python/python-wink-1.10.5 )
 EOF
 grep "IUSE=" "$EBUILD_PATH" | cut -d\" -f2 | tr ' ' '\n' | while read -r use; do
   parse_use_flag_req "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/core-${VERSION/b/_beta}/requirements_all.txt" "${use/+/}"
@@ -320,33 +314,32 @@ cat >> "$EBUILD_PATH" <<EOF
 
 BDEPEND="\${RDEPEND}
 	test? (
-		dev-python/astroid[\${PYTHON_USEDEP}]
-		dev-python/coverage[\${PYTHON_USEDEP}]
-		dev-python/freezegun[\${PYTHON_USEDEP}]
-		dev-python/mock-open[\${PYTHON_USEDEP}]
-		dev-python/mypy-dev[\${PYTHON_USEDEP}]
-		dev-python/pipdeptree[\${PYTHON_USEDEP}]
+		dev-python/astroid
+		dev-python/coverage
+		dev-python/freezegun
+		dev-python/mock-open
+		dev-python/mypy-dev
+		dev-python/pipdeptree
 		dev-vcs/pre-commit
-		dev-python/pylint-per-file-ignores[\${PYTHON_USEDEP}]
-		dev-python/pylint[\${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[\${PYTHON_USEDEP}]
-		dev-python/pytest-cov[\${PYTHON_USEDEP}]
-		dev-python/pytest-freezer[\${PYTHON_USEDEP}]
-		dev-python/pytest-github-actions-annotate-failures[\${PYTHON_USEDEP}]
-		dev-python/pytest-picked[\${PYTHON_USEDEP}]
-		dev-python/pytest-socket[\${PYTHON_USEDEP}]
-		dev-python/pytest-sugar[\${PYTHON_USEDEP}]
-		dev-python/pytest-timeout[\${PYTHON_USEDEP}]
-		dev-python/pytest-unordered[\${PYTHON_USEDEP}]
-		dev-python/pytest-xdist[\${PYTHON_USEDEP}]
-		dev-python/pytest[\${PYTHON_USEDEP}]
-		dev-python/requests-mock[\${PYTHON_USEDEP}]
-		dev-python/respx[\${PYTHON_USEDEP}]
-		dev-python/syrupy[\${PYTHON_USEDEP}]
-		dev-python/tqdm[\${PYTHON_USEDEP}]
+		dev-python/pylint-per-file-ignores
+		dev-python/pylint
+		dev-python/pytest-asyncio
+		dev-python/pytest-cov
+		dev-python/pytest-freezer
+		dev-python/pytest-github-actions-annotate-failures
+		dev-python/pytest-picked
+		dev-python/pytest-socket
+		dev-python/pytest-sugar
+		dev-python/pytest-timeout
+		dev-python/pytest-unordered
+		dev-python/pytest-xdist
+		dev-python/pytest
+		dev-python/requests-mock
+		dev-python/respx
+		dev-python/syrupy
+		dev-python/tqdm
 	)
-	dev-python/setuptools[\${PYTHON_USEDEP}]
-	dev-python/mock[\${PYTHON_USEDEP}]"
+"
 
 src_prepare() {
 	if use test ; then

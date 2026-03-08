@@ -11,7 +11,6 @@ SRC_URI="
 	https://github.com/node-red/node-red/archive/refs/tags/${PV}.tar.gz  -> ${P}.tar.gz
 	https://github.com/xavierforestier/node-red/releases/download/v${PV}/${P}-nodes_modules.tar.xz
 "
-
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

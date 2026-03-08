@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*pyvlx-0.2.30 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/pyvlx-0.2.30-exclude-examples.patch, -pyvlx-0.2.29-r9999.ebuild,
+  +pyvlx-0.2.30.ebuild:
+  app-misc/homeassistant 2026.3.0
+
   21 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -pyvlx-0.2.9999.ebuild:
   dev-embedded/esphome 2026.2.1

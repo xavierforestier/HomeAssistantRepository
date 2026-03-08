@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/tuya-device-handlers
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*tuya-device-handlers-0.0.10 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +tuya-device-handlers-0.0.10.ebuild:
+  app-misc/homeassistant 2026.3.0
+

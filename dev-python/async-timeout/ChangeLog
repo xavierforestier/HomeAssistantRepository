@@ -1,0 +1,38 @@
+# ChangeLog for dev-python/async-timeout
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*async-timeout-4.0.3 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +async-timeout-4.0.3.ebuild, +metadata.xml:
+  app-misc/homeassistant 2026.3.0
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -async-timeout-4.0.2-r1.ebuild, -metadata.xml:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -async-timeout-4.0.2-r1.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +async-timeout-4.0.2-r1.ebuilde:
+  Fix KEYWORDS
+
+  15 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -async-timeout-5.0.1.ebuild:
+  cleanup
+
+*async-timeout-5.0.1 (14 Feb 2025)
+
+  14 Feb 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +async-timeout-5.0.1.ebuild:
+  homeassisstant-2025.2.0
+
+*async-timeout-4.0.2-r1 (25 Sep 2023)
+
+  25 Sep 2023; Andreas Billmeier <b@edevau.net>
+  +async-timeout-4.0.2-r1.ebuild, +metadata.xml:
+  add async-timeout-4.0.2-r1 (from main)
+

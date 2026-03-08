@@ -1,0 +1,16 @@
+# ChangeLog for net-analyzer/nmap
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*nmap-7.98 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/nls.m4, +metadata.xml, +nmap-7.98.ebuild:
+  app-misc/homeassistant 2026.3.0
+
+*nmap-7.98 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/nls.m4, +metadata.xml, +nmap-7.98.ebuild:
+  app-misc/homeassistant 2026.3.0
+

@@ -1,0 +1,10 @@
+# ChangeLog for kde-plasma/drkonqi-legacy
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*drkonqi-legacy-6.3.80_p20250417 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +drkonqi-legacy-6.3.80_p20250417.ebuild:
+  app-misc/homeassistant 2026.3.0
+

@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/pyaxencoapi
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pyaxencoapi-1.0.6 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pyaxencoapi-1.0.6.ebuild:
+  app-misc/homeassistant 2026.3.0
+

@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/asyncstdlib
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*asyncstdlib-3.13.1 (08 Mar 2026)
+
+  08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +asyncstdlib-3.13.1.ebuild, +metadata.xml:
+  app-misc/homeassistant 2026.3.0
+

@@ -169,7 +169,7 @@ if [ -f "$EBUILD_PATH" ]; then
     echo -e "  \e[0;31m$EBUILD already exists, \e[0m"
     ebuild "$EBUILD_PATH" clean unpack
 else
-    for v in  ./home*-2*.ebuild; do
+    for v in $( ls ./home*-2*.ebuild | sort -rV ); do
         cp "$v" "$EBUILD_PATH"
         break
     done

@@ -517,7 +517,7 @@
     <flag name="madvr">The madVR Envy integration allows for the automation and control of madVR Envy devices.</flag>
     <flag name="mailgun">To be able to receive webhooks from Mailgun, your Home Assistant instance needs to be accessible from the web and you need to have the external URL configured.</flag>
     <flag name="marytts">The MaryTTS integration uses MaryTTS text-to-speech engine to read a text with natural sounding voices.</flag>
-    <flag name="mastodon">The Mastodon integration uses Mastodon to post status updates and get account statistics.</flag>
+    <flag name="mastodon">The Mastodon integration uses Mastodon to post status updates, get account statistics, and mute accounts.</flag>
     <flag name="matrix">This integration allows you to send messages to matrix rooms, as well as to react to messages in matrix rooms. Reacting to commands is accomplished by firing an event when one of the configured commands is triggered.</flag>
     <flag name="matter">The Matter integration network.</flag>
     <flag name="maxcube">The eQ-3 MAX! integration for Home Assistant allows you to connect eQ-3 MAX! components via the eQ-3 MAX! Cube. The components connects to the eQ-3 MAX! Cube via TCP and automatically makes all supported integrations available in Home Assistant. The name for each device is created by concatenating the MAX! room and device names.</flag>
@@ -705,7 +705,7 @@
     <flag name="prometheus">The Prometheus integration exposes metrics in a format which Prometheus can read.</flag>
     <flag name="prosegur">Integrate Prosegur Smart Alarms into Home Assistant.</flag>
     <flag name="prowl">The Prowl integration uses Prowl to deliver push notifications from Home Assistant to your iOS device.</flag>
-    <flag name="proxmoxve">Proxmox VE is an open-source server virtualization environment. This integration allows you to poll various data from your instance.</flag>
+    <flag name="proxmoxve">Proxmox VE is an open-source server virtualization environment. This integration lets you monitor your Proxmox VE nodes, virtual machines, and containers in Home Assistant, and exposes control actions (if your Proxmox permissions allow it).</flag>
     <flag name="proxy">The Camera Proxy integration allows you to pass another camera’s output through post-processing routines and generate a new camera with the post-processed output.</flag>
     <flag name="prusalink">The PrusaLink integration allows you to monitor your Prusa 3D printer and its progress with your Home Assistant installation. This integration works with Prusa MINI/MINI+, Prusa MK3.9/MK4, Prusa XL, Prusa CORE One, and with the older Raspberry Pi-based Prusa MK2.5/MK3.</flag>
     <flag name="ps4">The Sony PlayStation 4 integration allows you to control aSony PlayStation 4 console.</flag>

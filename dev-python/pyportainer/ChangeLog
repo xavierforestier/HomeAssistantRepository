@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*pyportainer-1.0.33 (20 Mar 2026)
+
+  20 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyportainer-1.0.23.ebuild, +pyportainer-1.0.33.ebuild:
+  app-misc/homeassistant 2026.3.2
+
 *pyportainer-1.0.31 (08 Mar 2026)
 
   08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

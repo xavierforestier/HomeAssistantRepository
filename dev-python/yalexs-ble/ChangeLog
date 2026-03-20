@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*yalexs-ble-3.2.8 (20 Mar 2026)
+
+  20 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -yalexs-ble-3.2.4.ebuild, +yalexs-ble-3.2.8.ebuild:
+  app-misc/homeassistant 2026.3.2
+
 *yalexs-ble-3.2.7 (08 Mar 2026)
 
   08 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

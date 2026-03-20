@@ -23,7 +23,7 @@ RDEPEND="
 	$( python_gen_cond_dep '
 	server? (
 		acct-group/esphome acct-user/esphome
-		~dev-python/tornado-6.5.4[${PYTHON_USEDEP}]
+		>=dev-python/tornado-6.5.4[${PYTHON_USEDEP}]
 	)
 	>=dev-python/cryptography-45.0.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
@@ -38,7 +38,7 @@ RDEPEND="
 	~dev-embedded/esptool-5.1.0[${PYTHON_SINGLE_USEDEP}]
 	>=dev-python/click-8.1.7[${PYTHON_USEDEP}]
 	~dev-embedded/esphome-dashboard-20260210.0[${PYTHON_USEDEP}]
-	~dev-python/aioesphomeapi-44.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aioesphomeapi-44.0.0[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.148.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.30[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]

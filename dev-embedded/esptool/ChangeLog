@@ -1,6 +1,13 @@
 # ChangeLog for dev-embedded/esptool
-# Copyright 1999-2025 Gentoo Foundation; Distributed under the GPL v2
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
+
+*esptool-5.2.0 (20 Mar 2026)
+*esptool-5.1.0 (20 Mar 2026)
+
+  20 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esptool-4.9.0.ebuild, +esptool-5.1.0.ebuild, +esptool-5.2.0.ebuild:
+  dev-embedded/esphome 2026.3.0
 
   13 Sep 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   esptool-4.9.0.ebuild:

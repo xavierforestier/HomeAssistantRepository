@@ -1,4 +1,4 @@
-# Copyright 2021-2025 Gentoo Authors
+# Copyright 2021-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -9,23 +9,23 @@ DISTUTILS_SINGLE_IMPL=1
 
 inherit distutils-r1 eapi9-ver
 
-DESCRIPTION="Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32"
+DESCRIPTION="Serial utility for flashing and interacting with Espressif ESP8266 and ESP32"
 HOMEPAGE="https://github.com/espressif/esptool"
 SRC_URI="https://github.com/espressif/${PN}/archive/v${PV}.tar.gz -> ${P}.tar.gz"
 
 LICENSE="GPL-2+"
 SLOT="0"
-KEYWORDS="amd64 ~arm ~arm64 x86"
+KEYWORDS="amd64 ~arm arm64 x86"
 
 RDEPEND="
 	$(python_gen_cond_dep '
 		>=dev-python/bitstring-3.1.6[${PYTHON_USEDEP}]
-		>=dev-python/cryptography-2.1.4[${PYTHON_USEDEP}]
-		>=dev-python/ecdsa-0.16.0[${PYTHON_USEDEP}]
-		>=dev-python/pyserial-3.3[${PYTHON_USEDEP}]
-		>=dev-python/reedsolo-1.5.3[${PYTHON_USEDEP}]
-		>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+		>=dev-python/cryptography-43.0.0[${PYTHON_USEDEP}]
 		dev-python/intelhex[${PYTHON_USEDEP}]
+		>=dev-python/pyserial-3.3[${PYTHON_USEDEP}]
+		>=dev-python/pyyaml-5.1[${PYTHON_USEDEP}]
+		>=dev-python/reedsolo-1.5.3[${PYTHON_USEDEP}]
+		dev-python/rich-click[${PYTHON_USEDEP}]
 	')
 "
 BDEPEND="
@@ -33,20 +33,14 @@ BDEPEND="
 		dev-python/wheel[${PYTHON_USEDEP}]
 	')
 	test? ( $(python_gen_cond_dep '
-		dev-python/cffi[${PYTHON_USEDEP}]
-		dev-python/requests[${PYTHON_USEDEP}]
 		dev-python/pyelftools[${PYTHON_USEDEP}]
 		dev-python/pytest[${PYTHON_USEDEP}]
 	') )
 "
-
 distutils_enable_tests pytest
-
 EPYTEST_DESELECT=(
 	# need real hardware connected
 	test/test_esptool.py
-	test/test_espefuse.py
-	test/test_esptool_sdm.py
 	# need network
 	test/test_uf2_ids.py
 )
@@ -66,5 +60,16 @@ pkg_postinst() {
 		ewarn "  - Flash parameters in an image header can now be changed only when no SHA256 digest is appended"
 		ewarn "  - The ESP8684 alias has been removed, ESP32-C2 has to be used"
 		ewarn "  - Megabit flash sizes have been deprecated, use megabyte units from now on"
+	fi
+	if ver_replacing -lt 5; then
+		ewarn "${P} - new 5.x release with breaking changes:"
+		ewarn "  - The .py suffix is deprecated for the following scripts:"
+		ewarn "  - esptool"
+		ewarn "  - espefuse"
+		ewarn "  - espsecure"
+		ewarn "  - esp_rfc2217_server"
+		ewarn "  - execute-scripts command is removed"
+		ewarn ""
+		ewarn "The official announcement of the changes can be found here: https://developer.espressif.com/blog/2025/04/esptool-v5/"
 	fi
 }

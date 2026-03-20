@@ -14,9 +14,9 @@ app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2026.2.3 2026.3.0 2026.3.1: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.5 4.1.6 4.1.7: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.8.0 2.9.0 2.9.1: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2026.2.2 2026.2.3 2026.2.4: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.2.3 2026.2.4 2026.3.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0: ESPHome dashboard
-dev-embedded/esptool 4.9.0: Utility to communicate with the ROM bootloader in Espressif ESP8266 and ESP32
+dev-embedded/esptool 4.9.0 5.1.0 5.2.0: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18 6.1.19: An open source ecosystem for IoT development
 dev-libs/foils_hid 0.3: Freebox Network HID devices library
 dev-libs/libela 0.3: Runtime Event Loop Abstraction library
@@ -72,7 +72,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2025.9.2: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 43.14.0 44.0.0 44.1.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 43.14.0 44.0.0 44.1.0 44.5.2: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -1282,6 +1282,8 @@ dev-python/slixmpp 1.8.5: Python 3 library for XMPP
 dev-python/smart-meter-texas 0.5.5: Package to retrieve data from the unofficial Smart Meter Texas API
 dev-python/smarthab 0.21: This package allows controlling devices in a SmartHab-powered home.
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
+dev-python/smp 4.0.2: Simple Management Protocol (SMP) for remotely managing MCU firmware
+dev-python/smpclient 6.0.0: Simple Management Protocol (SMP) Client for remotely managing MCU firmware
 dev-python/snapcast 2.3.6 2.3.7: Control Snapcast.
 dev-python/snitun 0.45.1: SNI proxy with TCP multiplexer
 dev-python/sockio 0.15.0: Concurrency agnostic socket API

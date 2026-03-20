@@ -1,0 +1,11 @@
+--- a/pyproject.toml       2026-03-20 07:50:34.853171256 +0100
++++ b/pyproject.toml      2026-03-20 07:52:08.621327057 +0100
+@@ -135,5 +135,5 @@
+ """
+ 
+ [build-system]
+-requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+-build-backend = "poetry_dynamic_versioning.backend"
++requires = ["poetry-core>=1.0.0"]
++build-backend = "poetry.core.masonry.api"
+

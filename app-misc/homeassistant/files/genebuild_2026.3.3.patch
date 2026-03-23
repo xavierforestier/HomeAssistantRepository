@@ -1,5 +1,5 @@
---- a/core-2026.3.0/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
-+++ b/core-2026.3.0/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
+--- a/core-2026.3.3/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
++++ b/core-2026.3.3/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
 @@ -194,7 +194,7 @@
  
  # homeassistant.components.ambient_network
@@ -248,8 +248,8 @@
  
  # homeassistant.components.sisyphus
  sisyphus-control==3.1.4
---- a/core-2026.3.0/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
-+++ b/core-2026.3.0/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+--- a/core-2026.3.3/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
++++ b/core-2026.3.3/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -74,7 +74,7 @@
  uv==0.10.6
  voluptuous-openapi==0.2.0

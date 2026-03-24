@@ -40,17 +40,25 @@ Make sure to move first your gentoo to python 3.14 :
 ```bash
 emer eselect-python
 echo -e "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/python.use
-emerge --deep --newuse --wwith-bdeps=y @world
+emerge --deep --newuse --with-bdeps=y @world
 eselect python update
 echo -e "*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14"  > /etc/portage/package.use/python.use
-emerge --deep --newuse --wwith-bdeps=y @world
+emerge --deep --newuse --with-bdeps=y @world
 ```
-then you can go "eix-sync && emerge homeassistant -uva"
+then you can go  :
+```bash
+eix-sync
+emerge homeassistant -uva
+```
 
-on the the backoffice, I rework most deps, rewrite CI-CD inside .github, and rewrite dockers : github.com/xavierforestier/gentoo-ci/ and github.com/xavierforestier/gentoo-ci-ha
+On the the backoffice, I rework most deps.
+
+...rewrite CI-CD in .github folder.
+
+...and rewrite dockers too: github.com/xavierforestier/gentoo-ci/ and github.com/xavierforestier/gentoo-ci-ha
 
 
-Original stuffs:
+# Original stuffs
 
 
 

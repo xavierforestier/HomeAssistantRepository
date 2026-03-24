@@ -38,7 +38,7 @@ Finally!!!!
 
 Make sure to move first your gentoo to python 3.14 :
 ```bash
-emer eselect-python
+emerge eselect-python
 echo -e "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/python.use
 emerge --deep --newuse --with-bdeps=y @world
 eselect python update

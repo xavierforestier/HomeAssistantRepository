@@ -1,0 +1,465 @@
+From 54f5c4a3bc992ec9ad696dfefbe1ae2b3197f3f8 Mon Sep 17 00:00:00 2001
+From: davidjosephs-andesite <david.josephs@andesite.ai>
+Date: Thu, 6 Nov 2025 10:58:03 -0600
+Subject: [PATCH] remove py2 support?
+
+---
+ MANIFEST.in       |   1 -
+ aenum/__init__.py |  12 ++---
+ aenum/_common.py  |  18 ++-----
+ aenum/_enum.py    |  46 ++----------------
+ aenum/_py2.py     |   7 ---
+ aenum/_tuple.py   |   7 ---
+ aenum/test.py     | 119 ++++++++--------------------------------------
+ setup.py          |  15 ------
+ 8 files changed, 32 insertions(+), 193 deletions(-)
+ delete mode 100644 aenum/_py2.py
+
+diff --git a/MANIFEST.in b/MANIFEST.in
+index 1ad5b5b..69dddc4 100644
+--- a/MANIFEST.in
++++ b/MANIFEST.in
+@@ -6,7 +6,6 @@ include aenum/_common.py
+ include aenum/_constant.py
+ include aenum/_enum.py
+ include aenum/_tuple.py
+-include aenum/_py2.py
+ include aenum/_py3.py
+ include aenum/test.py
+ include aenum/test_v3.py
+diff --git a/aenum/__init__.py b/aenum/__init__.py
+index 04c0f57..948f541 100644
+--- a/aenum/__init__.py
++++ b/aenum/__init__.py
+@@ -12,7 +12,7 @@
+ 
+ __all__ = [
+         'NamedConstant', 'Constant', 'constant', 'skip', 'nonmember', 'member', 'no_arg',
+-        'Member', 'NonMember', 'bin', 
++        'Member', 'NonMember', 'bin',
+         'Enum', 'IntEnum', 'AutoNumberEnum', 'OrderedEnum', 'UniqueEnum',
+         'StrEnum', 'UpperStrEnum', 'LowerStrEnum', 'ReprEnum',
+         'Flag', 'IntFlag', 'enum_property',
+@@ -28,13 +28,9 @@
+     __all__.remove('SqliteEnum')
+ 
+ 
+-if PY2:
+-    from . import _py2
+-    __all__.extend(_py2.__all__)
+-else:
+-    from . import _py3
+-    __all__.extend(_py3.__all__)
+-    __all__.append('AutoEnum')
++from . import _py3
++__all__.extend(_py3.__all__)
++__all__.append('AutoEnum')
+ 
+ 
+ 
+diff --git a/aenum/_common.py b/aenum/_common.py
+index 7eaee11..3b8fdf0 100644
+--- a/aenum/_common.py
++++ b/aenum/_common.py
+@@ -1,7 +1,7 @@
+ from __future__ import print_function
+ 
+ __all__ = [
+-        'pyver', 'PY2', 'PY2_6', 'PY3', 'PY3_3', 'PY3_4', 'PY3_5', 'PY3_6', 'PY3_7', 'PY3_11',
++        'pyver', 'PY3', 'PY3_3', 'PY3_4', 'PY3_5', 'PY3_6', 'PY3_7', 'PY3_11',
+         '_or_', '_and_', '_xor_', '_inv_', '_abs_', '_add_', '_floordiv_', '_lshift_',
+         '_rshift_', '_mod_', '_mul_', '_neg_', '_pos_', '_pow_', '_truediv_', '_sub_',
+         'unicode', 'basestring', 'baseinteger', 'long', 'NoneType', '_Addendum',
+@@ -15,9 +15,7 @@
+ # imports
+ import sys as _sys
+ pyver = _sys.version_info[:2]
+-PY2 = pyver < (3, )
+ PY3 = pyver >= (3, )
+-PY2_6 = (2, 6)
+ PY3_3 = (3, 3)
+ PY3_4 = (3, 4)
+ PY3_5 = (3, 5)
+@@ -33,14 +31,9 @@
+ from operator import mul as _mul_, neg as _neg_, pos as _pos_, pow as _pow_
+ from operator import truediv as _truediv_, sub as _sub_
+ 
+-if PY2:
+-    from . import _py2
+-    from ._py2 import *
+-    __all__.extend(_py2.__all__)
+-if PY3:
+-    from . import _py3
+-    from ._py3 import *
+-    __all__.extend(_py3.__all__)
++from . import _py3
++from ._py3 import *
++__all__.extend(_py3.__all__)
+ 
+ bltin_property = property
+ 
+@@ -199,9 +192,6 @@ def __neg__(self):
+         return _neg_(self.value)
+     def __pos__(self):
+         return _pos_(self.value)
+-    if PY2:
+-        def __div__(self, other):
+-            return _div_(self.value, _value(other))
+     def __rdiv__(self, other):
+         return _div_(_value(other), (self.value))
+     def __floordiv__(self, other):
+diff --git a/aenum/_enum.py b/aenum/_enum.py
+index 065e9d4..d9a8e94 100644
+--- a/aenum/_enum.py
++++ b/aenum/_enum.py
+@@ -17,7 +17,7 @@
+         'add_stdlib_integration', 'remove_stdlib_integration',
+         'export', 'cls2module', '_reduce_ex_by_name', 'show_flag_values',
+         ]
+-        
++
+ 
+ _bltin_bin = bin
+ 
+@@ -613,12 +613,6 @@ def __pos__(self):
+         new_auto._operations.append((_pos_, (self, )))
+         return new_auto
+ 
+-    if PY2:
+-        def __div__(self, other):
+-            new_auto = self.__class__()
+-            new_auto._operations = self._operations[:]
+-            new_auto._operations.append((_div_, (self, other)))
+-            return new_auto
+ 
+     def __rdiv__(self, other):
+         new_auto = self.__class__()
+@@ -1732,24 +1726,6 @@ def __new__(metacls, cls, bases, clsdict, init=None, start=None, settings=(), bo
+         #
+         # method resolution and int's are not playing nice
+         # Python's less than 2.6 use __cmp__
+-        if pyver < PY2_6:
+-            #
+-            if issubclass(enum_class, int):
+-                setattr(enum_class, '__cmp__', getattr(int, '__cmp__'))
+-            #
+-        elif PY2:
+-            #
+-            if issubclass(enum_class, int):
+-                for method in (
+-                        '__le__',
+-                        '__lt__',
+-                        '__gt__',
+-                        '__ge__',
+-                        '__eq__',
+-                        '__ne__',
+-                        '__hash__',
+-                        ):
+-                    setattr(enum_class, method, getattr(int, method))
+         #
+         # replace any other __new__ with our own (as long as Enum is not None,
+         # anyway) -- again, this is to support pickle
+@@ -2020,13 +1996,6 @@ def _create_(cls, class_name, names, module=None, qualname=None, type=None, star
+         * An iterable of (member name, value) pairs.
+         * A mapping of member name -> value.
+         """
+-        if PY2:
+-            # if class_name is unicode, attempt a conversion to ASCII
+-            if isinstance(class_name, unicode):
+-                try:
+-                    class_name = class_name.encode('ascii')
+-                except UnicodeEncodeError:
+-                    raise TypeError('%r is not representable in ASCII' % (class_name, ))
+         metacls = cls.__class__
+         if type is None:
+             bases = (cls, )
+@@ -2578,8 +2547,6 @@ class AutoNumberEnum(Enum):
+     Automatically assign increasing values to members.
+ 
+     Py3: numbers match creation order
+-    Py2: numbers are assigned alphabetically by member name
+-         (unless `_order_` is specified)
+     """
+ 
+     def __new__(cls, *args, **kwds):
+@@ -3173,14 +3140,9 @@ def __str__(self):
+     else:
+         return '%s.%s' % (cls.__name__, self._name_)
+ 
+-if PY2:
+-    @flag_dict
+-    def __nonzero__(self):
+-        return bool(self._value_)
+-else:
+-    @flag_dict
+-    def __bool__(self):
+-        return bool(self._value_)
++@flag_dict
++def __bool__(self):
++    return bool(self._value_)
+ 
+ @flag_dict
+ def _get_value(self, flag):
+diff --git a/aenum/_py2.py b/aenum/_py2.py
+deleted file mode 100644
+index a6e7b29..0000000
+--- a/aenum/_py2.py
++++ /dev/null
+@@ -1,7 +0,0 @@
+-from operator import div as _div_
+-from inspect import getargspec
+-
+-def raise_with_traceback(exc, tb):
+-    raise exc, None, tb
+-
+-__all__ = ['_div_', 'getargspec', 'raise_with_traceback']
+diff --git a/aenum/_tuple.py b/aenum/_tuple.py
+index 136bc36..f2fa639 100644
+--- a/aenum/_tuple.py
++++ b/aenum/_tuple.py
+@@ -300,13 +300,6 @@ def __call__(cls, *args, **kwds):
+                 raise TypeError('too few arguments to NamedTuple: %s, %s' % (original_args, original_kwds))
+             if args or kwds:
+                 raise TypeError('too many arguments to NamedTuple: %s, %s' % (original_args, original_kwds))
+-            if PY2:
+-                # if class_name is unicode, attempt a conversion to ASCII
+-                if isinstance(class_name, unicode):
+-                    try:
+-                        class_name = class_name.encode('ascii')
+-                    except UnicodeEncodeError:
+-                        raise TypeError('%r is not representable in ASCII' % (class_name, ))
+             # quick exit if names is a NamedTuple
+             if isinstance(names, NamedTupleMeta):
+                 names.__name__ = class_name
+diff --git a/aenum/test.py b/aenum/test.py
+index 5a49579..5650e42 100644
+--- a/aenum/test.py
++++ b/aenum/test.py
+@@ -17,7 +17,7 @@
+ from aenum import STRICT, CONFORM, EJECT, KEEP
+ from aenum import _reduce_ex_by_name, unique, skip, extend_enum, auto, enum, MultiValue, member, nonmember, no_arg
+ from aenum import basestring, baseinteger, unicode, enum_property
+-from aenum import pyver, PY2, PY3, PY2_6, PY3_3, PY3_4, PY3_5, PY3_6, PY3_7, PY3_11
++from aenum import pyver,  PY3,  PY3_3, PY3_4, PY3_5, PY3_6, PY3_7, PY3_11
+ from aenum._enum import _high_bit
+ from collections import OrderedDict
+ from datetime import timedelta
+@@ -27,12 +27,6 @@
+ from operator import lshift as _lshift_, rshift as _rshift_, mod as _mod_
+ from operator import mul as _mul_, neg as _neg_, pos as _pos_, pow as _pow_
+ from operator import truediv as _truediv_, sub as _sub_
+-if PY2:
+-    from operator import div as _div_
+-try:
+-    import threading
+-except ImportError:
+-    threading = None
+ 
+ try:
+     any
+@@ -827,9 +821,6 @@ def tester(first, op, final, second=None):
+                 ('a', _mul_, 'a' * 3, 3),
+                 ):
+             tester(*args)
+-        # operator.div is gone in 3
+-        if PY2:
+-            tester(12, _div_, 12 // 5, 5)
+         # strings are a pain
+         left = auto()
+         right = 'eggs'
+@@ -884,9 +875,6 @@ def tester(first, op, final, second=None):
+                 ('a', _mul_, 'a' * 3, 3),
+                 ):
+             tester(*args)
+-        # operator.div is gone in 3
+-        if PY2:
+-            tester(12, _div_, 12 // 5, 5)
+         # strings are a pain
+         left = constant('I see 17 %s!')
+         right = 'eggs'
+@@ -1700,19 +1688,6 @@ def test_programatic_function_from_dict(self):
+         lst = list(SummerMonth)
+         self.assertEqual(len(lst), len(SummerMonth))
+         self.assertEqual(len(SummerMonth), 3, SummerMonth)
+-        if PY2:
+-            self.assertEqual(
+-                    [SummerMonth.june, SummerMonth.july, SummerMonth.august],
+-                    lst,
+-                    )
+-        for i, month in enumerate('june july august'.split()):
+-            i += 1
+-            e = SummerMonth(i)
+-            self.assertEqual(int(e.value), i)
+-            self.assertNotEqual(e, i)
+-            self.assertEqual(e.name, month)
+-            self.assertTrue(e in SummerMonth)
+-            self.assertTrue(type(e) is SummerMonth)
+ 
+     def test_programatic_function_type(self):
+         SummerMonth = Enum('SummerMonth', 'june july august', type=int)
+@@ -1845,11 +1820,6 @@ def test_programatic_function_from_unicode_dict(self):
+         lst = list(SummerMonth)
+         self.assertEqual(len(lst), len(SummerMonth))
+         self.assertEqual(len(SummerMonth), 3, SummerMonth)
+-        if PY2:
+-            self.assertEqual(
+-                    [SummerMonth.june, SummerMonth.july, SummerMonth.august],
+-                    lst,
+-                    )
+         for i, month in enumerate(unicode('june july august').split()):
+             i += 1
+             e = SummerMonth(i)
+@@ -1894,29 +1864,23 @@ def test_programatic_function_unicode_type_from_subclass(self):
+             self.assertTrue(type(e) is SummerMonth)
+ 
+     def test_programmatic_function_unicode_class(self):
+-        if PY2:
+-            class_names = unicode('SummerMonth'), 'S\xfcmm\xe9rM\xf6nth'.decode('latin1')
+-        else:
+-            class_names = 'SummerMonth', 'S\xfcmm\xe9rM\xf6nth'
++        class_names = 'SummerMonth', 'S\xfcmm\xe9rM\xf6nth'
+         for i, class_name in enumerate(class_names):
+-            if PY2 and i == 1:
+-                self.assertRaises(TypeError, Enum, class_name, unicode('june july august'))
+-            else:
+-                SummerMonth = Enum(class_name, unicode('june july august'))
+-                lst = list(SummerMonth)
+-                self.assertEqual(len(lst), len(SummerMonth))
+-                self.assertEqual(len(SummerMonth), 3, SummerMonth)
+-                self.assertEqual(
+-                        [SummerMonth.june, SummerMonth.july, SummerMonth.august],
+-                        lst,
+-                        )
+-                for i, month in enumerate(unicode('june july august').split()):
+-                    i += 1
+-                    e = SummerMonth(i)
+-                    self.assertEqual(e.value, i)
+-                    self.assertEqual(e.name, month)
+-                    self.assertTrue(e in SummerMonth)
+-                    self.assertTrue(type(e) is SummerMonth)
++            SummerMonth = Enum(class_name, unicode('june july august'))
++            lst = list(SummerMonth)
++            self.assertEqual(len(lst), len(SummerMonth))
++            self.assertEqual(len(SummerMonth), 3, SummerMonth)
++            self.assertEqual(
++                    [SummerMonth.june, SummerMonth.july, SummerMonth.august],
++                    lst,
++                    )
++            for i, month in enumerate(unicode('june july august').split()):
++                i += 1
++                e = SummerMonth(i)
++                self.assertEqual(e.value, i)
++                self.assertEqual(e.name, month)
++                self.assertTrue(e in SummerMonth)
++                self.assertTrue(type(e) is SummerMonth)
+ 
+     def test_subclassing(self):
+         if isinstance(Name, Exception):
+@@ -3795,49 +3759,6 @@ class SpamEnum(Enum):
+             spam = SpamEnumNotInner
+         self.assertEqual(SpamEnum.spam.value, SpamEnumNotInner)
+ 
+-    if PY2:
+-        def test_nested_classes_in_enum_do_become_members(self):
+-            # manually set __qualname__ to remove testing framework noise
+-            class Outer(Enum):
+-                _order_ = 'a b Inner'
+-                __qualname__ = "Outer"
+-                a = 1
+-                b = 2
+-                class Inner(Enum):
+-                    __qualname__ = "Outer.Inner"
+-                    foo = 10
+-                    bar = 11
+-            self.assertTrue(isinstance(Outer.Inner, Outer))
+-            self.assertEqual(Outer.a.value, 1)
+-            self.assertEqual(Outer.Inner.value.foo.value, 10)
+-            self.assertEqual(
+-                list(Outer.Inner.value),
+-                [Outer.Inner.value.foo, Outer.Inner.value.bar],
+-                )
+-            self.assertEqual(
+-                list(Outer),
+-                [Outer.a, Outer.b, Outer.Inner],
+-                )
+-
+-        def test_really_nested_classes_in_enum_do_become_members(self):
+-            class Outer(Enum):
+-                _order_ = 'a b Inner'
+-                a = 1
+-                b = 2
+-                class Inner(Enum):
+-                    foo = 10
+-                    bar = 11
+-            self.assertTrue(isinstance(Outer.Inner, Outer))
+-            self.assertEqual(Outer.a.value, 1)
+-            self.assertEqual(Outer.Inner.value.foo.value, 10)
+-            self.assertEqual(
+-                list(Outer.Inner.value),
+-                [Outer.Inner.value.foo, Outer.Inner.value.bar],
+-                )
+-            self.assertEqual(
+-                list(Outer),
+-                [Outer.a, Outer.b, Outer.Inner],
+-                )
+ 
+     def test_nested_classes_in_enum_are_skipped_with_skip(self):
+         """Support locally-defined nested classes using @skip"""
+@@ -4621,7 +4542,7 @@ class AddressSegment(DocFlag):
+         self.assertEqual(AS.STREET._value_, 32)
+         self.assertEqual(AS.SECONDARY_TYPE._value_, 128)
+         self.assertEqual((AS.NAME | AS.STREET)._value_, 48, "%r is not 48" % (AS.NAME | AS.STREET))
+-                
++
+     def test_iteration(self):
+         C = self.Color
+         self.assertEqual(list(C), [C.RED, C.GREEN, C.BLUE])
+@@ -7488,7 +7409,7 @@ class Color(StrEnum):
+         self.assertEqual(Color.BLACK.name, 'BLACK')
+         self.assertEqual(Color.BLACK.value, 'black')
+         self.assertEqual(len(Color), 4)
+-        
++
+ 
+ class TestIssues(TestCase):
+ 
+@@ -7561,7 +7482,7 @@ class FlagTest(Flag): # Or IntFlag
+         extend_enum(FlagTest, 'HIGH', 4)
+         self.assertEqual(FlagTest.LOW | FlagTest.HIGH, FlagTest(5))
+         self.assertEqual((FlagTest.LOW | FlagTest.HIGH).value, 5)
+-        
++
+     def test_extend_unhashable(self):
+         class TestEnum(Enum):
+             ABC = {
+diff --git a/setup.py b/setup.py
+index 269a734..e147bbc 100644
+--- a/setup.py
++++ b/setup.py
+@@ -109,25 +109,10 @@
+             ],
+     )
+ 
+-py2_only = ('aenum/_py2.py', )
+ py3_only = ('aenum/test_v3.py', 'aenum/test_v37.py', 'aenum/_py3.py')
+ make = [
+         'rst2pdf aenum/doc/aenum.rst --output=aenum/doc/aenum.pdf',
+         ]
+ 
+ if __name__ == '__main__':
+-    if 'install' in sys.argv:
+-        import os
+-        if sys.version_info[0] != 2:
+-            for file in py2_only:
+-                try:
+-                    os.unlink(file)
+-                except OSError:
+-                    pass
+-        if sys.version_info[0] != 3:
+-            for file in py3_only:
+-                try:
+-                    os.unlink(file)
+-                except OSError:
+-                    pass
+     setup(**data)
+

@@ -10,6 +10,8 @@ inherit distutils-r1 pypi
 DESCRIPTION="Advanced Enumerations, NamedTuples and NamedConstants"
 HOMEPAGE="https://github.com/ethanfurman/aenum https://pypi.org/project/aenum/"
 
+PATCHES="${FILESDIR}/${PN}-drop-python2.patch"
+
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

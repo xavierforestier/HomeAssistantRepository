@@ -33,7 +33,7 @@ dev-python/adext 0.4.4: AlarmDecoder extended
 dev-python/adguardhome 0.8.1: Asynchronous Python client for the AdGuard Home API.
 dev-python/advantage-air 0.4.4: API helper for Advantage Air's MyAir and e-zone API
 dev-python/aemet-opendata 0.6.4: AEMET OpenData Rest API library
-dev-python/aenum 3.1.15: Advanced Enumerations, NamedTuples and NamedConstants
+dev-python/aenum 3.1.17: Advanced Enumerations, NamedTuples and NamedConstants
 dev-python/afsapi 0.2.7: Asynchronous Implementation of the Frontier Silicon API
 dev-python/agent-py 0.0.24: A python wrapper around the Agent REST API.
 dev-python/aio-geojson-client 0.21: An async GeoJSON client library.
@@ -535,7 +535,7 @@ dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.9.0: Python API for interacting with *hole.
 dev-python/holidays 0.84: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 1.13.1: Home Assistant Bluetooth Models and Helpers
-dev-python/home-assistant-chip-clusters 2024.11.4 2025.4.0 2025.7.0: Python-base APIs and tools for CHIP.
+dev-python/home-assistant-chip-clusters 2025.7.0: Python-base APIs and tools for CHIP.
 dev-python/home-assistant-frontend 20260304.0 20260312.0: The Home Assistant frontend
 dev-python/home-assistant-intents 2026.3.3: Intents for Home Assistant
 dev-python/homelink-integration-api 0.0.1: API to interact with Homelink cloud for MQTT-enabled smart home platforms

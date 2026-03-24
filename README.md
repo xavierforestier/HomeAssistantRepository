@@ -30,6 +30,30 @@ https://github.com/home-assistant/home-assistant
 
 "Open source home automation that puts local control and privacy first."
 
+## app-misc/homeassistant-2026.3.x
+
+Finally!!!!
+
+2026.3.x introduces python 3.14, such huge changes !
+
+Make sure to move first your gentoo to python 3.14 :
+```bash
+emer eselect-python
+echo -e "*/* PYTHON_TARGETS: -* python3_13 python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14" > /etc/portage/package.use/python.use
+emerge --deep --newuse --wwith-bdeps=y @world
+eselect python update
+echo -e "*/* PYTHON_TARGETS: -* python3_14\n*/* PYTHON_SINGLE_TARGET: -* python3_14"  > /etc/portage/package.use/python.use
+emerge --deep --newuse --wwith-bdeps=y @world
+```
+then you can go "eix-sync && emerge homeassistant -uva"
+
+on the the backoffice, I rework most deps, rewrite CI-CD inside .github, and rewrite dockers : github.com/xavierforestier/gentoo-ci/ and github.com/xavierforestier/gentoo-ci-ha
+
+
+Original stuffs:
+
+
+
 ## Origin: Ireland, Home: Bavaria
 Once this was a fork of Paul Healy's `https://cgit.gentoo.org/user/lmiphay.git/tree/app-misc/homeassistant-bin`, which seemed unmaintained to me. At first I just wanted to compile it for my personal use. This happened at Home Assistant 0.77 in September 2018. Some friends told me they wanted to use/see it, so I placed it on my public git server, and was caught by surprise by several hundred page views in the very first days. I'll do my best to keep it close to the official releases, though it might get slower during summers. After three months it had ~170 ebuilds, Nov 2019 > 1599 Ebuilds in > 830 packages are on file, 970 packages in 2380 Ebuilds in September 2020. As long as I certainly do not count automatically consolidated collections, this Overlay has grown to one of the largest [Gentoo Repos](https://qa-reports.gentoo.org/output/repos/) during the last year.
 

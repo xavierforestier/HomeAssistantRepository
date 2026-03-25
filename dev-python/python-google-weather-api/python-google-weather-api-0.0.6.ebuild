@@ -8,17 +8,16 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A package to interact with Anglian Water"
-HOMEPAGE="https://github.com/pantherale0/pyanglianwater https://pypi.org/project/pyanglianwater/"
+DESCRIPTION="A python client library for Google Weather API"
+HOMEPAGE="https://github.com/tronikos/python-google-weather-api https://pypi.org/project/python-google-weather-api/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	dev-python/mashumaro[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

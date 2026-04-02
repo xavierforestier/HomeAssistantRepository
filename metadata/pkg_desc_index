@@ -13,7 +13,7 @@ app-crypt/certbot 5.3.1: Let's Encrypt client to automate deployment of X.509 ce
 app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2026.3.2 2026.3.3 2026.3.4: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.6 4.1.7 4.1.8: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 2.8.0 2.9.0 2.9.1: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 2.9.0 2.9.1 2.9.2: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2026.2.4 2026.3.0 2026.3.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
@@ -324,7 +324,7 @@ dev-python/crownstone-cloud 1.4.11: Asynchronous Python library to get data from
 dev-python/crownstone-core 3.0.1: This is the core of the lib. It contains shared classes, definitions and utils
 dev-python/crownstone-sse 2.0.5: Asynchronous Python library that listens to Crownstone SSE events.
 dev-python/crownstone-uart 2.1.0: Crownstone Unified System Bridge, or Crownstone USB implementation
-dev-python/cryptography 46.0.2: Library providing cryptographic recipes and primitives
+dev-python/cryptography 46.0.5: Library providing cryptographic recipes and primitives
 dev-python/curio-compat 1.6.7: Curio is a coroutine-based library for concurrent systems programming.
 dev-python/dacite 1.9.2: Simple creation of data classes from dictionaries.
 dev-python/databricks-sdk 0.73.0: Databricks SDK for Python (Beta)

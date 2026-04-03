@@ -5,7 +5,7 @@
 *cryptography-46.0.5 (02 Apr 2026)
 
   02 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
-  +cryptography-46.0.5.ebuild:
+  -cryptography-46.0.2.ebuild, +cryptography-46.0.5.ebuild:
   app-misc/zigbee2mqtt
 
 *cryptography-46.0.2 (30 Jan 2026)

@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*pyrainbird-6.1.1 (05 Apr 2026)
+
+  05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pyrainbird-6.1.1.ebuild:
+  app-misc/homeassistant 2026.4.0
+
   20 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -pyrainbird-6.0.5.ebuild:
   app-misc/homeassistant 2026.3.2

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pysmlight-0.2.16.ebuild:
+  app-misc/homeassistant 2026.4.0
+
 *pysmlight-0.3.1 (23 Mar 2026)
 
   23 Mar 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

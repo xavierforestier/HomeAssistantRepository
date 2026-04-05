@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/wiim
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*wiim-0.1.0 (05 Apr 2026)
+
+  05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +wiim-0.1.0.ebuild:
+  app-misc/homeassistant 2026.4.0
+

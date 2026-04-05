@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*gardena-bluetooth-2.1.0 (05 Apr 2026)
+
+  05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +gardena-bluetooth-2.1.0.ebuild:
+  app-misc/homeassistant 2026.4.0
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   gardena-bluetooth-1.6.0.ebuild:
   Happy new year

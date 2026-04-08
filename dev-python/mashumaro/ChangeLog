@@ -6,6 +6,10 @@
   -mashumaro-3.20.ebuild:
   dev-embedded/esphome 2026.3.3
 
+  08 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -mashumaro-3.20.ebuild:
+  dev-embedded/esphome 2026.3.3
+
 *mashumaro-3.20 (05 Apr 2026)
 
   05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

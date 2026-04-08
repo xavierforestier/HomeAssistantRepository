@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -wolf-comm-0.0.23.ebuild:
+  app-misc/homeassistant 2026.4.1
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   wolf-comm-0.0.23.ebuild:
   Happy new year

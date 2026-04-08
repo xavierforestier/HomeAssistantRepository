@@ -14,7 +14,7 @@ app-misc/home-assistant-cli 0.9.6: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2026.3.4 2026.4.0 2026.4.1: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.6 4.1.7 4.1.8: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.9.0 2.9.1 2.9.2: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2026.3.0 2026.3.1 2026.3.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.3.1 2026.3.2 2026.3.3: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0: ESPHome dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18 6.1.19: An open source ecosystem for IoT development
@@ -72,7 +72,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2025.9.2: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 44.1.0 44.5.2 44.6.2: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 44.1.0 44.6.2: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
 dev-python/aioftp 0.21.3: ftp client/server for asyncio
@@ -1032,6 +1032,7 @@ dev-python/pypasser 0.0.5: Bypassing reCaptcha V3 by solving reCaptcha V2 using 
 dev-python/pypca 0.0.7: A python cli for PCA 301 smart plugs.
 dev-python/pypck 0.9.11: LCN-PCK library
 dev-python/pypglab 0.0.5: Library to communicate with PG LAB Electronics devices over MQTT.
+dev-python/pypi-attestations 0.0.29: Convert between Sigstore Bundles and PEP-740 Attestation objects
 dev-python/pypjlink2 1.2.1: PJLink is a standard for controlling data projectors.
 dev-python/pyplaato 0.0.19: Asynchronous Python client for getting Plaato Airlock and Keg data
 dev-python/pypoint 3.0.0: API for Minut Point

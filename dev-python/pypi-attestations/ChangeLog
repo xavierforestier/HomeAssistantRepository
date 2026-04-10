@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/pypi-attestations
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*pypi-attestations-0.0.29 (05 Apr 2026)
+
+  05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +pypi-attestations-0.0.29.ebuild:
+  fix wrong deps for normal set
+

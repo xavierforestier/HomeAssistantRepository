@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  15 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -habluetooth-5.8.0.ebuild:
+  app-misc/homeassistant 2026.4.2
+
 *habluetooth-5.11.1 (05 Apr 2026)
 
   05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

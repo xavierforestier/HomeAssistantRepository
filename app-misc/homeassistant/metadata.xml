@@ -23,7 +23,7 @@
     <flag name="actron-air">The Actron Air integration allows you to control Actron Air Air Conditioning controllers into Home Assistant.</flag>
     <flag name="adax">The Adax integration integrates Adax heaters into Home Assistant and can be configured to use a local or cloud interface.</flag>
     <flag name="adguard">The AdGuard Home integration allows you to control and monitor your AdGuard Home instance in Home Assistant.</flag>
-    <flag name="ads">The ADS (automation device specification) integration describes a device-independent and fieldbus independent interface for communication between Beckhoff automation devices running TwinCAT and other devices implementing this interface.</flag>
+    <flag name="ads">The ADS (automation device specification) integration describes a device-independent and fieldbus-independent interface for communication between Beckhoff automation devices running TwinCAT and other devices implementing this interface.</flag>
     <flag name="advantage-air">The Advantage Air integration allows you to control Advantage Air Air Conditioning controllers into Home Assistant.</flag>
     <flag name="aemet">The AEMET integration uses AEMET OpenData as a source for current meteorological data for your location. AEMET stands for “Agencia Estatal de Meteorología”, which is the Spanish Meteorological Agency.</flag>
     <flag name="aftership">The AfterShip integration allows one to track deliveries by AfterShip, a service that supports 490+ couriers worldwide. To use the tracking API functionality, the Pro plan is required.</flag>
@@ -104,7 +104,7 @@
     <flag name="azure-service-bus">The Azure Service Bus integration allows you to send messages to Azure Service Bus from within Home Assistant.</flag>
     <flag name="azure-storage">This integration allows you to use Azure storage accounts for use with Home Assistant Backups.</flag>
     <flag name="backblaze-b2">The Backblaze integration enables you to use a Backblaze B2 bucket as a backup location in Home Assistant.</flag>
-    <flag name="backup">The Backup integration is used by all installation types to create and restore backups.</flag>
+    <flag name="backup">The Backup integration creates and restores backups across all installation types.</flag>
     <flag name="baf">Integrates Big Ass Fans devices into Home Assistant.</flag>
     <flag name="baidu">The Baidu integration uses Baidu TTS engine to read a text with natural sounding voices.</flag>
     <flag name="balboa">The Balboa Spa Client integration adds support for Balboa Spa WiFi Modules to be used within Home Assistant.</flag>
@@ -113,7 +113,6 @@
     <flag name="beewi-smartclim">The BeeWi SmartClim integration allows one to monitor room or external temperature and humidity. The BeeWi SmartClim BLE is a Bluetooth Low Energy sensor device that monitors temperature from a room or a garden from your smartphone by using an APP. Use this integration to track these metrics from any location thanks to Home Assistant, as well as to create some automation scripts based on your room’s temperature.</flag>
     <flag name="bitcoin">The Bitcoin integration displays various details about the Bitcoin network.</flag>
     <flag name="bizkaibus">The Bizkaibus integration will give you the time until the next bus in the selected stop.</flag>
-    <flag name="blackbird">The Monoprice Blackbird Matrix Switch integration allows you to control Monoprice Blackbird Matrix Switch (8x8) using a serial or IP connection, this integration does not support the 4x4 matrix switch.</flag>
     <flag name="blebox">BleBox produces small, low-power, surprisingly affordable, feature-rich WiFi devices for serverless home automation.</flag>
     <flag name="blink">The Blink integration lets you view camera images and motion events from Blink camera and security systems.</flag>
     <flag name="blockchain">The Blockchain.com integration displays Bitcoin wallet balances from blockchain.com.</flag>
@@ -190,7 +189,7 @@
     <flag name="digital-ocean">The Digital Ocean integration allows you to access the information about your Digital Ocean droplets from Home Assistant.</flag>
     <flag name="directv">The DirecTV integration allows you to control a DirecTV receiver and its client devices.</flag>
     <flag name="discogs">The Discogs integration allows you to see the current amount of records in your Discogs collection.</flag>
-    <flag name="discord">The Discord service is a platform for the notify integration. This allows integrations to send messages to the user using Discord.</flag>
+    <flag name="discord">The Discord integration lets you send notifications from Home Assistant to Discord channels and users via a bot. You can send text messages, attach files, like images or videos, from local paths or remote URLs, and use Discord embeds for rich formatting.</flag>
     <flag name="discovergy">The inexogy integration allows users to integrate their inexogy smart meters into Home Assistant.The integration is using the official REST API by inexogy.</flag>
     <flag name="dlink">The D-Link Wi-Fi Smart Plugs integration allows you to control the state of your D-Link Wi-Fi Smart Plugs.</flag>
     <flag name="dlna-dmr">The DLNA Digital Media Renderer integration allows you to control a DLNA Digital Media Renderer, such as DLNA enabled TVs or radios.</flag>
@@ -227,7 +226,7 @@
     <flag name="electrasmart">Electra Air, is a company which manufactures and sells Air Conditioners.</flag>
     <flag name="electric-kiwi">Electric Kiwi is an independent power and broadband company in New Zealand, offering variable rates for peak, shoulder, and off-peak pricing with a selectable hour of free power.</flag>
     <flag name="elevenlabs">The ElevenLabs integrations adds support for ElevenLabs as text-to-speech to read a text with natural sounding voices and speech-to-text to convert speech into text.</flag>
-    <flag name="elgato">The Elgato Lights sets the bar for high-end studiolightning. The LED lights are created and designed specifically for streamersand content creators, many of whom operate on platforms like YouTube and Twitch.</flag>
+    <flag name="elgato">The Elgato Light integration lets you control Elgato LED lighting devices locally over your network. Elgato Lights are designed for streamers, content creators, and home studio setups, and are commonly used on platforms like YouTube and Twitch.</flag>
     <flag name="eliqonline">Integrate your ELIQ Online smart meter information into Home Assistant. To get an access token and the Channel ID, log in to your account.</flag>
     <flag name="elkm1">The Elk-M1 Control integration lets you connect your Elk-M1 Gold and EZ8 alarm panels to Home Assistant. These advanced home security and automation controllers offer robust alarm control panel capabilities, along with a wide range of automation features to help you manage and protect your home.</flag>
     <flag name="elmax">The Elmax integration enables Home Assistant integration withELMAX control panels. Elmax panels aredomotic systems focused on intrusion detection and home surveillance.</flag>
@@ -344,7 +343,7 @@
     <flag name="google-pubsub">The Google Pub/Sub integration allows you to hook into the Home Assistant event bus and send events to Google Cloud Pub/Sub. The current free tier of GCP should allow you to sync about 1 event every 2 seconds on average (2 million invocations per month).</flag>
     <flag name="google-sheets">The Google Sheets integration allows you to connect your Google Drive to Home Assistant. The integration adds an action to allow you to append rows to a Sheets document. The idea is that you can store data on there for further processing. When you set up a config entry, your drive will have a new sheet called Home Assistant. You can then rename this to whatever you like.</flag>
     <flag name="google-tasks">The Google Tasks integration allows you to connect your Google Tasksto Home Assistant. The integration adds a to-do list entity foreach task list, allowing you to create, update, or delete items on the listfrom the To-do list dashboard.</flag>
-    <flag name="google-translate">The Google Translate text-to-speech integration uses the unofficial Google Translate text-to-speech engine to read a text with natural sounding voices. Contrary to what the name suggests, the integration only does text-to-speech and does not translate messages sent to it.</flag>
+    <flag name="google-translate">The Google Translate text-to-speech integration uses the unofficial Google Translate text-to-speech engine to read text with natural-sounding voices. Despite the name, the integration only does text-to-speech and does not translate the messages you send to it.</flag>
     <flag name="google-travel-time">The Google Maps Travel Time integration provides travel time from the Google Maps Routes API.</flag>
     <flag name="google-weather">This integration uses Google Weather as a source for weather data for your location.</flag>
     <flag name="govee-ble">Integrates Govee BLE devices into Home Assistant.</flag>
@@ -393,7 +392,7 @@
     <flag name="html5">The HTML5 Push Notifications integration enables you to receive push notifications to Chrome or Firefox, no matter where you are in the world. html5 also supports Chrome and Firefox on Android, which enables native-app-like integrations without actually needing a native app.</flag>
     <flag name="huawei-lte">The Huawei LTE router and modem integration for Home Assistant allows you to observe and control Huawei LTE devices.</flag>
     <flag name="hue-ble">The Hue BLE integration allows you to control your Philips Hue Bluetooth lights with Home Assistant.</flag>
-    <flag name="hue">The Philips Hue integration allows you to control and monitor the lights and sensors connected to your Hue bridge.</flag>
+    <flag name="hue">The Philips Hue integration allows you to control and monitor the lights and sensors connected to your Hue bridge. The integration supports:</flag>
     <flag name="huisbaasje">The EnergyFlip (formerly Huisbaasje) integration allows you to track your energy consumption collectedby the monitoring device installed on your energy meters.</flag>
     <flag name="hunterdouglas-powerview">The Hunter Douglas PowerView integration allows you to integrate your Hunter Douglas PowerView devices in Home Assistant. The product is also known by the brand name Luxaflex Powerview in Europe and Australia as explained on their website, however this integration should work for both brands.</flag>
     <flag name="husqvarna-automower-ble">The Husqvarna Automower BLE integration provides connectivity with Husqvarna Automowers lawn mowers via a local Bluetooth connection. This allows connecting and controlling an Automower without any accounts, cloud, or network connection.</flag>
@@ -405,7 +404,7 @@
     <flag name="hypontech">The Hypontech Cloud integration allows you to monitor your Hypontech solar inverter system through the Hypontech Cloud platform and integrate the data into your Home Assistant installation.</flag>
     <flag name="ialarm">The iAlarm integration provides connectivity with the Antifurto365 iAlarm alarm systems and has also been confirmed to work with the alarm system brands Meian and Emooluxr.Please note that the latest iAlarm-XR alarm system is not supported.</flag>
     <flag name="iammeter">IAMMETER provides both a bi-directional single-phase energy meter(WEM3080) and a bi-directional three-phase energy monitor (WEM3080T). Both of them can be integrated into Home Assistant.The WEM3050T is the latest three-phase/split-phase meter, released by IAMMETER on Nov 2023.The WEM3050T provides nearly all of the features the WEM3080T provides, with the exception of the cloud service.The WEM3050T can be integrated into Home Assistant by all of the methods that WEM3080T supports.Because there is no cloud service by default, the WEM3050T is much cheaper than the WEM3080T.</flag>
-    <flag name="iaqualink">iAqualink by Jandy allows you to control your pool anytime, anywhere.</flag>
+    <flag name="iaqualink">The Jandy iAquaLink integration lets you monitor and control supported Jandy pool and spa systems from Home Assistant. Depending on the equipment connected to your controller, you can check water and air temperatures, control auxiliary equipment like pumps and water features, manage compatible pool lights, and adjust supported pool or spa heaters.</flag>
     <flag name="ibeacon">Configuration To add the iBeacon Tracker hub to your Home Assistant instance, use this My button:</flag>
     <flag name="icloud">The Apple iCloud integration allows you to detect presence using the iCloud service. iCloud allows users to track their location on iOS devices.</flag>
     <flag name="idasen-desk">The IKEA IDÅSEN integration allows you to connect your IKEA Idåsen motorized desk to Home Assistant, making it possible to control the desk height and also monitor height changes from the physical controller.</flag>
@@ -479,9 +478,9 @@
     <flag name="lacrosse">The LaCrosse integration is using the data provided by a Jeelink USB dongle or this Arduino sketch.</flag>
     <flag name="lacrosse-view">LaCrosse View is the service provided by LaCrosse Technology that allows access to LaCrosse sensors.</flag>
     <flag name="lamarzocco">This integration interacts with La Marzocco coffee machines through calls to the La Marzocco cloud API.</flag>
-    <flag name="lametric">LaMetric TIME is a smart clock that can be used to access applications, listen to web radio and display notifications.</flag>
+    <flag name="lametric">The LaMetric integration lets you integrate your LaMetric TIME smart clock with Home Assistant, so you can display notifications, charts, and other visual updates on the device.</flag>
     <flag name="landisgyr-heat-meter">The Landis+Gyr Heat Meter integration for Home Assistant allows you to read the meter values from Ultraheat devices by Landis &amp; Gyr. These devices are commonly used for district heating. The integration has been tested with the Landis &amp; Gyr Ultraheat 50 (UH50), type LUGCUH50. Other models are likely to work as well.</flag>
-    <flag name="lastfm">The Last.fm integration will allow you to see whenever a user starts scrobbling, their play count, last song played, and top song played on Last.fm.</flag>
+    <flag name="lastfm">The Last.fm integration lets you monitor the listening activity of Last.fm users. It creates a sensor for each user you add, showing whether they are currently scrobbling and what they are listening to.</flag>
     <flag name="launch-library">The Launch Library integration will provide you with information about the next planned space launch and SpaceX Starship event.</flag>
     <flag name="laundrify">Monitor the status of your washing machine or dryer within Home Assistant using a laundrify WiFi power plug.</flag>
     <flag name="lcn">The LCN integration for Home Assistant allows you to connect to LCN hardware devices.</flag>
@@ -513,7 +512,7 @@
     <flag name="lookin">Integrates LOOKin devices into Home Assistant.</flag>
     <flag name="loqed">Integrate your LOQED Touch Smart Lock with Home Assistant. The lock instantly notifies Home Assistant of a lock state change and you can change the lock state yourself.</flag>
     <flag name="luci">This is a presence detection scanner for OpenWrt using luci.</flag>
-    <flag name="luftdaten">The Sensor.Community integration will query the open data API of Sensor.Community to monitor air quality and other weather data from a specific (self build) sensor station.</flag>
+    <flag name="luftdaten">The Sensor.Community integration brings readings from the Sensor.Community open data air quality network into Home Assistant. Sensor.Community (formerly known as luftdaten.info) is a global citizen science project that maps air quality and environmental data from thousands of do-it-yourself (DIY) sensor stations around the world.</flag>
     <flag name="lunatone">The Lunatone integration is used to integrate with the devices of Lunatone that offer a REST API.</flag>
     <flag name="lupusec">The Lupus Electronics LUPUSEC integration allows the user to integrate their Lupusec alarm control panel and ultimately all connected sensors and other devices. For more information about the LUPUS-Electronics security system please visit their website.</flag>
     <flag name="lutron-caseta">Lutron is an American lighting control company. They have several lines of home automation devices that manage light switches, dimmers, occupancy sensors, HVAC controls, etc. The lutron_caseta integration in Home Assistant is responsible for communicating with the Lutron Caseta Smart Bridge for the Caseta product line of dimmers, switches, shades, and sensors. It will also communicate with the Lutron Radio RA2 Main Repeater for the RA2 Select product line of dimmers, switches, shades, and sensors.</flag>
@@ -543,7 +542,7 @@
     <flag name="meteoclimatic">The Meteoclimatic integration uses the Meteoclimatic web service as a source for meteorological data for your location. The location is based on the Meteoclimatic station code (e.g., ESCAT4300000043206B) and the weather data reported is based on the capabilities of each station.</flag>
     <flag name="meteo-france">The Météo-France integration uses the meteorological data from Météo-France to provide weather forecast for any location in the world with a focus on France. One or more locations can be set via the front end or via the configuration file.</flag>
     <flag name="meteo-lt">The Meteo.lt integration uses meteorological data from the Lithuanian Hydrometeorological Service (LHMT) to provide weather forecasts for locations in Lithuania. You can set up one or more locations via the user interface.</flag>
-    <flag name="met">The Meteorologisk institutt (Met.no) integration uses the Met.no web service as a source for meteorological data for your location. The weather forecast is delivered by the Norwegian Meteorological Institute and the NRK.</flag>
+    <flag name="met">The Meteorologisk institutt (Met.no) integration uses the Met.no web service to retrieve meteorological data for your location. The Norwegian Meteorological Institute and NRK provide the weather forecast. The service is free and does not require an API key.</flag>
     <flag name="metoffice">The Met Office weather integration uses the Met Office’s DataHub API for weather data.</flag>
     <flag name="mfi">There is currently support for the following device types within Home Assistant:</flag>
     <flag name="microbees">The microBees integration allows you to control your microBees devices such as plugs and wall switches.To use this integration you need OAuth2 Client ID and Client Secret and your user credentials.</flag>
@@ -554,7 +553,7 @@
     <flag name="minecraft-server">Minecraft is a sandbox video game developed by Mojang Studios. Minecraft servers allow players to play the game online or via a local area network with other players. The Minecraft Server integration lets you retrieve information from a Minecraft server within Home Assistant. Both Java Edition and Bedrock Edition servers are supported.</flag>
     <flag name="minio">This integration adds interaction with Minio.It also enables listening for bucket notifications: see documentation</flag>
     <flag name="moat">Integrates Moat devices into Home Assistant.</flag>
-    <flag name="mobile-app">The Mobile App integration allows Home Assistant mobile apps to easily integrate with Home Assistant.</flag>
+    <flag name="mobile-app">The Mobile App integration lets Home Assistant mobile apps integrate with Home Assistant.</flag>
     <flag name="mochad">The Mochad integration is the main integration to integrate all X10 platforms being controlled by mochad. Besides this integration you will have to setup your X10 devices separately.</flag>
     <flag name="modbus">modbus is a communication protocol to control PLCs (Programmable Logic Controller) and RTUs (Remote Terminal Unit).</flag>
     <flag name="modem-callerid">The Phone Modem integration uses an available modem for collecting caller ID information. It requires a Hayes AT compatible modem that supports caller ID detection (via AT+VCID=1). Usually any modem that uses a CX93001 will support this.</flag>
@@ -574,7 +573,7 @@
     <flag name="mta">The MTA New York City Transit integration provides real-time subway and bus arrival predictions for NYC transit lines using GTFS-RT data from the Metropolitan Transportation Authority (MTA).</flag>
     <flag name="mullvad">The Mullvad VPN integration uses the Mullvad VPN API to detect if your Home Assistant instance is connected to the Mullvad VPN service.</flag>
     <flag name="music-assistant">The Music Assistant (MA) integration allows you to connect Home Assistant to a Music Assistant Server. Once configured, all MA Players show up as Home Assistant media player entities. Media players will allow you to control media playback and see the currently playing item.</flag>
-    <flag name="mutesync">The mutesync integration for Home Assistant connects to the mütesync virtual button. This tray app pairs with popular video conferencing tools such as Zoom, Google Meet, Discord, and Teams.</flag>
+    <flag name="mutesync">Important</flag>
     <flag name="mvglive">The MVG integration will give you the departure time of the next bus, tram, subway, or train at the next station or stop in the Munich public transport network. Additional details such as the line number and destination are present in the attributes.</flag>
     <flag name="myneomitis">The MyNeomitis integration connects your Axenco MyNeomitis heating and energy management devices to Home Assistant. With this integration, you can control your devices, such as electric radiators, towel rails, and underfloor heating, directly from Home Assistant.</flag>
     <flag name="mysensors">The MySensors project combines devices like Arduino, ESP8266, Raspberry Pi, NRF24L01+ and RFM69 to build affordable sensor networks. This integration will automatically add all available devices to Home Assistant, after presentation is done. That is, you do not need to add anything to your configuration for the devices for them to be added. Go to the states section of the developer tools to find the devices that have been identified.</flag>
@@ -617,7 +616,7 @@
     <flag name="norway-air">The Norway Air integration queries the Norway air quality data feed provided by the Norwegian Meteorological Institute.</flag>
     <flag name="notify-events">Description The Notify.Events service is an integration for the notify integration.</flag>
     <flag name="notion">The Notion integration retrieves data from Notion wirelesshome monitoring sensor kits.</flag>
-    <flag name="nrgkick">The NRGkick integration allows you to monitor the NRGkick mobile EV charger (Wallbox) by DiniTech with Home Assistant. The wallbox is smart home friendly and allows detailed monitoring with 80+ data points.</flag>
+    <flag name="nrgkick">The NRGkick integration allows you to monitor the NRGkick mobile EV charger (Wallbox) by DiniTech with Home Assistant. It enables real-time monitoring of charging status, tracking energy consumption, controlling charging behavior, and integrating EV charging data into the Home Assistant energy dashboard.</flag>
     <flag name="nsw-fuel-station">The NSW Fuel Station Price integration uses the NSW Fuel Check App data as a source for current fuel price data.</flag>
     <flag name="nsw-rural-fire-service-feed">The NSW Rural Fire Service Incidents integration lets you integrate a GeoJSON feed provided by the NSW Rural Fire Service with information about bush fires, grass fires, hazard reductions and more. It retrieves incidents from a feed and shows information of those incidents filtered by distance to Home Assistant’s location.</flag>
     <flag name="ntfy">The ntfy integration allows publishing push notifications on ntfy.sh or other ntfy services.</flag>
@@ -722,7 +721,7 @@
     <flag name="purpleair">PurpleAir makes sensors that measure hyper-local airquality data and share it with the public.</flag>
     <flag name="pushbullet">There is currently support for the following device types within Home Assistant:</flag>
     <flag name="pushover">The Pushover action is a platform for the notify integration. This allows integrations to send messages to the user using Pushover.</flag>
-    <flag name="pvoutput">The PVOutput integration consumes information from PVOutput which was uploaded by your solar photovoltaic (PV) system.</flag>
+    <flag name="pvoutput">The PVOutput integration brings the data from your PVOutput account into Home Assistant. PVOutput is a free service for sharing, comparing, and monitoring live solar photovoltaic (PV) system data. If you are already uploading data from your inverter or logger to PVOutput, this integration lets you display that data in Home Assistant without running a second integration against your inverter directly.</flag>
     <flag name="pvpc-hourly-pricing">This integration uses the official API to get the hourly price of electricity in Spain from https://www.esios.ree.es/en/pvpc.</flag>
     <flag name="pyload">The pyLoad integration enables monitoring your downloads directly in Home Assistant. This integration provides various sensors to keep track of your download activities and allows creating automations based on the sensor information, alongside button and switch controls for performing specific tasks such as aborting downloads and managing file restarts.</flag>
     <flag name="python-script">This integration allows you to write Python scripts that are exposed as actions in Home Assistant. Each Python file created in the &lt;config&gt;/python_scripts/ folder will be exposed as an action. The content is not cached so you can easily develop: edit file, save changes, perform action. The scripts are run in a sandboxed environment. The following variables are available in the sandbox:</flag>
@@ -800,7 +799,7 @@
     <flag name="scrape">The Scrape sensor integration scrapes information from websites. The sensor loads an HTML page, and allows you to search and extract specific values. As this is not a fully featured web scraper like scrapy, it will work with simple web pages and it can be time-consuming to get the right section.</flag>
     <flag name="screenlogic">The Pentair ScreenLogic integration allows you to integrate your Pentair IntelliTouch or EasyTouch pool controller with Home Assistant via the Pentair ScreenLogic gateway.</flag>
     <flag name="scsgate">The SCSGate integration support the SCSGate device. This a home-brew device allows to interact with the MyHome system from BTicino/Legrande.</flag>
-    <flag name="season">The Season integration will provide the current astronomical or meteorological season (Spring, Summer, Autumn, Winter)as a sensor.</flag>
+    <flag name="season">The Season integration provides a sensor that reports the current season (spring, summer, autumn, or winter) based on your configured home location.</flag>
     <flag name="sendgrid">The SendGrid integration sends email notifications via SendGrid, a proven cloud-based email platform.</flag>
     <flag name="sense">Integrate your Sense meter information into Home Assistant.</flag>
     <flag name="sensibo">The Sensibo integration integrates Sensibo devices into Home Assistant.</flag>
@@ -903,7 +902,7 @@
     <flag name="systemnexa2">The System Nexa 2 integration allows you to integrate with the System Nexa 2 devices from Nexa.</flag>
     <flag name="tado">The Tado integration platform is used as an interface to the my.tado.com website.</flag>
     <flag name="tailscale">The Tailscale integration connects to the Tailscale API to monitor devices in your Tailscale network (Tailnet). Use this integration to create automations based on device connectivity, track usage patterns, or receive notifications when devices go online or offline.</flag>
-    <flag name="tailwind">The Tailwind integration integrates Tailwindgarage door controllers fully locally.</flag>
+    <flag name="tailwind">The Tailwind integration lets you control your Tailwind garage door controller fully locally, without relying on cloud services.</flag>
     <flag name="tami4">The Tami4 Edge integration allows you to control and monitor Tami4 Edge / Edge+ by Strauss devices in Home Assistant.</flag>
     <flag name="tankerkoenig">The Tankerkoenig integration allows you to monitor the fuel prices with tankerkoenig.de from within Home Assistant and setup automations based on the information.</flag>
     <flag name="tank-utility">Add Tank Utility propane tank monitors to Home Assistant.</flag>
@@ -1076,7 +1075,7 @@
     <flag name="zinvolt">The Zinvolt integration allows you to monitor your Zinvolt batteries in Home Assistant.</flag>
     <flag name="zoneminder">The ZoneMinder integration sets up Home Assistant with your ZoneMinder instance.</flag>
     <flag name="zwave-js">The Z-Wave integration allows you to control a Z-Wave network from Home Assistant via the Z-Wave JS driver.</flag>
-    <flag name="zwave-me">This integration allows you to control a Z-Wave network via the Z-Wave.Me Z-Way. It combines the performance and the power of the diagnostics tools built-in Z-Way with the flexibility of Home Assistant. The integration brings all Z-Way devices in Home Assistant (Z-Wave, Zigbee, EnOcean, HTTP based, and others).</flag>    <flag name="bh1750">bh1750</flag>
+    <flag name="zwave-me">The Z-Wave.Me integration allows you to control a Z-Wave network via the Z-Wave.Me Z-Way. It combines the performance and power of the diagnostics tools built into Z-Way with the flexibility of Home Assistant. The integration brings all Z-Way devices into Home Assistant, including Z-Wave, Zigbee, EnOcean, HTTP-based, and others.</flag>    <flag name="bh1750">bh1750</flag>
     <flag name="blinkt">blinkt</flag>
     <flag name="bme280">bme280</flag>
     <flag name="bme680">bme680</flag>

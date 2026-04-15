@@ -1,0 +1,56 @@
+# ChangeLog for dev-python/xmltodict
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*xmltodict-1.0.2 (15 Apr 2026)
+
+  15 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +xmltodict-1.0.2.ebuild:
+  app-misc/homeassistant 2026.4.2
+
+  09 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -metadata.xml, -xmltodict-0.13.0.ebuild:
+  Update copyright, python version and fix pkgcheck
+
+  08 May 2025; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  xmltodict-0.13.0.ebuild:
+  Fix for pkgcheck
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  -xmltodict-0.13.0.ebuilde:
+  homeassistant 2025.4.1
+
+  06 Apr 2025; Xavier FORESTIER <xavier.forestier@free.fr>
+  +xmltodict-0.13.0.ebuilde:
+  Fix KEYWORDS
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> -xmltodict-0.12.0-r1.ebuild:
+  drop 0.12.0-r1
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xmltodict-0.13.0 (03 Nov 2024)
+
+  03 Nov 2024; Andreas Billmeier <b@edevau.net> xmltodict-0.12.0-r1.ebuild,
+  +xmltodict-0.13.0.ebuild:
+  add 0.13.0
+
+  Closes: https://git.edevau.net/onkelbeh/HomeAssistantRepository/issues/4109
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  02 Nov 2023; Andreas Billmeier <b@edevau.net> xmltodict-0.12.0-r1.ebuild:
+  update SRC_URI
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+  18 Dec 2022; Andreas Billmeier <b@edevau.net> metadata.xml:
+  dev-python/*: update some upstreams in metadata.xml
+
+  Signed-off-by: Andreas Billmeier <b@edevau.net>
+
+*xmltodict-0.12.0-r1 (10 Jun 2022)
+
+  10 Jun 2022; Andreas Billmeier <b@edevau.net> +metadata.xml,
+  +xmltodict-0.12.0-r1.ebuild:
+  re-add xmltodict-0.12.0-r1 (from main)
+

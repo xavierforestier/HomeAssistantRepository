@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*pynintendoparental-2.3.4 (15 Apr 2026)
+
+  15 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pynintendoparental-2.3.2.ebuild, -pynintendoparental-2.3.2.1.ebuild,
+  +pynintendoparental-2.3.4.ebuild:
+  app-misc/homeassistant 2026.4.2
+
 *pynintendoparental-2.3.3 (05 Apr 2026)
 
   05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

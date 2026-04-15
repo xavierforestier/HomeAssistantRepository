@@ -1,0 +1,47 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=setuptools
+inherit distutils-r1 pypi
+
+DESCRIPTION="Core functions for Starlink gRPC communication"
+HOMEPAGE="https://github.com/sparky8512/starlink-grpc-tools https://pypi.org/project/starlink-grpc-core/"
+SRC_URI="https://github.com/sparky8512/starlink-grpc-tools/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
+MY_PN="starlink-grpc-tools"
+S="${WORKDIR}/${MY_PN}-${PV}/packaging"
+
+LICENSE="Unlicense"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND="
+	>=dev-python/grpcio-1.12.0[${PYTHON_USEDEP}]
+	>=dev-python/grpcio-tools-1.20.0[${PYTHON_USEDEP}]
+	>=dev-python/protobuf-3.6.0[${PYTHON_USEDEP}]
+	>=dev-python/yagrc-1.1.1[${PYTHON_USEDEP}]
+	>=dev-python/paho-mqtt-1.5.1[${PYTHON_USEDEP}]
+	>=dev-python/influxdb-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/influxdb-client-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/pypng-0.0.20[${PYTHON_USEDEP}]
+	>=dev-python/typing-extensions-4.3.0[${PYTHON_USEDEP}]
+	>=dev-python/croniter-1.0.1[${PYTHON_USEDEP}]
+	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]"
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)"
+
+distutils_enable_tests pytest
+
+src_prepare() {
+	# remove unsupported dynamic-versioning plugin
+	sed "s/setuptools.setup()/setuptools.setup( version = \"${PV}\", )/g" -i setup.py || die
+	eapply_user
+}

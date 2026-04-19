@@ -113,6 +113,7 @@
     <flag name="beewi-smartclim">The BeeWi SmartClim integration allows one to monitor room or external temperature and humidity. The BeeWi SmartClim BLE is a Bluetooth Low Energy sensor device that monitors temperature from a room or a garden from your smartphone by using an APP. Use this integration to track these metrics from any location thanks to Home Assistant, as well as to create some automation scripts based on your room’s temperature.</flag>
     <flag name="bitcoin">The Bitcoin integration displays various details about the Bitcoin network.</flag>
     <flag name="bizkaibus">The Bizkaibus integration will give you the time until the next bus in the selected stop.</flag>
+    <flag name="blackbird">The Monoprice Blackbird Matrix Switch integration allows you to control Monoprice Blackbird Matrix Switch (8x8) using a serial or IP connection, this integration does not support the 4x4 matrix switch.</flag>
     <flag name="blebox">BleBox produces small, low-power, surprisingly affordable, feature-rich WiFi devices for serverless home automation.</flag>
     <flag name="blink">The Blink integration lets you view camera images and motion events from Blink camera and security systems.</flag>
     <flag name="blockchain">The Blockchain.com integration displays Bitcoin wallet balances from blockchain.com.</flag>
@@ -965,7 +966,7 @@
     <flag name="twinkly">The Twinkly integration allows you to control Twinkly LED string from Home Assistant.</flag>
     <flag name="twitch">The Twitch integration allows you to monitor Twitch channel status from within Home Assistant and set up automation based on the information.</flag>
     <flag name="twitter">The X integration uses X to deliver notifications from Home Assistant.</flag>
-    <flag name="ubus">This is a presence detection scanner for OpenWrt using ubus. It scans for changes in hostapd.*, which will detect and report changes in devices connected to the access point on the router.</flag>
+    <flag name="ubus">This is a presence detection scanner for OpenWrt using ubus. It scans for changes in hostapd.*, which will detect and report changes in client devices connected to the access point on the OpenWrt device.</flag>
     <flag name="uhoo">The uHoo integration lets you integrate uHoo devices into Home Assistant.</flag>
     <flag name="ukraine-alarm">The Ukraine Alarm integration will create 6 binary sensors for your selected region in Ukraine:</flag>
     <flag name="unifi-access">The UniFi Access integration allows you to control and monitor Ubiquiti UniFi Access devices from Home Assistant.</flag>

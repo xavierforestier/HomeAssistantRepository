@@ -1,1 +1,2 @@
-
+# Pandas fails to build, mask before a upstream fix
+=dev-build/meson-1.11.0

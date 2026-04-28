@@ -11,7 +11,7 @@ inherit distutils-r1
 
 DESCRIPTION="XML bomb protection for Python stdlib modules, an xml serialiser"
 HOMEPAGE="https://github.com/tiran/defusedxml/ https://pypi.org/project/defusedxml/"
-SRC_URI="https://github.com/tiran/${P}/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
+SRC_URI="https://github.com/tiran/defusedxml/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE="PSF-2"
 SLOT="0"

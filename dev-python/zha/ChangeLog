@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  29 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zha-1.1.1.ebuild:
+  pp-misc/homeassistant 2026.4.4
+
 *zha-1.1.2 (15 Apr 2026)
 
   15 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*aiotractive-1.0.3 (29 Apr 2026)
+
+  29 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiotractive-1.0.1.ebuild, +aiotractive-1.0.3.ebuild:
+  pp-misc/homeassistant 2026.4.4
+
 *aiotractive-1.0.2 (15 Apr 2026)
 
   15 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

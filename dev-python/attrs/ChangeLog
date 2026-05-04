@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*attrs-25.4.0 (04 May 2026)
+
+  04 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -attrs-25.1.0.ebuild, +attrs-25.4.0.ebuild:
+  app-misc/zigbee2mqtt 2.10.0
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   attrs-25.1.0.ebuild:
   Happy new year

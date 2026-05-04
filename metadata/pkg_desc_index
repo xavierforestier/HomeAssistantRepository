@@ -13,7 +13,7 @@ app-crypt/certbot 5.3.1: Let's Encrypt client to automate deployment of X.509 ce
 app-misc/home-assistant-cli 1.0.0: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2026.4.2 2026.4.3 2026.4.4: Open-source home automation platform running on Python.
 app-misc/node-red 4.1.6 4.1.7 4.1.8: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 2.9.0 2.9.1 2.9.2: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/zigbee2mqtt 2.9.1 2.9.2 2.10.0: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2026.4.0 2026.4.1 2026.4.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0 20260408.1: ESPHome dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
@@ -73,7 +73,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2025.9.2: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 44.6.2 44.15.0: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 44.6.2 44.15.0 44.16.1: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.8.1: Asynchronous file operations.
 dev-python/aiofiles 24.1.0: File support for asyncio
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
@@ -213,7 +213,7 @@ dev-python/asyncsleepiq 1.7.1: ASync SleepIQ API
 dev-python/asyncssh 2.21.0: Asynchronous SSHv2 client and server library
 dev-python/asyncstdlib 3.13.1: The missing async toolbox
 dev-python/asynctest 0.13.0: Unit test package with features for testing asyncio libraries
-dev-python/attrs 25.1.0: Attributes without boilerplate
+dev-python/attrs 25.4.0: Attributes without boilerplate
 dev-python/audioop-lts 0.2.1: An LTS port of Python's audioop module
 dev-python/aurelio-sdk 0.0.19: Aurelio Platform SDK
 dev-python/auroranoaa 0.0.5: NOAA Aurora Wrapper for Home Assistant Integration.
@@ -337,7 +337,7 @@ dev-python/dataclasses-json 0.6.7: Easily serialize dataclasses to and from JSON
 dev-python/datadog 0.52.0: The Datadog Python library
 dev-python/datapoint 0.12.1: Python interface to the Met Office's Datapoint API
 dev-python/dateparser 1.2.0: Date parsing library designed to parse dates from HTML pages
-dev-python/dbus-fast 2.43.0 2.44.5: A faster version of dbus-next
+dev-python/dbus-fast 3.1.2: A faster version of dbus-next
 dev-python/debugpy 1.8.17: An implementation of the Debug Adapter Protocol for Python
 dev-python/decora-wifi 1.4: Python API for controlling Leviton Decora Smart WiFi switches
 dev-python/deebot-client 18.1.0: Deebot client library in python 3
@@ -771,7 +771,7 @@ dev-python/openwrt-ubus-rpc 0.0.2: OpenWrt ubus RPC API library
 dev-python/opower 0.18.1: A library for getting historical and forecasted from opower.com
 dev-python/opuslib 3.0.1: Python bindings to the libopus, IETF low-delay audio codec
 dev-python/oralb-ble 1.1.0: Bluetooth library for Oral B devices
-dev-python/orjson 3.11.3: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
+dev-python/orjson 3.11.7: Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy
 dev-python/ormsgpack 1.12.1: Python msgpack library supporting dataclasses, datetimes, and numpy
 dev-python/oru 0.1.11: Python client for Orange and Rockland Utility smart energy meters
 dev-python/orvibo 1.1.2: Control Orvibo products.
@@ -1297,7 +1297,7 @@ dev-python/sisyphus-control 3.1.4: Control your Sisyphus kinetic art tables (sis
 dev-python/skyboxremote 0.0.6: A python library for controlling a sky box
 dev-python/slack-sdk 3.33.4: The Slack API Platform SDK for Python
 dev-python/sleekxmppfs 1.4.1: Fork of SleekXMPP with TLS cert validation disabled
-dev-python/slixmpp 1.8.5: Python 3 library for XMPP
+dev-python/slixmpp 1.13.2: Python 3 library for XMPP
 dev-python/smart-meter-texas 0.5.5: Package to retrieve data from the unofficial Smart Meter Texas API
 dev-python/smarthab 0.21: This package allows controlling devices in a SmartHab-powered home.
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
@@ -1523,4 +1523,4 @@ sci-ml/sentencepiece 0.2.1: Text tokenizer for Neural Network-based text generat
 sci-ml/tokenizers 0.22.1: Implementation of today's most used tokenizers
 sys-apps/pcsc-lite 2.4.1: PC/SC Architecture smartcard middleware library
 virtual/homeassistant 202604: Homeassistant features set
-www-nginx/ngx-http-auth-totp 1.1.0: Time-based one-time password (TOTP) authentication for Nginx
+www-nginx/ngx-http-auth-totp 1.1.0 1.1.1: Time-based one-time password (TOTP) authentication for Nginx

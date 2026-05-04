@@ -5,6 +5,7 @@ EAPI=8
 
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=poetry
+# TODO: freethreading compatible
 PYTHON_COMPAT=( python3_{11..14} )
 
 inherit distutils-r1 virtualx
@@ -31,14 +32,16 @@ BDEPEND="
 		>=dev-python/pygobject-3.50[${PYTHON_USEDEP}]
 	)
 "
-PATCHES="${FILESDIR}/${P}-fix-build-with-cpython-3.2.patch "
+
 EPYTEST_PLUGINS=( pytest-{asyncio,timeout} )
 distutils_enable_tests pytest
 
 export REQUIRE_CYTHON=1
 
 src_test() {
-	local dbus_params=( "$(dbus-daemon --session --print-address --fork --print-pid)" )
+	local dbus_params=(
+		$(dbus-daemon --session --print-address --fork --print-pid)
+	)
 	local -x DBUS_SESSION_BUS_ADDRESS=${dbus_params[0]}
 
 	virtx distutils-r1_src_test

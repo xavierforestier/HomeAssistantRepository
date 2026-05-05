@@ -40,7 +40,7 @@ export REQUIRE_CYTHON=1
 
 src_test() {
 	local dbus_params=(
-		$(dbus-daemon --session --print-address --fork --print-pid)
+		"$(dbus-daemon --session --print-address --fork --print-pid)"
 	)
 	local -x DBUS_SESSION_BUS_ADDRESS=${dbus_params[0]}
 

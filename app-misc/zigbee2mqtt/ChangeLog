@@ -2,9 +2,9 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
-*zigbee2mqtt-2.10.0 (04 May 2026)
+*zigbee2mqtt-2.10.0 (05 May 2026)
 
-  04 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  05 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -zigbee2mqtt-2.9.0.ebuild, +zigbee2mqtt-2.10.0.ebuild:
   2.10.0
 

@@ -2,9 +2,9 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
-*slixmpp-1.13.2 (04 May 2026)
+*slixmpp-1.13.2 (05 May 2026)
 
-  04 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  05 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -slixmpp-1.8.5.ebuild, +slixmpp-1.13.2.ebuild:
   app-misc/zigbee2mqtt 2.10.0
 

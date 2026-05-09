@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*bellows-0.49.1 (09 May 2026)
+
+  09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bellows-0.49.1.ebuild:
+  app-misc/homeassistant 2026.5.0
+
   25 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -bellows-0.44.1.ebuild, -bellows-0.45.0.ebuild, -bellows-0.45.1.ebuild,
   -bellows-0.45.2.ebuild, -bellows-0.45.3.ebuild, -bellows-0.46.0.ebuild,

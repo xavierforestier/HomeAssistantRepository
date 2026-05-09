@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*zigpy-1.4.0 (09 May 2026)
+
+  09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zigpy-0.91.5.ebuild, -zigpy-0.92.0.ebuild, -zigpy-1.1.0.ebuild,
+  -zigpy-1.1.1.ebuild, +zigpy-1.4.0.ebuild:
+  app-misc/homeassistant 2026.5.0
+
 *zigpy-1.2.2 (05 Apr 2026)
 
   05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

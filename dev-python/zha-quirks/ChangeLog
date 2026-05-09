@@ -2,6 +2,14 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*zha-quirks-1.2.0 (09 May 2026)
+
+  09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -zha-quirks-0.0.152.ebuild, -zha-quirks-0.0.156.ebuild,
+  -zha-quirks-0.0.157.ebuild, -zha-quirks-1.0.1.ebuild,
+  +zha-quirks-1.2.0.ebuild:
+  app-misc/homeassistant 2026.5.0
+
 *zha-quirks-1.1.1 (05 Apr 2026)
 
   05 Apr 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

@@ -12,8 +12,8 @@ app-crypt/acme 5.1.0 5.2.2 5.3.1 5.4.0: An implementation of the ACME protocol
 app-crypt/certbot 5.3.1: Let's Encrypt client to automate deployment of X.509 certificates
 app-misc/home-assistant-cli 1.0.0: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2026.4.3 2026.4.4 2026.5.0: Open-source home automation platform running on Python.
-app-misc/node-red 4.1.7 4.1.8 4.1.9: A visual tool for wiring the Internet of Things.
-app-misc/zigbee2mqtt 2.9.1 2.9.2 2.10.0: It bridges events and allows you to control your Zigbee devices via MQTT
+app-misc/node-red 4.1.8 4.1.9 4.1.10: A visual tool for wiring the Internet of Things.
+app-misc/zigbee2mqtt 2.9.2 2.10.0 2.10.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2026.4.3 2026.4.4 2026.4.5: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0 20260408.1: ESPHome dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
@@ -669,7 +669,7 @@ dev-python/luftdaten 0.7.4: Python API for interacting with luftdaten.info.
 dev-python/lunatone-rest-api-client 0.7.0 0.9.1: A client library for accessing the Lunatone REST API
 dev-python/lupupy 0.3.2: A python cli for Lupusec alarm panels.
 dev-python/lw12 0.9.2: Library to control the Lagute LW-12 WiFi LED controller.
-dev-python/mac-vendor-lookup 0.1.12: Find the vendor for a given MAC address
+dev-python/mac-vendor-lookup 0.1.15: Find the vendor for a given MAC address
 dev-python/marshmallow 3.21.1: A library for converting to and from native Python datatypes
 dev-python/marshmallow-dataclass 8.7.1: Python library to convert dataclasses into marshmallow schemas.
 dev-python/mashumaro 3.20: Fast and well tested serialization library

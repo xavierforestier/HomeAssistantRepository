@@ -3,6 +3,10 @@
 # (auto-generated from git log)
 
   09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioamazondevices-13.4.1.ebuild:
+  app-misc/homeassistant 2026.5.1
+
+  09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -aioamazondevices-13.3.2.ebuild:
   app-misc/homeassistant 2026.5.0
 

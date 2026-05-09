@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*mac-vendor-lookup-0.1.15 (09 May 2026)
+
+  09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/mac-vendors.txt.xz, -mac-vendor-lookup-0.1.12.ebuild,
+  +mac-vendor-lookup-0.1.15.ebuild:
+  app-misc/homeassistant 2026.5.0
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   mac-vendor-lookup-0.1.12.ebuild:
   Happy new year

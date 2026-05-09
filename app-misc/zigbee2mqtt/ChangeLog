@@ -6,7 +6,7 @@
 
   09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -zigbee2mqtt-2.9.1.ebuild, +zigbee2mqtt-2.10.1.ebuild:
-  app-misc/node-red 4.1.10
+  2.10.1
 
 *zigbee2mqtt-2.10.0 (05 May 2026)
 

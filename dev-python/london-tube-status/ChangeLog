@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*london-tube-status-0.7 (09 May 2026)
+
+  09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +london-tube-status-0.7.ebuild:
+  app-misc/homeassistant 2026.5.0
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   london-tube-status-0.5.ebuild:
   Happy new year

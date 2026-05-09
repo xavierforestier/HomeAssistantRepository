@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/httpx-retries
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*httpx-retries-0.4.6 (09 May 2026)
+
+  09 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +httpx-retries-0.4.6.ebuild, +metadata.xml:
+  app-misc/homeassistant 2026.5.0
+

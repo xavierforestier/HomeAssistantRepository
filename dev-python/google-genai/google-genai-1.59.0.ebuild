@@ -35,7 +35,6 @@ RDEPEND="
 	>=dev-python/pyasn1-0.6.1[${PYTHON_USEDEP}]
 	>=dev-python/pyasn1-modules-0.4.1[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-2.12.0[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-core-2.41.1[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.32.4[${PYTHON_USEDEP}]
 	>=dev-python/rsa-4.9[${PYTHON_USEDEP}]
 	>=dev-python/tenacity-8.2.3[${PYTHON_USEDEP}]

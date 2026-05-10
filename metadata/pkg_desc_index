@@ -897,7 +897,7 @@ dev-python/pycync 0.5.0: A Python library to communicate with Cync devices.
 dev-python/pydaikin 2.17.2: Python Daikin HVAC appliances interface
 dev-python/pydanfossair 0.1.0: Python interface for Danfoss Air HRV systems
 dev-python/pydantic 2.12.2 2.13.2: Data parsing and validation using Python type hints
-dev-python/pydantic-core 2.41.4 2.46.2: Core validation logic for pydantic written in Rust
+dev-python/pydantic-core 2.41.4: Core validation logic for pydantic written in Rust
 dev-python/pydantic-extra-types 2.10.1: Extra Pydantic types.
 dev-python/pydantic-settings 2.9.1: Settings management using pydantic
 dev-python/pydeako 0.6.0: Connect and interact with deako devices over the network locally

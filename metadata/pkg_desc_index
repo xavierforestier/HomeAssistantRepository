@@ -1527,6 +1527,7 @@ dev-python/zwave-me-ws 0.4.3: Library, implementing websocket connection to ZWav
 dev-vcs/pre-commit 4.3.0: A framework for managing and maintaining multi-language Git pre-commit hooks
 dev-vcs/python-gitlab 1.6.0: Interact with GitLab API
 kde-plasma/drkonqi-legacy 6.3.80_p20250417: Plasma crash handler, gives the user feedback if a program crashed
+media-sound/sox 14.7.1.2: The swiss army knife of sound processing programs
 net-analyzer/nmap 7.98: Network exploration tool and security / port scanner
 net-analyzer/scapy 2.6.1: A Python interactive packet manipulation program for mastering the network
 net-analyzer/shodan 1.28.0: The official Python library for Shodan

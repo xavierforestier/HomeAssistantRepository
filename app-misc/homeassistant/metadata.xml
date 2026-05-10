@@ -19,6 +19,7 @@
     <flag name="acaia">The Acaia integration allows you to control Acaia scales through Home Assistant.</flag>
     <flag name="accuweather">There is an active alert for this integration! LEARN MORE The AccuWeather integration uses the AccuWeather web service as a source for weather data for your location. A paid subscription is required to use this integration.</flag>
     <flag name="acer-projector">The Acer Projector integration allows you to control the state of RS232 connected projectors from Acer.</flag>
+    <flag name="acmeda">The Rollease Acmeda Automate integration allows you to control and monitor covers via your Rollease Acmeda Automate hub. The integrations communicates directly with hubs on the local network, rather than connecting via the cloud or via RS-485. Devices are represented as a cover for monitoring and control as well as a sensor for monitoring battery condition.</flag>
     <flag name="actron-air">The Actron Air integration allows you to control Actron Air Air Conditioning controllers into Home Assistant.</flag>
     <flag name="adax">The Adax integration integrates Adax heaters into Home Assistant and can be configured to use a local or cloud interface.</flag>
     <flag name="adguard">The AdGuard Home integration allows you to control and monitor your AdGuard Home instance in Home Assistant.</flag>
@@ -52,6 +53,7 @@
     <flag name="ambient-network">The Ambient Weather Network integration retrieves local weather station informationvia the Ambient Weather Network.</flag>
     <flag name="ambient-station">The Ambient Weather Station integration retrieves local weather informationvia personal weather stations from Ambient Weather.</flag>
     <flag name="amcrest">The Amcrest integration allows you to integrate your Amcrest or Dahua IP camera or doorbell in Home Assistant.</flag>
+    <flag name="ampio">The Ampio integration will query the open data API of ampio.pl to monitor air quality sensor station.</flag>
     <flag name="analytics-insights">The Analytics Insights integration allows you to get integration usage statistics into Home Assistant.The data comes from Home Assistant Analytics.For more information about the component that collects analytics, checkout Analytics.</flag>
     <flag name="android-ip-webcam">The Android IP Webcam integration connects with Android IP Webcam to turn any Android phone or tablet into a network camera with multiple viewing options.</flag>
     <flag name="androidtv">The Android Debug Bridge integration allows you to control an Android device or Amazon Fire TV device.</flag>

@@ -68,34 +68,34 @@ DOCS=( AUTHORS ChangeLog  )
 src_configure() {
 	# Workaround for LLD (bug #914867)
 	# https://codeberg.org/sox_ng/sox_ng/issues/69
-	append-ldflags $(test-flags-CCLD -Wl,--undefined-version)
+	append-ldflags "$(test-flags-CCLD -Wl,--undefined-version)"
 	local myeconfargs=(
-		$(use_with alsa)
-		$(use_with amr amrnb)
-		$(use_with amr amrwb)
-		$(use_with ao)
-		$(use_with dolbyb)
-		$(use_with encode lame)
-		$(use_with ffmpeg)
-		$(use_with fftw)
-		$(use_with flac)
-		$(use_with id3tag)
-		$(use_with ladspa ladspa dyn)
-		$(use_with loudness ebur128)
-		$(use_with mad)
+		"$(use_with alsa)"
+		"$(use_with amr amrnb)"
+		"$(use_with amr amrwb)"
+		"$(use_with ao)"
+		"$(use_with dolbyb)"
+		"$(use_with encode lame)"
+		"$(use_with ffmpeg)"
+		"$(use_with fftw)"
+		"$(use_with flac)"
+		"$(use_with id3tag)"
+		"$(use_with ladspa ladspa dyn)"
+		"$(use_with loudness ebur128)"
+		"$(use_with mad)"
 		--with-magic
-		$(use_enable openmp)
-		$(use_with ogg oggvorbis)
-		$(use_with oss)
-		$(use_with opus)
-		$(use_with png)
-		$(use_with pulseaudio)
-		$(use_with sndfile)
-		$(use_with sndio)
-		$(use_with speexdsp)
+		"$(use_enable openmp)"
+		"$(use_with ogg oggvorbis)"
+		"$(use_with oss)"
+		"$(use_with opus)"
+		"$(use_with png)"
+		"$(use_with pulseaudio)"
+		"$(use_with sndfile)"
+		"$(use_with sndio)"
+		"$(use_with speexdsp)"
 		--disable-dl-speexdsp
-		$(use_with twolame)
-		$(use_with wavpack)
+		"$(use_with twolame)"
+		"$(use_with wavpack)"
 
 		--enable-replace # bug #960558
 		--disable-debug # user cflags

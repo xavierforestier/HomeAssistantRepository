@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Generate and work with holidays in Python"
-HOMEPAGE="https://github.com/vacanza/holidays https://pypi.org/project/holidays/"
+DESCRIPTION="Communications with IntesisHome Smart AC Controllers"
+HOMEPAGE="https://github.com/jnimmo/pyIntesisHome https://pypi.org/project/pyintesishome/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,4 +16,10 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]"
+DOCS="README.md"
+
+RDEPEND="
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+"
+
+distutils_enable_tests pytest

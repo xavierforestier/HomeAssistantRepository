@@ -73,8 +73,12 @@ distutils_enable_tests pytest
 
 src_compile() {
 	PYO3_USE_ABI3_FORWARD_COMPATIBILITY=1 cargo_src_compile
+
+	distutils-r1_src_compile
 }
 src_install() {
 	dolib.so target/release/lib_serialx_rust.so
 	distutils-r1_python_install_all
+
+	distutils-r1_src_install
 }

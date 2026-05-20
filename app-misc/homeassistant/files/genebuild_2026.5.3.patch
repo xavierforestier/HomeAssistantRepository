@@ -1,5 +1,5 @@
---- a/core-2026.5.0/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
-+++ b/core-2026.5.0/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
+--- a/core-2026.5.3/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
++++ b/core-2026.5.3/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
 @@ -194,7 +194,7 @@
  
  # homeassistant.components.ambient_network
@@ -17,7 +17,7 @@
 +aioguardian==2026.1.1
  
  # homeassistant.components.harmony
- aioharmony==0.5.3
+ aioharmony==1.0.3
 @@ -336,7 +336,7 @@
  aionanoleaf2==1.0.2
  
@@ -220,7 +220,7 @@
 +regenmaschine==2024.3.0
  
  # homeassistant.components.renault
- renault-api==0.5.7
+ renault-api==0.5.8
 @@ -2969,7 +2969,7 @@
  simplepush==2.2.3
  
@@ -230,8 +230,8 @@
  
  # homeassistant.components.sisyphus
  sisyphus-control==3.1.4
---- a/core-2026.5.0/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
-+++ b/core-2026.5.0/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+--- a/core-2026.5.3/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
++++ b/core-2026.5.3/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -73,7 +73,7 @@
  uv==0.11.8
  voluptuous-openapi==0.3.0

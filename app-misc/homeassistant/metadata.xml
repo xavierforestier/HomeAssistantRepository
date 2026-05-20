@@ -397,7 +397,7 @@
     <flag name="horizon">The Unitymedia Horizon HD Recorder integration allows you to control a Unitymedia Horizon HD Recorder from Home Assistant.</flag>
     <flag name="hp-ilo">The HP Integrated Lights-Out integration allows you to do an API call to the HP ILO (Integrated Lights-Out) sensor of your server, and use this data in Home Assistant sensors.</flag>
     <flag name="hr-energy-qube">The Qube heat pump integration allows you to monitor Qube heat pumps via the Modbus TCP protocol.</flag>
-    <flag name="html5">The HTML5 Push Notifications integration enables you to receive push notifications to Chrome or Firefox, no matter where you are in the world. html5 also supports Chrome and Firefox on Android, which enables native-app-like integrations without actually needing a native app.</flag>
+    <flag name="html5">The HTML5 Push Notifications integration lets you receive push notifications in supported browsers.</flag>
     <flag name="huawei-lte">The Huawei LTE router and modem integration for Home Assistant allows you to observe and control Huawei LTE devices.</flag>
     <flag name="hue-ble">The Hue BLE integration allows you to control your Philips Hue Bluetooth lights with Home Assistant.</flag>
     <flag name="hue">The Philips Hue integration allows you to control and monitor the lights and sensors connected to your Hue bridge. The integration supports:</flag>

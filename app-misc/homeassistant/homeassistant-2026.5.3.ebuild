@@ -29,7 +29,7 @@ HOMEPAGE="https://home-assistant.io/ https://git.edevau.net/onkelbeh/HomeAssista
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-IUSE="bh1750 blinkt bme280 bme680 cli dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink  abode acaia accuweather acer-projector actron-air adax adguard ads advantage-air aemet aftership agent-dvr airgradient airly airnow airobot airos airpatrol airq airthings-ble airthings airtouch4 airtouch5 airvisual airvisual-pro airzone-cloud airzone aladdin-connect alarmdecoder alexa-devices alpha-vantage altruist amazon-polly amberelectric ambient-network ambient-station amcrest analytics-insights android-ip-webcam androidtv androidtv-remote anel-pwrctrl anglian-water anova anthemav anthropic aosmith apache-kafka apcupsd apple-tv apprise aprilaire aprs apsystems aquacell aqualogic aquostv aranet arcam-fmj arris-tg2492lg aruba arve aseko-pool-live assist-pipeline assist-satellite asuswrt atag aten-pe atome august aurora-abb-powerone aurora aussie-broadband autarco autoskope avea avion awair aws aws-s3 axis azure-data-explorer azure-devops azure-event-hub azure-service-bus azure-storage backblaze-b2 backup baf baidu balboa bang-olufsen bbox beewi-smartclim bitcoin bizkaibus blackbird blebox blink blockchain blue-current bluemaestro bluesound bluetooth bond bosch-alarm bosch-shc braviatv bring broadlink brother brottsplatskartan brunt bryant-evolution bsblan bt-home-hub-5 bthome bt-smarthub buienradar caldav cambridge-audio camera canary casper-glow cast ccm15 chacon-dio channels chess-com cisco-ios cisco-mobility-express cisco-webex-teams citybikes clementine cloudflare cloudflare-r2 cloud cmus co2signal coinbase color-extractor comelit comfoconnect command-line compensation compit concord232 control4 conversation cookidoo coolmaster cppm-tracker cpuspeed crownstone cync daikin danfoss-air datadog deako debugpy deconz decora-wifi delijn deluge denonavr denon-rs232 devialet devolo-home-control devolo-home-network dexcom dhcp digital-ocean directv discogs discord discovergy dlink dlna-dmr dlna-dms dnsip doods doorbird dormakaba-dkey dremel-3d-printer dropbox drop-connect droplet dsmr duco dunehd duotecno dwd-weather-warnings dynalite eafm earn-e-p1 easyenergy ebox ebusd ecoal-boiler ecobee ecoforest econet ecovacs ecowitt edimax edl21 efergy egardia egauge eheimdigital ekeybionyx electrasmart electric-kiwi elevenlabs elgato eliqonline elkm1 elmax elvia elv emby emoncms-history emoncms emonitor emulated-kasa emulated-roku energenie-power-sockets energyid energyzero enigma2 enocean enphase-envoy entur-public-transport environment-canada envisalink ephember epic-games-store epion epson eq3btsmart escea esphome essent etherscan eufylife-ble eufy eurotronic-cometblue everlights evil-genius-labs evohome ezviz faa-delays familyhub fastdotcom feedreader ffmpeg fibaro fido file fing fints firefly-iii fireservicerota firmata fish-audio fitbit fivem fixer fjaraskupan fleetgo flexit-bacnet flic flipr flo flume fluss flux-led folder-watcher foobot forecast-solar forked-daapd fortios foscam freebox freedompro free-mobile freshr fressnapf-tracker fritzbox-callmonitor fritzbox fritz fronius frontend frontier-silicon fujitsu-fglair fully-kiosk fumis futurenow fyta garages-amsterdam gardena-bluetooth gc100 gdacs generic geniushub gentex-homelink geocaching geo-json-events geonetnz-quakes geonetnz-volcano geo-rss-events ghost gios github gitlab-ci gitter glances go2rtc goalzero gogogate2 goodwe google-air-quality google-assistant-sdk google-cloud google-drive google-generative-ai-conversation google-mail google google-maps google-photos google-pubsub google-sheets google-tasks google-translate google-travel-time google-weather govee-ble govee-light-local gpsd gree greeneye-monitor green-planet-energy greenwave growatt-server gtfs guardian habitica hanna hardware harman-kardon-avr harmony hassio hdfury hdmi-cec heatmiser hegel heos here-travel-time hikvisioncam hikvision hisense-aehw4a1 hive hko hlk-sw16 holiday homeassistant-hardware home-connect homee homekit-controller homekit homematicip-cloud homematic homevolt homewizard homeworks honeywell honeywell-string-lights horizon hp-ilo hr-energy-qube html5 huawei-lte hue-ble hue huisbaasje hunterdouglas-powerview husqvarna-automower-ble husqvarna-automower huum hvv-departures hydrawise hyperion hypontech ialarm iammeter iaqualink ibeacon icloud idasen-desk idrive-e2 idteck-prox ifttt iglo igloohome ign-sismologia ihc image-upload imap imeon-inverter imgw-pib immich improv-ble incomfort indevolt inels influxdb infrared inkbird insteon intelliclima intellifire intesishome iometer iotawatt iotty iperf3 ipma ipp iqvia irish-rail-transport irm-kmi iron-os isal iskra islamic-prayer-times israel-rail iss ista-ecotrend isy994 itach ituran izone jellyfin jewish-calendar joaoapps-join justnimbus jvc-projector kaiterra kaleidescape keba keenetic-ndms2 kef kegtron keyboard-remote keymitt-ble kiosker kira kiwi kmtronic knocki knx kodi konnected kostal-plenticore kraken kulersky kwb lacrosse lacrosse-view lamarzocco lametric landisgyr-heat-meter lastfm launch-library laundrify lcn ld2410-ble leaone led-ble lektrico letpot lg-netcast lg-soundbar lg-thinq libre-hardware-monitor lichess lidarr liebherr lifx lightwave limitlessled linkplay linode linux-battery litejet litterrobot livisi local-calendar local-todo lojack london-underground lookin loqed luci luftdaten lunatone lupusec lutron-caseta lutron lw12wifi lyric madvr mailgun marytts mastodon matrix matter maxcube mcp mcp-server mealie meater medcom-ble media-extractor mediaroom melcloud melissa melnor message-bird met-eireann meteoalarm meteoclimatic meteo-france meteo-lt met metoffice mfi microbees microsoft miele mikrotik mill minecraft-server minio moat mobile-app mochad modbus modem-callerid modern-forms moehlenhoff-alpha2 monarch-money monoprice monzo mopeka motionblinds-ble motion-blinds motioneye motionmount mpd mqtt msteams mta mullvad music-assistant mutesync mvglive myneomitis mysensors mystrom mythicbeastsdns myuplink nad nam nanoleaf nasweb neato nederlandse-spoorwegen ness-alarm nest netatmo netdata netgear-lte netgear netio network neurio-energy nexia nextbus nextcloud nextdns nfandroidtv nibe-heatpump nice-go nightscout niko-home-control nilu nina nintendo-parental-controls nissan-leaf nmap-tracker nmbs noaa-tides nobo-hub nordpool norway-air notify-events notion novy-cooker-hood nrgkick nsw-fuel-station nsw-rural-fire-service-feed ntfy nuheat nuki numato nut nws nx584 nyt-games nzbget oasa-telematics obihai octoprint oem ohmconnect ohme ollama ombi omie omnilogic ondilo-ico onedrive-for-business onedrive onewire onkyo onvif openai-conversation opendisplay openerz openevse openexchangerates opengarage openhome open-meteo openrgb open-router opensensemap opensky opentherm-gw openuv openweathermap opnsense opower opple oralb oru orvibo osoenergy osramlightify otbr otp ourgroceries overkiz overseerr ovo-energy owntracks p1-monitor palazzetti panasonic-bluray panasonic-viera paperless-ngx peblar peco pegel-online pencom permobil pglab philips-js picnic pi-hole ping pjlink plaato playstation-network plex plugwise pocketcasts point pooldose poolsense portainer powerfox-local powerfox powerwall prana private-ble-device probe-plus profiler progettihwsw proliphix prometheus prosegur prowl proxmoxve proxy prusalink ps4 pterodactyl pulseaudio-loopback pure-energie purpleair pushbullet pushover pvoutput pvpc-hourly-pricing pyload python-script qbittorrent qbus qingping qld-bushfire qnap qnap-qsw qrcode quantum-gateway qvr-pro qwikswitch rabbitair rachio radarr radio-browser radio-frequency radiotherm rainbird raincloud rainforest-eagle rainforest-raven rainmachine rapt-ble raspyrfm rdw recollect-waste recorder recswitch reddit redgtech refoss rehlko rejseplanen remember-the-milk remote-calendar remote-rpi-gpio renault renson reolink repetier rest rflink rfxtrx ridwell ring ripple risco rituals-perfume-genie rmvtransport roborock rocketchat roku romy roomba roon route53 route-b-smart-meter rova rpi-power ruckus-unleashed russound-rio russound-rnet +ruuvi-gateway ruuvitag-ble rympro sabnzbd saj samsungtv sanix satel-integra saunum schlage schluter scrape screenlogic scsgate season sendgrid sense sensibo sensirion-ble sensorpro sensorpush-cloud sensorpush sensoterra sentry senz serial serial-pm sesame seven-segments seventeentrack sfr-box sftp-storage sharkiq +shelly shodan sia sighthound signal-messenger simplefin simplepush simplisafe sinch sisyphus skybeacon skybell sky-hub sky-remote slack sleepiq slide-local slide slimproto sma smappee smarla smart-meter-texas smartthings smarttub smarty smhi smlight snapcast snmp snoo snooz solaredge-local solaredge solarlog solarman solax soma somfy-mylink sonarr songpal sonos sony-projector soundtouch spc speedtestdotnet splunk spotify sql squeezebox srp-energy ssdp starline starlingbank starlink startca statsd steamist steam-online stiebel-eltron stookwijzer streamlabswater stream subaru suez-water sunricher-dali supla surepetcare swiss-hydrological-data swiss-public-transport switchbee switchbot-cloud switchbot switcher-kis switchmate syncthing syncthru synology-dsm synology-srm system-bridge systemmonitor systemnexa2 tado tailscale tailwind tami4 tankerkoenig tank-utility tapsaff tasmota tautulli technove ted5000 tedee telegram-bot teleinfo tellduslive tellstick teltonika temper tesla-fleet tesla-wall-connector teslemetry tessie thermobeacon thermopro thethingsnetwork thingspeak thinkingcleaner thread tibber tikteck tile tilt-ble tilt-pi tmb todoist togrill tolo tomorrowio toon totalconnect touchline touchline-sl tplink tplink-omada traccar traccar-server tractive tradfri trafikverket-camera trafikverket-ferry trafikverket-train trafikverket-weatherstation trane transmission transport-nsw travisci trend triggercmd trmnl tts tuya twentemilieu twilio twinkly twitch twitter ubus uhoo ukraine-alarm unifi-access unifi-direct unifi-discovery unifiled unifi unifiprotect upb upc-connect upcloud upnp uptime-kuma uptimerobot usb usgs-earthquakes-feed utility-meter uvc v2c vallox vasttrafik vegehub velbus velux venstar vera verisure versasense version vesync viaggiatreno vicare victron-ble victron-gx victron-remote-monitoring vilfo vivotek vizio vlc vlc-telnet vodafone-station voip volkszaehler volumio volvo w800rf32 wake-on-lan wallbox waqi waterfurnace watergate watts watttime waze-travel-time weatherflow-cloud weatherflow weatherkit webdav webmin webostv weheat wemo whirlpool whois wiffi wiim wilight wirelesstag withings wiz wled wmspro wolflink workday ws66i wsdot wyoming xbox xeoma xiaomi-aqara xiaomi-ble xiaomi-miio xiaomi-tv xmpp xs1 yale yale-smart-alarm yalexs-ble yamaha yamaha-musiccast yandex-transport yardian yeelight yeelightsunflower yi yolink youless youtube zabbix zamg zeroconf zerproc zestimate zeversolar zha zhong-hong ziggo-mediabox-xl zimi zinvolt zoneminder zwave-js zwave-me blinkt bme280 bme680 cli dht mariadb mosquitto smarthab socat tesla wink"
+IUSE="bh1750 blinkt bme280 bme680 cli dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink  abode acaia accuweather acer-projector acmeda actron-air adax adguard ads advantage-air aemet aftership agent-dvr airgradient airly airnow airobot airos airpatrol airq airthings-ble airthings airtouch4 airtouch5 airvisual airvisual-pro airzone-cloud airzone aladdin-connect alarmdecoder alexa-devices alpha-vantage altruist amazon-polly amberelectric ambient-network ambient-station amcrest ampio analytics-insights android-ip-webcam androidtv androidtv-remote anel-pwrctrl anglian-water anova anthemav anthropic aosmith apache-kafka apcupsd apple-tv apprise aprilaire aprs apsystems aquacell aqualogic aquostv aranet arcam-fmj arris-tg2492lg aruba arve aseko-pool-live assist-pipeline assist-satellite asuswrt atag aten-pe atome august aurora-abb-powerone aurora aussie-broadband autarco autoskope avea avion awair aws aws-s3 axis azure-data-explorer azure-devops azure-event-hub azure-service-bus azure-storage backblaze-b2 backup baf baidu balboa bang-olufsen bbox beewi-smartclim bitcoin bizkaibus blackbird blebox blink blockchain blue-current bluemaestro bluesound bluetooth bond bosch-alarm bosch-shc braviatv bring broadlink brother brottsplatskartan brunt bryant-evolution bsblan bt-home-hub-5 bthome bt-smarthub buienradar caldav cambridge-audio camera canary casper-glow cast ccm15 chacon-dio channels chess-com cisco-ios cisco-mobility-express cisco-webex-teams citybikes clementine cloudflare cloudflare-r2 cloud cmus co2signal coinbase color-extractor comelit comfoconnect command-line compensation compit concord232 control4 conversation cookidoo coolmaster cppm-tracker cpuspeed crownstone cync daikin danfoss-air datadog deako debugpy deconz decora-wifi delijn deluge denonavr denon-rs232 devialet devolo-home-control devolo-home-network dexcom dhcp digital-ocean directv discogs discord discovergy dlink dlna-dmr dlna-dms dnsip doods doorbird dormakaba-dkey dremel-3d-printer dropbox drop-connect droplet dsmr duco dunehd duotecno dwd-weather-warnings dynalite eafm earn-e-p1 easyenergy ebox ebusd ecoal-boiler ecobee ecoforest econet ecovacs ecowitt edimax edl21 efergy egardia egauge eheimdigital ekeybionyx electrasmart electric-kiwi elevenlabs elgato eliqonline elkm1 elmax elvia elv emby emoncms-history emoncms emonitor emulated-kasa emulated-roku energenie-power-sockets energyid energyzero enigma2 enocean enphase-envoy entur-public-transport environment-canada envisalink ephember epic-games-store epion epson eq3btsmart escea esphome essent etherscan eufylife-ble eufy eurotronic-cometblue everlights evil-genius-labs evohome ezviz faa-delays familyhub fastdotcom feedreader ffmpeg fibaro fido file fing fints firefly-iii fireservicerota firmata fish-audio fitbit fivem fixer fjaraskupan fleetgo flexit-bacnet flic flipr flo flume fluss flux-led folder-watcher foobot forecast-solar forked-daapd fortios foscam freebox freedompro free-mobile freshr fressnapf-tracker fritzbox-callmonitor fritzbox fritz fronius frontend frontier-silicon fujitsu-fglair fully-kiosk fumis futurenow fyta garages-amsterdam gardena-bluetooth gc100 gdacs generic geniushub gentex-homelink geocaching geo-json-events geonetnz-quakes geonetnz-volcano geo-rss-events ghost gios github gitlab-ci gitter glances go2rtc goalzero gogogate2 goodwe google-air-quality google-assistant-sdk google-cloud google-drive google-generative-ai-conversation google-mail google google-maps google-photos google-pubsub google-sheets google-tasks google-translate google-travel-time google-weather govee-ble govee-light-local gpsd gree greeneye-monitor green-planet-energy greenwave growatt-server gtfs guardian habitica hanna hardware harman-kardon-avr harmony hassio hdfury hdmi-cec heatmiser hegel heos here-travel-time hikvisioncam hikvision hisense-aehw4a1 hive hko hlk-sw16 holiday homeassistant-hardware home-connect homee homekit-controller homekit homematicip-cloud homematic homevolt homewizard homeworks honeywell honeywell-string-lights horizon hp-ilo hr-energy-qube html5 huawei-lte hue-ble hue huisbaasje hunterdouglas-powerview husqvarna-automower-ble husqvarna-automower huum hvv-departures hydrawise hyperion hypontech ialarm iammeter iaqualink ibeacon icloud idasen-desk idrive-e2 idteck-prox ifttt iglo igloohome ign-sismologia ihc image-upload imap imeon-inverter imgw-pib immich improv-ble incomfort indevolt inels influxdb infrared inkbird insteon intelliclima intellifire intesishome iometer iotawatt iotty iperf3 ipma ipp iqvia irish-rail-transport irm-kmi iron-os isal iskra islamic-prayer-times israel-rail iss ista-ecotrend isy994 itach ituran izone jellyfin jewish-calendar joaoapps-join justnimbus jvc-projector kaiterra kaleidescape keba keenetic-ndms2 kef kegtron keyboard-remote keymitt-ble kiosker kira kiwi kmtronic knocki knx kodi konnected kostal-plenticore kraken kulersky kwb lacrosse lacrosse-view lamarzocco lametric landisgyr-heat-meter lastfm launch-library laundrify lcn ld2410-ble leaone led-ble lektrico letpot lg-netcast lg-soundbar lg-thinq libre-hardware-monitor lichess lidarr liebherr lifx lightwave limitlessled linkplay linode linux-battery litejet litterrobot livisi local-calendar local-todo lojack london-underground lookin loqed luci luftdaten lunatone lupusec lutron-caseta lutron lw12wifi lyric madvr mailgun marytts mastodon matrix matter maxcube mcp mcp-server mealie meater medcom-ble media-extractor mediaroom melcloud melissa melnor message-bird met-eireann meteoalarm meteoclimatic meteo-france meteo-lt met metoffice mfi microbees microsoft miele mikrotik mill minecraft-server minio moat mobile-app mochad modbus modem-callerid modern-forms moehlenhoff-alpha2 monarch-money monoprice monzo mopeka motionblinds-ble motion-blinds motioneye motionmount mpd mqtt msteams mta mullvad music-assistant mutesync mvglive myneomitis mysensors mystrom mythicbeastsdns myuplink nad nam nanoleaf nasweb neato nederlandse-spoorwegen ness-alarm nest netatmo netdata netgear-lte netgear netio network neurio-energy nexia nextbus nextcloud nextdns nfandroidtv nibe-heatpump nice-go nightscout niko-home-control nilu nina nintendo-parental-controls nissan-leaf nmap-tracker nmbs noaa-tides nobo-hub nordpool norway-air notify-events notion novy-cooker-hood nrgkick nsw-fuel-station nsw-rural-fire-service-feed ntfy nuheat nuki numato nut nws nx584 nyt-games nzbget oasa-telematics obihai octoprint oem ohmconnect ohme ollama ombi omie omnilogic ondilo-ico onedrive-for-business onedrive onewire onkyo onvif openai-conversation opendisplay openerz openevse openexchangerates opengarage openhome open-meteo openrgb open-router opensensemap opensky opentherm-gw openuv openweathermap opnsense opower opple oralb oru orvibo osoenergy osramlightify otbr otp ourgroceries overkiz overseerr ovo-energy owntracks p1-monitor palazzetti panasonic-bluray panasonic-viera paperless-ngx peblar peco pegel-online pencom permobil pglab philips-js picnic pi-hole ping pjlink plaato playstation-network plex plugwise pocketcasts point pooldose poolsense portainer powerfox-local powerfox powerwall prana private-ble-device probe-plus profiler progettihwsw proliphix prometheus prosegur prowl proxmoxve proxy prusalink ps4 pterodactyl pulseaudio-loopback pure-energie purpleair pushbullet pushover pvoutput pvpc-hourly-pricing pyload python-script qbittorrent qbus qingping qld-bushfire qnap qnap-qsw qrcode quantum-gateway qvr-pro qwikswitch rabbitair rachio radarr radio-browser radio-frequency radiotherm rainbird raincloud rainforest-eagle rainforest-raven rainmachine rapt-ble raspyrfm rdw recollect-waste recorder recswitch reddit redgtech refoss rehlko rejseplanen remember-the-milk remote-calendar remote-rpi-gpio renault renson reolink repetier rest rflink rfxtrx ridwell ring ripple risco rituals-perfume-genie rmvtransport roborock rocketchat roku romy roomba roon route53 route-b-smart-meter rova rpi-power ruckus-unleashed russound-rio russound-rnet +ruuvi-gateway ruuvitag-ble rympro sabnzbd saj samsungtv sanix satel-integra saunum schlage schluter scrape screenlogic scsgate season sendgrid sense sensibo sensirion-ble sensorpro sensorpush-cloud sensorpush sensoterra sentry senz serial serial-pm sesame seven-segments seventeentrack sfr-box sftp-storage sharkiq +shelly shodan sia sighthound signal-messenger simplefin simplepush simplisafe sinch sisyphus skybeacon skybell sky-hub sky-remote slack sleepiq slide-local slide slimproto sma smappee smarla smart-meter-texas smartthings smarttub smarty smhi smlight snapcast snmp snoo snooz solaredge-local solaredge solarlog solarman solax soma somfy-mylink sonarr songpal sonos sony-projector soundtouch spc speedtestdotnet splunk spotify sql squeezebox srp-energy ssdp starline starlingbank starlink startca statsd steamist steam-online stiebel-eltron stookwijzer streamlabswater stream subaru suez-water sunricher-dali supla surepetcare swiss-hydrological-data swiss-public-transport switchbee switchbot-cloud switchbot switcher-kis switchmate syncthing syncthru synology-dsm synology-srm system-bridge systemmonitor systemnexa2 tado tailscale tailwind tami4 tankerkoenig tank-utility tapsaff tasmota tautulli technove ted5000 tedee telegram-bot teleinfo tellduslive tellstick teltonika temper tesla-fleet tesla-wall-connector teslemetry tessie thermobeacon thermopro thethingsnetwork thingspeak thinkingcleaner thread tibber tikteck tile tilt-ble tilt-pi tmb todoist togrill tolo tomorrowio toon totalconnect touchline touchline-sl tplink tplink-omada traccar traccar-server tractive tradfri trafikverket-camera trafikverket-ferry trafikverket-train trafikverket-weatherstation trane transmission transport-nsw travisci trend triggercmd trmnl tts tuya twentemilieu twilio twinkly twitch twitter ubus uhoo ukraine-alarm unifi-access unifi-direct unifi-discovery unifiled unifi unifiprotect upb upc-connect upcloud upnp uptime-kuma uptimerobot usb usgs-earthquakes-feed utility-meter uvc v2c vallox vasttrafik vegehub velbus velux venstar vera verisure versasense version vesync viaggiatreno vicare victron-ble victron-gx victron-remote-monitoring vilfo vivotek vizio vlc vlc-telnet vodafone-station voip volkszaehler volumio volvo w800rf32 wake-on-lan wallbox waqi waterfurnace watergate watts watttime waze-travel-time weatherflow-cloud weatherflow weatherkit webdav webmin webostv weheat wemo whirlpool whois wiffi wiim wilight wirelesstag withings wiz wled wmspro wolflink workday ws66i wsdot wyoming xbox xeoma xiaomi-aqara xiaomi-ble xiaomi-miio xiaomi-tv xmpp xs1 yale yale-smart-alarm yalexs-ble yamaha yamaha-musiccast yandex-transport yardian yeelight yeelightsunflower yi yolink youless youtube zabbix zamg zeroconf zerproc zestimate zeversolar zha zhong-hong ziggo-mediabox-xl zimi zinvolt zoneminder zwave-js zwave-me blinkt bme280 bme680 cli dht mariadb mosquitto smarthab socat tesla wink"
 RESTRICT="!test? ( test )"
 
 # external deps
@@ -41,12 +41,12 @@ RDEPEND="${PYTHON_DEPS} acct-group/${MY_PN} acct-user/${MY_PN}
 	dev-libs/xerces-c"
 REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 	homekit-controller? ( bluetooth )"
-# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.5.0/work/core-2026.5.0/homeassistant/package_constraints.txt
+# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.5.3/work/core-2026.5.3/homeassistant/package_constraints.txt
 RDEPEND="${RDEPEND}
 
 	~dev-python/aiodhcpwatcher-1.2.1
 	~dev-python/aiodiscover-2.7.1
-	~dev-python/aiodns-4.0.0
+	~dev-python/aiodns-4.0.3
 	~dev-python/aiogithubapi-26.0.0
 	~dev-python/aiohttp-asyncmdnsresolver-0.1.1
 	~dev-python/aiohttp-fast-zlib-0.3.0
@@ -83,7 +83,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/hass-nabucasa-2.2.0
 	~dev-python/hassil-3.5.0
 	~dev-python/home-assistant-bluetooth-2.0.0
-	~dev-python/home-assistant-frontend-20260429.3
+	~dev-python/home-assistant-frontend-20260429.4
 	~dev-python/home-assistant-intents-2026.5.5
 	~dev-python/httpx-0.28.1
 	~dev-python/ifaddr-0.2.0
@@ -107,7 +107,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/pyyaml-6.0.3
 	~dev-python/requests-2.33.1
 	~dev-python/securetar-2026.4.1
-	~dev-python/serialx-1.7.0
+	~dev-python/serialx-1.7.3
 	~dev-python/sqlalchemy-2.0.49
 	~dev-python/standard-aifc-3.13.0
 	~dev-python/standard-telnetlib-3.13.0
@@ -182,7 +182,8 @@ RDEPEND="${RDEPEND}
 	abode? ( ~dev-python/jaraco-abode-6.4.0 )
 	acaia? ( ~dev-python/aioacaia-0.1.17 )
 	accuweather? ( ~dev-python/accuweather-5.1.0 )
-	acer-projector? ( ~dev-python/serialx-1.7.0 )
+	acer-projector? ( ~dev-python/serialx-1.7.3 )
+	acmeda? ( ~dev-python/aiopulse-0.4.6 )
 	actron-air? ( ~dev-python/actron-neo-api-0.5.6 )
 	adax? ( ~dev-python/adax-local-0.3.0 ~dev-python/adax-0.4.0 )
 	adguard? ( ~dev-python/adguardhome-0.8.1 )
@@ -216,6 +217,7 @@ RDEPEND="${RDEPEND}
 	ambient-network? ( ~dev-python/aioambient-2024.8.0 )
 	ambient-station? ( ~dev-python/aioambient-2024.8.0 )
 	amcrest? ( ~dev-python/amcrest-1.9.9 )
+	ampio? ( ~dev-python/asmog-0.0.6 )
 	analytics-insights? ( ~dev-python/python-homeassistant-analytics-0.9.0 )
 	android-ip-webcam? ( ~dev-python/pydroid-ipcam-3.0.0 )
 	androidtv? ( ~dev-python/adb-shell-0.4.4[async] ~dev-python/androidtv-0.0.75[async] )
@@ -255,11 +257,11 @@ RDEPEND="${RDEPEND}
 	autarco? ( ~dev-python/autarco-3.2.0 )
 	autoskope? ( ~dev-python/autoskope-client-1.4.1 )
 	avea? ( ~dev-python/avea-1.6.1 )
-	avion? ( ~dev-python/axis-69 )
+	avion? ( ~dev-python/axis-71 )
 	awair? ( ~dev-python/python-awair-0.2.5 )
 	aws? ( ~dev-python/aiobotocore-2.21.1 ~dev-python/botocore-1.37.1 )
 	aws-s3? ( ~dev-python/aiobotocore-2.21.1 )
-	axis? ( ~dev-python/axis-69 )
+	axis? ( ~dev-python/axis-71 )
 	azure-data-explorer? ( ~dev-python/azure-kusto-data-4.5.1[aio] ~dev-python/azure-kusto-ingest-4.5.1 )
 	azure-devops? ( ~dev-python/aioazuredevops-2.2.2 )
 	azure-event-hub? ( ~dev-python/azure-eventhub-5.11.1 )
@@ -276,7 +278,7 @@ RDEPEND="${RDEPEND}
 	bitcoin? ( ~dev-python/blockchain-1.4.4 )
 	bizkaibus? ( ~dev-python/bizkaibus-0.1.1 )
 	blackbird? ( ~dev-python/pyblackbird-0.6 )
-	blebox? ( ~dev-python/blebox-uniapi-2.5.2 )
+	blebox? ( ~dev-python/blebox-uniapi-2.5.3 )
 	blink? ( ~dev-python/blinkpy-0.25.2 )
 	blockchain? ( ~dev-python/python-blockchain-api-0.0.2 )
 	blue-current? ( ~dev-python/bluecurrent-api-1.3.2 )
@@ -293,7 +295,7 @@ RDEPEND="${RDEPEND}
 	brottsplatskartan? ( ~dev-python/brottsplatskartan-1.0.5 )
 	brunt? ( ~dev-python/brunt-1.2.0 )
 	bryant-evolution? ( ~dev-python/evolutionhttp-0.0.18 )
-	bsblan? ( ~dev-python/python-bsblan-5.2.0 )
+	bsblan? ( ~dev-python/python-bsblan-5.2.1 )
 	bt-home-hub-5? ( ~dev-python/bthomehub5-devicelist-0.1.1 )
 	bthome? ( ~dev-python/bthome-ble-3.17.0 )
 	bt-smarthub? ( ~dev-python/btsmarthub-devicelist-0.2.3 )
@@ -358,7 +360,7 @@ RDEPEND="${RDEPEND}
 	dlink? ( ~dev-python/pyw215-0.8.0 )
 	dlna-dmr? ( ~dev-python/async-upnp-client-0.46.2 ~dev-python/getmac-0.9.5 )
 	dlna-dms? ( ~dev-python/async-upnp-client-0.46.2 )
-	dnsip? ( ~dev-python/aiodns-4.0.0 )
+	dnsip? ( ~dev-python/aiodns-4.0.3 )
 	doods? ( ~dev-python/pillow-12.2.0 ~dev-python/pydoods-1.0.2 )
 	doorbird? ( ~dev-python/doorbirdpy-3.0.11 )
 	dormakaba-dkey? ( ~dev-python/py-dormakaba-dkey-1.0.6 )
@@ -367,7 +369,7 @@ RDEPEND="${RDEPEND}
 	drop-connect? ( ~dev-python/dropmqttapi-1.0.3 )
 	droplet? ( ~dev-python/pydroplet-2.3.4 )
 	dsmr? ( ~dev-python/dsmr-parser-1.5.0 )
-	duco? ( ~dev-python/python-duco-client-0.3.10 )
+	duco? ( ~dev-python/python-duco-connectivity-0.4.0 )
 	dunehd? ( ~dev-python/pdunehd-1.3.2 )
 	duotecno? ( ~dev-python/pyduotecno-2024.10.1 )
 	dwd-weather-warnings? ( ~dev-python/dwdwfsapi-1.0.7 )
@@ -381,7 +383,7 @@ RDEPEND="${RDEPEND}
 	ecobee? ( ~dev-python/python-ecobee-api-0.3.2 )
 	ecoforest? ( ~dev-python/pyecoforest-0.4.0 )
 	econet? ( ~dev-python/pyeconet-0.2.2 )
-	ecovacs? ( ~dev-python/deebot-client-18.2.0 ~dev-python/py-sucks-0.9.11 )
+	ecovacs? ( ~dev-python/deebot-client-18.3.0 ~dev-python/py-sucks-0.9.11 )
 	ecowitt? ( ~dev-python/aioecowitt-2025.9.2 )
 	edimax? ( ~dev-python/pyedimax-0.2.1 )
 	edl21? ( ~dev-python/pysml-0.1.5 )
@@ -420,7 +422,7 @@ RDEPEND="${RDEPEND}
 	epson? ( ~dev-python/epson-projector-0.6.0 )
 	eq3btsmart? ( ~dev-python/eq3btsmart-2.3.0 )
 	escea? ( ~dev-python/pescea-1.0.12 )
-	esphome? ( ~dev-python/aioesphomeapi-44.21.0 ~dev-python/bleak-esphome-3.7.3 ~dev-python/esphome-dashboard-api-1.3.0 )
+	esphome? ( ~dev-python/aioesphomeapi-44.24.1 ~dev-python/bleak-esphome-3.7.3 ~dev-python/esphome-dashboard-api-1.3.0 )
 	essent? ( ~dev-python/essent-dynamic-pricing-0.3.1 )
 	etherscan? ( ~dev-python/python-etherscan-api-0.0.3 )
 	eufylife-ble? ( ~dev-python/eufylife-ble-client-0.1.8 )
@@ -471,15 +473,15 @@ RDEPEND="${RDEPEND}
 	fritzbox? ( ~dev-python/pyfritzhome-0.6.20 )
 	fritz? ( ~dev-python/fritzconnection-1.15.1[qrcode] ~dev-python/xmltodict-1.0.4 )
 	fronius? ( ~dev-python/pyfronius-0.8.2 )
-	frontend? ( ~dev-python/home-assistant-frontend-20260429.3 )
-	frontier-silicon? ( ~dev-python/afsapi-1.0.0 )
+	frontend? ( ~dev-python/home-assistant-frontend-20260429.4 )
+	frontier-silicon? ( ~dev-python/afsapi-1.0.1 )
 	fujitsu-fglair? ( ~dev-python/ayla-iot-unofficial-1.4.7 )
 	fully-kiosk? ( ~dev-python/python-fullykiosk-0.0.15 )
 	fumis? ( ~dev-python/fumis-0.4.0 )
 	futurenow? ( ~dev-python/pyfnip-0.2 )
 	fyta? ( ~dev-python/fyta-cli-0.7.2 )
 	garages-amsterdam? ( ~dev-python/odp-amsterdam-6.1.2 )
-	gardena-bluetooth? ( ~dev-python/gardena-bluetooth-2.4.0 )
+	gardena-bluetooth? ( ~dev-python/gardena-bluetooth-2.8.1 )
 	gc100? ( ~dev-python/python-gc100-1.0.3_alpha0 )
 	gdacs? ( ~dev-python/aio-georss-gdacs-0.10 )
 	generic? ( ~dev-python/pillow-12.2.0 ~dev-python/av-16.0.1 )
@@ -529,7 +531,7 @@ RDEPEND="${RDEPEND}
 	hanna? ( ~dev-python/hanna-cloud-0.0.7 )
 	hardware? ( ~dev-python/psutil-home-assistant-0.0.1 )
 	harman-kardon-avr? ( ~dev-python/hkavr-0.0.5 )
-	harmony? ( ~dev-python/aioharmony-0.5.3 )
+	harmony? ( ~dev-python/aioharmony-1.0.3 )
 	hassio? ( ~dev-python/aiohasupervisor-0.4.3 )
 	hdfury? ( ~dev-python/hdfury-1.6.0 )
 	hdmi-cec? ( ~dev-python/pycec-0.5.2 )
@@ -543,7 +545,7 @@ RDEPEND="${RDEPEND}
 	hive? ( ~dev-python/pyhive-integration-1.0.9 )
 	hko? ( ~dev-python/hko-0.3.2 )
 	hlk-sw16? ( ~dev-python/hlk-sw16-0.0.9 )
-	holiday? ( ~dev-python/babel-2.15.0 ~dev-python/holidays-0.95 )
+	holiday? ( ~dev-python/babel-2.15.0 ~dev-python/holidays-0.96 )
 	homeassistant-hardware? ( ~dev-python/ha-silabs-firmware-client-0.3.0 ~dev-python/universal-silabs-flasher-1.1.0 )
 	home-connect? ( ~dev-python/aiohomeconnect-0.36.0 )
 	homee? ( ~dev-python/pyhomee-1.3.8 )
@@ -565,7 +567,7 @@ RDEPEND="${RDEPEND}
 	hue? ( ~dev-python/aiohue-4.8.1 )
 	huisbaasje? ( ~dev-python/energyflip-client-0.2.2 )
 	hunterdouglas-powerview? ( ~dev-python/aiopvapi-3.3.0 )
-	husqvarna-automower-ble? ( ~dev-python/automower-ble-0.2.8 ~dev-python/gardena-bluetooth-2.4.0 )
+	husqvarna-automower-ble? ( ~dev-python/automower-ble-0.2.8 ~dev-python/gardena-bluetooth-2.8.1 )
 	husqvarna-automower? ( ~dev-python/aioautomower-2.7.4 )
 	huum? ( ~dev-python/huum-0.8.2 )
 	hvv-departures? ( ~dev-python/pygti-0.9.4 )
@@ -588,8 +590,8 @@ RDEPEND="${RDEPEND}
 	image-upload? ( ~dev-python/pillow-12.2.0 )
 	imap? ( ~dev-python/aioimaplib-2.0.1 )
 	imeon-inverter? ( ~dev-python/imeon-inverter-api-0.4.0 )
-	imgw-pib? ( ~dev-python/imgw-pib-2.1.1 )
-	immich? ( ~dev-python/aioimmich-0.14.0 )
+	imgw-pib? ( ~dev-python/imgw-pib-2.1.2 )
+	immich? ( ~dev-python/aioimmich-0.14.1 )
 	improv-ble? ( ~dev-python/py-improv-ble-client-2.0.1 )
 	incomfort? ( ~dev-python/incomfort-client-0.7.0 )
 	indevolt? ( ~dev-python/indevolt-api-1.6.4 )
@@ -600,7 +602,7 @@ RDEPEND="${RDEPEND}
 	insteon? ( ~dev-python/insteon-frontend-home-assistant-0.6.2 ~dev-python/pyinsteon-1.6.4 )
 	intelliclima? ( ~dev-python/pyintelliclima-0.3.1 )
 	intellifire? ( ~dev-python/intellifire4py-4.4.0 )
-	intesishome? ( ~dev-python/pyintesishome-1.8.0 )
+	intesishome? ( ~dev-python/pyintesishome-1.8.8 )
 	iometer? ( ~dev-python/iometer-0.4.0 )
 	iotawatt? ( ~dev-python/ha-iotawattpy-0.1.2 )
 	iotty? ( ~dev-python/iottycloud-0.3.0 )
@@ -718,7 +720,7 @@ RDEPEND="${RDEPEND}
 	mfi? ( ~dev-python/mficlient-0.5.0 )
 	microbees? ( ~dev-python/microbeespy-0.3.5 )
 	microsoft? ( ~dev-python/pycsspeechtts-1.0.8 )
-	miele? ( ~dev-python/pymiele-0.6.1 )
+	miele? ( ~dev-python/pymiele-0.6.2 )
 	mikrotik? ( ~dev-python/librouteros-3.2.0 )
 	mill? ( ~dev-python/mill-local-0.5.0 ~dev-python/millheater-0.14.1 )
 	minecraft-server? ( ~dev-python/mcstatus-13.1.0 )
@@ -842,7 +844,7 @@ RDEPEND="${RDEPEND}
 	otbr? ( ~dev-python/python-otbr-api-2.10.0 )
 	otp? ( ~dev-python/pyotp-2.9.0 )
 	ourgroceries? ( ~dev-python/ourgroceries-1.5.4 )
-	overkiz? ( ~dev-python/pyoverkiz-1.20.0 )
+	overkiz? ( ~dev-python/pyoverkiz-1.20.3 )
 	overseerr? ( ~dev-python/python-overseerr-0.9.0 )
 	ovo-energy? ( ~dev-python/ovoenergy-3.0.2 )
 	owntracks? ( ~dev-python/pynacl-1.6.2 )
@@ -897,7 +899,7 @@ RDEPEND="${RDEPEND}
 	pvpc-hourly-pricing? ( ~dev-python/aiopvpc-4.3.1 )
 	pyload? ( ~dev-python/pyloadapi-2.1.0 )
 	python-script? ( ~dev-python/restrictedpython-8.1 )
-	qbittorrent? ( ~dev-python/qbittorrent-api-2024.9.67 )
+	qbittorrent? ( ~dev-python/qbittorrent-api-2026.5.1 )
 	qbus? ( ~dev-python/qbusmqttapi-1.4.3 )
 	qingping? ( ~dev-python/qingping-ble-1.1.0 )
 	qld-bushfire? ( ~dev-python/georss-qld-bushfire-alert-client-0.8 )
@@ -932,7 +934,7 @@ RDEPEND="${RDEPEND}
 	remember-the-milk? ( ~dev-python/rtmapi-0.7.2 ~dev-python/httplib2-0.20.4 )
 	remote-calendar? ( ~dev-python/ical-13.2.2 )
 	remote-rpi-gpio? ( ~dev-python/gpiozero-1.6.2 ~dev-python/pigpio-1.78 )
-	renault? ( ~dev-python/renault-api-0.5.7 )
+	renault? ( ~dev-python/renault-api-0.5.8 )
 	renson? ( ~dev-python/renson-endura-delta-1.7.2 )
 	reolink? ( ~dev-python/reolink-aio-0.19.1 )
 	repetier? ( ~dev-python/pyrepetierng-0.1.0 )
@@ -983,7 +985,7 @@ RDEPEND="${RDEPEND}
 	sensoterra? ( ~dev-python/sensoterra-2.0.1 )
 	sentry? ( ~dev-python/sentry-sdk-2.48.0 )
 	senz? ( ~dev-python/pysenz-1.0.2 )
-	serial? ( ~dev-python/serialx-1.7.0 )
+	serial? ( ~dev-python/serialx-1.7.3 )
 	serial-pm? ( ~dev-python/pmsensor-0.4 )
 	sesame? ( ~dev-python/pysesame2-1.0.1 )
 	seven-segments? ( ~dev-python/pillow-12.2.0 )
@@ -1101,7 +1103,7 @@ RDEPEND="${RDEPEND}
 	thingspeak? ( ~dev-python/thingspeak-1.0.0 )
 	thinkingcleaner? ( ~dev-python/pythinkingcleaner-0.0.3 )
 	thread? ( ~dev-python/pyroute2-0.7.5 ~dev-python/python-otbr-api-2.10.0 )
-	tibber? ( ~dev-python/pytibber-0.37.4 )
+	tibber? ( ~dev-python/pytibber-0.37.5 )
 	tikteck? ( ~dev-python/tikteck-0.4 )
 	tile? ( ~dev-python/pytile-2024.12.0 )
 	tilt-ble? ( ~dev-python/tilt-ble-1.0.1 )
@@ -1154,7 +1156,7 @@ RDEPEND="${RDEPEND}
 	upnp? ( ~dev-python/async-upnp-client-0.46.2 ~dev-python/getmac-0.9.5 )
 	uptime-kuma? ( ~dev-python/pythonkuma-0.5.0 )
 	uptimerobot? ( ~dev-python/pyuptimerobot-25.0.0 )
-	usb? ( ~dev-python/aiousbwatcher-1.1.2 ~dev-python/serialx-1.7.0 )
+	usb? ( ~dev-python/aiousbwatcher-1.1.2 ~dev-python/serialx-1.7.3 )
 	usgs-earthquakes-feed? ( ~dev-python/aio-geojson-usgs-earthquakes-0.3 )
 	utility-meter? ( ~dev-python/cronsim-2.7 )
 	uvc? ( ~dev-python/uvcclient-0.12.1 )
@@ -1213,7 +1215,7 @@ RDEPEND="${RDEPEND}
 	wled? ( ~dev-python/wled-0.22.0 )
 	wmspro? ( ~dev-python/pywmspro-0.3.3 )
 	wolflink? ( ~dev-python/wolf-comm-0.0.48 )
-	workday? ( ~dev-python/holidays-0.95 )
+	workday? ( ~dev-python/holidays-0.96 )
 	ws66i? ( ~dev-python/pyws66i-1.1 )
 	wsdot? ( ~dev-python/wsdot-0.0.1 )
 	wyoming? ( ~dev-python/wyoming-1.7.2 )
@@ -1244,7 +1246,7 @@ RDEPEND="${RDEPEND}
 	zerproc? ( ~dev-python/pyzerproc-0.4.8 )
 	zestimate? ( ~dev-python/xmltodict-1.0.4 )
 	zeversolar? ( ~dev-python/zeversolar-0.3.2 )
-	zha? ( ~dev-python/zha-1.3.0 )
+	zha? ( ~dev-python/zha-1.3.1 )
 	zhong-hong? ( ~dev-python/zhong-hong-hvac-1.0.13 )
 	ziggo-mediabox-xl? ( ~dev-python/ziggo-mediabox-xl-1.1.0 )
 	zimi? ( ~dev-python/zcc-helper-3.8 )

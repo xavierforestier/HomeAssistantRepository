@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*aiolyric-2.1.1 (24 May 2026)
+
+  24 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiolyric-2.1.1.ebuild, -files/aiolyric-2.0.1-fix-setup.patch,
+  +files/aiolyric-2.1.1-fix-setup.patch:
+  app-misc/homeassistant-2026.5.4
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   aiolyric-2.0.2.ebuild:
   Happy new year

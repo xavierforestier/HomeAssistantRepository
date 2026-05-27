@@ -114,7 +114,7 @@
     <flag name="bitcoin">The Bitcoin integration displays various details about the Bitcoin network.</flag>
     <flag name="bizkaibus">The Bizkaibus integration will give you the time until the next bus in the selected stop.</flag>
     <flag name="blackbird">The Monoprice Blackbird Matrix Switch integration allows you to control Monoprice Blackbird Matrix Switch (8x8) using a serial or IP connection, this integration does not support the 4x4 matrix switch.</flag>
-    <flag name="blebox">BleBox produces small, low-power, surprisingly affordable, feature-rich WiFi devices for serverless home automation.</flag>
+    <flag name="blebox">BleBox produces compact, low-power, feature-rich Wi-Fi devices for home automation. You can find the full product range on the BleBox products page and in the BleBox product catalog.</flag>
     <flag name="blink">The Blink integration lets you view camera images and motion events from Blink camera and security systems.</flag>
     <flag name="blockchain">The Blockchain.com integration displays Bitcoin wallet balances from blockchain.com.</flag>
     <flag name="blue-current">Blue Current is an Dutch company that makes electric car chargers.</flag>

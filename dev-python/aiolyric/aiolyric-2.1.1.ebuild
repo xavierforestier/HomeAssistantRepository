@@ -4,12 +4,13 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=hatchling
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous Implementation of the Frontier Silicon API"
-HOMEPAGE="https://github.com/zhelev/python-afsapi.git https://pypi.org/project/afsapi/"
+DESCRIPTION="AIO package for the Honeywell Lyric Platform."
+HOMEPAGE="https://github.com/timmo001/aiolyric https://pypi.org/project/aiolyric/"
+PATCHES="${FILESDIR}/${P}-fix-setup.patch"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,8 +19,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
-	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
+	>=dev-python/packaging-26.2[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

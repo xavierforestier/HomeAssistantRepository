@@ -1,0 +1,14 @@
+# ChangeLog for dev-python/wrapt
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  27 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  wrapt-1.17.3.ebuild:
+  missing deps
+
+*wrapt-1.17.3 (24 May 2026)
+
+  24 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +wrapt-1.17.3.ebuild:
+  app-misc/homeassistant-2026.5.4
+

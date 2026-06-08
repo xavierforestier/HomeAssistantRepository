@@ -200,19 +200,19 @@ RDEPEND="
 
 src_unpack() {
 	default
-	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/rust/"
+	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/rust/" || exit
 	cargo_src_unpack
 }
 
 src_compile() {
-	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/rust/core"
+	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/rust/core" || exit
 	cargo_src_compile
-	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/python/"
+	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/python/" || exit
 	distutils-r1_src_compile
 }
 
 src_install() {
-	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/python/"
+	cd "${WORKDIR}/epaper-dithering-epaper-dithering-v${PV}/packages/python/" || exit
 	distutils-r1_src_install
 }
 

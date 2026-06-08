@@ -1,0 +1,11 @@
+# ChangeLog for dev-python/aioptdevices
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aioptdevices-2026.3.2 (08 Jun 2026)
+
+  08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioptdevices-2026.3.2.ebuild, +files/aioptdevices-build-system.patch,
+  +metadata.xml:
+  app-misc/homeassistant 2026.6.0
+

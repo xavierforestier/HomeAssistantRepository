@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/python-aidot
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*python-aidot-0.3.53 (08 Jun 2026)
+
+  08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +python-aidot-0.3.53.ebuild:
+  app-misc/homeassistant 2026.6.0
+

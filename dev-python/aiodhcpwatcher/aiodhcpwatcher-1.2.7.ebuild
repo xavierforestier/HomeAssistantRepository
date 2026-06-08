@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=net-analyzer/scapy-2.7.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=net-analyzer/scapy-2.6.1[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]

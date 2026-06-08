@@ -2,6 +2,16 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -dbus-fast-3.1.2.ebuild:
+  app-misc/homeassistant 2026.6.0 Changelog&Cleanup
+
+*dbus-fast-5.0.16 (08 Jun 2026)
+
+  08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +dbus-fast-5.0.16.ebuild:
+  app-misc/homeassistant 2026.6.0
+
 *dbus-fast-3.1.2 (05 May 2026)
 
   05 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

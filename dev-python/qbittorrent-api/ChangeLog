@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -qbittorrent-api-2024.9.67.ebuild:
+  app-misc/homeassistant 2026.6.0 Changelog&Cleanup
+
 *qbittorrent-api-2026.5.1 (20 May 2026)
 
   20 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

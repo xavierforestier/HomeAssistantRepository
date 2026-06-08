@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*homeassistant-202606 (08 Jun 2026)
+
+  08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +homeassistant-202606.ebuild:
+  app-misc/homeassistant 2026.6.0
+
   19 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -homeassistant-202604.ebuild, homeassistant-202605.ebuild:
   app-misc/homeassistant 2026.5.2

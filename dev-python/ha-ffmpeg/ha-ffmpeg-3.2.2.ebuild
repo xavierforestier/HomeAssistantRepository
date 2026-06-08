@@ -18,5 +18,6 @@ RESTRICT="test"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]
-	media-video/ffmpeg"
+RDEPEND="
+	media-video/ffmpeg
+"

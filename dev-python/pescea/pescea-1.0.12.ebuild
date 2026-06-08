@@ -18,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

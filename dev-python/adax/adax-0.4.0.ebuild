@@ -17,7 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
-	$(python_gen_cond_dep 'dev-python/async-timeout[${PYTHON_USEDEP}]' python3_10)"
+RDEPEND="
+	>=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

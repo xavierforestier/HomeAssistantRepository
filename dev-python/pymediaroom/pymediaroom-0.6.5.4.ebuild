@@ -18,7 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/xmltodict[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

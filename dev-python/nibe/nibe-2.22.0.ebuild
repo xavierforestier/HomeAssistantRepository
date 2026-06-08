@@ -20,7 +20,6 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/async-modbus-0.2.2[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.0[${PYTHON_USEDEP}]
 	>=dev-python/black-26.1.0[${PYTHON_USEDEP}]
 	>=dev-python/construct-2.10.0[${PYTHON_USEDEP}]
 	>=dev-python/coverage-6.0.0[${PYTHON_USEDEP}]

@@ -16,8 +16,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND=">=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/aiohttp-3.0.6[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

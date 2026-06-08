@@ -17,8 +17,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/tenacity[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/tenacity[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

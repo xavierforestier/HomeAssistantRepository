@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <remote-id type="github">XthingsJacobs/ha-xthings-cloud</remote-id>
+    <remote-id type="pypi">ha-xthings-cloud</remote-id>
+  </upstream>
+</pkgmetadata>

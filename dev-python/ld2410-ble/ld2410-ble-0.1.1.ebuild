@@ -18,9 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/bleak-retry-connector-2.3.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/bleak-retry-connector-2.3.0[${PYTHON_USEDEP}]
 	>=dev-python/bleak-0.19.0[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.1[${PYTHON_USEDEP}]"
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

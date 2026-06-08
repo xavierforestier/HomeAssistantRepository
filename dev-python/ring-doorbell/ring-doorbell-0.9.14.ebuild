@@ -25,8 +25,8 @@ RDEPEND="
 	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
 	>=dev-python/typing-extensions-4.12.2[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-3.0.0[${PYTHON_USEDEP}]
 	>=dev-python/websockets-13.0.0[${PYTHON_USEDEP}]
-	>=dev-python/firebase-messaging-0.4.0[${PYTHON_USEDEP}]"
+	>=dev-python/firebase-messaging-0.4.0[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

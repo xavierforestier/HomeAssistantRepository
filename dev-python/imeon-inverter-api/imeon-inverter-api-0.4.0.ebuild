@@ -17,7 +17,6 @@ KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.9.5[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

@@ -18,7 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 RDEPEND="
-	>=dev-python/async-timeout-4.0.2[${PYTHON_USEDEP}]
 	>=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10.17[${PYTHON_USEDEP}]
 "

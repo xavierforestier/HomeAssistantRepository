@@ -21,7 +21,6 @@ DOCS="README.md"
 RDEPEND="
 	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	>=dev-python/websockets-8.1[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

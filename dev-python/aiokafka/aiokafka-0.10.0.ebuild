@@ -15,7 +15,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/async-timeout[${PYTHON_USEDEP}]"
 BDEPEND="
 	>=dev-python/cython-3[${PYTHON_USEDEP}]
 	test? (

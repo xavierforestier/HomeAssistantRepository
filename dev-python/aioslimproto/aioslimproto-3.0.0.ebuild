@@ -17,8 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-BDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/async-timeout[${PYTHON_USEDEP}]
+BDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]

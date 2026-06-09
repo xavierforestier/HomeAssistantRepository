@@ -1,5 +1,5 @@
---- a/core-2026.5.3/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
-+++ b/core-2026.5.3/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
+--- a/core-2026.6.1/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
++++ b/core-2026.6.1/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
 @@ -194,7 +194,7 @@
  
  # homeassistant.components.ambient_network
@@ -9,7 +9,7 @@
  
  # homeassistant.components.apcupsd
  aioapcaccess==1.0.0
-@@ -270,7 +270,7 @@
+@@ -276,7 +276,7 @@
  aiogithubapi==26.0.0
  
  # homeassistant.components.guardian
@@ -17,8 +17,8 @@
 +aioguardian==2026.1.1
  
  # homeassistant.components.harmony
- aioharmony==1.0.3
-@@ -336,7 +336,7 @@
+ aioharmony==1.0.8
+@@ -342,7 +342,7 @@
  aionanoleaf2==1.0.2
  
  # homeassistant.components.notion
@@ -27,7 +27,16 @@
  
  # homeassistant.components.ntfy
  aiontfy==0.8.5
-@@ -363,7 +363,7 @@
+@@ -366,7 +366,7 @@
+ aiopnsense==1.0.8
+ 
+ # homeassistant.components.ptdevices
+-aioptdevices==2026.03.2
++aioptdevices==2026.3.2
+ 
+ # homeassistant.components.acmeda
+ aiopulse==0.4.6
+@@ -372,7 +372,7 @@
  aiopulse==0.4.6
  
  # homeassistant.components.purpleair
@@ -36,7 +45,7 @@
  
  # homeassistant.components.hunterdouglas_powerview
  aiopvapi==3.3.0
-@@ -383,10 +383,10 @@
+@@ -389,10 +389,10 @@
  aioraven==0.7.1
  
  # homeassistant.components.recollect_waste
@@ -49,7 +58,7 @@
  
  # homeassistant.components.ruckus_unleashed
  aioruckus==0.42
-@@ -504,7 +504,7 @@
+@@ -510,7 +510,7 @@
  androidtvremote2==0.3.1
  
  # homeassistant.components.anel_pwrctrl
@@ -58,7 +67,7 @@
  
  # homeassistant.components.anova
  anova-wifi==0.17.0
-@@ -627,7 +627,7 @@
+@@ -633,7 +633,7 @@
  babel==2.15.0
  
  # homeassistant.components.baidu
@@ -67,7 +76,7 @@
  
  # homeassistant.components.homekit
  base36==0.1.1
-@@ -799,7 +799,7 @@
+@@ -811,7 +811,7 @@
  # homeassistant.components.ihc
  # homeassistant.components.ohmconnect
  # homeassistant.components.sonos
@@ -76,7 +85,7 @@
  
  # homeassistant.components.deluge
  deluge-client==1.10.2
-@@ -895,7 +895,7 @@
+@@ -907,7 +907,7 @@
 -elkoep-aio-mqtt==0.1.0b4
 +elkoep-aio-mqtt==0.1.0_beta4
  
@@ -86,7 +95,7 @@
  
  # homeassistant.components.elvia
  elvia==0.1.0
-@@ -994,7 +994,7 @@
+@@ -1009,7 +1009,7 @@
  fivem-api==0.1.2
  
  # homeassistant.components.fixer
@@ -95,7 +104,7 @@
  
  # homeassistant.components.fjaraskupan
  fjaraskupan==2.3.3
-@@ -1035,7 +1035,7 @@
+@@ -1050,7 +1050,7 @@
  
  # homeassistant.components.fritz
  # homeassistant.components.fritzbox_callmonitor
@@ -104,16 +113,7 @@
 
  # homeassistant.components.fumis
  fumis==0.4.0
-@@ -1299,7 +1299,7 @@
- icalendar==6.3.1
- 
- # homeassistant.components.ping
--icmplib==3.0
-+icmplib>=3.0.0
- 
- # homeassistant.components.idasen_desk
- idasen-ha==2.6.5
-@@ -1450,7 +1450,7 @@
+@@ -1471,7 +1471,7 @@
  librouteros==3.2.0
  
  # homeassistant.components.soundtouch
@@ -122,7 +122,7 @@
  
  # homeassistant.components.osramlightify
  lightify==1.0.7.3
-@@ -1462,7 +1462,7 @@
+@@ -1483,7 +1483,7 @@
  limitlessled==1.1.3
  
  # homeassistant.components.linode
@@ -131,7 +131,7 @@
  
  # homeassistant.components.livisi
  livisi==0.0.25
-@@ -1492,7 +1492,7 @@
+@@ -1513,7 +1513,7 @@
  lw12==0.9.2
  
  # homeassistant.components.scrape
@@ -140,7 +140,7 @@
  
  # homeassistant.components.matrix
  matrix-nio==0.25.2
-@@ -1730,7 +1730,7 @@
+@@ -1758,7 +1758,7 @@
  openerz-api==0.3.0
  
  # homeassistant.components.openhome
@@ -149,7 +149,7 @@
  
  # homeassistant.components.openrgb
  openrgb-python==0.3.6
-@@ -1972,7 +1972,7 @@
+@@ -2006,7 +2006,7 @@
 
  # homeassistant.components.airvisual
  # homeassistant.components.airvisual_pro
@@ -158,7 +158,7 @@
  
  # homeassistant.components.anglian_water
  pyanglianwater==3.1.2
-@@ -1999,7 +1999,7 @@
+@@ -2033,7 +2033,7 @@
  pybalboa==1.1.3
  
  # homeassistant.components.bbox
@@ -167,7 +167,7 @@
  
  # homeassistant.components.blackbird
  pyblackbird==0.6
-@@ -2153,7 +2153,7 @@
+@@ -2187,7 +2187,7 @@
  pyfritzhome==0.6.20
  
  # homeassistant.components.ifttt
@@ -176,7 +176,7 @@
  
  # homeassistant.components.skybeacon
  pygatt[GATTTOOL]==4.0.5
-@@ -2201,7 +2201,7 @@
+@@ -2235,7 +2235,7 @@
  pyipp==0.17.0
  
  # homeassistant.components.iqvia
@@ -185,7 +185,7 @@
  
  # homeassistant.components.irish_rail_transport
  pyirishrail==0.0.2
-@@ -2366,7 +2366,7 @@
+@@ -2400,7 +2400,7 @@
  pyomie==1.1.1
  
  # homeassistant.components.openuv
@@ -194,7 +194,7 @@
  
  # homeassistant.components.openweathermap
  pyopenweathermap==0.2.2
-@@ -2596,7 +2596,7 @@
+@@ -2633,7 +2633,7 @@
  python-fullykiosk==0.0.15
  
  # homeassistant.components.gc100
@@ -203,7 +203,7 @@
  
  # homeassistant.components.gitlab_ci
  python-gitlab==1.6.0
-@@ -2660,7 +2660,7 @@
+@@ -2697,7 +2697,7 @@
  python-overseerr==0.9.0
  
  # homeassistant.components.picnic
@@ -211,8 +211,8 @@
 +python-picnic-api==1.3.4
  
  # homeassistant.components.pooldose
- python-pooldose==0.9.0
-@@ -2832,7 +2832,7 @@
+ python-pooldose==0.9.1
+@@ -2869,7 +2869,7 @@
  refoss-ha==1.2.5
  
  # homeassistant.components.rainmachine
@@ -220,8 +220,8 @@
 +regenmaschine==2024.3.0
  
  # homeassistant.components.renault
- renault-api==0.5.8
-@@ -2969,7 +2969,7 @@
+ renault-api==0.5.11
+@@ -3004,7 +3004,7 @@
  simplepush==2.2.3
  
  # homeassistant.components.simplisafe
@@ -230,19 +230,19 @@
  
  # homeassistant.components.sisyphus
  sisyphus-control==3.1.4
---- a/core-2026.5.3/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
-+++ b/core-2026.5.3/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+--- a/core-2026.6.1/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
++++ b/core-2026.6.1/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -73,7 +73,7 @@
- uv==0.11.8
+ uv==0.11.16
  voluptuous-openapi==0.3.0
  voluptuous-serialize==2.7.0
 -voluptuous==0.15.2
 +voluptuous==0.16.0
  webrtc-models==0.3.0
- yarl==1.23.0
- zeroconf==0.148.0
-@@ -137,7 +137,7 @@
- pydantic==2.13.2
+ yarl==1.24.2
+ zeroconf==0.149.16
+@@ -136,7 +136,7 @@
+ pydantic==2.13.4
  
  # Required for Python 3.14.0 compatibility (#119223).
 -mashumaro>=3.17.0
@@ -250,7 +250,18 @@
  
  # Breaks asyncio
  # https://github.com/pubnub/python/issues/130
-@@ -231,10 +231,9 @@
+@@ -200,10 +200,6 @@
+ # https://github.com/jd/tenacity/issues/471
+ tenacity!=8.4.0
+ 
+-# 5.0.0 breaks Timeout as a context manager
+-# TypeError: 'Timeout' object does not support the context manager protocol
+-async-timeout==4.0.3
+-
+ # aiofiles keeps getting downgraded by custom components
+ # causing newer methods to not be available and breaking
+ # some integrations at startup
+@@ -238,10 +238,9 @@
  # auth0-python v5.0 is a major rewrite with breaking changes
  # used by sharkiq==1.5.0
  # https://github.com/auth0/auth0-python/releases/tag/5.0.0
@@ -260,9 +271,9 @@
  # Setuptools >=82.0.0 doesn't contain pkg_resources anymore
 -setuptools<82.0.0
  
- # Pin dependencies with '.pth' files to exact versions, only update manually!
- # https://github.com/Azure/azure-kusto-python/ -> '.pth' files removed with >=5.0.5
-@@ -243,4 +242,4 @@
+ # backoff and python-backoff share the same package name
+ # pin versions which are mostly compatible to each other
+@@ -255,4 +255,4 @@
  azure-kusto-data==4.5.1
  azure-kusto-ingest==4.5.1
  coloredlogs==15.0.1

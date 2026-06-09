@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="AIO package for the Honeywell Lyric Platform."
-HOMEPAGE="https://github.com/timmo001/aiolyric https://pypi.org/project/aiolyric/"
-PATCHES="${FILESDIR}/${P}-fix-setup.patch"
+
+DESCRIPTION="ikea IDASEN desk API and CLI."
+HOMEPAGE="https://github.com/newAM/idasen https://pypi.org/project/idasen/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,12 +16,11 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.md"
+DOCS="README.rst"
 
-RDEPEND="
-	>=dev-python/aiohttp-3.12.15[${PYTHON_USEDEP}]
-	>=dev-python/packaging-24.0[${PYTHON_USEDEP}]
-"
+RDEPEND=">=dev-python/bleak-0.15[${PYTHON_USEDEP}]
+	>=dev-python/pyyaml-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/voluptuous-0.12[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

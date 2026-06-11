@@ -2,9 +2,9 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
-*holidays-0.98 (09 Jun 2026)
+*holidays-0.98 (10 Jun 2026)
 
-  09 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  10 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   +holidays-0.98.ebuild:
   app-misc/homeassistant 2026.6.1
 

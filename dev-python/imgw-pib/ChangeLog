@@ -2,9 +2,9 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
-*imgw-pib-2.2.2 (09 Jun 2026)
+*imgw-pib-2.2.2 (10 Jun 2026)
 
-  09 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  10 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   +imgw-pib-2.2.2.ebuild:
   app-misc/homeassistant 2026.6.1
 

@@ -6,8 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Recover bluetooth adapters that are in an stuck state"
-HOMEPAGE="https://github.com/bluetooth-devices/bluetooth-auto-recovery https://pypi.org/project/bluetooth-auto-recovery/"
+
+DESCRIPTION="Library to interface with V2C EVSE Trydan"
+HOMEPAGE="https://github.com/dgomes/pytrydan https://pypi.org/project/pytrydan/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -17,14 +18,16 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/pyric-0.1.6.3[${PYTHON_USEDEP}]
-	>=dev-python/btsocket-0.2.0[${PYTHON_USEDEP}]
-	>=dev-python/usb-devices-0.4.1[${PYTHON_USEDEP}]
-	>=dev-python/bluetooth-adapters-0.16.0[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/rich-10[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
+		dev-python/respx[${PYTHON_USEDEP}]
 	)"
 
 distutils_enable_tests pytest

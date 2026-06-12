@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python library to communicate with Risco Cloud."
-HOMEPAGE="https://github.com/OnFreund/PyRisco https://pypi.org/project/pyrisco/"
+DESCRIPTION="A module for interacting with the Yardian irrigation controller"
+HOMEPAGE="https://github.com/h3l1o5/pyyardian https://pypi.org/project/pyyardian/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,6 +18,16 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)"
+
+python_test() {
+	py.test -v -v || die
+}
 
 distutils_enable_tests pytest

@@ -8,12 +8,16 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="API interface for controlling and communicating with WiiM audio devices."
-HOMEPAGE="https://github.com/Linkplay2020/wiim https://pypi.org/project/wiim/"
+DESCRIPTION="Mitsubishi minisplit control via Kumo Cloud and local API"
+HOMEPAGE="https://github.com/nikolairahimi/mitsubishi-comfort https://pypi.org/project/mitsubishi-comfort"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
+
+RDEPEND="
+	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+"
 
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

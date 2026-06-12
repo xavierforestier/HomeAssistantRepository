@@ -6,8 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Reolink NVR/cameras API package"
-HOMEPAGE="https://github.com/starkillerOG/reolink_aio https://pypi.org/project/reolink-aio/"
+
+DESCRIPTION="Plugwise (Adam/Anna/P1/Stick/Stretch) API"
+HOMEPAGE="https://github.com/plugwise/python-plugwise https://pypi.org/project/plugwise/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,9 +19,11 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
+	dev-python/aiofiles[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiortsp[${PYTHON_USEDEP}]
-	dev-python/orjson[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]
-	dev-python/typing-extensions[${PYTHON_USEDEP}]
+	dev-python/defusedxml[${PYTHON_USEDEP}]
+	dev-python/munch[${PYTHON_USEDEP}]
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
 "
+
+distutils_enable_tests pytest

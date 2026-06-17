@@ -41,7 +41,7 @@ RDEPEND="${PYTHON_DEPS} acct-group/${MY_PN} acct-user/${MY_PN}
 	dev-libs/xerces-c"
 REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 	homekit-controller? ( bluetooth )"
-# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.6.0/work/core-2026.6.0/homeassistant/package_constraints.txt
+# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.6.3/work/core-2026.6.3/homeassistant/package_constraints.txt
 RDEPEND="${RDEPEND}
 
 	~dev-python/aiodhcpwatcher-1.2.7
@@ -81,9 +81,9 @@ RDEPEND="${RDEPEND}
 	~dev-python/ha-ffmpeg-3.2.2
 	~dev-python/habluetooth-6.8.1
 	~dev-python/hass-nabucasa-2.2.0
-	~dev-python/hassil-3.5.0
+	~dev-python/hassil-3.7.0
 	~dev-python/home-assistant-bluetooth-2.0.0
-	~dev-python/home-assistant-frontend-20260527.4
+	~dev-python/home-assistant-frontend-20260527.6
 	~dev-python/home-assistant-intents-2026.6.1
 	~dev-python/httpx-0.28.1
 	~dev-python/ifaddr-0.2.0
@@ -138,7 +138,7 @@ RDEPEND="${RDEPEND}
 	>=app-arch/brotli-1.2.0
 	~dev-python/pydantic-2.13.4
 	>=dev-python/mashumaro-3.17
-	~dev-python/protobuf-6.32.0
+	<=dev-python/protobuf-7.0.0
 	>=dev-python/faust-cchardet-2.1.18
 	>=dev-python/websockets-15.0.1
 	~dev-python/charset-normalizer-3.4.3
@@ -185,7 +185,7 @@ RDEPEND="${RDEPEND}
 	accuweather? ( ~dev-python/accuweather-5.1.0 )
 	acer-projector? ( ~dev-python/serialx-1.8.0 )
 	acmeda? ( ~dev-python/aiopulse-0.4.6 )
-	actron-air? ( ~dev-python/actron-neo-api-0.5.6 )
+	actron-air? ( ~dev-python/actron-neo-api-0.5.12 )
 	adax? ( ~dev-python/adax-local-0.3.0 ~dev-python/adax-0.4.0 )
 	adguard? ( ~dev-python/adguardhome-0.8.1 )
 	ads? ( ~dev-python/pyads-3.4.0 )
@@ -211,7 +211,7 @@ RDEPEND="${RDEPEND}
 	airzone? ( ~dev-python/aioairzone-1.0.5 )
 	aladdin-connect? ( ~dev-python/genie-partner-sdk-1.0.11 )
 	alarmdecoder? ( ~dev-python/adext-0.4.4 )
-	alexa-devices? ( ~dev-python/aioamazondevices-14.0.0 )
+	alexa-devices? ( ~dev-python/aioamazondevices-14.0.3 )
 	alpha-vantage? ( ~dev-python/alpha-vantage-2.3.1 )
 	altruist? ( ~dev-python/altruistclient-0.1.1 )
 	amazon-polly? ( ~dev-python/boto3-1.37.1 )
@@ -247,7 +247,7 @@ RDEPEND="${RDEPEND}
 	arve? ( ~dev-python/asyncarve-0.1.1 )
 	aseko-pool-live? ( ~dev-python/aioaseko-1.0.0 )
 	assist-pipeline? ( ~dev-python/pymicro-vad-1.0.1 ~dev-python/pyspeex-noise-1.0.2 )
-	assist-satellite? ( ~dev-python/hassil-3.5.0 )
+	assist-satellite? ( ~dev-python/hassil-3.7.0 )
 	asuswrt? ( ~dev-python/aioasuswrt-1.5.4 ~dev-python/asusrouter-1.21.3 )
 	atag? ( ~dev-python/pyatag-0.3.5.3 )
 	aten-pe? ( ~dev-python/auroranoaa-0.0.5 )
@@ -299,11 +299,11 @@ RDEPEND="${RDEPEND}
 	bryant-evolution? ( ~dev-python/evolutionhttp-0.0.18 )
 	bsblan? ( ~dev-python/python-bsblan-6.0.1 )
 	bt-home-hub-5? ( ~dev-python/bthomehub5-devicelist-0.1.1 )
-	bthome? ( ~dev-python/bthome-ble-3.23.2 )
+	bthome? ( ~dev-python/bthome-ble-3.23.4 )
 	bt-smarthub? ( ~dev-python/btsmarthub-devicelist-0.2.3 )
 	buienradar? ( ~dev-python/buienradar-1.0.6 )
 	caldav? ( ~dev-python/caldav-2.1.0 ~dev-python/icalendar-6.3.1 ~dev-python/vobject-0.9.9 )
-	cambridge-audio? ( ~dev-python/aiostreammagic-2.13.1 )
+	cambridge-audio? ( ~dev-python/aiostreammagic-2.13.2 )
 	camera? ( ~dev-python/pyturbojpeg-1.8.3 )
 	canary? ( ~dev-python/py-canary-0.5.4 )
 	casper-glow? ( ~dev-python/pycasperglow-1.2.0 )
@@ -333,14 +333,14 @@ RDEPEND="${RDEPEND}
 	compit? ( ~dev-python/compit-inext-api-0.8.0 )
 	concord232? ( ~dev-python/concord232-0.15.1 )
 	control4? ( ~dev-python/pycontrol4-1.5.0 )
-	conversation? ( ~dev-python/hassil-3.5.0 ~dev-python/home-assistant-intents-2026.6.1 )
+	conversation? ( ~dev-python/hassil-3.7.0 ~dev-python/home-assistant-intents-2026.6.1 )
 	cookidoo? ( ~dev-python/cookidoo-api-0.17.2 )
 	coolmaster? ( ~dev-python/pycoolmasternet-async-0.2.4 )
 	cppm-tracker? ( ~dev-python/clearpasspy-1.0.2 )
 	cpuspeed? ( ~dev-python/py-cpuinfo-9.0.0 )
 	crownstone? ( ~dev-python/crownstone-cloud-1.4.11 ~dev-python/crownstone-sse-2.0.5 ~dev-python/crownstone-uart-2.1.0 )
 	cync? ( ~dev-python/pycync-0.5.0 )
-	daikin? ( ~dev-python/pydaikin-2.17.2 )
+	daikin? ( ~dev-python/pydaikin-2.18.1 )
 	danfoss-air? ( ~dev-python/pydanfossair-0.1.0 )
 	datadog? ( ~dev-python/datadog-0.52.0 )
 	data-grand-lyon? ( ~dev-python/data-grand-lyon-ha-0.7.0 )
@@ -478,7 +478,7 @@ RDEPEND="${RDEPEND}
 	fritzbox? ( ~dev-python/pyfritzhome-0.6.20 )
 	fritz? ( ~dev-python/fritzconnection-1.15.1[qrcode] ~dev-python/xmltodict-1.0.4 )
 	fronius? ( ~dev-python/pyfronius-0.8.2 )
-	frontend? ( ~dev-python/home-assistant-frontend-20260527.4 )
+	frontend? ( ~dev-python/home-assistant-frontend-20260527.6 )
 	frontier-silicon? ( ~dev-python/afsapi-1.0.1 )
 	fujitsu-fglair? ( ~dev-python/ayla-iot-unofficial-1.4.7 )
 	fully-kiosk? ( ~dev-python/python-fullykiosk-0.0.15 )
@@ -491,7 +491,7 @@ RDEPEND="${RDEPEND}
 	gdacs? ( ~dev-python/aio-georss-gdacs-0.10 )
 	generic? ( ~dev-python/pillow-12.2.0 ~dev-python/av-16.0.1 )
 	geniushub? ( ~dev-python/geniushub-client-0.7.1 )
-	gentex-homelink? ( ~dev-python/homelink-integration-api-0.0.1 )
+	gentex-homelink? ( ~dev-python/homelink-integration-api-0.0.5 )
 	geocaching? ( ~dev-python/geocachingapi-0.3.0 )
 	geo-json-events? ( ~dev-python/aio-geojson-generic-client-0.5 )
 	geonetnz-quakes? ( ~dev-python/aio-geojson-geonetnz-quakes-0.16 )
@@ -551,7 +551,7 @@ RDEPEND="${RDEPEND}
 	hive? ( ~dev-python/pyhive-integration-1.0.9 )
 	hko? ( ~dev-python/hko-0.3.2 )
 	hlk-sw16? ( ~dev-python/hlk-sw16-0.0.9 )
-	holiday? ( ~dev-python/babel-2.15.0 ~dev-python/holidays-0.97 )
+	holiday? ( ~dev-python/babel-2.15.0 ~dev-python/holidays-0.98 )
 	homeassistant-hardware? ( ~dev-python/ha-silabs-firmware-client-0.3.0 ~dev-python/universal-silabs-flasher-1.1.0 )
 	home-connect? ( ~dev-python/aiohomeconnect-0.36.0 )
 	homee? ( ~dev-python/pyhomee-1.4.0 )
@@ -573,7 +573,7 @@ RDEPEND="${RDEPEND}
 	huisbaasje? ( ~dev-python/energyflip-client-0.2.2 )
 	hunterdouglas-powerview? ( ~dev-python/aiopvapi-3.3.0 )
 	husqvarna-automower-ble? ( ~dev-python/automower-ble-0.2.8 ~dev-python/gardena-bluetooth-2.8.1 )
-	husqvarna-automower? ( ~dev-python/aioautomower-2.7.5 )
+	husqvarna-automower? ( ~dev-python/aioautomower-2.7.6 )
 	huum? ( ~dev-python/huum-0.8.2 )
 	hvv-departures? ( ~dev-python/pygti-0.9.4 )
 	hydrawise? ( ~dev-python/pydrawise-2026.4.0 )
@@ -584,7 +584,7 @@ RDEPEND="${RDEPEND}
 	iaqualink? ( ~dev-python/h2-4.3.0 ~dev-python/iaqualink-0.7.0 )
 	ibeacon? ( ~dev-python/ibeacon-ble-1.2.0 )
 	icloud? ( ~dev-python/pyicloud-2.4.1 )
-	idasen-desk? ( ~dev-python/idasen-ha-2.6.5 )
+	idasen-desk? ( ~dev-python/idasen-ha-2.7.0 )
 	idrive-e2? ( ~dev-python/aiobotocore-2.21.1 ~dev-python/idrive-e2-client-0.1.1 )
 	idteck-prox? ( ~dev-python/rfk101py-0.0.1 )
 	ifttt? ( >=dev-python/pyfttt-0.3.0 )
@@ -595,7 +595,7 @@ RDEPEND="${RDEPEND}
 	image-upload? ( ~dev-python/pillow-12.2.0 )
 	imap? ( ~dev-python/aioimaplib-2.0.1 )
 	imeon-inverter? ( ~dev-python/imeon-inverter-api-0.4.0 )
-	imgw-pib? ( ~dev-python/imgw-pib-2.2.0 )
+	imgw-pib? ( ~dev-python/imgw-pib-2.2.2 )
 	immich? ( ~dev-python/aioimmich-0.14.1 )
 	improv-ble? ( ~dev-python/py-improv-ble-client-2.0.1 )
 	incomfort? ( ~dev-python/incomfort-client-0.7.0 )
@@ -730,7 +730,7 @@ RDEPEND="${RDEPEND}
 	mill? ( ~dev-python/mill-local-0.5.0 ~dev-python/millheater-0.14.1 )
 	minecraft-server? ( ~dev-python/mcstatus-13.1.0 )
 	minio? ( ~dev-python/minio-7.1.12 )
-	mitsubishi-comfort? ( ~dev-python/mitsubishi-comfort-0.3.0 )
+	mitsubishi-comfort? ( ~dev-python/mitsubishi-comfort-0.3.1 )
 	moat? ( ~dev-python/moat-ble-0.1.1 )
 	mobile-app? ( ~dev-python/pynacl-1.6.2 )
 	mochad? ( ~dev-python/pymochad-0.2.0 )
@@ -839,7 +839,7 @@ RDEPEND="${RDEPEND}
 	openuv? ( ~dev-python/pyopenuv-2023.2.0 )
 	openweathermap? ( ~dev-python/pyopenweathermap-0.2.2 )
 	opnsense? ( ~dev-python/aiopnsense-1.0.8 )
-	opower? ( ~dev-python/opower-0.18.2 )
+	opower? ( ~dev-python/opower-0.18.4 )
 	opple? ( ~dev-python/pyoppleio-legacy-1.0.8 )
 	oralb? ( ~dev-python/oralb-ble-1.1.0 )
 	oru? ( ~dev-python/oru-0.1.11 )
@@ -875,7 +875,7 @@ RDEPEND="${RDEPEND}
 	plaato? ( ~dev-python/pyplaato-0.0.19 )
 	playstation-network? ( ~dev-python/psnawp-3.0.3 ~dev-python/pyrate-limiter-4.1.0 )
 	plex? ( ~dev-python/plexapi-4.15.16 ~dev-python/plexauth-0.0.6 ~dev-python/plexwebsocket-0.0.14 )
-	plugwise? ( ~dev-python/plugwise-1.11.3 )
+	plugwise? ( ~dev-python/plugwise-1.11.4 )
 	pocketcasts? ( ~dev-python/pycketcasts-1.0.1 )
 	point? ( ~dev-python/pypoint-3.0.0 )
 	pooldose? ( ~dev-python/python-pooldose-0.9.1 )
@@ -943,9 +943,9 @@ RDEPEND="${RDEPEND}
 	remember-the-milk? ( ~dev-python/rtmapi-0.7.2 ~dev-python/httplib2-0.20.4 )
 	remote-calendar? ( ~dev-python/ical-13.2.5 )
 	remote-rpi-gpio? ( ~dev-python/gpiozero-1.6.2 ~dev-python/pigpio-1.78 )
-	renault? ( ~dev-python/renault-api-0.5.11 )
+	renault? ( ~dev-python/renault-api-0.5.12 )
 	renson? ( ~dev-python/renson-endura-delta-1.7.2 )
-	reolink? ( ~dev-python/reolink-aio-0.20.1 )
+	reolink? ( ~dev-python/reolink-aio-0.21.0 )
 	repetier? ( ~dev-python/pyrepetierng-0.1.0 )
 	rest? ( ~dev-python/jsonpath-0.82.2 ~dev-python/xmltodict-1.0.4 )
 	rflink? ( ~dev-python/rflink-0.0.67 )
@@ -1025,7 +1025,7 @@ RDEPEND="${RDEPEND}
 	smappee? ( ~dev-python/pysmappee-0.2.29 )
 	smarla? ( ~dev-python/pysmarlaapi-1.0.2 )
 	smart-meter-texas? ( ~dev-python/smart-meter-texas-0.5.5 )
-	smartthings? ( ~dev-python/pysmartthings-4.0.0 )
+	smartthings? ( ~dev-python/pysmartthings-4.0.1 )
 	smarttub? ( ~dev-python/python-smarttub-0.0.47 )
 	smarty? ( ~dev-python/pysmarty2-0.10.3 )
 	smhi? ( ~dev-python/pysmhi-2.0.0 )
@@ -1169,7 +1169,7 @@ RDEPEND="${RDEPEND}
 	usgs-earthquakes-feed? ( ~dev-python/aio-geojson-usgs-earthquakes-0.3 )
 	utility-meter? ( ~dev-python/cronsim-2.7 )
 	uvc? ( ~dev-python/uvcclient-0.12.1 )
-	v2c? ( ~dev-python/pytrydan-1.0.0 )
+	v2c? ( ~dev-python/pytrydan-1.0.2 )
 	vallox? ( ~dev-python/vallox-websocket-api-6.0.0 )
 	vasttrafik? ( ~dev-python/vtjp-0.2.1 )
 	vegehub? ( ~dev-python/vegehub-0.1.26 )
@@ -1225,7 +1225,7 @@ RDEPEND="${RDEPEND}
 	wled? ( ~dev-python/wled-0.23.0 )
 	wmspro? ( ~dev-python/pywmspro-0.3.5 )
 	wolflink? ( ~dev-python/wolf-comm-0.0.48 )
-	workday? ( ~dev-python/holidays-0.97 )
+	workday? ( ~dev-python/holidays-0.98 )
 	ws66i? ( ~dev-python/pyws66i-1.1 )
 	wsdot? ( ~dev-python/wsdot-0.0.1 )
 	wyoming? ( ~dev-python/wyoming-1.9.0 )
@@ -1244,12 +1244,12 @@ RDEPEND="${RDEPEND}
 	yamaha? ( ~dev-python/rxv-0.7.0 )
 	yamaha-musiccast? ( ~dev-python/aiomusiccast-0.15.0 )
 	yandex-transport? ( ~dev-python/aioymaps-1.2.5 )
-	yardian? ( ~dev-python/pyyardian-1.3.3 )
+	yardian? ( ~dev-python/pyyardian-1.4.0 )
 	yeelight? ( ~dev-python/async-upnp-client-0.46.2 ~dev-python/yeelight-0.7.16 )
 	yeelightsunflower? ( ~dev-python/yeelightsunflower-0.0.10 )
 	yi? ( ~dev-python/aioftp-0.21.3 )
 	yolink? ( ~dev-python/yolink-api-0.6.5 )
-	yoto? ( ~dev-python/yoto-api-3.1.5 )
+	yoto? ( ~dev-python/yoto-api-3.1.6 )
 	youless? ( ~dev-python/youless-api-2.2.0 )
 	youtube? ( ~dev-python/youtubeaio-2.1.2 )
 	zabbix? ( ~dev-python/zabbix-utils-2.0.3 )
@@ -1262,7 +1262,7 @@ RDEPEND="${RDEPEND}
 	zhong-hong? ( ~dev-python/zhong-hong-hvac-1.0.13 )
 	ziggo-mediabox-xl? ( ~dev-python/ziggo-mediabox-xl-1.1.0 )
 	zimi? ( ~dev-python/zcc-helper-3.8 )
-	zinvolt? ( ~dev-python/zinvolt-0.4.3 )
+	zinvolt? ( ~dev-python/zinvolt-1.0.0 )
 	zoneminder? ( ~dev-python/zm-py-0.5.4 )
 	zwave-js? ( ~dev-python/zwave-js-server-python-0.71.0 )
 	zwave-me? ( ~dev-python/url-normalize-3.0.0 ~dev-python/zwave-me-ws-0.4.3 )

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  12 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -elkm1-lib-2.2.13.ebuild:
+  app-misc/homeassistant 2026.6.2
+
 *elkm1-lib-2.2.15 (08 Jun 2026)
 
   08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

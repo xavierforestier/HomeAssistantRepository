@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  12 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -wyoming-1.7.2.ebuild:
+  app-misc/homeassistant 2026.6.2
+
 *wyoming-1.9.0 (08 Jun 2026)
 
   08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

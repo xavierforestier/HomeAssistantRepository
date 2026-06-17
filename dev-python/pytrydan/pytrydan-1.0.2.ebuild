@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Package for interfacing with Cambridge Audio / Stream Magic compatible streamers"
-HOMEPAGE="https://github.com/noahhusby/aiostreammagic https://pypi.org/project/aiostreammagic/"
+DESCRIPTION="Library to interface with V2C EVSE Trydan"
+HOMEPAGE="https://github.com/dgomes/pytrydan https://pypi.org/project/pytrydan/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,16 +18,16 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="
-	>=dev-python/yarl-1.20.1[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.17[${PYTHON_USEDEP}]
-	>=dev-python/orjson-3.11.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.12.14[${PYTHON_USEDEP}]"
+RDEPEND=">=dev-python/rich-10[${PYTHON_USEDEP}]
+	>=dev-python/typer-0.7.0[${PYTHON_USEDEP}]
+	>=dev-python/tenacity-8.2.2[${PYTHON_USEDEP}]
+	>=dev-python/httpx-0.24.0[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9.2[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
-		dev-python/ruff[${PYTHON_USEDEP}]
+		dev-python/respx[${PYTHON_USEDEP}]
 	)"
 
 distutils_enable_tests pytest

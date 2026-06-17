@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  12 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyvlx-0.2.33.ebuild:
+  app-misc/homeassistant 2026.6.2
+
 *pyvlx-0.2.35 (08 Jun 2026)
 
   08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Home Assistant helper lib for the IKEA Idasen Desk integration"
-HOMEPAGE="https://github.com/abmantis/idasen-ha/ https://pypi.org/project/idasen-ha/"
+DESCRIPTION="The Home Assistant Intent Language parser"
+HOMEPAGE="http://github.com/home-assistant/hassil https://pypi.org/project/hassil/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,6 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/idasen-0.10[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
+	>=dev-python/unicode-rbnf-2.3[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

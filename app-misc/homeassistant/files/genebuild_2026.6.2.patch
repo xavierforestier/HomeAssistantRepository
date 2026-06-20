@@ -250,6 +250,15 @@
  
  # Breaks asyncio
  # https://github.com/pubnub/python/issues/130
+@@ -148,7 +148,7 @@
+ 
+ # protobuf must be in package constraints for the wheel
+ # builder to build binary wheels
+-protobuf==6.32.0
++protobuf<=7.0.0
+ 
+ # faust-cchardet: Ensure we have a version we can build wheels
+ # 2.1.18 is the first version that works with our wheel builder
 @@ -200,10 +200,6 @@
  # https://github.com/jd/tenacity/issues/471
  tenacity!=8.4.0

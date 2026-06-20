@@ -5,7 +5,7 @@
 *pyyardian-1.4.0 (12 Jun 2026)
 
   12 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
-  +pyyardian-1.4.0.ebuild:
+  -pyyardian-1.1.1.ebuild, +pyyardian-1.4.0.ebuild:
   app-misc/homeassistant 2026.6.2
 
 *pyyardian-1.3.3 (08 Jun 2026)

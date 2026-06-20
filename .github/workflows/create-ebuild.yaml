@@ -9,7 +9,7 @@ jobs:
     steps:
        # synchronys my own git
        - name: Checkout code
-         uses: actions/checkout@v6         
+         uses: actions/checkout@v7         
        - name: Get branch
          run: |
            full_package=${GITHUB_REF#refs/heads/feature/}

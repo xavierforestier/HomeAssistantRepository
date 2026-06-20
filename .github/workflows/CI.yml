@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: state_pkgcheck_init
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - uses: pkgcore/pkgcheck-action@v1
 
   shellcheck:
@@ -27,7 +27,7 @@ jobs:
     needs: state_shellcheck_init
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - uses: ludeeus/action-shellcheck@master
       env:
         SHELLCHECK_OPTS: -s bash -e SC2034 -e SC2016
@@ -49,7 +49,7 @@ jobs:
       image: ghcr.io/xavierforestier/gentoo-ci-ha:main
       options: --privileged
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - name: Setup HomeAssistant repository     
       run: |
         rsync -aHDPSv etc/portage/ /etc/portage/
@@ -83,7 +83,7 @@ jobs:
       image: ghcr.io/xavierforestier/gentoo-ci-ha:main
       options: --privileged
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - name: Setup HomeAssistant repository     
       run: |
         rsync -aHDPSv etc/portage/ /etc/portage/
@@ -162,7 +162,7 @@ jobs:
       image: ghcr.io/xavierforestier/gentoo-ci-ha:main
       options: --privileged
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - name: Setup HomeAssistant repository
       run: |
         rsync -aHDPSv etc/portage/ /etc/portage/
@@ -196,7 +196,7 @@ jobs:
       image: ghcr.io/xavierforestier/gentoo-ci-ha:main
       options: --privileged
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - name: Setup HomeAssistant repository
       run: |
         rsync -aHDPSv etc/portage/ /etc/portage/
@@ -310,7 +310,7 @@ jobs:
     needs: [ check_zigbee2mqtt, check_esphome, check_nodered, check_homeassistant, state_pkgcheck_complete, state_shellcheck_complete ]
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - run: |
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
@@ -331,7 +331,7 @@ jobs:
     needs: state_esphome_init
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - run: |
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
@@ -354,7 +354,7 @@ jobs:
     needs: state_homeassistant_init
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - run: |
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
@@ -375,7 +375,7 @@ jobs:
     needs: state_nodered_init
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v6
+    - uses: actions/checkout@v7
     - run: |
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"

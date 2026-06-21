@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*resvg-py-0.3.2 (20 Jun 2026)
+
+  20 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +resvg-py-0.3.2.ebuild:
+  dev-embedded/esphome 2026.6.0
+
 *resvg-py-0.3.1 (27 May 2026)
 
   27 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

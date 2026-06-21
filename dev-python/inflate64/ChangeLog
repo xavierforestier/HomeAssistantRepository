@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/inflate64
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*inflate64-1.0.4 (20 Jun 2026)
+
+  20 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +inflate64-1.0.4.ebuild, +metadata.xml:
+  dev-embedded/esphome 2026.6.0
+

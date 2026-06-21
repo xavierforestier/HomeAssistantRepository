@@ -2,6 +2,18 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*esphome-2026.6.1 (21 Jun 2026)
+
+  21 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2026.5.2.ebuild, esphome-2026.6.0.ebuild, +esphome-2026.6.1.ebuild:
+  2026.6.1
+
+*esphome-2026.6.0 (20 Jun 2026)
+
+  20 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2026.4.5.ebuild, +esphome-2026.6.0.ebuild:
+  2026.6.0
+
 *esphome-2026.5.3 (09 Jun 2026)
 
   09 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

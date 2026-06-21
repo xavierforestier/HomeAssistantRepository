@@ -31,7 +31,7 @@ RDEPEND="
 	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
 	~dev-python/colorama-0.4.6[${PYTHON_USEDEP}]
 	>=dev-python/icmplib-3.0.4[${PYTHON_USEDEP}]
-	~dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-5.3.1[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2026.2[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
 	~dev-embedded/platformio-6.1.19[${PYTHON_SINGLE_USEDEP}]

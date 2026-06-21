@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  21 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -plugwise-1.11.3.ebuild:
+  app-misc/homeassistant 2026.6.4
+
 *plugwise-1.11.4 (12 Jun 2026)
 
   12 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

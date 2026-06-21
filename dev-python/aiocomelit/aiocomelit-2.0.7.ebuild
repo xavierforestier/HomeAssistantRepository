@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A module for interacting with the Yardian irrigation controller"
-HOMEPAGE="https://github.com/h3l1o5/pyyardian https://pypi.org/project/pyyardian/"
+DESCRIPTION="Python library to control Comelit Simplehome"
+HOMEPAGE="https://github.com/chemelli74/aiocomelit https://pypi.org/project/aiocomelit/"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,15 +19,12 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
-"
+	>=dev-python/aiohttp-3.12.7[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.10[${PYTHON_USEDEP}]
+	dev-python/pint[${PYTHON_USEDEP}]"
 BDEPEND="
 	test? (
-		dev-python/pytest[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
-
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

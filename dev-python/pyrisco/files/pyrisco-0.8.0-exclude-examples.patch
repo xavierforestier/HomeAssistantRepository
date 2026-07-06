@@ -1,0 +1,11 @@
+--- a/pyproject.toml	2026-07-06 22:09:22.199710137 +0200
++++ b/pyproject.toml	2026-07-06 22:10:02.905971170 +0200
+@@ -24,7 +24,7 @@
+ Homepage = "https://github.com/OnFreund/PyRisco"
+ 
+ [tool.setuptools.packages.find]
+-exclude = ["tests*"]
++exclude = ["tests*", "examples*"]
+ 
+ [tool.setuptools_scm]
+ # version derived from git tags (e.g. v0.7.0 → 0.7.0)

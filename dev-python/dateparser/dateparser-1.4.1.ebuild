@@ -1,0 +1,31 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{12..14} )
+inherit distutils-r1 pypi
+
+DESCRIPTION="Date parsing library designed to parse dates from HTML pages"
+HOMEPAGE="https://github.com/scrapinghub/dateparser https://pypi.org/project/dateparser/"
+
+LICENSE="BSD"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.rst"
+
+RDEPEND="
+	>=dev-python/python-dateutil-2.7.0[${PYTHON_USEDEP}]
+	>=dev-python/pytz-2024.2[${PYTHON_USEDEP}]
+	>=dev-python/regex-2024.9.11[${PYTHON_USEDEP}]
+	>=dev-python/tzlocal-0.2[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
+	)"
+
+distutils_enable_tests pytest

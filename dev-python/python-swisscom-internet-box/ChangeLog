@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/python-swisscom-internet-box
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*python-swisscom-internet-box-0.1.1 (06 Jul 2026)
+
+  06 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +python-swisscom-internet-box-0.1.1.ebuild:
+  app-misc/homeassistant 2026.7.0
+

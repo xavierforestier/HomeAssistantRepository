@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/decorator
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*decorator-5.2.1 (07 Jul 2026)
+
+  07 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +decorator-5.2.1.ebuild, +metadata.xml:
+  Fix missing dep
+

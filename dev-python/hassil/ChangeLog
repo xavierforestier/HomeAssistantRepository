@@ -2,11 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
-*hassil-3.8.1 (06 Jul 2026)
 *hassil-3.8.0 (06 Jul 2026)
 
   06 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
-  +hassil-3.8.0.ebuild, +hassil-3.8.1.ebuild:
+  -hassil-3.5.0.ebuild, +hassil-3.8.0.ebuild:
   app-misc/homeassistant 2026.7.0
 
 *hassil-3.7.0 (20 Jun 2026)

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  06 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pytrydan-1.0.1.ebuild:
+  app-misc/homeassistant 2026.7.0
+
   21 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -pytrydan-1.0.0.ebuild:
   app-misc/homeassistant 2026.6.4

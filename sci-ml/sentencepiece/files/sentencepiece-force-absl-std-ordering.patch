@@ -1,0 +1,62 @@
+--- a/CMakeLists.txt	2026-07-11 16:25:19.900196935 +0200
++++ b/CMakeLists.txt	2026-07-11 16:25:44.964466978 +0200
+@@ -63,7 +63,7 @@
+   set(SPM_ENABLE_SHARED OFF)
+ endif()
+ 
+-set(CMAKE_CXX_STANDARD 17)
++set(CMAKE_CXX_STANDARD 20)
+ set(CMAKE_CXX_STANDARD_REQUIRED ON)
+ 
+ if((CMAKE_CXX_COMPILER_ID STREQUAL "Clang" AND
+@@ -185,31 +185,15 @@
+  install(FILES ${EMBEDDED_DATA_FILES} DESTINATION ${INSTALL_DATADIR})
+ endif()
+ 
+-if (SPM_ABSL_PROVIDER STREQUAL "module")
+-  include(FetchContent)
+-  FetchContent_Populate(abseil-cpp
+-        GIT_REPOSITORY  https://github.com/abseil/abseil-cpp.git
+-        SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/third_party/abseil-cpp
+-        GIT_PROGRESS TRUE
+-        GIT_TAG 20260526.0)
+-  add_subdirectory(third_party/abseil-cpp)
+-  if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/absl)
+-    file(CREATE_LINK
+-         ${CMAKE_CURRENT_SOURCE_DIR}/third_party/abseil-cpp/absl
+-         ${CMAKE_CURRENT_SOURCE_DIR}/third_party/absl
+-         SYMBOLIC)
+-  endif()
+-elseif (SPM_ABSL_PROVIDER STREQUAL "package")
+-  find_package(absl REQUIRED)
+-  get_target_property(ABSL_INCLUDE_DIRS absl::base INTERFACE_INCLUDE_DIRECTORIES)
+-  if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/absl)
+-    file(CREATE_LINK
+-         ${ABSL_INCLUDE_DIRS}/absl
+-         ${CMAKE_CURRENT_SOURCE_DIR}/third_party/absl
+-         SYMBOLIC)
+-  endif()
+-  include_directories(${ABSL_INCLUDE_DIRS})
++find_package(absl REQUIRED)
++get_target_property(ABSL_INCLUDE_DIRS absl::base INTERFACE_INCLUDE_DIRECTORIES)
++if (NOT EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/third_party/absl)
++  file(CREATE_LINK
++       ${ABSL_INCLUDE_DIRS}/absl
++       ${CMAKE_CURRENT_SOURCE_DIR}/third_party/absl
++       SYMBOLIC)
+ endif()
++include_directories(${ABSL_INCLUDE_DIRS})
+ 
+ if(SPM_ENABLE_BENCHMARK)
+   include(FetchContent)
+--- a/python/setup.py   2026-07-12 12:06:05.608401104 +0200
++++ b/python/setup.py   2026-07-12 12:06:16.738781712 +0200
+@@ -70,7 +70,7 @@
+
+ def get_cflags_and_libs(root):
+   cflags = [
+-      '-std=c++17',
++      '-std=c++20',
+       '-I' + os.path.normpath(os.path.join(root, 'include')),
+   ] + get_protobuf_includes()
+   libs = []

@@ -249,7 +249,7 @@ else
 fi
 
 DESCRIPTION="Open-source home automation platform running on Python."
-HOMEPAGE="https://home-assistant.io/ https://git.edevau.net/onkelbeh/HomeAssistantRepository/"
+HOMEPAGE="https://home-assistant.io/ https://github.com/xavierforestier/HomeAssistantRepository/"
 
 LICENSE="Apache-2.0"
 SLOT="0"

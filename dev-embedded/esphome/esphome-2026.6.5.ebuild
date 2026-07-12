@@ -25,7 +25,7 @@ RDEPEND="
 		acct-group/esphome acct-user/esphome
 		>=dev-python/tornado-6.5.7[${PYTHON_USEDEP}]
 	)
-	>=dev-python/cryptography-48.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-48.0.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]
@@ -39,7 +39,7 @@ RDEPEND="
 	>=dev-python/click-8.3.3[${PYTHON_USEDEP}]
 	~dev-embedded/esphome-dashboard-20260425.0[${PYTHON_USEDEP}]
 	>=dev-python/aioesphomeapi-45.3.1[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.149.16[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.150.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-1.30[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.15[${PYTHON_USEDEP}]

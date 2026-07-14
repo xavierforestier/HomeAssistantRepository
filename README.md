@@ -12,7 +12,7 @@
 
 ## Static Quality check 
 [![shellcheck](https://img.shields.io/badge/shellcheck-shellcheck-238636?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/shellcheck.yml) 
-[![pkgcheck](https://img.shields.io/badge/pkgcheck-pkgcheck-238636?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/pkgcheck.yml) 
+[![pkgcheck](https://img.shields.io/badge/pkgcheck-pkgcheck%20(running...)-lightgrey?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/pkgcheck.yml) 
 
 ## Automatic emerge build status
 [![homeassistant](https://img.shields.io/badge/homeassistant_minimal-homeassistant[minimal]-238636?logo=github&label=)](https://github.com/xavierforestier/HomeAssistantRepository/actions/workflows/homeassistant.yml)

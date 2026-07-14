@@ -138,7 +138,7 @@ RDEPEND="${RDEPEND}
 	>=app-arch/brotli-1.2.0
 	~dev-python/pydantic-2.13.4
 	>=dev-python/mashumaro-3.17
-	<=dev-python/protobuf-7.0.0
+	>=dev-python/protobuf-6.0.0
 	>=dev-python/faust-cchardet-2.1.18
 	>=dev-python/websockets-15.0.1
 	dev-python/poetry

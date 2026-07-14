@@ -21,7 +21,7 @@ BDEPEND="
 	dev-libs/protobuf:=
 	dev-util/google-perftools
 "
-RDEDEND="
+RDEPEND="
 	${BDEPEND}
 	!sci-ml/pysentencepiece
 "

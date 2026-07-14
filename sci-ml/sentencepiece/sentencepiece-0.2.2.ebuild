@@ -16,16 +16,11 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
-BDEPEND="
-	>=dev-cpp/abseil-cpp-20260107.1
+DEPEND="
+	>=dev-cpp/abseil-cpp-20260526.0
 	dev-libs/protobuf:=
 	dev-util/google-perftools
-"
-RDEPEND="
-	${BDEPEND}
 	!sci-ml/pysentencepiece
-"
-DEPEND="${RDEPEND}
 	dev-libs/darts
 "
 

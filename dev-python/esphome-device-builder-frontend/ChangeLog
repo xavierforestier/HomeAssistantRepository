@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/esphome-device-builder-frontend
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*esphome-device-builder-frontend-0.1.255 (17 Jul 2026)
+
+  17 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-device-builder-frontend-0.1.255.ebuild, +metadata.xml:
+  dev-embedded/esphome 2026.7.0
+

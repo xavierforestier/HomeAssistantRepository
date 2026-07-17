@@ -15,9 +15,10 @@ app-misc/homeassistant 2026.7.0 2026.7.1 2026.7.2: Open-source home automation p
 app-misc/node-red 4.1.11 5.0.0 5.0.1: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.11.0 2.12.0 2.12.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-cpp/abseil-cpp 20260526.0: Abseil Common Libraries (C++), LTS Branch
-dev-embedded/esphome 2026.6.3 2026.6.4 2026.6.5: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.6.4 2026.6.5 2026.7.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0 20260408.1 20260425.0: ESPHome dashboard
-dev-embedded/esptool 4.9.0 5.1.0 5.2.0: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
+dev-embedded/esphome-device-builder 1.6.2: ESPHome Device Builder Dashboard
+dev-embedded/esptool 4.9.0 5.1.0 5.2.0 5.3.1: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.18 6.1.19: An open source ecosystem for IoT development
 dev-lang/dart 3.11.4: The Dart SDK
 dev-libs/foils_hid 0.3: Freebox Network HID devices library
@@ -78,7 +79,7 @@ dev-python/aioeagle 1.1.0: Python module to talk to Rainforest EAGLE-200.
 dev-python/aioecowitt 2026.6.0: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 45.3.1: Python API for interacting with ESPHome devices.
+dev-python/aioesphomeapi 45.3.1 45.6.0: Python API for interacting with ESPHome devices.
 dev-python/aiofile 3.9.0: Asynchronous file operations.
 dev-python/aiofiles 24.1.0: File support for asyncio
 dev-python/aioflo 2021.11.0: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
@@ -320,6 +321,7 @@ dev-python/coinbase-advanced-py 1.2.2: Coinbase Advanced API Python SDK
 dev-python/coloredlogs 15.0.1-r2: Colored stream handler for the logging module
 dev-python/colorthief 0.2.1: A module for grabbing the color palette from an image.
 dev-python/colorzero 2.0: Yet another Python color library
+dev-python/commentjson 0.9.0-r2: Add Python and JavaScript style comments in your JSON files
 dev-python/compit-inext-api 0.9.1: Compit Inext API - Python client
 dev-python/concord232 0.15.1: GE Concord 4 RS232 Serial Interface Library and Server
 dev-python/config 0.5.1: A hierarchical, easy-to-use, powerful configuration module for Python
@@ -418,6 +420,7 @@ dev-python/epson-projector 0.6.0: Epson projector support for Python
 dev-python/eq3btsmart 2.3.0: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
 dev-python/esios-api 4.4.0: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/esphome-dashboard-api 1.3.0: API to interact with ESPHome Dashboard
+dev-python/esphome-device-builder-frontend 0.1.255: Prebuilt web frontend for the ESPHome Device Builder Dashboard
 dev-python/esphome-glyphsets 0.2.0: A lightweight version of glyphsets for ESPHome
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/essent-dynamic-pricing 0.3.1: Async client for Essent dynamic energy prices
@@ -882,7 +885,7 @@ dev-python/py-synologydsm-api 2.10.1 2.10.2 2.10.3: Python API for communication
 dev-python/py-unifi-access 1.3.0: Async Python client for the UniFi Access local API with WebSocket event support
 dev-python/py-vapid 1.9.4: Simple VAPID header generation library
 dev-python/py3rijndael 0.3.3: Rijndael algorithm library for Python3.
-dev-python/py7zr 1.1.0: Pure python 7-zip library
+dev-python/py7zr 1.1.0 1.1.3: Pure python 7-zip library
 dev-python/pyads 3.4.0: Python wrapper for TwinCAT ADS library
 dev-python/pyaehw4a1 0.3.9: Python interface for Hisense AEH-W4A1 module
 dev-python/pyaftership 21.11.0: A module to get information pending parcels.
@@ -1063,6 +1066,7 @@ dev-python/pyobihai 1.4.2: A Python wrapper for Obihai
 dev-python/pyoctoprintapi 0.1.14: An asynchronous Python library for communicating with the OctoPrint API
 dev-python/pyombi 0.1.10: A python module to retrieve information from Ombi.
 dev-python/pyomie 1.1.3: A client for OMIE - Spain and Portugal electricity market data
+dev-python/pyopenssl 26.2.0: Python interface to the OpenSSL library
 dev-python/pyopenuv 2023.2.0: A simple Python API data from openuv.io
 dev-python/pyopenweathermap 0.2.2: lib for OpenWeatherMap for Home Assistant
 dev-python/pyopnsense 0.4.0: A python API client for OPNsense
@@ -1280,7 +1284,7 @@ dev-python/requests-aws4auth 1.3.1: AWS4 authentication for Requests
 dev-python/requests-mock 1.12.1: Mock out responses from the requests package
 dev-python/respx 0.22.0-r1: Mock HTTPX with awesome request patterns and response side effects
 dev-python/restrictedpython 8.1: subset of Python which allows program input into a trusted environment.
-dev-python/resvg-py 0.3.1 0.3.2: A safe and high level binding for the resvg project
+dev-python/resvg-py 0.3.1 0.3.2 0.3.3: A safe and high level binding for the resvg project
 dev-python/retry2 0.9.5: easy to use retry decorator in python
 dev-python/reverse-geocode 1.6.5: Reverse geocode the given latitude / longitude
 dev-python/rf-protocols 4.3.0: Library to decode and encode radio frequency signals.
@@ -1353,8 +1357,8 @@ dev-python/slixmpp 1.13.2: Python 3 library for XMPP
 dev-python/smart-meter-texas 0.5.5: Package to retrieve data from the unofficial Smart Meter Texas API
 dev-python/smarthab 0.21: This package allows controlling devices in a SmartHab-powered home.
 dev-python/smbus-cffi 0.5.1: SMBus access through the I2C /dev interface on Linux hosts.
-dev-python/smp 4.0.2: Simple Management Protocol (SMP) for remotely managing MCU firmware
-dev-python/smpclient 6.0.0: Simple Management Protocol (SMP) Client for remotely managing MCU firmware
+dev-python/smp 4.0.2 4.1.0: Simple Management Protocol (SMP) for remotely managing MCU firmware
+dev-python/smpclient 6.0.0 7.2.0: Simple Management Protocol (SMP) Client for remotely managing MCU firmware
 dev-python/snapcast 2.3.8: Control Snapcast.
 dev-python/snitun 0.45.1: SNI proxy with TCP multiplexer
 dev-python/sockio 0.15.0: Concurrency agnostic socket API

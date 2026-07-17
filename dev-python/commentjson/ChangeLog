@@ -1,0 +1,11 @@
+# ChangeLog for dev-python/commentjson
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*commentjson-0.9.0-r2 (17 Jul 2026)
+
+  17 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +commentjson-0.9.0-r2.ebuild, +files/commentjson-0.9.0-py312.patch,
+  +metadata.xml:
+  dev-embedded/esphome 2026.7.0
+

@@ -9,6 +9,15 @@
  
  # homeassistant.components.apcupsd
  aioapcaccess==1.0.0
+@@ -260,7 +260,7 @@
+ aioemonitor==1.0.5
+ 
+ # homeassistant.components.esphome
+-aioesphomeapi==45.3.1
++aioesphomeapi>=45.3.1
+ 
+ # homeassistant.components.matrix
+ # homeassistant.components.slack
 @@ -279,7 +279,7 @@
  aiogithubapi==26.0.0
  

@@ -42,7 +42,6 @@ logging is to: /var/log/${PN}/{dashboard,warnings}.log
 "
 
 python_install_all() {
-	dodoc "${DOCS}"
 	distutils-r1_python_install_all
 	keepdir "/etc/esphome"
 	fowners -R "esphome:esphome" "/etc/esphome"

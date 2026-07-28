@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  18 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-device-builder-1.6.2.ebuild:
+  Release homeassistant
+
 *esphome-device-builder-1.6.2 (17 Jul 2026)
 
   17 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

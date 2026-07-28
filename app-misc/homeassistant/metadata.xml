@@ -20,6 +20,7 @@
     <flag name="accuweather">There is an active alert for this integration! LEARN MORE The AccuWeather integration uses the AccuWeather web service as a source for weather data for your location. A paid subscription is required to use this integration.</flag>
     <flag name="acmeda">The Rollease Acmeda Automate integration allows you to control and monitor covers via your Rollease Acmeda Automate hub. The integrations communicates directly with hubs on the local network, rather than connecting via the cloud or via RS-485. Devices are represented as a cover for monitoring and control as well as a sensor for monitoring battery condition.</flag>
     <flag name="actron-air">The Actron Air integration allows you to control Actron Air Air Conditioning controllers into Home Assistant.</flag>
+    <flag name="adax">The Adax integration integrates Adax heaters into Home Assistant and can be configured to use a local or cloud interface.</flag>
     <flag name="adguard">The AdGuard Home integration lets you monitor and control your AdGuard Home instance from Home Assistant.</flag>
     <flag name="ads">The ADS (automation device specification) integration describes a device-independent and fieldbus-independent interface for communication between Beckhoff automation devices running TwinCAT and other devices implementing this interface.</flag>
     <flag name="advantage-air">The Advantage Air integration allows you to control Advantage Air Air Conditioning controllers into Home Assistant.</flag>

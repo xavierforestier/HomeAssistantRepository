@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*aioesphomeapi-45.6.2 (28 Jul 2026)
+
+  28 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aioesphomeapi-45.6.2.ebuild:
+  dev-embedded/esphome 2026.7.1
+
 *aioesphomeapi-45.6.0 (17 Jul 2026)
 
   17 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

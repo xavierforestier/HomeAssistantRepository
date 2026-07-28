@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="A Python implementation of the new La Marzocco API"
-HOMEPAGE="https://pypi.org/project/pylamarzocco/ https://github.com/zweckj/pylamarzocco"
+HOMEPAGE="https://github.com/zweckj/pylamarzocco https://pypi.org/project/pylamarzocco"
 PATCHES="${FILESDIR}/${PN}-build-system.patch"
 
 LICENSE="MIT"

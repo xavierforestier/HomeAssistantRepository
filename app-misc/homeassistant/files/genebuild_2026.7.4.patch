@@ -1,5 +1,5 @@
---- a/core-2026.7.1/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
-+++ b/core-2026.7.1/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
+--- a/core-2026.7.4/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
++++ b/core-2026.7.4/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
 @@ -197,7 +197,7 @@
  
  # homeassistant.components.ambient_network
@@ -9,6 +9,15 @@
  
  # homeassistant.components.apcupsd
  aioapcaccess==1.0.0
+@@ -260,7 +260,7 @@
+ aioemonitor==1.0.5
+ 
+ # homeassistant.components.esphome
+-aioesphomeapi==45.3.1
++aioesphomeapi>=45.3.1
+ 
+ # homeassistant.components.matrix
+ # homeassistant.components.slack
 @@ -279,7 +279,7 @@
  aiogithubapi==26.0.0
  
@@ -57,7 +66,7 @@
 +aioridwell==2025.9.0
  
  # homeassistant.components.ruckus_unleashed
- aioruckus==0.42
+ aioruckus==0.46.3
 @@ -516,7 +516,7 @@
  androidtvremote2==0.3.1
  
@@ -221,8 +230,8 @@
  
  # homeassistant.components.sisyphus
  sisyphus-control==3.1.4
---- a/core-2026.7.1/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
-+++ b/core-2026.7.1/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+--- a/core-2026.7.4/homeassistant/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
++++ b/core-2026.7.4/homeassistant/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -73,7 +73,7 @@
  uv==0.11.25
  voluptuous-openapi==0.4.1
@@ -230,7 +239,7 @@
 -voluptuous==0.15.2
 +voluptuous==0.16.0
  webrtc-models==0.3.0
- yarl==1.24.2
+ yarl==1.24.5
  zeroconf==0.150.0
 @@ -136,7 +136,7 @@
  pydantic==2.13.4
@@ -273,10 +282,14 @@
  
  # backoff and python-backoff share the same package name
  # pin versions which are mostly compatible to each other
-@@ -255,4 +255,4 @@
+@@ -255,7 +255,7 @@
  azure-kusto-data==4.5.1
  azure-kusto-ingest==4.5.1
  coloredlogs==15.0.1
 -setuptools==81.0.0
 +pkg-resources>=81.0.0
+ 
+ # Pin cffi to 2.0.0 to avoid version mismatch with the pre-baked _cffi_backend in the base image.
+ # https://github.com/home-assistant/core/issues/175832
+
 

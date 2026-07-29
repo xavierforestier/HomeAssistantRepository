@@ -19,9 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="
-	$( python_gen_cond_dep '
-    server? (
+RDEPEND="$( python_gen_cond_dep '
+	server? (
 		dev-embedded/esphome-device-builder[${PYTHON_USEDEP}]
 	)
 	>=dev-python/cryptography-48.0.1[${PYTHON_USEDEP}]
@@ -35,7 +34,7 @@ RDEPEND="
 	~dev-embedded/platformio-6.1.19[${PYTHON_SINGLE_USEDEP}]
 	~dev-embedded/esptool-5.3.1[${PYTHON_SINGLE_USEDEP}]
 	>=dev-python/click-8.3.3[${PYTHON_USEDEP}]
-	>=dev-python/aioesphomeapi-45.6.0[${PYTHON_USEDEP}]
+	>=dev-python/aioesphomeapi-45.7.0[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.150.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
@@ -50,13 +49,13 @@ RDEPEND="
 	~dev-python/requests-2.34.2[${PYTHON_USEDEP}]
 	>=dev-python/py7zr-1.1.3[${PYTHON_USEDEP}]
 	>=dev-python/platformdirs-4.10.0[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.29.0[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.3.2[${PYTHON_USEDEP}]
 	>=dev-python/argcomplete-3.7.0[${PYTHON_USEDEP}]
 	' )
 "
 
-BDEPEND="
-	$( python_gen_cond_dep '
+BDEPEND="$( python_gen_cond_dep '
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-mock[${PYTHON_USEDEP}]

@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library for WMS WebControl pro API"
-HOMEPAGE="https://github.com/mback2k/pywmspro https://pypi.org/project/pywmspro/"
+DESCRIPTION="Python async library for remote control of Sony Bravia TVs 2013 and newer."
+HOMEPAGE="https://github.com/Drafteed/pybravia https://pypi.org/project/pybravia/"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,8 +19,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/aiofiles-24.1.0[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.11.18[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	dev-python/yarl[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

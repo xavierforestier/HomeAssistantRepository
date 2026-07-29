@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*pylamarzocco-2.4.3 (28 Jul 2026)
+
+  28 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +pylamarzocco-2.4.3.ebuild:
+  app-misc/homeassistant 2026.7.4
+
 *pylamarzocco-2.4.2 (14 Jul 2026)
 
   14 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

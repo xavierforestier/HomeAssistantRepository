@@ -1,20 +1,46 @@
 #!/bin/bash
+
 ######
 # Author: Xavier FORESTIER
 # Source: https://github.com/xavierforestier/HomeAssistantRepository
 # Purpose: Generate gentoo ebuild for homeassistant
 #          Parse files requirement_all.txt, package_constraints.txt, and use eix to search for mathcing gentoo package
 ######
-eix-update
 
-# get target version
-if [ -z "$1" ];then
-    VERSION=$( curl -s https://api.github.com/repos/home-assistant/core/releases/latest | jq '.tag_name' | xargs -I {} echo {} )
-else
-    VERSION=$( curl -s "https://api.github.com/repos/home-assistant/core/releases/tags/${1/_beta/b}" | jq '.tag_name' | xargs -I {} echo {} )
-fi
+# parse parameters
+VERSION=$( curl -s https://api.github.com/repos/home-assistant/core/releases/latest | jq '.tag_name' | xargs -I {} echo {} )
+
+while [[ $# -gt 0 ]]; do
+  case $1 in
+    -h|--help)
+      echo -e "\e[1;34musage:\e[0;35m genebuild.sh [-h|--help] [-d|--delete] [-m|--metadata] [VERSION]\e[0m\n\ngenerate homeassistant ebuild\n"
+      echo -e "\e[1;34moptions:\e[0m"
+      echo -e "  \e[1;36m-h  --help\e[0m     display help and quit"
+      echo -e "  \e[1;36m-d  --delete\e[0m   remove existing ebuild"
+      echo -e "  \e[1;36m-m  --metadata\e[0m update metadata.xml"
+      echo "  [VERSION]      regen a given version (default is last one available in github)"
+      exit
+      ;;
+    -d|--delete)
+      DELETE_FIRST="X"
+      shift
+      ;;
+    -m|--metadata)
+      FETCH_METADATA="X"
+      shift
+      ;;
+    *)
+      VERSION=$( curl -s "https://api.github.com/repos/home-assistant/core/releases/tags/${1/_beta/b}" | jq '.tag_name' | xargs -I {} echo {} )
+      shift
+      ;;
+  esac
+done
+
+eix-update
 EBUILD=$( pwd | rev | cut -d/ -f1 | rev )-${VERSION/b/_beta}
 EBUILD_PATH=$( pwd )/$EBUILD.ebuild
+
+test -n "$DELETE_FIRST" && test -e "${EBUILD_PATH}" && rm "${EBUILD_PATH}"
 
 ######
 # Parse a requirement.txt single entry and write it in ebuild as requirement
@@ -178,33 +204,36 @@ else
 fi
 
 pushd "/var/tmp/portage/app-misc/${EBUILD}/work" || exit
+wget -q https://raw.githubusercontent.com/home-assistant/core/refs/tags/${VERSION}/homeassistant/package_constraints.txt
+wget -q https://raw.githubusercontent.com/home-assistant/core/refs/tags/${VERSION}/requirements_all.txt
 
 if [ -f "$patch" ]; then
-    patch -p1 < "$patch"
+  patch -p1 < "$patch"
 fi
 
 #gen metadata
 popd || exit
-echo "Generate metadata.xml..."
-sed -z 's/<use>.*/<use>/g' < metadata.xml > metadata.xml.pre
-mv metadata.xml.pre metadata.xml
-for f in $( find "/var/tmp/portage/app-misc/${EBUILD}/work/core-${VERSION/b/_beta}/homeassistant/components" | grep manifest.json | sort ); do
-  #component name
-  use_flag=$( echo "$f"| rev | cut -d/ -f2 | rev )
-  if grep -qn "^# homeassistant.components.${use_flag}$" "/var/tmp/portage/app-misc/${EBUILD}/work/core-${VERSION/b/_beta}/requirements_all.txt"; then
-    #get help page
-    if [ ! -f "/tmp/$use_flag.html" ]; then
-      wget -q -O "/tmp/$use_flag.html" "https://www.home-assistant.io/integrations/$use_flag/index.html"
+if [ -n "${FETCH_METADATA}" ]; then
+  echo "Generate metadata.xml..."
+  sed -z 's/<use>.*/<use>/g' < metadata.xml > metadata.xml.pre
+  mv metadata.xml.pre metadata.xml
+  for f in $( find "/var/tmp/portage/app-misc/${EBUILD}/work/homeassistant-${VERSION}/homeassistant/components" | grep manifest.json | sort ); do
+    #component name
+    use_flag=$( echo "$f"| rev | cut -d/ -f2 | rev )
+    if grep -qn "^# homeassistant.components.${use_flag}$" "/var/tmp/portage/app-misc/${EBUILD}/work/requirements_all.txt"; then
+      #get help page
+      if [ ! -f "/tmp/$use_flag.html" ]; then
+        wget -q -O "/tmp/$use_flag.html" "https://www.home-assistant.io/integrations/$use_flag/index.html"
+      fi
+      if [ -s "/tmp/$use_flag.html" ]; then
+        echo -ne "\r                                                                                          \r \e[0;32m*\e[0m Generate metadata.xml($use_flag)..."
+        #parse description Ignore anything before '<div class="page-content">' then before '</header>' until '</p>', cleanup html and carriage return
+        description=$( sed -z 's/.*<div class="page-content">//g' "/tmp/$use_flag.html" | sed -z 's/.*<\/header>//' | sed -z 's/<\/p>.*//' |sed -z 's/<span class="terminology-tooltip">.*<\/span>//g' | sed 's/<[^>]*>//g' | tr -d "\n" | xargs )
+        echo -ne "\n    <flag name=\"${use_flag//_/-}\">$description</flag>" >> metadata.xml
+      fi
     fi
-    if [ -s "/tmp/$use_flag.html" ]; then
-      echo -ne "\r                                                                                          \r \e[0;32m*\e[0m Generate metadata.xml($use_flag)..."
-      #parse description Ignore anything before '<div class="page-content">' then before '</header>' until '</p>', cleanup html and carriage return
-      description=$( sed -z 's/.*<div class="page-content">//g' "/tmp/$use_flag.html" | sed -z 's/.*<\/header>//' | sed -z 's/<\/p>.*//' |sed -z 's/<span class="terminology-tooltip">.*<\/span>//g' | sed 's/<[^>]*>//g' | tr -d "\n" | xargs )
-      echo -ne "\n    <flag name=\"${use_flag//_/-}\">$description</flag>" >> metadata.xml
-    fi
-  fi
-done
-cat >> metadata.xml << EOF
+  done
+  cat >> metadata.xml << EOF
     <flag name="bh1750">bh1750</flag>
     <flag name="blinkt">blinkt</flag>
     <flag name="bme280">bme280</flag>
@@ -220,6 +249,7 @@ cat >> metadata.xml << EOF
   </use>
 </pkgmetadata>
 EOF
+fi
 
 #Gen ebuild
 cat > "$EBUILD_PATH" << EOF
@@ -230,32 +260,16 @@ EAPI=8
 PYTHON_COMPAT=( python3_14 )
 DISTUTILS_SINGLE_IMPL=python3_14
 DISTUTILS_USE_PEP517=setuptools
-PYPI_NO_NORMALIZE=1
-PYPI_PN="homeassistant"
 inherit distutils-r1 pypi readme.gentoo-r1 systemd
 
-MY_PN=homeassistant
-
-if [[ \${PV} == *9999* ]]; then
-	inherit git-r3
-	EGIT_REPO_URI="https://github.com/home-assistant/core.git"
-	EGIT_BRANCH="dev"
-	S="\${WORKDIR}/homeassistant-full-9999/"
-else
-	MY_PV=\${PV/_beta/b}
-	MY_P=\${MY_PN}-\${MY_PV}
-	SRC_URI="\$(pypi_sdist_url homeassistant)
-	https://github.com/home-assistant/core/archive/\${MY_PV}.tar.gz -> \${MY_P}.gh.tar.gz"
-fi
-
 DESCRIPTION="Open-source home automation platform running on Python."
-HOMEPAGE="https://home-assistant.io/ https://github.com/xavierforestier/HomeAssistantRepository/"
+HOMEPAGE="https://home-assistant.io/ https://pypi.org/project/homeassistant https://github.com/home-assistant/core https://github.com/xavierforestier/HomeAssistantRepository"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 EOF
-echo -n "IUSE=\"bh1750 blinkt bme280 bme680 cli dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink " >> "$EBUILD_PATH"
+echo -n "IUSE=\"bh1750 blinkt bme280 bme680 cli dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink" >> "$EBUILD_PATH"
 
 grep "\<flag" "metadata.xml" | cut -d\" -f2 | while read -r u; do 
   case $u in
@@ -271,8 +285,7 @@ cat >> "$EBUILD_PATH" <<EOF
 RESTRICT="!test? ( test )"
 
 # external deps
-RDEPEND="\${PYTHON_DEPS} acct-group/\${MY_PN} acct-user/\${MY_PN}
-	dev-lang/python:3.14
+RDEPEND="\${PYTHON_DEPS} acct-group/\${PN} acct-user/\${PN}
 	app-admin/logrotate
 	dev-db/sqlite
 	dev-libs/libfastjson
@@ -282,7 +295,8 @@ REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 EOF
 echo -e "\n \e[0;32m*\e[0m Parsing main dependencies..."
 pushd "/var/tmp/portage/app-misc/${EBUILD}/work" || exit
-parse_constraints "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/core-${VERSION}/homeassistant/package_constraints.txt" 
+
+parse_constraints "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/package_constraints.txt" 
 echo -e "                                                                                          \r \e[0;32m*\e[0m Parsing main dependencies... \e[0;32mdone\e[0m                                    "
 cat >> "$EBUILD_PATH" <<EOF
 
@@ -306,7 +320,7 @@ RDEPEND="\${RDEPEND}
 	wink? ( ~dev-python/pubnubsub-handler-1.0.9 ~dev-python/python-wink-1.10.5 )
 EOF
 grep "IUSE=" "$EBUILD_PATH" | cut -d\" -f2 | tr ' ' '\n' | while read -r use; do
-  parse_use_flag_req "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/core-${VERSION/b/_beta}/requirements_all.txt" "${use/+/}"
+  parse_use_flag_req "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/requirements_all.txt" "${use/+/}"
 done
 echo "\"" >> "$EBUILD_PATH"
 echo -e "                                                                                          \r \e[0;32m*\e[0m Parsing use flag dependencies... \e[0;32mdone\e[0m                        "
@@ -342,24 +356,24 @@ BDEPEND="\${RDEPEND}
 "
 
 src_prepare() {
-	if use test ; then
-		cp --no-preserve=mode --recursive "\${WORKDIR}/core-\${MY_PV}/tests" "\${S}"
-		chmod u+x "\${S}/tests/auth/providers/test_command_line_cmd.sh"
-	fi
-	sed -E -i "s/regex==[^ ]*/regex/g" -i "homeassistant/package_constraints.txt" || die
-
+	# Dependencies with esphome is a nightmare, disable version check
+	sed -ie 's/"aioesphomeapi==/"aioesphomeapi>=/g' "\${WORKDIR}/\${P}/homeassistant/components/esphome/manifest.json"
+EOF
+grep "IUSE=" "$EBUILD_PATH" | cut -d\" -f2 | tr ' ' '\n' | while read -r use; do
+  test -d "/var/tmp/portage/app-misc/${EBUILD}/work/${EBUILD}/homeassistant/components/${use/+/}/" && echo "	use ${use/+/} || rm -r \"\${WORKDIR}/\${P}/homeassistant/components/${use/+/}/\"" >> "$EBUILD_PATH"
+done
+cat >> "$EBUILD_PATH" <<EOF
 	distutils-r1_src_prepare
 }
-INSTALL_DIR="/opt/\${MY_PN}"
+INSTALL_DIR="/opt/\${PN}"
 
 DISABLE_AUTOFORMATTING=1
 DOC_CONTENTS="
 The HA interface listens on port 8123
-hass configuration is in: /etc/\${MY_PN}
-daemon command line arguments are configured in: /etc/conf.d/\${MY_PN}
-logging is to: /var/log/\${MY_PN}/{server,errors,stdout}.log
-The sqlite db is by default in: /etc/\${MY_PN}
-support at https://git.edevau.net/onkelbeh/HomeAssistantRepository
+hass configuration is in: /etc/\${PN}
+daemon command line arguments are configured in: /etc/conf.d/\${PN}
+logging is to: /var/log/\${PN}/{server,errors,stdout}.log
+The sqlite db is by default in: /etc/\${PN}
 "
 
 DOCS="README.rst"
@@ -368,26 +382,26 @@ python_install_all() {
 	dodoc \${DOCS}
 	distutils-r1_python_install_all
 	keepdir "\$INSTALL_DIR"
-	keepdir "/etc/\${MY_PN}"
-	fowners -R "\${MY_PN}:\${MY_PN}" "/etc/\${MY_PN}"
-	keepdir "/var/log/\${MY_PN}"
-	fowners -R "\${MY_PN}:\${MY_PN}" "/var/log/\${MY_PN}"
-	newconfd "\${FILESDIR}/\${MY_PN}.conf.d" "\${MY_PN}"
-	newinitd "\${FILESDIR}/\${MY_PN}.init.d" "\${MY_PN}"
-	use systemd && systemd_dounit "\${FILESDIR}/\${MY_PN}.service"
+	keepdir "/etc/\${PN}"
+	fowners -R "\${PN}:\${PN}" "/etc/\${PN}"
+	keepdir "/var/log/\${PN}"
+	fowners -R "\${PN}:\${PN}" "/var/log/\${PN}"
+	newconfd "\${FILESDIR}/\${PN}.conf.d" "\${PN}"
+	newinitd "\${FILESDIR}/\${PN}.init.d" "\${PN}"
+	use systemd && systemd_dounit "\${FILESDIR}/\${PN}.service"
 	dobin "\${FILESDIR}/hasstest"
 	if use socat ; then
 		newinitd "\${FILESDIR}/socat-zwave.init.d" "socat-zwave"
-		sed -i -e 's/# need socat-zwave/need socat-zwave/g' "\${D}/etc/init.d/\${MY_PN}" || die
+		sed -i -e 's/# need socat-zwave/need socat-zwave/g' "\${D}/etc/init.d/\${PN}" || die
 	fi
 	if use mqtt ; then
-		sed -i -e 's/# need mosquitto/need mosquitto/g' "\${D}/etc/init.d/\${MY_PN}" || die
+		sed -i -e 's/# need mosquitto/need mosquitto/g' "\${D}/etc/init.d/\${PN}" || die
 	fi
 	if use cli ; then
-		echo -e "stop() {\n\tebegin Stoping homeassistant\n\thass-cli --token \\\${HASS_TOKEN} -s \\\${HASS_SERVER} service call homeassistant.stop\n\tsleep .5\n\tstart-stop-daemon -K \\\$command --pidfile \\\$pidfile\n\teend\n}" >> "\${D}/etc/init.d/\${MY_PN}"
+		echo -e "stop() {\n\tebegin Stoping homeassistant\n\thass-cli --token \\\${HASS_TOKEN} -s \\\${HASS_SERVER} service call homeassistant.stop\n\tsleep .5\n\tstart-stop-daemon -K \\\$command --pidfile \\\$pidfile\n\teend\n}" >> "\${D}/etc/init.d/\${PN}"
 	fi
 	insinto /etc/logrotate.d
-	newins "\${FILESDIR}/\${MY_PN}.logrotate" "\${MY_PN}"
+	newins "\${FILESDIR}/\${PN}.logrotate" "\${PN}"
 	readme.gentoo_create_doc
 }
 

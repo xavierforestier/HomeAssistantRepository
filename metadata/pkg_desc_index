@@ -12,7 +12,7 @@ app-crypt/acme 5.4.0: An implementation of the ACME protocol
 app-crypt/certbot 5.4.0: Let's Encrypt client to automate deployment of X.509 certificates
 app-misc/home-assistant-cli 1.0.0: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2026.7.2 2026.7.3 2026.7.4: Open-source home automation platform running on Python.
-app-misc/node-red 4.1.11 5.0.0 5.0.1: A visual tool for wiring the Internet of Things.
+app-misc/node-red 5.0.0 5.0.1 5.0.4: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.11.0 2.12.0 2.12.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-cpp/abseil-cpp 20260526.0: Abseil Common Libraries (C++), LTS Branch
 dev-embedded/esphome 2026.7.1 2026.7.2 2026.7.3: Make creating custom firmwares for ESP32/ESP8266 super easy.

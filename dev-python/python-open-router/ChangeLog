@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*python-open-router-0.4.0 (01 Aug 2026)
+
+  01 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +python-open-router-0.4.0.ebuild:
+  app-misc/homeassitant 2026.8.0_beta3
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   python-open-router-0.3.3.ebuild:
   Happy new year

@@ -17,9 +17,10 @@ KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	!dev-python/monarchmoney[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.8.4[${PYTHON_USEDEP}]
-	>=dev-python/gql-3.5[${PYTHON_USEDEP}]
-	>=dev-python/oathtool-2.3.1[${PYTHON_USEDEP}]
+	!dev-python/typedmonarchmoney[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.14.1[${PYTHON_USEDEP}]
+	>=dev-python/gql-4.0[${PYTHON_USEDEP}]
+	>=dev-python/oathtool-2.4.0[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

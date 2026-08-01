@@ -1,0 +1,13 @@
+--- a/pyproject.toml	2026-08-01 14:26:48.851471932 +0200
++++ b/pyproject.toml	2026-08-01 14:28:22.958959525 +0200
+@@ -89,10 +89,6 @@
+ [tool.hatch.version.raw-options]
+ fallback_version = "0.0.0"
+ 
+-[tool.hatch.build.hooks.vcs]
+-version-file = "src/_evohome/_version.py"
+-
+-
+ #
+ ### mypy #############################################################################
+ 

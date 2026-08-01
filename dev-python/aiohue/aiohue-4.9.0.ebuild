@@ -6,11 +6,10 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
+DESCRIPTION="Python module to talk to Philips Hue."
+HOMEPAGE="https://github.com/home-assistant-libs/aiohue https://pypi.org/project/aiohue/"
 
-DESCRIPTION="Monarch Money API for Python"
-HOMEPAGE="https://github.com/hammem/monarchmoney https://pypi.org/project/monarchmoney/"
-
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -19,15 +18,14 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	!dev-python/monarchmoneycommunity[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/gql[${PYTHON_USEDEP}]
-	dev-python/oathtool[${PYTHON_USEDEP}]
+	dev-python/asyncio-throttle[${PYTHON_USEDEP}]
+	dev-python/awesomeversion[${PYTHON_USEDEP}]
 "
-
-src_prepare() {
-	echo "aiohttp>=3.8.4" >> requirements.txt || die
-	eapply_user
-}
+BDEPEND="
+	test? (
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+	)"
 
 distutils_enable_tests pytest

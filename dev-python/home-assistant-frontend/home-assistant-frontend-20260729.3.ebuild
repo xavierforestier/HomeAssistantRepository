@@ -6,9 +6,13 @@ EAPI=8
 PYTHON_COMPAT=( python3_14 )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
-MY_PN=${PN//-/_}
-SRC_URI="https://github.com/home-assistant/frontend/releases/download/${PV}/${MY_PN}-${PV}.tar.gz -> ${P}-artifacts.gh.tar.gz"
-S="${WORKDIR}/${MY_PN}-${PV}"
+
+SRC_URI="
+	https://github.com/home-assistant/frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz
+	https://github.com/xavierforestier/home-assistant-frontend/raw/refs/heads/main/${P}-node_modules.tar.xz -> ${P}-node_modules.gh.tar.xz
+	https://github.com/xavierforestier/home-assistant-frontend/raw/refs/heads/main/${P}-translations.tar.xz -> ${P}-translations.gh.tar.xz
+"
+S="${WORKDIR}/frontend-${PV}"
 
 DESCRIPTION="The Home Assistant frontend"
 HOMEPAGE="https://github.com/home-assistant/frontend https://pypi.org/project/home-assistant-frontend/"
@@ -19,4 +23,23 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 DOCS="README.md"
-RDEPEND="=dev-python/user-agents-2.0-r2[${PYTHON_USEDEP}]"
+RDEPEND="
+	sys-apps/yarn
+	net-libs/nodejs[npm]
+	=dev-python/user-agents-2.0-r2[${PYTHON_USEDEP}]
+"
+
+python_compile() {
+	yarn build
+	distutils-r1_python_compile
+}
+
+src_test() {
+	yarn test
+	python_test_all
+}
+
+python_install() {
+	distutils-r1_python_install
+	#cp -R "${S}/hass_frontend" "${D}/"
+}

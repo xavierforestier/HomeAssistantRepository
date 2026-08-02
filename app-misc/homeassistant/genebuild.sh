@@ -357,10 +357,10 @@ BDEPEND="\${RDEPEND}
 
 src_prepare() {
 	# Dependencies with esphome is a nightmare, disable version check
-	sed -ie 's/"aioesphomeapi==/"aioesphomeapi>=/g' "\${WORKDIR}/\${P}/homeassistant/components/esphome/manifest.json"
+	sed -ie 's/"aioesphomeapi==/"aioesphomeapi>=/g' "\${WORKDIR}/\${P/_beta/b}/homeassistant/components/esphome/manifest.json"
 EOF
 grep "IUSE=" "$EBUILD_PATH" | cut -d\" -f2 | tr ' ' '\n' | while read -r use; do
-  test -d "/var/tmp/portage/app-misc/${EBUILD}/work/${EBUILD}/homeassistant/components/${use/+/}/" && echo "	use ${use/+/} || rm -r \"\${WORKDIR}/\${P}/homeassistant/components/${use/+/}/\"" >> "$EBUILD_PATH"
+  test -d "/var/tmp/portage/app-misc/${EBUILD}/work/${EBUILD/_beta/b}/homeassistant/components/${use/+/}/" && echo "	use ${use/+/} || rm -r \"\${WORKDIR}/\${P}/homeassistant/components/${use/+/}/\"" >> "$EBUILD_PATH"
 done
 cat >> "$EBUILD_PATH" <<EOF
 	distutils-r1_src_prepare

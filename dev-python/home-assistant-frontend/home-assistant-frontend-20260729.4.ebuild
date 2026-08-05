@@ -16,6 +16,11 @@ S="${WORKDIR}/frontend-${PV}"
 
 DESCRIPTION="The Home Assistant frontend"
 HOMEPAGE="https://github.com/home-assistant/frontend https://pypi.org/project/home-assistant-frontend/"
+PATCHES=(
+	"${FILESDIR}/${PN}-disable-age-check.patch"
+	"${FILESDIR}/${PN}-cover-positions.patch"
+	"${FILESDIR}/${PN}-faster-compress.patch"
+)
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -34,12 +39,7 @@ python_compile() {
 	distutils-r1_python_compile
 }
 
-src_test() {
+python_test() {
 	yarn test
-	python_test_all
-}
-
-python_install() {
-	distutils-r1_python_install
-	#cp -R "${S}/hass_frontend" "${D}/"
+	distutils-r1_python_test
 }

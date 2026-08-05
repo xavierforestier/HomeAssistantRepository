@@ -24,7 +24,7 @@ RDEPEND="${PYTHON_DEPS} acct-group/${PN} acct-user/${PN}
 	dev-libs/xerces-c"
 REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 	homekit-controller? ( bluetooth )"
-# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.8.0_beta3/work/package_constraints.txt
+# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.8.0_beta5/work/package_constraints.txt
 RDEPEND="${RDEPEND}
 
 	~dev-python/aiodhcpwatcher-1.2.7
@@ -64,9 +64,9 @@ RDEPEND="${RDEPEND}
 	~dev-python/ha-ffmpeg-3.2.2
 	~dev-python/habluetooth-6.26.5
 	~dev-python/hass-nabucasa-2.2.0
-	~dev-python/hassil-3.10.0
+	~dev-python/hassil-3.11.0
 	~dev-python/home-assistant-bluetooth-2.0.0
-	~dev-python/home-assistant-frontend-20260729.3
+	~dev-python/home-assistant-frontend-20260729.4
 	~dev-python/home-assistant-intents-2026.7.30
 	~dev-python/httpx-0.28.1
 	~dev-python/ifaddr-0.2.0
@@ -211,7 +211,7 @@ RDEPEND="${RDEPEND}
 	androidtv-remote? ( ~dev-python/androidtvremote2-0.3.1 )
 	anel-pwrctrl? ( ~dev-python/anel-pwrctrl-homeassistant-0.0.1 )
 	anglian-water? ( ~dev-python/pyanglianwater-3.2.4 )
-	anova? ( ~dev-python/anova-wifi-0.17.1 )
+	anova? ( ~dev-python/anova-wifi-1.0.1 )
 	anthemav? ( ~dev-python/anthemav-1.4.2 )
 	anthropic? ( ~dev-python/anthropic-0.108.0 )
 	aosmith? ( ~dev-python/py-aosmith-1.0.18 )
@@ -234,7 +234,7 @@ RDEPEND="${RDEPEND}
 	arwn? ( ~dev-python/arwn-client-0.2.1 )
 	aseko-pool-live? ( ~dev-python/aioaseko-1.0.0 )
 	assist-pipeline? ( ~dev-python/pymicro-vad-1.0.1 ~dev-python/pyspeex-noise-1.0.2 )
-	assist-satellite? ( ~dev-python/hassil-3.10.0 )
+	assist-satellite? ( ~dev-python/hassil-3.11.0 )
 	asuswrt? ( ~dev-python/aioasuswrt-1.5.4 ~dev-python/asusrouter-1.21.3 )
 	atag? ( ~dev-python/pyatag-0.3.5.3 )
 	atome? ( ~dev-python/pyatome-0.1.2 )
@@ -317,7 +317,7 @@ RDEPEND="${RDEPEND}
 	compit? ( ~dev-python/compit-inext-api-0.9.1 )
 	concord232? ( ~dev-python/concord232-0.15.1 )
 	control4? ( ~dev-python/pycontrol4-2.0.2 )
-	conversation? ( ~dev-python/hassil-3.10.0 ~dev-python/home-assistant-intents-2026.7.30 )
+	conversation? ( ~dev-python/hassil-3.11.0 ~dev-python/home-assistant-intents-2026.7.30 )
 	cookidoo? ( ~dev-python/cookidoo-api-0.17.2 )
 	coolmaster? ( ~dev-python/pycoolmasternet-async-0.2.4 )
 	cppm-tracker? ( ~dev-python/clearpasspy-1.0.2 )
@@ -379,7 +379,7 @@ RDEPEND="${RDEPEND}
 	efergy? ( ~dev-python/pyefergy-22.5.0 )
 	egardia? ( ~dev-python/pythonegardia-1.0.52 )
 	egauge? ( ~dev-python/egauge-async-0.4.0 )
-	eheimdigital? ( ~dev-python/eheimdigital-1.7.0 )
+	eheimdigital? ( ~dev-python/eheimdigital-1.7.1 )
 	ekeybionyx? ( ~dev-python/ekey-bionyxpy-1.0.1 )
 	electrasmart? ( ~dev-python/pyelectra-1.2.4 )
 	electric-kiwi? ( ~dev-python/electrickiwi-api-0.9.14 )
@@ -412,7 +412,7 @@ RDEPEND="${RDEPEND}
 	epson? ( ~dev-python/epson-projector-0.6.0 )
 	eq3btsmart? ( ~dev-python/eq3btsmart-2.3.0 )
 	escea? ( ~dev-python/pescea-1.0.12 )
-	esphome? ( >=dev-python/aioesphomeapi-45.6.1 ~dev-python/bleak-esphome-3.9.7 ~dev-python/esphome-dashboard-api-1.3.0 )
+	esphome? ( >=dev-python/aioesphomeapi-45.6.1 ~dev-python/bleak-esphome-3.9.7 ~dev-python/esphome-dashboard-api-1.4.0 )
 	essent? ( ~dev-python/essent-dynamic-pricing-0.3.1 )
 	etherscan? ( ~dev-python/python-etherscan-api-0.0.3 )
 	eufylife-ble? ( ~dev-python/eufylife-ble-client-0.1.10 )
@@ -463,7 +463,7 @@ RDEPEND="${RDEPEND}
 	fritzbox? ( ~dev-python/pyfritzhome-0.6.20 )
 	fritz? ( ~dev-python/fritzconnection-1.15.1[qrcode] ~dev-python/xmltodict-1.0.4 )
 	fronius? ( ~dev-python/pyfronius-0.8.2 )
-	frontend? ( ~dev-python/home-assistant-frontend-20260729.3 )
+	frontend? ( ~dev-python/home-assistant-frontend-20260729.4 )
 	frontier-silicon? ( ~dev-python/afsapi-1.0.2 )
 	fujitsu-fglair? ( ~dev-python/ayla-iot-unofficial-1.4.7 )
 	fully-kiosk? ( ~dev-python/python-fullykiosk-0.0.15 )
@@ -539,13 +539,13 @@ RDEPEND="${RDEPEND}
 	holiday? ( ~dev-python/babel-2.18.0 ~dev-python/holidays-0.101 )
 	homeassistant-hardware? ( ~dev-python/ha-silabs-firmware-client-0.3.0 ~dev-python/universal-silabs-flasher-1.1.0 )
 	home-connect? ( ~dev-python/aiohomeconnect-0.38.0 )
-	homee? ( ~dev-python/pyhomee-1.4.2 )
+	homee? ( ~dev-python/pyhomee-1.4.3 )
 	homekit-controller? ( ~dev-python/aiohomekit-4.0.0 )
 	homekit? ( ~dev-python/hap-python-5.0.0 ~dev-python/pyqrcode-1.2.1 ~dev-python/base36-0.1.1 ~dev-python/fnv-hash-fast-2.0.3 ~dev-python/homekit-audio-proxy-1.2.1 )
 	homematicip-cloud? ( ~dev-python/homematicip-2.13.4 )
 	homematic? ( ~dev-python/pyhomematic-0.1.78 )
 	homevolt? ( ~dev-python/homevolt-0.5.0 )
-	homewizard? ( ~dev-python/python-homewizard-energy-10.1.0 )
+	homewizard? ( ~dev-python/python-homewizard-energy-10.2.0 )
 	homeworks? ( ~dev-python/pyhomeworks-1.1.2 )
 	honeywell? ( ~dev-python/aiosomecomfort-0.0.38 )
 	horizon? ( ~dev-python/horimote-0.4.1 )
@@ -591,7 +591,7 @@ RDEPEND="${RDEPEND}
 	infrared? ( ~dev-python/infrared-protocols-8.2.1 )
 	inkbird? ( ~dev-python/inkbird-ble-1.4.4 )
 	insteon? ( ~dev-python/insteon-frontend-home-assistant-0.6.2 ~dev-python/pyinsteon-1.6.4 )
-	intelliclima? ( ~dev-python/pyintelliclima-0.3.1 )
+	intelliclima? ( ~dev-python/pyintelliclima-0.4.0 )
 	intellifire? ( ~dev-python/intellifire4py-4.5.0 )
 	intesishome? ( ~dev-python/pyintesishome-2.0.3 )
 	iometer? ( ~dev-python/iometer-1.0.2 )
@@ -614,7 +614,7 @@ RDEPEND="${RDEPEND}
 	itach? ( ~dev-python/pyitachip2ir2-0.0.8 )
 	ituran? ( ~dev-python/pyituran-0.1.6 )
 	izone? ( ~dev-python/python-izone-1.3.9 )
-	jellyfin? ( ~dev-python/jellyfin-apiclient-python-1.11.0 )
+	jellyfin? ( ~dev-python/jellyfin-apiclient-python-1.16.0 )
 	jewish-calendar? ( ~dev-python/hdate-1.2.1[astral] )
 	joaoapps-join? ( ~dev-python/python-join-api-0.1.1 )
 	justnimbus? ( ~dev-python/justnimbus-0.7.4 )
@@ -632,7 +632,7 @@ RDEPEND="${RDEPEND}
 	kiwi? ( ~dev-python/kiwiki-client-0.1.2 )
 	kmtronic? ( ~dev-python/pykmtronic-0.3.0 )
 	knocki? ( ~dev-python/knocki-0.4.2 )
-	knx? ( ~dev-python/knx-frontend-2026.7.23.145751 ~dev-python/knx-telegram-store-0.11.1[sqlite,postgres] ~dev-python/xknx-3.17.0 ~dev-python/xknxproject-3.9.0 )
+	knx? ( ~dev-python/knx-frontend-2026.8.2.133643 ~dev-python/knx-telegram-store-0.11.2[sqlite,postgres] ~dev-python/xknx-3.18.0 ~dev-python/xknxproject-3.10.0 )
 	kodi? ( ~dev-python/pykodi-0.2.7 )
 	kostal-plenticore? ( ~dev-python/pykoplenti-1.5.0 )
 	kraken? ( ~dev-python/krakenex-2.2.2 ~dev-python/pykrakenapi-0.1.9 )
@@ -753,7 +753,7 @@ RDEPEND="${RDEPEND}
 	nederlandse-spoorwegen? ( ~dev-python/nsapi-3.1.3 )
 	ness-alarm? ( ~dev-python/nessclient-1.3.1 )
 	nest? ( ~dev-python/google-nest-sdm-9.1.2 )
-	netatmo? ( ~dev-python/pyatmo-9.5.0 )
+	netatmo? ( ~dev-python/pyatmo-9.6.0 )
 	netdata? ( ~dev-python/netdata-1.3.0 )
 	netgear-lte? ( ~dev-python/eternalegypt-0.0.18 )
 	netgear? ( ~dev-python/pynetgear-0.10.10 )
@@ -771,7 +771,7 @@ RDEPEND="${RDEPEND}
 	niko-home-control? ( ~dev-python/nhc-0.8.0 )
 	nilu? ( ~dev-python/niluclient-0.1.2 )
 	nina? ( ~dev-python/pynina-1.0.2 )
-	nintendo-parental-controls? ( ~dev-python/pynintendoauth-1.0.2 ~dev-python/pynintendoparental-2.4.0.1 )
+	nintendo-parental-controls? ( ~dev-python/pynintendoauth-1.0.3 ~dev-python/pynintendoparental-2.5.0 )
 	nissan-leaf? ( ~dev-python/pycarwings2-2.14 )
 	nmap-tracker? ( ~dev-python/aiooui-0.1.9 ~dev-python/getmac-0.9.5 ~dev-python/netmap-0.7.0.2 )
 	nmbs? ( ~dev-python/pyrail-0.4.1 )
@@ -810,7 +810,7 @@ RDEPEND="${RDEPEND}
 	onkyo? ( ~dev-python/aioonkyo-0.4.0 )
 	onvif? ( ~dev-python/wsdiscovery-2.1.2 ~dev-python/onvif-zeep-async-4.2.1 ~dev-python/onvif-parsers-2.3.0 )
 	openai-conversation? ( ~dev-python/openai-2.45.0 )
-	opendisplay? ( ~dev-python/py-opendisplay-7.2.3 )
+	opendisplay? ( ~dev-python/py-opendisplay-7.15.0 )
 	openerz? ( ~dev-python/openerz-api-0.3.0 )
 	openevse? ( ~dev-python/python-openevse-http-1.0.1 )
 	openexchangerates? ( ~dev-python/aioopenexchangerates-0.6.8 )
@@ -930,7 +930,7 @@ RDEPEND="${RDEPEND}
 	remote-rpi-gpio? ( ~dev-python/gpiozero-1.6.2 ~dev-python/pigpio-1.78 )
 	renault? ( ~dev-python/renault-api-0.5.12 )
 	renson? ( ~dev-python/renson-endura-delta-1.7.2 )
-	reolink? ( ~dev-python/reolink-aio-0.21.7 )
+	reolink? ( ~dev-python/reolink-aio-0.21.8 )
 	repetier? ( ~dev-python/pyrepetierng-0.1.0 )
 	rest? ( ~dev-python/jsonpath-python-1.1.6 ~dev-python/xmltodict-1.0.4 )
 	rflink? ( ~dev-python/rflink-0.0.68 )
@@ -1019,7 +1019,7 @@ RDEPEND="${RDEPEND}
 	snoo? ( ~dev-python/python-snoo-0.8.3 )
 	snooz? ( ~dev-python/pysnooz-0.8.6 )
 	solaredge-local? ( ~dev-python/solaredge-local-0.2.3 )
-	solaredge? ( ~dev-python/aiosolaredge-1.0.2 ~dev-python/solaredge-web-0.0.1 )
+	solaredge? ( ~dev-python/aiosolaredge-1.0.2 ~dev-python/solaredge-web-0.3.0 )
 	solarlog? ( ~dev-python/solarlog-cli-0.7.1 )
 	solarman? ( ~dev-python/solarman-opendata-0.0.3 )
 	solax? ( ~dev-python/solax-3.2.4 )
@@ -1128,7 +1128,7 @@ RDEPEND="${RDEPEND}
 	triggercmd? ( ~dev-python/triggercmd-0.0.36 )
 	trmnl? ( ~dev-python/trmnl-0.1.1 )
 	tts? ( ~media-libs/mutagen-1.48.1 )
-	tuya? ( ~dev-python/tuya-device-handlers-0.0.26 ~dev-python/tuya-device-sharing-sdk-0.2.10 )
+	tuya? ( ~dev-python/tuya-device-handlers-0.0.26 ~dev-python/tuya-device-sharing-sdk-0.2.14 )
 	twentemilieu? ( ~dev-python/twentemilieu-3.0.0 )
 	twilio? ( ~dev-python/twilio-6.32.0 )
 	twinkly? ( ~dev-python/ttls-1.8.3 )
@@ -1195,13 +1195,13 @@ RDEPEND="${RDEPEND}
 	weatherkit? ( ~dev-python/apple-weatherkit-1.1.3 )
 	webdav? ( ~dev-python/aiowebdav2-0.6.2 )
 	webmin? ( ~dev-python/webmin-xmlrpc-0.0.2 )
-	webostv? ( ~dev-python/aiowebostv-0.8.0 )
+	webostv? ( ~dev-python/aiowebostv-0.9.0 )
 	weheat? ( ~dev-python/weheat-2026.4.8 )
 	wemo? ( ~dev-python/pywemo-1.4.0 )
 	whirlpool? ( ~dev-python/whirlpool-sixth-sense-1.3.1 )
 	whois? ( ~dev-python/whois-0.9.27 )
 	wiffi? ( ~dev-python/wiffi-1.1.2 )
-	wiim? ( ~dev-python/wiim-0.1.5 )
+	wiim? ( ~dev-python/wiim-0.1.6 )
 	wilight? ( ~dev-python/pywilight-0.0.74 )
 	wirelesstag? ( ~dev-python/wirelesstagpy-0.8.1 )
 	withings? ( ~dev-python/aiowithings-3.1.6 )

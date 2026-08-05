@@ -1,0 +1,28 @@
+--- a/build-scripts/gulp/fetch-nightly-translations.js	2026-08-03 06:50:10.010529634 +0200
++++ b/build-scripts/gulp/fetch-nightly-translations.js	2026-08-03 06:51:18.501071786 +0200
+@@ -11,7 +11,6 @@
+ import process from "process";
+ import { extract } from "tar";
+ 
+-const MAX_AGE = 24; // hours
+ const OWNER = "home-assistant";
+ const REPO = "frontend";
+ const WORKFLOW_NAME = "nightly.yaml";
+@@ -39,15 +38,8 @@
+   let currentArtifact;
+   try {
+     currentArtifact = JSON.parse(await readFile(ARTIFACT_FILE, "utf-8"));
+-    const currentAge =
+-      (Date.now() - Date.parse(currentArtifact.created_at)) / 3600000;
+-    if (currentAge < MAX_AGE) {
+-      console.log(
+-        "Keeping current translations (only %s hours old)",
+-        currentAge.toFixed(1)
+-      );
+-      return;
+-    }
++    const currentAge = (Date.now() - Date.parse(currentArtifact.created_at)) / 3600000;
++    return;
+   } catch {
+     currentArtifact = null;
+   }

@@ -2,13 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
-*home-assistant-frontend-20260729.4 (05 Aug 2026)
+*home-assistant-frontend-20260729.4 (06 Aug 2026)
 
-  05 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  06 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   +files/home-assistant-frontend-cover-positions.patch,
   +files/home-assistant-frontend-disable-age-check.patch,
   +files/home-assistant-frontend-faster-compress.patch,
-  home-assistant-frontend-20260729.3.ebuild,
+  -home-assistant-frontend-20260729.3.ebuild,
   +home-assistant-frontend-20260729.4.ebuild:
   app-misc/homeassistant 2026.8.0_beta5
 

@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*knx-telegram-store-0.11.2 (06 Aug 2026)
+
+  06 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -knx-telegram-store-0.11.1.ebuild, +knx-telegram-store-0.11.2.ebuild:
+  app-misc/homeassistant 2026.8.0_beta5
+
 *knx-telegram-store-0.11.1 (01 Aug 2026)
 
   01 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

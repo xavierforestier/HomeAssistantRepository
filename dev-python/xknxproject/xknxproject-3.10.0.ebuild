@@ -7,10 +7,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="The Home Assistant Intent Language parser"
-HOMEPAGE="http://github.com/home-assistant/hassil https://pypi.org/project/hassil/"
+DESCRIPTION="A library to gather information from ETS project files used for KNX"
+HOMEPAGE="https://github.com/XKNX/xknxproject https://pypi.org/project/xknxproject/"
 
-LICENSE="Apache-2.0"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
@@ -18,9 +18,7 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="
-	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	>=dev-python/unicode-rbnf-2.3[${PYTHON_USEDEP}]
-"
+RDEPEND=">=dev-python/pyzipper-0.3.6[${PYTHON_USEDEP}]
+	>=dev-python/striprtf-0.0.26[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

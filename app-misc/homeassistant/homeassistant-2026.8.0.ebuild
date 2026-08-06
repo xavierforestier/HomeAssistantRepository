@@ -24,7 +24,7 @@ RDEPEND="${PYTHON_DEPS} acct-group/${PN} acct-user/${PN}
 	dev-libs/xerces-c"
 REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 	homekit-controller? ( bluetooth )"
-# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.8.0_beta5/work/package_constraints.txt
+# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.8.0/work/package_constraints.txt
 RDEPEND="${RDEPEND}
 
 	~dev-python/aiodhcpwatcher-1.2.7
@@ -66,7 +66,7 @@ RDEPEND="${RDEPEND}
 	~dev-python/hass-nabucasa-2.2.0
 	~dev-python/hassil-3.11.0
 	~dev-python/home-assistant-bluetooth-2.0.0
-	~dev-python/home-assistant-frontend-20260729.4
+	~dev-python/home-assistant-frontend-20260729.5
 	~dev-python/home-assistant-intents-2026.7.30
 	~dev-python/httpx-0.28.1
 	~dev-python/ifaddr-0.2.0
@@ -463,7 +463,7 @@ RDEPEND="${RDEPEND}
 	fritzbox? ( ~dev-python/pyfritzhome-0.6.20 )
 	fritz? ( ~dev-python/fritzconnection-1.15.1[qrcode] ~dev-python/xmltodict-1.0.4 )
 	fronius? ( ~dev-python/pyfronius-0.8.2 )
-	frontend? ( ~dev-python/home-assistant-frontend-20260729.4 )
+	frontend? ( ~dev-python/home-assistant-frontend-20260729.5 )
 	frontier-silicon? ( ~dev-python/afsapi-1.0.2 )
 	fujitsu-fglair? ( ~dev-python/ayla-iot-unofficial-1.4.7 )
 	fully-kiosk? ( ~dev-python/python-fullykiosk-0.0.15 )

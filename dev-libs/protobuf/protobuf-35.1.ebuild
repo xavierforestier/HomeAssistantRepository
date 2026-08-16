@@ -129,8 +129,8 @@ src_compile() {
 # we override here to inject env vars
 multilib_src_test() {
 	local -x TEST_TMPDIR="${T%/}/TEST_TMPDIR_${ABI}"
-	mkdir -p -m 770 "${TEST_TMPDIR}" || die
-
+	mkdir -p "${TEST_TMPDIR}" || die
+	chmod 770 "${TEST_TMPDIR}" || die
 	if use conformance; then
 		# needed to fix CommandLineInterfaceTest.DescriptorSetOptionRetention failures
 		cp "${S}/src/google/protobuf/descriptor.proto" "${BUILD_DIR}/src/google/protobuf/" || die

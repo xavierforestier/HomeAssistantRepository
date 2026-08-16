@@ -1,0 +1,18 @@
+--- a/node_modules/zigbee-herdsman/dist/adapter/z-stack/adapter/zStackAdapter.js	2026-08-11 19:23:14.406597852 +0200
++++ b/node_modules/zigbee-herdsman/dist/adapter/z-stack/adapter/zStackAdapter.js	2026-08-11 19:24:50.150653080 +0200
+@@ -116,7 +116,7 @@
+         }
+         // Old firmware did not support version, assume it's Z-Stack 1.2 for now.
+         try {
+-            this.version = (await this.znp.requestWithReply(Subsystem.SYS, "version", {})).payload;
++            this.version = (await this.znp.requestWithReply(Subsystem.SYS, "version", {}, undefined, 15000)).payload;
+         }
+         catch {
+             logger_1.logger.debug("Failed to get zStack version, assuming 1.2", NS);
+@@ -905,4 +905,4 @@
+     }
+ }
+ exports.ZStackAdapter = ZStackAdapter;
+-//# sourceMappingURL=zStackAdapter.js.map
+\ Pas de fin de ligne à la fin du fichier
++//# sourceMappingURL=zStackAdapter.js.map

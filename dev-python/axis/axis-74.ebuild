@@ -19,7 +19,7 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.14.1[${PYTHON_USEDEP}]
-	>=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}]
+	|| ( dev-python/chardet[${PYTHON_USEDEP}] dev-python/charset-normalizer[${PYTHON_USEDEP}] )
 	>=dev-python/orjson-3.11.9[${PYTHON_USEDEP}]
 	>=dev-python/packaging-26.2[${PYTHON_USEDEP}]
 	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]

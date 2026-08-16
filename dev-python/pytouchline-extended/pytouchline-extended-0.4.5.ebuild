@@ -17,7 +17,7 @@ KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	dev-python/httplib2[${PYTHON_USEDEP}]
-	|| ( dev-python/cchardet[${PYTHON_USEDEP}] dev-python/faust-cchardet[${PYTHON_USEDEP}] )
+	|| ( dev-python/chardet[${PYTHON_USEDEP}] dev-python/charset-normalizer[${PYTHON_USEDEP}] )
 "
 
 distutils_enable_tests pytest

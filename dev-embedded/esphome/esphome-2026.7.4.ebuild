@@ -23,7 +23,7 @@ RDEPEND="$( python_gen_cond_dep '
 	server? (
 		dev-embedded/esphome-device-builder[${PYTHON_USEDEP}]
 	)
-	>=dev-python/cryptography-49.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-48.0.1[${PYTHON_USEDEP}]
 	~dev-python/voluptuous-0.16.0[${PYTHON_USEDEP}]
 	>=dev-python/pyyaml-6.0.3[${PYTHON_USEDEP}]
 	>=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}]

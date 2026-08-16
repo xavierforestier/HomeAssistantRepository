@@ -145,7 +145,7 @@ multilib_src_test() {
 	[[ -n ${GTEST_RUN_TESTS[*]} ]] && GTEST_FILTER+="$(IFS=':' ; echo "${GTEST_RUN_TESTS[*]}")"
 	[[ -n ${GTEST_SKIP_TESTS[*]} ]] && GTEST_FILTER+="${GTEST_FILTER+:}-$(IFS=':' ; echo "${GTEST_SKIP_TESTS[*]}")"
 
-	cmake_src_test "${_cmake_args[@]}"
+	cmake_src_test 
 }
 
 src_test() {

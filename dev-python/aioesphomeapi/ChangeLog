@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  17 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioesphomeapi-45.3.1.ebuild:
+  app-misc/homeassistant 2026.8.2
+
   06 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -aioesphomeapi-45.6.2.ebuild:
   dev-embedded/esphome 2026.7.4

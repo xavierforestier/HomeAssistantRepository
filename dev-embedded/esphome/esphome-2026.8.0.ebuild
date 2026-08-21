@@ -31,29 +31,29 @@ RDEPEND="$( python_gen_cond_dep '
 	>=dev-python/tzlocal-5.4.4[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2026.2[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	~dev-embedded/platformio-6.1.19[${PYTHON_SINGLE_USEDEP}]
+	~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
 	~dev-embedded/esptool-5.3.1[${PYTHON_SINGLE_USEDEP}]
 	>=dev-python/click-8.3.3[${PYTHON_USEDEP}]
-	>=dev-python/aioesphomeapi-45.7.0[${PYTHON_USEDEP}]
+	>=dev-python/aioesphomeapi-45.10.3[${PYTHON_USEDEP}]
+	>=dev-python/aiohappyeyeballs-2.7.1[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.150.0[${PYTHON_USEDEP}]
 	~dev-python/puremagic-2.2.0[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-0.19.1[${PYTHON_USEDEP}]
 	~dev-python/ruamel-yaml-clib-0.2.15[${PYTHON_USEDEP}]
 	~dev-python/esphome-glyphsets-0.2.0[${PYTHON_USEDEP}]
-	>=dev-python/pillow-12.0.0[${PYTHON_USEDEP}]
-	~dev-python/resvg-py-0.3.3[${PYTHON_USEDEP}]
+	>=dev-python/pillow-12.3.0[${PYTHON_USEDEP}]
+	~dev-python/resvg-py-0.3.4[${PYTHON_USEDEP}]
 	~dev-python/freetype-py-2.5.1[${PYTHON_USEDEP}]
 	~dev-python/jinja2-3.1.6[${PYTHON_USEDEP}]
 	>=dev-python/bleak-2.1.1[${PYTHON_USEDEP}]
 	>=dev-python/smpclient-7.2.0[${PYTHON_USEDEP}]
 	~dev-python/requests-2.34.2[${PYTHON_USEDEP}]
 	>=dev-python/py7zr-1.1.3[${PYTHON_USEDEP}]
-	>=dev-python/platformdirs-4.10.0[${PYTHON_USEDEP}]
-	>=dev-python/filelock-3.29.0[${PYTHON_USEDEP}]
+	>=dev-python/platformdirs-4.11.1[${PYTHON_USEDEP}]
+	>=dev-python/filelock-3.32.2[${PYTHON_USEDEP}]
 	>=dev-python/pyparsing-3.3.2[${PYTHON_USEDEP}]
-	>=dev-python/argcomplete-3.7.0[${PYTHON_USEDEP}]
-	' )
-"
+	>=dev-python/argcomplete-3.7.2[${PYTHON_USEDEP}]
+' )"
 
 BDEPEND="$( python_gen_cond_dep '
 	test? (

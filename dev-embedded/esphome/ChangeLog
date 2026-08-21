@@ -2,6 +2,13 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*esphome-2026.8.0 (20 Aug 2026)
+
+  20 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -esphome-2026.7.2.ebuild, esphome-2026.7.3.ebuild, esphome-2026.7.4.ebuild,
+  +esphome-2026.8.0.ebuild:
+  2026.8.0
+
   15 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   esphome-2026.7.4.ebuild:
   Mask wrong nodejs version

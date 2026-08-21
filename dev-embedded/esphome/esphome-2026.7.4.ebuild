@@ -31,7 +31,7 @@ RDEPEND="$( python_gen_cond_dep '
 	>=dev-python/tzlocal-5.4.4[${PYTHON_USEDEP}]
 	>=dev-python/tzdata-2026.2[${PYTHON_USEDEP}]
 	~dev-python/pyserial-3.5[${PYTHON_USEDEP}]
-	~dev-embedded/platformio-6.1.19[${PYTHON_SINGLE_USEDEP}]
+	~dev-embedded/platformio-6.1.19[${PYTHON_USEDEP}]
 	~dev-embedded/esptool-5.3.1[${PYTHON_SINGLE_USEDEP}]
 	>=dev-python/click-8.3.3[${PYTHON_USEDEP}]
 	>=dev-python/aioesphomeapi-45.7.0[${PYTHON_USEDEP}]

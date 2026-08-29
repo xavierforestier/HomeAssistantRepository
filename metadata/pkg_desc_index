@@ -15,7 +15,7 @@ app-misc/homeassistant 2026.8.1 2026.8.2 2026.8.3: Open-source home automation p
 app-misc/node-red 5.0.0 5.0.1 5.0.4: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.12.0 2.12.1 2.13.0: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-cpp/abseil-cpp 20260526.0: Abseil Common Libraries (C++), LTS Branch
-dev-embedded/esphome 2026.7.3 2026.7.4 2026.8.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.7.4 2026.8.0 2026.8.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0 20260408.1 20260425.0: ESPHome dashboard
 dev-embedded/esphome-device-builder 1.6.2: ESPHome Device Builder Dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0 5.3.1: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32

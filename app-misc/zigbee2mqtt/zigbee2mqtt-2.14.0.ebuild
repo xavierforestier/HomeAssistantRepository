@@ -3,24 +3,21 @@
 
 EAPI=8
 
-if [[ ${PV} == *9999* ]]; then
-	EGIT_REPO_URI="https://github.com/Koenkk/zigbee2mqtt"
-	EGIT_BRANCH="dev"
-	inherit git-r3
-else
-	SRC_URI="https://github.com/Koenkk/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz https://github.com/xavierforestier/${PN}/releases/download/v${PV}/${P}-nodes_modules.tar.xz"
-fi
-
 inherit nodejs-mod systemd tmpfiles
 
 DESCRIPTION="It bridges events and allows you to control your Zigbee devices via MQTT"
 HOMEPAGE="https://www.zigbee2mqtt.io/ https://github.com/Koenkk/zigbee2mqtt"
+SRC_URI="
+	https://github.com/Koenkk/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz
+	https://github.com/xavierforestier/${PN}/releases/download/v${PV}/${P}-nodes_modules.tar.xz
+"
 
 LICENSE="0BSD Apache-2.0 BSD-2 CC-BY-4.0 GPL-3 ISC MIT PYTHON"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
+	<net-libs/nodejs-26.5
 	acct-group/zigbee2mqtt
 	acct-user/zigbee2mqtt
 	app-misc/mosquitto

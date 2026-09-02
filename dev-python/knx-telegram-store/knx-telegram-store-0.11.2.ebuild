@@ -17,8 +17,8 @@ KEYWORDS="amd64 arm ar64 x86"
 IUSE="sqlite postgres"
 
 RDEPEND="
-	sqlite? ( >=dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] >=dev-python/sqlalchemy-2.0[asyncio,${PYTHON_USEDEP}] )
-	postgres? ( >=dev-python/asyncpg-0.29[${PYTHON_USEDEP}] >=dev-python/sqlalchemy-2.0[asyncio,${PYTHON_USEDEP}] )
+	sqlite? ( >=dev-python/aiosqlite-0.20[${PYTHON_USEDEP}] >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
+	postgres? ( >=dev-python/asyncpg-0.29[${PYTHON_USEDEP}] >=dev-python/sqlalchemy-2.0[${PYTHON_USEDEP}] )
 "
 
 EPYTEST_PLUGINS=()

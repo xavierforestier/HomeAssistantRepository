@@ -18,11 +18,12 @@
     <flag name="abode">The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.</flag>
     <flag name="acaia">The Acaia integration allows you to control Acaia scales through Home Assistant.</flag>
     <flag name="accuweather">There is an active alert for this integration! LEARN MORE The AccuWeather integration uses the AccuWeather web service as a source for weather data for your location. A paid subscription is required to use this integration.</flag>
+    <flag name="acmeda">The Rollease Acmeda Automate integration allows you to control and monitor covers via your Rollease Acmeda Automate hub. The integrations communicates directly with hubs on the local network, rather than connecting via the cloud or via RS-485. Devices are represented as a cover for monitoring and control as well as a sensor for monitoring battery condition.</flag>
     <flag name="actron-air">The Actron Air integration allows you to control Actron Air Air Conditioning controllers into Home Assistant.</flag>
     <flag name="adax">The Adax integration integrates Adax heaters into Home Assistant and can be configured to use a local or cloud interface.</flag>
     <flag name="adguard">The AdGuard Home integration lets you monitor and control your AdGuard Home instance from Home Assistant.</flag>
     <flag name="ads">The ADS (automation device specification) integration describes a device-independent and fieldbus-independent interface for communication between Beckhoff automation devices running TwinCAT and other devices implementing this interface.</flag>
-    <flag name="advantage-air">The Advantage Air integration allows you to control Advantage Air Air Conditioning controllers into Home Assistant.</flag>
+    <flag name="advantage-air">Advantage Air - Home Assistant</flag>
     <flag name="aemet">The AEMET integration uses AEMET OpenData as a source for current meteorological data for your location. AEMET stands for “Agencia Estatal de Meteorología”, which is the Spanish Meteorological Agency.</flag>
     <flag name="aftership">The AfterShip integration allows one to track deliveries by AfterShip, a service that supports 490+ couriers worldwide. To use the tracking API functionality, the Pro plan is required.</flag>
     <flag name="agent-dvr">Agent DVR is a free* software DVR solution for Windows 10, Mac and Linux. Agent DVR runs as a service or console application and can access and control a huge range of third party cameras with advanced motion detection, including DeepStack integration for object recognition. The iSpyConnect website provides secured (SSL) remote access without port forwarding needed.</flag>
@@ -289,6 +290,7 @@
     <flag name="fjaraskupan">Fjäråskupan allows you to control your Bluetooth equipped kitchen fan.</flag>
     <flag name="fleetgo">The FleetGO integration allows you to integrate your vehicles equipped with FleetGO hardware into Home Assistant. It allows you to see certain details about your vehicle, but also shows your vehicle on the map.</flag>
     <flag name="flexit-bacnet">Integrates Flexit Nordic series air handling unit into Home Assistant.</flag>
+    <flag name="flexit">Integrates Flexit Air Conditioning unit into Home Assistant.</flag>
     <flag name="flic">The Flic integration allows you to receive click events from flic smart buttons.</flag>
     <flag name="flipr">Go flipr company sells smart pool monitor and management devices. The Flipr and Flipr Hub devices publish data to the cloud via Wi-Fi and SigFox.This integration gives you also access to the Flipr Hub to control your pool equipments like pump, heater, and light.</flag>
     <flag name="flo">The Flo integration integratesFlo by Moen smart water shutoff valves into Home Assistant.</flag>
@@ -585,7 +587,7 @@
     <flag name="moehlenhoff-alpha2">The Möhlenhoff Alpha 2 integration allows you to control a Möhlenhoff Alpha 2</flag>
     <flag name="monarch-money">Monarch Money is a personal finance aggregation and budgeting service that integrates with Plaid, MX, and FinCity, the three major financial backends.</flag>
     <flag name="monoprice">The Monoprice 6-Zone Amplifier integration allows you to control Monoprice 6-Zone Amplifier using a serial connection.</flag>
-    <flag name="monzo">The Monzo integration allows you to connect your Monzo bank accounts to Home Assistant.</flag>
+    <flag name="monzo">Monzo is a digital bank. The Monzo integration connects your Monzo accounts to Home Assistant, where you can monitor account and pot balances.</flag>
     <flag name="mopeka">Integrates Mopeka devices into Home Assistant.</flag>
     <flag name="motionblinds-ble">This integration adds support for Motionblinds Bluetooth motors. Want to motorize your existing blinds? This can be done with Motionblinds motor CMD-03. Made-to-measure window coverings with Motionblinds are available through a worldwide reseller network.Beware that this integration does not work with Eve Motionblinds motors. Eve Motionblinds can be added to Home Assistant using the HomeKit Device integration or the Matter integration.</flag>
     <flag name="motion-blinds">The Motionblinds integration allows you to control Motionblinds from Coulisse B.V..</flag>
@@ -620,7 +622,7 @@
     <flag name="network">The Network configuration integration provides network configuration for integrations such as Zeroconf. It is managed by going to Settings &gt; System &gt; Network.</flag>
     <flag name="neurio-energy">Integrate your Neurio meter information into Home Assistant. To get an API key and secret, log in to your Neurio account and register an application. Note the Homepage URL and Callback URL are optional.</flag>
     <flag name="nexia">The Nexia/American Standard/Trane integration allows you to integrate your Nexia (Trane) thermostats or American Standard thermostats into Home Assistant.</flag>
-    <flag name="nextbus">The NextBus integration will give you the next departure time and associated data from your public transit station/stop. The data comes from NextBus, which provides real time transit data for several transit authorities.</flag>
+    <flag name="nextbus">The NextBus integration will give you the next departure time and associated data from your public transit station/stop. The data comes from Umo, which provides real-time transit data for several transit authorities.</flag>
     <flag name="nextcloud">The Nextcloud integration pulls summary Nextcloud information into Home Assistant.</flag>
     <flag name="nextdns">NextDNS is a DNS service that protects from all kinds of security threats, blocks ADS and trackers on websites and in apps, and provides a safe and supervised Internet for kids — on all devices and on all networks. The NextDNS integration allows you to monitor NextDNS statistics and control its configuration.</flag>
     <flag name="nfandroidtv">Notification integration for Notifications for Android TV and Notifications for Fire TV. You can use this integration to send notifications to your Android TV device. An overlay with the message content will appear for a configurable amount of seconds and then disappear again. Sending images (e.g., security cam) and custom icons is supported too. Icons are essentially the same as images (any image format supported by Android TV is supported), but are displayed small and to the left of the notification whereas images are large and above the notification.</flag>
@@ -938,7 +940,7 @@
     <flag name="tapsaff">The Taps Aff integration provides the ‘Taps Aff’ status for a given location within the UK using Taps Aff.</flag>
     <flag name="tasmota">This integration allows you to control Tasmota devices over MQTT.</flag>
     <flag name="tautulli">The Tautulli integration will monitor activity on a given Tautulli Server. It will create a sensor that shows the number of currently active streams as the state. If you click the sensor for more details, it will show you more statistics.</flag>
-    <flag name="technove">The TechnoVE integration lets you monitor and control your TechnoVE smart EV charging station directly from Home Assistant using the station’s local API. No cloud account or internet connection is required — everything communicates over your local network.</flag>
+    <flag name="technove">The TechnoVE integration lets you monitor and control your TechnoVE smart EV charging station directly from Home Assistant using the station’s local API. No cloud account or internet connection is required. Everything communicates over your local network.</flag>
     <flag name="ted5000">The The Energy Detective TED5000 integration monitors electricity consumption/production by connecting to the TED gateway, itself connected to one or several Measuring Transmitting Units (MTU). The platform creates up to two sensors per MTU, one for Wattage the other for Voltage.</flag>
     <flag name="tedee">This integration interacts with your Tedee locks by communicating with the Tedee bridge through HTTP. The integration will communicate with your lock locally.</flag>
     <flag name="telegram-bot">Use Telegram on your mobile or desktop device to send and receive messages or commands to/from your Home Assistant.This integration creates notification actions to send, edit, receive messages or download attachments from a Telegram Bot account.</flag>
@@ -1033,7 +1035,6 @@
     <flag name="vistapool">The Vistapool integration connects Home Assistant to Vistapool-compatible pool controllers, including AquaRite, Vistapool, Sugar Valley, Poolwatch, Kripsol, and Dagen devices.</flag>
     <flag name="vivotek">The VIVOTEK integration allows you to integrate a VIVOTEK IP camera into Home Assistant.</flag>
     <flag name="vizio">The VIZIO SmartCast integration allows you to control SmartCast-compatible TVs and sound bars (2016+ models).</flag>
-    <flag name="vlc">The VLC media player integration allows you to control VLC media player.</flag>
     <flag name="vlc-telnet">The VLC media player via Telnet integration allows you to control a VLC media player using the built in telnet interface.</flag>
     <flag name="vodafone-station">The Vodafone Station integration allows you to control your Vodafone Station based router.</flag>
     <flag name="voip">The VoIP integration enables users to talk to Assist using an analog phone and a VoIP adapter. Currently, the system works with the Grandstream HT801. See the tutorial for detailed instructions.</flag>

@@ -5,32 +5,32 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Library implementing EZSP"
-HOMEPAGE="https://github.com/zigpy/bellows https://pypi.org/project/bellows/"
 
-LICENSE="GPL-3"
+DESCRIPTION="Python wrapper for zwave-js-server"
+HOMEPAGE="https://github.com/home-assistant-libs/zwave-js-server-python https://pypi.org/project/zwave-js-server-python/"
+
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+DOCS="README.md"
+
 RDEPEND="
-	dev-python/click[${PYTHON_USEDEP}]
-	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
-	dev-python/voluptuous[${PYTHON_USEDEP}]
-	>=dev-python/zigpy-0.87.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
-		dev-python/asynctest[${PYTHON_USEDEP}]
-		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
+		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-timeout[${PYTHON_USEDEP}]
 	)"
 
 src_prepare() {
 	# remove dynamic-versioning
 	sed "s/dynamic = \\[\"version\"\\]/version = \\\"${PV}\\\"/g" -i pyproject.toml || die
-	sed 's/, "setuptools-git-versioning<2"//g' -i pyproject.toml || die
 	eapply_user
 }
 

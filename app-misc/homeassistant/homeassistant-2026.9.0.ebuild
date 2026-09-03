@@ -13,7 +13,7 @@ HOMEPAGE="https://home-assistant.io/ https://pypi.org/project/homeassistant http
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-IUSE="bh1750 blinkt bme280 bme680 cli dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink abode acaia accuweather actron-air adax adguard ads advantage-air aemet aftership agent-dvr aidot airgradient airly airnow airobot airos airpatrol airq airthings-ble airthings airtouch4 airtouch5 airvisual airvisual-pro airzone-cloud airzone aladdin-connect alarmdecoder alexa-devices alpha-vantage altruist amazon-polly amberelectric ambient-network ambient-station amcrest analytics-insights android-ip-webcam androidtv androidtv-remote anel-pwrctrl anglian-water anova anthemav anthropic aosmith apache-kafka apcupsd apple-tv apprise aprilaire aprs apsystems aquacell aqualogic aquostv aqvify aranet arcam-fmj arris-tg2492lg aruba arve arwn aseko-pool-live assist-pipeline assist-satellite asuswrt atag atome august aurora-abb-powerone aurora aussie-broadband autarco autoskope avea awair aws aws-s3 axis azure-data-explorer azure-devops azure-event-hub azure-service-bus azure-storage backblaze-b2 backup baf baidu balboa bang-olufsen bbox bitcoin bizkaibus blackbird blebox blink blockchain blue-current bluemaestro bluesound bluetooth bond bosch-alarm bosch-shc braviatv bring broadlink brother brottsplatskartan brunt bryant-evolution bsblan bt-home-hub-5 bthome bt-smarthub buienradar caldav cambridge-audio camera canary casper-glow cast ccm15 centriconnect chacon-dio channels chef-iq chess-com cielo-home cisco-ios cisco-mobility-express cisco-webex-teams citybikes cloudflare cloudflare-r2 cloud cmus co2signal coinbase color-extractor comelit comfoconnect command-line compensation compit concord232 control4 conversation cookidoo coolmaster cppm-tracker cpuspeed crownstone cync daikin danfoss-air datadog data-grand-lyon deako debugpy deconz decora-wifi delijn deluge denonavr denon-rs232 devialet devolo-home-control devolo-home-network dexcom dhcp digital-ocean directv discogs discord discovergy dlink dlna-dmr dlna-dms dnsip doods doorbird dormakaba-dkey dremel-3d-printer dropbox drop-connect droplet dsmr duco dunehd duotecno dwd-weather-warnings dynalite eafm earn-e-p1 easyenergy ebox ebusd ecoal-boiler ecobee ecoforest econet ecovacs ecowitt edimax edl21 efergy egardia egauge eheimdigital ekeybionyx electrasmart electric-kiwi elevenlabs elgato elkm1 elmax elvia elv emby emoncms-history emoncms emonitor emulated-kasa emulated-roku energenie-power-sockets energieleser energyid energyzero enigma2 enocean enphase-envoy entur-public-transport envertech-evt800 environment-canada envisalink ephember epic-games-store epion epson eq3btsmart escea esphome essent etherscan eufylife-ble eufy eurotronic-cometblue everlights evil-genius-labs evohome ezviz faa-delays familyhub fastdotcom feedreader ffmpeg fibaro fido file fing fints firefly-iii fireservicerota firmata fish-audio fitbit fivem fixer fjaraskupan fleetgo flexit-bacnet flic flipr flo flume fluss flux-led folder-watcher foobot forecast-solar forked-daapd fortios foscam freebox freedompro free-mobile freshr fressnapf-tracker fritzbox-callmonitor fritzbox fritz fronius frontend frontier-silicon fuelprices-dk fujitsu-fglair fully-kiosk fumis futurenow fyta garages-amsterdam gardena-bluetooth gatus gc100 gdacs generic geniushub gentex-homelink geocaching geo-json-events geonetnz-quakes geonetnz-volcano geo-rss-events geosphere-austria-warnings ghost gios github gitlab-ci glances go2rtc goalzero gogogate2 goodwe google-air-quality google-assistant-sdk google-cloud google-drive google-generative-ai-conversation google-health google-mail google google-maps google-photos google-pubsub google-sheets google-tasks google-translate google-travel-time google-weather govee-ble govee-light-local gpsd gree greencell greeneye-monitor green-planet-energy growatt-server gtfs guardian guntamatic habitica hanna harbor hardware harman-kardon-avr harman-luxury harmony hassio hdfury hdmi-cec heatmiser hegel helty heos here-travel-time hikvisioncam hikvision hisense-aehw4a1 hive hko hlk-sw16 holiday homeassistant-hardware home-connect homee homekit-controller homekit homematicip-cloud homematic homevolt homewizard homeworks honeywell horizon hp-ilo hr-energy-qube html5 huawei-lte hue-ble hue huisbaasje hunterdouglas-powerview husqvarna-automower-ble husqvarna-automower huum hvv-departures hydrawise hyperion hypontech ialarm iammeter iaqualink ibeacon icloud idasen-desk idrive-e2 idteck-prox ifttt iglo igloohome ign-sismologia ihc image-upload imap imeon-inverter imgw-pib immich imou improv-ble incomfort indevolt inels influxdb infrared inkbird insteon intelliclima intellifire intesishome iometer iotawatt iotty iperf3 ipma ipp iqvia irish-rail-transport irm-kmi iron-os isal iskra islamic-prayer-times israel-rail iss ista-ecotrend isy994 itach ituran izone jellyfin jewish-calendar joaoapps-join justnimbus jvc-projector kaiterra kaleidescape karakeep keba keenetic-ndms2 kef kegtron keyboard-remote keymitt-ble kiosker kira kiwi kmtronic knocki knx kodi kostal-plenticore kraken kulersky kwb lacrosse lacrosse-view lamarzocco lametric landisgyr-heat-meter lastfm launch-library laundrify lcn ld2410-ble leaone led-ble lektrico letpot lg-netcast lg-soundbar lg-thinq lg-tv-rs232 libre-hardware-monitor lichess lidarr liebherr lifx lightwave limitlessled linkplay linode linux-battery litejet litellm litterrobot livisi llama-cpp local-calendar local-todo lojack london-underground lookin loqed luci luftdaten lunatone lupusec lutron-caseta lutron lw12wifi lyngdorf lyric madvr mailgun marytts mastodon matrix matter maxcube mcp mcp-server mealie meater medcom-ble media-extractor mediaroom melcloud-home melcloud melissa melnor message-bird met-eireann meteoalarm meteoclimatic meteo-france meteo-lt met metoffice mfi microbees microsoft midea miele mikrotik mill minecraft-server minio mitsubishi-comfort moat mobile-app mochad modbus modem-callerid modern-forms moehlenhoff-alpha2 monarch-money monoprice monzo mopeka motionblinds-ble motion-blinds motioneye motionmount mpd mqtt mta mullvad music-assistant mutesync mvglive myneomitis mysensors mystrom mythicbeastsdns myuplink nad nam nanoleaf nasweb neato nederlandse-spoorwegen neopool ness-alarm nest netatmo netdata netgear-lte netgear netio network neurio-energy nexia nextbus nextcloud nextdns nfandroidtv nibe-heatpump nice-go nightscout niko-home-control nilu nina nintendo-parental-controls nissan-leaf nmap-tracker nmbs noaa-tides nobo-hub nordpool norway-air notify-events notion nrgkick nsw-fuel-station nsw-rural-fire-service-feed ntfy nuheat nuki numato nut nws nx584 nyt-games nzbget oasa-telematics obihai octoprint oem ohmconnect ohme ollama ombi omie omnilogic ondilo-ico onedrive-for-business onedrive onewire onkyo onvif openai-conversation opendisplay openerz openevse openexchangerates opengarage openhome open-meteo openrgb open-router opensensemap opensky opentherm-gw openuv openweathermap opnsense opower opple oralb oru orvibo osoenergy osramlightify otbr otp ouman-eh-800 ourgroceries overkiz overseerr ovhcloud-ai-endpoints ovo-energy owntracks p1-monitor paj-gps palazzetti panasonic-bluray panasonic-viera paperless-ngx peblar peco pegel-online pencom pglab philips-js picnic pi-hole ping pjlink plaato playstation-network plex plugwise pocketcasts point pooldose poolsense portainer powerfox-local powerfox powerwall prana private-ble-device probe-plus profiler progettihwsw proliphix prometheus prosegur prowl proxmoxve proxy prusalink ps4 ptdevices pterodactyl pulseaudio-loopback pure-energie purpleair pushbullet pushover pvoutput pvpc-hourly-pricing pyload python-script qbittorrent qbus qingping qld-bushfire qnap qnap-qsw qrcode quantum-gateway qvr-pro qwikswitch rabbitair rachio radarr radio-browser radio-frequency radiotherm rainbird raincloud rainforest-eagle rainforest-raven rainmachine rapt-ble raspyrfm rdw recollect-waste recorder recswitch reddit redgtech refoss rehlko rejseplanen remember-the-milk remote-calendar remote-rpi-gpio renault renson reolink repetier rest rflink rfxtrx ridwell ring ripple risco rituals-perfume-genie rmvtransport roborock rocketchat roku romy roomba roon route53 route-b-smart-meter rova rpi-power ruckus-unleashed russound-rio russound-rnet +ruuvi-gateway ruuvitag-ble rympro sabnzbd saj samsungtv sanix satel-integra saunum schlage schluter scorpiontrack scrape screenlogic season sendgrid sense sensibo sensirion-ble sensorpro sensorpush-cloud sensorpush sensoterra sentry senz serial serial-pm sesame seven-segments seventeentrack sfr-box sftp-storage sharkiq +shelly shodan sia sighthound signal-messenger simplefin simplepush simplisafe sinch sisyphus skybeacon skybell sky-hub sky-remote slack sleepiq slide-local slide slimproto sma smappee smarla smart-meter-texas smartthings smarttub smarty smhi smlight snapcast snmp snoo snooz solaredge-local solaredge solarlog solarman solax soma somfy-mylink sonarr songpal sonos sony-projector soundtouch spc speedtestdotnet splunk spotify sql squeezebox srp-energy ssdp starline starlingbank starlink startca statsd steamist steam-online stiebel-eltron stookwijzer streamlabswater stream subaru suez-water sunricher-dali supla surepetcare swisscom swiss-hydrological-data swiss-public-transport switchbee switchbot-cloud switchbot switcher-kis switchmate syncthing syncthru synology-dsm synology-srm system-bridge systemmonitor systemnexa2 tado tailscale tailwind tami4 tankerkoenig tank-utility tapsaff tasmota tautulli technove ted5000 tedee telegram-bot teleinfo tellduslive tellstick teltonika temper tesla-fleet tesla-wall-connector teslemetry tessie thermobeacon thermopro thethingsnetwork thingspeak thinkingcleaner thread tibber tile tilt-ble tilt-pi tmb todoist togrill tolo tomorrowio toon totalconnect touchline touchline-sl tplink tplink-omada traccar traccar-server tractive tradfri trafikverket-camera trafikverket-ferry trafikverket-train trafikverket-weatherstation trane transmission transport-nsw travisci trend triggercmd trmnl tts tuya twentemilieu twilio twinkly twitch twitter ubus uhoo ukraine-alarm unifi-access unifi-direct unifi-discovery unifi unifiprotect upb upc-connect upcloud upnp uptime-kuma uptimerobot usb usgs-earthquakes-feed utility-meter uvc v2c vallox vasttrafik vegehub velbus velux venstar vera verisure versasense version vesync viaggiatreno vicare victron-ble victron-gx victron-remote-monitoring vilfo vistapool vivotek vizio vlc vlc-telnet vodafone-station voip volkszaehler volumio volvo w800rf32 wake-on-lan wallbox waqi waterfurnace watergate watts watttime wattwaechter waze-travel-time weatherflow-cloud weatherflow weatherkit webdav webmin webostv weheat wemo whirlpool whois wiffi wiim wilight wirelesstag withings wiz wled wmspro wolflink workday ws66i wsdot wyoming xbox xeoma xiaomi-aqara xiaomi-ble xiaomi-miio xiaomi-tv xmpp xs1 xthings-cloud yale yale-smart-alarm yalexs-ble yamaha yamaha-musiccast yandex-transport yardian yeelight yeelightsunflower yi yolink yoto youless youtube zabbix zamg zeroconf zerproc zestimate zeversolar zha zhong-hong ziggo-mediabox-xl zimi zinvolt zoneminder zwave-js zwave-me blinkt bme280 bme680 cli dht mariadb mosquitto smarthab socat tesla wink"
+IUSE="bh1750 blinkt bme280 bme680 cli dht http mariadb mosquitto mysql smarthab socat somfy ssl systemd tesla wink abode acaia accuweather acmeda actron-air adax adguard ads advantage-air aemet aftership agent-dvr aidot airgradient airly airnow airobot airos airpatrol airq airthings-ble airthings airtouch4 airtouch5 airvisual airvisual-pro airzone-cloud airzone aladdin-connect alarmdecoder alexa-devices alpha-vantage altruist amazon-polly amberelectric ambient-network ambient-station amcrest analytics-insights android-ip-webcam androidtv androidtv-remote anel-pwrctrl anglian-water anova anthemav anthropic aosmith apache-kafka apcupsd apple-tv apprise aprilaire aprs apsystems aquacell aqualogic aquostv aqvify aranet arcam-fmj arris-tg2492lg aruba arve arwn aseko-pool-live assist-pipeline assist-satellite asuswrt atag atome august aurora-abb-powerone aurora aussie-broadband autarco autoskope avea awair aws aws-s3 axis azure-data-explorer azure-devops azure-event-hub azure-service-bus azure-storage backblaze-b2 backup baf baidu balboa bang-olufsen bbox besen bitcoin bizkaibus blackbird blebox blink blockchain blue-current bluemaestro bluesound bluetooth bond bosch-alarm bosch-shc braviatv bring broadlink brother brottsplatskartan brunt bryant-evolution bsblan bt-home-hub-5 bthome bt-smarthub buienradar caldav cambridge-audio camera canary casper-glow cast ccm15 centriconnect chacon-dio channels chef-iq chess-com cielo-home cisco-ios cisco-mobility-express cisco-webex-teams citybikes cloudflare cloudflare-r2 cloud cmus co2signal coinbase color-extractor comelit comfoconnect command-line compensation compit concord232 control4 conversation cookidoo coolmaster cppm-tracker cpuspeed crownstone cync daikin danfoss-air datadog data-grand-lyon deako debugpy deconz decora-wifi delijn deluge denonavr denon-rs232 devialet devolo-home-control devolo-home-network dexcom dhcp digital-ocean directv discogs discord discovergy dlink dlna-dmr dlna-dms dnsip doods doorbird dormakaba-dkey dremel-3d-printer dropbox drop-connect droplet dsmr duco dunehd duotecno dwd-weather-warnings dynalite eafm earn-e-p1 easyenergy ebox ebusd ecoal-boiler ecobee ecoforest econet ecovacs ecowitt edimax edl21 efergy egardia egauge eheimdigital ekeybionyx electrasmart electric-kiwi elevenlabs elgato elkm1 elmax elvia elv emby emoncms-history emoncms emonitor emulated-kasa emulated-roku energenie-power-sockets energieleser energyid energyzero enigma2 enocean enphase-envoy entur-public-transport envertech-evt800 environment-canada envisalink ephember epic-games-store epion epson eq3btsmart escea esphome essent etherscan eufylife-ble eufy eurotronic-cometblue everlights evil-genius-labs evohome ezviz faa-delays familyhub fastdotcom feedreader ffmpeg fibaro fido file fing fints firefly-iii fireservicerota firmata fish-audio fitbit fivem fixer fjaraskupan fleetgo flexit-bacnet flexit flic flipr flo flow-it flume fluss flux-led folder-watcher foobot forecast-solar forked-daapd fortios foscam freebox freedompro free-mobile freshr fressnapf-tracker fritzbox-callmonitor fritzbox fritz fronius frontend frontier-silicon fuelprices-dk fujitsu-fglair fully-kiosk fumis futurenow fyta garages-amsterdam gardena-bluetooth gatus gc100 gdacs generic geniushub gentex-homelink geocaching geo-json-events geonetnz-quakes geonetnz-volcano geo-rss-events geosphere-austria-warnings ghost gios github gitlab-ci glances go2rtc goalzero gogogate2 goodwe google-air-quality google-assistant-sdk google-cloud google-drive google-generative-ai-conversation google-health google-mail google google-maps google-photos google-pubsub google-sheets google-tasks google-translate google-travel-time google-weather govee-ble govee-light-local gpsd gree greencell greeneye-monitor green-planet-energy growatt-server gtfs guardian guntamatic habitica hanna harbor hardware harman-kardon-avr harman-luxury harmony hassio hdfury hdmi-cec heatmiser hegel helty heos here-travel-time hikvisioncam hikvision hisense-aehw4a1 hive hko hlk-sw16 holiday homeassistant-hardware home-connect homee homekit-controller homekit homematicip-cloud homematic homevolt homewizard homeworks honeywell horizon hortimax hotspring hp-ilo hr-energy-qube html5 huawei-lte hue-ble hue huisbaasje hunterdouglas-powerview husqvarna-automower-ble husqvarna-automower huum hvv-departures hydrawise hyperion hypontech ialarm iammeter iaqualink ibeacon icloud idasen-desk idrive-e2 idteck-prox ifttt iglo igloohome ign-sismologia ihc image-upload imap imeon-inverter imgw-pib immich imou improv-ble incomfort indevolt inels influxdb infrared inkbird insteon intelliclima intellifire intesishome iometer iotawatt iotty iperf3 ipma ipp iqvia irish-rail-transport irm-kmi iron-os isal iseo-argo-ble iskra islamic-prayer-times israel-rail iss ista-ecotrend isy994 itach ituran izone jellyfin jewish-calendar joaoapps-join justnimbus jvc-projector kaiterra kaleidescape karakeep keba keenetic-ndms2 kef kegtron keyboard-remote keymitt-ble kiosker kira kiwi kmtronic knocki knx kodi kostal-plenticore kraken kulersky kwb lacrosse lacrosse-view lamarzocco lametric landisgyr-heat-meter lastfm launch-library laundrify lcn ld2410-ble leaone led-ble lektrico letpot lg-netcast lg-soundbar lg-thinq lg-tv-rs232 libre-hardware-monitor librenms lichess lidarr liebherr lifx lightwave limitlessled linkplay linode linux-battery litejet litellm litterrobot livisi llama-cpp local-calendar local-todo lojack london-underground lookin loqed luci luftdaten lunatone lupusec lutron-caseta lutron lw12wifi lyngdorf lyric madvr mailgun marytts mastodon matrix matter maxcube mcp mcp-server mealie meater medcom-ble media-extractor mediaroom melcloud-home melcloud melissa melnor message-bird met-eireann meteoalarm meteoclimatic meteo-france meteo-lt met metoffice mfi microbees microsoft midea miele mikrotik mill minecraft-server minio mitsubishi-comfort moat mobile-app mochad modbus modem-callerid modern-forms moehlenhoff-alpha2 monarch-money monoprice monzo mopeka motionblinds-ble motion-blinds motioneye motionmount mpd mqtt mta mullvad music-assistant mutesync mvglive myneomitis mysensors mystrom mythicbeastsdns myuplink nad nam nanoleaf nasweb neato nederlandse-spoorwegen neopool ness-alarm nest netatmo netdata netgear-lte netgear netio network neurio-energy nexblue nexia nextbus nextcloud nextdns nfandroidtv nibe-heatpump nice-go nightscout niko-home-control nilu nina nintendo-parental-controls nissan-leaf nmap-tracker nmbs noaa-tides nobo-hub nordpool norway-air notify-events notion nrgkick nsw-fuel-station nsw-rural-fire-service-feed ntfy nuheat nuki numato nut nws nx584 nyt-games nzbget oasa-telematics obihai octoprint oem ohmconnect ohme ollama ombi omie omnilogic ondilo-ico onedrive-for-business onedrive onewire onkyo onvif openai-conversation opendisplay openerz openevse openexchangerates opengarage openhome open-meteo openrgb open-router opensensemap opensky opentherm-gw openuv openweathermap opnsense opower opple oralb oru orvibo osoenergy osramlightify otbr otp ouman-eh-800 ourgroceries overkiz overseerr ovhcloud-ai-endpoints ovo-energy owntracks p1-monitor paj-gps palazzetti panasonic-bluray panasonic-viera paperless-ngx peblar peco pegel-online pencom pglab philips-js picnic pi-hole ping pjlink plaato playstation-network plex plugwise pocketcasts point pooldose poolsense portainer powerfox-local powerfox powerwall prana private-ble-device probe-plus profiler progettihwsw proliphix prometheus prosegur prowl proxmoxve proxy prusalink ps4 ptdevices pterodactyl pulseaudio-loopback pure-energie purpleair pushbullet pushover pvoutput pvpc-hourly-pricing pyload python-script qbittorrent qbus qingping qld-bushfire qnap qnap-qsw qrcode quantum-gateway qvr-pro qwikswitch rabbitair rachio radarr radio-browser radio-frequency radiotherm rainbird raincloud rainforest-eagle rainforest-raven rainmachine rapt-ble raspyrfm rdw recollect-waste recorder recswitch reddit redgtech refoss rehlko rejseplanen remember-the-milk remote-calendar remote-rpi-gpio renault renson reolink repetier rest rflink rfxtrx ridwell ring ripple risco rituals-perfume-genie rmvtransport roborock rocketchat roku romy roomba roon route53 route-b-smart-meter rova rpi-power ruckus-unleashed russound-rio russound-rnet +ruuvi-gateway ruuvitag-ble rympro sabnzbd saj samsung-exlink samsungtv sanix satel-integra saunum schlage schluter scorpiontrack scrape screenlogic season sendgrid sense sensibo sensirion-ble sensorpro sensorpush-cloud sensorpush sensoterra sentry senz serial serial-pm sesame seven-segments seventeentrack sfr-box sftp-storage sharkiq +shelly shodan sia sighthound signal-messenger silla-prism simplefin simplepush simplisafe sinch sisyphus skybeacon skybell sky-hub sky-remote slack sleepiq slide-local slide slimproto sma smappee smarla smart-meter-texas smartthings smarttub smarty smhi smlight snapcast snmp snoo snooz sofar solaredge-local solaredge solarlog solarman solax soma somfy-mylink sonarr songpal sonos sony-projector soundtouch spc specialized-turbo speedtestdotnet splunk spotify sql squeezebox srp-energy ssdp starline starlingbank starlink startca statsd steamist steam-online stiebel-eltron stookwijzer streamlabswater stream subaru suez-water sunricher-dali supla surepetcare swisscom swiss-hydrological-data swiss-public-transport switchbee switchbot-cloud switchbot switcher-kis switchmate syncthing syncthru synology-dsm synology-srm system-bridge systemmonitor systemnexa2 tado tailscale tailwind tami4 tankerkoenig tank-utility tapsaff tasmota tautulli technove ted5000 tedee telegram-bot teleinfo tellduslive tellstick teltonika temper tesla-fleet tesla-wall-connector teslemetry tessie thermobeacon thermopro thethingsnetwork thingspeak thinkingcleaner thread tibber tile tilt-ble tilt-pi tmb todoist togrill tolo tomorrowio tonewinner toon totalconnect touchline touchline-sl tplink tplink-omada traccar traccar-server tractive tradfri trafikverket-camera trafikverket-ferry trafikverket-train trafikverket-weatherstation trane transmission transport-nsw travisci trend triggercmd trmnl tts tuya twentemilieu twilio twinkly twitch twitter ubus uhoo ukraine-alarm unifi-access unifi-direct unifi-discovery unifi unifiprotect upb upc-connect upcloud upnp uptime-kuma uptimerobot usb usgs-earthquakes-feed utility-meter uvc v2c vallox vasttrafik vegehub velbus velux venstar vera verisure versasense version vesync viaggiatreno vicare victron-ble victron-gx victron-remote-monitoring vilfo vistapool vivotek vizio vlc-telnet vodafone-station voip volkszaehler volumio volvo w800rf32 wake-on-lan wallbox waqi waterfurnace watergate watts watttime wattwaechter waze-travel-time weatherflow-cloud weatherflow weatherkit webdav webmin webostv weheat wemo whirlpool whois wiffi wiim wilight wirelesstag withings wiz wled wmspro wolflink workday ws66i wsdot wyoming xbox xeoma xiaomi-aqara xiaomi-ble xiaomi-miio xiaomi-tv xmpp xs1 xthings-cloud yale yale-smart-alarm yalexs-ble yamaha yamaha-musiccast yandex-transport yardian yeelight yeelightsunflower yi yolink yoto youless youtube zabbix zamg zeroconf zerproc zestimate zeversolar zha zhong-hong ziggo-mediabox-xl zimi zinvolt zoneminder zwave-js zwave-me blinkt bme280 bme680 cli dht mariadb mosquitto smarthab socat tesla wink"
 RESTRICT="!test? ( test )"
 
 # external deps
@@ -24,7 +24,7 @@ RDEPEND="${PYTHON_DEPS} acct-group/${PN} acct-user/${PN}
 	dev-libs/xerces-c"
 REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 	homekit-controller? ( bluetooth )"
-# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.8.1/work/package_constraints.txt
+# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.9.0/work/package_constraints.txt
 RDEPEND="${RDEPEND}
 
 	~dev-python/aiodhcpwatcher-1.2.7
@@ -40,18 +40,18 @@ RDEPEND="${RDEPEND}
 	~dev-python/annotatedyaml-1.0.2
 	~dev-python/astral-2.2
 	~dev-python/async-interrupt-1.2.2
-	~dev-python/async-upnp-client-0.47.1
+	~dev-python/async-upnp-client-0.48.1
 	~dev-python/atomicwrites-1.4.1
 	~dev-python/attrs-26.1.0
 	~dev-python/audioop-lts-0.2.2
 	~dev-python/av-17.0.1
 	~dev-python/awesomeversion-25.8.0
 	~dev-python/bcrypt-5.0.0
-	~dev-python/bleak-retry-connector-4.6.3
+	~dev-python/bleak-retry-connector-4.7.0
 	~dev-python/bleak-3.0.2
 	~dev-python/bluetooth-adapters-2.4.0
 	~dev-python/bluetooth-auto-recovery-1.6.4
-	~dev-python/bluetooth-data-tools-1.29.18
+	~dev-python/bluetooth-data-tools-1.29.24
 	~dev-python/cached-ipaddress-1.1.2
 	>=dev-python/certifi-2021.5.30
 	~dev-python/ciso8601-2.3.3
@@ -60,24 +60,26 @@ RDEPEND="${RDEPEND}
 	~dev-python/dbus-fast-5.0.22
 	~dev-python/file-read-backwards-2.0.0
 	~dev-python/fnv-hash-fast-2.0.3
+	~dev-python/gazetteer-matcher-1.1.0
 	~dev-python/go2rtc-client-0.4.0
 	~dev-python/ha-ffmpeg-3.2.2
-	~dev-python/habluetooth-6.26.5
-	~dev-python/hass-nabucasa-2.2.0
-	~dev-python/hassil-3.11.0
+	~dev-python/habluetooth-6.26.11
+	~dev-python/hass-nabucasa-2.7.0
+	~dev-python/hassil-3.12.0
 	~dev-python/home-assistant-bluetooth-2.0.0
-	~dev-python/home-assistant-frontend-20260729.6
-	~dev-python/home-assistant-intents-2026.7.30
+	~dev-python/home-assistant-frontend-20260826.4
+	~dev-python/home-assistant-intents-2026.8.28
 	~dev-python/httpx-0.28.1
 	~dev-python/ifaddr-0.2.0
 	~dev-python/jinja2-3.1.6
 	~dev-python/lru-dict-1.4.1
 	~media-libs/mutagen-1.48.1
 	~dev-python/openai-2.45.0
-	~dev-python/orjson-3.11.9
+	~dev-python/orjson-3.12.0
 	>=dev-python/packaging-23.1
 	~dev-python/paho-mqtt-2.1.0
 	~dev-python/pillow-12.3.0
+	~dev-python/probatio-0.11.4
 	~dev-python/propcache-0.5.2
 	~dev-python/psutil-home-assistant-0.0.1
 	~dev-python/pyjwt-2.13.0
@@ -90,21 +92,18 @@ RDEPEND="${RDEPEND}
 	~dev-python/pyyaml-6.0.3
 	~dev-python/requests-2.34.2
 	~dev-python/securetar-2026.4.1
-	~dev-python/serialx-1.8.2
-	~dev-python/sqlalchemy-2.0.51
+	~dev-python/serialx-1.9.0
+	~dev-python/sqlalchemy-2.0.52
 	~dev-python/standard-aifc-3.13.0
 	~dev-python/standard-telnetlib-3.13.0
-	>=dev-python/typing-extensions-4.15.0
+	>=dev-python/typing-extensions-4.16.0
 	~dev-python/ulid-transform-2.2.9
 	>=dev-python/urllib3-2.0
-	>=dev-python/uv-0.11.31
+	>=dev-python/uv-0.12.5
 
-	~dev-python/voluptuous-openapi-0.4.1
-	~dev-python/voluptuous-serialize-2.7.0
-	~dev-python/voluptuous-0.16.0
 	~dev-python/webrtc-models-0.3.0
 	~dev-python/yarl-1.24.5
-	~dev-python/zeroconf-0.150.0
+	~dev-python/zeroconf-0.151.1
 	>=dev-python/pycryptodome-3.6.6
 	>=dev-python/httplib2-0.19.0
 	~dev-python/grpcio-1.78.0
@@ -124,10 +123,9 @@ RDEPEND="${RDEPEND}
 	~dev-python/pydantic-2.13.4
 	>=dev-python/mashumaro-3.17
 	>=dev-python/protobuf-6.32.0
-	>=dev-python/faust-cchardet-2.1.18
 	>=dev-python/websockets-15.0.1
 	dev-python/poetry
-	~dev-python/charset-normalizer-3.4.3
+	>=dev-python/charset-normalizer-3.4.3
 	>=dev-python/dacite-1.7.0
 	~dev-python/decorator-5.2.1
 	>=dev-python/chacha20poly1305-reuseable-0.13.0
@@ -140,7 +138,8 @@ RDEPEND="${RDEPEND}
 	~dev-python/pymodbus-3.13.1
 	~dev-python/pytest-rerunfailures-16.0.1
 	>=dev-python/aiomqtt-2.5.0
-	~dev-python/aiofile-3.9.0
+	>=dev-python/aiofile-3.10.1
+	<=dev-python/caio-0.12.2
 	<=dev-python/auth0-python-4.99
 	~dev-python/backoff-2.2.1
 	~dev-python/azure-kusto-data-4.5.1
@@ -170,7 +169,8 @@ RDEPEND="${RDEPEND}
 	abode? ( ~dev-python/jaraco-abode-6.4.0 )
 	acaia? ( ~dev-python/aioacaia-0.2.1 )
 	accuweather? ( ~dev-python/accuweather-5.1.0 )
-	actron-air? ( ~dev-python/actron-neo-api-0.5.12 )
+	acmeda? ( ~dev-python/aiopulse-0.4.7 )
+	actron-air? ( ~dev-python/actron-neo-api-0.5.14 )
 	adax? ( ~dev-python/adax-local-0.3.0 ~dev-python/adax-0.4.0 )
 	adguard? ( ~dev-python/adguardhome-0.8.1 )
 	ads? ( ~dev-python/pyads-3.4.0 )
@@ -179,7 +179,7 @@ RDEPEND="${RDEPEND}
 	aftership? ( ~dev-python/pyaftership-21.11.0 )
 	agent-dvr? ( ~dev-python/agent-py-0.0.24 )
 	aidot? ( ~dev-python/python-aidot-0.3.56 )
-	airgradient? ( ~dev-python/airgradient-0.9.2 )
+	airgradient? ( ~dev-python/airgradient-0.10.0 )
 	airly? ( ~dev-python/airly-1.1.0 )
 	airnow? ( ~dev-python/pyairnow-1.4.0 )
 	airobot? ( ~dev-python/pyairobotrest-0.4.0 )
@@ -196,7 +196,7 @@ RDEPEND="${RDEPEND}
 	airzone? ( ~dev-python/aioairzone-1.0.5 )
 	aladdin-connect? ( ~dev-python/genie-partner-sdk-1.0.11 )
 	alarmdecoder? ( ~dev-python/adext-0.4.4 )
-	alexa-devices? ( ~dev-python/aioamazondevices-14.2.2 )
+	alexa-devices? ( ~dev-python/aioamazondevices-15.1.0 )
 	alpha-vantage? ( ~dev-python/alpha-vantage-2.3.1 )
 	altruist? ( ~dev-python/altruistclient-0.1.1 )
 	amazon-polly? ( ~dev-python/boto3-1.42.97 )
@@ -209,7 +209,7 @@ RDEPEND="${RDEPEND}
 	androidtv? ( ~dev-python/adb-shell-0.4.4[async] ~dev-python/androidtv-0.0.75[async] )
 	androidtv-remote? ( ~dev-python/androidtvremote2-0.3.1 )
 	anel-pwrctrl? ( ~dev-python/anel-pwrctrl-homeassistant-0.0.1 )
-	anglian-water? ( ~dev-python/pyanglianwater-3.2.4 )
+	anglian-water? ( ~dev-python/pyanglianwater-3.3.2 )
 	anova? ( ~dev-python/anova-wifi-1.0.1 )
 	anthemav? ( ~dev-python/anthemav-1.4.2 )
 	anthropic? ( ~dev-python/anthropic-0.108.0 )
@@ -233,11 +233,11 @@ RDEPEND="${RDEPEND}
 	arwn? ( ~dev-python/arwn-client-0.2.1 )
 	aseko-pool-live? ( ~dev-python/aioaseko-1.0.0 )
 	assist-pipeline? ( ~dev-python/pymicro-vad-1.0.1 ~dev-python/pyspeex-noise-1.0.2 )
-	assist-satellite? ( ~dev-python/hassil-3.11.0 )
+	assist-satellite? ( ~dev-python/hassil-3.12.0 )
 	asuswrt? ( ~dev-python/aioasuswrt-1.5.4 ~dev-python/asusrouter-1.21.3 )
 	atag? ( ~dev-python/pyatag-0.3.5.3 )
 	atome? ( ~dev-python/pyatome-0.1.2 )
-	august? ( ~dev-python/yalexs-ble-3.3.1 ~dev-python/yalexs-9.2.10 )
+	august? ( ~dev-python/yalexs-ble-4.0.1 ~dev-python/yalexs-9.2.13 )
 	aurora-abb-powerone? ( ~dev-python/aurorapy-0.2.7 )
 	aurora? ( ~dev-python/auroranoaa-0.0.5 )
 	aussie-broadband? ( ~dev-python/pyaussiebb-0.1.5 )
@@ -260,27 +260,28 @@ RDEPEND="${RDEPEND}
 	balboa? ( ~dev-python/pybalboa-1.1.3 )
 	bang-olufsen? ( ~dev-python/mozart-api-6.2.0.44.0 )
 	bbox? ( ~dev-python/pybbox-0.0.5_alpha0 )
+	besen? ( ~dev-python/besen-0.3.4 )
 	bitcoin? ( ~dev-python/blockchain-1.4.4 )
 	bizkaibus? ( ~dev-python/bizkaibus-0.1.1 )
 	blackbird? ( ~dev-python/pyblackbird-0.6 )
-	blebox? ( ~dev-python/blebox-uniapi-2.5.5 )
+	blebox? ( ~dev-python/blebox-uniapi-2.5.7 )
 	blink? ( ~dev-python/blinkpy-0.25.9 )
 	blockchain? ( ~dev-python/python-blockchain-api-0.0.2 )
 	blue-current? ( ~dev-python/bluecurrent-api-1.3.3 )
 	bluemaestro? ( ~dev-python/bluemaestro-ble-0.4.1 )
 	bluesound? ( ~dev-python/pyblu-2.0.8 )
-	bluetooth? ( ~dev-python/bleak-retry-connector-4.6.3 ~dev-python/bleak-3.0.2 ~dev-python/bluetooth-adapters-2.4.0 ~dev-python/bluetooth-auto-recovery-1.6.4 ~dev-python/bluetooth-data-tools-1.29.18 ~dev-python/dbus-fast-5.0.22 ~dev-python/habluetooth-6.26.5 )
+	bluetooth? ( ~dev-python/bleak-retry-connector-4.7.0 ~dev-python/bleak-3.0.2 ~dev-python/bluetooth-adapters-2.4.0 ~dev-python/bluetooth-auto-recovery-1.6.4 ~dev-python/bluetooth-data-tools-1.29.24 ~dev-python/dbus-fast-5.0.22 ~dev-python/habluetooth-6.26.11 )
 	bond? ( ~dev-python/bond-async-0.2.1 )
 	bosch-alarm? ( ~dev-python/bosch-alarm-mode2-0.4.10 )
 	bosch-shc? ( ~dev-python/boschshcpy-0.6.4 )
-	braviatv? ( ~dev-python/pybravia-0.5.1 )
+	braviatv? ( ~dev-python/pybravia-0.5.3 )
 	bring? ( ~dev-python/bring-api-1.1.2 )
 	broadlink? ( ~dev-python/broadlink-0.19.0 )
-	brother? ( ~dev-python/brother-6.1.1 )
+	brother? ( ~dev-python/brother-6.1.2 )
 	brottsplatskartan? ( ~dev-python/brottsplatskartan-1.0.5 )
 	brunt? ( ~dev-python/brunt-1.2.0 )
 	bryant-evolution? ( ~dev-python/evolutionhttp-0.0.19 )
-	bsblan? ( ~dev-python/python-bsblan-6.1.6 )
+	bsblan? ( ~dev-python/python-bsblan-6.1.8 )
 	bt-home-hub-5? ( ~dev-python/bthomehub5-devicelist-0.1.1 )
 	bthome? ( ~dev-python/bthome-ble-3.23.4 )
 	bt-smarthub? ( ~dev-python/btsmarthub-devicelist-0.2.3 )
@@ -304,7 +305,7 @@ RDEPEND="${RDEPEND}
 	citybikes? ( ~dev-python/python-citybikes-0.3.3 )
 	cloudflare? ( ~dev-python/pycfdns-3.0.0 )
 	cloudflare-r2? ( ~dev-python/aiobotocore-3.7.0 )
-	cloud? ( ~dev-python/hass-nabucasa-2.2.0 ~dev-python/openai-2.45.0 )
+	cloud? ( ~dev-python/hass-nabucasa-2.7.0 ~dev-python/openai-2.45.0 )
 	cmus? ( ~dev-python/pycmus-0.1.1 )
 	co2signal? ( ~dev-python/aioelectricitymaps-1.1.1 )
 	coinbase? ( ~dev-python/coinbase-advanced-py-1.2.2 )
@@ -316,14 +317,14 @@ RDEPEND="${RDEPEND}
 	compit? ( ~dev-python/compit-inext-api-0.9.1 )
 	concord232? ( ~dev-python/concord232-0.15.1 )
 	control4? ( ~dev-python/pycontrol4-2.0.2 )
-	conversation? ( ~dev-python/hassil-3.11.0 ~dev-python/home-assistant-intents-2026.7.30 )
+	conversation? ( ~dev-python/gazetteer-matcher-1.1.0 ~dev-python/hassil-3.12.0 ~dev-python/home-assistant-intents-2026.8.28 )
 	cookidoo? ( ~dev-python/cookidoo-api-0.17.2 )
 	coolmaster? ( ~dev-python/pycoolmasternet-async-0.2.4 )
 	cppm-tracker? ( ~dev-python/clearpasspy-1.0.2 )
 	cpuspeed? ( ~dev-python/py-cpuinfo-9.0.0 )
 	crownstone? ( ~dev-python/crownstone-cloud-1.4.11 ~dev-python/crownstone-sse-2.0.5 ~dev-python/crownstone-uart-2.1.0 )
 	cync? ( ~dev-python/pycync-0.5.0 )
-	daikin? ( ~dev-python/pydaikin-2.18.4 )
+	daikin? ( ~dev-python/pydaikin-2.19.0 )
 	danfoss-air? ( ~dev-python/pydanfossair-0.1.0 )
 	datadog? ( ~dev-python/datadog-0.52.1 )
 	data-grand-lyon? ( ~dev-python/data-grand-lyon-ha-0.9.0 )
@@ -334,7 +335,7 @@ RDEPEND="${RDEPEND}
 	delijn? ( ~dev-python/pydelijn-1.1.0 )
 	deluge? ( ~dev-python/deluge-client-1.10.2 )
 	denonavr? ( ~dev-python/denonavr-1.3.3 )
-	denon-rs232? ( ~dev-python/denon-rs232-4.2.1 )
+	denon-rs232? ( ~dev-python/denon-rs232-4.2.2 )
 	devialet? ( ~dev-python/devialet-1.5.7 )
 	devolo-home-control? ( ~dev-python/devolo-home-control-api-0.19.1 )
 	devolo-home-network? ( ~dev-python/devolo-plc-api-1.5.1 )
@@ -346,8 +347,8 @@ RDEPEND="${RDEPEND}
 	discord? ( ~dev-python/nextcord-3.1.0 )
 	discovergy? ( ~dev-python/pydiscovergy-3.0.2 )
 	dlink? ( ~dev-python/pyw215-0.8.0 )
-	dlna-dmr? ( ~dev-python/async-upnp-client-0.47.1 ~dev-python/getmac-0.9.5 )
-	dlna-dms? ( ~dev-python/async-upnp-client-0.47.1 )
+	dlna-dmr? ( ~dev-python/async-upnp-client-0.48.1 ~dev-python/getmac-0.9.5 )
+	dlna-dms? ( ~dev-python/async-upnp-client-0.48.1 )
 	dnsip? ( ~dev-python/aiodns-4.0.4 )
 	doods? ( ~dev-python/pillow-12.3.0 ~dev-python/pydoods-1.0.2 )
 	doorbird? ( ~dev-python/doorbirdpy-3.0.12 )
@@ -395,15 +396,15 @@ RDEPEND="${RDEPEND}
 	emulated-kasa? ( ~dev-python/sense-energy-0.14.3 )
 	emulated-roku? ( ~dev-python/emulated-roku-0.3.0 )
 	energenie-power-sockets? ( ~dev-python/pyegps-0.2.5 )
-	energieleser? ( ~dev-python/energieleser-0.1.5 )
+	energieleser? ( ~dev-python/energieleser-0.1.6 )
 	energyid? ( ~dev-python/energyid-webhooks-0.0.14 )
-	energyzero? ( ~dev-python/energyzero-4.0.1 )
+	energyzero? ( ~dev-python/energyzero-5.0.2 )
 	enigma2? ( ~dev-python/openwebifpy-4.3.1 )
 	enocean? ( ~dev-python/enocean-async-0.4.2 )
-	enphase-envoy? ( ~dev-python/pyenphase-3.2.1 )
+	enphase-envoy? ( ~dev-python/pyenphase-4.0.1 )
 	entur-public-transport? ( ~dev-python/enturclient-0.2.4 )
 	envertech-evt800? ( ~dev-python/pyenvertechevt800-0.2.4 )
-	environment-canada? ( ~dev-python/env-canada-0.17.0 )
+	environment-canada? ( ~dev-python/env-canada-0.19.0 )
 	envisalink? ( ~dev-python/pyenvisalink-4.9 )
 	ephember? ( ~dev-python/pyephember2-0.4.12 )
 	epic-games-store? ( ~dev-python/epicstore-api-0.1.9 )
@@ -411,7 +412,7 @@ RDEPEND="${RDEPEND}
 	epson? ( ~dev-python/epson-projector-0.6.0 )
 	eq3btsmart? ( ~dev-python/eq3btsmart-2.3.0 )
 	escea? ( ~dev-python/pescea-1.0.12 )
-	esphome? ( >=dev-python/aioesphomeapi-45.6.1 ~dev-python/bleak-esphome-3.9.7 ~dev-python/esphome-dashboard-api-1.4.0 )
+	esphome? ( >=dev-python/aioesphomeapi-46.2.0 ~dev-python/bleak-esphome-4.0.0 ~dev-python/esphome-dashboard-api-1.4.0 )
 	essent? ( ~dev-python/essent-dynamic-pricing-0.3.1 )
 	etherscan? ( ~dev-python/python-etherscan-api-0.0.3 )
 	eufylife-ble? ( ~dev-python/eufylife-ble-client-0.1.10 )
@@ -419,7 +420,7 @@ RDEPEND="${RDEPEND}
 	eurotronic-cometblue? ( ~dev-python/eurotronic-cometblue-ha-1.4.0 )
 	everlights? ( ~dev-python/pyeverlights-0.1.0 )
 	evil-genius-labs? ( ~dev-python/pyevilgenius-2.0.0 )
-	evohome? ( ~dev-python/evohome-async-2.0.1 )
+	evohome? ( ~dev-python/evohome-async-2.1.0 )
 	ezviz? ( ~dev-python/pyezvizapi-1.0.0.7 )
 	faa-delays? ( ~dev-python/faadelays-2023.9.1 )
 	familyhub? ( ~dev-python/python-family-hub-local-0.0.2 )
@@ -441,9 +442,11 @@ RDEPEND="${RDEPEND}
 	fjaraskupan? ( ~dev-python/fjaraskupan-2.3.4 )
 	fleetgo? ( ~dev-python/ritassist-0.9.2 )
 	flexit-bacnet? ( ~dev-python/flexit-bacnet-2.2.3 )
+	flexit? ( ~dev-python/flexit-modbus-0.1.0 )
 	flic? ( ~dev-python/pyflic-2.0.4 )
 	flipr? ( ~dev-python/flipr-api-1.6.1 )
 	flo? ( ~dev-python/aioflo-2021.11.0 )
+	flow-it? ( ~dev-python/flow-it-api-0.0.1.1 )
 	flume? ( ~dev-python/pyflume-0.6.5 )
 	fluss? ( ~dev-python/fluss-api-0.2.5 )
 	flux-led? ( ~dev-python/flux-led-1.2.0 )
@@ -461,18 +464,18 @@ RDEPEND="${RDEPEND}
 	fritzbox-callmonitor? ( ~dev-python/fritzconnection-1.15.1[qrcode] )
 	fritzbox? ( ~dev-python/pyfritzhome-0.6.20 )
 	fritz? ( ~dev-python/fritzconnection-1.15.1[qrcode] ~dev-python/xmltodict-1.0.4 )
-	fronius? ( ~dev-python/pyfronius-0.8.2 )
-	frontend? ( ~dev-python/home-assistant-frontend-20260729.6 )
+	fronius? ( ~dev-python/pyfronius-0.8.2 ~dev-python/fronius-modbus-0.2.0 )
+	frontend? ( ~dev-python/home-assistant-frontend-20260826.4 )
 	frontier-silicon? ( ~dev-python/afsapi-1.0.2 )
 	fuelprices-dk? ( ~dev-python/pybraendstofpriser-2.2.0 )
-	fujitsu-fglair? ( ~dev-python/ayla-iot-unofficial-1.4.7 )
+	fujitsu-fglair? ( ~dev-python/ayla-iot-unofficial-1.5.2 )
 	fully-kiosk? ( ~dev-python/python-fullykiosk-0.0.15 )
-	fumis? ( ~dev-python/fumis-0.4.0 )
+	fumis? ( ~dev-python/fumis-0.4.1 )
 	futurenow? ( ~dev-python/pyfnip-0.2 )
 	fyta? ( ~dev-python/fyta-cli-0.7.3 )
 	garages-amsterdam? ( ~dev-python/odp-amsterdam-6.1.2 )
-	gardena-bluetooth? ( ~dev-python/gardena-bluetooth-2.8.1 )
-	gatus? ( ~dev-python/gatus-api-1.0.3 )
+	gardena-bluetooth? ( ~dev-python/gardena-bluetooth-2.10.1 )
+	gatus? ( ~dev-python/gatus-api-1.2.0 )
 	gc100? ( ~dev-python/python-gc100-1.0.3_alpha0 )
 	gdacs? ( ~dev-python/aio-georss-gdacs-0.10 )
 	generic? ( ~dev-python/pillow-12.3.0 ~dev-python/av-17.0.1 )
@@ -497,10 +500,10 @@ RDEPEND="${RDEPEND}
 	google-assistant-sdk? ( ~dev-python/gassist-text-0.0.14 )
 	google-cloud? ( ~dev-python/google-cloud-speech-2.31.1 ~dev-python/google-cloud-texttospeech-2.25.1 )
 	google-drive? ( ~dev-python/python-google-drive-api-0.1.0 )
-	google-generative-ai-conversation? ( ~dev-python/google-genai-1.59.0 )
-	google-health? ( ~dev-python/google-health-api-0.8.0 )
+	google-generative-ai-conversation? ( ~dev-python/google-genai-2.16.0 )
+	google-health? ( ~dev-python/google-health-api-0.9.0 )
 	google-mail? ( ~dev-python/google-api-python-client-2.71.0 )
-	google? ( ~dev-python/gcal-sync-9.1.0 ~dev-python/ical-14.0.1 ~dev-python/oauth2client-4.1.3 )
+	google? ( ~dev-python/gcal-sync-9.1.0 ~dev-python/ical-14.1.1 ~dev-python/oauth2client-4.1.3 )
 	google-maps? ( ~dev-python/locationsharinglib-5.0.1 )
 	google-photos? ( ~dev-python/google-photos-library-api-0.12.1 )
 	google-pubsub? ( ~dev-python/google-cloud-pubsub-2.29.0 )
@@ -516,10 +519,10 @@ RDEPEND="${RDEPEND}
 	greencell? ( ~dev-python/greencell-client-1.0.3 )
 	greeneye-monitor? ( ~dev-python/greeneye-monitor-3.0.3 )
 	green-planet-energy? ( ~dev-python/greenplanet-energy-api-0.1.10 )
-	growatt-server? ( ~dev-python/growattserver-2.1.0 )
+	growatt-server? ( ~dev-python/growattserver-2.2.0 )
 	gtfs? ( ~dev-python/pygtfs-0.1.11 )
 	guardian? ( ~dev-python/aioguardian-2026.1.1 )
-	guntamatic? ( ~dev-python/guntamatic-1.9.3 )
+	guntamatic? ( ~dev-python/guntamatic-1.12.0 )
 	habitica? ( ~dev-python/habiticalib-0.4.7 )
 	hanna? ( ~dev-python/hanna-cloud-0.0.7 )
 	harbor? ( ~dev-python/harbor-python-1.5.0 )
@@ -528,7 +531,7 @@ RDEPEND="${RDEPEND}
 	harman-luxury? ( ~dev-python/aioharmanluxury-0.2.3 )
 	harmony? ( ~dev-python/aioharmony-1.0.8 )
 	hassio? ( ~dev-python/aiohasupervisor-0.6.0 )
-	hdfury? ( ~dev-python/hdfury-1.6.0 )
+	hdfury? ( ~dev-python/hdfury-1.6.1 )
 	hdmi-cec? ( ~dev-python/pycec-0.5.2 )
 	heatmiser? ( ~dev-python/heatmiserv3-2.0.6 )
 	hegel? ( ~dev-python/hegel-ip-client-0.1.4 )
@@ -536,34 +539,36 @@ RDEPEND="${RDEPEND}
 	heos? ( ~dev-python/pyheos-1.0.6 )
 	here-travel-time? ( ~dev-python/here-routing-1.2.0 ~dev-python/here-transit-1.2.1 )
 	hikvisioncam? ( ~dev-python/hikvision-0.4 )
-	hikvision? ( ~dev-python/pyhik-0.4.3 )
+	hikvision? ( ~dev-python/pyhik-0.4.5 )
 	hisense-aehw4a1? ( ~dev-python/pyaehw4a1-0.3.9 )
 	hive? ( ~dev-python/pyhive-integration-1.0.9 )
 	hko? ( ~dev-python/hko-0.3.2 )
 	hlk-sw16? ( ~dev-python/hlk-sw16-0.0.9 )
-	holiday? ( ~dev-python/babel-2.18.0 ~dev-python/holidays-0.101 )
+	holiday? ( ~dev-python/babel-2.18.0 ~dev-python/holidays-0.103 )
 	homeassistant-hardware? ( ~dev-python/ha-silabs-firmware-client-0.3.0 ~dev-python/universal-silabs-flasher-1.1.0 )
-	home-connect? ( ~dev-python/aiohomeconnect-0.38.0 )
-	homee? ( ~dev-python/pyhomee-1.4.3 )
-	homekit-controller? ( ~dev-python/aiohomekit-4.0.0 )
+	home-connect? ( ~dev-python/aiohomeconnect-0.39.1 )
+	homee? ( ~dev-python/pyhomee-1.4.4 )
+	homekit-controller? ( ~dev-python/aiohomekit-4.0.1 )
 	homekit? ( ~dev-python/hap-python-5.0.0 ~dev-python/pyqrcode-1.2.1 ~dev-python/base36-0.1.1 ~dev-python/fnv-hash-fast-2.0.3 ~dev-python/homekit-audio-proxy-1.2.1 )
-	homematicip-cloud? ( ~dev-python/homematicip-2.13.4 )
+	homematicip-cloud? ( ~dev-python/homematicip-2.15.0 )
 	homematic? ( ~dev-python/pyhomematic-0.1.78 )
 	homevolt? ( ~dev-python/homevolt-0.5.0 )
 	homewizard? ( ~dev-python/python-homewizard-energy-10.2.0 )
 	homeworks? ( ~dev-python/pyhomeworks-1.1.2 )
 	honeywell? ( ~dev-python/aiosomecomfort-0.0.38 )
 	horizon? ( ~dev-python/horimote-0.4.1 )
+	hortimax? ( ~dev-python/aiohortos-0.3.1 )
+	hotspring? ( ~dev-python/python-hotspring-2.0.1 )
 	hp-ilo? ( ~dev-python/python-hpilo-4.4.3 )
 	hr-energy-qube? ( ~dev-python/python-qube-heatpump-1.12.0 )
 	html5? ( ~dev-python/py-vapid-1.9.4 ~dev-python/pywebpush-2.3.0 )
 	huawei-lte? ( ~dev-python/huawei-lte-api-1.11.0 ~dev-python/url-normalize-3.0.0 )
-	hue-ble? ( ~dev-python/hueble-2.2.2 )
+	hue-ble? ( ~dev-python/hueble-2.2.3 )
 	hue? ( ~dev-python/aiohue-4.9.0 )
 	huisbaasje? ( ~dev-python/energyflip-client-0.2.2 )
-	hunterdouglas-powerview? ( ~dev-python/aiopvapi-3.4.0 )
-	husqvarna-automower-ble? ( ~dev-python/automower-ble-0.2.9 ~dev-python/gardena-bluetooth-2.8.1 )
-	husqvarna-automower? ( ~dev-python/aioautomower-2.7.6 )
+	hunterdouglas-powerview? ( ~dev-python/aiopvapi-3.4.1 )
+	husqvarna-automower-ble? ( ~dev-python/automower-ble-0.2.9 ~dev-python/gardena-bluetooth-2.10.1 )
+	husqvarna-automower? ( ~dev-python/aioautomower-2.8.1 )
 	huum? ( ~dev-python/huum-0.8.2 )
 	hvv-departures? ( ~dev-python/pygti-1.1.1 )
 	hydrawise? ( ~dev-python/pydrawise-2026.7.0 )
@@ -586,19 +591,19 @@ RDEPEND="${RDEPEND}
 	imap? ( ~dev-python/aioimaplib-2.0.1 )
 	imeon-inverter? ( ~dev-python/imeon-inverter-api-0.4.0 )
 	imgw-pib? ( ~dev-python/imgw-pib-2.5.1 )
-	immich? ( ~dev-python/aioimmich-0.16.1 )
-	imou? ( ~dev-python/pyimouapi-1.3.0 )
+	immich? ( ~dev-python/aioimmich-0.17.0 )
+	imou? ( ~dev-python/pyimouapi-1.3.4 )
 	improv-ble? ( ~dev-python/py-improv-ble-client-2.0.1 )
-	incomfort? ( ~dev-python/incomfort-client-0.7.0 )
-	indevolt? ( ~dev-python/indevolt-api-1.8.6 )
+	incomfort? ( ~dev-python/incomfort-client-0.7.1 )
+	indevolt? ( ~dev-python/indevolt-api-1.8.8 )
 	inels? ( ~dev-python/elkoep-aio-mqtt-0.1.0_beta4 )
 	influxdb? ( ~dev-python/influxdb-client-1.50.0 ~dev-python/influxdb-5.3.2 )
-	infrared? ( ~dev-python/infrared-protocols-8.2.1 )
+	infrared? ( ~dev-python/infrared-protocols-9.0.0 )
 	inkbird? ( ~dev-python/inkbird-ble-1.4.4 )
 	insteon? ( ~dev-python/insteon-frontend-home-assistant-0.6.2 ~dev-python/pyinsteon-1.6.4 )
-	intelliclima? ( ~dev-python/pyintelliclima-0.4.0 )
+	intelliclima? ( ~dev-python/pyintelliclima-0.4.1 )
 	intellifire? ( ~dev-python/intellifire4py-4.5.0 )
-	intesishome? ( ~dev-python/pyintesishome-2.0.3 )
+	intesishome? ( ~dev-python/pyintesishome-2.5.0 )
 	iometer? ( ~dev-python/iometer-1.0.2 )
 	iotawatt? ( ~dev-python/ha-iotawattpy-0.2.1 )
 	iotty? ( ~dev-python/iottycloud-0.3.0 )
@@ -610,6 +615,7 @@ RDEPEND="${RDEPEND}
 	irm-kmi? ( ~dev-python/irm-kmi-api-1.1.1 )
 	iron-os? ( ~dev-python/pynecil-4.2.1 )
 	isal? ( ~dev-python/isal-1.8.0 )
+	iseo-argo-ble? ( ~dev-python/iseo-argo-ble-0.5.3 )
 	iskra? ( ~dev-python/pyiskra-0.1.29 )
 	islamic-prayer-times? ( ~dev-python/prayer-times-calculator-offline-1.0.3 )
 	israel-rail? ( ~dev-python/israel-rail-api-0.1.5 )
@@ -618,7 +624,7 @@ RDEPEND="${RDEPEND}
 	isy994? ( ~dev-python/pyisy-3.7.0 )
 	itach? ( ~dev-python/pyitachip2ir2-0.0.8 )
 	ituran? ( ~dev-python/pyituran-0.1.6 )
-	izone? ( ~dev-python/python-izone-1.3.9 )
+	izone? ( ~dev-python/python-izone-1.3.10 )
 	jellyfin? ( ~dev-python/jellyfin-apiclient-python-1.16.0 )
 	jewish-calendar? ( ~dev-python/hdate-1.2.1[astral] )
 	joaoapps-join? ( ~dev-python/python-join-api-0.1.1 )
@@ -631,14 +637,14 @@ RDEPEND="${RDEPEND}
 	keenetic-ndms2? ( ~dev-python/ndms2-client-0.1.2 )
 	kef? ( ~dev-python/aiokef-0.2.16 ~dev-python/getmac-0.9.5 )
 	kegtron? ( ~dev-python/kegtron-ble-1.0.2 )
-	keyboard-remote? ( ~dev-python/asyncinotify-4.4.4 ~dev-python/evohome-async-2.0.1 )
+	keyboard-remote? ( ~dev-python/asyncinotify-4.4.4 ~dev-python/evohome-async-2.1.0 )
 	keymitt-ble? ( ~dev-python/pymicrobot-0.0.23 )
 	kiosker? ( ~dev-python/kiosker-python-api-1.2.9 )
 	kira? ( ~dev-python/pykira-0.1.1 )
 	kiwi? ( ~dev-python/kiwiki-client-0.1.2 )
 	kmtronic? ( ~dev-python/pykmtronic-0.3.0 )
 	knocki? ( ~dev-python/knocki-0.4.2 )
-	knx? ( ~dev-python/knx-frontend-2026.8.2.133643 ~dev-python/knx-telegram-store-0.11.2[sqlite,postgres] ~dev-python/xknx-3.18.0 ~dev-python/xknxproject-3.10.0 )
+	knx? ( ~dev-python/knx-frontend-2026.8.28.62336 ~dev-python/knx-telegram-store-0.11.2[sqlite,postgres] ~dev-python/xknx-3.20.0 ~dev-python/xknxproject-3.10.0 )
 	kodi? ( ~dev-python/pykodi-0.2.7 )
 	kostal-plenticore? ( ~dev-python/pykoplenti-1.5.0 )
 	kraken? ( ~dev-python/krakenex-2.2.2 ~dev-python/pykrakenapi-0.1.9 )
@@ -653,9 +659,9 @@ RDEPEND="${RDEPEND}
 	launch-library? ( ~dev-python/pylaunches-2.0.0 )
 	laundrify? ( ~dev-python/laundrify-aio-1.2.2 )
 	lcn? ( ~dev-python/lcn-frontend-0.2.9 ~dev-python/pypck-0.9.13 )
-	ld2410-ble? ( ~dev-python/bluetooth-data-tools-1.29.18 ~dev-python/ld2410-ble-0.1.1 )
+	ld2410-ble? ( ~dev-python/bluetooth-data-tools-1.29.24 ~dev-python/ld2410-ble-0.1.1 )
 	leaone? ( ~dev-python/leaone-ble-0.3.0 )
-	led-ble? ( ~dev-python/bluetooth-data-tools-1.29.18 ~dev-python/led-ble-1.1.11 )
+	led-ble? ( ~dev-python/bluetooth-data-tools-1.29.24 ~dev-python/led-ble-1.1.11 )
 	lektrico? ( ~dev-python/lektricowifi-0.1 )
 	letpot? ( ~dev-python/letpot-0.7.0 )
 	lg-netcast? ( ~dev-python/pylgnetcast-0.3.9 )
@@ -663,6 +669,7 @@ RDEPEND="${RDEPEND}
 	lg-thinq? ( ~dev-python/thinqconnect-1.0.13 )
 	lg-tv-rs232? ( ~dev-python/lg-rs232-tv-1.2.0 )
 	libre-hardware-monitor? ( ~dev-python/librehardwaremonitor-api-1.11.1 )
+	librenms? ( ~dev-python/aiolibrenms-0.0.3 )
 	lichess? ( ~dev-python/aiolichess-1.3.0 )
 	lidarr? ( ~dev-python/aiopyarr-23.4.0 )
 	liebherr? ( ~dev-python/pyliebherrhomeapi-0.5.1 )
@@ -674,30 +681,30 @@ RDEPEND="${RDEPEND}
 	linux-battery? ( ~dev-python/batinfo-0.4.2 )
 	litejet? ( ~dev-python/pylitejet-0.6.3 )
 	litellm? ( ~dev-python/openai-2.45.0 )
-	litterrobot? ( ~dev-python/pylitterbot-2025.5.0 )
+	litterrobot? ( ~dev-python/pylitterbot-2025.6.4 )
 	livisi? ( ~dev-python/livisi-0.0.25 )
 	llama-cpp? ( ~dev-python/openai-2.45.0 )
-	local-calendar? ( ~dev-python/ical-14.0.1 )
-	local-todo? ( ~dev-python/ical-14.0.1 )
+	local-calendar? ( ~dev-python/ical-14.1.1 )
+	local-todo? ( ~dev-python/ical-14.1.1 )
 	lojack? ( ~dev-python/lojack-api-0.7.2 )
 	london-underground? ( ~dev-python/london-tube-status-0.7 )
 	lookin? ( ~dev-python/aiolookin-1.0.0 )
 	loqed? ( ~dev-python/loqedapi-2.1.11 )
 	luci? ( ~dev-python/openwrt-luci-rpc-1.1.17 )
 	luftdaten? ( ~dev-python/luftdaten-0.7.4 )
-	lunatone? ( ~dev-python/lunatone-rest-api-client-0.9.2 )
+	lunatone? ( ~dev-python/lunatone-rest-api-client-0.10.0 )
 	lupusec? ( ~dev-python/lupupy-0.3.2 )
 	lutron-caseta? ( ~dev-python/pylutron-caseta-0.29.0 )
 	lutron? ( ~dev-python/pylutron-0.4.2 )
 	lw12wifi? ( ~dev-python/lw12-0.9.2 )
-	lyngdorf? ( ~dev-python/lyngdorf-1.4.4 )
-	lyric? ( ~dev-python/aiolyric-2.1.1 )
+	lyngdorf? ( ~dev-python/lyngdorf-1.10.0 )
+	lyric? ( ~dev-python/aiolyric-2.1.2 )
 	madvr? ( ~dev-python/py-madvr2-1.6.40 )
 	mailgun? ( ~dev-python/pymailgunner-1.4 )
 	marytts? ( ~dev-python/speak2mary-1.4.0 )
 	mastodon? ( ~dev-python/mastodon-py-2.2.1 )
-	matrix? ( ~dev-python/pillow-12.3.0 ~dev-python/aiofiles-24.1.0 ~dev-python/matrix-nio-0.26.0 )
-	matter? ( ~dev-python/matter-ble-proxy-0.7.1 ~dev-python/matter-python-client-1.3.0 )
+	matrix? ( ~dev-python/pillow-12.3.0 ~dev-python/aiofiles-25.1.0 ~dev-python/matrix-nio-0.26.0 )
+	matter? ( ~dev-python/matter-ble-proxy-0.7.1 ~dev-python/matter-python-client-1.4.0 )
 	maxcube? ( ~dev-python/maxcube-api-0.4.3 )
 	mcp? ( ~dev-python/mcp-1.26.0 )
 	mcp-server? ( ~dev-python/aiohttp-sse-2.2.0 ~dev-python/anyio-4.13.0 ~dev-python/mcp-1.26.0 )
@@ -721,23 +728,23 @@ RDEPEND="${RDEPEND}
 	mfi? ( ~dev-python/mficlient-0.5.0 )
 	microbees? ( ~dev-python/microbeespy-0.3.5 )
 	microsoft? ( ~dev-python/pycsspeechtts-1.0.8 )
-	midea? ( ~dev-python/midea-local-6.11.1 )
+	midea? ( ~dev-python/midea-local-10.1.0 )
 	miele? ( ~dev-python/pymiele-0.6.2 )
 	mikrotik? ( ~dev-python/librouteros-4.1.1 )
 	mill? ( ~dev-python/mill-local-0.5.0 ~dev-python/millheater-0.14.1 )
 	minecraft-server? ( ~dev-python/mcstatus-13.1.0 )
 	minio? ( ~dev-python/minio-7.1.12 )
-	mitsubishi-comfort? ( ~dev-python/mitsubishi-comfort-0.5.1 )
+	mitsubishi-comfort? ( ~dev-python/mitsubishi-comfort-0.5.2 )
 	moat? ( ~dev-python/moat-ble-0.1.1 )
 	mobile-app? ( ~dev-python/pynacl-1.6.2 )
 	mochad? ( ~dev-python/pymochad-0.2.0 )
-	modbus? ( ~dev-python/pymodbus-3.13.1 )
+	modbus? ( ~dev-python/modbus-connection-4.10.0[tmodbus] ~dev-python/pymodbus-3.13.1 ~dev-python/tmodbus-0.6.2 )
 	modem-callerid? ( ~dev-python/phone-modem-0.1.1 )
-	modern-forms? ( ~dev-python/aiomodernforms-0.1.8 )
+	modern-forms? ( ~dev-python/aiomodernforms-0.2.0 )
 	moehlenhoff-alpha2? ( ~dev-python/moehlenhoff-alpha2-1.4.0 )
-	monarch-money? ( ~dev-python/monarchmoneycommunity-1.5.1 )
+	monarch-money? ( ~dev-python/monarchmoneycommunity-1.5.2 )
 	monoprice? ( ~dev-python/pymonoprice-0.6.1 )
-	monzo? ( ~dev-python/monzopy-1.6.0 )
+	monzo? ( ~dev-python/monzopy-1.8.0 )
 	mopeka? ( ~dev-python/mopeka-iot-ble-0.8.0 )
 	motionblinds-ble? ( ~dev-python/motionblindsble-0.1.3 )
 	motion-blinds? ( ~dev-python/motionblinds-0.6.30 )
@@ -745,44 +752,45 @@ RDEPEND="${RDEPEND}
 	motionmount? ( ~dev-python/python-motionmount-2.3.0 )
 	mpd? ( ~dev-python/python-mpd2-3.1.1 )
 	mqtt? ( ~dev-python/paho-mqtt-2.1.0 )
-	mta? ( ~dev-python/py-nymta-0.4.0 )
+	mta? ( ~dev-python/py-nymta-0.4.1 )
 	mullvad? ( ~dev-python/mullvad-api-1.0.0 )
-	music-assistant? ( ~dev-python/music-assistant-client-1.4.3 )
+	music-assistant? ( ~dev-python/music-assistant-client-1.5.1 )
 	mutesync? ( ~dev-python/mutesync-0.0.1 )
-	mvglive? ( ~dev-python/mvg-1.4.0 )
+	mvglive? ( ~dev-python/mvg-1.6.0 )
 	myneomitis? ( ~dev-python/pyaxencoapi-1.0.7 )
 	mysensors? ( ~dev-python/pymysensors-0.26.0 )
 	mystrom? ( ~dev-python/python-mystrom-2.5.0 )
 	mythicbeastsdns? ( ~dev-python/mbddns-0.1.2 )
 	myuplink? ( ~dev-python/myuplink-0.7.0 )
-	nad? ( ~dev-python/nad-receiver-0.3.0 )
-	nam? ( ~dev-python/nettigo-air-monitor-5.0.0 )
+	nad? ( ~dev-python/nad-receiver-0.4.0 )
+	nam? ( ~dev-python/nettigo-air-monitor-5.1.0 )
 	nanoleaf? ( ~dev-python/aionanoleaf2-1.0.2 )
 	nasweb? ( ~dev-python/webio-api-0.1.12 )
 	neato? ( ~dev-python/pybotvac-0.0.29 )
 	nederlandse-spoorwegen? ( ~dev-python/nsapi-3.1.3 )
-	neopool? ( ~dev-python/neopool-modbus-4.5.1 )
+	neopool? ( ~dev-python/neopool-modbus-4.5.3 )
 	ness-alarm? ( ~dev-python/nessclient-1.3.1 )
-	nest? ( ~dev-python/google-nest-sdm-9.1.2 )
-	netatmo? ( ~dev-python/pyatmo-9.6.0 )
+	nest? ( ~dev-python/google-nest-sdm-9.2.1 )
+	netatmo? ( ~dev-python/pyatmo-9.9.0 )
 	netdata? ( ~dev-python/netdata-1.3.0 )
 	netgear-lte? ( ~dev-python/eternalegypt-0.0.18 )
 	netgear? ( ~dev-python/pynetgear-0.10.10 )
-	netio? ( ~dev-python/pynetio-0.1.9.1 )
+	netio? ( ~dev-python/netio-2.0.1 ~dev-python/pynetio-0.1.9.1 )
 	network? ( ~dev-python/ifaddr-0.2.0 )
 	neurio-energy? ( ~dev-python/neurio-0.3.1 )
+	nexblue? ( ~dev-python/nexblue-api-0.1.3 )
 	nexia? ( ~dev-python/nexia-2.13.0 )
 	nextbus? ( ~dev-python/py-nextbusnext-2.3.0 )
 	nextcloud? ( ~dev-python/nextcloudmonitor-1.5.1 )
 	nextdns? ( ~dev-python/nextdns-5.0.1 )
 	nfandroidtv? ( ~dev-python/notifications-android-tv-0.1.5 )
-	nibe-heatpump? ( ~dev-python/nibe-2.22.0 )
-	nice-go? ( ~dev-python/nice-go-1.0.2 )
+	nibe-heatpump? ( ~dev-python/nibe-2.24.0 )
+	nice-go? ( ~dev-python/nice-go-1.0.3 )
 	nightscout? ( ~dev-python/py-nightscout-1.2.2 )
 	niko-home-control? ( ~dev-python/nhc-0.8.0 )
 	nilu? ( ~dev-python/niluclient-0.1.2 )
 	nina? ( ~dev-python/pynina-1.0.2 )
-	nintendo-parental-controls? ( ~dev-python/pynintendoauth-1.0.3 ~dev-python/pynintendoparental-2.5.0 )
+	nintendo-parental-controls? ( ~dev-python/pynintendoauth-1.0.3 ~dev-python/pynintendoparental-2.6.2 )
 	nissan-leaf? ( ~dev-python/pycarwings2-2.14 )
 	nmap-tracker? ( ~dev-python/aiooui-0.1.9 ~dev-python/getmac-0.9.5 ~dev-python/netmap-0.7.0.2 )
 	nmbs? ( ~dev-python/pyrail-0.4.1 )
@@ -823,7 +831,7 @@ RDEPEND="${RDEPEND}
 	openai-conversation? ( ~dev-python/openai-2.45.0 )
 	opendisplay? ( ~dev-python/py-opendisplay-7.15.0 )
 	openerz? ( ~dev-python/openerz-api-0.3.0 )
-	openevse? ( ~dev-python/python-openevse-http-1.0.1 )
+	openevse? ( ~dev-python/python-openevse-http-1.5.0 )
 	openexchangerates? ( ~dev-python/aioopenexchangerates-0.6.8 )
 	opengarage? ( ~dev-python/open-garage-0.2.0 )
 	openhome? ( ~dev-python/openhomedevice-2.2 )
@@ -836,7 +844,7 @@ RDEPEND="${RDEPEND}
 	openuv? ( ~dev-python/pyopenuv-2023.2.0 )
 	openweathermap? ( ~dev-python/pyopenweathermap-0.2.2 )
 	opnsense? ( ~dev-python/aiopnsense-1.0.10 )
-	opower? ( ~dev-python/opower-0.19.0 )
+	opower? ( ~dev-python/opower-0.20.0 )
 	opple? ( ~dev-python/pyoppleio-legacy-1.0.8 )
 	oralb? ( ~dev-python/oralb-ble-1.1.3 )
 	oru? ( ~dev-python/oru-0.1.11 )
@@ -858,7 +866,7 @@ RDEPEND="${RDEPEND}
 	panasonic-bluray? ( ~dev-python/panacotta-0.2 )
 	panasonic-viera? ( ~dev-python/panasonic-viera-0.4.4 )
 	paperless-ngx? ( ~dev-python/pypaperless-5.2.3 )
-	peblar? ( ~dev-python/peblar-0.5.1 )
+	peblar? ( ~dev-python/peblar-1.0.1 )
 	peco? ( ~dev-python/peco-0.1.2 )
 	pegel-online? ( ~dev-python/aiopegelonline-0.1.1 )
 	pencom? ( ~dev-python/pencompy-0.0.4 )
@@ -871,17 +879,17 @@ RDEPEND="${RDEPEND}
 	plaato? ( ~dev-python/pyplaato-0.0.19 )
 	playstation-network? ( ~dev-python/psnawp-3.0.3 ~dev-python/pyrate-limiter-4.4.0 )
 	plex? ( ~dev-python/plexapi-4.15.16 ~dev-python/plexauth-0.0.6 ~dev-python/plexwebsocket-0.0.14 )
-	plugwise? ( ~dev-python/plugwise-1.14.2 )
+	plugwise? ( ~dev-python/plugwise-1.14.6 )
 	pocketcasts? ( ~dev-python/pycketcasts-1.0.1 )
 	point? ( ~dev-python/pypoint-3.0.0 )
-	pooldose? ( ~dev-python/python-pooldose-0.9.6 )
+	pooldose? ( ~dev-python/python-pooldose-0.9.10 )
 	poolsense? ( ~dev-python/poolsense-0.0.8 )
-	portainer? ( ~dev-python/pyportainer-1.0.43 )
-	powerfox-local? ( ~dev-python/powerfox-2.1.1 )
-	powerfox? ( ~dev-python/powerfox-2.1.1 )
+	portainer? ( ~dev-python/pyportainer-1.0.45 )
+	powerfox-local? ( ~dev-python/powerfox-2.1.3 )
+	powerfox? ( ~dev-python/powerfox-2.1.3 )
 	powerwall? ( ~dev-python/tesla-powerwall-0.5.3 )
 	prana? ( ~dev-python/prana-api-client-0.12.0 )
-	private-ble-device? ( ~dev-python/bluetooth-data-tools-1.29.18 )
+	private-ble-device? ( ~dev-python/bluetooth-data-tools-1.29.24 )
 	probe-plus? ( ~dev-python/pyprobeplus-1.1.2 )
 	profiler? ( ~dev-python/guppy3-3.1.7 ~dev-python/objgraph-3.5.0 ~dev-python/pyprof2calltree-1.4.5 )
 	progettihwsw? ( ~dev-python/progettihwsw-0.1.3 )
@@ -903,7 +911,7 @@ RDEPEND="${RDEPEND}
 	pvoutput? ( ~dev-python/pvo-3.0.0 )
 	pvpc-hourly-pricing? ( ~dev-python/esios-api-4.4.0 )
 	pyload? ( ~dev-python/pyloadapi-2.1.0 )
-	python-script? ( ~dev-python/restrictedpython-8.1 )
+	python-script? ( ~dev-python/restrictedpython-8.5 )
 	qbittorrent? ( ~dev-python/qbittorrent-api-2026.5.1 )
 	qbus? ( ~dev-python/qbusmqttapi-1.5.1 )
 	qingping? ( ~dev-python/qingping-ble-1.1.5 )
@@ -922,26 +930,26 @@ RDEPEND="${RDEPEND}
 	radiotherm? ( ~dev-python/radiotherm-2.1.0 )
 	rainbird? ( ~dev-python/pyrainbird-6.5.0 )
 	raincloud? ( ~dev-python/raincloudy-0.0.7 )
-	rainforest-eagle? ( ~dev-python/aioeagle-1.1.0 ~dev-python/eagle100-0.1.1 )
+	rainforest-eagle? ( ~dev-python/aioeagle-1.1.1 ~dev-python/eagle100-0.1.1 )
 	rainforest-raven? ( ~dev-python/aioraven-0.7.1 )
 	rainmachine? ( ~dev-python/regenmaschine-2024.3.0 )
 	rapt-ble? ( ~dev-python/rapt-ble-0.1.2 )
 	raspyrfm? ( ~dev-python/raspyrfm-client-1.2.9 )
 	rdw? ( ~dev-python/vehicle-3.0.0 )
 	recollect-waste? ( ~dev-python/aiorecollect-2023.9.0 )
-	recorder? ( ~dev-python/sqlalchemy-2.0.51 ~dev-python/fnv-hash-fast-2.0.3 ~dev-python/psutil-home-assistant-0.0.1 )
+	recorder? ( ~dev-python/sqlalchemy-2.0.52 ~dev-python/fnv-hash-fast-2.0.3 ~dev-python/psutil-home-assistant-0.0.1 )
 	recswitch? ( ~dev-python/pyrecswitch-1.0.2 )
 	reddit? ( ~dev-python/praw-7.5.0 )
 	redgtech? ( ~dev-python/redgtech-api-0.1.38 )
 	refoss? ( ~dev-python/refoss-ha-1.2.5 )
 	rehlko? ( ~dev-python/aiokem-1.0.1 )
 	rejseplanen? ( ~dev-python/rjpl-0.3.6 )
-	remember-the-milk? ( ~dev-python/rtmapi-0.7.2 ~dev-python/httplib2-0.20.4 )
-	remote-calendar? ( ~dev-python/ical-14.0.1 )
+	remember-the-milk? ( ~dev-python/aiortm-0.20.0 )
+	remote-calendar? ( ~dev-python/ical-14.1.1 )
 	remote-rpi-gpio? ( ~dev-python/gpiozero-1.6.2 ~dev-python/pigpio-1.78 )
-	renault? ( ~dev-python/renault-api-0.5.12 )
+	renault? ( ~dev-python/renault-api-0.5.13 )
 	renson? ( ~dev-python/renson-endura-delta-1.7.2 )
-	reolink? ( ~dev-python/reolink-aio-0.21.8 )
+	reolink? ( ~dev-python/reolink-aio-0.21.14 )
 	repetier? ( ~dev-python/pyrepetierng-0.1.0 )
 	rest? ( ~dev-python/jsonpath-python-1.1.6 ~dev-python/xmltodict-1.0.4 )
 	rflink? ( ~dev-python/rflink-0.0.68 )
@@ -949,10 +957,10 @@ RDEPEND="${RDEPEND}
 	ridwell? ( ~dev-python/aioridwell-2025.9.0 )
 	ring? ( ~dev-python/ring-doorbell-0.9.14 )
 	ripple? ( ~dev-python/python-ripple-api-0.0.3 )
-	risco? ( ~dev-python/pyrisco-0.8.0 )
+	risco? ( ~dev-python/pyrisco-0.8.1 )
 	rituals-perfume-genie? ( ~dev-python/pyrituals-0.0.7 )
 	rmvtransport? ( ~dev-python/pyrmvtransport-0.3.3 )
-	roborock? ( ~dev-python/python-roborock-5.31.1 ~dev-python/vacuum-map-parser-roborock-0.1.5 )
+	roborock? ( ~dev-python/python-roborock-7.1.1 ~dev-python/vacuum-map-parser-roborock-0.1.5 )
 	rocketchat? ( ~dev-python/rocketchat-api-0.6.1 )
 	roku? ( ~dev-python/rokuecp-0.19.5 )
 	romy? ( ~dev-python/romy-0.0.10 )
@@ -963,21 +971,22 @@ RDEPEND="${RDEPEND}
 	rova? ( ~dev-python/rova-0.4.1 )
 	rpi-power? ( ~dev-python/rpi-bad-power-0.1.0 )
 	ruckus-unleashed? ( ~dev-python/aioruckus-0.46.3 )
-	russound-rio? ( ~dev-python/aiorussound-5.0.1 )
-	russound-rnet? ( ~dev-python/aiorussound-5.0.1 )
+	russound-rio? ( ~dev-python/aiorussound-5.0.2 )
+	russound-rnet? ( ~dev-python/aiorussound-5.0.2 )
 	ruuvi-gateway? ( ~dev-python/aioruuvigateway-0.1.0 )
 	ruuvitag-ble? ( ~dev-python/ruuvitag-ble-0.4.0 )
 	rympro? ( ~dev-python/pyrympro-0.0.9 )
 	sabnzbd? ( ~dev-python/pysabnzbd-1.1.1 )
 	saj? ( ~dev-python/pysaj-0.0.16 )
-	samsungtv? ( ~dev-python/async-upnp-client-0.47.1 ~dev-python/getmac-0.9.5 ~dev-python/samsungctl-0.7.1[websocket] ~dev-python/samsungtvws-3.0.5[async,encrypted] ~dev-python/wakeonlan-3.3.0 )
+	samsung-exlink? ( ~dev-python/samsung-exlink-1.1.0 )
+	samsungtv? ( ~dev-python/async-upnp-client-0.48.1 ~dev-python/getmac-0.9.5 ~dev-python/samsungctl-0.7.1[websocket] ~dev-python/samsungtvws-3.0.5[async,encrypted] ~dev-python/wakeonlan-3.3.0 )
 	sanix? ( ~dev-python/sanix-1.0.6 )
 	satel-integra? ( ~dev-python/satel-integra-1.3.1 )
 	saunum? ( ~dev-python/pysaunum-0.7.0 )
 	schlage? ( ~dev-python/pyschlage-2026.7.0 )
 	schluter? ( ~dev-python/py-schluter-0.1.7 )
 	scorpiontrack? ( ~dev-python/pyscorpiontrack-0.1.1 )
-	scrape? ( ~dev-python/beautifulsoup4-4.13.3 ~dev-python/lxml-6.1.1 )
+	scrape? ( ~dev-python/beautifulsoup4-4.13.3 ~dev-python/lxml-6.1.2 )
 	screenlogic? ( ~dev-python/screenlogicpy-0.10.2 )
 	season? ( ~dev-python/ephem-4.1.6 )
 	sendgrid? ( ~dev-python/sendgrid-6.8.2 )
@@ -990,7 +999,7 @@ RDEPEND="${RDEPEND}
 	sensoterra? ( ~dev-python/sensoterra-2.0.1 )
 	sentry? ( ~dev-python/sentry-sdk-2.48.0 )
 	senz? ( ~dev-python/pysenz-1.0.2 )
-	serial? ( ~dev-python/serialx-1.8.2 )
+	serial? ( ~dev-python/serialx-1.9.0 )
 	serial-pm? ( ~dev-python/pmsensor-0.4 )
 	sesame? ( ~dev-python/pysesame2-1.0.2 )
 	seven-segments? ( ~dev-python/pillow-12.3.0 )
@@ -998,21 +1007,22 @@ RDEPEND="${RDEPEND}
 	sfr-box? ( ~dev-python/sfrbox-api-0.1.1 )
 	sftp-storage? ( ~dev-python/asyncssh-2.21.0 )
 	sharkiq? ( ~dev-python/sharkiq-1.5.0 )
-	shelly? ( ~dev-python/aioshelly-13.29.0 )
+	shelly? ( ~dev-python/aioshelly-13.32.0 )
 	shodan? ( ~net-analyzer/shodan-1.28.0 )
 	sia? ( ~dev-python/pysiaalarm-3.2.2 )
 	sighthound? ( ~dev-python/pillow-12.3.0 ~dev-python/simplehound-0.3 )
 	signal-messenger? ( ~dev-python/pysignalclirestapi-0.3.25 )
+	silla-prism? ( ~dev-python/pysillaprism-0.2.0 )
 	simplefin? ( ~dev-python/simplefin4py-0.0.18 )
 	simplepush? ( ~dev-python/simplepush-2.2.3 )
-	simplisafe? ( ~dev-python/simplisafe-python-2024.1.0 )
+	simplisafe? ( ~dev-python/simplisafe-python-2026.6.0 )
 	sinch? ( ~dev-python/clx-sdk-xms-1.0.0 )
 	sisyphus? ( ~dev-python/sisyphus-control-3.1.4 )
 	skybeacon? ( ~dev-python/pygatt-4.0.5[GATTTOOL] )
 	skybell? ( ~dev-python/aioskybell-22.7.0 )
 	sky-hub? ( ~dev-python/pyskyqhub-0.1.4 )
 	sky-remote? ( ~dev-python/skyboxremote-0.0.6 )
-	slack? ( ~dev-python/aiofiles-24.1.0 ~dev-python/slack-sdk-3.33.4 )
+	slack? ( ~dev-python/aiofiles-25.1.0 ~dev-python/slack-sdk-3.33.4 )
 	sleepiq? ( ~dev-python/asyncsleepiq-1.7.1 )
 	slide-local? ( ~dev-python/goslide-api-0.7.4 )
 	slide? ( ~dev-python/goslide-api-0.7.4 )
@@ -1030,26 +1040,28 @@ RDEPEND="${RDEPEND}
 	snmp? ( ~dev-python/pysnmp-7.1.27 )
 	snoo? ( ~dev-python/python-snoo-0.8.3 )
 	snooz? ( ~dev-python/pysnooz-0.8.6 )
+	sofar? ( ~dev-python/sofar-modbus-0.5.0 )
 	solaredge-local? ( ~dev-python/solaredge-local-0.2.3 )
-	solaredge? ( ~dev-python/aiosolaredge-1.0.2 ~dev-python/solaredge-web-0.3.1 )
+	solaredge? ( ~dev-python/aiosolaredge-1.0.2 ~dev-python/solaredge-web-0.4.0 )
 	solarlog? ( ~dev-python/solarlog-cli-0.7.1 )
 	solarman? ( ~dev-python/solarman-opendata-0.0.3 )
 	solax? ( ~dev-python/solax-3.2.4 )
 	soma? ( ~dev-python/pysoma-0.0.12 )
-	somfy-mylink? ( ~dev-python/somfy-mylink-synergy-1.0.6 )
+	somfy-mylink? ( ~dev-python/pysomfymylink-1.0.0 )
 	sonarr? ( ~dev-python/aiopyarr-23.4.0 )
 	songpal? ( ~dev-python/python-songpal-0.16.2 )
-	sonos? ( =dev-python/defusedxml-0.7.1-r1 ~dev-python/soco-0.31.1 ~dev-python/sonos-websocket-0.2.0 )
+	sonos? ( =dev-python/defusedxml-0.7.1-r1 ~dev-python/soco-0.31.2 ~dev-python/sonos-websocket-0.2.0 )
 	sony-projector? ( ~dev-python/pysdcp-1 )
 	soundtouch? ( >=dev-python/libsoundtouch-0.8.0 )
 	spc? ( ~dev-python/pyspcwebgw-0.7.0 )
+	specialized-turbo? ( ~dev-python/specialized-turbo-0.8.2[cloud] )
 	speedtestdotnet? ( ~net-analyzer/speedtest-cli-2.1.3 )
 	splunk? ( ~dev-python/hass-splunk-0.1.4 )
 	spotify? ( ~dev-python/spotifyaio-2.0.2 )
-	sql? ( ~dev-python/sqlalchemy-2.0.51 ~dev-python/sqlparse-0.5.5 )
+	sql? ( ~dev-python/sqlalchemy-2.0.52 ~dev-python/sqlparse-0.5.5 )
 	squeezebox? ( ~dev-python/pysqueezebox-0.14.0 )
 	srp-energy? ( ~dev-python/srpenergy-1.3.8 )
-	ssdp? ( ~dev-python/async-upnp-client-0.47.1 )
+	ssdp? ( ~dev-python/async-upnp-client-0.48.1 )
 	starline? ( ~dev-python/starline-0.1.5 )
 	starlingbank? ( ~dev-python/starlingbank-3.2 )
 	starlink? ( ~dev-python/starlink-grpc-core-1.2.5 )
@@ -1057,7 +1069,7 @@ RDEPEND="${RDEPEND}
 	statsd? ( ~dev-python/statsd-3.2.1 )
 	steamist? ( ~dev-python/aiosteamist-1.0.1 ~dev-python/discovery30303-0.3.3 )
 	steam-online? ( ~dev-python/steamodd-5.0 )
-	stiebel-eltron? ( ~dev-python/pystiebeleltron-0.5.0 )
+	stiebel-eltron? ( ~dev-python/pystiebeleltron-0.7.0 )
 	stookwijzer? ( ~dev-python/stookwijzer-1.6.1 )
 	streamlabswater? ( ~dev-python/streamlabswater-1.0.1 )
 	stream? ( ~dev-python/pyturbojpeg-1.8.3 ~dev-python/av-17.0.1 ~dev-python/numpy-2.3.2 )
@@ -1070,8 +1082,8 @@ RDEPEND="${RDEPEND}
 	swiss-hydrological-data? ( ~dev-python/swisshydrodata-0.1.0 )
 	swiss-public-transport? ( ~dev-python/python-opendata-transport-0.5.0 )
 	switchbee? ( ~dev-python/pyswitchbee-1.8.3 )
-	switchbot-cloud? ( ~dev-python/switchbot-api-2.12.0 )
-	switchbot? ( ~dev-python/pyswitchbot-2.3.0 )
+	switchbot-cloud? ( ~dev-python/switchbot-api-2.13.0 )
+	switchbot? ( ~dev-python/pyswitchbot-2.4.1 )
 	switcher-kis? ( ~dev-python/aioswitcher-6.1.3 )
 	switchmate? ( ~dev-python/pyswitchmate-0.5.1 )
 	syncthing? ( ~dev-python/aiosyncthing-0.7.1 )
@@ -1090,7 +1102,7 @@ RDEPEND="${RDEPEND}
 	tapsaff? ( ~dev-python/tapsaff-0.2.1 )
 	tasmota? ( ~dev-python/hatasmota-0.10.1 )
 	tautulli? ( ~dev-python/pytautulli-23.1.1 )
-	technove? ( ~dev-python/python-technove-2.1.1 )
+	technove? ( ~dev-python/python-technove-2.1.3 )
 	ted5000? ( ~dev-python/xmltodict-1.0.4 )
 	tedee? ( ~dev-python/aiotedee-0.3.0 )
 	telegram-bot? ( ~dev-python/python-telegram-bot-22.7[socks] )
@@ -1099,10 +1111,10 @@ RDEPEND="${RDEPEND}
 	tellstick? ( ~dev-python/tellcore-net-0.4 ~dev-python/tellcore-py-1.1.3 )
 	teltonika? ( ~dev-python/teltasync-0.4.0 )
 	temper? ( ~dev-python/temperusb-1.6.1 )
-	tesla-fleet? ( ~dev-python/tesla-fleet-api-1.7.6 )
+	tesla-fleet? ( ~dev-python/tesla-fleet-api-1.10.0 )
 	tesla-wall-connector? ( ~dev-python/tesla-wall-connector-1.2.0 )
-	teslemetry? ( ~dev-python/tesla-fleet-api-1.7.6 ~dev-python/teslemetry-stream-0.9.2 )
-	tessie? ( ~dev-python/tesla-fleet-api-1.7.6 ~dev-python/tessie-api-0.1.3 )
+	teslemetry? ( ~dev-python/tesla-fleet-api-1.10.0 ~dev-python/teslemetry-stream-0.10.0 )
+	tessie? ( ~dev-python/tesla-fleet-api-1.10.0 ~dev-python/tessie-api-0.1.3 )
 	thermobeacon? ( ~dev-python/thermobeacon-ble-0.10.0 )
 	thermopro? ( ~dev-python/thermopro-ble-1.1.4 )
 	thethingsnetwork? ( ~dev-python/ttn-client-1.3.0 )
@@ -1115,9 +1127,10 @@ RDEPEND="${RDEPEND}
 	tilt-pi? ( ~dev-python/tilt-pi-0.2.1 )
 	tmb? ( ~dev-python/tmb-0.0.4 )
 	todoist? ( ~dev-python/todoist-api-python-3.1.0 )
-	togrill? ( ~dev-python/togrill-bluetooth-0.8.1 )
+	togrill? ( ~dev-python/togrill-bluetooth-0.9.0 )
 	tolo? ( ~dev-python/tololib-1.2.2 )
 	tomorrowio? ( ~dev-python/pytomorrowio-0.3.6 )
+	tonewinner? ( ~dev-python/tonewinner-rs232-1.1.0 )
 	toon? ( ~dev-python/toonapi-0.3.0 )
 	totalconnect? ( ~dev-python/total-connect-client-2026.7 )
 	touchline? ( ~dev-python/pytouchline-extended-0.4.5 )
@@ -1128,10 +1141,10 @@ RDEPEND="${RDEPEND}
 	traccar-server? ( ~dev-python/pytraccar-3.0.0 )
 	tractive? ( ~dev-python/aiotractive-1.0.3 )
 	tradfri? ( ~dev-python/pytradfri-9.0.1[async] )
-	trafikverket-camera? ( ~dev-python/pytrafikverket-1.1.1 )
-	trafikverket-ferry? ( ~dev-python/pytrafikverket-1.1.1 )
-	trafikverket-train? ( ~dev-python/pytrafikverket-1.1.1 )
-	trafikverket-weatherstation? ( ~dev-python/pytrafikverket-1.1.1 )
+	trafikverket-camera? ( ~dev-python/pytrafikverket-2.0.0 )
+	trafikverket-ferry? ( ~dev-python/pytrafikverket-2.0.0 )
+	trafikverket-train? ( ~dev-python/pytrafikverket-2.0.0 )
+	trafikverket-weatherstation? ( ~dev-python/pytrafikverket-2.0.0 )
 	trane? ( ~dev-python/steamloop-1.2.1 )
 	transmission? ( ~dev-python/transmission-rpc-7.0.3 )
 	transport-nsw? ( ~dev-python/pytransportnsw-0.1.1 )
@@ -1140,32 +1153,32 @@ RDEPEND="${RDEPEND}
 	triggercmd? ( ~dev-python/triggercmd-0.0.36 )
 	trmnl? ( ~dev-python/trmnl-0.1.1 )
 	tts? ( ~media-libs/mutagen-1.48.1 )
-	tuya? ( ~dev-python/tuya-device-handlers-0.0.26 ~dev-python/tuya-device-sharing-sdk-0.2.14 )
+	tuya? ( ~dev-python/tuya-device-handlers-0.0.27 ~dev-python/tuya-device-sharing-sdk-0.2.15 )
 	twentemilieu? ( ~dev-python/twentemilieu-3.0.0 )
 	twilio? ( ~dev-python/twilio-6.32.0 )
-	twinkly? ( ~dev-python/ttls-1.8.3 )
+	twinkly? ( ~dev-python/ttls-1.11.1 )
 	twitch? ( ~dev-python/twitchapi-4.2.1 )
 	twitter? ( ~dev-python/twitterapi-2.7.12 )
 	ubus? ( ~dev-python/openwrt-ubus-rpc-0.0.3 )
 	uhoo? ( ~dev-python/uhooapi-1.2.8 )
 	ukraine-alarm? ( ~dev-python/uasiren-0.0.1 )
-	unifi-access? ( ~dev-python/py-unifi-access-1.3.0 )
+	unifi-access? ( ~dev-python/py-unifi-access-1.6.1 )
 	unifi-direct? ( ~dev-python/unifi-ap-0.0.2 )
 	unifi-discovery? ( ~dev-python/unifi-discovery-1.5.0 )
-	unifi? ( ~dev-python/aiounifi-91 )
-	unifiprotect? ( ~dev-python/uiprotect-15.14.2 )
+	unifi? ( ~dev-python/aiounifi-95 )
+	unifiprotect? ( ~dev-python/uiprotect-16.1.0 )
 	upb? ( ~dev-python/upb-lib-0.7.2 )
 	upc-connect? ( ~dev-python/connect-box-0.3.1 )
 	upcloud? ( ~dev-python/upcloud-api-2.9.0 )
-	upnp? ( ~dev-python/async-upnp-client-0.47.1 ~dev-python/getmac-0.9.5 )
-	uptime-kuma? ( ~dev-python/pythonkuma-0.5.1 )
+	upnp? ( ~dev-python/async-upnp-client-0.48.1 ~dev-python/getmac-0.9.5 )
+	uptime-kuma? ( ~dev-python/pythonkuma-0.5.2 )
 	uptimerobot? ( ~dev-python/pyuptimerobot-25.0.0 )
-	usb? ( ~dev-python/aiousbwatcher-1.1.2 ~dev-python/serialx-1.8.2 )
+	usb? ( ~dev-python/aiousbwatcher-1.1.2 ~dev-python/serialx-1.9.0 )
 	usgs-earthquakes-feed? ( ~dev-python/aio-geojson-usgs-earthquakes-0.3 )
 	utility-meter? ( ~dev-python/cronsim-2.7 )
 	uvc? ( ~dev-python/uvcclient-0.12.1 )
 	v2c? ( ~dev-python/pytrydan-1.0.5 )
-	vallox? ( ~dev-python/vallox-websocket-api-6.0.0 )
+	vallox? ( ~dev-python/vallox-websocket-api-6.1.0 )
 	vasttrafik? ( ~dev-python/vtjp-0.2.1 )
 	vegehub? ( ~dev-python/vegehub-0.1.26 )
 	velbus? ( ~dev-python/velbus-aio-2026.7.2 )
@@ -1177,27 +1190,26 @@ RDEPEND="${RDEPEND}
 	version? ( ~dev-python/pyhaversion-22.8.0 )
 	vesync? ( ~dev-python/pyvesync-3.4.2 )
 	viaggiatreno? ( ~dev-python/viaggiatreno-ha-0.2.4 )
-	vicare? ( ~dev-python/pyvicare-2.61.0 )
+	vicare? ( ~dev-python/pyvicare-2.62.0 )
 	victron-ble? ( ~dev-python/victron-ble-ha-parser-0.7.0 )
-	victron-gx? ( ~dev-python/victron-mqtt-2026.7.6 )
+	victron-gx? ( ~dev-python/victron-mqtt-2026.8.4 )
 	victron-remote-monitoring? ( ~dev-python/victron-vrm-0.1.12 )
 	vilfo? ( ~dev-python/vilfo-api-client-0.5.0 )
-	vistapool? ( ~dev-python/aioaquarite-0.6.1 )
+	vistapool? ( ~dev-python/aioaquarite-0.8.0 )
 	vivotek? ( ~dev-python/libpyvivotek-0.6.1 )
-	vizio? ( ~dev-python/vizaio-0.3.2 )
-	vlc? ( ~dev-python/python-vlc-3.0.18122 )
+	vizio? ( ~dev-python/vizaio-0.5.0 )
 	vlc-telnet? ( ~dev-python/aiovlc-0.5.1 )
-	vodafone-station? ( ~dev-python/aiovodafone-3.3.1 )
-	voip? ( ~dev-python/voip-utils-0.4.0 )
+	vodafone-station? ( ~dev-python/aiovodafone-3.3.2 )
+	voip? ( ~dev-python/voip-utils-0.4.3 )
 	volkszaehler? ( ~dev-python/volkszaehler-0.4.0 )
 	volumio? ( ~dev-python/pyvolumio-0.1.5 )
-	volvo? ( ~dev-python/volvocarsapi-0.4.3 )
+	volvo? ( ~dev-python/volvocarsapi-0.4.4 )
 	w800rf32? ( ~dev-python/pyw800rf32-0.4 )
 	wake-on-lan? ( ~dev-python/wakeonlan-3.3.0 )
 	wallbox? ( ~dev-python/wallbox-0.9.0 )
 	waqi? ( ~dev-python/aiowaqi-3.1.0 )
 	waterfurnace? ( ~dev-python/waterfurnace-1.7.1 )
-	watergate? ( ~dev-python/watergate-local-api-2025.1.0 )
+	watergate? ( ~dev-python/watergate-local-api-2026.2.2 )
 	watts? ( ~dev-python/visionpluspython-1.1.0 )
 	watttime? ( ~dev-python/aiowatttime-0.1.1 )
 	wattwaechter? ( ~dev-python/aio-wattwaechter-1.0.0 )
@@ -1207,13 +1219,13 @@ RDEPEND="${RDEPEND}
 	weatherkit? ( ~dev-python/apple-weatherkit-1.1.3 )
 	webdav? ( ~dev-python/aiowebdav2-0.6.2 )
 	webmin? ( ~dev-python/webmin-xmlrpc-0.0.2 )
-	webostv? ( ~dev-python/aiowebostv-0.9.1 )
+	webostv? ( ~dev-python/aiowebostv-0.10.0 )
 	weheat? ( ~dev-python/weheat-2026.4.8 )
 	wemo? ( ~dev-python/pywemo-1.4.0 )
 	whirlpool? ( ~dev-python/whirlpool-sixth-sense-1.3.1 )
-	whois? ( ~dev-python/whois-0.9.27 )
+	whois? ( ~dev-python/whoisdomain-2.20260806.3 )
 	wiffi? ( ~dev-python/wiffi-1.1.2 )
-	wiim? ( ~dev-python/wiim-0.1.6 )
+	wiim? ( ~dev-python/async-upnp-client-0.48.1 ~dev-python/wiim-0.1.7 )
 	wilight? ( ~dev-python/pywilight-0.0.74 )
 	wirelesstag? ( ~dev-python/wirelesstagpy-0.8.1 )
 	withings? ( ~dev-python/aiowithings-3.1.6 )
@@ -1221,27 +1233,27 @@ RDEPEND="${RDEPEND}
 	wled? ( ~dev-python/wled-0.23.0 )
 	wmspro? ( ~dev-python/pywmspro-0.4.2 )
 	wolflink? ( ~dev-python/wolf-comm-0.0.52 )
-	workday? ( ~dev-python/holidays-0.101 )
+	workday? ( ~dev-python/holidays-0.103 )
 	ws66i? ( ~dev-python/pyws66i-1.1 )
 	wsdot? ( ~dev-python/wsdot-0.0.1 )
 	wyoming? ( ~dev-python/wyoming-1.10.0 )
-	xbox? ( ~dev-python/python-xbox-0.2.0 )
+	xbox? ( ~dev-python/python-xbox-0.2.1 )
 	xeoma? ( ~dev-python/pyxeoma-1.4.2 )
 	xiaomi-aqara? ( ~dev-python/pyxiaomigateway-0.14.3 )
-	xiaomi-ble? ( ~dev-python/xiaomi-ble-1.11.0 )
+	xiaomi-ble? ( ~dev-python/xiaomi-ble-1.16.0 )
 	xiaomi-miio? ( ~dev-python/construct-2.10.68 ~dev-python/micloud-0.5 ~dev-python/python-miio-0.5.12 )
 	xiaomi-tv? ( ~dev-python/pymitv-1.4.3 )
-	xmpp? ( ~dev-python/emoji-2.8.0 ~dev-python/slixmpp-1.13.2 )
+	xmpp? ( ~dev-python/emoji-2.8.0 ~dev-python/slixmpp-1.17.0 )
 	xs1? ( ~dev-python/xs1-api-client-3.0.0 )
 	xthings-cloud? ( ~dev-python/ha-xthings-cloud-1.0.5 )
-	yale? ( ~dev-python/yalexs-ble-3.3.1 ~dev-python/yalexs-9.2.10 )
+	yale? ( ~dev-python/yalexs-ble-4.0.1 ~dev-python/yalexs-9.2.13 )
 	yale-smart-alarm? ( ~dev-python/yalesmartalarmclient-0.4.3 )
-	yalexs-ble? ( ~dev-python/yalexs-ble-3.3.1 )
+	yalexs-ble? ( ~dev-python/yalexs-ble-4.0.1 )
 	yamaha? ( ~dev-python/rxv-0.7.0 )
 	yamaha-musiccast? ( ~dev-python/aiomusiccast-0.15.0 )
 	yandex-transport? ( ~dev-python/aioymaps-1.2.5 )
-	yardian? ( ~dev-python/pyyardian-1.4.1 )
-	yeelight? ( ~dev-python/async-upnp-client-0.47.1 ~dev-python/yeelight-0.7.16 )
+	yardian? ( ~dev-python/pyyardian-1.4.2 )
+	yeelight? ( ~dev-python/async-upnp-client-0.48.1 ~dev-python/yeelight-0.7.16 )
 	yeelightsunflower? ( ~dev-python/yeelightsunflower-0.0.10 )
 	yi? ( ~dev-python/aioftp-0.21.3 )
 	yolink? ( ~dev-python/yolink-api-0.6.5 )
@@ -1250,17 +1262,17 @@ RDEPEND="${RDEPEND}
 	youtube? ( ~dev-python/youtubeaio-2.1.2 )
 	zabbix? ( ~dev-python/zabbix-utils-2.0.4 )
 	zamg? ( ~dev-python/zamg-0.4.1 )
-	zeroconf? ( ~dev-python/zeroconf-0.150.0 )
+	zeroconf? ( ~dev-python/zeroconf-0.151.1 )
 	zerproc? ( ~dev-python/pyzerproc-0.4.8 )
 	zestimate? ( ~dev-python/xmltodict-1.0.4 )
 	zeversolar? ( ~dev-python/zeversolar-0.3.2 )
-	zha? ( ~dev-python/zha-quirks-2.2.0 ~dev-python/zha-2.1.0 )
-	zhong-hong? ( ~dev-python/zhong-hong-hvac-1.0.13 )
+	zha? ( ~dev-python/zha-quirks-2.2.1 ~dev-python/zha-2.2.1 )
+	zhong-hong? ( ~dev-python/zhong-hong-hvac-1.0.19 )
 	ziggo-mediabox-xl? ( ~dev-python/ziggo-mediabox-xl-1.1.0 )
 	zimi? ( ~dev-python/zcc-helper-3.8 )
 	zinvolt? ( ~dev-python/zinvolt-1.0.0 )
 	zoneminder? ( ~dev-python/zm-py-0.5.4 )
-	zwave-js? ( ~dev-python/zwave-js-server-python-0.73.0 )
+	zwave-js? ( ~dev-python/zwave-js-server-python-0.73.1 )
 	zwave-me? ( ~dev-python/url-normalize-3.0.0 ~dev-python/zwave-me-ws-0.4.3 )
 "
 
@@ -1301,6 +1313,7 @@ src_prepare() {
 	use abode || rm -r "${WORKDIR}/${P}/homeassistant/components/abode/"
 	use acaia || rm -r "${WORKDIR}/${P}/homeassistant/components/acaia/"
 	use accuweather || rm -r "${WORKDIR}/${P}/homeassistant/components/accuweather/"
+	use acmeda || rm -r "${WORKDIR}/${P}/homeassistant/components/acmeda/"
 	use adax || rm -r "${WORKDIR}/${P}/homeassistant/components/adax/"
 	use adguard || rm -r "${WORKDIR}/${P}/homeassistant/components/adguard/"
 	use ads || rm -r "${WORKDIR}/${P}/homeassistant/components/ads/"
@@ -1357,6 +1370,7 @@ src_prepare() {
 	use baidu || rm -r "${WORKDIR}/${P}/homeassistant/components/baidu/"
 	use balboa || rm -r "${WORKDIR}/${P}/homeassistant/components/balboa/"
 	use bbox || rm -r "${WORKDIR}/${P}/homeassistant/components/bbox/"
+	use besen || rm -r "${WORKDIR}/${P}/homeassistant/components/besen/"
 	use bitcoin || rm -r "${WORKDIR}/${P}/homeassistant/components/bitcoin/"
 	use bizkaibus || rm -r "${WORKDIR}/${P}/homeassistant/components/bizkaibus/"
 	use blackbird || rm -r "${WORKDIR}/${P}/homeassistant/components/blackbird/"
@@ -1487,6 +1501,7 @@ src_prepare() {
 	use fixer || rm -r "${WORKDIR}/${P}/homeassistant/components/fixer/"
 	use fjaraskupan || rm -r "${WORKDIR}/${P}/homeassistant/components/fjaraskupan/"
 	use fleetgo || rm -r "${WORKDIR}/${P}/homeassistant/components/fleetgo/"
+	use flexit || rm -r "${WORKDIR}/${P}/homeassistant/components/flexit/"
 	use flic || rm -r "${WORKDIR}/${P}/homeassistant/components/flic/"
 	use flipr || rm -r "${WORKDIR}/${P}/homeassistant/components/flipr/"
 	use flo || rm -r "${WORKDIR}/${P}/homeassistant/components/flo/"
@@ -1550,6 +1565,8 @@ src_prepare() {
 	use homeworks || rm -r "${WORKDIR}/${P}/homeassistant/components/homeworks/"
 	use honeywell || rm -r "${WORKDIR}/${P}/homeassistant/components/honeywell/"
 	use horizon || rm -r "${WORKDIR}/${P}/homeassistant/components/horizon/"
+	use hortimax || rm -r "${WORKDIR}/${P}/homeassistant/components/hortimax/"
+	use hotspring || rm -r "${WORKDIR}/${P}/homeassistant/components/hotspring/"
 	use html5 || rm -r "${WORKDIR}/${P}/homeassistant/components/html5/"
 	use hue || rm -r "${WORKDIR}/${P}/homeassistant/components/hue/"
 	use huisbaasje || rm -r "${WORKDIR}/${P}/homeassistant/components/huisbaasje/"
@@ -1620,6 +1637,7 @@ src_prepare() {
 	use leaone || rm -r "${WORKDIR}/${P}/homeassistant/components/leaone/"
 	use lektrico || rm -r "${WORKDIR}/${P}/homeassistant/components/lektrico/"
 	use letpot || rm -r "${WORKDIR}/${P}/homeassistant/components/letpot/"
+	use librenms || rm -r "${WORKDIR}/${P}/homeassistant/components/librenms/"
 	use lichess || rm -r "${WORKDIR}/${P}/homeassistant/components/lichess/"
 	use lidarr || rm -r "${WORKDIR}/${P}/homeassistant/components/lidarr/"
 	use liebherr || rm -r "${WORKDIR}/${P}/homeassistant/components/liebherr/"
@@ -1700,6 +1718,7 @@ src_prepare() {
 	use netgear || rm -r "${WORKDIR}/${P}/homeassistant/components/netgear/"
 	use netio || rm -r "${WORKDIR}/${P}/homeassistant/components/netio/"
 	use network || rm -r "${WORKDIR}/${P}/homeassistant/components/network/"
+	use nexblue || rm -r "${WORKDIR}/${P}/homeassistant/components/nexblue/"
 	use nexia || rm -r "${WORKDIR}/${P}/homeassistant/components/nexia/"
 	use nextbus || rm -r "${WORKDIR}/${P}/homeassistant/components/nextbus/"
 	use nextcloud || rm -r "${WORKDIR}/${P}/homeassistant/components/nextcloud/"
@@ -1887,6 +1906,7 @@ src_prepare() {
 	use snmp || rm -r "${WORKDIR}/${P}/homeassistant/components/snmp/"
 	use snoo || rm -r "${WORKDIR}/${P}/homeassistant/components/snoo/"
 	use snooz || rm -r "${WORKDIR}/${P}/homeassistant/components/snooz/"
+	use sofar || rm -r "${WORKDIR}/${P}/homeassistant/components/sofar/"
 	use solaredge || rm -r "${WORKDIR}/${P}/homeassistant/components/solaredge/"
 	use solarlog || rm -r "${WORKDIR}/${P}/homeassistant/components/solarlog/"
 	use solarman || rm -r "${WORKDIR}/${P}/homeassistant/components/solarman/"
@@ -1954,6 +1974,7 @@ src_prepare() {
 	use togrill || rm -r "${WORKDIR}/${P}/homeassistant/components/togrill/"
 	use tolo || rm -r "${WORKDIR}/${P}/homeassistant/components/tolo/"
 	use tomorrowio || rm -r "${WORKDIR}/${P}/homeassistant/components/tomorrowio/"
+	use tonewinner || rm -r "${WORKDIR}/${P}/homeassistant/components/tonewinner/"
 	use toon || rm -r "${WORKDIR}/${P}/homeassistant/components/toon/"
 	use totalconnect || rm -r "${WORKDIR}/${P}/homeassistant/components/totalconnect/"
 	use touchline || rm -r "${WORKDIR}/${P}/homeassistant/components/touchline/"
@@ -2002,7 +2023,6 @@ src_prepare() {
 	use vistapool || rm -r "${WORKDIR}/${P}/homeassistant/components/vistapool/"
 	use vivotek || rm -r "${WORKDIR}/${P}/homeassistant/components/vivotek/"
 	use vizio || rm -r "${WORKDIR}/${P}/homeassistant/components/vizio/"
-	use vlc || rm -r "${WORKDIR}/${P}/homeassistant/components/vlc/"
 	use voip || rm -r "${WORKDIR}/${P}/homeassistant/components/voip/"
 	use volkszaehler || rm -r "${WORKDIR}/${P}/homeassistant/components/volkszaehler/"
 	use volumio || rm -r "${WORKDIR}/${P}/homeassistant/components/volumio/"

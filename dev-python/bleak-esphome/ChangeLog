@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*bleak-esphome-4.0.0 (31 Aug 2026)
+
+  31 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +bleak-esphome-4.0.0.ebuild:
+  app-misc/homeassistant 2026.9.0_beta3
+
   28 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -bleak-esphome-3.9.4.ebuild:
   app-misc/homeassistant 2026.7.4

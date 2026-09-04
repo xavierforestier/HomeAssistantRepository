@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*unicode-rbnf-2.4.0 (02 Sep 2026)
+
+  02 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +unicode-rbnf-2.4.0.ebuild:
+  app-misc/homeassistant 2026.9.0_beta3
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   unicode-rbnf-2.3.0.ebuild:
   Happy new year

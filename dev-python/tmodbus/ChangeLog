@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/tmodbus
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*tmodbus-0.6.2 (31 Aug 2026)
+
+  31 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +tmodbus-0.6.2.ebuild:
+  app-misc/homeassistant 2026.9.0_beta3
+

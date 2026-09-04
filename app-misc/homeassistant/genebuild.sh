@@ -243,7 +243,7 @@ if [ -n "${FETCH_METADATA}" ]; then
     <flag name="mariadb">mariadb</flag>
     <flag name="mosquitto">mosquitto</flag>
     <flag name="smarthab">smarthab</flag>
-    <falg name="socat"socat</flag>
+    <flag name="socat"socat</flag>
     <flag name="tesla">tesla</flag>
     <flag name="wink">wink</flag>
   </use>

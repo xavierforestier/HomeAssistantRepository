@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/aiortm
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*aiortm-0.20.0 (31 Aug 2026)
+
+  31 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +aiortm-0.20.0.ebuild, +metadata.xml:
+  app-misc/homeassistant 2026.9.0_beta3
+

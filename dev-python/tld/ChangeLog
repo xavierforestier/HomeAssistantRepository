@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/tld
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*tld-0.13.2 (02 Sep 2026)
+
+  02 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +tld-0.13.2.ebuild:
+  app-misc/homeassistant 2026.9.0_beta3
+

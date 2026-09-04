@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*esphome-device-builder-frontend-0.1.316 (29 Aug 2026)
+
+  29 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-device-builder-frontend-0.1.316.ebuild:
+  dev-embedded/esphome-device-builder 1.13.0
+
 *esphome-device-builder-frontend-0.1.255 (17 Jul 2026)
 
   17 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

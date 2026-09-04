@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/iseo-argo-ble
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*iseo-argo-ble-0.5.3 (03 Sep 2026)
+
+  03 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +iseo-argo-ble-0.5.3.ebuild, +metadata.xml:
+  app-misc/homeassistant 2026.9.0
+

@@ -2,6 +2,17 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  03 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  homeassistant-202609.ebuild:
+  app-misc/homeassistant 2026.9.0
+
+*homeassistant-202609 (02 Sep 2026)
+
+  02 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -homeassistant-202607.ebuild, homeassistant-202608.ebuild,
+  +homeassistant-202609.ebuild:
+  app-misc/homeassistant 2026.9.0_beta3
+
   15 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   homeassistant-202608.ebuild:
   fix: remove acmeda

@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*neopool-modbus-4.5.3 (02 Sep 2026)
+
+  02 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +neopool-modbus-4.5.3.ebuild:
+  app-misc/homeassistant 2026.9.0_beta3
+
 *neopool-modbus-4.5.1 (08 Aug 2026)
 
   08 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

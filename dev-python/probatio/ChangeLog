@@ -1,0 +1,16 @@
+# ChangeLog for dev-python/probatio
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*probatio-0.11.4 (03 Sep 2026)
+
+  03 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +probatio-0.11.4.ebuild:
+  app-misc/homeassistant 2026.9.0
+
+*probatio-0.11.3 (31 Aug 2026)
+
+  31 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +metadata.xml, +probatio-0.11.3.ebuild:
+  app-misc/homeassistant 2026.9.0_beta3
+

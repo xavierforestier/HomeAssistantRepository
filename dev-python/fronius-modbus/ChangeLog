@@ -1,0 +1,10 @@
+# ChangeLog for dev-python/fronius-modbus
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+*fronius-modbus-0.2.0 (31 Aug 2026)
+
+  31 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +fronius-modbus-0.2.0.ebuild, +metadata.xml:
+  app-misc/homeassistant 2026.9.0_beta3
+

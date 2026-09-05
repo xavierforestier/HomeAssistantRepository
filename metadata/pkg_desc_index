@@ -17,7 +17,7 @@ app-misc/zigbee2mqtt 2.12.1 2.13.0 2.14.0: It bridges events and allows you to c
 dev-cpp/abseil-cpp 20260526.0: Abseil Common Libraries (C++), LTS Branch
 dev-embedded/esphome 2026.8.0 2026.8.1 2026.8.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-dashboard 20260110.0 20260210.0 20260408.1 20260425.0: ESPHome dashboard
-dev-embedded/esphome-device-builder 1.6.2 1.13.0: ESPHome Device Builder Dashboard
+dev-embedded/esphome-device-builder 1.14.0: ESPHome Device Builder Dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0 5.3.1: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.19-r2: An open source ecosystem for IoT development
 dev-lang/dart 3.11.4: The Dart SDK
@@ -430,7 +430,7 @@ dev-python/epson-projector 0.6.0: Epson projector support for Python
 dev-python/eq3btsmart 2.3.0: Python library that allows interaction with eQ-3 Bluetooth smart thermostats.
 dev-python/esios-api 4.4.0: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/esphome-dashboard-api 1.4.0: API to interact with ESPHome Dashboard
-dev-python/esphome-device-builder-frontend 0.1.255 0.1.316: Prebuilt web frontend for the ESPHome Device Builder Dashboard
+dev-python/esphome-device-builder-frontend 0.1.320: Prebuilt web frontend for the ESPHome Device Builder Dashboard
 dev-python/esphome-glyphsets 0.2.0: A lightweight version of glyphsets for ESPHome
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/essent-dynamic-pricing 0.3.1: Async client for Essent dynamic energy prices
@@ -764,7 +764,7 @@ dev-python/mt940 4.30.0: Parserfor MT940 files and returns smart Python collecti
 dev-python/mullvad-api 1.0.0: Python wrapper around mullvad api
 dev-python/multivolumefile 0.2.3: multi volume file wrapper library
 dev-python/music-assistant-client 1.4.3 1.5.1: Music Assistant Client
-dev-python/music-assistant-models 1.1.70 1.1.89 1.1.115 1.1.139 1.1.152 1.1.189: Music Assistant Base Models
+dev-python/music-assistant-models 1.1.152 1.1.189: Music Assistant Base Models
 dev-python/mutesync 0.0.1: Asynchronous library to control mutesync devices.
 dev-python/mvg 1.4.0 1.6.0: Interface to timetable information of the Münchner Verkehrsgesellschaft (MVG).
 dev-python/mypermobil 0.1.8: A Python wrapper for the MyPermobil API

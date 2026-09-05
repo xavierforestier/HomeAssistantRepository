@@ -16,7 +16,7 @@ KEYWORDS="amd64 arm arm64 x86"
 DEPEND="
 	acct-group/esphome
 	acct-user/esphome
-	=dev-python/esphome-device-builder-frontend-0.1.255[${PYTHON_USEDEP}]
+	=dev-python/esphome-device-builder-frontend-0.1.320[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-asyncmdnsresolver-0.1.1[${PYTHON_USEDEP}]
 	>=dev-python/colorlog-6.8.0[${PYTHON_USEDEP}]

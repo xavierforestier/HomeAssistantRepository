@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  04 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -lyngdorf-1.4.4.ebuild:
+  app-misc/homeassistant 2026.9.0
+
 *lyngdorf-1.10.0 (02 Sep 2026)
 
   02 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

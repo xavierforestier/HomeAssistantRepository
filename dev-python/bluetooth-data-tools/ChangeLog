@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  04 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -bluetooth-data-tools-1.29.21.ebuild:
+  app-misc/homeassistant 2026.9.0
+
 *bluetooth-data-tools-1.29.24 (03 Sep 2026)
 
   03 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

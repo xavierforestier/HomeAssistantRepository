@@ -291,7 +291,7 @@
     <flag name="fjaraskupan">Fjäråskupan allows you to control your Bluetooth equipped kitchen fan.</flag>
     <flag name="fleetgo">The FleetGO integration allows you to integrate your vehicles equipped with FleetGO hardware into Home Assistant. It allows you to see certain details about your vehicle, but also shows your vehicle on the map.</flag>
     <flag name="flexit-bacnet">Integrates Flexit Nordic series air handling unit into Home Assistant.</flag>
-    <flag name="flexit">Integrates Flexit Air Conditioning unit into Home Assistant.</flag>
+    <flag name="flexit">The Flexit integration connects Flexit air handling units equipped with a CI66 Modbus adapter to Home Assistant.</flag>
     <flag name="flic">The Flic integration allows you to receive click events from flic smart buttons.</flag>
     <flag name="flipr">Go flipr company sells smart pool monitor and management devices. The Flipr and Flipr Hub devices publish data to the cloud via Wi-Fi and SigFox.This integration gives you also access to the Flipr Hub to control your pool equipments like pump, heater, and light.</flag>
     <flag name="flo">The Flo integration integratesFlo by Moen smart water shutoff valves into Home Assistant.</flag>
@@ -577,9 +577,9 @@
     <flag name="mfi">There is currently support for the following device types within Home Assistant:</flag>
     <flag name="microbees">The microBees integration allows you to control your microBees devices such as plugs and wall switches.To use this integration you need OAuth2 Client ID and Client Secret and your user credentials.</flag>
     <flag name="microsoft">The Microsoft text-to-speech integration uses the TTS engine of the Microsoft Speech Service to read a text with natural sounding voices. This integration uses an API that is part of the Cognitive Services offering and is known as the Microsoft Speech API. For this integration to work, you need a free API key. You can use your Azure subscription to create an Azure Speech resource.</flag>
-    <flag name="midea">The Midea integration lets you control devices with Midea protocol connected to various clouds.</flag>
+    <flag name="midea">The Midea integration lets you monitor and control home appliances that use the Midea protocol, communicating with them directly over your local network. Because Midea also manufactures appliances for many other brands, this integration works with rebranded devices that speak the same protocol, not only those sold as “Midea”.</flag>
     <flag name="miele">The Miele integration allows users to integrate their home appliances using the official 3rd party API.</flag>
-    <flag name="mikrotik">The MikroTik integration offers presence detection by looking at connected devices to a MikroTik RouterOS based router.</flag>
+    <flag name="mikrotik">The MikroTik integration offers presence detection and device management for MikroTik routers, switches, and Cloud Hosted Routers (CHR) running RouterOS.</flag>
     <flag name="mill">Integrates Mill heater into Home Assistant.</flag>
     <flag name="minecraft-server">Minecraft is a sandbox video game developed by Mojang Studios. Minecraft servers allow players to play the game online or via a local area network with other players. The Minecraft Server integration lets you retrieve information from a Minecraft server within Home Assistant. Both Java Edition and Bedrock Edition servers are supported.</flag>
     <flag name="minio">This integration adds interaction with Minio.It also enables listening for bucket notifications: see documentation</flag>
@@ -593,7 +593,7 @@
     <flag name="moehlenhoff-alpha2">The Möhlenhoff Alpha 2 integration allows you to control a Möhlenhoff Alpha 2</flag>
     <flag name="monarch-money">Monarch Money is a personal finance aggregation and budgeting service that integrates with Plaid, MX, and FinCity, the three major financial backends.</flag>
     <flag name="monoprice">The Monoprice 6-Zone Amplifier integration allows you to control Monoprice 6-Zone Amplifier using a serial connection.</flag>
-    <flag name="monzo">Monzo is a digital bank. The Monzo integration connects your Monzo accounts to Home Assistant, where you can monitor account and pot balances.</flag>
+    <flag name="monzo">Monzo is a digital bank. The Monzo integration connects your Monzo accounts to Home Assistant. You can monitor account and pot balances, track how much you have spent today, react to new transactions, and move money between an account and its pots.</flag>
     <flag name="mopeka">Integrates Mopeka devices into Home Assistant.</flag>
     <flag name="motionblinds-ble">This integration adds support for Motionblinds Bluetooth motors. Want to motorize your existing blinds? This can be done with Motionblinds motor CMD-03. Made-to-measure window coverings with Motionblinds are available through a worldwide reseller network.Beware that this integration does not work with Eve Motionblinds motors. Eve Motionblinds can be added to Home Assistant using the HomeKit Device integration or the Matter integration.</flag>
     <flag name="motion-blinds">The Motionblinds integration allows you to control Motionblinds from Coulisse B.V..</flag>
@@ -1022,7 +1022,7 @@
     <flag name="upnp">The UPnP/IGD integration enables you to collect network statistics from your router such as bytes in/out and packets in/out, uptime, WAN IP address, and WAN connectivity status. This information is provided by the UPnP/Internet Gateway Device (IGD) Protocol if enabled on your router.</flag>
     <flag name="uptime-kuma">The Uptime Kuma integration connects Home Assistant with your Uptime Kuma monitoring tool.</flag>
     <flag name="uptimerobot">The UptimeRobot integration provides entities to get the status for all of your monitors from your account on UptimeRobot.</flag>
-    <flag name="usb">The USB Discovery integration will detect newly connected USB devices. Discovered devices will show up in the discovered section on the integrations page in the configuration panel.</flag>
+    <flag name="usb">The USB Discovery integration detects supported USB devices that can be discovered by Home Assistant integrations. Devices that match a supported integration appear in the Discovered section on Settings &gt; Devices &amp; services.</flag>
     <flag name="usgs-earthquakes-feed">The U.S. Geological Survey Earthquake Hazards (USGS) integration lets you integrate a GeoJSON feed provided by the U.S. Geological Survey with information about seismic events like earthquakes. It retrieves incidents from a feed and shows information of those incidents filtered by distance to Home Assistant’s location.</flag>
     <flag name="utility-meter">The Utility Meter integration provides functionality to track consumptions of various utilities (e.g., energy, gas, water, heating).</flag>
     <flag name="uvc">The Ubiquiti UniFi Video integration allows you to integrate UniFi Video Camera (UVC) into Home Assistant.</flag>

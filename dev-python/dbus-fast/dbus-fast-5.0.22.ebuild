@@ -6,7 +6,7 @@ EAPI=8
 DISTUTILS_EXT=1
 DISTUTILS_USE_PEP517=poetry
 # TODO: freethreading compatible
-PYTHON_COMPAT=( python3_{11..14} )
+PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 virtualx
 
@@ -23,11 +23,12 @@ SRC_URI="
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 ~riscv"
-
+PATCHES="${FILESDIR}/${P}-fix-cpython-build.patch"
 BDEPEND="
 	>=dev-python/cython-3[${PYTHON_USEDEP}]
 	>=dev-python/setuptools-65.4.1[${PYTHON_USEDEP}]
 	test? (
+		dev-python/blockbuster[${PYTHON_USEDEP}]
 		>=dev-python/pycairo-1.21.0[${PYTHON_USEDEP}]
 		>=dev-python/pygobject-3.50[${PYTHON_USEDEP}]
 	)
@@ -40,7 +41,7 @@ export REQUIRE_CYTHON=1
 
 src_test() {
 	local dbus_params=(
-		"$(dbus-daemon --session --print-address --fork --print-pid)"
+		$(dbus-daemon --session --print-address --fork --print-pid)
 	)
 	local -x DBUS_SESSION_BUS_ADDRESS=${dbus_params[0]}
 

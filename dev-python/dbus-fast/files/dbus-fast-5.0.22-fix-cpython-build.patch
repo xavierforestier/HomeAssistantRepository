@@ -1,0 +1,51 @@
+--- a/src/dbus_fast/_private/marshaller.py	2026-09-18 07:18:23.715719682 +0200
++++ b/src/dbus_fast/_private/marshaller.py	2026-09-18 07:18:53.560212076 +0200
+@@ -106,7 +106,7 @@
+     ) -> int:
+         written = self._align(4)
+         # length placeholder
+-        buf: bytearray = self._buf
++        buf = self._buf
+         offset = len(buf)
+         written += self._align(4) + 4
+         buf += PACKED_UINT32_ZERO
+--- a/src/dbus_fast/_private/unmarshaller.old	2026-09-18 07:19:16.758543135 +0200
++++ b/src/dbus_fast/_private/unmarshaller.py	2026-09-18 07:20:49.000024484 +0200
+@@ -628,7 +628,7 @@
+         if cython.compiled:
+             if self._buf_len <= self._pos:
+                 raise IndexError("Not enough data to read signature")
+-        result: Variant | None = None
++        result = None
+         signature_len = self._buf_ustr[self._pos]
+         if signature_len == 1:
+             self._pos += 3  # 1 len byte + 1 signature char + 1 null terminator
+@@ -945,7 +945,7 @@
+         header_signature = header_fields[HEADER_SIGNATURE_IDX]
+         if not self._body_len:
+             tree = SIGNATURE_TREE_EMPTY
+-            body: list[Any] = []
++            body = []
+         elif type(header_signature) is not str or not header_signature:
+             # A non-empty body requires a valid signature header field
+             # (spec §4.1). A forged frame may omit it (None), send it empty, or
+@@ -955,7 +955,7 @@
+                 "message has a body but no valid signature header field"
+             )
+         else:
+-            signature: str = header_signature
++            signature = header_signature
+             token_as_int = ord(signature[0])
+             if len(signature) == 1:
+                 if token_as_int == TOKEN_O_AS_INT:
+--- a/src/dbus_fast/message_bus.py	2026-09-18 07:37:02.487202515 +0200
++++ b/src/dbus_fast/message_bus.py	2026-09-18 07:37:17.934307932 +0200
+@@ -952,7 +952,7 @@
+         return None
+ 
+     def _find_any_message_handler_matching_signature(
+-        self, interfaces: dict[str, ServiceInterface], msg: _Message
++        self, interfaces, msg: _Message
+     ) -> HandlerType | None:
+         # No interface, so we need to search all interfaces for the method
+         # with a matching signature

@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Contact your Guntamatic BMK heater and get operational status information"
 HOMEPAGE="https://github.com/JensTimmerman/guntamatic https://pypi.org/project/guntamatic"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

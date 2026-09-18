@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="An async implementation of PyAcaia"
 HOMEPAGE="https://pypi.org/project/aioacaia/ https://github.com/zweckj/aioacaia"
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

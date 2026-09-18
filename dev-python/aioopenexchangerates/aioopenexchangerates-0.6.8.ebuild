@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Fetch rates from openexchangerates with aiohttp."
+DESCRIPTION="Fetch rates from openexchangerates with aiohttp"
 HOMEPAGE="https://github.com/MartinHjelmare/aioopenexchangerates https://pypi.org/project/aioopenexchangerates/"
 
 LICENSE="Apache-2.0"

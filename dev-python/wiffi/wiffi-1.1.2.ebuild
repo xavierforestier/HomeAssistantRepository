@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python 3 package to interface devices from STALL WIFFI."
+DESCRIPTION="Python 3 package to interface devices from STALL WIFFI"
 HOMEPAGE="https://github.com/mampfes/python-wiffi https://pypi.org/project/wiffi/"
 
 LICENSE="MIT"

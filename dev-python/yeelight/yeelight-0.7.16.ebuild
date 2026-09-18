@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=flit
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python library for controlling YeeLight RGB bulbs."
+DESCRIPTION="A Python library for controlling YeeLight RGB bulbs"
 HOMEPAGE="https://gitlab.com/stavros/python-yeelight/ https://pypi.org/project/yeelight/"
 
 LICENSE="BSD"

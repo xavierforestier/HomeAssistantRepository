@@ -5,7 +5,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A Python implementation of ADB with shell and FileSync functionality."
+DESCRIPTION="A Python implementation of ADB with shell and FileSync functionality"
 HOMEPAGE="https://github.com/JeffLIrion/adb_shell https://pypi.org/project/adb-shell/"
 
 LICENSE="Apache-2.0"

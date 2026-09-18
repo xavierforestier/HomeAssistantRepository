@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A loose python wrapper around the ZoneMinder REST API."
+DESCRIPTION="A loose python wrapper around the ZoneMinder REST API"
 HOMEPAGE="https://github.com/rohankapoorcom/zm-py https://pypi.org/project/zm-py/"
 
 LICENSE="Apache-2.0"

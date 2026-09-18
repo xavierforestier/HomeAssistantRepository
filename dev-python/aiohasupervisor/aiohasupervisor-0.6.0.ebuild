@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous python client for Home Assistant Supervisor."
+DESCRIPTION="Asynchronous python client for Home Assistant Supervisor"
 HOMEPAGE="https://github.com/home-assistant-libs/python-supervisor-client https://pypi.org/project/aiohasupervisor/"
 
 LICENSE="Apache-2.0"

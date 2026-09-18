@@ -8,10 +8,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python classes generated from the GTFS-realtime protocol buffer specification."
+DESCRIPTION="Python classes generated from the GTFS-realtime protocol buffer specification"
 HOMEPAGE="https://github.com/MobilityData/gtfs-realtime-bindings https://pypi.org/project/gtfs-realtime-bindings/"
 
-LICENSE="1pache-2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Small Python library for process SRP requests for AWS Cognito."
+DESCRIPTION="Small Python library for process SRP requests for AWS Cognito"
 HOMEPAGE=" https://pypi.org/project/warrant-lite/"
 
 LICENSE="Apache-2.0"

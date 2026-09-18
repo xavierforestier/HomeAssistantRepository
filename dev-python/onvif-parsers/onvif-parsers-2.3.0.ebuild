@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Parsers for ONVIF events"
 HOMEPAGE="https://github.com/openvideolibs/onvif-parsers https://pypi.org/project/onvif-parsers"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous library to retrieve data from PEGELONLINE."
+DESCRIPTION="Asynchronous library to retrieve data from PEGELONLINE"
 HOMEPAGE="https://github.com/mib1185/aiopegelonline https://pypi.org/project/aiopegelonline/"
 SRC_URI="https://github.com/mib1185/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz
 "

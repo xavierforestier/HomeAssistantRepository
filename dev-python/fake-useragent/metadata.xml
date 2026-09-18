@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <remote-id type="github">farmio/fronius-modbus</remote-id>
-    <remote-id type="pypi">fronius-modbus</remote-id>
+    <remote-id type="pypi">fake-useragent</remote-id>
+    <remote-id type="github">fake-useragent/fake-useragent</remote-id>
   </upstream>
 </pkgmetadata>

@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous library to retrieve data from air-Q devices."
+DESCRIPTION="Asynchronous library to retrieve data from air-Q devices"
 HOMEPAGE="https://github.com/CorantGmbH/aioairq https://pypi.org/project/aioairq/"
-SRC_URI="https://github.com/CorantGmbH/aioairq/archive/refs/tags/v0.4.8.tar.gz -> ${P}.gh.tar.gz"
+SRC_URI="https://github.com/CorantGmbH/aioairq/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 
 LICENSE="Apache-2.0"
 SLOT="0"

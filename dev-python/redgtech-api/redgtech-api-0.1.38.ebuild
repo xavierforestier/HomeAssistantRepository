@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="A Python package to interact with the Redgtech API"
 HOMEPAGE="https://github.com/redgtech-automacao/redgtech-python-api: https://pypi.org/project/redgtech-api/"
 
-LICENSE="mit"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

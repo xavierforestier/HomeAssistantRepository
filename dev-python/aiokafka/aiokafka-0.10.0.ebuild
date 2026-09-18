@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Kafka integration with asyncio."
+DESCRIPTION="Kafka integration with asyncio"
 HOMEPAGE="https://github.com/aio-libs/aiokafka https://aiokafka.readthedocs.org https://pypi.org/project/aiokafka/"
 
 LICENSE="Apache-2.0"

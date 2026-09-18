@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <remote-id type="github">syrupy-project/syrupy<remote-id>
+    <remote-id type="github">syrupy-project/syrupy</remote-id>
     <remote-id type="pypi">syrupy</remote-id>
   </upstream>
 </pkgmetadata>

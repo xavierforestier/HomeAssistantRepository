@@ -8,14 +8,14 @@ PYTHON_COMPAT=( python3_{12..14} )
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Server-sent events support for aiohttp."
+DESCRIPTION="Server-sent events support for aiohttp"
 HOMEPAGE="https://pypi.org/project/aiohttp_sse/ https://github.com/aio-libs/aiohttp-sse"
 
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-PATCHES="${FILESDIR}/${P}-build-python-3.14.patch"
+PATCHES=( "${FILESDIR}/${P}-build-python-3.14.patch" )
 
 RDEPEND="
 	>=dev-python/aiohttp-3.11.13[${PYTHON_USEDEP}]

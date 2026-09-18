@@ -8,10 +8,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async Python package for the Nanoleaf API that replaces aioNanoleaf."
+DESCRIPTION="Async Python package for the Nanoleaf API that replaces aioNanoleaf"
 HOMEPAGE="https://github.com/loebi-ch/aionanoleaf2 https://pypi.org/project/aionanoleaf2/"
 
-LICENSE="LGPLv3+"
+LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

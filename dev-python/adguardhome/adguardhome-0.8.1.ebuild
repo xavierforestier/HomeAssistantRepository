@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous Python client for the AdGuard Home API."
+DESCRIPTION="Asynchronous Python client for the AdGuard Home API"
 HOMEPAGE="https://github.com/frenck/python-adguardhome https://pypi.org/project/adguardhome/"
 
 LICENSE="MIT"

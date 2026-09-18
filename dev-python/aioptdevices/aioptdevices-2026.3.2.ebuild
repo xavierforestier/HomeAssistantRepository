@@ -11,8 +11,8 @@ inherit distutils-r1 pypi
 DESCRIPTION="Fetch your PTDevice information from the PTDevices servers"
 HOMEPAGE="https://pypi.org/project/aioptdevices"
 
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
-LICENSE="GPLv3"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

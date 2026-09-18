@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="An Asynchronous Lidarr, Radarr, Readarr, Sonarr APIs for Python."
+DESCRIPTION="An Asynchronous Lidarr, Radarr, Readarr, Sonarr APIs for Python"
 HOMEPAGE="https://github.com/tkdrob/aiopyarr https://pypi.org/project/aiopyarr/"
 
 LICENSE="MIT"

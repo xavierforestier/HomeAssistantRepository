@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asyncio implementation of the Spinel protocol for OpenThread RCPs"
 HOMEPAGE="https://github.com/home-assistant-libs/aiospinel https://pypi.org/project/aiospinel"
 
-LICENSE="Apach2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Typed Python package for the Chemelex (nVent) RAYCHEM SENZ RestAPI"
 HOMEPAGE="https://github.com/nordicopen/pysenz https://pypi.org/project/pysenz/"
 
-LICENSE="LGPLv3+"
+LICENSE="LGPL-3+"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python package to interact with the Watergate Local API."
+DESCRIPTION="Python package to interact with the Watergate Local API"
 HOMEPAGE="https://github.com/watergate-ai/watergate-local-api-python https://pypi.org/project/watergate-local-api/"
 
 LICENSE="GPL-3"

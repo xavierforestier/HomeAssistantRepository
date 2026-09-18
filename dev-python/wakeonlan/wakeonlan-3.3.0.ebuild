@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=poetry
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="A small python module for wake on lan."
+DESCRIPTION="A small python module for wake on lan"
 HOMEPAGE="https://github.com/remcohaszing/pywakeonlan https://pypi.org/project/wakeonlan/"
 
 LICENSE="MIT"

@@ -6,7 +6,7 @@ DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for ZAMG weather data."
+DESCRIPTION="Asynchronous Python client for ZAMG weather data"
 HOMEPAGE="https://github.com/killer0071234/python-zamg https://pypi.org/project/zamg/"
 
 LICENSE="MIT"

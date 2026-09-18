@@ -8,10 +8,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library for Fronius inverter Modbus TCP (SunSpec) interfaces, built on modbus-connection"
+DESCRIPTION="Library for Fronius inverter Modbus TCP (SunSpec) interfaces"
 HOMEPAGE="https://github.com/farmio/fronius-modbus https://pypi.org/project/fronius-modbus"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

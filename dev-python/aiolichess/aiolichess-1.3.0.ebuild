@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python client for the Lichess REST API"
 HOMEPAGE="https://github.com/aryanhasgithub/aiolichess/ https://pypi.org/project/aiolichess/"
 
-LICENSE="GPLv3"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed."
+DESCRIPTION="An async GeoJSON client library for GeoNet NZ Volcanic Alert Level feed"
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-geonetnz-volcano https://pypi.org/project/aio-geojson-geonetnz-volcano/"
 
 LICENSE="Apache-2.0"

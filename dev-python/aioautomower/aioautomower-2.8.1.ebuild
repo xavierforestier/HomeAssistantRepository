@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python module to talk to Husqvarna Automower."
+DESCRIPTION="Python module to talk to Husqvarna Automower"
 HOMEPAGE="https://github.com/Thomas55555/aioautomower https://pypi.org/project/aioautomower/"
 
 LICENSE="Apache-2.0"

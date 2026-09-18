@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <remote-id type="github">farmio/fronius-modbus</remote-id>
-    <remote-id type="pypi">fronius-modbus</remote-id>
+    <remote-id type="github">googleapis/google-cloud-python</remote-id>
+    <remote-id type="pypi">google-cloud-firestore</remote-id>
   </upstream>
 </pkgmetadata>

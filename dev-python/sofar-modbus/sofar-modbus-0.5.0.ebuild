@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Read Sofar Solar inverters (HYD, KTL-X and the older PV/storage range) over Modbus."
+DESCRIPTION="Read Sofar Solar inverters over Modbus"
 HOMEPAGE="https://github.com/darkrain-nl/sofar-modbus https://pypi.org/project/sofar-modbus"
 
 LICENSE="Apache-2.0"

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous library to fetch data from a libreNMS instance."
+DESCRIPTION="Asynchronous library to fetch data from a libreNMS instance"
 HOMEPAGE="https://github.com/mib1185/aiolibrenms https://pypi.org/project/aiolibrenms"
 SRC_URI="https://github.com/mib1185/aiolibrenms/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 

@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Google Cloud Firestore API client library"
 HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-firestore https://pypi.org/project/google-cloud-firestore"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

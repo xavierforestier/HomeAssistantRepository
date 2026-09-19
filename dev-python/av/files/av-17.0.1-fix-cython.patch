@@ -1,0 +1,11 @@
+--- a/av/container/pyio.py	2026-09-19 13:35:51.690655658 +0200
++++ b/av/container/pyio.py	2026-09-19 13:36:20.695661429 +0200
+@@ -37,7 +37,7 @@
+             and self.ftell is not None
+             and (seekable is None or seekable())
+         ):
+-            seek_func: seek_func_t = pyio_seek
++            seek_func = pyio_seek
+ 
+         if writeable is None:
+             writeable = self.fwrite is not None

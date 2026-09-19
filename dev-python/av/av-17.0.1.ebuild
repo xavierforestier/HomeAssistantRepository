@@ -16,7 +16,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
+PATCHES=( "${FILESDIR}/${P}-fix-cython.patch" )
 RDEPEND="
 	media-video/ffmpeg
 	dev-python/ha-ffmpeg[${PYTHON_USEDEP}]

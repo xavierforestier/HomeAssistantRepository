@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Auth0 SDK for Python"
 HOMEPAGE="https://github.com/auth0/auth0-python https://pypi.org/project/auth0-python/"
-PATCHES=( "${FILESDIR}/${PN}-build-system.patch " )
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 
 LICENSE="MIT"
 SLOT="0"

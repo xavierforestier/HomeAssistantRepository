@@ -11,7 +11,7 @@ acct-user/zwavejs2mqtt 0: zwavejs2mqtt User
 app-crypt/acme 5.4.0 5.7.0: An implementation of the ACME protocol
 app-crypt/certbot 5.4.0: Let's Encrypt client to automate deployment of X.509 certificates
 app-misc/home-assistant-cli 1.0.0: The Home Assistant Command-line Interface (hass-cli)
-app-misc/homeassistant 2026.9.0 2026.9.1 2026.9.2: Open-source home automation platform running on Python.
+app-misc/homeassistant 2026.9.0 2026.9.1 2026.9.2 2026.9.3: Open-source home automation platform running on Python.
 app-misc/node-red 5.0.4 5.0.6 5.0.7: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.13.0 2.14.0 2.14.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-cpp/abseil-cpp 20260526.0: Abseil Common Libraries (C++), LTS Branch
@@ -55,7 +55,7 @@ dev-python/aioacaia 0.2.1: An async implementation of PyAcaia
 dev-python/aioairq 0.4.8: Asynchronous library to retrieve data from air-Q devices
 dev-python/aioairzone 1.0.5: Library to control Airzone devices
 dev-python/aioairzone-cloud 0.7.2: Library to control Airzone Cloud devices
-dev-python/aioamazondevices 15.1.0: Python library to control Amazon devices
+dev-python/aioamazondevices 15.1.0 16.3.0: Python library to control Amazon devices
 dev-python/aioambient 2024.8.0: A clean, async-friendly library for the Ambient Weather API
 dev-python/aioapcaccess 1.0.0: Async version of apcaccess library implemented in python
 dev-python/aioaquacell 1.0.0: Asynchronous library to retrieve details of your Aquacell water softener device
@@ -568,7 +568,7 @@ dev-python/hap-python 5.0.0: HomeKit Accessory Protocol implementation in python
 dev-python/harbor-python 1.5.0: Async local client for Harbor Sleep Cameras
 dev-python/hass-nabucasa 2.7.0: Home Assistant cloud integration by Nabu Casa, Inc
 dev-python/hass-splunk 0.1.4: Async single threaded connector to Splunk HEC using an asyncio session
-dev-python/hassil 3.12.0: The Home Assistant Intent Language parser
+dev-python/hassil 3.12.0 3.12.1: The Home Assistant Intent Language parser
 dev-python/hatasmota 0.10.1: Python module to help parse and construct Tasmota MQTT messages
 dev-python/haversine 2.8.1: Calculate the distance between 2 points on Earth
 dev-python/hdate 1.2.1: Jewish/Hebrew date and Zmanim in native Python
@@ -582,7 +582,7 @@ dev-python/hkavr 0.0.5: Library for controlling a Harman Kardon AVR
 dev-python/hko 0.3.2: An unofficial Python wrapper for public API of Hong Kong Observatory
 dev-python/hlk-sw16 0.0.9: Python client for HLK-SW16
 dev-python/hole 0.9.2: Python API for interacting with *hole
-dev-python/holidays 0.103: Generate and work with holidays in Python
+dev-python/holidays 0.103 0.104: Generate and work with holidays in Python
 dev-python/home-assistant-bluetooth 2.0.0: Home Assistant Bluetooth Models and Helpers
 dev-python/home-assistant-chip-clusters 2025.7.0: Python-base APIs and tools for CHIP
 dev-python/home-assistant-frontend 20260826.4 20260826.6 20260826.7: The Home Assistant frontend
@@ -1054,7 +1054,7 @@ dev-python/pylint-per-file-ignores 1.4.0: A pylint plugin to ignore error codes 
 dev-python/pylitejet 0.6.3: A library for controlling a LiteJet lighting system
 dev-python/pylitterbot 2025.6.4 2025.6.5: Python package for controlling Whisker automatic robots
 dev-python/pyloadapi 2.1.0: Simple wrapper for pyLoad's API
-dev-python/pylutron 0.4.2: Python library for Lutron RadioRA 2
+dev-python/pylutron 0.4.2 0.4.4: Python library for Lutron RadioRA 2
 dev-python/pylutron-caseta 0.29.0: Provides an API to the Lutron Smartbridge
 dev-python/pymailgunner 1.4: A simple mailgun client - pymailgun fork with Python 3 support
 dev-python/pymata-express 1.19: A Python Protocol Abstraction Library For Arduino Firmata using Python asyncio
@@ -1307,7 +1307,7 @@ dev-python/regex 2023.12.25: Alternative regular expression module to replace re
 dev-python/related 0.7.2: Related: Straightforward nested object models in Python
 dev-python/renault-api 0.5.13: Renault API
 dev-python/renson-endura-delta 1.7.2: Unofficial Renson endura delta Python library
-dev-python/reolink-aio 0.21.14 0.21.15 0.21.16: Reolink NVR/cameras API package
+dev-python/reolink-aio 0.21.14 0.21.15 0.21.16 0.21.17: Reolink NVR/cameras API package
 dev-python/requests-aws4auth 1.3.1: AWS4 authentication for Requests
 dev-python/requests-mock 1.12.1: Mock out responses from the requests package
 dev-python/respx 0.22.0-r1: Mock HTTPX with awesome request patterns and response side effects
@@ -1552,7 +1552,7 @@ dev-python/wakeonlan 3.3.0: A small python module for wake on lan
 dev-python/wallbox 0.9.0: Module for interacting with Wallbox EV charger api
 dev-python/warrant-lite 1.0.4-r1: Small Python library for process SRP requests for AWS Cognito
 dev-python/watchdog 2.3.1: Python API and shell utilities to monitor file system events
-dev-python/waterfurnace 1.7.1 1.9.0: Python interface for waterfurnace geothermal systems
+dev-python/waterfurnace 1.7.1 1.9.0 1.9.7: Python interface for waterfurnace geothermal systems
 dev-python/watergate-local-api 2026.2.2: Python package to interact with the Watergate Local API
 dev-python/weatherflow4py 1.5.8: Library used by Home Assistant to interact with the WeatherFlow RESTApi
 dev-python/webexpythonsdk 2.0.6: Work with the Webex APIs in native Python!

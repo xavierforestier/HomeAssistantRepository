@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for getting data from Brother laser and inkjet printers via SNMP."
+DESCRIPTION="Python wrapper for getting data from Brother laser and inkjet printers via SNMP"
 HOMEPAGE="https://github.com/bieniu/brother https://pypi.org/project/brother/"
 
 LICENSE="Apache-2.0"

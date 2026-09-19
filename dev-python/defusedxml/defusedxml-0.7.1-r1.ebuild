@@ -15,7 +15,7 @@ SRC_URI="https://github.com/tiran/defusedxml/archive/refs/tags/v${PV}.tar.gz -> 
 
 LICENSE="PSF-2"
 SLOT="0"
-KEYWORDS="~alpha amd64 arm arm64 hppa ~loong ppc ppc64 ~riscv ~s390 sparc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="~alpha amd64 arm arm64 hppa ~loong ppc ppc64 ~riscv ~s390 sparc x86"
 IUSE="examples"
 
 src_prepare() {

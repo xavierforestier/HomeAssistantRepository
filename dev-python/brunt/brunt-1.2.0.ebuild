@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="SDK for Brunt, this package allows you to control your Brunt devices from code."
+DESCRIPTION="SDK for Brunt, this package allows you to control your Brunt devices from code"
 HOMEPAGE="https://github.com/eavanvalkenburg/brunt-api https://pypi.org/project/brunt/"
 
 LICENSE="MIT"

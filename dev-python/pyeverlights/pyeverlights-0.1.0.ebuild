@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library for controlling an EverLights lighting system."
+DESCRIPTION="A library for controlling an EverLights lighting system"
 HOMEPAGE="https://github.com/joncar/pyeverlights https://pypi.org/project/pyeverlights/"
 
 LICENSE="MIT"

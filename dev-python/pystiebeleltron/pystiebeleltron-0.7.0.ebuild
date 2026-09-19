@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus."
+DESCRIPTION="Python API for interacting with the Stiebel Eltron ISG web gateway via Modbus"
 HOMEPAGE="https://github.com/ThyMYthOS/python-stiebel-eltron https://pypi.org/project/pystiebeleltron/"
 
 LICENSE="MIT"

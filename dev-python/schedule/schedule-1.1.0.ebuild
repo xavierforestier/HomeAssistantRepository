@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Job scheduling for humans."
+DESCRIPTION="Job scheduling for humans"
 HOMEPAGE="https://github.com/dbader/schedule https://pypi.org/project/schedule/"
 
 LICENSE="MIT"

@@ -6,9 +6,9 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="AIO package for the Honeywell Lyric Platform."
+DESCRIPTION="AIO package for the Honeywell Lyric Platform"
 HOMEPAGE="https://github.com/timmo001/aiolyric https://pypi.org/project/aiolyric/"
-PATCHES="${FILESDIR}/${PN}-2.1.1-fix-setup.patch"
+PATCHES=( "${FILESDIR}/${PN}-2.1.1-fix-setup.patch" )
 
 LICENSE="MIT"
 SLOT="0"

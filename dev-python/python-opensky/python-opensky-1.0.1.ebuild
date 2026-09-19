@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1
 
-DESCRIPTION="Asynchronous Python client for Opensky API."
+DESCRIPTION="Asynchronous Python client for Opensky API"
 HOMEPAGE="https://github.com/joostlek/python-opensky https://pypi.org/project/python-opensky/"
 SRC_URI="https://github.com/joostlek/python-opensky/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 

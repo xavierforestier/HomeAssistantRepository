@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
-DESCRIPTION="Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401."
+DESCRIPTION="Async API wrapper for Samsumgs set-top boxes SMT-G7400 and SMT-G7401"
 HOMEPAGE="https://github.com/benleb/horimote https://pypi.org/project/horimote/"
 SRC_URI="https://github.com/benleb/${PN}/archive/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 

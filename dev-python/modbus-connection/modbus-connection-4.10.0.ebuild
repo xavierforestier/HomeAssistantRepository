@@ -8,12 +8,13 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A small, backend-neutral Modbus connection abstraction (pymodbus / tmodbus)."
+DESCRIPTION="A small, backend-neutral Modbus connection abstraction (pymodbus / tmodbus)"
 HOMEPAGE="https://github.com/home-assistant-libs/modbus-connection https://pypi.org/project/modbus-connection"
-IUSE="pymodbus tmodbus"
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
+IUSE="pymodbus tmodbus"
+
 RDEPENDS="
 	pymodbus? ( >=dev-python/pymodbus-3.11[${PYTHON_USEDEP},serial] )
 	tmodbus? ( >=dev-python/tmodbus-0.6.1[${PYTHON_USEDEP},async-serial] )

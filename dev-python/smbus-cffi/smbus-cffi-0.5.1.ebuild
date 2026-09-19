@@ -7,7 +7,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="SMBus access through the I2C /dev interface on Linux hosts."
+DESCRIPTION="SMBus access through the I2C /dev interface on Linux hosts"
 HOMEPAGE="https://github.com/bivab/smbus-cffi https://pypi.org/project/smbus-cffi/"
 
 LICENSE="GPL-2"

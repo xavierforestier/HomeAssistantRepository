@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for the Fumis WiRCU API."
+DESCRIPTION="Asynchronous Python client for the Fumis WiRCU API"
 HOMEPAGE="https://github.com/frenck/python-fumis https://pypi.org/project/fumis"
 
 LICENSE="MIT"

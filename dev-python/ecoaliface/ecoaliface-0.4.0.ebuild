@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Interface to eSterownik.pl eCoal water boiler controller."
+DESCRIPTION="Interface to eSterownik.pl eCoal water boiler controller"
 HOMEPAGE="https://github.com/matkor/ecoaliface https://pypi.org/project/ecoaliface/"
 
 LICENSE="GPL-3"

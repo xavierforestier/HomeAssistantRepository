@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library for controlling a LiteJet lighting system."
+DESCRIPTION="A library for controlling a LiteJet lighting system"
 HOMEPAGE="https://github.com/joncar/pylitejet https://pypi.org/project/pylitejet/"
 
 LICENSE="MIT"

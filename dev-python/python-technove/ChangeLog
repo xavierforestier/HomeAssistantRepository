@@ -2,6 +2,14 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  python-technove-2.1.3.ebuild:
+  cleanup
+
+  16 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-technove-2.1.1.ebuild:
+  app-misc/homeassistant 2026.9.2
+
 *python-technove-2.1.3 (02 Sep 2026)
 
   02 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

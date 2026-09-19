@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asyncio Python API for KEF speakers."
+DESCRIPTION="Asyncio Python API for KEF speakers"
 HOMEPAGE="https://github.com/basnijholt/aiokef https://pypi.org/project/aiokef/"
 
 LICENSE="MIT"

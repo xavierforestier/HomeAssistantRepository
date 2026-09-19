@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python package for controlling Whisker automatic robots."
+DESCRIPTION="Python package for controlling Whisker automatic robots"
 HOMEPAGE="https://github.com/natekspencer/pylitterbot https://pypi.org/project/pylitterbot/"
 
 LICENSE="MIT"

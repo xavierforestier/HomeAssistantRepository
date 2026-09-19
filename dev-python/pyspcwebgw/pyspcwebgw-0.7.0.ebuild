@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python library for communicating with SPC Web Gateway."
+DESCRIPTION="A Python library for communicating with SPC Web Gateway"
 HOMEPAGE="https://github.com/mbrrg/pyspcwebgw https://pypi.org/project/pyspcwebgw/"
 
 LICENSE="MIT"

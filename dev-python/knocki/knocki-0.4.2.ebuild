@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Knocki."
+DESCRIPTION="Asynchronous Python client for Knocki"
 HOMEPAGE="https://github.com/swan-solutions/knocki-homeassistant https://pypi.org/project/knocki/"
 
 LICENSE="MIT"

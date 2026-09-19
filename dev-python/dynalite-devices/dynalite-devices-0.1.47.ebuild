@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="An unofficial Dynalite DyNET interface creating devices."
+DESCRIPTION="An unofficial Dynalite DyNET interface creating devices"
 HOMEPAGE="https://github.com/ziv1234/python-dynalite-devices https://pypi.org/project/dynalite-devices/"
 
 LICENSE="|| ( MIT Apache-2.0 )"

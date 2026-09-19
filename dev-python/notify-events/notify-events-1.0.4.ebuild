@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Extension to integrate your project with Notify.Events service."
+DESCRIPTION="Extension to integrate your project with Notify.Events service"
 HOMEPAGE="https://github.com/notify-events/python https://pypi.org/project/notify-events/"
 
 LICENSE="MIT"

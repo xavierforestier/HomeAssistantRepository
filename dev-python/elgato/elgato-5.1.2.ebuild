@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Elgato Lights."
+DESCRIPTION="Asynchronous Python client for Elgato Lights"
 HOMEPAGE="https://github.com/frenck/python-elgato https://pypi.org/project/elgato/"
 
 LICENSE="MIT"

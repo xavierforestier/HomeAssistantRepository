@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Internet Printing Protocol (IPP)."
+DESCRIPTION="Asynchronous Python client for Internet Printing Protocol (IPP)"
 HOMEPAGE="https://github.com/ctalkington/python-ipp https://pypi.org/project/pyipp/"
 
 LICENSE="MIT"

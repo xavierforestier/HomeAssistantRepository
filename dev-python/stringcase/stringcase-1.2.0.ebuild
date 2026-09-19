@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="String case converter."
+DESCRIPTION="String case converter"
 HOMEPAGE="https://github.com/okunishinishi/python-stringcase https://pypi.org/project/stringcase/"
 
 LICENSE="MIT"

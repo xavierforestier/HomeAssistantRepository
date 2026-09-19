@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous shutil module."
+DESCRIPTION="Asynchronous shutil module"
 HOMEPAGE="https://github.com/kumaraditya303/aioshutil https://pypi.org/project/aioshutil/"
 
 LICENSE="BSD"

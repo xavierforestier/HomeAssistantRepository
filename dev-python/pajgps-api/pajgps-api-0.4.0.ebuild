@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python library to interact with the PAJ GPS API."
+DESCRIPTION="A Python library to interact with the PAJ GPS API"
 HOMEPAGE="https://github.com/skipperro/pajgps-api https://pypi.org/project/pajgps-api"
 
 LICENSE="MIT"

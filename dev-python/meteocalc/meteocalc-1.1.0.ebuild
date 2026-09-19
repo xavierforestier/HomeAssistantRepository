@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Functions for calculation of meteorological variables."
+DESCRIPTION="Functions for calculation of meteorological variables"
 HOMEPAGE="https://github.com/malexer/meteocalc https://pypi.org/project/meteocalc/"
 
 LICENSE="MIT"

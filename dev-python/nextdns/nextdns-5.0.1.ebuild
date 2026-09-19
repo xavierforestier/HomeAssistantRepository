@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python wrapper for NextDNS API."
+DESCRIPTION="Python wrapper for NextDNS API"
 HOMEPAGE="https://github.com/bieniu/nextdns https://pypi.org/project/nextdns/"
 
 LICENSE="Apache-2.0"

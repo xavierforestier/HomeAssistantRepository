@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python library to communicate with Cync devices."
+DESCRIPTION="A Python library to communicate with Cync devices"
 HOMEPAGE="https://github.com/Kinachi249/pycync https://pypi.org/project/pycync/"
 
 LICENSE="GPL-3"

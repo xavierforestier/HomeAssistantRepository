@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous client for the Open-Meteo API."
+DESCRIPTION="Asynchronous client for the Open-Meteo API"
 HOMEPAGE="https://github.com/frenck/python-open-meteo https://pypi.org/project/open-meteo/"
 
 LICENSE="MIT"

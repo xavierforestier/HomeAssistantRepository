@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="An async GeoJSON client library."
+DESCRIPTION="An async GeoJSON client library"
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-client https://pypi.org/project/aio-geojson-client/"
 
 LICENSE="Apache-2.0"

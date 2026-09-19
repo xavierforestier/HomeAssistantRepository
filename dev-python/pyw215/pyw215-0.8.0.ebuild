@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Interface for d-link W215 Smart Plugs."
+DESCRIPTION="Interface for d-link W215 Smart Plugs"
 HOMEPAGE="https://github.com/linuxchristian/pyW215 https://pypi.org/project/pyW215/"
 
 LICENSE="MIT"

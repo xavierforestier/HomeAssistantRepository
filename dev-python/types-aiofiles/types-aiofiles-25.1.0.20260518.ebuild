@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Typing stubs for aiofiles"
 HOMEPAGE="https://github.com/python/typeshed https://pypi.org/project/types-aiofiles"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

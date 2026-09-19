@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
-DESCRIPTION="A smart propane tank monitor."
+DESCRIPTION="A smart propane tank monitor"
 HOMEPAGE="https://github.com/krismolendyke/tank-utility https://pypi.org/project/tank-utility/"
 MY_PN=${PN/-/_}
 SRC_URI="https://github.com/krismolendyke/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"

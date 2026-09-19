@@ -9,7 +9,7 @@ PYPI_NO_NORMALIZE=1
 PYPI_PN="sharp_aquos_rc"
 inherit distutils-r1 pypi
 
-DESCRIPTION="Control Sharp Aquos SmartTVs through the IP interface."
+DESCRIPTION="Control Sharp Aquos SmartTVs through the IP interface"
 HOMEPAGE="https://github.com/jmoore987/sharp_aquos_rc https://pypi.org/project/sharp_aquos_rc/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="An API client for getting pollution data from NILU sensor stations in Norway."
+DESCRIPTION="An API client for getting pollution data from NILU sensor stations in Norway"
 HOMEPAGE="https://github.com/hfurubotten/niluclient https://pypi.org/project/niluclient/"
 
 LICENSE="MIT"

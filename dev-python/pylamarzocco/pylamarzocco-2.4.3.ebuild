@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="A Python implementation of the new La Marzocco API"
 HOMEPAGE="https://github.com/zweckj/pylamarzocco https://pypi.org/project/pylamarzocco"
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 
 LICENSE="MIT"
 SLOT="0"

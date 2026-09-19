@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Thin wrapper for pandoc."
+DESCRIPTION="Thin wrapper for pandoc"
 HOMEPAGE="https://github.com/bebraw/pypandoc https://pypi.org/project/pypandoc/"
 
 LICENSE="MIT"

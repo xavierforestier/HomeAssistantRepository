@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 MY_PN=${PN/-/_}
-DESCRIPTION="Discover and control ANEL NET-PwrCtrl devices."
+DESCRIPTION="Discover and control ANEL NET-PwrCtrl devices"
 HOMEPAGE="https://pypi.org/project/anel-pwrctrl-homeassistant/"
 SRC_URI="https://files.pythonhosted.org/packages/source/${P:0:1}/${PN}/${MY_PN}-${PV}.dev2.tar.gz -> ${P}.tar.gz"
 S="${WORKDIR}/${MY_PN}-${PV}.dev2"

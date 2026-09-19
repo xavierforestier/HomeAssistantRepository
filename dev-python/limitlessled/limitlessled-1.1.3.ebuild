@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Control LimitlessLED products."
+DESCRIPTION="Control LimitlessLED products"
 HOMEPAGE="https://github.com/happyleavesaoc/python-limitlessled/ https://pypi.org/project/limitlessled/"
 
 LICENSE="MIT"

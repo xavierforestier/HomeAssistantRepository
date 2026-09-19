@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 PYPI_PN="PlexAPI"
 inherit distutils-r1 pypi
-DESCRIPTION="Python bindings for the Plex API."
+DESCRIPTION="Python bindings for the Plex API"
 HOMEPAGE="https://github.com/pkkid/python-plexapi https://pypi.org/project/PlexAPI/"
 
 LICENSE="BSD"

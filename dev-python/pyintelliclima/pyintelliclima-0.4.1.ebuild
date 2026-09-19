@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python module for a HTTP API to communicate with the IntelliClima device server."
+DESCRIPTION="Python module for a HTTP API to communicate with the IntelliClima device server"
 HOMEPAGE="https://github.com/dvdinth/pyintelliclima https://pypi.org/project/pyintelliclima/"
 
 LICENSE="MIT"

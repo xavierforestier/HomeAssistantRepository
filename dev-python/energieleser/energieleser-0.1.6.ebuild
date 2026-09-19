@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Client for energieleser devices (stromleser, gasleser, wasserleser, wärmeleser)."
+DESCRIPTION="Client for energieleser devices (stromleser, gasleser, wasserleser, wärmeleser)"
 HOMEPAGE="https://github.com/nineti-GmbH/energieleser.py https://pypi.org/project/energieleser"
 
 LICENSE="MIT"

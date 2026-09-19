@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <use>
+    <flag name="local-tokenizer">Handle tokenizer localy</flag>
+  </use>
   <upstream>
     <remote-id type="github">googleapis/python-genai</remote-id>
     <remote-id type="pypi">google-genai</remote-id>

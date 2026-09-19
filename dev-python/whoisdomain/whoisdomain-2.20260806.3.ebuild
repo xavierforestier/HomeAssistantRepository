@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python package for retrieving WHOIS information of domains."
+DESCRIPTION="Python package for retrieving WHOIS information of domains"
 HOMEPAGE="https://github.com/mboot-github/WhoisDomain https://pypi.org/project/whoisdomain"
 
 LICENSE="MIT"

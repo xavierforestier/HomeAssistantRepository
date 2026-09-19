@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Pure python module to connect to a pilight daemon to send and receive commands."
+DESCRIPTION="Pure python module to connect to a pilight daemon to send and receive commands"
 HOMEPAGE="https://github.com/DavidLP/pilight https://pypi.org/project/pilight/"
 
 LICENSE="MIT"

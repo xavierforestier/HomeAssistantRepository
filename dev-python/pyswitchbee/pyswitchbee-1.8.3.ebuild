@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="SwitchBee Python Integration."
+DESCRIPTION="SwitchBee Python Integration"
 HOMEPAGE="https://github.com/jafar-atili/pySwitchbee/ https://pypi.org/project/pyswitchbee/"
 
 LICENSE="Apache-2.0"

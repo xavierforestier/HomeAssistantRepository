@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python client for Xthings Cloud API"
 HOMEPAGE="https://github.com/XthingsJacobs/ha-xthings-cloud https://pypi.org/project/ha-xthings-cloud"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

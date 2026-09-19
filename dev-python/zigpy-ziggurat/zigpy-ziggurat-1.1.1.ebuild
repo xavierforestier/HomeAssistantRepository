@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Zigpy radio library for the Ziggurat server"
 HOMEPAGE="https://github.com/zigpy/zigpy-ziggurat https://pypi.org/project/zigpy"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

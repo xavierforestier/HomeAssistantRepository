@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Simple API wrapper to brottsplatskartan.se."
+DESCRIPTION="Simple API wrapper to brottsplatskartan.se"
 HOMEPAGE="https://github.com/chrillux/brottsplatskartan https://pypi.org/project/brottsplatskartan/"
 
 LICENSE="MIT"

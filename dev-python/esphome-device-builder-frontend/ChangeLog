@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  18 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  esphome-device-builder-frontend-0.1.320.ebuild:
+  Cleanup
+
 *esphome-device-builder-frontend-0.1.320 (04 Sep 2026)
 
   04 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

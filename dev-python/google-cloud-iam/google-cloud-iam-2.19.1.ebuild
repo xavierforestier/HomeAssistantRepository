@@ -9,7 +9,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
 DESCRIPTION="Google Cloud Iam API client library"
-HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-iam htps://pypi.org/project/google-cloud-iam/"
+HOMEPAGE="https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-iam https://pypi.org/project/google-cloud-iam/"
 
 LICENSE="Apache-2.0"
 SLOT="0"

@@ -8,12 +8,12 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A standalone, host-agnostic Python library for KNX telegram persistence."
+DESCRIPTION="A standalone, host-agnostic Python library for KNX telegram persistence"
 HOMEPAGE="https://github.com/XKNX/knx-telegram-store https://pypi.org/project/knx-telegram-store"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm ar64 x86"
+KEYWORDS="amd64 arm arm64 x86"
 IUSE="sqlite postgres"
 
 RDEPEND="

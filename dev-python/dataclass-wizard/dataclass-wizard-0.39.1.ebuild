@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Simple, elegant, wizarding tools for interacting with Python's dataclasses."
+DESCRIPTION="Simple, elegant, wizarding tools for interacting with Python's dataclasses"
 HOMEPAGE="https://github.com/rnag/dataclass-wizard https://pypi.org/project/dataclass-wizard/"
 
 LICENSE="Apache-2.0"

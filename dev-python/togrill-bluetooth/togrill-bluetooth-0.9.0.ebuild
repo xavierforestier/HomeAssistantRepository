@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14})
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Module to handle communication with ToGrill compatible temperature probes."
+DESCRIPTION="Module to handle communication with ToGrill compatible temperature probes"
 
 HOMEPAGE="https://github.com/elupus/togrill-bluetooth https://pypi.org/project/togrill-bluetooth/"
 

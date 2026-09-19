@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async Python client for the Fresh-r / bw-log.com API."
+DESCRIPTION="Async Python client for the Fresh-r / bw-log.com API"
 HOMEPAGE="https://pypi.org/project/pyfreshr/"
 
 LICENSE="MIT"

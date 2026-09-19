@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for DirecTV (SHEF)."
+DESCRIPTION="Asynchronous Python client for DirecTV (SHEF)"
 HOMEPAGE="https://github.com/ctalkington/python-directv https://pypi.org/project/directv/"
 
 LICENSE="MIT"

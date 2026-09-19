@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  cielo-connect-api-1.0.6.ebuild:
+  cleanup
+
 *cielo-connect-api-1.0.6 (08 Jun 2026)
 
   08 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

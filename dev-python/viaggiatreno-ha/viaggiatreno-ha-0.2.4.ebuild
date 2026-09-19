@@ -8,10 +8,10 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Viaggiatreno API wrapper to use with Home Assistant."
+DESCRIPTION="Viaggiatreno API wrapper to use with Home Assistant"
 HOMEPAGE="https://github.com/monga/viaggiatreno_ha https://pypi.org/project/viaggiatreno-ha/"
 
-LICENSE="GPL-3.0"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

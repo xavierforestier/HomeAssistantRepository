@@ -10,8 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Python module for controlling and monitoring Bluetooth Philips Hue bulbs"
 HOMEPAGE="https://github.com/flip-dots/HueBLE https://pypi.org/project/hueble/"
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
-
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 
 LICENSE="MIT"
 SLOT="0"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python module to talk to ISY devices from UDI."
+DESCRIPTION="Python module to talk to ISY devices from UDI"
 HOMEPAGE="https://github.com/automicus/PyISY https://pypi.org/project/pyisy/"
 
 LICENSE="Apache-2.0"

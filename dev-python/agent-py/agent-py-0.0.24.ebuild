@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-DESCRIPTION="A python wrapper around the Agent REST API."
+DESCRIPTION="A python wrapper around the Agent REST API"
 HOMEPAGE="https://github.com/ispysoftware/agent-py https://pypi.org/project/agent-py/"
 
 LICENSE="Apache-2.0"

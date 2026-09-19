@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Prebuilt web frontend for the ESPHome Device Builder Dashboard"
 HOMEPAGE="https://github.com/esphome/device-builder-frontend https://pypi.org/project/esphome-device-builder-frontend"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

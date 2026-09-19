@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous file operations."
+DESCRIPTION="Asynchronous file operations"
 HOMEPAGE="http://github.com/mosquito/aiofile https://pypi.org/project/aiofile/"
 
 LICENSE="Apache-2.0"

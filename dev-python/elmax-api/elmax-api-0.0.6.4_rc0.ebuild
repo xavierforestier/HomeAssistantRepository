@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
-PATCHES="${FILESDIR}/${PN}-fix-build.patch"
+PATCHES=( "${FILESDIR}/${PN}-fix-build.patch" )
 DOCS="README.md"
 
 RDEPEND=">=dev-python/pyjwt-1.7.1[${PYTHON_USEDEP}]

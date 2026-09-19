@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="An Dict like LRU container."
+DESCRIPTION="An Dict like LRU container"
 HOMEPAGE="https://github.com/amitdev/lru-dict https://pypi.org/project/lru-dict/"
 
 LICENSE="MIT"

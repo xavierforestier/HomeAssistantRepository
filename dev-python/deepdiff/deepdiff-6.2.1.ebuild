@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Deep Difference and Search of any Python object/data."
+DESCRIPTION="Deep Difference and Search of any Python object/data"
 HOMEPAGE="https://github.com/seperman/deepdiff https://pypi.org/project/deepdiff/"
 
 LICENSE="MIT"

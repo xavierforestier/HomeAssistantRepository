@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="A package for talking to vlc over its telnet interface using asyncio."
+DESCRIPTION="A package for talking to vlc over its telnet interface using asyncio"
 HOMEPAGE="https://github.com/MartinHjelmare/aiovlc https://pypi.org/project/aiovlc/"
 
 LICENSE="Apache-2.0"

@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python API for Solarman devices"
 HOMEPAGE="https://github.com/solarmanpv/solarman-opendata https://pypi.org/project/solarman-opendata"
 
-LICENSE="Apache-2"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

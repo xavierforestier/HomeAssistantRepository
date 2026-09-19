@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python client for Meteo-France API."
+DESCRIPTION="Python client for Meteo-France API"
 HOMEPAGE="https://github.com/hacf-fr/meteofrance-api https://pypi.org/project/meteofrance-api/"
 
 LICENSE="MIT"

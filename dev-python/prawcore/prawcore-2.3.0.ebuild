@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Low-level communication layer for PRAW 4+."
+DESCRIPTION="Low-level communication layer for PRAW 4+"
 HOMEPAGE="https://github.com/praw-dev/prawcore https://pypi.org/project/prawcore/"
 
 LICENSE="BSD"

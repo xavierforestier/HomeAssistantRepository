@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python client for Eurotronic GmbH BLE Comet (and rebranded) Radiator TRVs."
+DESCRIPTION="Python client for Eurotronic GmbH BLE Comet (and rebranded) Radiator TRVs"
 HOMEPAGE="https://github.com/rikroe/eurotronic-cometblue https://pypi.org/project/eurotronic-cometblue-ha/"
 
 LICENSE="MIT"

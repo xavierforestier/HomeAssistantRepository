@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous Python client for Modern Forms fans."
+DESCRIPTION="Asynchronous Python client for Modern Forms fans"
 HOMEPAGE="https://github.com/wonderslug/aiomodernforms https://pypi.org/project/aiomodernforms/"
 
 LICENSE="MIT"

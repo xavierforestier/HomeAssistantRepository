@@ -9,7 +9,7 @@ PYPI_PN="python-verisure"
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Read and change status of verisure devices through mypages."
+DESCRIPTION="Read and change status of verisure devices through mypages"
 HOMEPAGE="https://github.com/persandstrom/python-verisure https://pypi.org/project/vsure/"
 SRC_URI="https://github.com/persandstrom/python-verisure/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
 

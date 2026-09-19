@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_PN="pyElectra"
-DESCRIPTION="Electra Smart Python Integration."
+DESCRIPTION="Electra Smart Python Integration"
 HOMEPAGE="https://github.com/jafar-atili/pyElectra/ https://pypi.org/project/pyElectra/"
 inherit distutils-r1 pypi
 SRC_URI="https://github.com/jafar-atili/${PYPI_PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"

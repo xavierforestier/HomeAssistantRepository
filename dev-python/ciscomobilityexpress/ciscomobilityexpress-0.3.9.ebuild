@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Module to interact with Cisco Mobility Express APIs to fetch connected devices."
+DESCRIPTION="Module to interact with Cisco Mobility Express APIs to fetch connected devices"
 HOMEPAGE="https://github.com/fbradyirl/ciscomobilityexpress https://pypi.org/project/ciscomobilityexpress/"
 
 LICENSE="MIT"

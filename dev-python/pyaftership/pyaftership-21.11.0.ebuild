@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A module to get information pending parcels."
+DESCRIPTION="A module to get information pending parcels"
 HOMEPAGE="https://github.com/ludeeus/pyaftership https://pypi.org/project/pyaftership/"
 
 LICENSE="MIT"

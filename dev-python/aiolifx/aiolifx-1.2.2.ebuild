@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="API for local communication with LIFX devices over a LAN with asyncio."
+DESCRIPTION="API for local communication with LIFX devices over a LAN with asyncio"
 HOMEPAGE="https://github.com/frawau/aiolifx https://pypi.org/project/aiolifx/"
 
 LICENSE="MIT"

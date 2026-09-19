@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Parser for the RAPT Pill hydrometer BLE packets."
+DESCRIPTION="Parser for the RAPT Pill hydrometer BLE packets"
 HOMEPAGE="https://github.com/sairon/rapt-ble https://pypi.org/project/rapt-ble/"
 
 LICENSE="MIT"

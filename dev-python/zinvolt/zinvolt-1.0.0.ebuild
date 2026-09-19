@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Zinvolt."
+DESCRIPTION="Asynchronous Python client for Zinvolt"
 HOMEPAGE="https://github.com/joostlek/python-zinvolt https://pypi.org/project/zinvolt/"
 
 LICENSE="MIT"

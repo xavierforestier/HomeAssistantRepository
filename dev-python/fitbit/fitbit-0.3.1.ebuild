@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Fitbit API Wrapper."
+DESCRIPTION="Fitbit API Wrapper"
 HOMEPAGE="https://github.com/orcasgit/python-fitbit https://pypi.org/project/fitbit/"
 
 LICENSE="Apache-2.0"

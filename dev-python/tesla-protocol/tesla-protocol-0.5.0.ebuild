@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Tesla vehicle-command, fleet-telemetry and energy protobuf bindings for Python"
 HOMEPAGE="https://github.com/Teslemetry/tesla-protocol https://pypi.org/project/tesla-protocol"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 RDEPENDS="

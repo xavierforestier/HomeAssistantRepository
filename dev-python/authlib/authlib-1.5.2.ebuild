@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="The ultimate Python library in building OAuth and OpenID Connect servers."
+DESCRIPTION="The ultimate Python library in building OAuth and OpenID Connect servers"
 HOMEPAGE="https://github.com/lepture/authlib https://authlib.org/ https://pypi.org/project/Authlib/"
 
 LICENSE="BSD"

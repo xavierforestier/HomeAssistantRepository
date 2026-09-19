@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A module for grabbing the color palette from an image."
+DESCRIPTION="A module for grabbing the color palette from an image"
 HOMEPAGE="https://github.com/fengsp/color-thief-py https://pypi.org/project/colorthief/"
 
 LICENSE="BSD"

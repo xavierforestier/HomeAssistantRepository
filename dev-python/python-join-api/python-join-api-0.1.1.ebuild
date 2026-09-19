@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with Join by joaoapps."
+DESCRIPTION="Python API for interacting with Join by joaoapps"
 HOMEPAGE="https://github.com/nkgilley/python-join-api https://pypi.org/project/python-join-api/"
 
 LICENSE="MIT"

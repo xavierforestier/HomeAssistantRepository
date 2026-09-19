@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for getting air quality data from Nettigo Air Monitor devices."
+DESCRIPTION="Python wrapper for getting air quality data from Nettigo Air Monitor devices"
 HOMEPAGE="https://github.com/bieniu/nettigo-air-monitor https://pypi.org/project/nettigo-air-monitor/"
 
 LICENSE="Apache-2.0"

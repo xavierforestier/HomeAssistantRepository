@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
-DESCRIPTION="Python module for Rollease Acmeda Automate integration."
+DESCRIPTION="Python module for Rollease Acmeda Automate integration"
 HOMEPAGE="https://github.com/atmurray/aiopulse https://pypi.org/project/aiopulse/"
 
 LICENSE="Apache-2.0"

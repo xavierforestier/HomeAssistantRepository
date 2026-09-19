@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A tiny library to safely render compact HTML5 from Python expressions."
+DESCRIPTION="A tiny library to safely render compact HTML5 from Python expressions"
 HOMEPAGE="https://github.com/niklasf/python-tinyhtml https://pypi.org/project/tinyhtml"
 
 LICENSE="MIT"

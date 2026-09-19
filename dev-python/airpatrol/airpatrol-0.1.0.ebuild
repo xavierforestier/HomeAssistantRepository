@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python package for interacting with AirPatrol devices."
+DESCRIPTION="Python package for interacting with AirPatrol devices"
 HOMEPAGE="https://github.com/antondalgren/airpatrol https://pypi.org/project/airpatrol/"
 
 LICENSE="MIT"

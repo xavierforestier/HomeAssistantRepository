@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Calculate the geographical distance between 2 points with extreme accuracy."
+DESCRIPTION="Calculate the geographical distance between 2 points with extreme accuracy"
 HOMEPAGE="https://github.com/maurycyp/vincenty https://pypi.org/project/vincenty/"
 
 LICENSE="Unlicense"

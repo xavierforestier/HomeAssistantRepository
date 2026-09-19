@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async API client for Prana heat recovery ventilator."
+DESCRIPTION="Async API client for Prana heat recovery ventilator"
 HOMEPAGE="https://pypi.org/project/prana-api-client/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Tool to read data from Rainforest Legacy Eagle."
+DESCRIPTION="Tool to read data from Rainforest Legacy Eagle"
 HOMEPAGE="https://github.com/hastarin/eagle100 https://pypi.org/project/eagle100/"
 
 LICENSE="MIT"

@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Databricks SDK for Python (Beta)"
 HOMEPAGE="https://pypi.org/project/databricks-sdk/"
 
-LICENSE="Apache"
+LICENSE="Apache-1.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

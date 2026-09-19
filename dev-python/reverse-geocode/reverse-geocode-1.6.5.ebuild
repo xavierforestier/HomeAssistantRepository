@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Reverse geocode the given latitude / longitude"
 HOMEPAGE="https://pypi.org/project/reverse-geocode/ https://github.com/richardpenman/reverse_geocode/"
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 
 LICENSE="LGPL-2"
 SLOT="0"

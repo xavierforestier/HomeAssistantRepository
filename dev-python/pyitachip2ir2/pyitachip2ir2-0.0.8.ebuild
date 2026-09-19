@@ -5,7 +5,6 @@ EAPI=8
 
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
-PYPI_PN="pyitachip2ir2"
 inherit distutils-r1 pypi
 
 DESCRIPTION="A library for sending IR commands to an ITach IP2IR gateway"

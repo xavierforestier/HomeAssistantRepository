@@ -9,8 +9,8 @@ inherit distutils-r1
 
 SRC_URI="
 	https://github.com/home-assistant/frontend/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz
-	https://github.com/xavierforestier/home-assistant-frontend/raw/refs/heads/main/${P}-node_modules.tar.xz -> ${P}-node_modules.gh.tar.xz
-	https://github.com/xavierforestier/home-assistant-frontend/raw/refs/heads/main/${P}-translations.tar.xz -> ${P}-translations.gh.tar.xz
+	https://github.com/xavierforestier/${PN}/raw/refs/heads/main/${P}-node_modules.tar.xz -> ${P}-node_modules.gh.tar.xz
+	https://github.com/xavierforestier/${PN}/raw/refs/heads/main/${P}-translations.tar.xz -> ${P}-translations.gh.tar.xz
 "
 S="${WORKDIR}/frontend-${PV}"
 

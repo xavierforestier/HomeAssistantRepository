@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Extra Pydantic types."
+DESCRIPTION="Extra Pydantic types"
 HOMEPAGE="https://pypi.org/project/pydantic-extra-types/ https://github.com/pydantic/pydantic-extra-types"
 
 LICENSE="MIT"

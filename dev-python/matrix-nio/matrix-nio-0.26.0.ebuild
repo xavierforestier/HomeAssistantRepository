@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python Matrix client library, designed according to sans I/O principles."
+DESCRIPTION="A Python Matrix client library, designed according to sans I/O principles"
 HOMEPAGE="https://github.com/poljar/matrix-nio https://pypi.org/project/matrix-nio/"
 
 LICENSE="ISC"

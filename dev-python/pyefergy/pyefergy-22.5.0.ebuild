@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="An API library for Efergy energy meters."
+DESCRIPTION="An API library for Efergy energy meters"
 HOMEPAGE="https://github.com/tkdrob/pyefergy https://pypi.org/project/pyefergy/"
 
 LICENSE="MIT"

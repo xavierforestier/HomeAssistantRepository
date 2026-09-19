@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Online information for buses of Biscay bus services (Basque Country, Spain)."
+DESCRIPTION="Online information for buses of Biscay bus services (Basque Country, Spain)"
 HOMEPAGE="https://github.com/UgaitzEtxebarria/BizkaibusRTPI https://pypi.org/project/bizkaibus/"
 
 LICENSE="MIT"

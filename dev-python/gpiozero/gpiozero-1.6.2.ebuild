@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A simple interface to GPIO devices with Raspberry Pi."
+DESCRIPTION="A simple interface to GPIO devices with Raspberry Pi"
 HOMEPAGE="https://github.com/gpiozero/gpiozero https://pypi.org/project/gpiozero/"
 
 LICENSE="BSD"

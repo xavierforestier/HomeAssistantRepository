@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="PKCE Pyhton generator."
+DESCRIPTION="PKCE Pyhton generator"
 HOMEPAGE="https://github.com/RomeoDespres/pkce https://pypi.org/project/pkce/"
 
 LICENSE="MIT"

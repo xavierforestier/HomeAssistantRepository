@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Easily serialize dataclasses to and from JSON."
+DESCRIPTION="Easily serialize dataclasses to and from JSON"
 HOMEPAGE="https://github.com/lidatong/dataclasses-json https://pypi.org/project/dataclasses-json/"
 
 LICENSE="MIT"

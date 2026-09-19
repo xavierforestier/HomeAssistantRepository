@@ -3,6 +3,6 @@
 <pkgmetadata>
   <upstream>
     <remote-id type="pypi">pyintelliclima</remote-id>
-    <remote-id type"github">dvdinth/pyintelliclima</remote-id>
+    <remote-id type="github">dvdinth/pyintelliclima</remote-id>
   </upstream>
 </pkgmetadata>

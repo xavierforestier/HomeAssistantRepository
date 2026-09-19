@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Saves and loads to the cache a transformed versions of a source object."
+DESCRIPTION="Saves and loads to the cache a transformed versions of a source object"
 HOMEPAGE="https://github.com/hgrecco/flexcache https://pypi.org/project/flexcache"
 
 LICENSE="BSD"

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for TRMNL."
+DESCRIPTION="Asynchronous Python client for TRMNL"
 HOMEPAGE="https://github.com/joostlek/python-trmnl https://pypi.org/project/trmnl"
 
 LICENSE="MIT"

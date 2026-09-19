@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python Wrapper for interacting with the Volkszahler API."
+DESCRIPTION="Python Wrapper for interacting with the Volkszahler API"
 HOMEPAGE="https://github.com/fabaff/python-volkszaehler https://pypi.org/project/volkszaehler/"
 
 LICENSE="MIT"

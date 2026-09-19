@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Curio is a coroutine-based library for concurrent systems programming."
+DESCRIPTION="Curio is a coroutine-based library for concurrent systems programming"
 HOMEPAGE="https://github.com/klen/curio https://pypi.org/project/curio-compat/"
 
 LICENSE="BSD"

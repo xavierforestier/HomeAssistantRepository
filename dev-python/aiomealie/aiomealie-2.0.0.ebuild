@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Mealie."
+DESCRIPTION="Asynchronous Python client for Mealie"
 HOMEPAGE="https://github.com/joostlek/python-mealie https://pypi.org/project/aiomealie/"
 
 LICENSE="MIT"

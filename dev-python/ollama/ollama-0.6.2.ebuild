@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="The Ollama Python library provides the easiest way to integrate Ollama."
+DESCRIPTION="The Ollama Python library provides the easiest way to integrate Ollama"
 HOMEPAGE="https://ollama.ai https://github.com/ollama/ollama-python https://pypi.org/project/ollama/"
 
 LICENSE="MIT"

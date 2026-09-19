@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python module to talk to Philips Hue."
+DESCRIPTION="Python module to talk to Philips Hue"
 HOMEPAGE="https://github.com/home-assistant-libs/aiohue https://pypi.org/project/aiohue/"
 
 LICENSE="Apache-2.0"

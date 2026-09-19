@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for IMGW-PIB API."
+DESCRIPTION="Python wrapper for IMGW-PIB API"
 HOMEPAGE="https://github.com/bieniu/imgw-pib https://pypi.org/project/imgw-pib/"
 
 LICENSE="Apache-2.0"

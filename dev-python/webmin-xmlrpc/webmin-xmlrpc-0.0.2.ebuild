@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Provides a python interface to interact with the Webmin XML-RPC API."
+DESCRIPTION="Provides a python interface to interact with the Webmin XML-RPC API"
 HOMEPAGE="https://github.com/autinerd/webmin-xmlrpc/ https://pypi.org/project/webmin-xmlrpc/"
 
 LICENSE="MIT"

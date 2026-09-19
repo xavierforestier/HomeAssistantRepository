@@ -15,7 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-PATCHES="${FILESDIR}/${PN}-fix-collisions.patch"
+PATCHES=( "${FILESDIR}/${PN}-fix-collisions.patch" )
 
 RDEPEND="
 	>=dev-python/numpy-1.26.0[${PYTHON_USEDEP}]

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Package to connect to a Droplet device."
+DESCRIPTION="Package to connect to a Droplet device"
 HOMEPAGE="https://github.com/Hydrific/pydroplet https://pypi.org/project/pydroplet/"
 
 LICENSE="MIT"

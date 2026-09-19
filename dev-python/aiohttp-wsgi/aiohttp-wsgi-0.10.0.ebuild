@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="WSGI adapter for aiohttp."
+DESCRIPTION="WSGI adapter for aiohttp"
 HOMEPAGE="https://github.com/etianen/aiohttp-wsgi https://pypi.org/project/aiohttp-wsgi/"
 
 LICENSE="BSD"

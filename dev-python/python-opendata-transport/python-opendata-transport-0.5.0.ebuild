@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with transport.opendata.ch."
+DESCRIPTION="Python API for interacting with transport.opendata.ch"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-opendata-transport https://pypi.org/project/python-opendata-transport/"
 
 LICENSE="MIT"

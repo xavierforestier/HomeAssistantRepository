@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="Linode API Library"
 HOMEPAGE="https://www.linode.com https://pypi.org/project/linode-api/"
-PATCHES="${FILESDIR}/${PN}-fix-find_packages.patch"
+PATCHES=( "${FILESDIR}/${PN}-fix-find_packages.patch" )
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

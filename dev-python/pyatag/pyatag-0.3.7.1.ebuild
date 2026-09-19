@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python module to talk to Atag One."
+DESCRIPTION="Python module to talk to Atag One"
 HOMEPAGE="https://github.com/MatsNl/pyatag https://pypi.org/project/pyatag/"
 
 LICENSE="MIT"

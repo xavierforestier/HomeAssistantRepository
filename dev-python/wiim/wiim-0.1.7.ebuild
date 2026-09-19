@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="API interface for controlling and communicating with WiiM audio devices."
+DESCRIPTION="API interface for controlling and communicating with WiiM audio devices"
 HOMEPAGE="https://github.com/Linkplay2020/wiim https://pypi.org/project/wiim/"
 
 LICENSE="MIT"

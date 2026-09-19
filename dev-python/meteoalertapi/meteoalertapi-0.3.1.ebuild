@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Get alerts from extreme weather in Europe from https://www.meteoalarm.org:."
+DESCRIPTION="Get alerts from extreme weather in Europe from meteoalarm.org"
 HOMEPAGE="https://github.com/rolfberkenbosch/meteoalert-api https://pypi.org/project/meteoalertapi/"
 
 LICENSE="MIT"

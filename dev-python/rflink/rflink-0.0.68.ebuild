@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library and CLI tools for interacting with RFlink 433MHz transceiver."
+DESCRIPTION="Library and CLI tools for interacting with RFlink 433MHz transceiver"
 HOMEPAGE="https://github.com/aequitas/python-rflink https://pypi.org/project/rflink/"
 
 LICENSE="MIT"

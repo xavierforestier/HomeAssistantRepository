@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Homeassistant Analytics."
+DESCRIPTION="Asynchronous Python client for Homeassistant Analytics"
 HOMEPAGE="https://github.com/joostlek/python-homeassistant-analytics https://pypi.org/project/python-homeassistant-analytics/"
 
 LICENSE="MIT"

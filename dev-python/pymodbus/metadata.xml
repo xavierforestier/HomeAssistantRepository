@@ -11,8 +11,7 @@
     <doc>https://pythonhosted.org/pymodbus/</doc>
   </upstream>
   <use>
-    <flag name="repl">repl</flag>
-    <flag name="serial">serial</flag>
-    <flag name="simulator">simulator</flag>
+    <flag name="serial">Serial comunication</flag>
+    <flag name="simulator">Needed by pymodbus.simulator</flag>
   </use>
 </pkgmetadata>

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  18 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  zigpy-ziggurat-1.0.1.ebuild, zigpy-ziggurat-1.1.1.ebuild:
+  Cleanup
+
 *zigpy-ziggurat-1.1.1 (01 Aug 2026)
 
   01 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

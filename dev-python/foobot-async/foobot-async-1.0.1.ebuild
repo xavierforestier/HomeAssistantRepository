@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="API Client for Foobot Air Quality Monitoring devices."
+DESCRIPTION="API Client for Foobot Air Quality Monitoring devices"
 HOMEPAGE="https://github.com/reefab/foobot_async https://pypi.org/project/foobot_async/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python library to sign AWS requests using AWS Signature V4."
+DESCRIPTION="A python library to sign AWS requests using AWS Signature V4"
 HOMEPAGE="https://www.github.com/iksteen/aws-request-signer https://pypi.org/project/aws-request-signer/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for getting measurements data from Sanix devices."
+DESCRIPTION="Python wrapper for getting measurements data from Sanix devices"
 HOMEPAGE="https://github.com/tomaszsluszniak/sanix_py https://pypi.org/project/sanix/"
 
 LICENSE="MIT"

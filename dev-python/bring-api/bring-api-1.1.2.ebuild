@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Unofficial package to access Bring! shopping lists API."
+DESCRIPTION="Unofficial package to access Bring! shopping lists API"
 HOMEPAGE="https://github.com/miaucl/python-bring-api https://pypi.org/project/bring-api/"
 
 LICENSE="MIT"

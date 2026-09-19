@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API to interact with Ruckus Unleashed and ZoneDirector devices."
+DESCRIPTION="Python API to interact with Ruckus Unleashed and ZoneDirector devices"
 HOMEPAGE="https://github.com/ms264556/aioruckus https://pypi.org/project/aioruckus/"
 
 LICENSE="BSD"

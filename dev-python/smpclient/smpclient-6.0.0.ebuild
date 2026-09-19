@@ -15,7 +15,7 @@ LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-PATCHES="${FILESDIR}/${PN}-fix-poetry.patch"
+PATCHES=( "${FILESDIR}/${PN}-fix-poetry.patch" )
 
 RDEPEND="
 	>=dev-python/smp-4.0.2[${PYTHON_USEDEP}]

@@ -9,7 +9,7 @@ PYPI_NO_NORMALIZE=1
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Consume Server-Sent Event (SSE) messages with HTTPX."
+DESCRIPTION="Consume Server-Sent Event (SSE) messages with HTTPX"
 HOMEPAGE="https://github.com/florimondmanca/httpx-sse https://pypi.org/project/httpx-sse/"
 
 LICENSE="MIT"

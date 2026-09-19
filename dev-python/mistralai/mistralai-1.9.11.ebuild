@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION=""
+DESCRIPTION="Python Client SDK for the Mistral AI API"
 HOMEPAGE="https://github.com/mistralai/client-python https://pypi.org/project/mistralai/"
 
 LICENSE="Apache-2.0"

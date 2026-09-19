@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Client for the LG Smart TV running NetCast 3 or 4."
+DESCRIPTION="Client for the LG Smart TV running NetCast 3 or 4"
 HOMEPAGE="https://github.com/Drafteed/python-lgnetcast https://pypi.org/project/pylgnetcast/"
 
 LICENSE="MIT"

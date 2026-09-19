@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="An API client for Roth's TouchlineSL control system."
+DESCRIPTION="An API client for Roth's TouchlineSL control system"
 HOMEPAGE="https://github.com/jnsgruk/pytouchlinesl https://pypi.org/project/pytouchlinesl/"
 
 LICENSE="Apache-2.0"

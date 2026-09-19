@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for getting PoolSense data."
+DESCRIPTION="Asynchronous Python client for getting PoolSense data"
 HOMEPAGE="https://github.com/haemishkyd/poolsense https://pypi.org/project/poolsense/"
 
 LICENSE="MIT"

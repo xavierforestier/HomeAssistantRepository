@@ -6,7 +6,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python interface for the Zehnder ComfoConnect LAN C bridge."
+DESCRIPTION="Python interface for the Zehnder ComfoConnect LAN C bridge"
 HOMEPAGE="https://github.com/michaelarnauts/comfoconnect https://pypi.org/project/pycomfoconnect/"
 
 LICENSE="MIT"

@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="An async GeoRSS client library for GDACS feeds."
+DESCRIPTION="An async GeoRSS client library for GDACS feeds"
 HOMEPAGE="https://github.com/exxamalte/python-aio-georss-gdacs https://pypi.org/project/aio-georss-gdacs/"
 
 LICENSE="Apache-2.0"

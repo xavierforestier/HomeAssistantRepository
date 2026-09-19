@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for Russound RNET commands."
+DESCRIPTION="Python API for Russound RNET commands"
 HOMEPAGE="https://github.com/laf/russound https://pypi.org/project/russound/"
 
 LICENSE="GPL-3"

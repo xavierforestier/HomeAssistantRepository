@@ -21,7 +21,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-PATCHES="${FILESDIR}/${P}-version.patch"
+PATCHES=( "${FILESDIR}/${P}-version.patch" )
 # pydantic can be used but it has a fallback
 RDEPEND="
 	>=dev-python/annotated-types-0.5.0[${PYTHON_USEDEP}]

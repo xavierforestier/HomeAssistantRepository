@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python package for Cielo Connect APIs."
+DESCRIPTION="Python package for Cielo Connect APIs"
 HOMEPAGE="https://github.com/cielo-connect/cielo-connect-api https://pypi.org/project/cielo-connect-api/"
 
 LICENSE="MIT"

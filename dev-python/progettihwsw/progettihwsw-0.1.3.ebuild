@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 PYPI_PN="ProgettiHWSW"
 inherit distutils-r1 pypi
-DESCRIPTION="Controls ProgettiHWSW relay boards."
+DESCRIPTION="Controls ProgettiHWSW relay boards"
 HOMEPAGE="https://github.com/ardaseremet/progettihwsw https://pypi.org/project/ProgettiHWSW/"
 
 LICENSE="MIT"

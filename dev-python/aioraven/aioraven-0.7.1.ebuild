@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous communication with Rainforest RAVEn devices."
+DESCRIPTION="Asynchronous communication with Rainforest RAVEn devices"
 HOMEPAGE="https://github.com/cottsay/aioraven https://pypi.org/project/aioraven/"
 
 LICENSE="Apache-2.0"

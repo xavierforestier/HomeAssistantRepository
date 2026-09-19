@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Strict separation of settings from code."
+DESCRIPTION="Strict separation of settings from code"
 HOMEPAGE="https://github.com/HBNetwork/python-decouple https://pypi.org/project/python-decouple/"
 
 LICENSE="MIT"

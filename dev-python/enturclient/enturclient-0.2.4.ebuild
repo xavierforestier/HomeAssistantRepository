@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="An API client for public transport data from Entur."
+DESCRIPTION="An API client for public transport data from Entur"
 HOMEPAGE="https://github.com/hfurubotten/enturclient https://pypi.org/project/enturclient/"
 
 LICENSE="MIT"

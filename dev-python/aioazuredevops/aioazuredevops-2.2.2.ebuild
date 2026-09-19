@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
-DESCRIPTION="Get data from the Azure DevOps API."
+DESCRIPTION="Get data from the Azure DevOps API"
 HOMEPAGE="https://github.com/timmo001/aioazuredevops https://pypi.org/project/aioazuredevops/"
 SRC_URI="https://github.com/timmo001/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
 

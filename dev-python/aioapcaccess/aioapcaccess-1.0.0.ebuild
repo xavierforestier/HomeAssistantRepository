@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async version of apcaccess library implemented in python."
+DESCRIPTION="Async version of apcaccess library implemented in python"
 HOMEPAGE="https://github.com/yuxincs/aioapcaccess https://pypi.org/project/aioapcaccess/"
 SRC_URI="$(pypi_wheel_url)"
 S=${WORKDIR}

@@ -3,6 +3,6 @@
 <pkgmetadata>
   <upstream>
     <remote-id type="github">elupus/gardena-bluetooth</remote-id>
-	<remote-id type="pypi">gardena-bluetooth</remote-id>
+    <remote-id type="pypi">gardena-bluetooth</remote-id>
   </upstream>
 </pkgmetadata>

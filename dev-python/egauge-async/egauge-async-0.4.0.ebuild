@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async client for eGauge energy monitor (https://www.egauge.net)"
 HOMEPAGE="https://github.com/neggert/egauge-async https://pypi.org/project/egauge-async/"
 
-LICENSE="GPL-3.0-only"
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

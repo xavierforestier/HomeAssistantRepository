@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with *hole."
+DESCRIPTION="Python API for interacting with *hole"
 HOMEPAGE="https://github.com/fabaff/python-hole https://pypi.org/project/hole/"
 
 LICENSE="MIT"

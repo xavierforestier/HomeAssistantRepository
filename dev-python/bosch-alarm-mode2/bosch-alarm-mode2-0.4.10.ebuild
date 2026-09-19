@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library for interacting with Bosch Alarm Panels supporting the 'Mode 2' API."
+DESCRIPTION="Library for interacting with Bosch Alarm Panels supporting the 'Mode 2' API"
 HOMEPAGE="https://pypi.org/project/bosch-alarm-mode2/ https://github.com/mag1024/bosch-alarm-mode2"
 
 LICENSE="MIT"

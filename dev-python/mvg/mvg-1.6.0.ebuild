@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Interface to timetable information of the Münchner Verkehrsgesellschaft (MVG)."
+DESCRIPTION="Interface to timetable information of the Münchner Verkehrsgesellschaft (MVG)"
 HOMEPAGE="https://github.com/mondbaron/mvg https://pypi.org/project/mvg/"
 
 LICENSE="MIT"

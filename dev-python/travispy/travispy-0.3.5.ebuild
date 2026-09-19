@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 PYPI_PN="TravisPy"
 inherit distutils-r1 pypi
-DESCRIPTION="Python API for Travis CI."
+DESCRIPTION="Python API for Travis CI"
 HOMEPAGE="https://github.com/menegazzo/travispy https://pypi.org/project/TravisPy/"
 
 LICENSE="GPL-3"

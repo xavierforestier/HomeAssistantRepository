@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Async Python client for the WattWächter smart meter API"
 HOMEPAGE="https://github.com/SmartCircuits-GmbH/WattWaechter-PyPI https://pypi.org/project/aio-wattwaechter"
 
-LICENSE="Apache2.0"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

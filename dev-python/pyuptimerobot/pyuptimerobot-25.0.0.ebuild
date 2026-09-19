@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API wrapper for Uptime Robot."
+DESCRIPTION="Python API wrapper for Uptime Robot"
 HOMEPAGE="https://github.com/ludeeus/pyuptimerobot https://pypi.org/project/pyuptimerobot/"
 
 LICENSE="MIT"

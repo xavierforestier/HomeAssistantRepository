@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python package that provides access to parts of the Starling bank API."
+DESCRIPTION="Python package that provides access to parts of the Starling bank API"
 HOMEPAGE="https://github.com/Dullage/starlingbank https://pypi.org/project/starlingbank/"
 
 LICENSE="MIT"

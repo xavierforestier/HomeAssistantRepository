@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for the Quby ToonAPI."
+DESCRIPTION="Asynchronous Python client for the Quby ToonAPI"
 HOMEPAGE="https://github.com/frenck/python-toonapi https://pypi.org/project/toonapi/"
 
 LICENSE="MIT"

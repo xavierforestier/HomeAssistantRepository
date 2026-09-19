@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Document parameters, class attributes, return types, and variables inline, with Annotated."
+DESCRIPTION="Document parameters, class attributes, return types, and variables"
 HOMEPAGE="https://github.com/fastapi/annotated-doc https://pypi.org/project/annotated-doc/"
 
 LICENSE="MIT"

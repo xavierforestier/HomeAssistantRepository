@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library to connect to and interact with Flic buttons."
+DESCRIPTION="Python library to connect to and interact with Flic buttons"
 HOMEPAGE="https://github.com/soldag/pyflic https://pypi.org/project/pyflic/"
 
 LICENSE="CC0-1.0"

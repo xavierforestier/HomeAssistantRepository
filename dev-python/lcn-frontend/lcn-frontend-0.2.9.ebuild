@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Home Assistant Panel for configuring the LCN integration."
+DESCRIPTION="Home Assistant Panel for configuring the LCN integration"
 HOMEPAGE="https://github.com/alengwenus/lcn-frontend https://pypi.org/project/lcn-frontend/"
 
 LICENSE="MIT"

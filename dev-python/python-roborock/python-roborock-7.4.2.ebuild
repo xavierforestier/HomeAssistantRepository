@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
-DESCRIPTION="A package to control Roborock vacuums."
+DESCRIPTION="A package to control Roborock vacuums"
 HOMEPAGE="https://github.com/humbertogontijo/python-roborock https://pypi.org/project/python-roborock/"
 
 LICENSE="GPL-3"

@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for accessing information from Samsung FamilyHub fridges locally."
+DESCRIPTION="Python API for accessing information from Samsung FamilyHub fridges locally"
 HOMEPAGE="https://github.com/Klathmon/python-family-hub-local https://pypi.org/project/python-family-hub-local/"
 SRC_URI="$(pypi_sdist_url --no-normalize "${PN}" "${PV}" ".zip" )"
 

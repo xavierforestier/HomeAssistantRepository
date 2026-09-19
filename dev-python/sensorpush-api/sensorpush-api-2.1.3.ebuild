@@ -10,11 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="SensorPush Public API"
 HOMEPAGE="https://pypi.org/project/sensorpush-api/ https://github.com/sstallion/sensorpush-api"
-PATCHES="
-	${FILESDIR}/${PN}-build-system.patch
-	${FILESDIR}/${P}-option-json-missing.patch
-"
-
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" "${FILESDIR}/${P}-option-json-missing.patch" )
 LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python library for interacting with the LibreHardwareMonitor API."
+DESCRIPTION="A Python library for interacting with the LibreHardwareMonitor API"
 HOMEPAGE="https://github.com/Sab44/librehardwaremonitor-api https://pypi.org/project/librehardwaremonitor-api/"
 
 LICENSE="MIT"

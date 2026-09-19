@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="An asyncio client for the Home Connect API."
+DESCRIPTION="An asyncio client for the Home Connect API"
 HOMEPAGE="https://github.com/MartinHjelmare/aiohomeconnect https://pypi.org/project/aiohomeconnect"
 
 LICENSE="Apache-2.0"

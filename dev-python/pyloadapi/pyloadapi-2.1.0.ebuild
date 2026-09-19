@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Simple wrapper for pyLoad's API."
+DESCRIPTION="Simple wrapper for pyLoad's API"
 HOMEPAGE="https://github.com/tr4nt0r/pyloadapi https://pypi.org/project/PyLoadAPI/"
 
 LICENSE="MIT"

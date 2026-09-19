@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="SoCo (Sonos Controller) is a simple library to control Sonos speakers."
+DESCRIPTION="SoCo (Sonos Controller) is a simple library to control Sonos speakers"
 HOMEPAGE="https://github.com/SoCo/SoCo https://pypi.org/project/soco/"
 
 LICENSE="MIT"

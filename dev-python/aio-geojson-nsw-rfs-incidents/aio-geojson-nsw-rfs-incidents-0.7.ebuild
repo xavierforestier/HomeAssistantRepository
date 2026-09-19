@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="An async GeoJSON client library for NSW Rural Fire Service Incidents."
+DESCRIPTION="An async GeoJSON client library for NSW Rural Fire Service Incidents"
 HOMEPAGE="https://github.com/exxamalte/python-aio-geojson-nsw-rfs-incidents https://pypi.org/project/aio-geojson-nsw-rfs-incidents/"
 
 LICENSE="Apache-2.0"

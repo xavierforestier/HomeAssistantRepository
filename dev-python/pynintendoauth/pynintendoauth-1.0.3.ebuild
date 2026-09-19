@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python module to provide APIs to authenticate with Nintendo services."
+DESCRIPTION="A Python module to provide APIs to authenticate with Nintendo services"
 HOMEPAGE="https://github.com/pantherale0/pynintendoauth https://pypi.org/project/pynintendoauth/"
 
 LICENSE="MIT"

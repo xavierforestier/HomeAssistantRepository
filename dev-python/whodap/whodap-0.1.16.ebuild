@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python RDAP utility for querying and parsing information about Domains,IP, and AS numbers"
+DESCRIPTION="RDAP utility for querying information about Domains,IP, and AS numbers"
 HOMEPAGE="https://github.com/pogzyb/whodap https://pypi.org/project/whodap"
 
 LICENSE="MIT"

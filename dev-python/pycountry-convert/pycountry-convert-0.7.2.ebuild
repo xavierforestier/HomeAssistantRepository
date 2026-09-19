@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Extension of Python package pycountry providing conversion functions."
+DESCRIPTION="Extension of Python package pycountry providing conversion functions"
 HOMEPAGE="https://github.com/TuneLab/pycountry-convert https://pypi.org/project/pycountry-convert/"
 
 LICENSE="MIT"

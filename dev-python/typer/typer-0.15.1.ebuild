@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=pdm-backend
 inherit distutils-r1 pypi
 
-DESCRIPTION="Typer, build great CLIs. Easy to code. Based on Python type hints."
+DESCRIPTION="Typer, build great CLIs. Easy to code. Based on Python type hints"
 HOMEPAGE="https://github.com/tiangolo/typer https://pypi.org/project/typer/"
 
 LICENSE="MIT"

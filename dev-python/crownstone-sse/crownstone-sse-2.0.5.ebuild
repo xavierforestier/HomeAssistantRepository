@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python library that listens to Crownstone SSE events."
+DESCRIPTION="Asynchronous Python library that listens to Crownstone SSE events"
 HOMEPAGE="https://github.com/crownstone/crownstone-lib-python-sse https://pypi.org/project/crownstone-sse/"
 
 LICENSE="MIT"

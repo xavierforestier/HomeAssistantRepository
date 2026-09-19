@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async Python client for the Somfy MyLink Synergy socket API (a maintained rewrite of somfy-mylink-synergy)"
+DESCRIPTION="Async Python client for the Somfy MyLink Synergy socket API"
 HOMEPAGE="https://github.com/sslivins/pysomfymylink https://pypi.org/project/pysomfymylink"
 
 LICENSE="MIT"

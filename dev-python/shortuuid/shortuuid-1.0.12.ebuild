@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A generator library for concise, unambiguous and URL-safe UUIDs."
+DESCRIPTION="A generator library for concise, unambiguous and URL-safe UUIDs"
 HOMEPAGE="https://github.com/skorokithakis/shortuuid/ https://pypi.org/project/shortuuid/"
 
 LICENSE="BSD"

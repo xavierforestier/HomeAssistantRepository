@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Waze client for calculating routes and travel times."
+DESCRIPTION="Asynchronous Waze client for calculating routes and travel times"
 HOMEPAGE=" https://pypi.org/project/pywaze/"
 
 LICENSE="MIT"

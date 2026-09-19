@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
-DESCRIPTION="Protocol Buffers (Protobuf) support for Uplink."
+DESCRIPTION="Protocol Buffers (Protobuf) support for Uplink"
 HOMEPAGE="https://github.com/prkumar/uplink-protobuf https://pypi.org/project/uplink-protobuf/"
 
 LICENSE="MIT"

@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python module to talk to Rainforest EAGLE-200."
+DESCRIPTION="Python module to talk to Rainforest EAGLE-200"
 HOMEPAGE="https://github.com/home-assistant-libs/aioeagle https://pypi.org/project/aioeagle/"
 
 LICENSE="Apache-2.0"

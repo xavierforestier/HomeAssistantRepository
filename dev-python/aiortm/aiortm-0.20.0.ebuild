@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Use the Remember the Milk API with aiohttp."
+DESCRIPTION="Use the Remember the Milk API with aiohttp"
 HOMEPAGE="https://github.com/MartinHjelmare/aiortm https://pypi.org/project/aiortm"
 
 LICENSE="Apache-2.0"

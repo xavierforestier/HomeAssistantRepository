@@ -15,7 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-PATCHES="${FILESDIR}/${PN}-fix-poetry.patch"
+PATCHES=( "${FILESDIR}/${PN}-fix-poetry.patch" )
 
 RDEPEND="
 	>=dev-python/aiohttp-3.9.3[${PYTHON_USEDEP}]

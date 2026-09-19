@@ -13,9 +13,7 @@ HOMEPAGE="https://pypi.org/project/aiotedee https://github.com/zweckj/aiotedee"
 
 LICENSE="MIT"
 SLOT="0"
-PATCHES="
-	${FILESDIR}/${PN}-build-system.patch
-"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="

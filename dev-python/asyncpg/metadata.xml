@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
-    <remote-id type="github">OnFreund/py-nymta</remote-id>
-    <remote-id type="pypi">py-nymta</remote-id>
+    <remote-id type="github">MagicStack/asyncpg</remote-id>
+    <remote-id type="pypi">asyncpg</remote-id>
   </upstream>
 </pkgmetadata>

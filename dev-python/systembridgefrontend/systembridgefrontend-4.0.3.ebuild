@@ -10,7 +10,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="System Bridge Frontend"
 HOMEPAGE="https://github.com/timmo001/system-bridge-frontend https://pypi.org/project/systembridgefrontend/"
-PATCHES="${FILESDIR}/requirements.patch"
+PATCHES=( "${FILESDIR}/requirements.patch" )
 
 LICENSE="Apache-2.0"
 SLOT="0"

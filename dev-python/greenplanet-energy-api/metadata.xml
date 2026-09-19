@@ -2,7 +2,7 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
   <upstream>
+    <remote-id type="github">petschni/greenplanet-energy-api</remote-id>
     <remote-id type="pypi">greenplanet-energy-api</remote-id>
-    <remote-id type="github">greenplanet-energy-api</remote-id>
   </upstream>
 </pkgmetadata>

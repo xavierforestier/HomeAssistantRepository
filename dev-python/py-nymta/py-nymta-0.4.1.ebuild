@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	=dev-python/gtfs-realtime-bindings-2.0.0[${PYTHON_USEDEP}]
+	~dev-python/gtfs-realtime-bindings-2.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-23.0.0[${PYTHON_USEDEP}]
 "

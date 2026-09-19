@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~arm64 ~x86"
 
 RDEPEND="
-	>dev-python/icalendar-6.0.0[${PYTHON_USEDEP}]
+	>=dev-python/icalendar-6.0.0[${PYTHON_USEDEP}]
 	dev-python/lxml[${PYTHON_USEDEP}]
 	>=dev-python/recurring-ical-events-2.0.0[${PYTHON_USEDEP}]
 "

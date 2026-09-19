@@ -21,5 +21,4 @@ RDEPEND="
 	>=dev-python/zeroconf-0.148[${PYTHON_USEDEP}]
 "
 
-
 distutils_enable_tests pytest

@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
-PATCHES="${FILESDIR}/${PN}-fix-setup-py.patch"
+PATCHES=( "${FILESDIR}/${PN}-fix-setup-py.patch" )
 DOCS="README.md"
 
 RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]

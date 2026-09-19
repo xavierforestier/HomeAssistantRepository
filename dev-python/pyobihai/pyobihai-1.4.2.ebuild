@@ -9,7 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="A Python wrapper for Obihai"
 HOMEPAGE="https://github.com/dshokouhi/pyobihai https://pypi.org/project/pyobihai/"
-PATCHES="${FILESDIR}/${PN}-fix-setup-py.patch"
+PATCHES=( "${FILESDIR}/${PN}-fix-setup-py.patch" )
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

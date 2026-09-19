@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <use>
+    <flag name="pymodbus">Use pymodbus backend</flag>
+    <flag name="tmodbus">Use tmodbus backend</flag>
+  </use>
   <upstream>
     <remote-id type="github">home-assistant-libs/modbus-connection</remote-id>
     <remote-id type="pypi">modbus-connection</remote-id>

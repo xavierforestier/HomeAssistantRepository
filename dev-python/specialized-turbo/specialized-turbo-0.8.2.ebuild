@@ -8,17 +8,17 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library for communicating with Specialized Turbo e-bikes over Bluetooth Low Energy"
+DESCRIPTION="Communicate with Specialized Turbo e-bikes over Bluetooth LE"
 HOMEPAGE="https://github.com/JamieMagee/specialized-turbo https://pypi.org/project/specialized-turbo"
-IUSE=cloud
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
+IUSE=cloud
 
 RDEPEND="
 	>=dev-python/bleak-0.21.0[${PYTHON_USEDEP}]
 	>=dev-python/cryptography-41.0.0[${PYTHON_USEDEP}]
-	cloud? ( 
+	cloud? (
 		>=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
 	)
 "

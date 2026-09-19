@@ -20,7 +20,7 @@ RDEPEND="
 	dev-python/requests[${PYTHON_USEDEP}]
 "
 
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

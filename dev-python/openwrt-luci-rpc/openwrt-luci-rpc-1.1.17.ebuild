@@ -20,6 +20,6 @@ DOCS="README.rst"
 
 RDEPEND=">=dev-python/requests-2.21.0[${PYTHON_USEDEP}]
 	>=dev-python/packaging-19.1[${PYTHON_USEDEP}]
-	>dev-python/click-6.0.0[${PYTHON_USEDEP}]"
+	>dev-python/click-6.0.0-r0[${PYTHON_USEDEP}]"
 
 distutils_enable_tests pytest

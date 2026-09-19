@@ -13,7 +13,7 @@ HOMEPAGE="https://github.com/Stupidoodle/chess-com-api https://pypi.org/project/
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arml arm64 x86"
+KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.8.0[${PYTHON_USEDEP}]

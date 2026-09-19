@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
-PATCHES="${FILESDIR}/${P}-exclude-examples.patch"
+PATCHES=( "${FILESDIR}/${P}-exclude-examples.patch" )
 DOCS="README.md"
 
 RDEPEND="

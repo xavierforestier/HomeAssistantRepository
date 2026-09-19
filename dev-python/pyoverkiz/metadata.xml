@@ -5,6 +5,9 @@
     <email>b@edevau.net</email>
     <name>Andreas Billmeier</name>
   </maintainer>
+  <use>
+    <flag name="nexity">Nexity Eugénie</flag>
+  </use>
   <upstream>
     <remote-id type="pypi">pyoverkiz</remote-id>
     <remote-id type="github">iMicknl/python-overkiz-api</remote-id>

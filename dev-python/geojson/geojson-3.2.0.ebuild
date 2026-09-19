@@ -21,7 +21,7 @@ BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-PATCHES="${FILESDIR}/add-python-3.14.patch "
+PATCHES=( "${FILESDIR}/add-python-3.14.patch" )
 python_test() {
 	py.test -v -v || die
 }

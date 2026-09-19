@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
-PATCHES="${FILESDIR}/${PN}-2.0.1-remove-version.patch"
+PATCHES=( "${FILESDIR}/${PN}-2.0.1-remove-version.patch" )
 DOCS="README.md"
 
 RDEPEND="

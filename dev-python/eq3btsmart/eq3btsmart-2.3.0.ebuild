@@ -7,9 +7,9 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library that allows interaction with eQ-3 Bluetooth smart thermostats. "
+DESCRIPTION="Python library that allows interaction with eQ-3 Bluetooth smart thermostats"
 HOMEPAGE="https://github.com/eulemitkeule/eq3btsmart https://pypi.org/project/eq3btsmart/"
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )
 
 LICENSE="MIT"
 SLOT="0"

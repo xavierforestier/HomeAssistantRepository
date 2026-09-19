@@ -9,7 +9,7 @@ inherit distutils-r1 pypi
 
 DESCRIPTION="System Bridge Connector"
 HOMEPAGE="https://github.com/timmo001/system-bridge-connector https://pypi.org/project/systembridgeconnector/"
-PATCHES="${FILESDIR}/${P}-requirement.patch"
+PATCHES=( "${FILESDIR}/${P}-requirement.patch" )
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

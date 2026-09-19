@@ -13,7 +13,7 @@ HOMEPAGE="https://github.com/boto/s3transfer/ https://pypi.org/project/s3transfe
 
 LICENSE="Apache-2.0"
 SLOT="0"
-KEYWORDS="amd64 arm arm64 ~loong ppc ppc64 ~riscv sparc x86 ~amd64-linux ~x86-linux"
+KEYWORDS="amd64 arm arm64 ~loong ppc ppc64 ~riscv sparc x86"
 
 RDEPEND="
 	<dev-python/botocore-2[${PYTHON_USEDEP}]

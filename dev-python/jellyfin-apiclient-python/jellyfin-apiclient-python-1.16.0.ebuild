@@ -33,4 +33,4 @@ python_test() {
 
 distutils_enable_tests pytest
 
-PATCHES="${FILESDIR}/${PN}-build-system.patch"
+PATCHES=( "${FILESDIR}/${PN}-build-system.patch" )

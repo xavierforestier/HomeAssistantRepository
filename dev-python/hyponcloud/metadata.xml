@@ -3,6 +3,6 @@
 <pkgmetadata>
   <upstream>
     <remote-id type="pypi">hyponcloud</remote-id>
-    <remote-id type="github.com">jcisio/hyponcloud</remote-id>
+    <remote-id type="github">jcisio/hyponcloud</remote-id>
   </upstream>
 </pkgmetadata>

@@ -8,12 +8,12 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async Python client for the IDrive e2 Get Region Endpoint API (returns only endpoint URL)".
+DESCRIPTION="Async Python client for the IDrive e2 Get Region Endpoint API"
 HOMEPAGE="https://github.com/patrickvorgers/idrive-e2-client https://pypi.org/project/idrive-e2-client/"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="amd64 arm ar64 x86"
+KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]

@@ -10,7 +10,7 @@ PYPI_PN="PyRMVtransport"
 inherit distutils-r1 pypi
 DESCRIPTION="Define module-level imports"
 HOMEPAGE="https://github.com/cgtobi/PyRMVtransport https://pypi.org/project/PyRMVtransport/"
-PATCHES="${FILESDIR}/${P}-drop-async_timeout.patch"
+PATCHES=( "${FILESDIR}/${P}-drop-async_timeout.patch" )
 
 LICENSE="MIT"
 SLOT="0"

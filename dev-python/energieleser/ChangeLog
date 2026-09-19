@@ -2,6 +2,14 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  energieleser-0.1.6.ebuild:
+  cleanup
+
+  16 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -energieleser-0.1.5.ebuild:
+  app-misc/homeassistant 2026.9.2
+
 *energieleser-0.1.6 (31 Aug 2026)
 
   31 Aug 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

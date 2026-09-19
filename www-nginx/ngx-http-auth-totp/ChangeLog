@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*ngx-http-auth-totp-1.1.1 (18 Sep 2026)
+
+  18 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +ngx-http-auth-totp-1.1.1.ebuild:
+  Cleanup
+
   28 Feb 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   +files/ngx-http-auth-totp-1.1.0-fix-auth.patch,
   +files/ngx-http-auth-totp-1.1.0-handle-token-starting-with-zero.patch,

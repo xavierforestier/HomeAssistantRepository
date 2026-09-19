@@ -2,6 +2,14 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  aioshelly-13.32.0.ebuild:
+  cleanup
+
+  16 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioshelly-13.29.0.ebuild:
+  app-misc/homeassistant 2026.9.2
+
 *aioshelly-13.32.0 (02 Sep 2026)
 
   02 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

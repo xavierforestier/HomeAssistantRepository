@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  attrs-25.4.0.ebuild:
+  cleanup
+
 *attrs-25.4.0 (05 May 2026)
 
   05 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

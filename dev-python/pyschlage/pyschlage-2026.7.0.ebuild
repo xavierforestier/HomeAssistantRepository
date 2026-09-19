@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with Schlage WiFi locks."
+DESCRIPTION="Python API for interacting with Schlage WiFi locks"
 HOMEPAGE="https://github.com/dknowles2/pyschlage https://pypi.org/project/pyschlage/"
 
 LICENSE="Apache-2.0"

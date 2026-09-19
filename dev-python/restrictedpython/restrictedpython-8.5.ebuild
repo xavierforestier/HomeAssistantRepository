@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="subset of Python which allows program input into a trusted environment."
+DESCRIPTION="subset of Python which allows program input into a trusted environment"
 HOMEPAGE="https://github.com/zopefoundation/RestrictedPython https://pypi.org/project/RestrictedPython"
 
 LICENSE="ZPL"

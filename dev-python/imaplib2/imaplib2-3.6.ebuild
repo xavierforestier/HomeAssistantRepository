@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A threaded Python IMAP4 client."
+DESCRIPTION="A threaded Python IMAP4 client"
 HOMEPAGE="https://github.com/jazzband/imaplib2/ https://pypi.org/project/imaplib2/"
 
 LICENSE="MIT"

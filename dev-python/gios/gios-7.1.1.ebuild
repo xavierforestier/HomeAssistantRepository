@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python wrapper for getting air quality data from GIOS servers."
+DESCRIPTION="Python wrapper for getting air quality data from GIOS servers"
 HOMEPAGE="https://github.com/bieniu/gios https://pypi.org/project/gios/"
 
 LICENSE="Apache-2.0"

@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image."
+DESCRIPTION="A Python wrapper of libjpeg-turbo for decoding and encoding JPEG image"
 HOMEPAGE="https://github.com/lilohuang/PyTurboJPEG https://pypi.org/project/PyTurboJPEG/"
 
 LICENSE="MIT"

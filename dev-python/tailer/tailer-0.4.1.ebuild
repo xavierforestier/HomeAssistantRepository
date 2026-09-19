@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python tail is a simple implementation of GNU tail and head."
+DESCRIPTION="Python tail is a simple implementation of GNU tail and head"
 HOMEPAGE="https://github.com/six8/pytailer https://pypi.org/project/tailer/"
 
 LICENSE="MIT"

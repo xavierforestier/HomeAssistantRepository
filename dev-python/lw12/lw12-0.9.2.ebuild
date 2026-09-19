@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library to control the Lagute LW-12 WiFi LED controller."
+DESCRIPTION="Library to control the Lagute LW-12 WiFi LED controller"
 HOMEPAGE="https://github.com/jaypikay/python-lw12 https://pypi.org/project/lw12/"
 
 LICENSE="MIT"

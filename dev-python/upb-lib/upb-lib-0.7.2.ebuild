@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
-DESCRIPTION="Library for interacting with UPB PIM."
+DESCRIPTION="Library for interacting with UPB PIM"
 HOMEPAGE="https://github.com/gwww/upb-lib https://pypi.org/project/upb-lib/"
 SRC_URI="$(pypi_sdist_url)"
 

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Basic Python NZBGet API client."
+DESCRIPTION="Basic Python NZBGet API client"
 HOMEPAGE="https://github.com/holiestofhandgrenades/pynzbgetapi https://pypi.org/project/pynzbgetapi/"
 
 LICENSE="Apache-2.0"

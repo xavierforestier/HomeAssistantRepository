@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="JSON (de)serialization, GraphQL and JSON schema generation using Python typing."
+DESCRIPTION="JSON (de)serialization, GraphQL and JSON schema generation using Python typing"
 HOMEPAGE="https://github.com/wyfo/apischema https://pypi.org/project/apischema/"
 
 LICENSE="MIT"

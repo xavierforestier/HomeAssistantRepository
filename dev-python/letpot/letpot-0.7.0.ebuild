@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for LetPot hydroponic gardens."
+DESCRIPTION="Asynchronous Python client for LetPot hydroponic gardens"
 HOMEPAGE="https://pypi.org/project/letpot/ https://github.com/jpelgrom/python-letpot"
 
 LICENSE="MIT"

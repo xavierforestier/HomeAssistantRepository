@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="An asynchronous, type-safe Python client library for the Google Health API."
+DESCRIPTION="An asynchronous, type-safe Python client library for the Google Health API"
 HOMEPAGE="https://github.com/allenporter/python-google-health-api https://pypi.org/project/google-health-api"
 
 LICENSE="Apache-2.0"

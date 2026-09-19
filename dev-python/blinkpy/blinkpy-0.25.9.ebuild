@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Blink camera Python library running on Python 3."
+DESCRIPTION="A Blink camera Python library running on Python 3"
 HOMEPAGE="https://github.com/fronzbot/blinkpy https://pypi.org/project/blinkpy/"
 
 LICENSE="MIT"

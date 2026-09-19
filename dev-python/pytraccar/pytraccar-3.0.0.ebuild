@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Update and fetch device information from Traccar."
+DESCRIPTION="Update and fetch device information from Traccar"
 HOMEPAGE="https://github.com/ludeeus/pytraccar https://pypi.org/project/pytraccar/"
 
 LICENSE="MIT"

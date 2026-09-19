@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library to communicate with PG LAB Electronics devices over MQTT."
+DESCRIPTION="Library to communicate with PG LAB Electronics devices over MQTT"
 HOMEPAGE="https://pypi.org/project/pypglab/ https://github.com/pglab-electronics/pypglab"
 
 LICENSE="MIT"

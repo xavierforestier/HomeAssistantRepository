@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat."
+DESCRIPTION="A package to interface with the HTTP API of the OpenEnergyMonitor Thermostat"
 HOMEPAGE="https://github.com/Cadair/openenergymonitor_thermostat https://pypi.org/project/oemthermostat/"
 
 LICENSE="BSD"

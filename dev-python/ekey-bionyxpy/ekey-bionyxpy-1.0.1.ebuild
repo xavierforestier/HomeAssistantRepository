@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Interact with the bionyx third party API of the ekey biometric systems."
+DESCRIPTION="Interact with the bionyx third party API of the ekey biometric systems"
 HOMEPAGE="https://github.com/richardpolzer/ekey-bionyx-api https://pypi.org/project/ekey-bionyxpy/"
 
 LICENSE="MIT"

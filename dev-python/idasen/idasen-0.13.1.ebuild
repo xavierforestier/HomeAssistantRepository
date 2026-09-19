@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="ikea IDASEN desk API and CLI."
+DESCRIPTION="ikea IDASEN desk API and CLI"
 HOMEPAGE="https://github.com/newAM/idasen https://pypi.org/project/idasen/"
 
 LICENSE="MIT"

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Lightweight wrapper for the Dropbox API intended for use in Home Assistant."
+DESCRIPTION="Lightweight wrapper for the Dropbox API intended for use in Home Assistant"
 HOMEPAGE="https://pypi.org/project/python-dropbox-api/"
 
 LICENSE="MIT"

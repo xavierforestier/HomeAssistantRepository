@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="An async python interface for Kodi over JSON-RPC."
+DESCRIPTION="An async python interface for Kodi over JSON-RPC"
 HOMEPAGE="https://github.com/OnFreund/PyKodi https://pypi.org/project/pykodi/"
 
 LICENSE="MIT"

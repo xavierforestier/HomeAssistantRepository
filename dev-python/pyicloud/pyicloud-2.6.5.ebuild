@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Module which allows pythonistas to interact with iCloud webservices."
+DESCRIPTION="Module which allows pythonistas to interact with iCloud webservices"
 HOMEPAGE="https://github.com/timlaing/pyicloud https://pypi.org/project/pyicloud/"
 
 LICENSE="MIT"

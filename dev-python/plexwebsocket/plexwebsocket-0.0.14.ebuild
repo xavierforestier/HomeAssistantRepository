@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Support for issuing callbacks in response to Plex websocket updates."
+DESCRIPTION="Support for issuing callbacks in response to Plex websocket updates"
 HOMEPAGE="https://github.com/jjlawren/python-plexwebsocket/ https://pypi.org/project/plexwebsocket/"
 
 LICENSE="MIT"

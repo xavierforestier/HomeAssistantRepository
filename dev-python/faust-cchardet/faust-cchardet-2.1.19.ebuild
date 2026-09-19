@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="cChardet is high speed universal character encoding detector."
+DESCRIPTION="cChardet is high speed universal character encoding detector"
 HOMEPAGE="https://github.com/faust-streaming/cChardet https://pypi.org/project/faust-cchardet/"
 
 LICENSE="MPL-1.1"

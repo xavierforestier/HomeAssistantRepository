@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library to communicate with EufyLife Bluetooth devices."
+DESCRIPTION="A library to communicate with EufyLife Bluetooth devices"
 HOMEPAGE="https://github.com/bdr99/eufylife-ble-client https://pypi.org/project/eufylife-ble-client/"
 
 LICENSE="MIT"

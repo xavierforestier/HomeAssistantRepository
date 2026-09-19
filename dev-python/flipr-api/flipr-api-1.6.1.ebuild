@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1
 
-DESCRIPTION="Python client for flipr API."
+DESCRIPTION="Python client for flipr API"
 HOMEPAGE="https://github.com/cnico/flipr-api https://pypi.org/project/flipr-api/"
 SRC_URI="https://github.com/cnico/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
 

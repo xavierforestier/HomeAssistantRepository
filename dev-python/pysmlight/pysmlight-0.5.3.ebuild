@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library implementing API control of the SMLIGHT SLZB-06 LAN Coordinators."
+DESCRIPTION="A library implementing API control of the SMLIGHT SLZB-06 LAN Coordinators"
 HOMEPAGE="https://github.com/smlight-workspace/pysmlight https://pypi.org/project/pysmlight/"
 
 LICENSE="Apache-2.0"

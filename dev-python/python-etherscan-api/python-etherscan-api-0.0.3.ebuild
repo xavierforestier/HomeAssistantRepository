@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with etherscan.io."
+DESCRIPTION="Python API for interacting with etherscan.io"
 HOMEPAGE="https://github.com/nkgilley/python-etherscan-api https://pypi.org/project/python-etherscan-api/"
 
 LICENSE="MIT"

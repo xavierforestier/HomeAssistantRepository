@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A Skybell HD Python library running on Python 3."
+DESCRIPTION="A Skybell HD Python library running on Python 3"
 HOMEPAGE="https://github.com/tkdrob/aioskybell https://pypi.org/project/aioskybell/"
 
 LICENSE="MIT"

@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Amber Electric API: download current and forecast price, and historic usage."
+DESCRIPTION="Amber Electric API: download current and forecast price, and historic usage"
 HOMEPAGE="https://github.com/madpilot/amberelectric.py https://pypi.org/project/amberelectric/"
 
 LICENSE="Apache-2.0"

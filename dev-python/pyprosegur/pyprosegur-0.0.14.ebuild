@@ -7,7 +7,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
-DESCRIPTION="Unofficial Python library to interface with Prosegur Alarmes PT/ES."
+DESCRIPTION="Unofficial Python library to interface with Prosegur Alarmes PT/ES"
 HOMEPAGE="https://github.com/dgomes/pyprosegur https://pypi.org/project/pyprosegur/"
 
 LICENSE="MIT"

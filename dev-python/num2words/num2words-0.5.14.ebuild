@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Modules to convert numbers to words. Easily extensible."
+DESCRIPTION="Modules to convert numbers to words. Easily extensible"
 HOMEPAGE="https://pypi.org/project/num2words/ https://github.com/savoirfairelinux/num2words"
 
 LICENSE="LGPL-2"

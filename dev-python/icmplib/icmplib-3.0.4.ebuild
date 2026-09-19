@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Easily forge ICMP packets and make your own ping and traceroute."
+DESCRIPTION="Easily forge ICMP packets and make your own ping and traceroute"
 HOMEPAGE="https://github.com/ValentinBELYN/icmplib https://pypi.org/project/icmplib/"
 
 LICENSE="LGPL-3"

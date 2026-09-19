@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python implementation of the Kraken API."
+DESCRIPTION="A Python implementation of the Kraken API"
 HOMEPAGE="https://github.com/dominiktraxl/pykrakenapi/ https://pypi.org/project/pykrakenapi/"
 
 LICENSE="GPL-3"

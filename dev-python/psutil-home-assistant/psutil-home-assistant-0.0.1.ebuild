@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Wrapper for psutil to allow it to be used several times in the same process."
+DESCRIPTION="Wrapper for psutil to allow it to be used several times in the same process"
 HOMEPAGE="https://github.com/home-assistant-libs/psutil-home-assistant https://pypi.org/project/psutil-home-assistant/"
 
 LICENSE="Apache-2.0"

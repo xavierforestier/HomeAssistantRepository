@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="A standalone API to collect data from the Imeon Energy Inverters."
+DESCRIPTION="A standalone API to collect data from the Imeon Energy Inverters"
 HOMEPAGE="https://pypi.org/project/imeon-inverter-api/ https://github.com/Imeon-Inverters-for-Home-Assistant/inverter-api"
 
 LICENSE="Apache-2.0"

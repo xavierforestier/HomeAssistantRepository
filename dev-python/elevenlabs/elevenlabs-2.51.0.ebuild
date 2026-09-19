@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="The official Python API for ElevenLabs text-to-speech software."
+DESCRIPTION="The official Python API for ElevenLabs text-to-speech software"
 HOMEPAGE="https://colab.research.google.com/gist/flavioschneider/49468d728a816c6538fd2f56b3b50b96/elevenlabs-python.ipynb https://github.com/elevenlabs/elevenlabs-python https://pypi.org/project/elevenlabs/"
 
 LICENSE="MIT"

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Read and control a Flexit air handling unit with a CI66 Modbus adapter."
+DESCRIPTION="Read and control a Flexit air handling unit with a CI66 Modbus adapter"
 HOMEPAGE="https://github.com/troelde/flexit-modbus https://pypi.org/project/flexit-modbus"
 
 LICENSE="Apache-2.0"

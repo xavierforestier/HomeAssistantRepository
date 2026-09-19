@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="API for Proliphix nt10e network thermostat."
+DESCRIPTION="API for Proliphix nt10e network thermostat"
 HOMEPAGE="https://github.com/sdague/proliphix https://pypi.org/project/proliphix/"
 
 LICENSE="Apache-2.0"

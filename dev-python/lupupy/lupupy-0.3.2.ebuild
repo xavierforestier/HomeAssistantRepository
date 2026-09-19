@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python cli for Lupusec alarm panels."
+DESCRIPTION="A python cli for Lupusec alarm panels"
 HOMEPAGE="https://www.github.com/majuss/lupupy https://pypi.org/project/lupupy/"
 
 LICENSE="MIT"

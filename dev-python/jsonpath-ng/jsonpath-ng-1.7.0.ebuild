@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Final implementation of JSONPath for Python that aims to be standard compliant."
+DESCRIPTION="Final implementation of JSONPath for Python that aims to be standard compliant"
 HOMEPAGE="https://github.com/h2non/jsonpath-ng https://pypi.org/project/jsonpath-ng/"
 
 LICENSE="Apache-2.0"

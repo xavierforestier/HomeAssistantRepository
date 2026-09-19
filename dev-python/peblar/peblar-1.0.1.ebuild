@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Peblar EV chargers."
+DESCRIPTION="Asynchronous Python client for Peblar EV chargers"
 HOMEPAGE="https://github.com/frenck/python-peblar https://pypi.org/project/peblar"
 
 LICENSE="MIT"

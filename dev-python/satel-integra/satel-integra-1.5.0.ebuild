@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Communication library for Satel Integra alarm system."
+DESCRIPTION="Communication library for Satel Integra alarm system"
 HOMEPAGE="https://github.com/c-soft/satel_integra https://pypi.org/project/satel-integra/"
 
 LICENSE="MIT"

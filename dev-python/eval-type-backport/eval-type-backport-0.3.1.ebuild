@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Like typing._eval_type, lets older Python versions use newer typing features."
+DESCRIPTION="Like typing._eval_type, lets older Python versions use newer typing features"
 HOMEPAGE="https://github.com/alexmojaki/eval_type_backport https://pypi.org/project/eval-type-backport/"
 
 LICENSE="MIT"

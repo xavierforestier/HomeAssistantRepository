@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 PYPI_PN="SmartHab"
 inherit distutils-r1 pypi
-DESCRIPTION="This package allows controlling devices in a SmartHab-powered home."
+DESCRIPTION="This package allows controlling devices in a SmartHab-powered home"
 HOMEPAGE="https://gitlab.com/outadoc/python-smarthab/ https://pypi.org/project/SmartHab/"
 
 LICENSE="GPL-3"

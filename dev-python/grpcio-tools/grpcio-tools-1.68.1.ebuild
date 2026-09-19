@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Package for gRPC Python tools."
+DESCRIPTION="Package for gRPC Python tools"
 HOMEPAGE="https://pypi.org/project/grpcio-tools/ https://github.com/grpc/grpc/tree/master/tools/distrib/python/grpcio_tools"
 
 LICENSE="Apache-2.0"

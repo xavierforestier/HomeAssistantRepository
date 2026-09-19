@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="PJLink is a standard for controlling data projectors."
+DESCRIPTION="PJLink is a standard for controlling data projectors"
 HOMEPAGE="https://github.com/benoitlouy/pypjlink https://pypi.org/project/pypjlink2/"
 
 LICENSE="Apache-2.0"

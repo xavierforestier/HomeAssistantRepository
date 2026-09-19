@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="An unofficial Python module for interacting with Srp Energy data."
+DESCRIPTION="An unofficial Python module for interacting with Srp Energy data"
 HOMEPAGE="https://github.com/lamoreauxlab/srpenergy-api-client-python https://pypi.org/project/srpenergy/"
 
 LICENSE="MIT"

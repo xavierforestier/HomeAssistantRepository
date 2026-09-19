@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A retry layer for HTTPX."
+DESCRIPTION="A retry layer for HTTPX"
 HOMEPAGE="https://github.com/will-ockmore/httpx-retries https://pypi.org/project/httpx-retries"
 
 LICENSE="MIT"

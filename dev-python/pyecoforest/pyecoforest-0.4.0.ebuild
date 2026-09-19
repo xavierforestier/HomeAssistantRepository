@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library for ecoforest local device."
+DESCRIPTION="Python library for ecoforest local device"
 HOMEPAGE="https://github.com/pjanuario/pyecoforest https://pypi.org/project/pyecoforest/"
 
 LICENSE="MIT"

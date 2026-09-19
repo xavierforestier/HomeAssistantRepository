@@ -9,7 +9,7 @@ PYPI_NO_NORMALIZE=1
 PYPI_PN="uModbus"
 inherit distutils-r1 pypi
 
-DESCRIPTION="Implementation of the Modbus protocol in pure Python."
+DESCRIPTION="Implementation of the Modbus protocol in pure Python"
 HOMEPAGE="https://github.com/AdvancedClimateSystems/umodbus/ https://pypi.org/project/uModbus/"
 
 LICENSE="MPL-2.0"

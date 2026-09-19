@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 PYPI_PN="RachioPy"
 inherit distutils-r1 pypi
-DESCRIPTION="A Python module for the Rachio API."
+DESCRIPTION="A Python module for the Rachio API"
 HOMEPAGE="https://github.com/rfverbruggen/rachiopy https://pypi.org/project/RachioPy/"
 
 LICENSE="MIT"

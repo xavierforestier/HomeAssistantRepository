@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Pilot your Ezviz cameras with this module."
+DESCRIPTION="Pilot your Ezviz cameras with this module"
 HOMEPAGE="https://pypi.org/project/pyezvizapi/ https://github.com/RenierM26/pyEzvizApi"
 
 LICENSE="Apache-2.0"

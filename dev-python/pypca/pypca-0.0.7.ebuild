@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python cli for PCA 301 smart plugs."
+DESCRIPTION="A python cli for PCA 301 smart plugs"
 HOMEPAGE="https://www.github.com/majuss/pypca https://pypi.org/project/pypca/"
 
 LICENSE="MIT"

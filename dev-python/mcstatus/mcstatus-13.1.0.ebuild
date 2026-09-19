@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library to query Minecraft Servers for their status and capabilities."
+DESCRIPTION="A library to query Minecraft Servers for their status and capabilities"
 HOMEPAGE="https://github.com/py-mine/mcstatus https://pypi.org/project/mcstatus/"
 
 LICENSE="Apache-2.0"

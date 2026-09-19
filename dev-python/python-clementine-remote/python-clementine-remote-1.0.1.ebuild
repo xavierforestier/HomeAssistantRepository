@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python library and CLI for the Clementine Music Player remote protocol."
+DESCRIPTION="Python library and CLI for the Clementine Music Player remote protocol"
 HOMEPAGE="https://github.com/jjmontesl/python-clementine-remote https://pypi.org/project/python-clementine-remote/"
 
 LICENSE="Apache-2.0"

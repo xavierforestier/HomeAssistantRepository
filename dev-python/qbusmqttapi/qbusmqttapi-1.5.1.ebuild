@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="MQTT API for Qbus Home Automation."
+DESCRIPTION="MQTT API for Qbus Home Automation"
 HOMEPAGE="https://github.com/Qbus-iot/qbusmqttapi https://pypi.org/project/qbusmqttapi"
 
 LICENSE="MIT"

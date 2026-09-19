@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for Sesame Smartlock made by CANDY HOUSE, Inc."
+DESCRIPTION="Python API for Sesame Smartlock made by CANDY HOUSE, Inc"
 HOMEPAGE="https://github.com/yagami-cerberus/pysesame2 https://pypi.org/project/pysesame2/"
 
 LICENSE="MIT"

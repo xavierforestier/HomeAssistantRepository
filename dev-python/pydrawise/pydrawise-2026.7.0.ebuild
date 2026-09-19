@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with Hydrawise sprinkler controllers."
+DESCRIPTION="Python API for interacting with Hydrawise sprinkler controllers"
 HOMEPAGE="https://github.com/dknowles2/pydrawise https://pypi.org/project/pydrawise/"
 
 LICENSE="Apache-2.0"

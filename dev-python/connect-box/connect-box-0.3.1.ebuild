@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python client for interacting with Compal CH7465LG devices."
+DESCRIPTION="Python client for interacting with Compal CH7465LG devices"
 HOMEPAGE="https://github.com/fabaff/python-connect-box https://pypi.org/project/connect-box/"
 
 LICENSE="MIT"

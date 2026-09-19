@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with blockchain.info."
+DESCRIPTION="Python API for interacting with blockchain.info"
 HOMEPAGE="https://github.com/nkgilley/python-blockchain-api https://pypi.org/project/python-blockchain-api/"
 
 LICENSE="MIT"

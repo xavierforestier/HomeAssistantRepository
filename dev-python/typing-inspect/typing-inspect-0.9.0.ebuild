@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Runtime inspection utilities for typing module."
+DESCRIPTION="Runtime inspection utilities for typing module"
 HOMEPAGE="https://github.com/ilevkivskyi/typing_inspect https://pypi.org/project/typing-inspect/"
 
 LICENSE="MIT"

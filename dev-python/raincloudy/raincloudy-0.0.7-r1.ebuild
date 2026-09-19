@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Melnor RainCloud Smart Garden Watering Irrigation Timer."
+DESCRIPTION="Melnor RainCloud Smart Garden Watering Irrigation Timer"
 HOMEPAGE="https://github.com/tchellomello/raincloudy https://pypi.org/project/raincloudy/"
 
 LICENSE="Apache-2.0"

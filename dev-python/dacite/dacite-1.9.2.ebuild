@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1
 
-DESCRIPTION="Simple creation of data classes from dictionaries."
+DESCRIPTION="Simple creation of data classes from dictionaries"
 HOMEPAGE="https://github.com/konradhalas/dacite https://pypi.org/project/dacite/"
 SRC_URI="https://github.com/konradhalas/${PN}/archive/refs/tags/v${PV}.tar.gz -> ${P}.gh.tar.gz"
 

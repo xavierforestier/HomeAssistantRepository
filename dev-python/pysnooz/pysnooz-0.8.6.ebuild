@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Control SNOOZ white noise machines."
+DESCRIPTION="Control SNOOZ white noise machines"
 HOMEPAGE="https://github.com/AustinBrunkhorst/pysnooz https://pypi.org/project/pysnooz/"
 
 LICENSE="MIT"

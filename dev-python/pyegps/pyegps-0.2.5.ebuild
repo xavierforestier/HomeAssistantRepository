@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Controlling Energenie Power Strips with python."
+DESCRIPTION="Controlling Energenie Power Strips with python"
 HOMEPAGE="https://github.com/gnumpi/pyegps https://pypi.org/project/pyEGPS/"
 MY_PN="pyEGPS"
 SRC_URI="$(pypi_sdist_url --no-normalize "$MY_PN")"

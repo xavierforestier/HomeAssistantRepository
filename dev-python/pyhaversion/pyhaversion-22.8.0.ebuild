@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Get the latest Home Assistant version from various sources."
+DESCRIPTION="Get the latest Home Assistant version from various sources"
 HOMEPAGE="https://github.com/ludeeus/pyhaversion https://pypi.org/project/pyhaversion/"
 
 LICENSE="MIT"

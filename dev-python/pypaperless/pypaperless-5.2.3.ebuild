@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Little api client for paperless(-ngx)."
+DESCRIPTION="Little api client for paperless(-ngx)"
 HOMEPAGE="https://github.com/tb1337/paperless-api https://pypi.org/project/pypaperless"
 
 LICENSE="MIT"

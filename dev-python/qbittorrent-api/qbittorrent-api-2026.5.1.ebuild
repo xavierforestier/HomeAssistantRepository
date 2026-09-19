@@ -7,7 +7,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python client for qBittorrent v4.1+ Web API."
+DESCRIPTION="Python client for qBittorrent v4.1+ Web API"
 HOMEPAGE="https://github.com/rmartin16/qbittorrent-api https://pypi.org/project/qbittorrent-api/"
 
 LICENSE="MIT"

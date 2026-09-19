@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="IKEA Tradfri/Tradfri API. Control and observe your lights from Python."
+DESCRIPTION="IKEA Tradfri/Tradfri API. Control and observe your lights from Python"
 HOMEPAGE="https://github.com/ggravlingen/pytradfri https://pypi.org/project/pytradfri/"
 
 LICENSE="MIT"

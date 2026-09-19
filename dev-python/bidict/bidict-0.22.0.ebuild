@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="The bidirectional mapping library for Python."
+DESCRIPTION="The bidirectional mapping library for Python"
 HOMEPAGE="https://bidict.readthedocs.io https://pypi.org/project/bidict/"
 
 LICENSE="MPL-2.0"

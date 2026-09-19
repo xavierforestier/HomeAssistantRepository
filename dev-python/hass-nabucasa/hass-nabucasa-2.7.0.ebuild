@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Home Assistant cloud integration by Nabu Casa, Inc."
+DESCRIPTION="Home Assistant cloud integration by Nabu Casa, Inc"
 HOMEPAGE="https://www.nabucasa.com/ https://github.com/NabuCasa/hass-nabucasa/ https://pypi.org/project/hass-nabucasa/"
 
 LICENSE="GPL-3"

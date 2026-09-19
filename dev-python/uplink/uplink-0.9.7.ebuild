@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A Declarative HTTP Client for Python."
+DESCRIPTION="A Declarative HTTP Client for Python"
 HOMEPAGE="https://github.com/prkumar/uplink https://uplink.readthedocs.io/ https://pypi.org/project/uplink/"
 
 LICENSE="MIT"

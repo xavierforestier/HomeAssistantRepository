@@ -9,7 +9,7 @@ PYPI_NO_NORMALIZE=1
 PYPI_PN="pyEmby"
 inherit distutils-r1 pypi
 
-DESCRIPTION="Provides a python interface to interact with a Emby media server."
+DESCRIPTION="Provides a python interface to interact with a Emby media server"
 HOMEPAGE="https://github.com/mezz64/pyemby https://pypi.org/project/pyEmby/"
 
 LICENSE="MIT"

@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library to decode and encode infrared signals."
+DESCRIPTION="Library to decode and encode infrared signals"
 HOMEPAGE="https://github.com/home-assistant-libs/infrared-protocols https://pypi.org/project/infrared-protocols/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with luftdaten.info."
+DESCRIPTION="Python API for interacting with luftdaten.info"
 HOMEPAGE="https://github.com/fabaff/python-luftdaten https://pypi.org/project/luftdaten/"
 
 LICENSE="MIT"

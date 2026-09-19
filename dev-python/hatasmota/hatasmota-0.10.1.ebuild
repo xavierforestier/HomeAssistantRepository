@@ -5,7 +5,7 @@ EAPI=8
 DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{12..14} )
 inherit distutils-r1 pypi
-DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages."
+DESCRIPTION="Python module to help parse and construct Tasmota MQTT messages"
 HOMEPAGE="https://github.com/emontnemery/hatasmota https://pypi.org/project/HATasmota/"
 
 LICENSE="MIT"

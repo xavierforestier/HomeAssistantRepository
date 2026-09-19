@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Module to communicate with a Balboa spa wifi adapter."
+DESCRIPTION="Module to communicate with a Balboa spa wifi adapter"
 HOMEPAGE="https://github.com/garbled1/pybalboa https://pypi.org/project/pybalboa/"
 
 LICENSE="Apache-2.0"

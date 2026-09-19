@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library for interacting with ElkM1 alarm/automation panel."
+DESCRIPTION="Library for interacting with ElkM1 alarm/automation panel"
 HOMEPAGE="https://github.com/gwww/elkm1 https://pypi.org/project/elkm1-lib/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python agent for TRIGGERcmd cloud service."
+DESCRIPTION="Python agent for TRIGGERcmd cloud service"
 HOMEPAGE="https://github.com/rvmey/triggercmd-python-agent https://pypi.org/project/triggercmd/"
 
 LICENSE="GPL-3"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="AES encryption for zipfile."
+DESCRIPTION="AES encryption for zipfile"
 HOMEPAGE="https://github.com/danifus/pyzipper https://pypi.org/project/pyzipper/"
 
 LICENSE="MIT"

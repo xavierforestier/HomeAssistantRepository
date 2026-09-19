@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python package for creating a client that talks with SIA-based alarm systems."
+DESCRIPTION="Python package for creating a client that talks with SIA-based alarm systems"
 HOMEPAGE="https://github.com/eavanvalkenburg/pysiaalarm/ https://pypi.org/project/pysiaalarm/"
 
 LICENSE="MIT"

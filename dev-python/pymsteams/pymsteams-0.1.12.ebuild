@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Format messages and post to Microsoft Teams."
+DESCRIPTION="Format messages and post to Microsoft Teams"
 HOMEPAGE="https://github.com/rveachkc/pymsteams https://pypi.org/project/pymsteams/"
 
 LICENSE="Apache-2.0"

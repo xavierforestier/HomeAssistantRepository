@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="A modern, strongly typed Modbus client library."
+DESCRIPTION="A modern, strongly typed Modbus client library"
 HOMEPAGE="https://github.com/wlcrs/tmodbus https://pypi.org/project/tmodbus"
 
 LICENSE="BSD"

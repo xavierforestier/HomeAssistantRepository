@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A GeoRSS client library for the IGN Sismologia feed."
+DESCRIPTION="A GeoRSS client library for the IGN Sismologia feed"
 HOMEPAGE="https://github.com/exxamalte/python-georss-ign-sismologia-client https://pypi.org/project/georss-ign-sismologia-client/"
 
 LICENSE="Apache-2.0"

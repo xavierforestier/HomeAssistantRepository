@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Control Snapcast."
+DESCRIPTION="Control Snapcast"
 HOMEPAGE="https://github.com/happyleavesaoc/python-snapcast/ https://pypi.org/project/snapcast/"
 
 LICENSE="MIT"

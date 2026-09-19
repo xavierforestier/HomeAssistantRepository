@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Official Python SDK for the Todoist REST API."
+DESCRIPTION="Official Python SDK for the Todoist REST API"
 HOMEPAGE="https://github.com/Doist/todoist-api-python https://pypi.org/project/todoist-api-python/"
 
 LICENSE="MIT"

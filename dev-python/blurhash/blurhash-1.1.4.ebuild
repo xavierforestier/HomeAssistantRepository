@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Pure-Python implementation of the blurhash algorithm."
+DESCRIPTION="Pure-Python implementation of the blurhash algorithm"
 HOMEPAGE="https://github.com/halcy/blurhash-python https://pypi.org/project/blurhash/"
 
 LICENSE="MIT"

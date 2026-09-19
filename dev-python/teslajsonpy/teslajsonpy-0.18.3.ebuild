@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A library to work with Tesla API."
+DESCRIPTION="A library to work with Tesla API"
 HOMEPAGE="https://github.com/zabuldon/teslajsonpy https://pypi.org/project/teslajsonpy/"
 
 LICENSE="Apache-2.0"

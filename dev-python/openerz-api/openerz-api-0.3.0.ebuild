@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="A Python wrapper around the OpenERZ API."
+DESCRIPTION="A Python wrapper around the OpenERZ API"
 HOMEPAGE="https://github.com/misialq/openerz-api https://pypi.org/project/openerz-api/"
 
 LICENSE="MIT"

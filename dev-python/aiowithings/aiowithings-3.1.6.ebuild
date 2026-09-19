@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for Withings."
+DESCRIPTION="Asynchronous Python client for Withings"
 HOMEPAGE="https://github.com/joostlek/python-withings https://pypi.org/project/aiowithings/"
 
 LICENSE="MIT"

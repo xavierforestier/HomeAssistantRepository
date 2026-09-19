@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="access public transport information in hamburg, germany."
+DESCRIPTION="access public transport information in hamburg, germany"
 HOMEPAGE="https://github.com/vigonotion/pygti https://pypi.org/project/pygti/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Update Cloudflare DNS A-records."
+DESCRIPTION="Update Cloudflare DNS A-records"
 HOMEPAGE="https://github.com/ludeeus/pycfdns https://pypi.org/project/pycfdns/"
 
 LICENSE="MIT"

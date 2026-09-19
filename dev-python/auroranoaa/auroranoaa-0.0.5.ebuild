@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="NOAA Aurora Wrapper for Home Assistant Integration."
+DESCRIPTION="NOAA Aurora Wrapper for Home Assistant Integration"
 HOMEPAGE="https://github.com/djtimca/aurora-api https://pypi.org/project/auroranoaa/"
 
 LICENSE="Apache-2.0"

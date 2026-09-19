@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with Glances."
+DESCRIPTION="Python API for interacting with Glances"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-glances-api https://pypi.org/project/glances-api/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="A pylint plugin to ignore error codes per file."
+DESCRIPTION="A pylint plugin to ignore error codes per file"
 HOMEPAGE="https://github.com/christopherpickering/pylint-per-file-ignores.git https://pypi.org/project/pylint-per-file-ignores/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API wrapper for Tautulli."
+DESCRIPTION="Python API wrapper for Tautulli"
 HOMEPAGE="https://github.com/ludeeus/pytautulli https://pypi.org/project/pytautulli/"
 
 LICENSE="MIT"

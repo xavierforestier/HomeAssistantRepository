@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for TechnoVE."
+DESCRIPTION="Asynchronous Python client for TechnoVE"
 HOMEPAGE="https://github.com/Moustachauve/pytechnove https://pypi.org/project/python-technove/"
 
 LICENSE="MIT"

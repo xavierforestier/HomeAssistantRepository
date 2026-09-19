@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-DESCRIPTION="Switcher Python Integration."
+DESCRIPTION="Switcher Python Integration"
 HOMEPAGE="https://github.com/tomerfi/aioswitcher/ https://pypi.org/project/aioswitcher/"
 
 LICENSE="Apache-2.0"

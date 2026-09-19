@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Client BACnet library for Flexit Nordic series of air handling units."
+DESCRIPTION="Client BACnet library for Flexit Nordic series of air handling units"
 HOMEPAGE="https://github.com/piotrbulinski/flexit_bacnet https://pypi.org/project/flexit-bacnet/"
 
 LICENSE="MIT"

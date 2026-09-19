@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous library to control Shelly devices."
+DESCRIPTION="Asynchronous library to control Shelly devices"
 HOMEPAGE="https://github.com/home-assistant-libs/aioshelly https://pypi.org/project/aioshelly/"
 
 LICENSE="Apache-2.0"

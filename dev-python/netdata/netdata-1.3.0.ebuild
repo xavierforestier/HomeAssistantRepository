@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with Netdata."
+DESCRIPTION="Python API for interacting with Netdata"
 HOMEPAGE="https://github.com/fabaff/python-netdata https://pypi.org/project/netdata/"
 
 LICENSE="MIT"

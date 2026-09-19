@@ -6,7 +6,7 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Python wrapper implementation for Amcrest cameras."
+DESCRIPTION="Python wrapper implementation for Amcrest cameras"
 HOMEPAGE="https://github.com/tchellomello/python-amcrest https://pypi.org/project/amcrest/"
 
 LICENSE="GPL-2"

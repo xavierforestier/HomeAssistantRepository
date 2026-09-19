@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python module to talk to Evil Genius Labs devices."
+DESCRIPTION="Python module to talk to Evil Genius Labs devices"
 HOMEPAGE="https://github.com/home-assistant-libs/pyevilgenius https://pypi.org/project/pyevilgenius/"
 
 LICENSE="Apache-2.0"

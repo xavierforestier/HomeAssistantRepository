@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="QVR Pro API wrapper."
+DESCRIPTION="QVR Pro API wrapper"
 HOMEPAGE="https://github.com/oblogic7/pyqvrpro https://pypi.org/project/pyqvrpro/"
 
 LICENSE="MIT"

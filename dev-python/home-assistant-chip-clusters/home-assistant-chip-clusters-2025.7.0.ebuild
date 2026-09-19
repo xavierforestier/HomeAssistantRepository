@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=standalone
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python-base APIs and tools for CHIP."
+DESCRIPTION="Python-base APIs and tools for CHIP"
 HOMEPAGE="https://github.com/project-chip/connectedhomeip https://pypi.org/project/home-assistant-chip-clusters/"
 SRC_URI="$(pypi_wheel_url)"
 S=${WORKDIR}

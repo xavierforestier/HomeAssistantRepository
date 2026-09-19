@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=hatchling
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python client for interacting with the openSenseMap API."
+DESCRIPTION="Python client for interacting with the openSenseMap API"
 HOMEPAGE="https://github.com/home-assistant-ecosystem/python-opensensemap-api https://pypi.org/project/opensensemap-api/"
 
 LICENSE="MIT"

@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Converts a Python dictionary or other native data type into a valid XML string."
+DESCRIPTION="Converts a Python dictionary or other native data type into a valid XML string"
 HOMEPAGE="https://github.com/Ousret/dicttoxml https://pypi.org/project/dicttoxml2/"
 
 LICENSE="GPL-2"

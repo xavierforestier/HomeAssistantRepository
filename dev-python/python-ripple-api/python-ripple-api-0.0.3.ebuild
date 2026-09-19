@@ -7,7 +7,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYPI_NO_NORMALIZE=1
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for interacting with ripple.com."
+DESCRIPTION="Python API for interacting with ripple.com"
 HOMEPAGE="https://github.com/nkgilley/python-ripple-api https://pypi.org/project/python-ripple-api/"
 
 LICENSE="MIT"

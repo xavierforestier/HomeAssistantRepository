@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A package for interacting with Subaru Starlink Remote Services API."
+DESCRIPTION="A package for interacting with Subaru Starlink Remote Services API"
 HOMEPAGE="https://github.com/G-Two/subarulink https://pypi.org/project/subarulink/"
 
 LICENSE="Apache-2.0"

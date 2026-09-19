@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Models GTFS data in a database."
+DESCRIPTION="Models GTFS data in a database"
 HOMEPAGE="https://github.com/jarondl/pygtfs https://pypi.org/project/pygtfs/"
 
 LICENSE="MIT"

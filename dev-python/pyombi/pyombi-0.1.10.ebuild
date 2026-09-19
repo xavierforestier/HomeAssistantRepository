@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python module to retrieve information from Ombi."
+DESCRIPTION="A python module to retrieve information from Ombi"
 HOMEPAGE="https://github.com/larssont/pyombi https://pypi.org/project/pyombi/"
 
 LICENSE="MIT"

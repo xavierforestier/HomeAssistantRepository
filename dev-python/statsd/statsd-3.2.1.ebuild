@@ -6,7 +6,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A simple statsd client."
+DESCRIPTION="A simple statsd client"
 HOMEPAGE="https://github.com/jsocol/pystatsd https://pypi.org/project/statsd/"
 
 LICENSE="MIT"

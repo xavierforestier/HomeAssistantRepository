@@ -7,7 +7,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="A python library to communicate with Risco Cloud."
+DESCRIPTION="A python library to communicate with Risco Cloud"
 HOMEPAGE="https://github.com/OnFreund/PyRisco https://pypi.org/project/pyrisco/"
 
 LICENSE="MIT"

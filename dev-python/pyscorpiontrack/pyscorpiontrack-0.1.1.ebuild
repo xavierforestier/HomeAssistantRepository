@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async Python client for ScorpionTrack shared-location links."
+DESCRIPTION="Async Python client for ScorpionTrack shared-location links"
 HOMEPAGE="https://github.com/Herbertmt978/python-scorpiontrack https://pypi.org/project/pyscorpiontrack"
 
 LICENSE="MIT"

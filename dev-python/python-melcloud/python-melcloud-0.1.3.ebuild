@@ -8,7 +8,7 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Asynchronous Python client for controlling Melcloud devices."
+DESCRIPTION="Asynchronous Python client for controlling Melcloud devices"
 HOMEPAGE="https://pypi.org/project/python-melcloud/ https://github.com/erwindouna/python-melcloud"
 
 LICENSE="MIT"

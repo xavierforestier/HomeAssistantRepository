@@ -15,9 +15,8 @@ app-misc/homeassistant 2026.9.0 2026.9.1 2026.9.2 2026.9.3: Open-source home aut
 app-misc/node-red 5.0.4 5.0.6 5.0.7: A visual tool for wiring the Internet of Things.
 app-misc/zigbee2mqtt 2.13.0 2.14.0 2.14.1: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-cpp/abseil-cpp 20260526.0: Abseil Common Libraries (C++), LTS Branch
-dev-embedded/esphome 2026.8.0 2026.8.1 2026.8.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
-dev-embedded/esphome-dashboard 20260110.0 20260210.0 20260408.1 20260425.0: ESPHome dashboard
-dev-embedded/esphome-device-builder 1.14.0: ESPHome Device Builder Dashboard
+dev-embedded/esphome 2026.8.1 2026.8.2 2026.9.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome-device-builder 1.14.0 1.14.9: ESPHome Device Builder Dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0 5.3.1: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.19-r2: An open source ecosystem for IoT development
 dev-lang/dart 3.11.4: The Dart SDK
@@ -80,7 +79,7 @@ dev-python/aioeagle 1.1.1: Python module to talk to Rainforest EAGLE-200
 dev-python/aioecowitt 2026.6.0: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
-dev-python/aioesphomeapi 45.10.3 46.2.0: Python API for interacting with ESPHome devices
+dev-python/aioesphomeapi 45.10.3 46.2.0 46.3.0: Python API for interacting with ESPHome devices
 dev-python/aiofile 3.10.1: Asynchronous file operations
 dev-python/aiofiles 24.1.0: File support for asyncio
 dev-python/aioflo 2021.11.0 2026.9.3: A Python3, async-friendly library for Flo by Moen Smart Water Detectors
@@ -430,7 +429,7 @@ dev-python/epson-projector 0.6.0: Epson projector support for Python
 dev-python/eq3btsmart 2.3.0: Python library that allows interaction with eQ-3 Bluetooth smart thermostats
 dev-python/esios-api 4.4.0: Retrieval of Spanish Electricity hourly prices (PVPC)
 dev-python/esphome-dashboard-api 1.4.0: API to interact with ESPHome Dashboard
-dev-python/esphome-device-builder-frontend 0.1.320: Prebuilt web frontend for the ESPHome Device Builder Dashboard
+dev-python/esphome-device-builder-frontend 0.1.320 0.1.329: Prebuilt web frontend for the ESPHome Device Builder Dashboard
 dev-python/esphome-glyphsets 0.2.0: A lightweight version of glyphsets for ESPHome
 dev-python/esprima 4.0.1: ECMAScript parsing infrastructure for multipurpose analysis in Python
 dev-python/essent-dynamic-pricing 0.3.1: Async client for Essent dynamic energy prices
@@ -1312,7 +1311,7 @@ dev-python/requests-aws4auth 1.3.1: AWS4 authentication for Requests
 dev-python/requests-mock 1.12.1: Mock out responses from the requests package
 dev-python/respx 0.22.0-r1: Mock HTTPX with awesome request patterns and response side effects
 dev-python/restrictedpython 8.5: subset of Python which allows program input into a trusted environment
-dev-python/resvg-py 0.3.3 0.3.4: A safe and high level binding for the resvg project
+dev-python/resvg-py 0.3.3 0.3.4 0.5.0: A safe and high level binding for the resvg project
 dev-python/retry2 0.9.5: easy to use retry decorator in python
 dev-python/reverse-geocode 1.6.5: Reverse geocode the given latitude / longitude
 dev-python/rf-protocols 4.3.0: Library to decode and encode radio frequency signals

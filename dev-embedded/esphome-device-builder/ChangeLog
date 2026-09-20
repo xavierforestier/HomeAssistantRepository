@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*esphome-device-builder-1.14.9 (20 Sep 2026)
+
+  20 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +esphome-device-builder-1.14.9.ebuild:
+  dev-embedded/esphome 2026.9.0
+
 *esphome-device-builder-1.14.0 (04 Sep 2026)
 
   04 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

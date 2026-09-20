@@ -4,6 +4,10 @@
 
   19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   auth0-python-4.10.0.ebuild:
+  Fix
+
+  19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  auth0-python-4.10.0.ebuild:
   cleanup
 
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

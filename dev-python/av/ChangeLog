@@ -3,6 +3,10 @@
 # (auto-generated from git log)
 
   19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  av-17.0.1.ebuild, +files/av-17.0.1-fix-cython.patch:
+  Fix copilation
+
+  19 Sep 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   av-17.0.1.ebuild:
   cleanup
 

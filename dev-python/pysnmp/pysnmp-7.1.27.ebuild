@@ -1,9 +1,9 @@
-# Copyright 1999-2025 Gentoo Authors
+# Copyright 1999-2026 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=flit
+DISTUTILS_USE_PEP517=flit-core
 PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1
@@ -26,24 +26,24 @@ RESTRICT="test"
 
 RDEPEND="
 	>=dev-python/cryptography-43.0.1[${PYTHON_USEDEP}]
-	>=dev-python/pyasn1-0.4.8[${PYTHON_USEDEP}]
-	>=dev-python/pysmi-1.5.7[${PYTHON_USEDEP}]
+	>=dev-python/pyasn1-0.6.3[${PYTHON_USEDEP}]
+	>=dev-python/pysmi-2.0.0[${PYTHON_USEDEP}]
 "
 
-EPYTEST_PLUGINS=( pytest-asyncio )
+EPYTEST_PLUGINS=( pytest-{asyncio,rerunfailures} )
+# flaky because of timeouts
+EPYTEST_RERUNFAILURES=5
 distutils_enable_tests pytest
 # TODO
 # distutils_enable_sphinx docs/source dev-python/furo dev-python/sphinx-copybutton dev-python/sphinx-sitemap
 
 python_test() {
-	local EPYTEST_DESELECT=(
-		# TODO
-		tests/smi/manager/test_mib-tree-inspection.py::test_getNodeName_by_symbol_description_with_module_name_2
-	)
+	# see .github/workflows/build-test.yml
+	mibdump --generate-mib-texts NET-SNMP-EXAMPLES-MIB || die
+	mibdump --generate-mib-texts IF-MIB || die
+	mibdump --generate-mib-texts LEXTUDIO-TEST-MIB || die
+	mibdump --generate-mib-texts CISCO-ENHANCED-IPSEC-FLOW-MIB.py || die
+	mibdump --generate-mib-texts TCP-MIB || die
 
-	mibdump CISCO-ENHANCED-IPSEC-FLOW-MIB.py || die
-	mibdump LEXTUDIO-TEST-MIB || die
-	mibdump NET-SNMP-EXAMPLES-MIB || die
-	mibdump IF-MIB || die
 	epytest
 }

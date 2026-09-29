@@ -119,7 +119,7 @@
     <flag name="blue-current">Blue Current is an Dutch company that makes electric car chargers.</flag>
     <flag name="bluemaestro">Integrates BlueMaestro devices into Home Assistant.</flag>
     <flag name="bluesound">The Bluesound integration allows you to control your Bluesound HiFi wireless speakers and audio integrations from Home Assistant.</flag>
-    <flag name="bluetooth">The Bluetooth integration will detect nearby Bluetooth devices. Discovered devices will show up in the discovered section on the integrations page in the configuration panel.</flag>
+    <flag name="bluetooth">The Bluetooth integration supports Bluetooth Low Energy devices. Bluetooth Classic devices are not supported. Compatible devices discovered nearby appear on Settings &gt; Devices &amp; services.</flag>
     <flag name="bond">The Bond integration allows you to control appliances through your Bond Bridge. Duplicates your RF remote control.</flag>
     <flag name="bosch-alarm">The Bosch Alarm Panel integration allows you to connect your Bosch Alarm Panel to Home Assistant to control and monitor your Bosch Alarm Panel.</flag>
     <flag name="bosch-shc">The Bosch SHC integration allows you to connect your Bosch Smart Home Controller to Home Assistant to control and monitor your Bosch Smart Home devices.Use case: combine your door and window contacts with your covers and switches to build a home security and comfort setup that reacts to what’s actually happening in your home.</flag>
@@ -678,7 +678,7 @@
     <flag name="onkyo">The Onkyo integration allows you to control Onkyo and Integra (from 2011 onward) and also Pioneer (from 2016 onward) receivers using Home Assistant.Please be aware that you need to enable “Network Standby” for this integration to work with your hardware.</flag>
     <flag name="onvif">The ONVIF integration allows you to use an ONVIF Profile S conformant device in Home Assistant. This requires the ffmpeg integration to be already configured.</flag>
     <flag name="openai-conversation">The OpenAI integration adds a conversation agent powered by OpenAI in Home Assistant.</flag>
-    <flag name="opendisplay">The OpenDisplay integration lets you use OpenDisplay e-paper displays with Home Assistant over Bluetooth Low Energy.</flag>
+    <flag name="opendisplay">The OpenDisplay integration lets you use OpenDisplay e-paper displays with Home Assistant over Bluetooth Low Energy. You can upload images to the display from automations and scripts.</flag>
     <flag name="openerz">The Open ERZ integration uses OpenERZ API to access data from Entsorgung und Recycling Zürich (ERZ). It reports the next pickup date for the specified zip and waste type.</flag>
     <flag name="openevse">The OpenEVSE integration connects your Home Assistant installation to an OpenEVSE electric vehicle charging station that runs the OpenEVSE Wi-Fi firmware. The integration talks to the charger locally over your home network, so it works without an internet connection and without a cloud account.</flag>
     <flag name="openexchangerates">The Open Exchange Rates integration will show you the current exchange rate from Open Exchange Rates that provides real-time exchange rates for 170 currencies. The free account is limited to only USD as a base currency, allows 1000 requests per month, and updates every hour.</flag>
@@ -763,7 +763,7 @@
     <flag name="python-script">This integration allows you to write Python scripts that are exposed as actions in Home Assistant. Each Python file created in the &lt;config&gt;/python_scripts/ folder will be exposed as an action. The content is not cached so you can easily develop: edit file, save changes, perform action. The scripts are run in a sandboxed environment. The following variables are available in the sandbox:</flag>
     <flag name="qbittorrent">The qBittorrent integration allows you to monitor your downloads with qBittorrent from within Home Assistant and setup automations based on the information.You can control the alternative speed via the Alternative speed switch.</flag>
     <flag name="qbus">The Qbus integration allows you to integrate your Qbus Control into Home Assistant. Qbus is a Belgian manufacturer of Home Automation systems.</flag>
-    <flag name="qingping">Integrates Qingping devices into Home Assistant.</flag>
+    <flag name="qingping">The Qingping integration lets you monitor Qingping environmental sensors directly over Bluetooth Low Energy. No cloud account or hub is required: the devices broadcast their readings and Home Assistant listens passively.</flag>
     <flag name="qld-bushfire">The Queensland Bushfire Alert integration lets you integrate aGeoRSS feed containing bushfire alerts for Queensland. It retrieves alerts from a feedand shows information of those alerts filtered by distance to Home Assistant’slocation.</flag>
     <flag name="qnap">The QNAP integration allows getting various statistics from your QNAP NAS.</flag>
     <flag name="qnap-qsw">This integration interacts with the local API of QNAP QSW managed switches.</flag>
@@ -848,7 +848,7 @@
     <flag name="sensoterra">This integration communicates with your Sensoterra soil moisture probes using the public Sensoterra Customer API via HTTPS.</flag>
     <flag name="sentry">The Sentry integration connects Home Assistant to Sentry, an error tracking service that can be cloud-hosted or self-hosted. It captures logged errors and unhandled exceptions and sends them to your Sentry instance, where you can browse, search, and get alerted on them.</flag>
     <flag name="senz">The nVent RAYCHEM SENZ integration allows you to control and monitor your nVent RAYCHEM SENZ-WIFI thermostats.</flag>
-    <flag name="serial">The Serial integration is using the data provided by a device connected to the serial port of the system where Home Assistant is running. With ser2net and socat would it also work for sensors connected to a remote system.</flag>
+    <flag name="serial">The Serial integration uses the data provided by a device connected to a serial port that Home Assistant can reach. The port can be on the system where Home Assistant runs, or shared over your network. To connect a device that is not next to your system, the recommended way is a serial proxy, which shares a serial port from an ESPHome device over your network. You can also use ser2net or socat to reach a device on a remote system.</flag>
     <flag name="serial-pm">Particulate matter sensors measure the amount of very small particles in the air.</flag>
     <flag name="sesame">The Sesame Smart Lock integration allows you to control your Sesame smart locks made by CANDY HOUSE, Inc.</flag>
     <flag name="seven-segments">The Seven Segments OCR integration allows you to read physical seven segments displays through Home Assistant. ssocr is used to extract the value shown on the display which is observed by a camera.</flag>
@@ -1063,8 +1063,8 @@
     <flag name="watttime">The WattTime integration allows users to get real-time emissions data for a latitude/longitude from WattTime.</flag>
     <flag name="wattwaechter">The WattWächter Plus integration connects Home Assistant to a WattWächter Plus energy monitoring device by SmartCircuits GmbH. The device reads data from your smart electricity meter via the SML/OBIS protocol and exposes it over a local HTTP API. All communication stays on your local network. No cloud service is involved.</flag>
     <flag name="waze-travel-time">The Waze Travel Time integration provides travel time from the Waze.</flag>
-    <flag name="weatherflow-cloud">The WeatherFlow Cloud integration provides access to cloud provided Weather Forecast of a user’s Tempest Weather Stations. To access the station, you will need to configure the integration with an Api Key.</flag>
-    <flag name="weatherflow">The WeatherFlow integration that reads weather data from all WeatherFlow Tempest compatible weather station on the local network.</flag>
+    <flag name="weatherflow-cloud">The WeatherFlow Cloud integration provides the cloud-based forecast and observations of your Tempest weather stations. To set it up, you need a personal access token from your Tempest account.</flag>
+    <flag name="weatherflow">The WeatherFlow integration that reads weather data from all WeatherFlow Tempest-compatible weather stations on the local network.</flag>
     <flag name="weatherkit">The Apple WeatherKit integration obtains current weather and forecasts (hourly and daily) from Apple Weather. It is the most direct replacement for those coming from the Dark Sky API since Apple bought Dark Sky and implemented its technology into their weather service.</flag>
     <flag name="webdav">This integration allows you to use a WebDAV compatible location for Home Assistant Backups.</flag>
     <flag name="webmin">Webmin is a web-based interface for the system administration of Unix-like servers.</flag>

@@ -66,7 +66,7 @@
 +aioridwell==2025.9.0
  
  # homeassistant.components.remember_the_milk
- aiortm==0.20.0
+ aiortm==0.20.1
 @@ -531,7 +531,7 @@
  androidtvremote2==0.3.1
  
@@ -140,15 +140,6 @@
  
  # homeassistant.components.livisi
  livisi==0.0.25
-@@ -1815,7 +1815,7 @@
- openerz-api==0.3.0
- 
- # homeassistant.components.openhome
--openhomedevice==2.2.0
-+openhomedevice==2.2
- 
- # homeassistant.components.openrgb
- openrgb-python==0.3.6
 @@ -2063,7 +2063,7 @@
 
  # homeassistant.components.airvisual

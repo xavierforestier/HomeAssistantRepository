@@ -263,7 +263,6 @@
     <flag name="escea">The Escea integration allows monitoring and control of local Escea fireplaces. These fireplaces are manufactured in New Zealand and sold throughout Australia and New Zealand.</flag>
     <flag name="esphome">Overview The ESPHome integration allows ESPHome devices to connect directly to Home Assistant with the native ESPHome API.</flag>
     <flag name="essent">The Essent integration monitors dynamic energy prices for Essent customers in the Netherlands with Dynamic Contracts.</flag>
-    <flag name="etherscan">The Etherscan integration displays Ether and ERC-20 token balances from Etherscan.io.</flag>
     <flag name="eufylife-ble">The EufyLife integration allows you to integrate Eufy smart scales with Home Assistant.</flag>
     <flag name="eufy">The EufyHome integration is the main integration to integrate eufy devices sold under the EufyHome product line with Home Assistant.</flag>
     <flag name="eurotronic-cometblue">The Eurotronic Comet Blue integration allows you to integrate Eurotronic Comet Blue (and similar) thermostats.</flag>
@@ -526,7 +525,6 @@
     <flag name="lightwave">The Lightwave integration links Home Assistant with your Lightwave Connect Series WiFi link for controlling Lightwave lights, switches and TRVs.</flag>
     <flag name="limitlessled">The LimitlessLED integration can control your LimitlessLED lights from within Home Assistant. The lights are also known as EasyBulb, AppLight, AppLamp, MiLight, LEDme, dekolight, or iLight.</flag>
     <flag name="linkplay">The LinkPlay integration for Home Assistant allows you to control various media players based on the LinkPlay protocol. The integration supports auto-discovery on your local network through Zeroconf.</flag>
-    <flag name="linode">The Linode integration allows you to access the information about your Linode systems from Home Assistant.</flag>
     <flag name="linux-battery">The Linux Battery integration is using the information stored in /sys/class/power_supply/ on your local Linux system to display details about the current state of your battery.</flag>
     <flag name="litejet">LiteJet is a centralized lighting system that predates most home automation technology. All lights and wall switches are wired to a central panel. This central panel has a serial port interface that allows a computer to control the system via LiteJet’s third party protocol. Home Assistant integrates the LiteJet 3rd party protocol and allows you to get the status and control the connected lights. This integration also supports the Centralite Elegance and Centralite Jetstream.</flag>
     <flag name="litellm">The LiteLLM integration allows you to use a LiteLLM proxy as a conversation agent in Home Assistant.</flag>
@@ -696,7 +694,6 @@
     <flag name="opower">The Opower integration allows you to get energy information from utilities that use Opower.</flag>
     <flag name="opple">The Opple integration allows you to control the state of your Opple smart light.</flag>
     <flag name="oralb">Integrates Oral-B devices into Home Assistant.</flag>
-    <flag name="oru">Orange and Rockland Utility is an energy provider in NY and NJ, USA.The ORU integration fetches your current energy usage from your ORU smart meter.</flag>
     <flag name="orvibo">Caution</flag>
     <flag name="osoenergy">The OSO Energy integration for Home Assistant allows you to interact with supported devices and services offered by OSO Energy</flag>
     <flag name="osramlightify">The Osramlightify integration allows you to integrate your Osram Lightify into Home Assistant.</flag>
@@ -778,7 +775,6 @@
     <flag name="radio-frequency">The Radio Frequency integration allows you to use Home Assistant to send commands to radio frequency-controlled devices. The integration acts as an abstraction layer between the following components:</flag>
     <flag name="radiotherm">The Radio Thermostat integration lets you control a thermostat from Radio Thermostat or 3M Filtrete. Your thermostat must have the Wi-Fi module installed and connected to your network.</flag>
     <flag name="rainbird">The Rain Bird integration allows interacting with LNK WiFi module of the Rain Bird Irrigation system in Home Assistant.</flag>
-    <flag name="raincloud">The Melnor RainCloud integration allows you to integrate your Melnor RainCloud sprinkler system in Home Assistant.</flag>
     <flag name="rainforest-eagle">Integrates energy usage and pricing from the Rainforest Automation’s Eagle 3, Eagle-200 and Legacy Eagle energy gateways. These devices work over Zigbee Energy Profile to connect to your smart meter. As such, they do not connect to your regular Zigbee network (you don’t even need a Zigbee network as part of your system), but typically will need to be provisioned (that is to say, connected to your meter) by your utility. You then connect the Eagle to your home network and can pull energy usage via the device’s local API. The price will only be included if it is provided by the electricity meter. If you picked an electricity plan in the app, the price data will not be available.</flag>
     <flag name="rainforest-raven">The RAVEn family of devices from Rainforest Automation, Inc. includes the EMU-2, a wireless device that reads energy usage information directly from your utility meter. This integration connects to a RAVEn-compatible device attached to the Home Assistant instance via USB to integrate instantaneous power demand, accumulated usage, and current unit pricing.</flag>
     <flag name="rainmachine">The RainMachine integration is the main integration to integrate all platforms related to RainMachine smart Wi-Fi sprinkler controllers.</flag>
@@ -885,12 +881,12 @@
     <flag name="smarty">The Salda Smarty integration lets you control Salda Smarty ventilation units from Home Assistant. You need a MB-GATEWAY or something similar to connect to your local network.</flag>
     <flag name="smhi">The SMHI integration adds support for the SMHI.se web service as a source for meteorological data for your location.</flag>
     <flag name="smlight">The SMLIGHT SLZB integration allows you to monitor and manage your SLZB devices directly from Home Assistant. This integration provides direct access to many features available in the SLZB device’s web UI, such as managing firmware updates, monitoring device health through diagnostic sensors, and controlling settings like LED modes or restarting the device.</flag>
+    <flag name="smtp">The SMTP integration allows you to deliver notifications from Home Assistant to an email recipient.</flag>
     <flag name="snapcast">The Snapcast integration allows you to control Snapcast from Home Assistant.</flag>
     <flag name="snmp">Many routers, Wi-Fi access points, printers, and other network-connected devices support the Simple Network Management Protocol (SNMP). This is a standardized method for monitoring/managing network-connected devices. SNMP uses a tree-like hierarchy where each node is an object. Many of these objects contain continuously updated lists of metrics like network interfaces throughput, disk activity, active devices on the network, toner levels, and such.</flag>
     <flag name="snoo">The Snoo is a smart bassinet made by Happiest Baby that helps get your baby to sleep and helps keep them asleep.</flag>
     <flag name="snooz">Integrates SNOOZ devices into Home Assistant.</flag>
     <flag name="sofar">The Sofar integration connects Home Assistant to a Sofar Solar inverter over Modbus TCP, either directly to an inverter with a network port, or through a Modbus TCP bridge for inverters that only expose RS485.</flag>
-    <flag name="solaredge-local">The SolarEdge Local integration uses the local API available on some SolarEdge Inverters to allow you to get details from your SolarEdge solar power setup and integrate these into your Home Assistant installation.</flag>
     <flag name="solaredge">The SolarEdge integration allows you to get details from your SolarEdge solar power setup and integrate these in your Home Assistant installation.It provides two main features:</flag>
     <flag name="solarlog">The Solar-Log integration uses the open JSON interface on Solar-Log PV monitoring systems to get details from your Solar-Log device and integrate these into your Home Assistant installation. With the integration you may monitor the solar power production and power consumption as tracked with your Solar-Log device.</flag>
     <flag name="solarman">The Solarman integration enables direct local communication between Home Assistant and your Solarman devices. This solution provides real-time monitoring of energy production and consumption while enabling device control, all through secure local communication.</flag>
@@ -947,7 +943,6 @@
     <flag name="tailwind">The Tailwind integration lets you control your Tailwind garage door controller fully locally, without relying on cloud services.</flag>
     <flag name="tami4">The Tami4 Edge integration allows you to control and monitor Tami4 Edge / Edge+ by Strauss devices in Home Assistant.</flag>
     <flag name="tankerkoenig">The Tankerkoenig integration allows you to monitor the fuel prices with tankerkoenig.de from within Home Assistant and setup automations based on the information.</flag>
-    <flag name="tank-utility">Add Tank Utility propane tank monitors to Home Assistant.</flag>
     <flag name="tapsaff">The Taps Aff integration provides the ‘Taps Aff’ status for a given location within the UK using Taps Aff.</flag>
     <flag name="tasmota">This integration allows you to control Tasmota devices over MQTT.</flag>
     <flag name="tautulli">The Tautulli integration will monitor activity on a given Tautulli Server. It will create a sensor that shows the number of currently active streams as the state. If you click the sensor for more details, it will show you more statistics.</flag>
@@ -997,7 +992,6 @@
     <flag name="trane">The Trane Local integration allows you to locally control Trane and American Standard thermostats over your local network using a direct mTLS connection. No cloud connection is required.</flag>
     <flag name="transmission">The Transmission integration allows you to monitor your Transmission BitTorrent downloads from within Home Assistant and set up automations based on that information.</flag>
     <flag name="transport-nsw">The Transport NSW integration will give you the time until the next departure from a Transport NSW stop for bus, train, light rail or ferry.</flag>
-    <flag name="travisci">With this integration, you will be able to integrate the test build results reported by Travis-CI working within Home Assistant.</flag>
     <flag name="trend">The Trend integration allows you to create sensors that show the trend ofnumeric state or state_attributes from other entities. This sensor requiresat least two updates of the tracked entity to establish a trend.Thus it can take some time to show an accurate state. It can be usefulas part of automations, where you want to base an action on a trend.</flag>
     <flag name="triggercmd">The TRIGGERcmd integration allows you to run commands on computers via TRIGGERcmd with Home Assistant.</flag>
     <flag name="trmnl">The TRMNL integration allows you to monitor your TRMNL e-paper (e-ink) displays in Home Assistant. TRMNL devices are low-power e-ink displays that show content such as calendars, weather, and custom dashboards at a glance.</flag>
@@ -1113,7 +1107,6 @@
     <flag name="zamg">The GeoSphere Austria integration uses meteorological details published by the Austrian weather service GeoSphere Austria.</flag>
     <flag name="zeroconf">The Zero-configuration networking (zeroconf) integration will scan the network for supported devices and services. Discovered integrations will show up in the discovered section on the integrations page in the configuration panel. It will also make Home Assistant discoverable for other services in the network. Zeroconf is also sometimes known as Bonjour, Rendezvous, and Avahi.</flag>
     <flag name="zerproc">This integration discovers nearby Zerproc lights and adds them to Home Assistant.</flag>
-    <flag name="zestimate">The Zestimate integration allows one to track the Zestimate® value of properties using the Zillow API. According to Zillow’s website, a Zestimate® home valuation is Zillow’s estimated market value. It is not an appraisal. Use it as a starting point to determine a home’s value. The Zestimate® is provided by Zillow, a website primarily for listing homes to buy/sell/rent in the United States.</flag>
     <flag name="zeversolar">The Zeversolar integration allows you to collect and save data providing a historical overview of your Zeversolarproduction.</flag>
     <flag name="zha">The Zigbee Home Automation (ZHA) integration allows you to wirelessly connect many off-the-shelf Zigbee-based devices directly to Home Assistant, using one of many compatible hardware adapters called Zigbee coordinators.</flag>
     <flag name="zhong-hong">The ZhongHong integration lets you control the air conditioners behind a ZhongHong HVAC gateway from Home Assistant.</flag>

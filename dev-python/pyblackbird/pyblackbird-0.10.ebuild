@@ -17,6 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 
 RDEPEND="
+	>=dev-python/serialx-1.10.0[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
 	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
 "
@@ -24,13 +25,5 @@ BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-src_prepare() {
-	eapply "${FILESDIR}/${P}-setup-fails.patch"
-	eapply_user
-
-}
-python_test() {
-	py.test -v -v || die
-}
 
 distutils_enable_tests pytest

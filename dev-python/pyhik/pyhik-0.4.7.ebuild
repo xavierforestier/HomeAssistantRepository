@@ -7,28 +7,24 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix"
-HOMEPAGE="https://github.com/koolsb/pyblackbird https://pypi.org/project/pyblackbird/"
-
+DESCRIPTION="Hikvision camera event stream and toggle motion detection"
+HOMEPAGE="https://github.com/mezz64/pyhik https://pypi.org/project/pyHik/"
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+DOCS="README.md"
+
 RDEPEND="
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.20.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-src_prepare() {
-	eapply "${FILESDIR}/${P}-setup-fails.patch"
-	eapply_user
 
-}
 python_test() {
 	py.test -v -v || die
 }

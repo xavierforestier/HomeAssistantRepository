@@ -4,11 +4,10 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=poetry
 inherit distutils-r1 pypi
-
-DESCRIPTION="Python API for talking to Monoprice Blackbird 4k 8x8 HDBaseT Matrix"
-HOMEPAGE="https://github.com/koolsb/pyblackbird https://pypi.org/project/pyblackbird/"
+DESCRIPTION="A Python3, async-friendly library for Flo by Moen Smart Water Detectors"
+HOMEPAGE="https://github.com/bachya/aioflo https://pypi.org/project/aioflo/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,19 +15,16 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
+DOCS="README.md"
+
 RDEPEND="
-	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/pyserial-asyncio[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.14.3[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]
 	)"
-src_prepare() {
-	eapply "${FILESDIR}/${P}-setup-fails.patch"
-	eapply_user
 
-}
 python_test() {
 	py.test -v -v || die
 }

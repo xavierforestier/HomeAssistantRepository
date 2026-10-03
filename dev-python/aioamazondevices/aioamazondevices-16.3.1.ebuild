@@ -17,7 +17,7 @@ KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.12.7[${PYTHON_USEDEP}]
-	dev-python/anyio[${PYTHON_USEDEP}]
+	>=dev-python/anyio-4[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/httpx[${PYTHON_USEDEP},http2]
 	dev-python/colorlog[${PYTHON_USEDEP}]

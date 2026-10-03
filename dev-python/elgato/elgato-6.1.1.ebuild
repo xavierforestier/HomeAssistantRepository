@@ -18,10 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-42.0.0[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.10[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.8[${PYTHON_USEDEP}]
-	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]"
+	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/aresponses[${PYTHON_USEDEP}]

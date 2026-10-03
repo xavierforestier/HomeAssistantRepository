@@ -20,7 +20,6 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/myst-parser-5.1.0[${PYTHON_USEDEP}]
-	>=dev-lang/python-3.11[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-sensor-state-data-1.8.0[${PYTHON_USEDEP}]
 	>=dev-python/habluetooth-6.9.0[${PYTHON_USEDEP}]
 	>=dev-python/sensor-state-data-2.2.0[${PYTHON_USEDEP}]

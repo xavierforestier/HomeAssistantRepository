@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/modbus-connection-4.7.0[${PYTHON_USEDEP},tmodbus]
+	>=dev-python/modbus-connection-4.12.1[${PYTHON_USEDEP},tmodbus]
 "
 
 EPYTEST_PLUGINS=()

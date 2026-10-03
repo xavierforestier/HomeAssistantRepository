@@ -18,7 +18,6 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	~dev-lang/python-3.9[${PYTHON_USEDEP}]
 	>=dev-python/attrs-23.1.0[${PYTHON_USEDEP}]
 "
 

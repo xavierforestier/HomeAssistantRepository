@@ -17,6 +17,7 @@ SRC_URI="
 S="${WORKDIR}/frontend-${PV}"
 
 PATCHES=(
+	"${FILESDIR}/${PN}-pnpm-12.9.1.patch"
 	"${FILESDIR}/${PN}-disable-age-check.patch"
 	"${FILESDIR}/${PN}-cover-positions.patch"
 )
@@ -28,17 +29,17 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 DOCS="README.md"
 RDEPEND="
-	sys-apps/yarn
+	=sys-apps/pnpm-12.9.1
 	net-libs/nodejs[npm]
 	=dev-python/user-agents-2.0-r2[${PYTHON_USEDEP}]
 "
 
 python_compile() {
-	yarn build
+	pnpm build
 	distutils-r1_python_compile
 }
 
 python_test() {
-	yarn test
+	pnpm test
 	distutils-r1_python_test
 }

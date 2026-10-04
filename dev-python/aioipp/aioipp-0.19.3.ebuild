@@ -16,6 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
+	!dev-python/pyipp[${PYTHON_USEDEP}]
 	>=dev-python/awesomeversion-21.10.1[${PYTHON_USEDEP}]
 	>=dev-python/deepmerge-1.1.0[${PYTHON_USEDEP}]
 	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]

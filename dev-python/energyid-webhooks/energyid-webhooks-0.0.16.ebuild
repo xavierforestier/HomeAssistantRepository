@@ -1,0 +1,28 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+DISTUTILS_USE_PEP517=setuptools
+PYTHON_COMPAT=( python3_{12..14} )
+
+inherit distutils-r1 pypi
+
+DESCRIPTION="Light weight Python package to interface with EnergyID Webhooks"
+HOMEPAGE="https://github.com/EnergieID/energyid-webhooks-py https://pypi.org/project/energyid-webhooks/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+
+RDEPEND="
+	>=dev-python/requests-2.32.3[${PYTHON_USEDEP}]
+	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.11.12[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/backoff[${PYTHON_USEDEP}]
+"
+
+EPYTEST_PLUGINS=()
+distutils_enable_tests pytest

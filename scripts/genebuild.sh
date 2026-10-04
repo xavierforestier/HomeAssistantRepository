@@ -41,13 +41,13 @@ done
 [ -z "$VERSION" ] && VERSION=$( curl -s https://api.github.com/repos/home-assistant/core/releases/latest | jq '.tag_name' | xargs -I {} echo {} )
 
 if [ -d "../app-misc/homeassistant" ]; then
-  pushd "../app-misc/homeassistant"
+  pushd "../app-misc/homeassistant" || exit
 elif [ -d "app-misc/homeassistant" ]; then
-  pushd "app-misc/homeassistant"
-elif [ $( pwd | rev | cut -d/ -f1-2 | rev ) == "app-misc/homeassistant" ]; then
-  pushd .
-elif [ $( pwd | rev | cut -d/ -f1-3 | rev ) == "app-misc/homeassistant/files" ]; then
-  pushd ..
+  pushd "app-misc/homeassistant" || exit
+elif [ "$( pwd | rev | cut -d/ -f1-2 | rev )" == "app-misc/homeassistant" ]; then
+  pushd . || exit
+elif [ "$( pwd | rev | cut -d/ -f1-3 | rev )" == "app-misc/homeassistant/files" ]; then
+  pushd .. || exit
 else
   echo "Please run in app-misc/*homeassistant or root repository" && exit 1
 fi

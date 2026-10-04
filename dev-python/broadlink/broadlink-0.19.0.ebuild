@@ -17,6 +17,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/cryptography-3.2[${PYTHON_USEDEP}]"
+RDEPEND="
+	!dev-python/python-broadlink[${PYTHON_USEDEP}]
+	=dev-python/cryptography-3.2[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

@@ -16,7 +16,7 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="docs/index.txt"
+DOCS="docs/index.rst"
 
 RDEPEND="
 	>=dev-python/google-auth-1.12.0[${PYTHON_USEDEP}]

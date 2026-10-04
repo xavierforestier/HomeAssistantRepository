@@ -92,7 +92,7 @@ pnpm_native_distfile() {
 	elif use arm64; then
 		arch="arm64"
 	else
-		die "no prebuilt pnpm binary for ARCH=${ARCH}"
+		die "no prebuilt pnpm binary for ARCH=${arch}"
 	fi
 
 	use elibc_musl && libc="-musl"
@@ -116,7 +116,8 @@ src_compile() {
 }
 
 src_install() {
-	local install_dir="/usr/$(get_libdir)/node_modules/${PN}" b
+	local install_dir
+	install_dir="/usr/$(get_libdir)/node_modules/${PN}"
 
 	# Everything that exists to obtain a binary we already have.  install.js
 	# links the native binary over the placeholder (done below, at merge time

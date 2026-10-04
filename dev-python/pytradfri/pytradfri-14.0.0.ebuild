@@ -19,8 +19,8 @@ RESTRICT="!test? ( test )"
 RDEPEND="
 	dev-python/pydantic[${PYTHON_USEDEP}]
 	async? (
-		~dev-python/aiocoap-0.4.5[${PYTHON_USEDEP}]
-		~dev-python/dtlssocket-0.1.12[${PYTHON_USEDEP}]
+		>=dev-python/aiocoap-0.4.5[${PYTHON_USEDEP}]
+		>=dev-python/dtlssocket-0.1.12[${PYTHON_USEDEP}]
 	)
 "
 

@@ -19,7 +19,6 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-lang/python-3.11[${PYTHON_USEDEP}]
 	>=dev-python/rich-15.0.0[${PYTHON_USEDEP}]
 	>=dev-python/aiofiles-24[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.14.3[${PYTHON_USEDEP}]

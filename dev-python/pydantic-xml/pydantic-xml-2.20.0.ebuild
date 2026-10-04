@@ -8,16 +8,16 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library to control a Lyngdorf A/V processor"
-HOMEPAGE="https://github.com/fishloa/lyngdorf https://pypi.org/project/lyngdorf"
+DESCRIPTION="pydantic xml extension"
+HOMEPAGE="https://github.com/dapper91/pydantic-xml https://pypi.org/project/pydantic-xml"
 
-LICENSE="MIT"
+LICENSE="unlicenced"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/attrs-21.0.0[${PYTHON_USEDEP}]
+	>=dev-python/lxml-4.9.0[${PYTHON_USEDEP}]
+	>=dev-python/pydantic-2.6.0[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

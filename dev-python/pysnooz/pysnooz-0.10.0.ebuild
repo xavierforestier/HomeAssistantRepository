@@ -19,13 +19,11 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	~dev-lang/python-3.10[${PYTHON_USEDEP}]
 	>=dev-python/home-assistant-bluetooth-1.3.0[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-sensor-state-data-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/bleak-0.20.2[${PYTHON_USEDEP}]
-	~dev-python/events-0.4[${PYTHON_USEDEP}]
-	~dev-python/transitions-0.8.11[${PYTHON_USEDEP}]
+	>=dev-python/events-0.4[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

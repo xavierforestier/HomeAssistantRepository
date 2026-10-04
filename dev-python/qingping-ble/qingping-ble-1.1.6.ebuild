@@ -19,10 +19,10 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/myst-parser-0.18[${PYTHON_USEDEP}]
-	~dev-lang/python-3.10[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-data-tools-0.1.2[${PYTHON_USEDEP}]
 	>=dev-python/sensor-state-data-2.1.2[${PYTHON_USEDEP}]
-	>=dev-python/bluetooth-sensor-state-data-1.5.0[${PYTHON_USEDEP}]"
+	>=dev-python/bluetooth-sensor-state-data-1.5.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]

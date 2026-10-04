@@ -16,8 +16,8 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	~dev-python/aiohttp-3.13[${PYTHON_USEDEP}]
-	~dev-python/aiofiles-25.1[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.13[${PYTHON_USEDEP}]
+	>=dev-python/aiofiles-25.1[${PYTHON_USEDEP}]
 	~dev-python/isodate-0.7.2[${PYTHON_USEDEP}]
 "
 

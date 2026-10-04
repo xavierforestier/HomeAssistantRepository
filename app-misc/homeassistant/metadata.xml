@@ -822,7 +822,7 @@
     <flag name="ruuvitag-ble">Integrates Ruuvi’s RuuviTag and Ruuvi Air BLE devices into Home Assistant.</flag>
     <flag name="rympro">The Read Your Meter Pro integration connects with a Read Your Meter Pro account to get water meter reads into Home Assistant.</flag>
     <flag name="sabnzbd">The SABnzbd integration allows you to monitor and control your downloads with SABnzbd from within Home Assistant and set up automations based on download status and activity.</flag>
-    <flag name="saj">The SAJ Solar Inverter integration will poll a SAJ solar inverter and present the values as sensors in Home Assistant.</flag>
+    <flag name="saj">The SAJ Solar Inverter integration polls a SAJ solar inverter through its local web interface and presents the values as sensors in Home Assistant.</flag>
     <flag name="samsung-exlink">The Samsung TV via ExLink integration lets you control Samsung consumer TVs by connecting to their RS-232 serial port, which Samsung markets as ExLink (also written EX-Link or EXT Link). By connecting the TV to your Home Assistant server using a serial cable, an ESPHome-based serial proxy, or a USB-to-serial adapter, you get local control of the TV.</flag>
     <flag name="samsungtv">The Samsung Smart TV integration allows you to control a Samsung Smart TV.</flag>
     <flag name="sanix">The Sanix integration allows you to get water/sewage level sensor measurements from the Sanix devices made by BIT Complex.</flag>

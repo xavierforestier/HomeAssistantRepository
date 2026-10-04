@@ -17,7 +17,6 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/myst-parser-0.18[${PYTHON_USEDEP}]
-	~dev-lang/python-3.11[${PYTHON_USEDEP}]
 	>=dev-python/home-assistant-bluetooth-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/sensor-state-data-2.19.0[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-sensor-state-data-1.6.1[${PYTHON_USEDEP}]

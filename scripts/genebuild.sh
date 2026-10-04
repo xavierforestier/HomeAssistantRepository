@@ -8,18 +8,16 @@
 ######
 
 # parse parameters
-VERSION=$( curl -s https://api.github.com/repos/home-assistant/core/releases/latest | jq '.tag_name' | xargs -I {} echo {} )
-
 while [[ $# -gt 0 ]]; do
   case $1 in
-    -h|--help)
+    -h|--help|-hdm|-hmd|-dmh|-dhm|-mdh|-mhd|-hd|-dh|-hm|-mh)
       echo -e "\e[1;34musage:\e[0;35m genebuild.sh [-h|--help] [-d|--delete] [-m|--metadata] [VERSION]\e[0m\n\ngenerate homeassistant ebuild\n"
       echo -e "\e[1;34moptions:\e[0m"
       echo -e "  \e[1;36m-h  --help\e[0m     display help and quit"
       echo -e "  \e[1;36m-d  --delete\e[0m   remove existing ebuild"
       echo -e "  \e[1;36m-m  --metadata\e[0m update metadata.xml"
       echo "  [VERSION]      regen a given version (default is last one available in github)"
-      exit
+      exit 0
       ;;
     -d|--delete)
       DELETE_FIRST="X"
@@ -29,17 +27,34 @@ while [[ $# -gt 0 ]]; do
       FETCH_METADATA="X"
       shift
       ;;
+    -dm|-md)
+      DELETE_FIRST="X"
+      FETCH_METADATA="X"
+      shift
+      ;;
     *)
       VERSION=$( curl -s "https://api.github.com/repos/home-assistant/core/releases/tags/${1/_beta/b}" | jq '.tag_name' | xargs -I {} echo {} )
       shift
       ;;
   esac
 done
+[ -z "$VERSION" ] && VERSION=$( curl -s https://api.github.com/repos/home-assistant/core/releases/latest | jq '.tag_name' | xargs -I {} echo {} )
+
+if [ -d "../app-misc/homeassistant" ]; then
+  pushd "../app-misc/homeassistant"
+elif [ -d "app-misc/homeassistant" ]; then
+  pushd "app-misc/homeassistant"
+elif [ $( pwd | rev | cut -d/ -f1-2 | rev ) == "app-misc/homeassistant" ]; then
+  pushd .
+elif [ $( pwd | rev | cut -d/ -f1-3 | rev ) == "app-misc/homeassistant/files" ]; then
+  pushd ..
+else
+  echo "Please run in app-misc/*homeassistant or root repository" && exit 1
+fi
 
 eix-update
 EBUILD=$( pwd | rev | cut -d/ -f1 | rev )-${VERSION/b/_beta}
 EBUILD_PATH=$( pwd )/$EBUILD.ebuild
-
 test -n "$DELETE_FIRST" && test -e "${EBUILD_PATH}" && rm "${EBUILD_PATH}"
 
 ######
@@ -59,16 +74,33 @@ parse_package() {
   for d in $l; do
     echo -ne "\r                                                                                        \r \e[0;32m*\e[0m Parsing dependencies... $d"
     local pos=${#d}
-    if [ "${l:$pos:1}" = "[" ]; then
-      operator=$( echo "$l" | cut -d] -f2- )
-      #TODO version can be coma separated adb-shell[async]>=0.4.4,<5, for now only handle first criteria
-      version=$( echo "${operator:2}" | cut -d\; -f1 | cut -d, -f1 )
-      operator=${operator:0:2}
-    else
-      operator=${l:$pos:2}
-      pos=$((pos + 2 ))
-      version=$( echo "${l:$pos}" | cut -d\; -f1 )
-    fi
+    case ${l:$pos:2} in 
+      [* ) 
+	operator=$( echo "$l" | cut -d "]" -f2- )
+        #TODO version can be coma separated adb-shell[async]>=0.4.4,<5, for now only handle first criteria
+        case ${operator} in
+          \>=* | \<=* | ==* | !=* | ~=* | ^=*)
+            version=$( echo "${operator:2}" | cut -d\; -f1 | cut -d, -f1 )
+            operator=${operator:0:2}
+            ;;
+          \>* | \<* )
+            version=$( echo "${operator:1}" | cut -d\; -f1 | cut -d, -f1 )
+            operator=${operator:0:1}
+            ;;
+        esac
+        ;;
+      \>=* | \<=* | ==* | !=* | ~=* | ^=* )
+        operator=${l:$pos:2}
+        pos=$((pos + 2 ))
+        version=$( echo "${l:$pos}" | cut -d\; -f1 )
+	;;
+      \>* | \<* )
+        operator=${l:$pos:1}
+        pos=$((pos + 1 ))
+        version=$( echo "${l:$pos}" | cut -d\; -f1 )
+	;;
+    esac
+
     local package
     package=$( eix -es# "$d" --use python_targets_python3_14 )
     dlower=${d,,}
@@ -414,3 +446,5 @@ EOF
 
 popd || exit
 ebuild "$EBUILD_PATH" clean digest
+
+popd || exit

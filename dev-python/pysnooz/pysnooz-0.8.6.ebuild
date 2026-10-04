@@ -24,7 +24,6 @@ RDEPEND="
 	>=dev-python/bleak-retry-connector-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/bleak-0.20.2[${PYTHON_USEDEP}]
 	>=dev-python/events-0.4[${PYTHON_USEDEP}]
-	>=dev-python/transitions-0.8.11[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

@@ -17,10 +17,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	~dev-lang/python-3.10[${PYTHON_USEDEP}]
 	>dev-python/authlib-1.2.0[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.31.0[${PYTHON_USEDEP}]
-	~dev-python/deprecated-1.3.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

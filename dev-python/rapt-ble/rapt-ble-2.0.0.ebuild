@@ -19,7 +19,6 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	~dev-lang/python-3.11[${PYTHON_USEDEP}]
 	>=dev-python/bluetooth-sensor-state-data-1.6.1[${PYTHON_USEDEP}]
 	>=dev-python/home-assistant-bluetooth-1.9.2[${PYTHON_USEDEP}]
 	>=dev-python/sensor-state-data-2.13.0[${PYTHON_USEDEP}]

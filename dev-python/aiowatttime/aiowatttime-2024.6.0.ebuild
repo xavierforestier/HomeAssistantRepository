@@ -1,0 +1,34 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=poetry
+inherit distutils-r1 pypi
+DESCRIPTION="An asyncio-based Python3 library for interacting with WattTime"
+HOMEPAGE="https://github.com/bachya/aiowatttime https://pypi.org/project/aiowatttime/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND="
+	>=dev-python/aiohttp-3.7.4[${PYTHON_USEDEP}]
+	>=dev-python/certifi-2023.07.22[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.2[${PYTHON_USEDEP}]
+"
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)"
+
+python_test() {
+	py.test -v -v || die
+}
+
+distutils_enable_tests pytest

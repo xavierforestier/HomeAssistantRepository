@@ -2,6 +2,16 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  04 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  qingping-ble-1.1.6.ebuild:
+  app-misc/homeassistant 2026.10.0_beta0
+
+*qingping-ble-1.1.6 (03 Oct 2026)
+
+  03 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +qingping-ble-1.1.6.ebuild:
+  feature/ deps for app-misc/homeassistant-2026.10.0_beta0
+
   12 Jun 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -qingping-ble-1.1.0.ebuild:
   app-misc/homeassistant 2026.6.2

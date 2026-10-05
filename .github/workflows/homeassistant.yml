@@ -22,7 +22,7 @@ jobs:
         echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
         pwd -P >> /etc/portage/repos.conf/homeassistant.conf
         git config --global --add safe.directory .
-        echo "<$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" > /etc/portage/package.mask
+        echo "<app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" > /etc/portage/package.mask
        
     - name: emerge homeassistant[minimal] first...
       id: merge_min
@@ -31,14 +31,14 @@ jobs:
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -q --jobs=16 --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --backtrack=300 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-               =$(find virtual/homeassistant/*.ebuild  | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev) \
-               =$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev) || true
+               =virtual/$(find virtual/homeassistant/*.ebuild   | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) \
+               =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -pv "=$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \
-             | grep -q "\[ebuild   R    \]$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \ 
-            && emerge -pv "=$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \
-                    | grep -q "\[ebuild   R    \]$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)"
+        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild                            | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild      | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
+            && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+                    | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
     - name: Update README, and cleanup up some space
       run: |
         rm /var/cache/distfiles/* || true 
@@ -53,14 +53,14 @@ jobs:
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -q --jobs=16 --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --backtrack=300 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-               =$(find virtual/homeassistant/*.ebuild  | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev) \
-               =$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev) || true
+               =virtual/$(find virtual/homeassistant/*.ebuild   | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) \
+               =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -pv "=$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \
-             | grep -q "\[ebuild   R    \]$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \ 
-            && emerge -pv "=$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \
-                    | grep -q "\[ebuild   R    \]$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)"
+        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild                            | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild      | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
+            && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+                    | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
     - name: Free up some space
       run: |
         rm /var/cache/distfiles/* || true 
@@ -75,14 +75,14 @@ jobs:
         touch /etc/portage/package.use/zzz.use
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -q --jobs=16 --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --backtrack=300 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-               =$(find virtual/homeassistant/*.ebuild  | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev) \
-               =$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev) || true
-        for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "\n$log\n======"; cat $log; done
-        for log in $( find /etc/portage/ -type f ); do echo -e "\n$log\n======"; cat $log; done
-        emerge -pv "=$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \
-             | grep -q "\[ebuild   R    \]$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \ 
-            && emerge -pv "=$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)" \
-                    | grep -q "\[ebuild   R    \]$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f2- | cut -d. -f2- | rev)"
+               =virtual/$(find virtual/homeassistant/*.ebuild   | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) \
+               =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
+        for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
+        for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
+        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild                            | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild      | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
+            && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+                    | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
     - name: Free up space
       if: success() || failure()
       run: |

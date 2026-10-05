@@ -22,7 +22,7 @@ jobs:
         echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
         pwd -P >> /etc/portage/repos.conf/homeassistant.conf
         git config --global --add safe.directory .
-        echo "<app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" > /etc/portage/package.mask
+        echo "<app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" > /etc/portage/package.mask
        
     - name: emerge homeassistant[minimal] first...
       id: merge_min
@@ -90,7 +90,7 @@ jobs:
         stat_cancelled=lightgrey
         stat_skipped=lightgrey
         stat_=lightgrey
-        version=$( echo $( find ./app-misc/homeassistant -type f -name "*.ebuild" | sort -r | head -n1 )  | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
+        version=$( echo $( find ./app-misc/homeassistant -type f -name "*.ebuild" | sort -rV | head -n1 )  | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"
         git fetch

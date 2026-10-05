@@ -32,12 +32,13 @@ jobs:
         echo "virtual/homeassistant minimal -normal -full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -q --jobs=16 --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --backtrack=300 \
           --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          virtual/homeassistant || true
+          =$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) =$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -v --jobs=1 --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
-          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          virtual/homeassistant
+        emerge -pv "=$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \]$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
+            && emerge -pv "=$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+                    | grep -q "\[ebuild   R    \]$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
         cat /var/log/emerge.log
     - name: Update README, and cleanup up some space
       run: |
@@ -54,12 +55,13 @@ jobs:
         echo "virtual/homeassistant -minimal normal -full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -q --jobs=16 --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --backtrack=300 \
           --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          virtual/homeassistant || true
+          =$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) =$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -v --jobs=1 --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
-          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          virtual/homeassistant
+        emerge -pv "=$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \]$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
+            && emerge -pv "=$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+                    | grep -q "\[ebuild   R    \]$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
         cat /var/log/emerge.log
     - name: Free up some space
       run: |
@@ -76,12 +78,13 @@ jobs:
         echo "virtual/homeassistant -minimal -normal full" > /etc/portage/package.use/virtual-homeassistant.use
         emerge -qu --jobs=16 --verbose-conflicts --deep --with-bdeps=y --newuse --jobs-tmpdir-require-free-gb=0 --backtrack=300 \
           --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          virtual/homeassistant dev-libs/protobuf dev-cpp/abseil-cpp || true
+          =$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)  =$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "\n$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "\n$log\n======"; cat $log; done
-        emerge -v --jobs=1 --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
-          --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          virtual/homeassistant
+        emerge -pv "=$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \]$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
+            && emerge -pv "=$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+                    | grep -q "\[ebuild   R    \]$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
     - name: Free up space
       if: success() || failure()
       run: |

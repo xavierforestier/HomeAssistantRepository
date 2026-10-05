@@ -25,14 +25,14 @@ jobs:
       run: |
         echo -n "" > /etc/portage/package.use/zzz.use
         emerge --jobs=16 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 --jobs-tmpdir-require-free-gb=0 -q \
-              "=dev-embedded/$(find dev-embedded/esphome/*.ebuild                | sort -rV | head -n1 | rev | cut -d/ -f1 | rev)" \
-              "=dev-embedded/$(find dev-embedded/esphome-device-builder/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | rev)" || true
+              "=dev-embedded/$(find dev-embedded/esphome/*.ebuild                | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+              "=dev-embedded/$(find dev-embedded/esphome-device-builder/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -pv "=dev-embedded/$(find dev-embedded/esphome/*.ebuild                                             | sort -rV | head -n1 | rev | cut -d/ -f1 | rev)" \
-             | grep -q "\[ebuild   R    \] dev-embedded/$(find dev-embedded/esphome/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | rev)" \
-            && emerge -pv "=dev-embedded/$(find dev-embedded/esphome-device-builder/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | rev)" \
-                    | grep -q "\[ebuild   R    \] dev-embedded/$(find dev-embedded/esphome-device-builder/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | rev)"
+        emerge -pv "=dev-embedded/$(find dev-embedded/esphome/*.ebuild                                             | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \] dev-embedded/$(find dev-embedded/esphome/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+            && emerge -pv "=dev-embedded/$(find dev-embedded/esphome-device-builder/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+                    | grep -q "\[ebuild   R    \] dev-embedded/$(find dev-embedded/esphome-device-builder/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
   report_status:
     if: success() || failure()
     needs: emerge

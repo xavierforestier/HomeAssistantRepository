@@ -40,7 +40,7 @@ jobs:
         stat_=lightgrey
         version="${{ inputs.pkg-version }}"
         if [ -z "${version}" ] ; then
-          version=$( echo $( find ./${{ inputs.pkg-category }}/${{ inputs.pkg-name }} -type f -name "*.ebuild" | sort -r | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
+          version=$( echo $( find ./${{ inputs.pkg-category }}/${{ inputs.pkg-name }} -type f -name "*.ebuild" | sort -rV | head -n1 ) | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
         fi
         git config --local user.name "xavier.forestier"
         git config --local user.email "{ID}+{username}@users.noreply.github.com"

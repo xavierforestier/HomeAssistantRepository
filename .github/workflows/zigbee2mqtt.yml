@@ -24,11 +24,12 @@ jobs:
     - name: emerge app-misc/zigbee2mqtt...
       run: |
         echo -n "" > /etc/portage/package.use/zzz.use
-        emerge --jobs=16 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 --jobs-tmpdir-require-free-gb=0 -q =$(find app-misc/zigbee2mqtt/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
+        emerge --jobs=16 --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y --verbose-conflicts --backtrack=100 --jobs-tmpdir-require-free-gb=0 -q \
+              =app/misc/$(find app-misc/zigbee2mqtt/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -pv "=$(find app-misc/zigbee2mqtt/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \]$(find app-misc/zigbee2mqtt/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
-        cat /var/log/emerge.log
+        emerge -pv "=app-misc/$(find app-misc/zigbee2mqtt/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
+             | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/zigbee2mqtt/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
   report_status:
     if: success() || failure()
     needs: emerge

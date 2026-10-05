@@ -28,6 +28,14 @@ jobs:
       pkgCategory: "dev-embedded"
     secrets: inherit
     
+  esphome-device-builder:
+    uses: xavierforestier/HomeAssistantRepository/.github/workflows/check-upstream.yml@master
+    with:
+      upstream: "esphome/device-builder"
+      pkgName: "esphome-device-builder"
+      pkgCategory: "dev-embedded"
+    secrets: inherit
+    
   homeassistant-cli:
     uses: xavierforestier/HomeAssistantRepository/.github/workflows/check-upstream.yml@master
     with:

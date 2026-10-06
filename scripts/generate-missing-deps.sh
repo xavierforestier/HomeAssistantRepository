@@ -17,25 +17,8 @@
 category=""
 package=""
 version=""
-count=0
 
-# get missing deps blocking latest app-misc/homeassistant build
-# -> Main package category
-# -> main package name
-# <- category : ebuild category
-# <- package : ebuild name
-# <- version : ebuild version
-get_missing_dep() {
-  local missing_dep
-  missing_dep=$( emerge -pq ="$1/$( find "$1/$2" | grep "\.ebuild$" | sort -rV | head -n1 | rev | cut -d. -f2- | cut -d/ -f1 | rev )" 2>&1 >/dev/null | grep "emerge: there are no ebuilds to satisfy" | cut -d \" -f 2 | sed 's/^[^a-z]*//' )
-  [ -z "${missing_dep}" ] && return 1
-  category=$( echo "$missing_dep" | cut -d/ -f1 )
-  package=$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )
-  version=$( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )
-  return 0
-}
-
-# download pyproject.toml for given version
+# Download pyproject.toml for given version
 # -> version to download
 # <- file /tmp/<package>-<version>-pyproject.toml
 get_pyproject() {
@@ -113,7 +96,7 @@ update_ebuild_hatchling() {
     echo -n "$line" >> "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml"
   done < "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml"
   rm "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml" &> /dev/null
-  echo " \e[0;32m*\e[0m Parse dependencies..."
+  echo -e " \e[0;32m*\e[0m Parse dependencies..."
   for dep in $( cat "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" | cut -d '[' -f2- | rev | cut -d ']' -f2- | rev | sed 's/ //g' | sed 's/","/ /g' | sed 's/"//g' ); do
     local dep_name=""
     local dep_operator=""
@@ -307,7 +290,7 @@ if [ $# -eq 2 ] && [ "$2" == "build" ]; then
   missing_dep=$( emerge -pq ="$category/$( find "$category/$package" | grep "\.ebuild$" | sort -rV | head -n1 | rev | cut -d. -f2- | cut -d/ -f1 | rev )" 2>&1 >/dev/null | grep "emerge: there are no ebuilds to satisfy" | cut -d \" -f 2 | sed 's/^[^a-z]*//' )
   if [ -n "${missing_dep}" ]; then
     popd > /dev/null || exit
-    $0 "$( echo "$missing_dep" | cut -d/ -f1 )/$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )" upgrade $( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )
+    $0 "$( echo "$missing_dep" | cut -d/ -f1 )/$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )" upgrade "$( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )"
     exit 0
   else
     popd > /dev/null || exit
@@ -385,7 +368,7 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
 
   # Recursively check subdependencies
   popd > /dev/null || exit
-  $0 ${category}/${package} build
+  $0 "${category}/${package}" build
   exit 0
 
 #######

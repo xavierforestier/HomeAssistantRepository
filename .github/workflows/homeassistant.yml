@@ -35,10 +35,7 @@ jobs:
                =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild                            | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
-             | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild      | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
-            && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
-                    | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
+        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
     - name: Update README, and cleanup up some space
       run: |
         rm /var/cache/distfiles/* || true 
@@ -57,10 +54,7 @@ jobs:
                =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild                            | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
-             | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild      | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
-            && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
-                    | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
+        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
     - name: Free up some space
       run: |
         rm /var/cache/distfiles/* || true 
@@ -79,10 +73,7 @@ jobs:
                =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) || true
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
-        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild                            | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
-             | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild      | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \ 
-            && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild                       | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" \
-                    | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
+        emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
     - name: Free up space
       if: success() || failure()
       run: |

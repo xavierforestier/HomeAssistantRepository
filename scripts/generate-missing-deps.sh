@@ -1,24 +1,24 @@
 #!/bin/bash
 
+######
+# Author: Xavier FORESTIER
+# Source: https://github.com/xavierforestier/HomeAssistantRepository
+# Purpose: With the given package in parameter try to auto-generate all missing dependcies
+# Status: Very early alpha stage :D
+#   poetry    : alpha (TODO : [] deps, multiple coma separated version)
+#   hatchling : alpha (TODO : [] deps, multiple coma separated version)
+#   setuptools: partial
+#     pyproject.toml : beta
+#     other : TODO (need to handle setup.py, setup.cfg, and try to find most common requirement.txt path)
+#   other (uv-build / 
+######
+
+
 category=""
 package=""
 version=""
 
-# get missing deps blocking latest app-misc/homeassistant build
-# <- category : ebuild category
-# <- package : ebuild name
-# <- version : ebuild version
-get_missing_dep() {
-  local missing_dep
-  missing_dep=$( emerge -pq =app-misc/"$( find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d. -f2- | cut -d/ -f1 | rev )" 2>&1 >/dev/null | grep "emerge: there are no ebuilds to satisfy" | cut -d \" -f 2 | sed 's/^[^a-z]*//' )
-  [ -z "${missing_dep}" ] && return 1
-  category=$( echo "$missing_dep" | cut -d/ -f1 )
-  package=$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )
-  version=$( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )
-  return 0
-}
-
-# download pyproject.toml for given version
+# Download pyproject.toml for given version
 # -> version to download
 # <- file /tmp/<package>-<version>-pyproject.toml
 get_pyproject() {
@@ -40,7 +40,7 @@ get_pyproject() {
 # -> category of pyproject to extract
 # <- file /tmp/<package>-<version>-pyproject-<category>.toml
 extract_category() {
-  echo -ne "  extract [$2]..."
+  echo -ne " \e[0;32m*\e[0m Extract [$2]..."
   line=$( grep -n "\[$2\]" "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject.toml" | cut -d: -f1 )
   tail --lines=+"$(( line + 1 ))" "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject.toml" > "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-$2-tmp.toml" 
   line=$( grep -n "^\[" "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-$2-tmp.toml" | head -n1 | cut -d: -f1 )
@@ -96,7 +96,7 @@ update_ebuild_hatchling() {
     echo -n "$line" >> "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml"
   done < "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml"
   rm "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml" &> /dev/null
-  echo "  Parse dep..."
+  echo -e " \e[0;32m*\e[0m Parse dependencies..."
   for dep in $( cat "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" | cut -d '[' -f2- | rev | cut -d ']' -f2- | rev | sed 's/ //g' | sed 's/","/ /g' | sed 's/"//g' ); do
     local dep_name=""
     local dep_operator=""
@@ -153,7 +153,7 @@ update_ebuild_poetry_v1() {
       newline=''
     fi
   done < "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-tool.poetry.dependencies.toml"
-  echo "  Parse dep..."
+  echo -e " \e[0;32m*\e[0m  Parse dependencies..."
   while read -r line; do
     local dep_name=""
     local dep_operator=""
@@ -202,33 +202,38 @@ update_ebuild_setuptools() {
     head --lines="$( grep -n "]$" "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" | head -n1 | cut -d: -f1 )" "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" > "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml"
     rm "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" &> /dev/null
     while read -r line; do
-      echo -n "$line" >> "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml"
+      if ! echo "$line" | grep -q "^[[:space:]]*#.*$"; then
+        echo -n "$line" >> "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml"
+      fi
     done < "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml"
     rm "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml" &> /dev/null
-    echo "  Parse dep..."
+
+    echo -e " \e[0;32m*\e[0m Parse dependencies..."
     for dep in $( cat "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" | cut -d '[' -f2- | rev | cut -d ']' -f2- | rev | sed 's/ //g' | sed 's/","/ /g' | sed 's/"//g' ); do
       local dep_name=""
       local dep_operator=""
       local dep_version=""
       
       dep_name=$( echo "${dep,,}" | cut -d '(' -f1 | cut -d '[' -f1 )
-      case "$( echo "$dep" | cut -d '(' -f2 )" in
+      case "$( echo "$dep" | cut -d '(' -f2 | cut -d ';' -f1 )" in
         ===*)  dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f4-) ;;
-        ==*)   dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f3-) ;;
         \>=*)  dep_operator=">=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) ;;
         \<=*)  dep_operator="<=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) ;;
         !=*)   dep_operator="!"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) ;;
         ~=*)   dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) ;;
         \>*)   dep_operator=">=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '>' -f2-) ;;
         \<*)   dep_operator="<=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '<' -f2-) ;;
-        *===*) dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f4-) && dep_name=$( echo "${dep,,}" | cut -d '=' -f1) ;;
-        *==*)  dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f3-) && dep_name=$( echo "${dep,,}" | cut -d '=' -f1) ;;
-        *\>=*) dep_operator=">=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '>' -f1) ;;
-        *\<=*) dep_operator="<=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '<' -f1) ;;
-        *!=*)  dep_operator="!"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '!' -f1) ;;
-        *~=*)  dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '~' -f1) ;;
-        *\>*)  dep_operator=">=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '>' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '>' -f1) ;;
-        *\<*)  dep_operator="<=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '<' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '<' -f1) ;;
+        ==*)   dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d '=' -f3-) ;;
+
+        *===*) dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '=' -f4-) && dep_name=$( echo "${dep,,}" | cut -d '=' -f1) ;;
+        *\>=*) dep_operator=">=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '>' -f1) ;;
+        *\<=*) dep_operator="<=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '<' -f1) ;;
+        *!=*)  dep_operator="!"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '!' -f1) ;;
+        *~=*)  dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '=' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '~' -f1) ;;
+        *\>*)  dep_operator=">=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '>' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '>' -f1) ;;
+        *\<*)  dep_operator="<=" && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '<' -f2-) && dep_name=$( echo "${dep,,}" | cut -d '<' -f1) ;;
+        *==*)  dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '=' -f3-) && dep_name=$( echo "${dep,,}" | cut -d '=' -f1) ;;
+
 	*)  echo -e "    ${dep}...\e[1;31m SKIPPED\e[0m" && continue;;
       esac
       if [ -z "${dep_name}" ] || [ "${dep_name,,}" == "python" ]; then
@@ -240,7 +245,10 @@ update_ebuild_setuptools() {
       else
         dep_name=$( eix -# "${dep_name,,}" | grep "/${dep_name,,}$" | head -n1 )
       fi
-      
+      if [ -z "${dep_name}" ]; then
+        echo -e "    ${dep}...\e[1;31m SKIPPED\e[0m"
+        continue
+      fi
       echo -n "    ${dep_name} ${dep_operator}${dep_version}..."
       update_ebuild "$1" "$dep_name" "$dep_operator" "$dep_version"
     done
@@ -249,6 +257,7 @@ update_ebuild_setuptools() {
 
   fi
 }
+
 
 # Move to root repository
 if [ "$(pwd | rev | cut -d/ -f1 | rev)" == "scripts" ]; then
@@ -260,58 +269,114 @@ else
   exit 1
 fi
 
-# Get missing dep
-while get_missing_dep; do
-  [ -z "$package" ] && exit 0
-  echo -e "Package \e[1;31m${category}/${package} (${version})\e[0m is missing"
+# Check usage
+
+########
+if [ $# -eq 2 ] && [ "$2" == "build" ]; then
+########
+
+  category="$(echo "$1" | cut -d/ -f1)"
+  package="$(echo "$1" | cut -d/ -f2)"
+  if [ ! -d "${category}/${package}" ]; then
+    echo "$1 is not a valid package"
+    popd > /dev/null || exit
+    exit 1
+  fi
+  
+  if emerge -pq ="$category/$( find "$category/$package" | grep "\.ebuild$" | sort -rV | head -n1 | rev | cut -d. -f2- | cut -d/ -f1 | rev )" &>/dev/null; then
+    popd > /dev/null || exit
+    exit 0
+  fi
+  missing_dep=$( emerge -pq ="$category/$( find "$category/$package" | grep "\.ebuild$" | sort -rV | head -n1 | rev | cut -d. -f2- | cut -d/ -f1 | rev )" 2>&1 >/dev/null | grep "emerge: there are no ebuilds to satisfy" | cut -d \" -f 2 | sed 's/^[^a-z]*//' )
+  if [ -n "${missing_dep}" ]; then
+    popd > /dev/null || exit
+    $0 "$( echo "$missing_dep" | cut -d/ -f1 )/$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )" upgrade "$( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )"
+    exit 0
+  else
+    popd > /dev/null || exit
+    exit 1
+  fi
+
+########
+elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
+########
+
+  category="$(echo "$1" | cut -d/ -f1)"
+  package="$(echo "$1" | cut -d/ -f2)"
+  version="$3"
+  if [ ! -d "${category}/${package}" ] > /dev/null; then
+    echo "$1 is not a valid package"
+    popd > /dev/null || exit
+    exit 1
+  fi
   
   # Move to dep folder
   pushd "${category}/${package}" > /dev/null || exit
   
-  echo -ne "  create by copy ${package}-${version}.ebuild..."
-  if cp "$( find "${package}*.ebuild" | sort -rV | head -n1 )" "${package}-${version}.ebuild" &> /dev/null; then
+  #Copy ebuild
+  echo -ne " \e[0;32m*\e[0m Create by copy ${package}-${version}.ebuild..."
+  if cp "$( find . | grep "${package}-.*.ebuild" | sort -rV | head -n1 )" "${package}-${version}.ebuild" &> /dev/null; then
     echo -e "\e[1;32mOK\e[0m"
   else
     echo -e "\e[1;31mfailed\e[0m"
+    popd > /dev/null || exit
     exit 2
   fi
   
-  echo -ne "  get pyproject.toml..."
+  # Get pyproject and build
+  echo -ne " \e[0;32m*\e[0m Get pyproject.toml..."
   rm "/tmp/${package}-${version}-*.toml" &> /dev/null
-  get_pyproject "${version}"
-  if cat "/tmp/${package}-${version}-pyproject.toml" | grep -q "build-backend = \"poetry.core.masonry.api\""; then
-    echo -e "\e[1;32mFound poetry\e[0m"
-    update_ebuild_poetry_v1 "${version}" || update_ebuild_setuptools "${version}"
-  elif cat "/tmp/${package}-${version}-pyproject.toml" | grep -q "build-backend = \"hatchling.build\""; then
-    echo -e "\e[1;32mFound hatchling\e[0m"
-    update_ebuild_hatchling "${version}"
-  elif cat "/tmp/${package}-${version}-pyproject.toml" | grep -q "build-backend = \"setuptools.build_meta\""; then
-    echo -e "\e[1;32mFound setuptools\e[0m"
-    update_ebuild_setuptools "${version}"
+  if get_pyproject "${version}"; then
+    if cat "/tmp/${package}-${version}-pyproject.toml" | grep -q "build-backend = \"poetry.core.masonry.api\""; then
+      echo -e "\e[1;32mOK\e[0m (Found \e[1;34mpoetry\e[0m)"
+      update_ebuild_poetry_v1 "${version}" || update_ebuild_setuptools "${version}"
+    elif cat "/tmp/${package}-${version}-pyproject.toml" | grep -q "build-backend = \"hatchling.build\""; then
+      echo -e "\e[1;32mOK \e[0m (Found \e[1;34mhatchling\e[0m)"
+      update_ebuild_hatchling "${version}"
+    elif cat "/tmp/${package}-${version}-pyproject.toml" | grep -q "build-backend = \"setuptools.build_meta\""; then
+      echo -e "\e[1;32mOK\e[0m (Found \e[1;34msetuptools\e[0m)"
+      update_ebuild_setuptools "${version}"
+    else
+      echo -e "\e[1;31mUnrecognized\e[0m"
+      popd > /dev/null || exit
+      exit 3
+    fi
   else
-    echo -e "\e[1;31mUnrecognized\e[0m"
+    echo -e "\e[1;31mNot found\e[0m"
+    popd > /dev/null || exit
     exit 3
   fi
   
-  echo -n "  check ebuild..."
+  #Test ebuild
+  echo -ne " \e[0;32m*\e[0m Check ebuild..."
   if ebuild "${package}-${version}.ebuild" digest clean install &> /dev/null; then
     echo -e "\e[1;32mOK\e[0m"
   else
     echo -e "\e[1;31m FAILED\e[0m" 
-    exit 4
+    popd > /dev/null || exit
+    exit 4  
   fi
-
-  echo -n "  git commit..."
-  if git add . &> /dev/null && git commit -m "feature/ deps for app-misc/$( find "../../app-misc/homeassistant/*.ebuild" | sort -rV | head -n1 | rev | cut -d. -f2- | cut -d/ -f1 | rev )" &> /dev/null ; then
+  echo -en " \e[0;32m*\e[0m Git commit..."
+  if git add . &> /dev/null; then
+    git commit -m "feature/${category}/${package} ${version}(autogenerated)" &> /dev/null
     echo -e "\e[1;32mOK\e[0m"
   else
     echo -e "\e[1;31m FAILED\e[0m" 
+    popd > /dev/null || exit
     exit 5
   fi
-  popd > /dev/null || exit
-  category=""
-  package=""
-  version=""
-done
 
-popd > /dev/null || exit
+  # Recursively check subdependencies
+  popd > /dev/null || exit
+  $0 "${category}/${package}" build
+  exit 0
+
+#######
+else
+#######
+
+  echo -e "\e[1;34mUsage:\e[0;35m\n\n$( echo "$0" | rev | cut -d/ -f1 | rev) <category>/<package> build\e[0m\nTry to build latest available version of the given package, and when dependencies are try to autogenerate missing dependencies ebuild\n\n\e[0;35m$( echo "$0" | rev | cut -d/ -f1 | rev) <category>/<package> upgrade <version>\e[0m\nAutotgenerate a new version <category>/<ebuild> based on existing version"
+  popd > /dev/null || exit
+  exit 1
+
+fi

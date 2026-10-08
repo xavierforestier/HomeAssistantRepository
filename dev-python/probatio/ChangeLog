@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  08 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -probatio-0.12.4.ebuild:
+  app-misc/homeassistant 2026.10.0_beta4
+
 *probatio-0.13.0 (08 Oct 2026)
 
   08 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

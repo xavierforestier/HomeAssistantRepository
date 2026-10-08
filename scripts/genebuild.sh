@@ -34,7 +34,6 @@ while [[ $# -gt 0 ]]; do
       ;;
     *)
       VERSION=$( curl -s "https://api.github.com/repos/home-assistant/core/releases/tags/${1/_beta/b}" | jq '.tag_name' | xargs -I {} echo {} )
-      echo $version
       shift
       ;;
   esac
@@ -224,7 +223,6 @@ parse_use_flag_req() {
   fi
 } #parse_use_flag_req
 
-echo $EBUILD_PATH
 if [ -f "$EBUILD_PATH" ]; then
     echo -e "  \e[0;31m$EBUILD already exists, \e[0m"
     ebuild "$EBUILD_PATH" clean unpack

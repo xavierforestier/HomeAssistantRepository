@@ -17,7 +17,7 @@
 category=""
 package=""
 version=""
-commit_message=""
+commit_msg=""
 git_repo=""
 git_tag=""
 
@@ -28,9 +28,9 @@ git_tag=""
 get_tagname() {  
   git_tag=""
   git_repo="$( cat metadata.xml | grep "<remote-id type=\"github\">" | cut -d '>' -f2 | cut -d '<' -f1 )"
-  [ -n "$git_repo" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" https://api.github.com/repos/${git_repo}/tags | jq -r ".[] | select(.name == \"v$1\").name" )
-  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" https://api.github.com/repos/${git_repo}/tags | jq -r ".[] | select(.name == \"V$1\").name" )
-  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" https://api.github.com/repos/${git_repo}/tags | jq -r ".[] | select(.name == \"$1\").name" )
+  [ -n "$git_repo" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"v$1\").name" )
+  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"V$1\").name" )
+  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"$1\").name" )
   [ -n "$git_repo" ] && [ -n "$git_tag" ] && return 0
   return 1
 }
@@ -338,7 +338,7 @@ if [ $# -eq 2 ] && [ "$2" == "build" ]; then
   if [ -n "${missing_dep}" ]; then
     popd > /dev/null || exit
     $0 "$( echo "$missing_dep" | cut -d/ -f1 )/$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )" upgrade "$( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )"
-    exit $( $0 "$1" "$2" )
+    exit "$( $0 "$1" "$2" )"
   else
     popd > /dev/null || exit
     exit 0

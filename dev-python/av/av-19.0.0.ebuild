@@ -6,21 +6,27 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
+DESCRIPTION="Pythonic bindings for FFmpeg's libraries"
+HOMEPAGE="https://github.com/PyAV-Org/PyAV https://pypi.org/project/av/"
 
-DESCRIPTION="The Home Assistant Intent Language parser"
-HOMEPAGE="http://github.com/home-assistant/hassil https://pypi.org/project/hassil/"
-
-LICENSE="Apache-2.0"
+LICENSE="BSD"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
 DOCS="README.md"
-
 RDEPEND="
-	>=dev-python/pyyaml-6.0[${PYTHON_USEDEP}]
-	>=dev-python/unicode-rbnf-2.3[${PYTHON_USEDEP}]
+	media-video/ffmpeg
+	dev-python/ha-ffmpeg[${PYTHON_USEDEP}]
 "
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)"
+
+python_test() {
+	py.test -v -v || die
+}
 
 distutils_enable_tests pytest

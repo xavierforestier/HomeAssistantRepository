@@ -34,6 +34,7 @@ while [[ $# -gt 0 ]]; do
       ;;
     *)
       VERSION=$( curl -s "https://api.github.com/repos/home-assistant/core/releases/tags/${1/_beta/b}" | jq '.tag_name' | xargs -I {} echo {} )
+      echo $version
       shift
       ;;
   esac
@@ -52,7 +53,7 @@ else
   echo "Please run in app-misc/*homeassistant or root repository" && exit 1
 fi
 
-eix-update
+#TODO eix-update
 EBUILD=$( pwd | rev | cut -d/ -f1 | rev )-${VERSION/b/_beta}
 EBUILD_PATH=$( pwd )/$EBUILD.ebuild
 test -n "$DELETE_FIRST" && test -e "${EBUILD_PATH}" && rm "${EBUILD_PATH}"
@@ -223,11 +224,12 @@ parse_use_flag_req() {
   fi
 } #parse_use_flag_req
 
+echo $EBUILD_PATH
 if [ -f "$EBUILD_PATH" ]; then
     echo -e "  \e[0;31m$EBUILD already exists, \e[0m"
     ebuild "$EBUILD_PATH" clean unpack
 else
-    for v in $( find ./home*-2*.ebuild | sort -rV | head -n1 ); do
+    for v in $( find . | grep "\.ebuild$" | sort -rV | head -n1 ); do
         cp "$v" "$EBUILD_PATH"
         break
     done

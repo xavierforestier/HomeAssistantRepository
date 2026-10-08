@@ -19,12 +19,12 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.0.0[${PYTHON_USEDEP}]
-	>=dev-python/awesomeversion-22.1.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
+	>=dev-python/awesomeversion-23.11.0[${PYTHON_USEDEP}]
 	>=dev-python/backoff-2.2.1[${PYTHON_USEDEP}]
-	>=dev-python/mashumaro-3.13[${PYTHON_USEDEP}]
+	>=dev-python/mashumaro-3.15[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.9.8[${PYTHON_USEDEP}]
-	>=dev-python/yarl-1.6.0[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.9.10[${PYTHON_USEDEP}]
 	>=dev-python/typer-0.24.0[${PYTHON_USEDEP}]
 	>=dev-python/zeroconf-0.148.0[${PYTHON_USEDEP}]
 "

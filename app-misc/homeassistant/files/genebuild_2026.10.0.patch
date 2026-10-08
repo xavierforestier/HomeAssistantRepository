@@ -139,7 +139,7 @@
 +libsoundtouch>=0.8.0
  
  # homeassistant.components.lifx
- lifx-async==7.4.0
+ lifx-async==7.6.5
 @@ -2075,7 +2075,7 @@
 
  # homeassistant.components.airvisual
@@ -211,7 +211,7 @@
 +regenmaschine==2024.3.0
  
  # homeassistant.components.renault
- renault-api==0.5.13
+ renault-api==0.5.15
 @@ -3093,7 +3093,7 @@
  simplepush[legacy]==3.8.0
  

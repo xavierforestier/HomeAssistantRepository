@@ -2,6 +2,16 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  08 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -orjson-3.11.7.ebuild:
+  app-misc/homeassistant 2026.10.0
+
+*orjson-3.11.9 (08 Oct 2026)
+
+  08 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +orjson-3.11.9.ebuild:
+  app-misc/homeassistant-2026.10²
+
 *orjson-3.11.7 (05 May 2026)
 
   05 May 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

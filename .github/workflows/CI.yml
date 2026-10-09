@@ -46,7 +46,7 @@ jobs:
   
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      image: ghcr.io/xavierforestier/gentoo-ci-ha-pytorch:main
       options: --privileged
     steps:
     - uses: actions/checkout@v7
@@ -80,7 +80,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      image: ghcr.io/xavierforestier/gentoo-ci-ha-pytorch:main
       options: --privileged
     steps:
     - uses: actions/checkout@v7
@@ -159,7 +159,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      image: ghcr.io/xavierforestier/gentoo-ci-ha-pytorch:main
       options: --privileged
     steps:
     - uses: actions/checkout@v7
@@ -193,7 +193,7 @@ jobs:
 
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      image: ghcr.io/xavierforestier/gentoo-ci-ha-pytorch:main
       options: --privileged
     steps:
     - uses: actions/checkout@v7

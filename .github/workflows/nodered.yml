@@ -7,7 +7,7 @@ jobs:
   emerge:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/xavierforestier/gentoo-ci-ha:main
+      image: ghcr.io/xavierforestier/gentoo-ci-ha-pytorch:main
       options: --privileged
     steps:
     # synchronys my own git

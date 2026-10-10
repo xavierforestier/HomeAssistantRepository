@@ -1,8 +1,7 @@
 name: Create ebuild
 on:
   workflow_dispatch:
-  push:
-    branches: feature/*/*
+  create: 
 jobs:
   genebuild:
     runs-on: ubuntu-latest
@@ -12,11 +11,12 @@ jobs:
          uses: actions/checkout@v7         
        - name: Autogen ebuild
          run: |
-           full_package=${GITHUB_REF#refs/heads/feature/}
-           category=$( echo $full_package | cut -d/ -f1 )
-           package=$( echo $full_package | cut -d/ -f2 | sed 's/-[0-9].*//' )
-           version=$( echo $full_package | sed "s/${category}\\/${package}-//" )
-           case "${category}/${package}" in
-             app-misc/homeassitant) echo "Not yet :)"; exit 1;;
-             *) ./scripts/generate-missing-deps.sh  upgrade "${version}";;
-           esac
+           echo "${GITHUB_REF#refs/heads/feature/}"
+           #full_package=${GITHUB_REF#refs/heads/feature/}
+           #category=$( echo $full_package | cut -d/ -f1 )
+           #package=$( echo $full_package | cut -d/ -f2 | sed 's/-[0-9].*//' )
+           #version=$( echo $full_package | sed "s/${category}\\/${package}-//" )
+           #case "${category}/${package}" in
+           #  app-misc/homeassitant) echo "Not yet :)"; exit 1;;
+           #  *) ./scripts/generate-missing-deps.sh  upgrade "${version}";;
+           #esac

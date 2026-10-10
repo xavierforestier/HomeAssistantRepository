@@ -337,8 +337,9 @@ if [ $# -eq 2 ] && [ "$2" == "build" ]; then
   missing_dep=$( echo "${emerge_result}" | grep "emerge: there are no ebuilds to satisfy" | cut -d \" -f 2 | sed 's/^[^a-z]*//' )
   if [ -n "${missing_dep}" ]; then
     popd > /dev/null || exit
-    $0 "$( echo "$missing_dep" | cut -d/ -f1 )/$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )" upgrade "$( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )"
-    exit "$( $0 "$1" "$2" )"
+    $0 "$( echo "$missing_dep" | cut -d/ -f1 )/$( echo "$missing_dep" | cut -d/ -f2- | cut -d. -f1 | rev | cut -d- -f2- | rev )" upgrade "$( echo "$missing_dep" | sed -r 's/.*-([0-9]+.*)$/\1/gm' | cut -d '[' -f1 )" || exit 2
+    $0 "$1" "$2" || exit 3
+    exit 0
   else
     popd > /dev/null || exit
     exit 0

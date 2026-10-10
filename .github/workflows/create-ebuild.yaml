@@ -18,12 +18,11 @@ jobs:
            case "${category}/${package}" in
              app-misc/homeassitant)
                cp "$(find app-misc/homeassistant/files/ge*.patch | sort -rV | head -n1)" "app-misc/homeassistant/files/genebuild_${version}.patch"
-               ./scripts/
-               exit 1
+               ./scripts/genebuild.sh -dm "${version}"
                ;;
              *) 
                ./scripts/generate-missing-deps.sh "${category}/${package}" upgrade "${version}"
                ./scripts/generate-missing-deps.sh "${category}/${package}" build
-               gh pr create -B "feature/${full_package}" -H "master" --title 'Merge ${full_package} into base_branch'
                ;;
            esac
+           gh pr create -B "feature/${full_package}" -H "master" --title 'Merge ${full_package} into base_branch'

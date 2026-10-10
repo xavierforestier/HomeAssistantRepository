@@ -1,8 +1,7 @@
 name: Create ebuild
 on:
   workflow_dispatch:
-  push:
-    branches: feature/*/*
+  create: 
 jobs:
   genebuild:
     runs-on: ubuntu-latest
@@ -17,6 +16,14 @@ jobs:
            package=$( echo $full_package | cut -d/ -f2 | sed 's/-[0-9].*//' )
            version=$( echo $full_package | sed "s/${category}\\/${package}-//" )
            case "${category}/${package}" in
-             app-misc/homeassitant) echo "Not yet :)"; exit 1;;
-             *) ./scripts/generate-missing-deps.sh  upgrade "${version}";;
+             app-misc/homeassitant)
+               cp "$(find app-misc/homeassistant/files/ge*.patch | sort -rV | head -n1)" "app-misc/homeassistant/files/genebuild_${version}.patch"
+               ./scripts/
+               exit 1
+               ;;
+             *) 
+               ./scripts/generate-missing-deps.sh "${category}/${package}" upgrade "${version}"
+               ./scripts/generate-missing-deps.sh "${category}/${package}" build
+               gh pr create -B "feature/${full_package}" -H "master" --title 'Merge ${full_package} into base_branch'
+               ;;
            esac

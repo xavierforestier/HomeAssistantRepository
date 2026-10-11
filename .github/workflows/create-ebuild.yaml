@@ -36,6 +36,8 @@ jobs:
              category=${{ inputs.pkgCategory }}
              package=${{ inputs.pkgName }}
              version=${{ inputs.pkgVersion }}
+             git switch "feature/${category}/${package}-${version}"
+             git pull
            fi
            case "${category}/${package}" in
              app-misc/homeassitant)

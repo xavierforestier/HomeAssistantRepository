@@ -84,7 +84,7 @@ jobs:
         stat_=lightgrey
         version=$( echo $( find ./app-misc/homeassistant -type f -name "*.ebuild" | sort -rV | head -n1 )  | rev | cut -d/ -f1 | cut -d. -f2- | cut -d- -f1 | rev )
         git config --local user.name "xavier.forestier"
-        git config --local user.email "{ID}+{username}@users.noreply.github.com"
+        git config --local user.email "23277701+xavierforestier@users.noreply.github.com"
         git fetch
         git switch master
         git pull

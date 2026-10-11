@@ -52,5 +52,5 @@ jobs:
               git push
               ;;
           esac
-          gh pr create -B "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" -H "master" --title 'Merge ${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release} into base_branch'
+          gh pr create -B "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" -H "master" --title "Merge ${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release} into base_branch"
         fi

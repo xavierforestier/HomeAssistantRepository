@@ -30,6 +30,8 @@ jobs:
         echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
         pwd -P >> /etc/portage/repos.conf/homeassistant.conf
         git config --global --add safe.directory '*'
+        git config --local user.name "xavier.forestier"
+        git config --local user.email "23277701+xavierforestier@users.noreply.github.com"
     - name: Is last upstream version already known
       id: latest_version
       run: |

@@ -417,6 +417,7 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
     commit_msg="${commit_msg}\nebuild is valid"
   else
     echo -e "\e[1;31m FAILED\e[0m" 
+	ebuild "${package}-${version}.ebuild" digest clean install
     popd > /dev/null || exit
     exit 5  
   fi

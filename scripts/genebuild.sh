@@ -240,7 +240,7 @@ wget -q "https://raw.githubusercontent.com/home-assistant/core/refs/tags/${VERSI
 wget -q "https://raw.githubusercontent.com/home-assistant/core/refs/tags/${VERSION}/requirements_all.txt"
 
 if [ -f "$patch" ]; then
-  patch -p1 < "$patch"
+  patch -p1 < "$patch" || exit 1
 fi
 
 #gen metadata

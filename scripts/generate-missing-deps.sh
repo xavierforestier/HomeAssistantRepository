@@ -17,7 +17,6 @@
 category=""
 package=""
 version=""
-commit_msg=""
 git_repo=""
 git_tag=""
 
@@ -74,20 +73,20 @@ update_ebuild() {
     line=$( grep -n "^RDEPEND=\"$" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | cut -d: -f1 )
     if [ -z "$line" ]; then
       echo -e "\e[1;31mERROR\e[0m (ebuild error RDEPEND missing)"
-      commit_msg="${commit_msg}-$2 Ebuild ERROR"
+      echo "$2 Ebuild ERROR" >> /tmp/commit_msg
       return 1
     fi
     # head
     head --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     echo -e "\t$3$2-$4[\${PYTHON_USEDEP}]" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
-    commit_msg="${commit_msg}-$2 added\n\`\`\`diff\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`"
+    echo "$2 added\n\`\`\`diff\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
     tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   else
     # head
     head --line=+"$(( line - 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     # update line
     echo -e "\t$3$2-$4[$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 | cut -d '[' -f2- )" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
-    commit_msg="${commit_msg}-$2 updated\n\`\`\`diff\n-\t$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 )\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`"
+    echo "$2 updated\n\`\`\`diff\n-\t$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 )\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
     # tail
     tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   fi
@@ -175,10 +174,10 @@ update_ebuild_poetry_v1() {
   echo -e " \e[0;32m*\e[0m  Parse dependencies..."
   if [ -s "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-tool.poetry.dependencies-tmp.toml" ]; then
     echo -e " \e[0;32m*\e[0m  Parse dependencies..."
-    commit_msg="${commit_msg}\nDependencies found (poetry v1):"
+    echo "Dependencies found (poetry v1):" >> /tmp/commit_msg
   else
     echo -e " \e[0;32m*\e[0m  No dependency"
-    commit_msg="${commit_msg}\nno dependency found"
+    echo "no dependency found" >> /tmp/commit_msg
   fi
   while read -r line; do
     local dep_name=""
@@ -194,7 +193,7 @@ update_ebuild_poetry_v1() {
     fi
     if [ -z "$dep_name" ]; then      
       echo -e "    $( echo "$line" | cut -d \  -f1 )\e[1;31m SKIPPED\e[0m (no ebuild found)"
-      commit_msg="${commit_msg}\n- dependency skipped: $line (no ebuild found)"
+      echo "- dependency skipped: $line (no ebuild found)" >> /tmp/commit_msg
       continue
     fi
     local versionstring
@@ -217,7 +216,7 @@ update_ebuild_poetry_v1() {
       \<*)  dep_operator="<"  && dep_version=$( echo "$versionstring" | cut -c2- );;
       *) 
         echo -e "${dep_name}...\e[1;31m SKIPPED\e[0m (can't parse ${versionstring})" 
-	commit_msg="${commit_msg}\n- dependency skipped $line (parse error)"
+	echo "- dependency skipped $line (parse error)">> /tmp/commit_msg
 	return 1
 	;;
     esac
@@ -243,10 +242,10 @@ update_ebuild_setuptools() {
     rm "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-tmp.toml" &> /dev/null
     if [ -s "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" ]; then
       echo -e " \e[0;32m*\e[0m Parse dependencies..."
-      commit_msg="${commit_msg}Dependencies found (in [project] dependencies):"
+      echo "Dependencies found (in [project] dependencies):" >> /tmp/commit_msg
     else
       echo -e " \e[0;32m*\e[0m  No dependency"
-      commit_msg="${commit_msg}\nERROR no dependency found"
+      echo "ERROR no dependency found" >> /tmp/commit_msg
       return 1
     fi
     for dep in $( cat "/tmp/$( pwd | rev | cut -d/ -f1 | rev )-$1-pyproject-project-dependencies.toml" | cut -d '[' -f2- | rev | cut -d ']' -f2- | rev | sed 's/ //g' | sed "s/'/\"/g" | sed 's/","/ /g' | sed 's/"//g' ); do
@@ -274,7 +273,7 @@ update_ebuild_setuptools() {
         *==*)  dep_operator="~"  && dep_version=$( echo "$dep" | cut -d ',' -f1 | cut -d ')' -f1 | cut -d ';' -f1 | cut -d '=' -f3-) && dep_name=$( echo "${dep,,}" | cut -d '=' -f1) ;;
 	*)  
           echo -e "    ${dep}...\e[1;31m SKIPPED\e[0m (can't parse)"
-          commit_msg="${commit_msg}\n- dependency skipped $dep (can't error)"
+          echo "- dependency skipped $dep (can't parse operator)" >> /tmp/commit_msg
           return 1
 	  ;;
       esac
@@ -282,7 +281,7 @@ update_ebuild_setuptools() {
       [ "${dep_name,,}" == "python" ] && continue
       if [ -z "${dep_name}" ]; then
         echo -e "    ${dep}...\e[1;31m SKIPPED\e[0m (can't parse)"
-        commit_msg="${commit_msg}\n- dependency skipped $dep (can't error)"
+        echo "- dependency skipped $dep (can't error)"  >> /tmp/commit_msg
         return 1
       fi
       if eix -# "dev-python/${dep_name,,}" | grep -q "/${dep_name,,}$"; then
@@ -292,7 +291,7 @@ update_ebuild_setuptools() {
       fi
       if [ -z "${dep_name}" ]; then
         echo -e "    $dep\e[1;31m SKIPPED\e[0m (no ebuild found)"
-        commit_msg="${commit_msg}\n- dependency skipped $dep (no ebuild found)"
+        echo "- dependency skipped $dep (no ebuild found)" >> /tmp/commit_msg
         continue
       fi
       echo -n "    ${dep_name} ${dep_operator}${dep_version}..."
@@ -352,7 +351,7 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
   category="$(echo "$1" | cut -d/ -f1)"
   package="$(echo "$1" | cut -d/ -f2)"
   version="$3"
-  commit_msg="feature/${category}/${package} ${version}(autogenerated)"
+  echo "feature/${category}/${package} ${version}(autogenerated)" > /tmp/commit_msg
 
   if [ ! -d "${category}/${package}" ] > /dev/null; then
     echo "$1 is not a valid package"
@@ -377,7 +376,7 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
   echo -ne " \e[0;32m*\e[0m Get github tag..."
   if get_tagname "${version}"; then
     echo -e "\e[1;32mOK\e[0m"
-    commit_msg="${commit_msg}\nsource repo: ${git_repo}[${git_tag}]"
+    echo "source repo: ${git_repo}[${git_tag}]" >> /tmp/commit_msg
   else
     echo -e "\e[1;31mfailed\e[0m"
     popd > /dev/null || exit
@@ -414,23 +413,17 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
   echo -ne " \e[0;32m*\e[0m Check ebuild..."
   if ebuild "${package}-${version}.ebuild" digest clean compile &> /dev/null; then
     echo -e "\e[1;32mOK\e[0m"
-    commit_msg="${commit_msg}\nebuild is valid"
+    echo "ebuild is valid" >> /tmp/commit_msg
   else
     echo -e "\e[1;31m FAILED\e[0m" 
 	ebuild "${package}-${version}.ebuild" digest clean compile
     popd > /dev/null || exit
     exit 5  
   fi
-  echo -en " \e[0;32m*\e[0m Git commit..."
-  if git add . &> /dev/null; then
-    git commit -m "${commit_msg}" &> /dev/null
-    echo -e "\e[1;32mOK\e[0m"
-  else
-    echo -e "\e[1;31m FAILED\e[0m" 
-    popd > /dev/null || exit
-    exit 6
-  fi
-
+  echo -e " \e[0;32m*\e[0m Git commit..."
+  git add . || true
+  git commit -F /tmp/commit_msg  || true
+  
   # Recursively check subdependencies
   popd > /dev/null || exit
   if $0 "${category}/${package}" build; then

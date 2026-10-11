@@ -17,6 +17,9 @@ on:
 jobs:
   check_upstream:
     runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci-ha-pytorch:main
+      options: --privileged
     steps:
     - name: Checkout code
       uses: actions/checkout@v7

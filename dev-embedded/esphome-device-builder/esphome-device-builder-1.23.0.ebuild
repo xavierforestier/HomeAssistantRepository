@@ -13,6 +13,10 @@ LICENSE="Apache2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
+BDEPEND="
+	acct-group/esphome
+	acct-user/esphome
+"
 DEPEND="
 	acct-group/esphome
 	acct-user/esphome

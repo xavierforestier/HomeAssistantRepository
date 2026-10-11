@@ -35,6 +35,7 @@ jobs:
       run: |
         latest_release=$( wget -qO - "https://api.github.com/repos/${{ inputs.upstream }}/releases/latest" | jq -r '.tag_name' )
         if [ -n "${latest_release}" ] && [ ! -e "./${{ inputs.pkgCategory }}/${{ inputs.pkgName }}/${{ inputs.pkgName }}-${latest_release}.ebuild" ]; then
+          git config --global --add safe.directory .
           git switch -c "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" 
           git push --set-upstream origin "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}"
           emerge -q app-portage/eix

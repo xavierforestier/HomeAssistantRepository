@@ -31,14 +31,17 @@ jobs:
           git config --global --add safe.directory .
           git switch -c "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" 
           git push --set-upstream origin "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}"
+          emerge -q app-portage/eix
           case "${{ inputs.pkgCategory }}/${{ inputs.pkgName }}" in
             app-misc/homeassistant)
               cp "$(find app-misc/homeassistant/files/ge*.patch | sort -rV | head -n1)" "app-misc/homeassistant/files/genebuild_${version}.patch"
               ./scripts/genebuild.sh -dm "${latest_release}"
+              git push
               ;;
             *) 
               ./scripts/generate-missing-deps.sh "${{ inputs.pkgCategory }}/${{ inputs.pkgName }}" upgrade "${latest_release}"
               ./scripts/generate-missing-deps.sh "${{ inputs.pkgCategory }}/${{ inputs.pkgName }}" build
+              git push
               ;;
           esac
           gh pr create -B "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" -H "master" --title 'Merge ${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release} into base_branch'

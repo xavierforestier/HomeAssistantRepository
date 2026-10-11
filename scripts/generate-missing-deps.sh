@@ -412,12 +412,12 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
   
   #Test ebuild
   echo -ne " \e[0;32m*\e[0m Check ebuild..."
-  if ebuild "${package}-${version}.ebuild" digest clean install &> /dev/null; then
+  if ebuild "${package}-${version}.ebuild" digest clean compile &> /dev/null; then
     echo -e "\e[1;32mOK\e[0m"
     commit_msg="${commit_msg}\nebuild is valid"
   else
     echo -e "\e[1;31m FAILED\e[0m" 
-	ebuild "${package}-${version}.ebuild" digest clean install
+	ebuild "${package}-${version}.ebuild" digest clean compile
     popd > /dev/null || exit
     exit 5  
   fi

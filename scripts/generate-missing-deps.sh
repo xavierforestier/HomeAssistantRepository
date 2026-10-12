@@ -79,14 +79,14 @@ update_ebuild() {
     # head
     head --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     echo -e "\t$3$2-$4[\${PYTHON_USEDEP}]" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
-    echo "$2 added\n\`\`\`diff\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
+    echo -e "$2 added\n\`\`\`diff\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
     tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   else
     # head
     head --line=+"$(( line - 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     # update line
     echo -e "\t$3$2-$4[$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 | cut -d '[' -f2- )" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
-    echo "$2 updated\n\`\`\`diff\n-\t$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 )\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
+    echo -e "$2 updated\n\`\`\`diff\n-\t$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 )\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
     # tail
     tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   fi

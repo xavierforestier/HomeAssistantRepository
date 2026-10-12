@@ -23,7 +23,7 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v7
-    # Sync custom files found /etc/portage files
+    
     - name: Setup HomeAssistant repository     
       run: |
         rsync -aHDPSv etc/portage/ /etc/portage/
@@ -32,6 +32,7 @@ jobs:
         git config --global --add safe.directory '*'
         git config --local user.name "xavier.forestier"
         git config --local user.email "23277701+xavierforestier@users.noreply.github.com"
+        
     - name: Is last upstream version already known
       id: latest_version
       run: |
@@ -53,5 +54,10 @@ jobs:
               git push
               ;;
           esac
-          gh pr create -B "feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" -H "master" --title "Merge ${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release} into base_branch"
+          echo "pr_branch=feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" >> $GITHUB_OUTPUT
         fi
+        
+    - uses: peter-evans/create-pull-request@v8.1.1
+      with:
+        title: Autogenerate deps ${{ steps.latest_version.outputs.pr_branch }}
+        branch: ${{ steps.latest_version.outputs.pr_branch }}

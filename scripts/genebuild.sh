@@ -52,7 +52,7 @@ else
   echo "Please run in app-misc/*homeassistant or root repository" && exit 1
 fi
 
-#TODO eix-update
+eix-update
 EBUILD=$( pwd | rev | cut -d/ -f1 | rev )-${VERSION/b/_beta}
 EBUILD_PATH=$( pwd )/$EBUILD.ebuild
 test -n "$DELETE_FIRST" && test -e "${EBUILD_PATH}" && rm "${EBUILD_PATH}"
@@ -72,7 +72,7 @@ parse_package() {
   local version=
   IFS='~<>=!['
   for d in $l; do
-    echo -ne "\r                                                                                        \r \e[0;32m*\e[0m Parsing dependencies... $d"
+    echo -n "$d..."
     local pos=${#d}
     case ${l:$pos:2} in 
       [* ) 
@@ -119,17 +119,19 @@ parse_package() {
 	;;
       uv)
         echo -e "$1>=dev-python/uv-$version" >> "$2"
+		echo -e "\e[1;32mOK\e[0m"
         break
         ;;
     esac
     if [ -z "$package" ];then
-      echo -e ": \e[1;33m$l corresponding gentoo package was not found, entry skipped\e[0m                     "
+      echo -e ": \e[1;33m$l corresponding gentoo package was not found, entry skipped\e[0m"
       break
     fi
     #Write ebuild dep
     if [ "$version" = "1000000000.0.0" ]; then
       echo -ne "$1" >> "$2"
       echo -n "$package" >> "$2"
+	  echo -e "\e[1;32mOK\e[0m"
       break
     fi
     case $operator in
@@ -137,10 +139,12 @@ parse_package() {
         if [[ $version == *-* ]]; then
           echo -ne "$1" >> "$2"
           echo -n "=$package-$version" >> "$2"
-	else
+		  echo -e "\e[1;32mOK\e[0m"
+        else
           echo -ne "$1" >> "$2"
           echo -n "~$package-$version" >> "$2"
-	fi
+		  echo -e "\e[1;32mOK\e[0m"
+        fi
 	;;
       !=)
 	break
@@ -148,6 +152,7 @@ parse_package() {
       *)
         echo -ne "$1" >> "$2"
         echo -n "$operator$package-$version" >> "$2"
+		echo -e "\e[1;32mOK\e[0m"
     esac
 
     local dep_use
@@ -172,7 +177,6 @@ parse_constraints() {
   echo "# Home Assistant Core dependencies from $f" >> "$1"
   echo "RDEPEND=\"\${RDEPEND}" >> "$1"
   while read -r l; do
-    echo -ne "                                                                                          \r \e[0;32m*\e[0m Parsing main dependencies... $l"
     parse_package "\n\t" "$1" "$l"
   done < <( grep '^[^#]' "$f" | cut -d, -f1 | tr ' ' '\n' )
   echo "\"" >> "$1"
@@ -235,6 +239,7 @@ else
     patch="$( pwd )/files/genebuild_${VERSION/b/_beta}.patch"
 fi
 
+MISSING_DEPS=""
 pushd "/var/tmp/portage/app-misc/${EBUILD}/work" || exit
 wget -q "https://raw.githubusercontent.com/home-assistant/core/refs/tags/${VERSION}/homeassistant/package_constraints.txt"
 wget -q "https://raw.githubusercontent.com/home-assistant/core/refs/tags/${VERSION}/requirements_all.txt"
@@ -246,7 +251,7 @@ fi
 #gen metadata
 popd || exit
 if [ -n "${FETCH_METADATA}" ]; then
-  echo "Generate metadata.xml..."
+  echo "::group::Generate metadata.xml"
   sed -z 's/<use>.*/<use>/g' < metadata.xml > metadata.xml.pre
   mv metadata.xml.pre metadata.xml
   for f in $( find "/var/tmp/portage/app-misc/${EBUILD}/work/homeassistant-${VERSION}/homeassistant/components" | grep manifest.json | sort ); do
@@ -258,7 +263,7 @@ if [ -n "${FETCH_METADATA}" ]; then
         wget -q -O "/tmp/$use_flag.html" "https://www.home-assistant.io/integrations/$use_flag/index.html"
       fi
       if [ -s "/tmp/$use_flag.html" ]; then
-        echo -ne "\r                                                                                          \r \e[0;32m*\e[0m Generate metadata.xml($use_flag)..."
+        echo -e " \e[0;32m*\e[0m $use_flag"
         #parse description Ignore anything before '<div class="page-content">' then before '</header>' until '</p>', cleanup html and carriage return
         description=$( sed -z 's/.*<div class="page-content">//g' "/tmp/$use_flag.html" | sed -z 's/.*<\/header>//' | sed -z 's/<\/p>.*//' |sed -z 's/<span class="terminology-tooltip">.*<\/span>//g' | sed 's/<[^>]*>//g' | tr -d "\n" | xargs )
         echo -ne "\n    <flag name=\"${use_flag//_/-}\">$description</flag>" >> metadata.xml
@@ -281,6 +286,7 @@ if [ -n "${FETCH_METADATA}" ]; then
   </use>
 </pkgmetadata>
 EOF
+  echo "::endgroup::"
 fi
 
 #Gen ebuild
@@ -325,11 +331,12 @@ RDEPEND="\${PYTHON_DEPS} acct-group/\${PN} acct-user/\${PN}
 REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 	homekit-controller? ( bluetooth )"
 EOF
-echo -e "\n \e[0;32m*\e[0m Parsing main dependencies..."
+echo "::group::Parsing main dependencies (package_constraints.txt)"
 pushd "/var/tmp/portage/app-misc/${EBUILD}/work" || exit
 
 parse_constraints "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/package_constraints.txt" 
-echo -e "                                                                                          \r \e[0;32m*\e[0m Parsing main dependencies... \e[0;32mdone\e[0m                                    "
+echo "::endgroup::"
+echo "::group::Parsing USE flag dependencies (requirements_all.txt)"
 cat >> "$EBUILD_PATH" <<EOF
 
 # Module requirements from useflags
@@ -355,7 +362,7 @@ grep "IUSE=" "$EBUILD_PATH" | cut -d\" -f2 | tr ' ' '\n' | while read -r use; do
   parse_use_flag_req "$EBUILD_PATH" "/var/tmp/portage/app-misc/${EBUILD}/work/requirements_all.txt" "${use/+/}"
 done
 echo "\"" >> "$EBUILD_PATH"
-echo -e "                                                                                          \r \e[0;32m*\e[0m Parsing use flag dependencies... \e[0;32mdone\e[0m                        "
+echo "::endgroup::"
 cat >> "$EBUILD_PATH" <<EOF
 
 BDEPEND="\${RDEPEND}

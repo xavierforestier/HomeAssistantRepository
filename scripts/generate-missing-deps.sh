@@ -79,14 +79,14 @@ update_ebuild() {
     # head
     head --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     echo -e "\t$3$2-$4[\${PYTHON_USEDEP}]" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
-    echo "$2 added\n\`\`\`diff\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
+    echo -e "$2 added\n\`\`\`diff\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
     tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   else
     # head
     head --line=+"$(( line - 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     # update line
     echo -e "\t$3$2-$4[$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 | cut -d '[' -f2- )" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
-    echo "$2 updated\n\`\`\`diff\n-\t$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 )\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
+    echo -e "$2 updated\n\`\`\`diff\n-\t$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 )\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
     # tail
     tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   fi
@@ -355,7 +355,7 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
 
   if [ ! -d "${category}/${package}" ] > /dev/null; then
     echo "$1 is not a valid package"
-    popd > /dev/null || exit
+    popd > /dev/null || exit 1
     exit 1
   fi
   
@@ -368,7 +368,7 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
     echo -e "\e[1;32mOK\e[0m"
   else
     echo -e "\e[1;31mfailed\e[0m"
-    popd > /dev/null || exit
+    popd > /dev/null || exit 3
     exit 2
   fi
   
@@ -379,7 +379,7 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
     echo "source repo: ${git_repo}[${git_tag}]" >> /tmp/commit_msg
   else
     echo -e "\e[1;31mfailed\e[0m"
-    popd > /dev/null || exit
+    popd > /dev/null || exit 3
     exit 3
   fi
 
@@ -400,12 +400,12 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
       update_ebuild_setuptools "${version}"
     else
       echo -e "\e[1;31mUnrecognized\e[0m"
-      popd > /dev/null || exit
+      popd > /dev/null || exit 4
       exit 4
     fi
   else
     echo -e "\e[1;31mNot found\e[0m"
-    popd > /dev/null || exit
+    popd > /dev/null || exit 4
     exit 4
   fi
   
@@ -417,12 +417,18 @@ elif [ $# -eq 3 ] && [ "$2" == "upgrade" ]; then
   else
     echo -e "\e[1;31m FAILED\e[0m" 
 	ebuild "${package}-${version}.ebuild" digest clean compile
-    popd > /dev/null || exit
+    popd > /dev/null || exit 5
     exit 5  
   fi
   echo -e " \e[0;32m*\e[0m Git commit..."
-  git add . || true
-  git commit -F /tmp/commit_msg  || true
+  if git add .; then
+    echo -e "\e[1;32mOK\e[0m"
+  	git commit -F /tmp/commit_msg &> /dev/null
+  else
+    echo -e "\e[1;31m FAILED\e[0m" 
+    popd > /dev/null || exit 6
+	exit 6
+  fi
   
   # Recursively check subdependencies
   popd > /dev/null || exit

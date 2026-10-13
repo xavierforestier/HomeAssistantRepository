@@ -55,6 +55,8 @@ jobs:
               ;;
           esac
           echo "pr_branch=feature/${{ inputs.pkgCategory }}/${{ inputs.pkgName }}-${latest_release}" >> $GITHUB_OUTPUT
+        else
+          exit 1
         fi
         
     - uses: peter-evans/create-pull-request@v8.1.1

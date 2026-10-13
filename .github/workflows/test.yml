@@ -1,0 +1,27 @@
+name: Test
+on:
+  workflow_call:
+jobs:
+  check_upstream:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/xavierforestier/gentoo-ci-ha-pytorch:main
+      options: --privileged
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v7
+    
+    - name: Setup HomeAssistant repository     
+      run: |
+        rsync -aHDPSv etc/portage/ /etc/portage/
+        echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
+        pwd -P >> /etc/portage/repos.conf/homeassistant.conf
+        git config --global --add safe.directory '*'
+        git config --local user.name "xavier.forestier"
+        git config --local user.email "23277701+xavierforestier@users.noreply.github.com"
+        
+    - name: The test
+      id: latest_version
+      run: |
+        eix-update
+        EIX_LIMIT=0 eix -es#  --use python_targets_python3_14

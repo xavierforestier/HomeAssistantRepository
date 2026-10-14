@@ -24,5 +24,6 @@ jobs:
       id: latest_version
       run: |
         emerge -q app-portage/eix
+        emerge --regen
         eix-update
-        EIX_LIMIT=0 eix -es#  --use python_targets_python3_14
+        EIX_LIMIT=0 eix -es# aiodhcpwatcher --use python_targets_python3_14

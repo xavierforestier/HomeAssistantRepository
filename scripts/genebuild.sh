@@ -52,7 +52,6 @@ else
   echo "Please run in app-misc/*homeassistant or root repository" && exit 1
 fi
 
-eix-update
 EBUILD=$( pwd | rev | cut -d/ -f1 | rev )-${VERSION/b/_beta}
 EBUILD_PATH=$( pwd )/$EBUILD.ebuild
 test -n "$DELETE_FIRST" && test -e "${EBUILD_PATH}" && rm "${EBUILD_PATH}"
@@ -125,8 +124,6 @@ parse_package() {
     esac
     if [ -z "$package" ];then
       echo -e ": \e[1;33m$l corresponding gentoo package was not found, entry skipped\e[0m"
-	  echo ${d}-${dlower}
-	  eix -es# "$d" --use python_targets_python3_14
       break
     fi
     #Write ebuild dep

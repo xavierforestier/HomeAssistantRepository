@@ -125,6 +125,8 @@ parse_package() {
     esac
     if [ -z "$package" ];then
       echo -e ": \e[1;33m$l corresponding gentoo package was not found, entry skipped\e[0m"
+	  echo ${d}-${dlower}
+	  eix -es# "$d" --use python_targets_python3_14
       break
     fi
     #Write ebuild dep

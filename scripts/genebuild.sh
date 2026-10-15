@@ -235,6 +235,13 @@ else
         break
     done
     ebuild "$EBUILD_PATH" clean digest unpack
+    if [ ! -f "$( pwd )/files/genebuild_${VERSION/b/_beta}.patch" ]; then
+      for v in $( find files/genebuild_*.patch | sort -rV | head -n1 ); do
+        cp "$v" "$( pwd )/files/genebuild_${VERSION/b/_beta}.patch"
+        break
+      done
+
+    fi
     patch="$( pwd )/files/genebuild_${VERSION/b/_beta}.patch"
 fi
 
@@ -251,25 +258,32 @@ fi
 popd || exit
 if [ -n "${FETCH_METADATA}" ]; then
   echo "::group::Generate metadata.xml"
+  cp metadata.xml metadata.old
   sed -z 's/<use>.*/<use>/g' < metadata.xml > metadata.xml.pre
   mv metadata.xml.pre metadata.xml
   for f in $( find "/var/tmp/portage/app-misc/${EBUILD}/work/homeassistant-${VERSION}/homeassistant/components" | grep manifest.json | sort ); do
     #component name
     use_flag=$( echo "$f"| rev | cut -d/ -f2 | rev )
     if grep -qn "^# homeassistant.components.${use_flag}$" "/var/tmp/portage/app-misc/${EBUILD}/work/requirements_all.txt"; then
-      #get help page
-      if [ ! -f "/tmp/$use_flag.html" ]; then
-        wget -q -O "/tmp/$use_flag.html" "https://www.home-assistant.io/integrations/$use_flag/index.html"
-      fi
-      if [ -s "/tmp/$use_flag.html" ]; then
+      if grep -q "<flag name=\"${use_flag//_/-}\">" metadata.old; then
         echo -e " \e[0;32m*\e[0m $use_flag"
-        #parse description Ignore anything before '<div class="page-content">' then before '</header>' until '</p>', cleanup html and carriage return
-        description=$( sed -z 's/.*<div class="page-content">//g' "/tmp/$use_flag.html" | sed -z 's/.*<\/header>//' | sed -z 's/<\/p>.*//' |sed -z 's/<span class="terminology-tooltip">.*<\/span>//g' | sed 's/<[^>]*>//g' | tr -d "\n" | xargs )
-        echo -ne "\n    <flag name=\"${use_flag//_/-}\">$description</flag>" >> metadata.xml
+	grep "<flag name=\"${use_flag//_/-}\">" metadata.old >> metadata.xml
+      #get help page
+      else
+        if [ ! -f "/tmp/$use_flag.html" ]; then
+          wget -q -O "/tmp/$use_flag.html" "https://www.home-assistant.io/integrations/$use_flag/index.html"
+        fi
+        if [ -s "/tmp/$use_flag.html" ]; then
+          echo -e " \e[0;32m*\e[0m $use_flag"
+          #parse description Ignore anything before '<div class="page-content">' then before '</header>' until '</p>', cleanup html and carriage return
+          description=$( sed -z 's/.*<div class="page-content">//g' "/tmp/$use_flag.html" | sed -z 's/.*<\/header>//' | sed -z 's/<\/p>.*//' |sed -z 's/<span class="terminology-tooltip">.*<\/span>//g' | sed 's/<[^>]*>//g' | tr -d "\n" | xargs )
+          echo -ne "\n    <flag name=\"${use_flag//_/-}\">$description</flag>" >> metadata.xml
+	fi
       fi
     fi
   done
   cat >> metadata.xml << EOF
+
     <flag name="bh1750">bh1750</flag>
     <flag name="blinkt">blinkt</flag>
     <flag name="bme280">bme280</flag>
@@ -285,6 +299,8 @@ if [ -n "${FETCH_METADATA}" ]; then
   </use>
 </pkgmetadata>
 EOF
+  rm metadata.old
+  git add metadata.xml
   echo "::endgroup::"
 fi
 

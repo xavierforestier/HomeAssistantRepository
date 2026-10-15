@@ -14,8 +14,10 @@
       <name>The Home Assistant Authors</name>
     </maintainer>
   </upstream>
-  <use>
-    <flag name="abode">The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.</flag>
+  <use>  <use>    <flag name="abode">The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.</flag>    <flag name="acaia">The Acaia integration allows you to control Acaia scales through Home Assistant.</flag>
+    <flag name="abode">The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.</flag>    <flag name="acaia">The Acaia integration allows you to control Acaia scales through Home Assistant.</flag>
+  <use>    <flag name="abode">The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.</flag>    <flag name="acaia">The Acaia integration allows you to control Acaia scales through Home Assistant.</flag>
+    <flag name="abode">The Abode integration allows you to integrate your Abode Home Security systems into Home Assistant and use its alarm system and sensors to trigger automations.</flag>    <flag name="acaia">The Acaia integration allows you to control Acaia scales through Home Assistant.</flag>
     <flag name="accuweather">There is an active alert for this integration! LEARN MORE The AccuWeather integration uses the AccuWeather web service as a source for weather data for your location. A paid subscription is required to use this integration.</flag>
     <flag name="acmeda">The Rollease Acmeda Automate integration allows you to control and monitor covers via your Rollease Acmeda Automate hub. The integrations communicates directly with hubs on the local network, rather than connecting via the cloud or via RS-485. Devices are represented as a cover for monitoring and control as well as a sensor for monitoring battery condition.</flag>
     <flag name="actron-air">The Actron Air integration allows you to control Actron Air Air Conditioning controllers into Home Assistant.</flag>
@@ -109,6 +111,7 @@
     <flag name="balboa">The Balboa Spa Client integration adds support for Balboa Spa WiFi Modules to be used within Home Assistant.</flag>
     <flag name="bang-olufsen">The Bang &amp; Olufsen integration enables control of some of the features of certain Bang &amp; Olufsen devices through Home Assistant.</flag>
     <flag name="bbox">The Bbox integration uses the Bbox Modem Router from the French Internet provider Bouygues Telecom. Sensors are mainly bandwidth measures.</flag>
+
     <flag name="besen">The Besen integration connects Home Assistant to Besen EV chargers over Bluetooth Low Energy.</flag>
     <flag name="bitcoin">The Bitcoin integration displays various details about the Bitcoin network.</flag>
     <flag name="bitvis">The Bitvis Power Hub integration reads real-time electricity data from a Bitvis Power Hub device. The Power Hub connects to the HAN port (a standard port on European smart meters) on your smart electricity meter and pushes measurements to Home Assistant over your local network using UDP.</flag>
@@ -184,6 +187,7 @@
     <flag name="decora-wifi">The Leviton Decora Wi-Fi integration connects your Leviton Decora Smart Wi-Fi dimmers and switches to Home Assistant via the MyLeviton API.</flag>
     <flag name="delijn">The De Lijn integration will give you the departure time of the next bus, tram or subway at a specific stop of the De Lijn public transport network in Flanders (Belgium).</flag>
     <flag name="deluge">There is currently support for the following device types within Home Assistant:</flag>
+    <flag name="denonavr">The Denon AVR Network Receivers integration allows you to control Denon Network Receivers from Home Assistant. It might be that your device is supported by the Denon platform.</flag>
     <flag name="denon-rs232">The Denon RS-232 integration lets you control Denon receivers by connecting to their RS-232 serial port. Because Home Assistant talks straight to the receiver, you get local control with push-based state updates.</flag>
     <flag name="devialet">The Devialet integration lets you control your Devialet wireless speakers from Home Assistant.</flag>
     <flag name="devolo-home-control">There is an active alert for this integration! LEARN MORE devolo Home Control is a Z-Wave ecosystem with a Z-Wave to IP gateway in the center. The integration allows you to control devices connected to the gateway.</flag>
@@ -392,7 +396,7 @@
     <flag name="hive">The Hive integration for Home Assistant allows you to interact with supported devices and services offered byhivehome.com</flag>
     <flag name="hko">The Hong Kong Observatory integration retrieves weather data from the Hong Kong Observatory Open Data API for meteorological data in HKSAR.</flag>
     <flag name="hlk-sw16">The HLK-SW16 by Hi-Link is a simple networkable 16 port relay device.</flag>
-    <flag name="holiday">The Holiday integration allows you to create a calendar of holidays in Home Assistant for powering automations.</flag>
+    <flag name="holiday">The Holiday integration with the public holidays for a country, and optionally a region within that country, to Home Assistant. You can use it to view upcoming holidays on your calendar dashboard and to power automations, for example, to keep the blinds closed on public holidays or turn on festive lights on a specific holiday.</flag>
     <flag name="homeassistant-hardware">The Home Assistant Hardware integration provides functionalityshared between Home Assistant Connect ZBT-2, Home Assistant Connect ZBT-1, Home Assistant Green, and Home Assistant Yellow.</flag>
     <flag name="home-connect">The Home Connect integration allows users to integrate their home appliances supporting the Home Connect standard for Bosch and Siemens using the official cloud API.</flag>
     <flag name="homee">homee is a smart home system, able to integrate various protocols such as Z-Wave, Zigbee, EnOcean, and more. The homee integration from your homee in Home Assistant.</flag>
@@ -438,7 +442,7 @@
     <flag name="image-upload">The Image upload integration allows Home Assistant to handle image assets inHome Assistant, for example, the profile photos of your systems account.</flag>
     <flag name="imap">The IMAP integration is observing your IMAP server. It can report the number of unread emails and can send a custom event that can be used to trigger an automation. Other search criteria can be used, as shown in the example below.</flag>
     <flag name="imeon-inverter">The Imeon Inverter integration will poll an Imeon solar inverter in Home Assistant.</flag>
-    <flag name="imgw-pib">The IMGW-PIB integration uses hydrological data from Institute of Meteorology and Water Management - National Research Institute to present information about rivers and water reservoirs in Poland.</flag>
+    <flag name="imgw-pib">The IMGW-PIB integration uses hydrological data from the Institute of Meteorology and Water Management - National Research Institute to present information about rivers and water reservoirs in Poland.</flag>
     <flag name="immich">This integration allows adding an Immich user account to Home Assistant.</flag>
     <flag name="imou">The Imou integration connects to the Imou Open Platform using your App ID and App secret. Devices linked to your platform account are discovered automatically.</flag>
     <flag name="improv-ble">The Improv via BLE integration allows connecting devices implementing Improv via BLE to Wi-Fi.</flag>
@@ -556,7 +560,7 @@
     <flag name="matter">The Matter integration network.</flag>
     <flag name="maxcube">The eQ-3 MAX! integration for Home Assistant allows you to connect eQ-3 MAX! components via the eQ-3 MAX! Cube. The components connects to the eQ-3 MAX! Cube via TCP and automatically makes all supported integrations available in Home Assistant. The name for each device is created by concatenating the MAX! room and device names.</flag>
     <flag name="mcp">The Model Context Protocol is an open protocol thatstandardizes how applications provide context to LLMs. The Model Context Protocol integrationenables using MCP Servers in Home Assistant for providing additional tools to use with aconversation agent. For example, you can add an MCP server thatsupports memory functionality, or that can search the web using functionality not alreadyavailable in Home Assistant.</flag>
-    <flag name="mcp-server">The Model Context Protocol is an open protocol that standardizes how applications provide context to LLMs. The Model Context Protocol Server (MCP) integration enables using Home Assistant to provide context for MCP LLM Client Applications. For example, you can control your lights from Claude Desktop, or expose your Google Tasks to-do list as a tool.</flag>
+    <flag name="mcp-server">The Model Context Protocol Server (MCP) integration lets you connect an AI agent, such as ChatGPT or Claude, to Home Assistant. The AI agent can then control your devices and see the current state of your home.</flag>
     <flag name="mealie">Mealie is an open source, self-hosted recipe manager, meal planner, and shopping list. The Mealie integration will fetch and allow you to create and update data held in your Mealie instance.</flag>
     <flag name="meater">The Meater integration allows for communicating with the Meater Temperature Probe from Apption Labs.</flag>
     <flag name="medcom-ble">Integrates International Medcom Bluetooth-enabled radiation monitors into Home Assistant.</flag>
@@ -587,7 +591,7 @@
     <flag name="moat">Integrates Moat devices into Home Assistant.</flag>
     <flag name="mobile-app">The Mobile App integration lets Home Assistant mobile apps integrate with Home Assistant.</flag>
     <flag name="mochad">The Mochad integration is the main integration to integrate all X10 platforms being controlled by mochad. Besides this integration you will have to set up your X10 devices separately.</flag>
-    <flag name="modbus">The Modbus integration connects Home Assistant to devices that have a Modbus interface. Many integrations for these devices use the Modbus integration to connect, so you usually don’t set it up yourself. To get started, refer to Setting up Modbus control in Home Assistant.</flag>
+    <flag name="modbus">The Modbus integration connects Home Assistant to devices that have a Modbus interface. Many integrations for these devices use the Modbus integration to connect, so you usually don’t set it up yourself. To get started, refer to Setting up Modbus control in Home Assistant. For the terms used on this page, refer to Modbus terminology.</flag>
     <flag name="modem-callerid">The Phone Modem integration uses an available modem for collecting caller ID information. It requires a Hayes AT compatible modem that supports caller ID detection (via AT+VCID=1). Usually any modem that uses a CX93001 will support this.</flag>
     <flag name="modern-forms">Modern Forms has a line of smart Wi-Fi-connected fans that allow for cloud or local control of the fan and light. On fan models that support sleep timers, individual timers for the fan and light can be set and cleared independently.</flag>
     <flag name="moehlenhoff-alpha2">The Möhlenhoff Alpha 2 integration allows you to control a Möhlenhoff Alpha 2</flag>
@@ -632,7 +636,7 @@
     <flag name="nexia">The Nexia/American Standard/Trane integration allows you to integrate your Nexia (Trane) thermostats or American Standard thermostats into Home Assistant.</flag>
     <flag name="nextbus">The NextBus integration will give you the next departure time and associated data from your public transit station/stop. The data comes from Umo, which provides real-time transit data for several transit authorities.</flag>
     <flag name="nextcloud">The Nextcloud integration pulls summary Nextcloud information into Home Assistant.</flag>
-    <flag name="nextdns">NextDNS is a DNS service that protects from all kinds of security threats, blocks ADS and trackers on websites and in apps, and provides a safe and supervised Internet for kids — on all devices and on all networks. The NextDNS integration allows you to monitor NextDNS statistics and control its configuration.</flag>
+    <flag name="nextdns">The NextDNS integration is used to integrate with NextDNS, a DNS service that protects you from security threats, blocks advertisements and trackers on websites and in apps, and provides a safe and supervised internet for kids on all devices and on all networks. The integration lets you monitor NextDNS statistics and control its configuration.</flag>
     <flag name="nfandroidtv">Notification integration for Notifications for Android TV and Notifications for Fire TV. You can use this integration to send notifications to your Android TV device. An overlay with the message content will appear for a configurable amount of seconds and then disappear again. Sending images (e.g., security cam) and custom icons is supported too. Icons are essentially the same as images (any image format supported by Android TV is supported), but are displayed small and to the left of the notification whereas images are large and above the notification.</flag>
     <flag name="nibe-heatpump">The Nibe Heat Pump integration allows you to control and monitor Nibe Heat Pumps in Home Assistant.</flag>
     <flag name="nice-go">The Nice G.O. integration is used to integrate with Nice/Linear and Mighty Mule products.This integration is used for garage doors and gate openers created by these companies.</flag>
@@ -1125,7 +1129,8 @@
     <flag name="zoneminder">The ZoneMinder integration sets up Home Assistant with your ZoneMinder instance.</flag>
     <flag name="zonneplan">The Zonneplan integration lets you retrieve electricity and gas price information from Zonneplan, a Dutch provider of dynamic energy contracts and energy services, including home batteries and EV charge points.This integration currently provides electricity and gas price entities, and your electricity and gas usage and costs for the current month.</flag>
     <flag name="zwave-js">The Z-Wave integration allows you to control a Z-Wave network from Home Assistant via the Z-Wave JS driver.</flag>
-    <flag name="zwave-me">The Z-Wave.Me integration allows you to control a Z-Wave network via the Z-Wave.Me Z-Way. It combines the performance and power of the diagnostics tools built into Z-Way with the flexibility of Home Assistant. The integration brings all Z-Way devices into Home Assistant, including Z-Wave, Zigbee, EnOcean, HTTP-based, and others.</flag>    <flag name="bh1750">bh1750</flag>
+    <flag name="zwave-me">The Z-Wave.Me integration allows you to control a Z-Wave network via the Z-Wave.Me Z-Way. It combines the performance and power of the diagnostics tools built into Z-Way with the flexibility of Home Assistant. The integration brings all Z-Way devices into Home Assistant, including Z-Wave, Zigbee, EnOcean, HTTP-based, and others.</flag>
+    <flag name="bh1750">bh1750</flag>
     <flag name="blinkt">blinkt</flag>
     <flag name="bme280">bme280</flag>
     <flag name="bme680">bme680</flag>

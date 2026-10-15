@@ -30,6 +30,7 @@ get_tagname() {
   [ -n "$git_repo" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"v$1\").name" )
   [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"V$1\").name" )
   [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"$1\").name" )
+  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"release/v$1\").name" )
   [ -n "$git_repo" ] && [ -n "$git_tag" ] && return 0
   return 1
 }
@@ -80,15 +81,15 @@ update_ebuild() {
     head --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     echo -e "\t$3$2-$4[\${PYTHON_USEDEP}]" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     echo -e "$2 added\n\`\`\`diff\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
-    tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
+    tail --line=+"$((line + 1))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   else
     # head
-    head --line=+"$(( line - 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
+    head --line=+"$((line - 1))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" > "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     # update line
     echo -e "\t$3$2-$4[$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 | cut -d '[' -f2- )" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
     echo -e "$2 updated\n\`\`\`diff\n-\t$( tail --line=+"${line}" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" | head -n1 )\n+\t+$3$2-$4[\${PYTHON_USEDEP}]\`\`\`" >> /tmp/commit_msg
     # tail
-    tail --line=+"$(( line + 1 ))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
+    tail --line=+"$((line + 1))" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild" >> "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild"
   fi
   mv "$( pwd | rev | cut -d/ -f1 | rev )-$1-tmp.ebuild" "$( pwd | rev | cut -d/ -f1 | rev )-$1.ebuild"
   echo -e "\e[1;32mOK\e[0m"

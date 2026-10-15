@@ -18,10 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	<dev-python/requests-3[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
 	>=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}]
-	<dev-python/ciso8601-3[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]"
+	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

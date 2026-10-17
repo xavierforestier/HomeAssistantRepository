@@ -65,4 +65,4 @@ jobs:
       if: ${{ steps.latest_version.outputs.pr_branch }} != ''
       with:
         title: Autogenerate deps ${{ steps.latest_version.outputs.pr_branch }}
-        branch: ${{ steps.latest_version.outputs.pr_branch }}
+        

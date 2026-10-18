@@ -14,7 +14,6 @@ app-misc/home-assistant-cli 1.0.0: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2026.10.0 2026.10.1 2026.10.2: Open-source home automation platform running on Python.
 app-misc/node-red 5.0.6 5.0.7 5.0.8: A visual tool for wiring the Internet of Things
 app-misc/zigbee2mqtt 2.14.0 2.14.1 2.14.2: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-cpp/abseil-cpp 20260526.0: Abseil Common Libraries (C++), LTS Branch
 dev-embedded/esphome 2026.8.2 2026.9.0 2026.9.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-device-builder 1.21.0 1.22.0 1.23.0 1.23.1 1.24.0: ESPHome Device Builder Dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0 5.3.1: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
@@ -23,7 +22,6 @@ dev-lang/dart 3.11.4: The Dart SDK
 dev-libs/foils_hid 0.3: Freebox Network HID devices library
 dev-libs/libela 0.3: Runtime Event Loop Abstraction library
 dev-libs/librudp 0.3: UDP transport with optional reliability
-dev-libs/protobuf 35.1: Google's Protocol Buffers - Extensible mechanism for serializing structured data
 dev-python/accuweather 5.1.0: Python wrapper for getting weather data from AccuWeather servers
 dev-python/actron-neo-api 0.5.16: Python API wrapper for the Actron Neo API
 dev-python/adafruit-blinka 7.1.1: Add CircuitPython hardware API and libraries to MicroPython & CPython devices
@@ -545,6 +543,7 @@ dev-python/gpiod 1.5.4: It is a pure Python library and has no dependencies on o
 dev-python/gpiozero 1.6.2: A simple interface to GPIO devices with Raspberry Pi
 dev-python/gps3 0.33.3-r1: Python 2.7-3.5 clients for gpsd
 dev-python/gql 3.5.0 3.5.3 4.0.0: GraphQL client for Python
+dev-python/graphql-core 3.2.13: GraphQL implementation for Python, a port of GraphQL.js
 dev-python/greeclimate 2.1.4: Discover, connect and control Gree based minisplit systems
 dev-python/greencell-client 1.0.3: Support for communication with Greencell devices
 dev-python/greeneye-monitor 3.0.3: Receive data packets from GreenEye Monitor (https://www.brultech.com/greeneye/)
@@ -1638,7 +1637,6 @@ net-analyzer/shodan 1.28.0: The official Python library for Shodan
 net-analyzer/speedtest-cli 2.1.3-r2: Command line interface for testing internet bandwidth using speedtest.net
 net-misc/yt-dlp 2026.07.04: youtube-dl fork with additional features and fixes
 sci-geosciences/geopy 2.3.0-r2: Python client for several popular geocoding web services
-sci-ml/sentencepiece 0.2.1 0.2.2: Text tokenizer for Neural Network-based text generation
 sci-ml/tokenizers 0.22.1: Implementation of today's most used tokenizers
 sys-apps/pcsc-lite 2.4.1: PC/SC Architecture smartcard middleware library
 sys-apps/pnpm 12.9.1: Fast, disk space efficient package manager

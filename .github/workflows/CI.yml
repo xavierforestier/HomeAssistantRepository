@@ -90,7 +90,7 @@ jobs:
         echo -n "location = " >> /etc/portage/repos.conf/homeassistant.conf
         pwd -P >> /etc/portage/repos.conf/homeassistant.conf
         git config --global --add safe.directory .
-         echo "<app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" > /etc/portage/package.mask
+         echo "<app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" > /etc/portage/package.mask/homeassistant.use
     - name: Check deps...homeassistant[minimal]
       run: |
         rm /etc/portage/package.use/._cfg0000_zzz.use || true
@@ -141,7 +141,7 @@ jobs:
         emerge -upv --verbose-conflicts --deep --with-bdeps=y --newuse --backtrack=300 \
           --autounmask=y --autounmask-continue=y --autounmask-write=y --autounmask-license=y --autounmask-backtrack=y \
           --autounmask-use=y --autounmask-keep-masks=n --autounmask-keep-keywords=n \
-          =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) virtual/homeassistant dev-cpp/abseil-cpp dev-libs/protobuf >/tmp/out 2>/tmp/err || true
+          =app-misc/$(find app-misc/homeassistant/*.ebuild | sort -r | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev) virtual/homeassistant >/tmp/out 2>/tmp/err || true
         echo "::group::emerge stdout" 
         cat /tmp/out
         echo "::endgroup::"

@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Asyncio Python library for connecting to and controlling the Logitech Harmony"
-HOMEPAGE="https://github.com/ehendrix23/aioharmony https://pypi.org/project/aioharmony/"
+HOMEPAGE="https://github.com/xavierforestier/aioharmony https://pypi.org/project/aioharmony/"
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -19,7 +19,6 @@ RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
 RDEPEND="
-	>=dev-python/async-timeout-4[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11[${PYTHON_USEDEP}]
 	>=dev-python/slixmpp-1.10[${PYTHON_USEDEP}]
 "

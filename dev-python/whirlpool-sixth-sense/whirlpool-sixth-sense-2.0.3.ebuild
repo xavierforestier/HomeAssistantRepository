@@ -8,7 +8,7 @@ DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
 DESCRIPTION="Unofficial API for Whirlpool's 6th Sense appliances"
-HOMEPAGE="https://github.com/abmantis/whirlpool-sixth-sense/ https://pypi.org/project/whirlpool-sixth-sense/"
+HOMEPAGE="https://github.com/xavierforestier/whirlpool-sixth-sense https://pypi.org/project/whirlpool-sixth-sense"
 
 LICENSE="MIT"
 SLOT="0"
@@ -20,7 +20,6 @@ DOCS="README.md"
 
 RDEPEND="
 	>=dev-python/paho-mqtt-2.0.0[${PYTHON_USEDEP}]
-	>=dev-python/async-timeout-4.0.3[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.1[${PYTHON_USEDEP}]
 	>=dev-python/websockets-8.1[${PYTHON_USEDEP}]
 "

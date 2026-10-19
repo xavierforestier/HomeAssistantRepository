@@ -346,7 +346,7 @@ if [ $# -eq 2 ] && [ "$2" == "build" ]; then
   fi
 
 ########
-elif [ "$#" -eq 3 -a \( "$2" == "upgrade" -o "$2" == "create" \) ]; then
+elif [ "$#" -eq 3 ] && [ "$2" == "upgrade" ] || [ "$2" == "create"  ]; then
 ########
 
   category="$(echo "$1" | cut -d/ -f1)"
@@ -361,7 +361,7 @@ elif [ "$#" -eq 3 -a \( "$2" == "upgrade" -o "$2" == "create" \) ]; then
       echo "$1 already exist please use upgrade"
       exit 1
     fi
-    curl -s -L https://pypi.org/pypi/${package}/json | jq -r '.info' > "/tmp/${package}-pypi-info.json"
+    curl -s -L "https://pypi.org/pypi/${package}/json" | jq -r '.info' > "/tmp/${package}-pypi-info.json"
     github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Repository' | grep '^https://github\.com/' )"
     [ -z "$github_url" ] && github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Homepage' | grep '^https://github\.com/' )"
 
@@ -380,11 +380,11 @@ elif [ "$#" -eq 3 -a \( "$2" == "upgrade" -o "$2" == "create" \) ]; then
 
     maintainer_email="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.maintainer_email' | grep -v "^null$" )"
     maintainer="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.maintainer' | grep -v "^null$" )"
-    [ -z "$maintainer" ] && maintainer="$( echo $maintainer_email | sed 's/<.*>//' )"
+    [ -z "$maintainer" ] && maintainer="${maintainer_email//<.*>/}"
     [ -z "$maintainer" ] && maintainer="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.author' | grep -v "^null$" )"
     [ -z "$maintainer_email" ] && maintainer_email="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.author_email' | grep -v "^null$" )"
 
-    echo -en "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE pkgmetadata SYSTEM \"https://www.gentoo.org/dtd/metadata.dtd\">\n<pkgmetadata>\n  <maintainer type=\"person\">\n    <name>Xavier FORESTIER</name>\n    <email>23277701+xavierforestier@users.noreply.github.com</email>\n  </maintainer>\n  <upstream>\n    <remote-id type=\"github\">$( echo ${github_url} | sed 's/https:\/\/github.com\///' )</remote-id>\n    <remote-id type=\"pypi\">${package}</remote-id>\n    <maintainer>$( [ -n "${maintainer}" ] && echo "\n      <name>${maintainer}</name>" )$( [ -n "${maintainer_email}" ] && echo "\n      <email>$( echo ${maintainer_email} | sed 's/.*<//' | sed 's/>$//' )</email>" )\n    </maintainer>\n  </upstream>\n</pkgmetadata>" > metadata.xml
+    echo -en "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<!DOCTYPE pkgmetadata SYSTEM \"https://www.gentoo.org/dtd/metadata.dtd\">\n<pkgmetadata>\n  <maintainer type=\"person\">\n    <name>Xavier FORESTIER</name>\n    <email>23277701+xavierforestier@users.noreply.github.com</email>\n  </maintainer>\n  <upstream>\n    <remote-id type=\"github\">$( echo "${github_url}" | sed 's/https:\/\/github.com\///' )</remote-id>\n    <remote-id type=\"pypi\">${package}</remote-id>\n    <maintainer>$( [ -n "${maintainer}" ] && echo -e "\n      <name>${maintainer}</name>" )$( [ -n "${maintainer_email}" ] && echo -e "\n      <email>$( echo "${maintainer_email}" | sed 's/.*<//' | sed 's/>$//' )</email>" )\n    </maintainer>\n  </upstream>\n</pkgmetadata>" > metadata.xml
 
     # generate a blank ebuild, with no deps
     echo -en "# Copyright 2026 Gentoo Authors\n# Distributed under the terms of the GNU General Public License v2\n\nEAPI=8\n\nDISTUTILS_USE_PEP517=dummy\nPYTHON_COMPAT=( python3_{12..14} )\n\ninherit distutils-r1 pypi\n\nDESCRIPTION=\"$( cat "/tmp/${package}-pypi-info.json" | jq -r '.summary' )\"\nHOMEPAGE=\"${github_url} https://pypi.org/project/${package}\"\n\nLICENSE=\"${licence}\"\nSLOT=\"0\"\nKEYWORDS=\"amd64 arm arm64 x86\"\n\nRDEPEND=\"\n\"\n\nEPYTEST_PLUGINS=()\ndistutils_enable_tests pytest" > "${package}-${version}.ebuild"

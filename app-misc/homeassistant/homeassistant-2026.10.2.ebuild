@@ -280,7 +280,7 @@ RDEPEND="${RDEPEND}
 	bosch-shc? (     ~dev-python/boschshcpy-0.6.15 )
 	braviatv? (     ~dev-python/pybravia-0.5.3 )
 	bring? (     ~dev-python/bring-api-1.1.2 )
-	broadlink? (     ~dev-python/broadlink-async-1.1.0 )
+	broadlink? (     =dev-python/broadlink-async-1.1.0 )
 	brother? (     ~dev-python/brother-6.2.0 )
 	brottsplatskartan? (     ~dev-python/brottsplatskartan-1.0.5 )
 	brunt? (     ~dev-python/brunt-1.2.0 )

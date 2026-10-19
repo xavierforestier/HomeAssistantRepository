@@ -10,7 +10,7 @@
     <remote-id type="pypi">broadlink-async</remote-id>
     <maintainer>
       <name>DAB-LABS</name>
-      <email>Matthew Garrett <mjg59@srcf.ucam.org></email>
+      <email>mjg59@srcf.ucam.org</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

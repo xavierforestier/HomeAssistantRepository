@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">python-backoff/backoff</remote-id>
+    <remote-id type="pypi">python-backoff</remote-id>
+    <maintainer>
+      <name>Edgar Ramírez-Mondragón </name>
+      <email>edgarrm358@gmail.com</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

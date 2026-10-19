@@ -103,36 +103,48 @@ parse_package() {
     local package
     package=$( eix -es# "$d" --use python_targets_python3_14 )
     dlower=${d,,}
+    dlower=${dlower//_/-}
+    dlower=${dlower//./-}
     if [ -z "$package" ];then
-      package=$( eix -es# "${d,,}" --use python_targets_python3_14 )
-    fi
-    if [ -z "$package" ];then
-      package=$( eix -es# "${dlower//_/-}" --use python_targets_python3_14 )
-    fi
-    if [ -z "$package" ];then
-      package=$( eix -es# "${dlower//./-}" --use python_targets_python3_14 )
+      package=$( eix -es# "${dlower}" --use python_targets_python3_14 )
     fi
     case $d in
       atomicwrites-homeassistant)
         package="dev-python/atomicwrites"
 	;;
+      python-backoff)
+        echo -e "\e[1;33mskipped\e[0m"
+        break
+	;;
       uv)
         echo -e "$1>=dev-python/uv-$version" >> "$2"
-		echo -e "\e[1;32mOK\e[0m"
-        break
+        echo -e "\e[1;32mOK\e[0m"
+	break
         ;;
     esac
+    if [ "$version" == "1000000000.0.0" ]; then
+      echo -e "\e[1;33mskipped\e[0m"
+      break
+    fi
+
     if [ -z "$package" ];then
-      echo -e ": \e[1;33m$l corresponding gentoo package was not found, entry skipped\e[0m"
-      break
+      popd > /dev/null ||exit
+      cd ../..
+      echo -e "\e[1;33mmissing\e[0m"
+      if ./scripts/generate-missing-deps.sh "dev-python/${dlower}" create "$version" && ./scripts/generate-missing-deps.sh "dev-python/${dlower}" build; then
+        pushd "/var/tmp/portage/app-misc/${EBUILD}/work" > /dev/null || exit
+        eix-update > /dev/null
+        echo -ne "$1" >> "$2"
+        echo -n "=dev-python/$dlower-$version" >> "$2"
+        break
+      else
+        pushd "/var/tmp/portage/app-misc/${EBUILD}/work" > /dev/null || exit
+	echo -e "==> \e[1;33m$l corresponding gentoo package was not found, entry skipped\e[0m"
+        break
+      fi
     fi
+
     #Write ebuild dep
-    if [ "$version" = "1000000000.0.0" ]; then
-      echo -ne "$1" >> "$2"
-      echo -n "$package" >> "$2"
-	  echo -e "\e[1;32mOK\e[0m"
-      break
-    fi
     case $operator in
       ~= | ==)
         if [[ $version == *-* ]]; then
@@ -212,7 +224,7 @@ parse_use_flag_req() {
           echo -ne "\t$use? (" >> "$1"
           found_dep="X"
         fi
-        parse_package " " "$1" "$dep"
+        parse_package "     " "$1" "$dep"
         found="X"
       fi
     done
@@ -259,7 +271,7 @@ popd || exit
 if [ -n "${FETCH_METADATA}" ]; then
   echo "::group::Generate metadata.xml"
   cp metadata.xml metadata.old
-  sed -z 's/<use>.*/<use>/g' < metadata.xml > metadata.xml.pre
+  sed -z 's/<use>.*/<use>\n/g' < metadata.xml > metadata.xml.pre
   mv metadata.xml.pre metadata.xml
   for f in $( find "/var/tmp/portage/app-misc/${EBUILD}/work/homeassistant-${VERSION}/homeassistant/components" | grep manifest.json | sort ); do
     #component name
@@ -277,7 +289,7 @@ if [ -n "${FETCH_METADATA}" ]; then
           echo -e " \e[0;32m*\e[0m $use_flag"
           #parse description Ignore anything before '<div class="page-content">' then before '</header>' until '</p>', cleanup html and carriage return
           description=$( sed -z 's/.*<div class="page-content">//g' "/tmp/$use_flag.html" | sed -z 's/.*<\/header>//' | sed -z 's/<\/p>.*//' |sed -z 's/<span class="terminology-tooltip">.*<\/span>//g' | sed 's/<[^>]*>//g' | tr -d "\n" | xargs )
-          echo -ne "\n    <flag name=\"${use_flag//_/-}\">$description</flag>" >> metadata.xml
+          echo -e "\n    <flag name=\"${use_flag//_/-}\">$description</flag>" >> metadata.xml
 	fi
       fi
     fi
@@ -293,7 +305,7 @@ if [ -n "${FETCH_METADATA}" ]; then
     <flag name="mariadb">mariadb</flag>
     <flag name="mosquitto">mosquitto</flag>
     <flag name="smarthab">smarthab</flag>
-    <flag name="socat"socat</flag>
+    <flag name="socat">socat</flag>
     <flag name="tesla">tesla</flag>
     <flag name="wink">wink</flag>
   </use>

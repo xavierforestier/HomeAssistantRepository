@@ -15,8 +15,6 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
-
 RDEPEND="
 	>=dev-python/aiohttp-3[${PYTHON_USEDEP}]
 	>=dev-python/jmespath-1.0.0[${PYTHON_USEDEP}]

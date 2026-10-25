@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  22 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aioesphomeapi-45.10.3.ebuild:
+  Cleanup
+
 *aioesphomeapi-46.12.0 (22 Oct 2026)
 
   22 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

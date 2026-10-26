@@ -116,8 +116,8 @@ RDEPEND="${RDEPEND}
 	~dev-python/h11-0.16.0
 	~dev-python/httpcore-1.0.9
 	>=dev-python/hyperframe-5.2.0
-	~dev-python/numpy-2.3.2
-	~dev-python/pandas-2.3.3
+	>=dev-python/numpy-2.3.2
+	>=dev-python/pandas-2.3.3
 	>=dev-python/multidict-6.0.2
 	>=app-arch/brotli-1.2.0
 	~dev-python/pydantic-2.13.5
@@ -318,7 +318,7 @@ RDEPEND="${RDEPEND}
 	comelit? (     ~dev-python/aiocomelit-3.0.0 )
 	comfoconnect? (     ~dev-python/pycomfoconnect-0.5.1 )
 	command-line? (     ~dev-python/jsonpath-python-1.1.6 )
-	compensation? (     ~dev-python/numpy-2.3.2 )
+	compensation? (     >=dev-python/numpy-2.3.2 )
 	compit? (     ~dev-python/compit-inext-api-0.9.1 )
 	concord232? (     ~dev-python/concord232-0.15.1 )
 	control4? (     ~dev-python/pycontrol4-2.0.2 )
@@ -615,7 +615,7 @@ RDEPEND="${RDEPEND}
 	iperf3? (     ~dev-python/iperf3-0.1.11 )
 	ipma? (     ~dev-python/pyipma-3.0.10 )
 	ipp? (     ~dev-python/aioipp-0.19.3 )
-	iqvia? (     ~dev-python/numpy-2.3.2     ~dev-python/pyiqvia-2022.4.0 )
+	iqvia? (     >=dev-python/numpy-2.3.2     ~dev-python/pyiqvia-2022.4.0 )
 	irish-rail-transport? (     ~dev-python/pyirishrail-0.0.2 )
 	irm-kmi? (     ~dev-python/irm-kmi-api-1.1.1 )
 	iron-os? (     ~dev-python/pynecil-4.2.1 )
@@ -1077,7 +1077,7 @@ RDEPEND="${RDEPEND}
 	stiebel-eltron? (     ~dev-python/pystiebeleltron-0.8.0 )
 	stookwijzer? (     ~dev-python/stookwijzer-1.6.1 )
 	streamlabswater? (     ~dev-python/streamlabswater-1.0.1 )
-	stream? (     ~dev-python/pyturbojpeg-1.8.3     ~dev-python/av-19.0.0     ~dev-python/numpy-2.3.2 )
+	stream? (     ~dev-python/pyturbojpeg-1.8.3     ~dev-python/av-19.0.0     >=dev-python/numpy-2.3.2 )
 	subaru? (     ~dev-python/subarulink-0.7.21 )
 	suez-water? (     ~dev-python/pysuezv2-2.0.7 )
 	sunricher-dali? (     ~dev-python/pysrdaligateway-0.21.0 )
@@ -1155,7 +1155,7 @@ RDEPEND="${RDEPEND}
 	trane? (     ~dev-python/steamloop-1.2.1 )
 	transmission? (     ~dev-python/transmission-rpc-7.0.3 )
 	transport-nsw? (     ~dev-python/pytransportnsw-0.1.1 )
-	trend? (     ~dev-python/numpy-2.3.2 )
+	trend? (     >=dev-python/numpy-2.3.2 )
 	triggercmd? (     ~dev-python/triggercmd-0.0.36 )
 	trmnl? (     ~dev-python/trmnl-0.1.1 )
 	tts? (     ~media-libs/mutagen-1.48.1 )

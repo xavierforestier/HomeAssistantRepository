@@ -5,17 +5,24 @@ EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
-PYPI_PN="pyElectra"
-DESCRIPTION="Electra Smart Python Integration"
-HOMEPAGE="https://github.com/jafar-atili/pyElectra/ https://pypi.org/project/pyElectra/"
 inherit distutils-r1 pypi
-SRC_URI="https://github.com/jafar-atili/${PYPI_PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.gh.tar.gz"
-S="${WORKDIR}/${PYPI_PN}-${PV}"
+
+DESCRIPTION="A library for getting historical and forecasted from opower.com"
+HOMEPAGE="https://github.com/tronikos/opower https://pypi.org/project/opower/"
+
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
+
 DOCS="README.md"
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+
+RDEPEND="
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/aiozoneinfo-0.1[${PYTHON_USEDEP}]
+	>=dev-python/arrow-1.2[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.0[${PYTHON_USEDEP}]
+"
+
 distutils_enable_tests pytest

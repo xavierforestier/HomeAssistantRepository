@@ -4,11 +4,10 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=hatchling
+DISTUTILS_USE_PEP517=uv-build
 inherit distutils-r1 pypi
-
-DESCRIPTION="Asynchronous Waze client for calculating routes and travel times"
-HOMEPAGE="https://github.com/eifinger/pywaze https://pypi.org/project/pywaze/"
+DESCRIPTION="Asynchronous Python client providing energy/gas prices from EnergyZero"
+HOMEPAGE="https://github.com/klaasnicolaas/python-energyzero https://pypi.org/project/energyzero/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,7 +18,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/httpx-0.27.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
+	>=dev-python/yarl-1.23.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

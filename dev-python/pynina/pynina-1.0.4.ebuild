@@ -7,8 +7,8 @@ PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python client to retrieve data provided by DWD via their geoserver WFS API"
-HOMEPAGE="https://github.com/stephan192/dwdwfsapi https://pypi.org/project/dwdwfsapi/"
+DESCRIPTION="A Python API wrapper to retrieve warnings from the german NINA app"
+HOMEPAGE="https://gitlab.com/DeerMaximum/pynina https://pypi.org/project/pynina/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -19,9 +19,16 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/requests-2.23.0[${PYTHON_USEDEP}]
-	>=dev-python/ciso8601-2.1.3[${PYTHON_USEDEP}]
-	>=dev-python/urllib3-1.25.8[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
 "
+
+BDEPEND="
+	test? (
+		dev-python/pytest[${PYTHON_USEDEP}]
+	)"
+
+python_test() {
+	py.test -v -v || die
+}
 
 distutils_enable_tests pytest

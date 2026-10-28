@@ -14,7 +14,7 @@ app-misc/home-assistant-cli 1.0.0: The Home Assistant Command-line Interface (ha
 app-misc/homeassistant 2026.10.1 2026.10.2 2026.10.4: Open-source home automation platform running on Python.
 app-misc/node-red 5.0.7 5.0.8 5.0.9: A visual tool for wiring the Internet of Things
 app-misc/zigbee2mqtt 2.14.0 2.14.1 2.14.2: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2026.9.0 2026.9.1 2026.10.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.9.1 2026.10.0 2026.10.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-device-builder 1.23.1 1.24.0 1.26.0: ESPHome Device Builder Dashboard
 dev-embedded/esptool 4.9.0 5.1.0 5.2.0 5.3.1: Serial utility for flashing and interacting with Espressif ESP8266 and ESP32
 dev-embedded/platformio 6.1.19-r2: An open source ecosystem for IoT development

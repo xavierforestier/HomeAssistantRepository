@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
   <upstream>
     <remote-id type="github">nineti-GmbH/energieleser.py</remote-id>
     <remote-id type="pypi">energieleser</remote-id>
+    <maintainer>
+      <name>Ajinkya Gokhale</name>
+      <email>ajinkya.gokhale@nineti.de</email>
+    </maintainer>
   </upstream>
 </pkgmetadata>

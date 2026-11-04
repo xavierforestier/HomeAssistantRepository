@@ -17,6 +17,7 @@ KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	dev-python/mashumaro[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

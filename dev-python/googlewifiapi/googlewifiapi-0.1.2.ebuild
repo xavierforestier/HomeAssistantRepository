@@ -19,6 +19,7 @@ RDEPEND="
 	>=dev-python/yarl-1.24.5[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.22[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.11.0[${PYTHON_USEDEP}]
+	>=dev-python/typing_extensions-4.14.0[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

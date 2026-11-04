@@ -120,12 +120,12 @@
     <flag name="blockchain">The Blockchain.com integration displays Bitcoin wallet balances from blockchain.com.</flag>
     <flag name="blue-current">Blue Current is an Dutch company that makes electric car chargers.</flag>
     <flag name="bluemaestro">Integrates BlueMaestro devices into Home Assistant.</flag>
-    <flag name="bluesound">The Bluesound integration allows you to control your Bluesound HiFi wireless speakers and audio integrations from Home Assistant.</flag>
+    <flag name="bluesound">The Bluesound integration allows you to control your Bluesound and other BluOS players from Home Assistant.</flag>
     <flag name="bluetooth">The Bluetooth integration supports Bluetooth Low Energy devices. Bluetooth Classic devices are not supported. Compatible devices discovered nearby appear on Settings &gt; Devices &amp; services.</flag>
     <flag name="bond">The Bond integration allows you to control appliances through your Bond Bridge. Duplicates your RF remote control.</flag>
     <flag name="bosch-alarm">The Bosch Alarm Panel integration allows you to connect your Bosch Alarm Panel to Home Assistant to control and monitor your Bosch Alarm Panel.</flag>
     <flag name="bosch-shc">The Bosch SHC integration allows you to connect your Bosch Smart Home Controller to Home Assistant to control and monitor your Bosch Smart Home devices.Use case: combine your door and window contacts with your covers and switches to build a home security and comfort setup that reacts to what’s actually happening in your home.</flag>
-    <flag name="braviatv">The Sony Bravia TV integration allows you to control a Sony Bravia TV.</flag>
+    <flag name="braviatv">The Sony Bravia TV integration.</flag>
     <flag name="bring">The Bring! integration allows you to sync your Bring! shopping lists with Home Assistant.</flag>
     <flag name="broadlink">The Broadlink integration allows you to control and monitor Broadlink universal remotes, smart plugs, power strips, switches and sensors.</flag>
     <flag name="brother">The Brother Printer integration allows you to read current data from your local Brother printer.</flag>
@@ -480,10 +480,10 @@
     <flag name="jewish-calendar">The Jewish Calendar integration exposes Jewish calendar information through multiple sensors.</flag>
     <flag name="joaoapps-join">The Joaoapps Join integration exposes actions fromJoin. In Home Assistant, the Joaoapps Join features aredivided up in two locations, the Join integration, and the Joaoapps Join notify platform.The notify platform allows us to send messages to Joaoapps Join devices, the integrationallows us to access the other special features that Joaoapps Join offers. When in doubt, you can reference the API documentation this is based on.</flag>
     <flag name="justnimbus">The JustNimbus integration queries the JustNimbus API used by the JustNimbus web dashboard.This integration allows you to collect and save data to get a historical overview of your water bagusage.</flag>
-    <flag name="jvc-projector">The JVC Projector integration allows for the automation of JVC Projectors.</flag>
+    <flag name="jvc-projector">The JVC Projector integration lets you control and automate JVC projectors from Home Assistant. You can turn the projector on and off, send remote commands, change settings such as the input and picture mode, and use the power status and signal information in automations.</flag>
     <flag name="kaco-modbus">The KACO Modbus integration connects Home Assistant to aKACO new energy solar inverter, and shows whatit is producing. The inverter is read directly over your local network, so nocloud account or manufacturer portal is involved.</flag>
     <flag name="kaiterra">The Kaiterra integration allows you to view the readings from your Laser Egg or Sensedge device using the Kaiterra REST API.</flag>
-    <flag name="kaleidescape">The Kaleidescape integration allows for the automation of Kaleidescape movie players.</flag>
+    <flag name="kaleidescape">The Kaleidescape integration lets you control and automate Kaleidescape movie players from Home Assistant. You can see what is playing, send remote commands to the player, and use the playback and video information of the current movie in automations.</flag>
     <flag name="karakeep">The Karakeep integration allows you to connect your Karakeep instance to Home Assistant and monitor bookmark statistics.</flag>
     <flag name="keba">The Keba Charging Station integration integrates your Keba P30/P20 charging station/BMW Wallbox into your Home Assistant instance using the UDP Smart Home Interface (manual). Keba P40 charging stations are not yet supported as they use a different protocol. The fetching interval to the charging station is set to 5 seconds, same as in the official mobile app. To use the integration, enable the UDP Smart Home Interface by adjusting the DIP switches within the charging station according to the installation manual.</flag>
     <flag name="keenetic-ndms2">This integration offers presence detection by examining devices connected to a KeeneticRouter running NDMS firmware versions 2.05 and up. It uses telnet connection so make sure telnet is not disabled on your router.</flag>
@@ -629,7 +629,7 @@
     <flag name="netgear-lte">The NETGEAR LTE integration for Home Assistant allows you to observe and control NETGEAR LTE modems.</flag>
     <flag name="netgear">This integration allows you to detect presence by looking at connected devices to a NETGEAR device and control the NETGEAR device.Both routers and access points can be used with this integration. Some access points will not be automatically discovered and need to be set up manually.Attached devices are only tracked on NETGEAR devices set to the router mode, otherwise, duplicate entities will occur from access points that also report the same devices.</flag>
     <flag name="netio">The Netio integration entities in Home Assistant.</flag>
-    <flag name="network">The Network configuration integration provides network configuration for integrations such as Zeroconf. It is managed by going to Settings &gt; System &gt; Network.</flag>
+    <flag name="network">The Network configuration integration, refer to Network.</flag>
     <flag name="neurio-energy">Integrate your Neurio meter information into Home Assistant. To get an API key and secret, log in to your Neurio account and register an application. Note the Homepage URL and Callback URL are optional.</flag>
     <flag name="nexblue">The NexBlue integration connects NexBlue EV chargers to Home Assistant through the NexBlue cloud service. It provides charger status, charging measurements, energy consumption, and diagnostic information.</flag>
     <flag name="nexia">The Nexia/American Standard/Trane integration allows you to integrate your Nexia (Trane) thermostats or American Standard thermostats into Home Assistant.</flag>

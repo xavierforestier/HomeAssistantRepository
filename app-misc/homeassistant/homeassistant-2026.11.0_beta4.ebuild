@@ -24,7 +24,7 @@ RDEPEND="${PYTHON_DEPS} acct-group/${PN} acct-user/${PN}
 	dev-libs/xerces-c"
 REQUIRED_USE="bluetooth? ( ruuvi-gateway shelly )
 	homekit-controller? ( bluetooth )"
-# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.11.0_beta3/work/package_constraints.txt
+# Home Assistant Core dependencies from /var/tmp/portage/app-misc/homeassistant-2026.11.0_beta4/work/package_constraints.txt
 RDEPEND="${RDEPEND}
 
 	~dev-python/aiodhcpwatcher-1.2.7
@@ -105,7 +105,7 @@ RDEPEND="${RDEPEND}
 
 	~dev-python/webrtc-models-0.3.0
 	~dev-python/yarl-1.25.1
-	~dev-python/zeroconf-0.152.0
+	>=dev-python/zeroconf-0.152.0
 	>=dev-python/pycryptodome-3.6.6
 	>=dev-python/httplib2-0.19.0
 	~dev-python/grpcio-1.83.1
@@ -202,7 +202,7 @@ RDEPEND="${RDEPEND}
 	airzone? (     ~dev-python/aioairzone-1.0.5 )
 	aladdin-connect? (     ~dev-python/genie-partner-sdk-1.0.11 )
 	alarmdecoder? (     ~dev-python/adext-0.4.7 )
-	alexa-devices? (     ~dev-python/aioamazondevices-17.2.3 )
+	alexa-devices? (     ~dev-python/aioamazondevices-17.2.4 )
 	alpha-vantage? (     ~dev-python/alpha-vantage-2.3.1 )
 	altruist? (     ~dev-python/altruistclient-0.1.1 )
 	amazon-polly? (     ~dev-python/boto3-1.42.97 )
@@ -299,7 +299,7 @@ RDEPEND="${RDEPEND}
 	camera? (     ~dev-python/pyturbojpeg-1.8.3 )
 	canary? (     ~dev-python/py-canary-0.5.4 )
 	casper-glow? (     ~dev-python/pycasperglow-1.2.0 )
-	cast? (     ~dev-python/pychromecast-14.1.0 )
+	cast? (     ~dev-python/pychromecast-14.1.1 )
 	ccm15? (     ~dev-python/py-ccm15-1.1.2 )
 	centriconnect? (     ~dev-python/aiocentriconnect-0.2.3 )
 	chacon-dio? (     ~dev-python/dio-chacon-wifi-api-1.3.0 )
@@ -552,7 +552,7 @@ RDEPEND="${RDEPEND}
 	hko? (     ~dev-python/hko-0.3.2 )
 	hlk-sw16? (     ~dev-python/hlk-sw16-0.0.9 )
 	holiday? (     ~dev-python/babel-2.18.0     ~dev-python/holidays-0.107 )
-	homeassistant-hardware? (     ~dev-python/ha-silabs-firmware-client-0.4.0     ~dev-python/universal-silabs-flasher-1.3.0 )
+	homeassistant-hardware? (     ~dev-python/ha-silabs-firmware-client-0.4.0     ~dev-python/pygbl-1.2.0     ~dev-python/universal-silabs-flasher-1.3.0 )
 	home-connect? (     ~dev-python/aiohomeconnect-0.39.1 )
 	homee? (     ~dev-python/pyhomee-1.4.7 )
 	homekit-controller? (     ~dev-python/aiohomekit-4.0.1 )
@@ -653,7 +653,7 @@ RDEPEND="${RDEPEND}
 	kiwi? (     ~dev-python/kiwiki-client-0.1.2 )
 	kmtronic? (     ~dev-python/pykmtronic-0.3.0 )
 	knocki? (     ~dev-python/knocki-0.4.2 )
-	knx? (     ~dev-python/knx-frontend-2026.10.29.192948     ~dev-python/knx-telegram-store-0.15.2[sqlite,postgres]     ~dev-python/xknx-4.0.0     ~dev-python/xknxproject-3.10.0 )
+	knx? (     ~dev-python/knx-frontend-2026.11.2.195507     ~dev-python/knx-telegram-store-0.15.2[sqlite,postgres]     ~dev-python/xknx-4.1.0     ~dev-python/xknxproject-3.10.0 )
 	kodi? (     ~dev-python/pykodi-0.2.7 )
 	kostal-plenticore? (     ~dev-python/pykoplenti-1.5.0 )
 	kraken? (     ~dev-python/krakenex-2.2.2     ~dev-python/pykrakenapi-0.1.9 )
@@ -871,7 +871,7 @@ RDEPEND="${RDEPEND}
 	owntracks? (     ~dev-python/pynacl-1.6.2 )
 	p1-monitor? (     ~dev-python/p1monitor-3.2.0 )
 	paj-gps? (     ~dev-python/pajgps-api-0.4.2 )
-	palazzetti? (     ~dev-python/pypalazzetti-0.1.20 )
+	palazzetti? (     ~dev-python/pypalazzetti-0.1.21 )
 	panasonic-bluray? (     ~dev-python/panacotta-0.2 )
 	panasonic-viera? (     ~dev-python/panasonic-viera-0.4.6 )
 	paperless-ngx? (     ~dev-python/pypaperless-5.2.3 )
@@ -987,7 +987,7 @@ RDEPEND="${RDEPEND}
 	sabnzbd? (     ~dev-python/pysabnzbd-1.1.1 )
 	saj? (     ~dev-python/aiosaj-0.2.2 )
 	samsung-exlink? (     ~dev-python/samsung-exlink-1.2.1 )
-	samsungtv? (     ~dev-python/async-upnp-client-0.49.0     ~dev-python/getmac-0.9.6     ~dev-python/samsungctl-0.7.1[websocket]     ~dev-python/samsungtvws-3.0.6[async,encrypted] )
+	samsungtv? (     ~dev-python/async-upnp-client-0.49.0     ~dev-python/getmac-0.9.6     ~dev-python/samsungctl-0.7.1[websocket]     ~dev-python/samsungtvws-3.0.7[async,encrypted] )
 	sanix? (     ~dev-python/sanix-1.0.6 )
 	satel-integra? (     ~dev-python/satel-integra-1.6.0 )
 	saunum? (     ~dev-python/pysaunum-0.7.0 )
@@ -1211,7 +1211,7 @@ RDEPEND="${RDEPEND}
 	vivotek? (     ~dev-python/libpyvivotek-0.6.1 )
 	vizio? (     ~dev-python/vizaio-0.7.0 )
 	vlc-telnet? (     ~dev-python/aiovlc-0.8.0 )
-	vodafone-station? (     ~dev-python/aiovodafone-3.3.5 )
+	vodafone-station? (     ~dev-python/aiovodafone-3.3.11 )
 	voip? (     ~dev-python/voip-utils-0.5.1 )
 	volkszaehler? (     ~dev-python/volkszaehler-0.4.0 )
 	volumio? (     ~dev-python/pyvolumio-0.1.5 )
@@ -1275,7 +1275,7 @@ RDEPEND="${RDEPEND}
 	youtube? (     ~dev-python/youtubeaio-2.1.2 )
 	zabbix? (     ~dev-python/zabbix-utils-2.0.4 )
 	zamg? (     ~dev-python/zamg-0.4.1 )
-	zeroconf? (     ~dev-python/zeroconf-0.152.0 )
+	zeroconf? (     >=dev-python/zeroconf-0.152.0 )
 	zerproc? (     ~dev-python/pyzerproc-0.4.8 )
 	zeversolar? (     ~dev-python/zeversolar-0.3.2 )
 	zha? (     ~dev-python/zha-quirks-2.4.0     ~dev-python/zha-2.4.2 )

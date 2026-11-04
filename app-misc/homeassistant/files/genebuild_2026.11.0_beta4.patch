@@ -237,8 +237,26 @@
  
  # homeassistant.components.sisyphus
  sisyphus-control==3.1.4
+@@ -3634,7 +3634,7 @@
+ zcc-helper==3.8
+ 
+ # homeassistant.components.zeroconf
+-zeroconf==0.152.0
++zeroconf>=0.152.0
+ 
+ # homeassistant.components.zeversolar
+ zeversolar==0.3.2
 --- a/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
 +++ b/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
+@@ -77,7 +77,7 @@
+ uv==0.13.6
+ webrtc-models==0.3.0
+ yarl==1.25.1
+-zeroconf==0.152.0
++zeroconf>=0.152.0
+ 
+ # Constrain pycryptodome to avoid vulnerability
+ # see https://github.com/home-assistant/core/pull/16238
 @@ -130,8 +130,8 @@
  httpx==0.28.1
  

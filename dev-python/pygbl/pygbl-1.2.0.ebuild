@@ -16,6 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
+	dev-python/pyelftools[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

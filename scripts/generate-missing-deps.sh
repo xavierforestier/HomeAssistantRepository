@@ -362,7 +362,8 @@ elif [ "$#" -eq 3 ] && [ "$2" == "upgrade" ] || [ "$2" == "create"  ]; then
       exit 1
     fi
     curl -s -L "https://pypi.org/pypi/${package}/json" | jq -r '.info' > "/tmp/${package}-pypi-info.json"
-    github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Repository' | grep '^https://github\.com/' )"
+    github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.repository' | grep '^https://github\.com/' )"
+    [ -z "$github_url" ] && github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Repository' | grep '^https://github\.com/' )"
     [ -z "$github_url" ] && github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Homepage' | grep '^https://github\.com/' )"
 
     if [ -z "$github_url" ]; then

@@ -103,12 +103,12 @@ parse_package() {
 
     local package
     package=$( eix -es# "$d" --use python_targets_python3_14 )
+    [ -z "$package" ] && package=$( eix -e# "dev-python/$d" )
     dlower=${d,,}
     dlower=${dlower//_/-}
     dlower=${dlower//./-}
-    if [ -z "$package" ];then
-      package=$( eix -es# "${dlower}" --use python_targets_python3_14 )
-    fi
+    [ -z "$package" ] && package=$( eix -es# "${dlower}" --use python_targets_python3_14 )
+    [ -z "$package" ] && package=$( eix -e# "dev-python/${dlower}" )
     case $d in
       atomicwrites-homeassistant)
         package="dev-python/atomicwrites"

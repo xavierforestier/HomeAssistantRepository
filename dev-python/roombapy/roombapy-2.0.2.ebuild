@@ -18,10 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="mqtt? ( >=dev-python/paho-mqtt-1.6.1[${PYTHON_USEDEP}] )
+RDEPEND="
 	>=dev-python/orjson-3.9.13[${PYTHON_USEDEP}]
+	>=dev-python/aiomqtt-2.5[${PYTHON_USEDEP}]
 	>=dev-python/mashumaro-3.12[${PYTHON_USEDEP}]
-	dev-python/pydantic[${PYTHON_USEDEP}]"
+	dev-python/pydantic[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]

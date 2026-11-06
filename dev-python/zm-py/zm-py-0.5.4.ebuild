@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/requests-2.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	dev-python/colorlog[${PYTHON_USEDEP}]
 	test? (

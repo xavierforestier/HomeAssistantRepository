@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">g4bri3lDev/kaco-rs485</remote-id>
+    <remote-id type="pypi">kaco-serial</remote-id>
+    <maintainer>
+      <email>admin@g4bri3l.de</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

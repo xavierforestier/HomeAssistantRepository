@@ -365,6 +365,7 @@ elif [ "$#" -eq 3 ] && [ "$2" == "upgrade" ] || [ "$2" == "create"  ]; then
     github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.repository' | grep '^https://github\.com/' )"
     [ -z "$github_url" ] && github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Repository' | grep '^https://github\.com/' )"
     [ -z "$github_url" ] && github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Homepage' | grep '^https://github\.com/' )"
+    [ -z "$github_url" ] && github_url="$( cat "/tmp/${package}-pypi-info.json" | jq -r '.project_urls.Source' | grep '^https://github\.com/' )"
 
     if [ -z "$github_url" ]; then
       echo "$1 not found in pypi.org"

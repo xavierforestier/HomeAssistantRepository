@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">wtxu-gs/grandstream_home_api</remote-id>
+    <remote-id type="pypi">grandstream-home-api</remote-id>
+    <maintainer>
+      <name>Grandstream Team</name>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

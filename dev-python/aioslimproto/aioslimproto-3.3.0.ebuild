@@ -17,12 +17,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-BDEPEND="
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/aiohttp-3.9.2[${PYTHON_USEDEP}]
 	dev-python/pillow[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 		dev-python/pytest-timeout[${PYTHON_USEDEP}]
-	)"
+	)
+"
 
 distutils_enable_tests pytest

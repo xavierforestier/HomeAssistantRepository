@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">mobility-lab-vsb/skoda-public-api</remote-id>
+    <remote-id type="pypi">skoda-public-api</remote-id>
+    <maintainer>
+      <name>mag0051 <david.magyarics@vsb.cz>, TomVSB <tomas.mrovec@vsb.cz></name>
+      <email>tomas.mrovec@vsb.cz</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

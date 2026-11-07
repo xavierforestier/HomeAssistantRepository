@@ -130,7 +130,7 @@ parse_package() {
 
     if [ -z "$package" ];then
       echo -e "\e[1;33mmissing\e[0m"
-      pushd "${SCRIPT_PATH}" > /dev/null
+      pushd "${SCRIPT_PATH}" > /dev/null || exit
       echo "dev-python/${dlower}"
       if ./generate-missing-deps.sh "dev-python/${dlower}" create "$version" && ./generate-missing-deps.sh "dev-python/${dlower}" build; then
         popd > /dev/null || exit

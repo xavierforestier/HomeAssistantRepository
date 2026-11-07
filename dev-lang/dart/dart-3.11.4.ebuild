@@ -82,13 +82,14 @@ src_configure() {
 
 src_compile() {
 	# fix can't find cc1plus
-	export PATH=/usr/libexec/gcc/${CHOST}/$(gcc-major-version)/:$PATH
+	PATH=/usr/libexec/gcc/${CHOST}/$(gcc-major-version)/:$PATH
+	export PATH
 	local myninjaargs=""
 	# The create_sdk ninja argument can also build bin/dart and bin/dartaotruntime.
 	# disabling the runtime ninja argument can reduce time and space usage.
 	# myninjaargs+=" runtime"
 	myninjaargs+=" create_sdk"
-	eninja ${myninjaargs} -C out/Release
+	eninja "${myninjaargs}" -C out/Release
 }
 
 src_install() {

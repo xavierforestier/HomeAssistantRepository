@@ -330,6 +330,7 @@ inherit distutils-r1 pypi readme.gentoo-r1 systemd
 
 DESCRIPTION="Open-source home automation platform running on Python."
 HOMEPAGE="https://home-assistant.io/ https://pypi.org/project/homeassistant https://github.com/home-assistant/core https://github.com/xavierforestier/HomeAssistantRepository"
+PATCHES=( "\${FILESDIR}/\${PN}-remove-environement-check.patch" )
 
 LICENSE="Apache-2.0"
 SLOT="0"

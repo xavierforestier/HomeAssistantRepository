@@ -9,6 +9,7 @@
     <remote-id type="github">shirok1/python-xiaomi-weather</remote-id>
     <remote-id type="pypi">xiaomi-weather</remote-id>
     <maintainer>
+      <name>Shiroki Satsuki</name>
       <email>me@shirok1.dev</email>
     </maintainer>
   </upstream>

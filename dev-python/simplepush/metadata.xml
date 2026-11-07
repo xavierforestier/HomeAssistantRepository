@@ -13,4 +13,7 @@
       <name>Timm Schaeuble</name>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="legacy">Use legacy mode</flag>
+  </use>
 </pkgmetadata>

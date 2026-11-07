@@ -11,7 +11,7 @@ inherit distutils-r1 pypi
 DESCRIPTION="Asynchronous Python library for the Škoda public API"
 HOMEPAGE="https://github.com/mobility-lab-vsb/skoda-public-api https://pypi.org/project/skoda-public-api"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 

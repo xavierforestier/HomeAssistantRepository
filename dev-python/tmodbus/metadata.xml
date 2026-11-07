@@ -5,4 +5,8 @@
     <remote-id type="github">wlcrs/tmodbus</remote-id>
     <remote-id type="pypi">tmodbus</remote-id>
   </upstream>
+  <use>
+    <flag name="async-serial">Use serialx</flag>
+	<flag name="security"></flag>
+  </use>
 </pkgmetadata>

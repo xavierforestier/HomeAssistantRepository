@@ -9,6 +9,7 @@ inherit distutils-r1 pypi readme.gentoo-r1 systemd
 
 DESCRIPTION="Open-source home automation platform running on Python."
 HOMEPAGE="https://home-assistant.io/ https://pypi.org/project/homeassistant https://github.com/home-assistant/core https://github.com/xavierforestier/HomeAssistantRepository"
+PATCHES=( "${FILESDIR}/${PN}-remove-environement-check.patch" )
 
 LICENSE="Apache-2.0"
 SLOT="0"
@@ -105,7 +106,7 @@ RDEPEND="${RDEPEND}
 
 	~dev-python/webrtc-models-0.3.0
 	~dev-python/yarl-1.25.1
-	>=dev-python/zeroconf-0.152.0
+	~dev-python/zeroconf-0.152.0
 	>=dev-python/pycryptodome-3.6.6
 	>=dev-python/httplib2-0.19.0
 	~dev-python/grpcio-1.83.1
@@ -1309,7 +1310,7 @@ RDEPEND="${RDEPEND}
 	youtube? (     ~dev-python/youtubeaio-2.1.2 )
 	zabbix? (     ~dev-python/zabbix-utils-2.0.4 )
 	zamg? (     ~dev-python/zamg-0.4.1 )
-	zeroconf? (     >=dev-python/zeroconf-0.152.0 )
+	zeroconf? (     ~dev-python/zeroconf-0.152.0 )
 	zerproc? (     ~dev-python/pyzerproc-0.4.8 )
 	zeversolar? (     ~dev-python/zeversolar-0.3.2 )
 	zha? (     ~dev-python/zha-quirks-2.4.1     ~dev-python/zha-2.4.2 )

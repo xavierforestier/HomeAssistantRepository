@@ -1,0 +1,12 @@
+--- a/homeassistant/__main__.py  2026-11-07 13:46:38.734104023 +0100
++++ b/homeassistant/__main__.py  2026-11-07 13:49:21.349293174 +0100
+@@ -164,8 +164,6 @@
+ def main() -> int:
+     """Start Home Assistant."""
+     validate_python()
+-    validate_environment()
+-
+     args = get_arguments()
+ 
+     if not args.ignore_os_check:
+

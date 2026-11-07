@@ -9,7 +9,11 @@
     <remote-id type="github">Dr-Blank/spinev-ble</remote-id>
     <remote-id type="pypi">spinev-ble</remote-id>
     <maintainer>
+	  <name>Dr.Blank</name>
       <email>64108942+Dr-Blank@users.noreply.github.com</email>
     </maintainer>
   </upstream>
+  <use>
+    <flag name="bleak">Use bleak</flag>
+  </use>
 </pkgmetadata>

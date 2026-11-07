@@ -15,7 +15,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 IUSE="pymodbus tmodbus"
 
-RDEPENDS="
+RDEPEND="
 	pymodbus? ( >=dev-python/pymodbus-3.11[${PYTHON_USEDEP},serial] )
 	tmodbus? ( >=dev-python/tmodbus-0.6.1[${PYTHON_USEDEP},async-serial] )
 "

@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/colorlog[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/pyserial[${PYTHON_USEDEP}]
+	dev-python/colorlog[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

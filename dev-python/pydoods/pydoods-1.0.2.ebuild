@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+"
 
 python_test() {
 	py.test -v -v || die

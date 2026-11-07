@@ -19,6 +19,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/packaging[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/packaging[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

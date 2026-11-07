@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="readme.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/cryptography[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/cryptography[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/six[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/six[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

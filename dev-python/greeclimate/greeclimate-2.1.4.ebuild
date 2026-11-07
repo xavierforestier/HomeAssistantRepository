@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/netifaces[${PYTHON_USEDEP}]
-	>=dev-python/pycryptodome-3.10.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/netifaces[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.10.0[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

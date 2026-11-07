@@ -16,6 +16,8 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/propcache[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/propcache[${PYTHON_USEDEP}]
+"
 
 DOCS="README.md"

@@ -18,11 +18,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pandas[${PYTHON_USEDEP}]
 	dev-python/paho-mqtt[${PYTHON_USEDEP}]
 	dev-python/xmltodict[${PYTHON_USEDEP}]
-	dev-python/pycryptodome[${PYTHON_USEDEP}]"
+	dev-python/pycryptodome[${PYTHON_USEDEP}]
+"
 
 python_test() {
 	py.test -v -v || die

@@ -16,7 +16,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/iso8601[${PYTHON_USEDEP}]
-	>=dev-python/requests-2.4.2[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/iso8601[${PYTHON_USEDEP}]
+	>=dev-python/requests-2.4.2[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

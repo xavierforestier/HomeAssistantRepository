@@ -16,9 +16,11 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pytz[${PYTHON_USEDEP}]
-	>=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]"
+	>=dev-python/aiohttp-3.6.1[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/coverage[${PYTHON_USEDEP}]

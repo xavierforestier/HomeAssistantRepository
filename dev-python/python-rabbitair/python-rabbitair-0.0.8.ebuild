@@ -19,7 +19,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]
-	dev-python/zeroconf[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/cryptography[${PYTHON_USEDEP}]
+	dev-python/zeroconf[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

@@ -15,7 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-RDEPENDS="
+RDEPEND="
 	>=dev-python/aiohttp-3.11[${PYTHON_USEDEP}]
 	>=dev-python/aiomqtt-2.0[${PYTHON_USEDEP}]
 "

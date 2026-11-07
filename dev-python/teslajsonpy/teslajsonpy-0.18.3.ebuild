@@ -17,11 +17,13 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/backoff[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/wrapt[${PYTHON_USEDEP}]
-	dev-python/httpx[${PYTHON_USEDEP}]"
+	dev-python/httpx[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

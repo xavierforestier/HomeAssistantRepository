@@ -51,6 +51,7 @@ elif [ "$( pwd | rev | cut -d/ -f1-3 | rev )" == "app-misc/homeassistant/files" 
 else
   echo "Please run in app-misc/*homeassistant or root repository" && exit 1
 fi
+SCRIPT_PATH="$( pwd | rev | cut -d/ -f3- | rev )/scripts"
 
 EBUILD=$( pwd | rev | cut -d/ -f1 | rev )-${VERSION/b/_beta}
 EBUILD_PATH=$( pwd )/$EBUILD.ebuild
@@ -102,12 +103,12 @@ parse_package() {
 
     local package
     package=$( eix -es# "$d" --use python_targets_python3_14 )
+    [ -z "$package" ] && package=$( eix -e# "dev-python/$d" )
     dlower=${d,,}
     dlower=${dlower//_/-}
     dlower=${dlower//./-}
-    if [ -z "$package" ];then
-      package=$( eix -es# "${dlower}" --use python_targets_python3_14 )
-    fi
+    [ -z "$package" ] && package=$( eix -es# "${dlower}" --use python_targets_python3_14 )
+    [ -z "$package" ] && package=$( eix -e# "dev-python/${dlower}" )
     case $d in
       atomicwrites-homeassistant)
         package="dev-python/atomicwrites"
@@ -128,17 +129,17 @@ parse_package() {
     fi
 
     if [ -z "$package" ];then
-      popd > /dev/null ||exit
-      cd ../..
       echo -e "\e[1;33mmissing\e[0m"
-      if ./scripts/generate-missing-deps.sh "dev-python/${dlower}" create "$version" && ./scripts/generate-missing-deps.sh "dev-python/${dlower}" build; then
-        pushd "/var/tmp/portage/app-misc/${EBUILD}/work" > /dev/null || exit
+      pushd "${SCRIPT_PATH}" > /dev/null || exit
+      echo "dev-python/${dlower}"
+      if ./generate-missing-deps.sh "dev-python/${dlower}" create "$version" && ./generate-missing-deps.sh "dev-python/${dlower}" build; then
+        popd > /dev/null || exit
         eix-update > /dev/null
         echo -ne "$1" >> "$2"
         echo -n "=dev-python/$dlower-$version" >> "$2"
         break
       else
-        pushd "/var/tmp/portage/app-misc/${EBUILD}/work" > /dev/null || exit
+        popd > /dev/null || exit
 	echo -e "==> \e[1;33m$l corresponding gentoo package was not found, entry skipped\e[0m"
         break
       fi
@@ -329,6 +330,7 @@ inherit distutils-r1 pypi readme.gentoo-r1 systemd
 
 DESCRIPTION="Open-source home automation platform running on Python."
 HOMEPAGE="https://home-assistant.io/ https://pypi.org/project/homeassistant https://github.com/home-assistant/core https://github.com/xavierforestier/HomeAssistantRepository"
+PATCHES=( "\${FILESDIR}/\${PN}-remove-environement-check.patch" )
 
 LICENSE="Apache-2.0"
 SLOT="0"

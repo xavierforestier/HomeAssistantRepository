@@ -17,7 +17,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/httpx[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/httpx[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.4[${PYTHON_USEDEP}]
 	>=dev-python/pyjwt-2.1.0[${PYTHON_USEDEP}]
 	china? ( dev-python/pillow[${PYTHON_USEDEP}] )"

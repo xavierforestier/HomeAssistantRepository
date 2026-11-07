@@ -39,7 +39,9 @@ LICENSE+="
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND="dev-libs/oniguruma"
+RDEPEND="
+	dev-libs/oniguruma
+"
 BDEPEND="
 	test? ( sci-ml/datasets[${PYTHON_SINGLE_USEDEP}] )
 	$(python_gen_cond_dep '

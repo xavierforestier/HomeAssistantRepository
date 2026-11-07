@@ -19,8 +19,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/requests-oauthlib[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/requests-oauthlib[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

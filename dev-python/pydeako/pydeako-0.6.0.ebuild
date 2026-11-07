@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/zeroconf[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/zeroconf[${PYTHON_USEDEP}]
+"
 
 src_prepare() {
 	echo -ne '\n[build-system]\nrequires = ["setuptools"]\n' >> pyproject.toml || die

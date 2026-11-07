@@ -18,6 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/pbr[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/pbr[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

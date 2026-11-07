@@ -20,9 +20,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="readme.rst"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/python-magic[${PYTHON_USEDEP}]
-	>=dev-python/websocket-client-0.53.0[${PYTHON_USEDEP}]"
+	>=dev-python/websocket-client-0.53.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

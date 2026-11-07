@@ -17,9 +17,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/defusedxml[${PYTHON_USEDEP}]"
+	dev-python/defusedxml[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/flake8[${PYTHON_USEDEP}]

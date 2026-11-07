@@ -17,9 +17,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/click-8.0[${PYTHON_USEDEP}]
 	dev-python/attrs[${PYTHON_USEDEP}]
-	dev-python/async-upnp-client[${PYTHON_USEDEP}]"
+	dev-python/async-upnp-client[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

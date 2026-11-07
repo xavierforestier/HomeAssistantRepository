@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <upstream>
+    <remote-id type="github">certbot/certbot</remote-id>
+    <remote-id type="pypi">certbot</remote-id>
+  </upstream>
+  <use>
+    <flag name="apache">Handle apache server certicate validation</fla>
+    <flag name="dns-dnsimple">Handle DNS validation method</flag>
+	<flag name="dns-dnsmadeeasy">Handle DNS validation method</flag>
+    <flag name="dns-gehirn">Handle DNS validation method</flag>
+    <flag name="dns-google">Handle DNS validation method</flag>
+	<flag name="dns-linode">Handle DNS validation method</flag>
+	<flag name="dns-luadns">Handle DNS validation method</flag>
+    <flag name="dns-nsone">Handle DNS validation method</flag>
+    <flag name="dns-ovh">Handle DNS validation method</flag>
+    <flag name="dns-rfc2136"> Handle RFC2136</flag>
+    <flag name="dns-route53">Handle DNS validation method</flag>
+	<flag name="dns-sakuracloud">Handle DNS validation method</flag>
+    <flag name="nginx"> Handle nginx server certificate validation></flag>
+  </use>
+</pkgmetadata>

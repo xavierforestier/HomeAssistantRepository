@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">El1t3Mult1pl3x0r/rainbowminer-api-client</remote-id>
+    <remote-id type="pypi">rainbowminer-api-client</remote-id>
+    <maintainer>
+      <email>55260508+El1t3Mult1pl3x0r@users.noreply.github.com</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

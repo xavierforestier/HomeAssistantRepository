@@ -1,16 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
-  <maintainer type="project">
-    <email>b@edevau.net</email>
-    <name>Andreas Billmeier</name>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
   </maintainer>
   <upstream>
-    <remote-id type="pypi">idasen</remote-id>
     <remote-id type="github">newAM/idasen</remote-id>
-    <maintainer status="unknown">
-      <email>alex@thinglab.org</email>
-      <name>Alex Martens</name>
+    <remote-id type="pypi">idasen</remote-id>
+    <maintainer>
+      <email>alex+idasen@thinglab.org</email>
     </maintainer>
   </upstream>
 </pkgmetadata>

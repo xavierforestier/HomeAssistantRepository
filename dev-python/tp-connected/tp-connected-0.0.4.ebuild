@@ -18,9 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/attrs[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/attrs[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.0.1[${PYTHON_USEDEP}]
-	dev-python/js2py[${PYTHON_USEDEP}]"
+	dev-python/js2py[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

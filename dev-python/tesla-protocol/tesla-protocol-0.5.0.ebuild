@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/Teslemetry/tesla-protocol https://pypi.org/project/
 LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-RDEPENDS="
+RDEPEND="
 	>=dev-python/protobuf-6.32.0[${PYTHON_USEDEP}]
 	>=dev-python/googleapis-common-protos-1.60[${PYTHON_USEDEP}]
 "

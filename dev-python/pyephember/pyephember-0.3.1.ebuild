@@ -16,8 +16,10 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/paho-mqtt[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/paho-mqtt[${PYTHON_USEDEP}]
+"
 
 python_test() {
 	py.test -v -v || die

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">frenck/python-ritualsgenie</remote-id>
+    <remote-id type="pypi">ritualsgenie</remote-id>
+    <maintainer>
+      <name>Franck Nijhof</name>
+      <email>opensource@frenck.dev</email>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

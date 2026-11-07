@@ -19,8 +19,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/click[${PYTHON_USEDEP}]
-	dev-python/netifaces[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/click[${PYTHON_USEDEP}]
+	dev-python/netifaces[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/mock[${PYTHON_USEDEP}]

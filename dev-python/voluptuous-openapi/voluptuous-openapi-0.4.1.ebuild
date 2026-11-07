@@ -18,4 +18,6 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/voluptuous[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/voluptuous[${PYTHON_USEDEP}]
+"

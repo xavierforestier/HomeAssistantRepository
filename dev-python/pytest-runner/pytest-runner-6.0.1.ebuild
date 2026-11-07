@@ -19,7 +19,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/setuptools[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/setuptools[${PYTHON_USEDEP}]
+"
 BDEPEND="dev-python/setuptools-scm[${PYTHON_USEDEP}]
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

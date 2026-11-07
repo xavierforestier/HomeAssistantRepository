@@ -18,9 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/six[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/six[${PYTHON_USEDEP}]
 	dev-python/click[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+	dev-python/requests[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

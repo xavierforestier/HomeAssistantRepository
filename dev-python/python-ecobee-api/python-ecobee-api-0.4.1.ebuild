@@ -18,6 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/requests-2.25[${PYTHON_USEDEP}]"
+RDEPEND="
+	>=dev-python/requests-2.25[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

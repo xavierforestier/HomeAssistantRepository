@@ -15,6 +15,7 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-libs/glib"
+RDEPEND="
+	dev-libs/glib"
 
 distutils_enable_tests pytest

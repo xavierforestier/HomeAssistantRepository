@@ -18,6 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/cryptography[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/cryptography[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

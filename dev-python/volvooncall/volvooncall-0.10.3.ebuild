@@ -15,7 +15,8 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="console mqtt test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	console? ( dev-python/certifi[${PYTHON_USEDEP}] >=sci-geosciences/geopy-1.14.0[${PYTHON_USEDEP}] )
 	mqtt? ( dev-python/certifi[${PYTHON_USEDEP}] dev-python/amqtt[${PYTHON_USEDEP}] )"
 BDEPEND="

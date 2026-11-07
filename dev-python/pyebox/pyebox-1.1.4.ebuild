@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/beautifulsoup4[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

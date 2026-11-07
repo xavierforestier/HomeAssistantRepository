@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/dicttoxml2[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/dicttoxml2[${PYTHON_USEDEP}]
+	dev-python/xmltodict[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

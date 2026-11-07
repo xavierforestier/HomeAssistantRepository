@@ -17,5 +17,7 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 DOCS="README.rst"
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+"
 distutils_enable_tests pytest

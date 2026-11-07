@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <name>Xavier FORESTIER</name>
+    <email>23277701+xavierforestier@users.noreply.github.com</email>
+  </maintainer>
+  <upstream>
+    <remote-id type="github">bbayszczak/pyhaseiq</remote-id>
+    <remote-id type="pypi">pyhaseiq</remote-id>
+    <maintainer>
+      <name>Benoit Bayszczak</name>
+    </maintainer>
+  </upstream>
+</pkgmetadata>

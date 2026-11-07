@@ -16,7 +16,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	dev-python/setuptools-markdown[${PYTHON_USEDEP}]
 	dev-python/pypandoc[${PYTHON_USEDEP}]

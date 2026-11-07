@@ -16,7 +16,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/pbr[${PYTHON_USEDEP}]
-	dev-python/six[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/pbr[${PYTHON_USEDEP}]
+	dev-python/six[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

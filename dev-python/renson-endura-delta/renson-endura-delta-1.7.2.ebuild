@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	dev-python/pytest-runner[${PYTHON_USEDEP}]
 	test? (

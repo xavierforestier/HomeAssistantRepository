@@ -18,7 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/more-itertools[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/more-itertools[${PYTHON_USEDEP}]
 	dev-python/beautifulsoup4[${PYTHON_USEDEP}]
 	dev-python/mechanize[${PYTHON_USEDEP}]
 	>=dev-python/keyring-0.6[${PYTHON_USEDEP}]
@@ -32,7 +33,8 @@ RDEPEND="dev-python/more-itertools[${PYTHON_USEDEP}]
 	>=dev-python/path-16.6[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pathvalidate[${PYTHON_USEDEP}]
-	dev-python/jsonpickle[${PYTHON_USEDEP}]"
+	dev-python/jsonpickle[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

@@ -15,7 +15,8 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/requests"
+RDEPEND="
+	dev-python/requests"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

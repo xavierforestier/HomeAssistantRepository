@@ -17,8 +17,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/aresponses[${PYTHON_USEDEP}]

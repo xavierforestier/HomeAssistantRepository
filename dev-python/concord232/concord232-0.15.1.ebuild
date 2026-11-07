@@ -16,10 +16,12 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test ) mirror"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/stevedore[${PYTHON_USEDEP}]
 	dev-python/prettytable[${PYTHON_USEDEP}]
 	dev-python/pyserial[${PYTHON_USEDEP}]
-	dev-python/flask[${PYTHON_USEDEP}]"
+	dev-python/flask[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

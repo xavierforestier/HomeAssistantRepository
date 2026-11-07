@@ -16,7 +16,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/pyserial[${PYTHON_USEDEP}]
+"
 
 src_prepare() {
 	sed "s/find_packages()/find_packages(exclude=('tests', 'tests.*'))/g" -i setup.py || die

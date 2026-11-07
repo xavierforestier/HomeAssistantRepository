@@ -15,7 +15,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-RDEPENDS="
+RDEPEND="
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/async-upnp-client[${PYTHON_USEDEP}]
 	dev-python/zeroconf[${PYTHON_USEDEP}]

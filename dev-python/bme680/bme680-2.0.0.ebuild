@@ -15,7 +15,9 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/smbus2[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/smbus2[${PYTHON_USEDEP}]
+"
 src_prepare() {
 	eapply "${FILESDIR}/fix-install.patch"
 	eapply_user

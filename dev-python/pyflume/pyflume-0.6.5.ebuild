@@ -19,10 +19,12 @@ RESTRICT="!test? ( test )"
 PATCHES=( "${FILESDIR}/${PN}-fix-setup-py.patch" )
 DOCS="README.md"
 
-RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyjwt[${PYTHON_USEDEP}]
-	dev-python/ratelimit[${PYTHON_USEDEP}]"
+	dev-python/ratelimit[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

@@ -16,9 +16,11 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/pyhamcrest[${PYTHON_USEDEP}]
-	dev-python/xmltodict[${PYTHON_USEDEP}]"
+	dev-python/xmltodict[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/mock[${PYTHON_USEDEP}]

@@ -17,7 +17,7 @@ IUSE="test"
 RESTRICT="!test? ( test )"
 DOCS="README.rst"
 
-RDEPENDS="
+RDEPEND="
 	dev-python/autocommand[${PYTHON_USEDEP}]
 	dev-python/path[${PYTHON_USEDEP}]
 "

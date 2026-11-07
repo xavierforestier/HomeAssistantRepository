@@ -18,7 +18,9 @@ RESTRICT="!test? ( test ) mirror"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/awesomeversion[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/awesomeversion[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

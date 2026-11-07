@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/zlib-ng[${PYTHON_USEDEP}]"
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/zlib-ng[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

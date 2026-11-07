@@ -18,8 +18,10 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test ) mirror"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
 	dev-python/six[${PYTHON_USEDEP}]
-	dev-python/oauthlib[${PYTHON_USEDEP}]"
+	dev-python/oauthlib[${PYTHON_USEDEP}]
+"
 
 distutils_enable_tests pytest

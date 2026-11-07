@@ -17,9 +17,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/urllib3[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/urllib3[${PYTHON_USEDEP}]
 	>=dev-python/requests-2.20[${PYTHON_USEDEP}]
-	>=dev-python/esprima-4.0[${PYTHON_USEDEP}]"
+	>=dev-python/esprima-4.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

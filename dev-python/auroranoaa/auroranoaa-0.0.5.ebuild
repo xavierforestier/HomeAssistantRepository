@@ -17,4 +17,6 @@ KEYWORDS="amd64 arm arm64 x86"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+"

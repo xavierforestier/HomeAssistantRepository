@@ -14,7 +14,7 @@ HOMEPAGE="https://github.com/DieEneSchrodinger/energyflip-client https://pypi.or
 LICENSE="Apache 2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-RDEPENDS="
+RDEPEND="
 	!dev-python/energyflip-client[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/yarl[${PYTHON_USEDEP}]

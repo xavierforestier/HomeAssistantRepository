@@ -18,10 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
 	>=dev-python/enum-compat-0.0.2[${PYTHON_USEDEP}]
 	>=dev-python/websocket-client-0.40.0[${PYTHON_USEDEP}]
-	>=dev-python/zeroconf-0.19.1[${PYTHON_USEDEP}]"
+	>=dev-python/zeroconf-0.19.1[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

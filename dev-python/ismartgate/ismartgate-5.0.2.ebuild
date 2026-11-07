@@ -18,10 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/dicttoxml2[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/dicttoxml2[${PYTHON_USEDEP}]
 	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
 	>=dev-python/pycryptodome-3.9.8[${PYTHON_USEDEP}]
-	>=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]"
+	>=dev-python/httpx-0.18.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

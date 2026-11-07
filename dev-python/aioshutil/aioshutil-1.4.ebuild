@@ -17,7 +17,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/typing-extensions[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/typing-extensions[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

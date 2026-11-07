@@ -15,7 +15,9 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+"
 
 src_prepare() {
 	sed -e '/data_files/d' -i setup.py || die

@@ -17,7 +17,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/typer[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/typer[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest-asyncio[${PYTHON_USEDEP}]

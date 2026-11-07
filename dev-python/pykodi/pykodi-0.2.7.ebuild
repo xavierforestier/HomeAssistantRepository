@@ -18,9 +18,11 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	>=dev-python/jsonrpc-async-2.1.0[${PYTHON_USEDEP}]
-	>=dev-python/jsonrpc-websocket-3.1.1[${PYTHON_USEDEP}]"
+	>=dev-python/jsonrpc-websocket-3.1.1[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

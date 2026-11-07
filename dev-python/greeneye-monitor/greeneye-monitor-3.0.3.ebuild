@@ -19,8 +19,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	~dev-python/siobrultech-protocols-0.5.0[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	~dev-python/siobrultech-protocols-0.5.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

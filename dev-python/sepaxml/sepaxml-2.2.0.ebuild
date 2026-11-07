@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/xmlschema[${PYTHON_USEDEP}]
-	dev-python/text-unidecode[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/xmlschema[${PYTHON_USEDEP}]
+	dev-python/text-unidecode[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

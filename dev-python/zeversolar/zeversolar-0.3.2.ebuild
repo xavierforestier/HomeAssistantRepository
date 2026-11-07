@@ -16,8 +16,10 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPEND="dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/retry2[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/requests[${PYTHON_USEDEP}]
+	dev-python/retry2[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest-cov[${PYTHON_USEDEP}]

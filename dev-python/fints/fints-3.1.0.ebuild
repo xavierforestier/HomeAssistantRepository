@@ -18,10 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/bleach[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/bleach[${PYTHON_USEDEP}]
 	dev-python/mt940[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	>=dev-python/sepaxml-2.0[${PYTHON_USEDEP}]"
+	>=dev-python/sepaxml-2.0[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

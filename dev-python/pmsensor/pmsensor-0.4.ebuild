@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/pyserial[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/pyserial[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

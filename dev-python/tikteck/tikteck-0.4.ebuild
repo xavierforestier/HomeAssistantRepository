@@ -17,7 +17,9 @@ RESTRICT="!test? ( test )"
 
 #DOCS="README.md"
 
-RDEPEND="dev-python/bluepy[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/bluepy[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

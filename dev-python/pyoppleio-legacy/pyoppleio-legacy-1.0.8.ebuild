@@ -22,7 +22,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pycrc16[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/pycrc16[${PYTHON_USEDEP}]
+"
 BDEPEND="
 
 	test? (

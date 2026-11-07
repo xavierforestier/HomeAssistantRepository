@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/flake8[${PYTHON_USEDEP}]
-	dev-python/pydocstyle[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/flake8[${PYTHON_USEDEP}]
+	dev-python/pydocstyle[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/pytest[${PYTHON_USEDEP}]

@@ -18,7 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/python-metar[${PYTHON_USEDEP}]
 	retry? ( dev-python/tenacity[${PYTHON_USEDEP}] )
 "

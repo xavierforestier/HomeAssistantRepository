@@ -18,7 +18,9 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/pytz[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	app-arch/unzip
 	test? (

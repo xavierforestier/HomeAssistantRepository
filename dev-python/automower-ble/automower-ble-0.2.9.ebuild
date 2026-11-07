@@ -16,7 +16,7 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-RDEPENDS="
+RDEPEND="
 	dev-python/bleak[${PYTHON_USEDEP}]
 	dev-python/bleak_retry_connector[${PYTHON_USEDEP}]
 "

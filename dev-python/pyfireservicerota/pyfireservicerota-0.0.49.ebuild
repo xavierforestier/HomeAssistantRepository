@@ -18,10 +18,12 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/pytz[${PYTHON_USEDEP}]
+RDEPEND="
+	dev-python/pytz[${PYTHON_USEDEP}]
 	dev-python/oauthlib[${PYTHON_USEDEP}]
 	dev-python/requests[${PYTHON_USEDEP}]
-	dev-python/websocket-client[${PYTHON_USEDEP}]"
+	dev-python/websocket-client[${PYTHON_USEDEP}]
+"
 
 python_test() {
 	py.test -v -v || die

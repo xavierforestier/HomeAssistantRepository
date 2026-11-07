@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.rst"
 
-RDEPEND="dev-python/python-dateutil[${PYTHON_USEDEP}]
-	dev-python/pytz[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/python-dateutil[${PYTHON_USEDEP}]
+	dev-python/pytz[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/tzlocal[${PYTHON_USEDEP}]

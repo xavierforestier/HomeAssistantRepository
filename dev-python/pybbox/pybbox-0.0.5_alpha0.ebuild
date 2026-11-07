@@ -21,8 +21,10 @@ RESTRICT="!test? ( test )"
 
 #DOCS="README.md"
 
-RDEPEND="dev-python/netaddr[${PYTHON_USEDEP}]
-	dev-python/requests[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/netaddr[${PYTHON_USEDEP}]
+	dev-python/requests[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	app-arch/unzip
 	test? (

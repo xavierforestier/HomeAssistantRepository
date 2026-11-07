@@ -18,8 +18,10 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND="dev-python/aiohttp[${PYTHON_USEDEP}]
-	dev-python/aiocache[${PYTHON_USEDEP}]"
+RDEPEND="
+	dev-python/aiohttp[${PYTHON_USEDEP}]
+	dev-python/aiocache[${PYTHON_USEDEP}]
+"
 BDEPEND="
 	test? (
 		dev-python/aiounittest[${PYTHON_USEDEP}]

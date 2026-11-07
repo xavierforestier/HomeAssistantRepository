@@ -18,6 +18,6 @@ RESTRICT="!test? ( test )"
 
 RDEPEND="
 	dev-python/bleak[${PYTHON_USEDEP}]
-	dev-python/bleak_retry_connector[${PYTHON_USEDEP}]
+	dev-python/bleak-retry-connector[${PYTHON_USEDEP}]
 "
 DOCS="README.md"

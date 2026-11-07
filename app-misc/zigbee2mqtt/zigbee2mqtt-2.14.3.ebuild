@@ -11,7 +11,6 @@ SRC_URI="
 	https://github.com/Koenkk/${PN}/archive/${PV}.tar.gz -> ${P}.tar.gz
 	https://github.com/xavierforestier/${PN}/releases/download/v${PV}/${P}-nodes_modules.tar.xz
 "
-
 LICENSE="0BSD Apache-2.0 BSD-2 CC-BY-4.0 GPL-3 ISC MIT PYTHON"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"

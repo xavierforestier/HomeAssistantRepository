@@ -18,7 +18,8 @@ RESTRICT="!test? ( test )"
 
 DOCS="README.md"
 
-RDEPEND=">=dev-python/bidict-0.21.0[${PYTHON_USEDEP}]
+RDEPEND="
+	>=dev-python/bidict-0.21.0[${PYTHON_USEDEP}]
 	>=dev-python/python-engineio-4.11.0[${PYTHON_USEDEP}]
 	client? (
 		>=dev-python/requests-2.21.0
@@ -26,7 +27,8 @@ RDEPEND=">=dev-python/bidict-0.21.0[${PYTHON_USEDEP}]
 	)
 	asyncio-client? (
 		>=dev-python/aiohttp-3.4
-	)"
+	)
+"
 BDEPEND="
 	test? (
 		dev-python/mock[${PYTHON_USEDEP}]

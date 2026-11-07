@@ -26,11 +26,15 @@ git_tag=""
 # <= $git_tag : Github tagname
 get_tagname() {  
   git_tag=""
+  rm /tmp/githubinfo 2>/dev/null
   git_repo="$( cat metadata.xml | grep "<remote-id type=\"github\">" | cut -d '>' -f2 | cut -d '<' -f1 )"
-  [ -n "$git_repo" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"v$1\").name" )
-  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"V$1\").name" )
-  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"$1\").name" )
-  [ -z "$git_tag" ] && git_tag=$( curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" | jq -r ".[] | select(.name == \"release/v$1\").name" )
+  if [ -n "$git_repo" ]; then
+    curl -s -L -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${git_repo}/tags" > /tmp/githubinfo
+    git_tag=$( cat /tmp/githubinfo | jq -r ".[] | select(.name == \"v$1\").name" )
+    [ -z "$git_tag" ] && git_tag=$( cat /tmp/githubinfo | jq -r ".[] | select(.name == \"V$1\").name" )
+    [ -z "$git_tag" ] && git_tag=$( cat /tmp/githubinfo | jq -r ".[] | select(.name == \"$1\").name" )
+    [ -z "$git_tag" ] && git_tag=$( cat /tmp/githubinfo | jq -r ".[] | select(.name == \"release/v$1\").name" )
+  fi
   [ -n "$git_repo" ] && [ -n "$git_tag" ] && return 0
   return 1
 }

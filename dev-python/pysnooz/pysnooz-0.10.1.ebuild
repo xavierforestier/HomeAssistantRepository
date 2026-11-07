@@ -23,7 +23,7 @@ RDEPEND="
 	>=dev-python/bluetooth-sensor-state-data-1.5.0[${PYTHON_USEDEP}]
 	>=dev-python/bleak-retry-connector-3.0.2[${PYTHON_USEDEP}]
 	>=dev-python/bleak-1.0.0[${PYTHON_USEDEP}]
-	~dev-python/events-0.4[${PYTHON_USEDEP}]
+	>=dev-python/events-0.4[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

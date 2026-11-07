@@ -21,7 +21,7 @@ DOCS="README.md"
 RDEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
-	>=dev-python/aiosqlite-0.20.0[${PYTHON_USEDEP}]
+	>=dev-python/aiosqlite-0.22.1[${PYTHON_USEDEP}]
 	dev-python/crccheck[${PYTHON_USEDEP}]
 	dev-python/cryptography[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]

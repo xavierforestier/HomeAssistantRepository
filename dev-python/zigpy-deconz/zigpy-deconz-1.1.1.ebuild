@@ -18,7 +18,7 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/zigpy-0.80.0[${PYTHON_USEDEP}]
+	>=dev-python/zigpy-2.4.0[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
 "
 BDEPEND="

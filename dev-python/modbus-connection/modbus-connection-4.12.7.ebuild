@@ -16,8 +16,12 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="pymodbus tmodbus"
 
 RDEPEND="
-	pymodbus? ( >=dev-python/pymodbus-3.11[${PYTHON_USEDEP},serial] )
-	tmodbus? ( >=dev-python/tmodbus-0.6.1[${PYTHON_USEDEP},async-serial] )
+	pymodbus? (
+		>=dev-python/pymodbus-3.11[${PYTHON_USEDEP},serial]
+	)
+	tmodbus? (
+		>=dev-python/tmodbus-1.1.0[${PYTHON_USEDEP},async-serial]
+	)
 "
 EPYTEST_PLUGINS=()
 distutils_enable_tests pytest

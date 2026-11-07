@@ -18,7 +18,8 @@ RDEPEND="
 	dev-python/click[${PYTHON_USEDEP}]
 	>=dev-python/click-log-0.2.1[${PYTHON_USEDEP}]
 	dev-python/voluptuous[${PYTHON_USEDEP}]
-	>=dev-python/zigpy-2.1.0[${PYTHON_USEDEP}]
+	>=dev-python/zigpy-2.4.0[${PYTHON_USEDEP}]
+	>=dev-python/serialx-1.13.0[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

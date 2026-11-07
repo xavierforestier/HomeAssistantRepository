@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	~dev-python/getmac-0.9.5[${PYTHON_USEDEP}]
+	>=dev-python/getmac-0.9.5[${PYTHON_USEDEP}]
 	>=dev-python/protobuf-4.25.0[${PYTHON_USEDEP}]
 "
 

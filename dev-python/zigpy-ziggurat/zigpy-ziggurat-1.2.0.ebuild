@@ -17,7 +17,6 @@ KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
 	>=dev-python/zigpy-2.4.0[${PYTHON_USEDEP}]
-	dev-python/zigpy[${PYTHON_USEDEP}]
 	dev-python/aiohttp[${PYTHON_USEDEP}]
 	dev-python/mashumaro[${PYTHON_USEDEP}]
 	>=dev-python/aiospinel-1.2.0[${PYTHON_USEDEP}]

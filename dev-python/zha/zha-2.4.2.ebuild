@@ -21,14 +21,14 @@ DOCS="README.md"
 RDEPEND="
 	dev-python/attrs[${PYTHON_USEDEP}]
 	dev-python/frozendict[${PYTHON_USEDEP}]
-	~dev-python/zigpy-2.3.0[${PYTHON_USEDEP}]
-	~dev-python/bellows-1.1.0[${PYTHON_USEDEP}]
+	~dev-python/zigpy-2.4.1[${PYTHON_USEDEP}]
+	~dev-python/bellows-1.2.1[${PYTHON_USEDEP}]
 	~dev-python/zigpy-znp-1.1.1[${PYTHON_USEDEP}]
-	~dev-python/zigpy-deconz-1.0.0[${PYTHON_USEDEP}]
+	~dev-python/zigpy-deconz-1.1.1[${PYTHON_USEDEP}]
 	~dev-python/zigpy-xbee-0.22.0[${PYTHON_USEDEP}]
 	~dev-python/zigpy-zigate-0.14.0[${PYTHON_USEDEP}]
-	~dev-python/zigpy-ziggurat-1.1.1[${PYTHON_USEDEP}]
-	dev-python/zha-quirks[${PYTHON_USEDEP}]
+	~dev-python/zigpy-ziggurat-1.2.0[${PYTHON_USEDEP}]
+	>=dev-python/zha-quirks-2.4.0[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

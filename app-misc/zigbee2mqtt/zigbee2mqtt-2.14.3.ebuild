@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	<net-libs/nodejs-26.5
+	|| ( net-libs/nodejs:0/22 net-libs/nodejs:0/24 <=net-libs/nodejs-26.2 )
 	acct-group/zigbee2mqtt
 	acct-user/zigbee2mqtt
 	app-misc/mosquitto

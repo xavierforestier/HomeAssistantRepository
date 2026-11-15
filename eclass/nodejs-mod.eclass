@@ -101,7 +101,7 @@ nodejs-mod_src_install() {
 
     nodejs_docs
 
-    enpm_clean
+#    enpm_clean
     enpm_install
 }
 

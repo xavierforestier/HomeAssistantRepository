@@ -2,7 +2,7 @@
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
-
+#NODEJS_MANAGER="pnpm"
 inherit nodejs-mod systemd tmpfiles
 
 DESCRIPTION="It bridges events and allows you to control your Zigbee devices via MQTT"
@@ -14,13 +14,13 @@ SRC_URI="
 LICENSE="0BSD Apache-2.0 BSD-2 CC-BY-4.0 GPL-3 ISC MIT PYTHON"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
-
 RDEPEND="
 	|| ( net-libs/nodejs:0/22 net-libs/nodejs:0/24 <=net-libs/nodejs-26.2 )
 	acct-group/zigbee2mqtt
 	acct-user/zigbee2mqtt
 	app-misc/mosquitto
 "
+
 pkg_pretend() {
 	if [[ -e "${EROOT}/etc/env.d/90${PN}" ]] && \
 	    ! grep -q "CONFIG_PROTECT=\"/var/lib/${PN}\"" "${EROOT}/etc/env.d/90${PN}" 2>/dev/null; then
@@ -33,8 +33,6 @@ pkg_pretend() {
 }
 
 src_install() {
-	echo "${COMMIT}" > dist/.hash
-
 	echo -e "\nadvanced:\n  network_key: GENERATE" >> "data/configuration.yaml"
 	echo -e "\n  pan_id: GENERATE\n  log_directory: /var/log/${PN}" >> "data/configuration.yaml"
 

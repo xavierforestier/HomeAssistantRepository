@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  15 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -airthings-ble-1.2.0.ebuild:
+  clean
+
 *airthings-ble-1.3.1 (17 Oct 2026)
 
   17 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

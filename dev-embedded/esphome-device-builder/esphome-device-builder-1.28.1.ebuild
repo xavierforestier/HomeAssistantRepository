@@ -20,7 +20,7 @@ BDEPEND="
 DEPEND="
 	acct-group/esphome
 	acct-user/esphome
-	~dev-python/esphome-device-builder-frontend-0.1.371[${PYTHON_USEDEP}]
+	~dev-python/esphome-device-builder-frontend-0.1.387[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-asyncmdnsresolver-0.1.1[${PYTHON_USEDEP}]
 	>=dev-python/colorlog-6.8.0[${PYTHON_USEDEP}]

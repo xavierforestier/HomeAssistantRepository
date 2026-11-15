@@ -19,8 +19,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	~dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
-	~dev-python/pycryptodome-3.19[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	>=dev-python/pycryptodome-3.19[${PYTHON_USEDEP}]
 	>=dev-python/pydantic-1.10[${PYTHON_USEDEP}]
 "
 

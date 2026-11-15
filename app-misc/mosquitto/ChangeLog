@@ -1,0 +1,19 @@
+# ChangeLog for app-misc/mosquitto
+# Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
+# (auto-generated from git log)
+
+  15 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  mosquitto-2.1.2.ebuild:
+  shellcheck
+
+  15 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/mosquitto, +files/mosquitto.notify.service:
+  app-misc/zigbee2mqtt-2.14.3
+
+*mosquitto-2.1.2 (08 Nov 2026)
+
+  08 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +files/mosquitto-2.1.2-pull_request_3525.patch, +metadata.xml,
+  +mosquitto-2.1.2.ebuild:
+  mmosquitto 2.1.2
+

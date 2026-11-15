@@ -8,16 +8,16 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async Python client for the UniFi Access local API with WebSocket event support"
-HOMEPAGE="https://github.com/imhotep/py-unifi-access https://pypi.org/project/py-unifi-access"
+DESCRIPTION="A python client library for Google Maps Routes API"
+HOMEPAGE="https://github.com/tronikos/python-google-maps-routing-api https://pypi.org/project/python-google-maps-routing-api"
 
-LICENSE="MIT"
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.9.0[${PYTHON_USEDEP}]
-	>=dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.8[${PYTHON_USEDEP}]
+	dev-python/mashumaro[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

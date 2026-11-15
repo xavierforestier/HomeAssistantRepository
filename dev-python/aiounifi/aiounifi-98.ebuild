@@ -6,8 +6,8 @@ EAPI=8
 PYTHON_COMPAT=( python3_{12..14} )
 DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="A python library for speaking to Arcam receivers"
-HOMEPAGE="https://github.com/elupus/arcam_fmj https://pypi.org/project/arcam-fmj/"
+DESCRIPTION="Python library for communicating with UniFi Network Controller API"
+HOMEPAGE="https://github.com/Kane610/aiounifi https://pypi.org/project/aiounifi/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -15,19 +15,19 @@ KEYWORDS="amd64 arm arm64 x86"
 IUSE="test"
 RESTRICT="!test? ( test )"
 
-DOCS="README.rst"
+DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.13.2[${PYTHON_USEDEP}]
-	>=dev-python/attrs-18.1[${PYTHON_USEDEP}]
-	>=dev-python/defusedxml-0.7.1[${PYTHON_USEDEP}]
-	>=dev-python/serialx-1.7.0[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
+	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]
+	>=dev-python/pyotp-2.9[${PYTHON_USEDEP}]
+	>=dev-python/segno-1.5.2[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (
-		dev-python/asynctest[${PYTHON_USEDEP}]
-		dev-python/coveralls[${PYTHON_USEDEP}]
+		dev-python/aioresponses[${PYTHON_USEDEP}]
 		dev-python/pytest-aiohttp[${PYTHON_USEDEP}]
+		dev-python/pytest-asyncio[${PYTHON_USEDEP}]
 		dev-python/pytest-cov[${PYTHON_USEDEP}]
 	)"
 

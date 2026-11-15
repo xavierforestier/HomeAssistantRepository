@@ -8,15 +8,15 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Async Python package for the Nanoleaf API that replaces aioNanoleaf"
-HOMEPAGE="https://github.com/loebi-ch/aionanoleaf2 https://pypi.org/project/aionanoleaf2/"
+DESCRIPTION="Python API for controlling Broadlink devices"
+HOMEPAGE="https://github.com/DAB-LABS/broadlink-async https://pypi.org/project/broadlink-async"
 
-LICENSE="LGPL-3+"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	dev-python/aiohttp[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-43[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

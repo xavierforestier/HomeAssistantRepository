@@ -16,7 +16,7 @@ SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.14.5[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

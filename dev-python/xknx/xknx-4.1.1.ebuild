@@ -4,10 +4,11 @@
 EAPI=8
 
 PYTHON_COMPAT=( python3_{12..14} )
-DISTUTILS_USE_PEP517=poetry
+DISTUTILS_USE_PEP517=setuptools
 inherit distutils-r1 pypi
-DESCRIPTION="Asynchronous Python client providing energy/gas prices from EnergyZero"
-HOMEPAGE="https://github.com/klaasnicolaas/python-energyzero https://pypi.org/project/energyzero/"
+
+DESCRIPTION="An Asynchronous Library for the KNX protocol. Documentation: https://xknx.io/"
+HOMEPAGE="https://github.com/XKNX/xknx/ https://xknx.io/ https://pypi.org/project/xknx/"
 
 LICENSE="MIT"
 SLOT="0"
@@ -18,8 +19,8 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.13.5[${PYTHON_USEDEP}]
-	>=dev-python/yarl-1.23.0[${PYTHON_USEDEP}]
+	>=dev-python/cryptography-35.0.0[${PYTHON_USEDEP}]
+	>=dev-python/ifaddr-0.1.7[${PYTHON_USEDEP}]
 "
 
 distutils_enable_tests pytest

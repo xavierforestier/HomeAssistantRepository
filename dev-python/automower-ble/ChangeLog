@@ -4,6 +4,10 @@
 
   07 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   automower-ble-0.2.9.ebuild:
+  automover
+
+  07 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  automower-ble-0.2.9.ebuild:
   cleanup
 
   14 Jul 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

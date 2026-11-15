@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*awscrt-0.38.1 (15 Nov 2026)
+
+  15 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +awscrt-0.38.1.ebuild:
+  app-misc/zigbee2mqtt-2.14.3
+
   13 Jan 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   awscrt-0.24.1.ebuild:
   Happy new year

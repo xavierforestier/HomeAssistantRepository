@@ -1,0 +1,2477 @@
+From f4b561daf6fea5704a3511a549e308655b6cfe16 Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Wed, 25 Feb 2026 08:13:36 -0500
+Subject: [PATCH 1/8] config.mk: Disable `WITH_TLS_PSK` when `WITH_TLS` is off
+
+This automatically disables TLS-PSK when TLS is disabled.
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ config.mk | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/config.mk b/config.mk
+index 5c46f0b1bf..1017688f22 100644
+--- a/config.mk
++++ b/config.mk
+@@ -27,6 +27,9 @@ WITH_TLS:=yes
+ # WITH_TLS=yes.
+ # This must be disabled if using openssl < 1.0.
+ WITH_TLS_PSK:=yes
++ifneq ($(WITH_TLS),yes)
++	override WITH_TLS_PSK:=no
++endif
+ 
+ # Comment out to disable client threading support.
+ WITH_THREADING:=yes
+
+From 7e91c7a34a35bc10c7347d384a3a20953492652c Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Wed, 25 Feb 2026 08:14:09 -0500
+Subject: [PATCH 2/8] config.mk: Disable `WITH_WEBSOCKETS` when `WITH_TLS` is
+ off
+
+This automatically disables WebSockets when TLS is disabled.
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ config.mk | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/config.mk b/config.mk
+index 1017688f22..f010072b72 100644
+--- a/config.mk
++++ b/config.mk
+@@ -85,6 +85,9 @@ WITH_SRV:=no
+ # Set to lws to build with old libwebsockets code
+ # Set to no to disable
+ WITH_WEBSOCKETS:=yes
++ifneq ($(WITH_TLS),yes)
++	override WITH_WEBSOCKETS:=no
++endif
+ 
+ # Build man page documentation by default.
+ WITH_DOCS:=yes
+
+From d14e8a6c3c0ceb299a109a0a5a94a484aba09ae0 Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Tue, 24 Feb 2026 21:24:33 -0500
+Subject: [PATCH 3/8] Run test-ws.sh only under WITH_WEBSOCKETS=yes
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ test/client/Makefile | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/test/client/Makefile b/test/client/Makefile
+index c476107777..629256860c 100644
+--- a/test/client/Makefile
++++ b/test/client/Makefile
+@@ -9,7 +9,9 @@ all :
+ check : test
+ test : 02 03 04
+ 	./test.sh
++ifeq ($(WITH_WEBSOCKETS),yes)
+ 	./test-ws.sh
++endif
+ 
+ test-compile:
+ 
+@@ -82,7 +84,9 @@ endif
+ 
+ ptest :
+ 	./test.sh
++ifeq ($(WITH_WEBSOCKETS),yes)
+ 	./test-ws.sh
++endif
+ 	./test.py
+ 
+ clean:
+
+From 86ae64544886d8ef817e966dc797690baf598604 Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Wed, 25 Feb 2026 06:40:50 -0500
+Subject: [PATCH 4/8] test: Disable tests when functionality is not present
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ test/apps/Makefile      |  4 ++++
+ test/apps/ctrl/Makefile |  2 ++
+ test/broker/Makefile    | 12 ++++++++++++
+ 3 files changed, 18 insertions(+)
+
+diff --git a/test/apps/Makefile b/test/apps/Makefile
+index b424c422c6..48acee0c35 100644
+--- a/test/apps/Makefile
++++ b/test/apps/Makefile
+@@ -12,13 +12,17 @@ test-compile:
+ 	$(MAKE) -C ctrl test-compile
+ 
+ test :
++ifeq ($(WITH_PERSISTENCE),yes)
+ 	$(MAKE) -C db_dump test
++endif
+ 	$(MAKE) -C ctrl test
+ 	$(MAKE) -C passwd test
+ 	$(MAKE) -C signal test
+ 
+ ptest :
++ifeq ($(WITH_PERSISTENCE),yes)
+ 	$(MAKE) -C db_dump ptest
++endif
+ 	$(MAKE) -C ctrl ptest
+ 	$(MAKE) -C passwd ptest
+ 	$(MAKE) -C signal ptest
+diff --git a/test/apps/ctrl/Makefile b/test/apps/ctrl/Makefile
+index 54b7e254ad..3cdfa9559e 100644
+--- a/test/apps/ctrl/Makefile
++++ b/test/apps/ctrl/Makefile
+@@ -150,7 +150,9 @@ endif
+ endif
+ 
+ test : test-mock
++ifeq ($(WITH_TLS_PSK),yes)
+ 	./ctrl-args.py
++endif
+ 	./ctrl-broker.py
+ 	./ctrl-dynsec.py
+ 
+diff --git a/test/broker/Makefile b/test/broker/Makefile
+index 7f884ad78b..b6a2d0bf53 100644
+--- a/test/broker/Makefile
++++ b/test/broker/Makefile
+@@ -102,8 +102,10 @@ msg_sequence_test:
+ 	./03-publish-qos2.py
+ 
+ 04 :
++ifeq ($(WITH_PERSISTENCE),yes)
+ 	./04-retain-check-source-persist-diff-port.py
+ 	./04-retain-check-source-persist.py
++endif
+ 	./04-retain-check-source.py
+ 	./04-retain-clear-multiple.py
+ 	./04-retain-qos0-clear.py
+@@ -121,7 +123,9 @@ msg_sequence_test:
+ 06 :
+ 	./06-bridge-b2br-disconnect-qos1.py
+ 	./06-bridge-b2br-disconnect-qos2.py
++ifeq ($(WITH_PERSISTENCE),yes)
+ 	./06-bridge-b2br-late-connection-retain.py
++endif
+ 	./06-bridge-b2br-late-connection.py
+ 	./06-bridge-b2br-remapping.py
+ 	./06-bridge-br2b-disconnect-qos1.py
+@@ -217,11 +221,15 @@ endif
+ 	./09-plugin-auth-v5-unpwd-success.py
+ 	./09-plugin-bad.py
+ 	./09-plugin-change-id.py
++ifneq ($(WITH_WEBSOCKETS),no)
+ 	./09-plugin-delayed-auth.py
++endif
+ 	./09-plugin-evt-client-offline.py
+ 	./09-plugin-evt-message-in.py
+ 	./09-plugin-evt-message-out.py
++ifeq ($(WITH_TLS_PSK),yes)
+ 	./09-plugin-evt-psk-key.py
++endif
+ 	./09-plugin-evt-reload.py
+ 	./09-plugin-evt-subscribe.py
+ 	./09-plugin-evt-tick.py
+@@ -237,12 +245,14 @@ endif
+ 	./10-listener-mount-point.py
+ 
+ 11 :
++ifeq ($(WITH_PERSISTENCE),yes)
+ 	./11-message-expiry.py
+ 	./11-persistence-autosave-changes.py
+ 	./11-persistent-subscription-no-local.py
+ 	./11-persistent-subscription.py
+ 	./11-pub-props.py
+ 	./11-subscription-id.py
++endif
+ 
+ 12 :
+ 	./12-prop-assigned-client-identifier.py
+@@ -367,7 +377,9 @@ endif
+ 22:
+ ifeq ($(WITH_HTTP_API),yes)
+ 	./22-http-api-acl.py
++ifeq ($(WITH_WEBSOCKETS),yes)
+ 	./22-http-api-api.py
++endif
+ 	./22-http-api-auth.py
+ 	./22-http-api-file.py
+ 	./22-http-api-tls.py
+
+From b8978f7827969b0f6bac7469dd15f859a97276bc Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Tue, 24 Feb 2026 23:09:59 -0500
+Subject: [PATCH 5/8] test: Add support for skipping tests at runtime
+
+Recognize an exit code of 77 as "test skipped". This is the exit code
+traditionally used by autotools and meson. The next commit enables this
+same support in CMake.
+
+Unfortunately, for plain `make` we still have to exclude the tests (as
+was done in the previous commit).
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ test/ptest.py | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+diff --git a/test/ptest.py b/test/ptest.py
+index c40615700a..de0fdcd76a 100755
+--- a/test/ptest.py
++++ b/test/ptest.py
+@@ -8,6 +8,7 @@
+ import sys
+ 
+ COLOUR_PASS = 34
++COLOUR_SKIP = 242
+ COLOUR_FAIL = 124
+ 
+ class PTestCase():
+@@ -37,6 +38,8 @@ def print_result(self, attempt, col):
+         cmd = " ".join(self.run_args)
+         if col == COLOUR_PASS:
+             stat = "✓"
++        elif col == COLOUR_SKIP:
++            stat = "skip"
+         elif col == COLOUR_FAIL:
+             stat = "✗"
+         else:
+@@ -120,6 +123,7 @@ def run(self):
+         passed = 0
+         retried = 0
+         failed = 0
++        skipped = 0
+ 
+         failed_tests = []
+         failed_tests_output = []
+@@ -149,6 +153,11 @@ def run(self):
+                     t.proc.terminate()
+                     t.proc.wait()
+ 
++                    if t.proc.returncode == 77:
++                        skipped += 1
++                        t.print_result(0, COLOUR_SKIP)
++                        continue
++
+                     if t.proc.returncode != 0 and t.attempts < 5:
+                         t.print_result(t.attempts+1, 226-6*t.attempts)
+                         retried += 1
+@@ -174,7 +183,7 @@ def run(self):
+                     t.proc.wait()
+                     t.print_log()
+ 
+-        print("Passed: %d\nRetried: %d\nFailed: %d\nTotal: %d\nTotal time: %0.2f" % (passed, retried, failed, passed+failed, time.time()-start_time))
++        print("Passed: %d\nRetried: %d\nFailed: %d\nSkipped: %d\nTotal: %d\nTotal time: %0.2f" % (passed, retried, failed, skipped, passed+failed+skipped, time.time()-start_time))
+         if failed > 0:
+             print("Failing tests:")
+             failed_tests.sort()
+
+From d83f4d63e995b00ed79e93df694480db9b48e0a8 Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Wed, 25 Feb 2026 09:46:05 -0500
+Subject: [PATCH 6/8] test: Add support for skipping tests in CMake
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ test/CMakeLists.txt                | 19 +++++++++++++++++++
+ test/apps/ctrl/CMakeLists.txt      |  3 ++-
+ test/apps/db_dump/CMakeLists.txt   |  3 ++-
+ test/apps/passwd/CMakeLists.txt    |  3 ++-
+ test/apps/signal/CMakeLists.txt    |  3 ++-
+ test/broker/CMakeLists.txt         |  6 ++++--
+ test/client/CMakeLists.txt         |  3 ++-
+ test/lib/CMakeLists.txt            |  3 ++-
+ test/unit/broker/CMakeLists.txt    |  5 +++++
+ test/unit/lib/CMakeLists.txt       |  4 ++++
+ test/unit/libcommon/CMakeLists.txt |  4 ++++
+ 11 files changed, 48 insertions(+), 8 deletions(-)
+
+diff --git a/test/CMakeLists.txt b/test/CMakeLists.txt
+index 445b011819..3682b578df 100644
+--- a/test/CMakeLists.txt
++++ b/test/CMakeLists.txt
+@@ -1,3 +1,22 @@
++# Convert CMake ON/OFF options to yes/no for test scripts
++foreach(_var WITH_HTTP_API WITH_PERSISTENCE WITH_SOCKS WITH_TLS WITH_TLS_PSK WITH_WEBSOCKETS)
++    if(${_var})
++        set(${_var}_YESNO "yes")
++    else()
++        set(${_var}_YESNO "no")
++    endif()
++endforeach()
++
++set(TEST_ENVIRONMENT
++    "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++    "WITH_HTTP_API=${WITH_HTTP_API_YESNO}"
++    "WITH_PERSISTENCE=${WITH_PERSISTENCE_YESNO}"
++    "WITH_SOCKS=${WITH_SOCKS_YESNO}"
++    "WITH_TLS=${WITH_TLS_YESNO}"
++    "WITH_TLS_PSK=${WITH_TLS_PSK_YESNO}"
++    "WITH_WEBSOCKETS=${WITH_WEBSOCKETS_YESNO}"
++)
++
+ add_subdirectory(mock)
+ 
+ add_subdirectory(apps)
+diff --git a/test/apps/ctrl/CMakeLists.txt b/test/apps/ctrl/CMakeLists.txt
+index 45c4c6367e..7d450a2092 100644
+--- a/test/apps/ctrl/CMakeLists.txt
++++ b/test/apps/ctrl/CMakeLists.txt
+@@ -14,7 +14,8 @@ foreach(PY_TEST_FILE ${PY_TEST_FILES})
+     )
+     set_tests_properties(apps-${PY_TEST_NAME}
+         PROPERTIES
+-            ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++            ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+     )
+ endforeach()
+ 
+diff --git a/test/apps/db_dump/CMakeLists.txt b/test/apps/db_dump/CMakeLists.txt
+index 2c899b0df7..5b52dd0332 100644
+--- a/test/apps/db_dump/CMakeLists.txt
++++ b/test/apps/db_dump/CMakeLists.txt
+@@ -14,6 +14,7 @@ foreach(PY_TEST_FILE ${PY_TEST_FILES})
+     )
+     set_tests_properties(apps-${PY_TEST_NAME}
+         PROPERTIES
+-            ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++            ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+     )
+ endforeach()
+diff --git a/test/apps/passwd/CMakeLists.txt b/test/apps/passwd/CMakeLists.txt
+index 59a8b274ae..606bcb9634 100644
+--- a/test/apps/passwd/CMakeLists.txt
++++ b/test/apps/passwd/CMakeLists.txt
+@@ -14,6 +14,7 @@ foreach(PY_TEST_FILE ${PY_TEST_FILES})
+     )
+     set_tests_properties(apps-${PY_TEST_NAME}
+         PROPERTIES
+-            ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++            ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+     )
+ endforeach()
+diff --git a/test/apps/signal/CMakeLists.txt b/test/apps/signal/CMakeLists.txt
+index 1e1bff8ee8..ae47fe85b2 100644
+--- a/test/apps/signal/CMakeLists.txt
++++ b/test/apps/signal/CMakeLists.txt
+@@ -14,6 +14,7 @@ foreach(PY_TEST_FILE ${PY_TEST_FILES})
+     )
+     set_tests_properties(apps-${PY_TEST_NAME}
+         PROPERTIES
+-            ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++            ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+     )
+ endforeach()
+diff --git a/test/broker/CMakeLists.txt b/test/broker/CMakeLists.txt
+index 062a5649da..7f820191e7 100644
+--- a/test/broker/CMakeLists.txt
++++ b/test/broker/CMakeLists.txt
+@@ -41,7 +41,8 @@ foreach(PY_TEST_FILE ${PY_TEST_FILES})
+     )
+     set_tests_properties(broker-${PY_TEST_NAME}
+         PROPERTIES
+-            ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++            ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+     )
+ endforeach()
+ 
+@@ -53,7 +54,8 @@ foreach(PERSIST_TYPE ${PERSIST_LIST})
+         )
+         set_tests_properties(broker-${PY_TEST_NAME}-${PERSIST_TYPE}
+             PROPERTIES
+-                ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++                ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+         )
+     endforeach()
+ endforeach()
+diff --git a/test/client/CMakeLists.txt b/test/client/CMakeLists.txt
+index 0fd8f45590..1742528797 100644
+--- a/test/client/CMakeLists.txt
++++ b/test/client/CMakeLists.txt
+@@ -14,6 +14,7 @@ foreach(PY_TEST_FILE ${PY_TEST_FILES})
+     )
+     set_tests_properties(client-${PY_TEST_NAME}
+         PROPERTIES
+-            ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++            ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+     )
+ endforeach()
+diff --git a/test/lib/CMakeLists.txt b/test/lib/CMakeLists.txt
+index 2e63347a75..68ae9b02cc 100644
+--- a/test/lib/CMakeLists.txt
++++ b/test/lib/CMakeLists.txt
+@@ -20,6 +20,7 @@ foreach(PY_TEST_FILE ${PY_TEST_FILES})
+     )
+     set_tests_properties(lib-${PY_TEST_NAME}
+         PROPERTIES
+-            ENVIRONMENT "BUILD_ROOT=${CMAKE_BINARY_DIR}"
++            ENVIRONMENT "${TEST_ENVIRONMENT}"
++            SKIP_RETURN_CODE 77
+     )
+ endforeach()
+diff --git a/test/unit/broker/CMakeLists.txt b/test/unit/broker/CMakeLists.txt
+index 6d8bc80412..3f987eac44 100644
+--- a/test/unit/broker/CMakeLists.txt
++++ b/test/unit/broker/CMakeLists.txt
+@@ -14,6 +14,7 @@ add_executable(bridge-topic-test
+ target_compile_definitions(bridge-topic-test PRIVATE WITH_BRIDGE WITH_BROKER)
+ target_link_libraries(bridge-topic-test PRIVATE bridge-topic-obj common-unit-test-header libmosquitto_common OpenSSL::SSL)
+ add_test(NAME unit-bridge-topic-test COMMAND bridge-topic-test)
++set_tests_properties(unit-bridge-topic-test PROPERTIES SKIP_RETURN_CODE 77)
+ 
+ # keepalive-test
+ add_executable(keepalive-test
+@@ -23,6 +24,7 @@ add_executable(keepalive-test
+ target_compile_definitions(keepalive-test PRIVATE WITH_BROKER)
+ target_link_libraries(keepalive-test PRIVATE common-unit-test-header libmosquitto_common OpenSSL::SSL)
+ add_test(NAME unit-keepalive-test COMMAND keepalive-test)
++set_tests_properties(unit-keepalive-test PROPERTIES SKIP_RETURN_CODE 77)
+ 
+ # persist-read-test
+ add_library(persistence-read-obj
+@@ -48,6 +50,7 @@ target_compile_definitions(persist-read-test PRIVATE TEST_SOURCE_DIR="${CMAKE_CU
+ target_include_directories(persist-read-test PRIVATE ${mosquitto_SOURCE_DIR}/libcommon)
+ target_link_libraries(persist-read-test PRIVATE persistence-read-obj libmosquitto_common)
+ add_test(NAME unit-persist-read-test COMMAND persist-read-test)
++set_tests_properties(unit-persist-read-test PROPERTIES SKIP_RETURN_CODE 77)
+ 
+ # persist-write-test
+ add_library(persistence-write-obj
+@@ -78,6 +81,7 @@ target_compile_definitions(persist-write-test PRIVATE TEST_SOURCE_DIR="${CMAKE_C
+ target_include_directories(persist-write-test PRIVATE ${mosquitto_SOURCE_DIR}/libcommon)
+ target_link_libraries(persist-write-test PRIVATE persistence-write-obj OpenSSL::SSL libmosquitto_common)
+ add_test(NAME unit-persist-write-test COMMAND persist-write-test)
++set_tests_properties(unit-persist-write-test PROPERTIES SKIP_RETURN_CODE 77)
+ 
+ # subs-test
+ add_library(subs-obj
+@@ -100,3 +104,4 @@ add_executable(subs-test
+ target_compile_definitions(subs-test PRIVATE WITH_PERSISTENCE WITH_BROKER WITH_SYS_TREE)
+ target_link_libraries(subs-test PRIVATE common-unit-test-header subs-obj libmosquitto_common OpenSSL::SSL)
+ add_test(NAME unit-subs-test COMMAND subs-test)
++set_tests_properties(unit-subs-test PROPERTIES SKIP_RETURN_CODE 77)
+diff --git a/test/unit/lib/CMakeLists.txt b/test/unit/lib/CMakeLists.txt
+index 9098fb3f41..d65392f785 100644
+--- a/test/unit/lib/CMakeLists.txt
++++ b/test/unit/lib/CMakeLists.txt
+@@ -16,3 +16,7 @@ add_executable(lib-test
+ target_include_directories(lib-test PRIVATE ${mosquitto_SOURCE_DIR}/libcommon)
+ target_link_libraries(lib-test PRIVATE common-unit-test-header OpenSSL::SSL libmosquitto_common)
+ add_test(NAME unit-lib-test COMMAND lib-test)
++set_tests_properties(unit-lib-test
++    PROPERTIES
++        SKIP_RETURN_CODE 77
++)
+diff --git a/test/unit/libcommon/CMakeLists.txt b/test/unit/libcommon/CMakeLists.txt
+index c150e3d807..ff393dfd39 100644
+--- a/test/unit/libcommon/CMakeLists.txt
++++ b/test/unit/libcommon/CMakeLists.txt
+@@ -21,3 +21,7 @@ target_link_libraries(libcommon-test
+ 		libmosquitto_common
+ )
+ add_test(NAME unit-libcommon-test COMMAND libcommon-test)
++set_tests_properties(unit-libcommon-test
++    PROPERTIES
++        SKIP_RETURN_CODE 77
++)
+
+From 4ca4f25e97e34b1b5592530feac6f572b16416e7 Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Wed, 25 Feb 2026 06:41:26 -0500
+Subject: [PATCH 7/8] test: Skip tests if they rely on functionality not
+ present
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ config.mk                                     |  8 ++
+ test/apps/Makefile                            |  4 +
+ test/apps/ctrl/Makefile                       |  6 +-
+ test/apps/ctrl/ctrl-args.py                   | 97 ++++++++++---------
+ test/apps/ctrl/ctrl-broker.py                 |  4 +
+ test/apps/ctrl/ctrl-dynsec.py                 |  3 +
+ test/apps/ctrl/ctrl_shell_options_test.cpp    | 12 +++
+ .../db_dump/db-dump-json-v6-mqtt-v5-props.py  |  4 +
+ .../01-connect-uname-no-password-denied.py    |  4 +
+ test/broker/01-connect-uname-or-anon.py       |  4 +
+ ...1-connect-uname-password-denied-no-will.py |  4 +
+ .../01-connect-uname-password-denied.py       |  4 +
+ ...01-plugin-connect-uname-password-denied.py |  4 +
+ ...4-retain-check-source-persist-diff-port.py |  5 +-
+ test/broker/04-retain-check-source-persist.py |  4 +
+ test/broker/04-retain-check-source.py         |  4 +
+ .../06-bridge-b2br-late-connection-retain.py  |  4 +
+ test/broker/08-ssl-bridge.py                  |  4 +
+ test/broker/08-ssl-connect-cert-auth-crl.py   |  4 +
+ ...8-ssl-connect-cert-auth-expired-allowed.py |  4 +
+ .../08-ssl-connect-cert-auth-expired.py       |  4 +
+ test/broker/08-ssl-connect-cert-auth.py       |  4 +
+ test/broker/08-ssl-connect-dhparam.py         |  4 +
+ test/broker/08-ssl-connect-identity.py        |  4 +
+ .../broker/08-ssl-connect-no-auth-wrong-ca.py |  4 +
+ test/broker/08-ssl-connect-no-auth.py         |  4 +
+ test/broker/08-ssl-connect-no-identity.py     |  4 +
+ test/broker/08-ssl-hup-disconnect.py          |  4 +
+ test/broker/08-tls-psk-bridge.py              |  4 +
+ test/broker/08-tls-psk-pub.py                 |  4 +
+ test/broker/09-plugin-delayed-auth.py         |  4 +
+ test/broker/09-plugin-evt-psk-key.py          |  3 +
+ test/broker/09-pwfile-parse-invalid.py        |  4 +
+ test/broker/11-message-expiry.py              |  4 +
+ .../broker/11-persistence-autosave-changes.py |  4 +
+ .../11-persistent-subscription-no-local.py    |  4 +
+ test/broker/11-persistent-subscription.py     |  4 +
+ test/broker/11-pub-props.py                   |  4 +
+ test/broker/11-subscription-id.py             |  4 +
+ test/broker/13-websocket-bad-origin.py        |  4 +
+ test/broker/14-dynsec-acl.py                  |  4 +
+ test/broker/14-dynsec-allow-wildcard.py       |  4 +
+ test/broker/14-dynsec-anon-group.py           |  4 +
+ test/broker/14-dynsec-auth.py                 |  4 +
+ test/broker/14-dynsec-client-invalid.py       |  4 +
+ test/broker/14-dynsec-client.py               |  4 +
+ test/broker/14-dynsec-config-init-env.py      |  4 +
+ test/broker/14-dynsec-config-init-file.py     |  4 +
+ test/broker/14-dynsec-config-init-random.py   |  4 +
+ test/broker/14-dynsec-default-access.py       |  4 +
+ test/broker/14-dynsec-disable-client.py       |  4 +
+ test/broker/14-dynsec-group-invalid.py        |  4 +
+ test/broker/14-dynsec-group.py                |  4 +
+ test/broker/14-dynsec-modify-client.py        |  4 +
+ test/broker/14-dynsec-modify-group.py         |  4 +
+ test/broker/14-dynsec-modify-role.py          |  4 +
+ test/broker/14-dynsec-plugin-invalid.py       |  4 +
+ test/broker/14-dynsec-role-invalid.py         |  4 +
+ test/broker/14-dynsec-role.py                 |  4 +
+ test/broker/16-cmd-args.py                    |  4 +-
+ test/broker/16-config-parse-errors-tls-psk.py |  5 +
+ test/broker/16-config-parse-errors-tls.py     |  4 +
+ .../16-config-parse-errors-without-tls.py     |  6 +-
+ test/broker/17-control-list-listeners.py      |  4 +
+ test/broker/21-proxy-v2-bad-config.py         |  4 +
+ test/broker/21-proxy-v2-ssl-cipher.py         |  4 +
+ .../21-proxy-v2-ssl-common-name-failure.py    |  4 +
+ .../21-proxy-v2-ssl-common-name-success.py    |  4 +
+ .../21-proxy-v2-ssl-require-cert-failure.py   |  4 +
+ .../21-proxy-v2-ssl-require-cert-success.py   |  4 +
+ .../21-proxy-v2-ssl-require-tls-success.py    |  4 +
+ test/broker/21-proxy-v2-websockets.py         |  4 +
+ test/broker/22-http-api-acl.py                |  4 +
+ test/broker/22-http-api-api.py                |  4 +
+ test/broker/22-http-api-auth.py               |  4 +
+ test/broker/22-http-api-file.py               |  4 +
+ test/broker/22-http-api-tls.py                |  4 +
+ .../02-subscribe-argv-errors-tls-psk.py       |  4 +
+ test/client/02-subscribe-argv-errors-tls.py   |  4 +
+ .../02-subscribe-argv-errors-without-tls.py   |  7 +-
+ test/client/02-subscribe-qos1-ws.py           |  4 +
+ test/client/03-publish-argv-errors-tls-psk.py |  5 +-
+ test/client/03-publish-argv-errors-tls.py     |  4 +
+ .../03-publish-argv-errors-without-tls.py     |  4 +-
+ test/client/03-publish-qos1-ws-large.py       |  4 +
+ test/client/03-publish-qos1-ws.py             |  4 +
+ test/client/03-publish-tls.py                 |  4 +
+ test/client/04-rr-argv-errors-tls-psk.py      |  4 +
+ test/client/04-rr-argv-errors-tls.py          |  4 +
+ test/client/04-rr-argv-errors-without-tls.py  |  4 +-
+ test/client/04-rr-qos1-ws.py                  |  4 +
+ test/client/Makefile                          |  4 +
+ test/lib/08-ssl-bad-cacert.py                 |  4 +
+ test/lib/08-ssl-connect-cert-auth-enc.py      |  4 +
+ test/lib/08-ssl-connect-cert-auth.py          |  4 +
+ test/lib/08-ssl-connect-no-auth.py            |  4 +
+ test/lib/08-ssl-connect-san.py                |  4 +
+ 97 files changed, 447 insertions(+), 54 deletions(-)
+
+diff --git a/config.mk b/config.mk
+index f010072b72..93dcc66fbd 100644
+--- a/config.mk
++++ b/config.mk
+@@ -165,6 +165,14 @@ WITH_HTTP_API=yes
+ # End of user configuration
+ # =============================================================================
+ 
++# Export WITH_* variables so test scripts can check them via the environment.
++export WITH_HTTP_API
++export WITH_PERSISTENCE
++export WITH_SOCKS
++export WITH_TLS
++export WITH_TLS_PSK
++export WITH_WEBSOCKETS
++
+ 
+ # Also bump lib/mosquitto.h, CMakeLists.txt,
+ # installer/mosquitto.nsi, installer/mosquitto64.nsi
+diff --git a/test/apps/Makefile b/test/apps/Makefile
+index 48acee0c35..b69dc0fb52 100644
+--- a/test/apps/Makefile
++++ b/test/apps/Makefile
+@@ -16,7 +16,9 @@ ifeq ($(WITH_PERSISTENCE),yes)
+ 	$(MAKE) -C db_dump test
+ endif
+ 	$(MAKE) -C ctrl test
++ifeq ($(WITH_TLS),yes)
+ 	$(MAKE) -C passwd test
++endif
+ 	$(MAKE) -C signal test
+ 
+ ptest :
+@@ -24,7 +26,9 @@ ifeq ($(WITH_PERSISTENCE),yes)
+ 	$(MAKE) -C db_dump ptest
+ endif
+ 	$(MAKE) -C ctrl ptest
++ifeq ($(WITH_TLS),yes)
+ 	$(MAKE) -C passwd ptest
++endif
+ 	$(MAKE) -C signal ptest
+ 
+ reallyclean : clean
+diff --git a/test/apps/ctrl/Makefile b/test/apps/ctrl/Makefile
+index 3cdfa9559e..0f31a8f03d 100644
+--- a/test/apps/ctrl/Makefile
++++ b/test/apps/ctrl/Makefile
+@@ -5,7 +5,6 @@ include ${R}/config.mk
+ 
+ LOCAL_CPPFLAGS+= \
+ 	-DWITH_THREADING \
+-	-DWITH_TLS \
+ 	-I../ \
+ 	-I${R}/include \
+ 	-I${R} \
+@@ -15,6 +14,11 @@ LOCAL_CPPFLAGS+= \
+ 	-I${R}/test/mock/apps/mosquitto_ctrl \
+ 	-I${R}/test/mock/lib
+ 
++ifeq ($(WITH_TLS),yes)
++LOCAL_CPPFLAGS+= \
++	-DWITH_TLS
++endif
++
+ LOCAL_CXXFLAGS+=-std=c++20 -Wall -ggdb -D TEST_SOURCE_DIR='"$(realpath .)"'
+ LOCAL_LDFLAGS+=
+ LOCAL_LIBADD+=-lcjson -lgmock -lgtest_main -lgtest ${R}/libcommon/libmosquitto_common.a
+diff --git a/test/apps/ctrl/ctrl-args.py b/test/apps/ctrl/ctrl-args.py
+index d65d3bffb2..08ad3a09b6 100755
+--- a/test/apps/ctrl/ctrl-args.py
++++ b/test/apps/ctrl/ctrl-args.py
+@@ -3,6 +3,7 @@
+ # Test parsing of command line args and errors. Does not test arg functionality.
+ 
+ from mosq_test_helper import *
++import os
+ 
+ def do_test(args, rc_expected, response=None):
+     proc = subprocess.run([mosq_test.get_build_root()+"/apps/mosquitto_ctrl/mosquitto_ctrl"]
+@@ -21,22 +22,24 @@ def do_test(args, rc_expected, response=None):
+ env = mosq_test.env_add_ld_library_path()
+ 
+ do_test(["-A"], 1, response="Error: -A argument given but no address specified.\n\n")
+-do_test(["--cafile"], 1, response="Error: --cafile argument given but no file specified.\n\n")
+-do_test(["--cafile", "missing", "broker", "listListeners"], 1, "Error: Problem setting TLS options: File not found.\n")
+-do_test(["--capath"], 1, response="Error: --capath argument given but no directory specified.\n\n")
+-do_test(["--cert"], 1, response="Error: --cert argument given but no file specified.\n\n")
+-do_test(["--cert", ssl_dir / "client.crt"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
+-do_test(["--help"], 1) # Gives generic help
+-do_test(["--key"], 1, response="Error: --key argument given but no file specified.\n\n")
+-do_test(["--key", ssl_dir / "client.key"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
+-do_test(["--ciphers"], 1, response="Error: --ciphers argument given but no ciphers specified.\n\n")
++if os.environ.get('WITH_TLS') != 'no':
++    do_test(["--cafile"], 1, response="Error: --cafile argument given but no file specified.\n\n")
++    do_test(["--cafile", "missing", "broker", "listListeners"], 1, "Error: Problem setting TLS options: File not found.\n")
++    do_test(["--capath"], 1, response="Error: --capath argument given but no directory specified.\n\n")
++    do_test(["--cert"], 1, response="Error: --cert argument given but no file specified.\n\n")
++    do_test(["--cert", ssl_dir / "client.crt"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
++    do_test(["--key"], 1, response="Error: --key argument given but no file specified.\n\n")
++    do_test(["--key", ssl_dir / "client.key"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
++    do_test(["--ciphers"], 1, response="Error: --ciphers argument given but no ciphers specified.\n\n")
+ do_test(["-f"], 1, response="Error: -f argument given but no data file specified.\n\n")
++do_test(["--help"], 1) # Gives generic help
+ do_test(["--host"], 1, response="Error: -h argument given but no host specified.\n\n")
+ do_test(["-i"], 1, response="Error: -i argument given but no id specified.\n\n")
+-do_test(["--keyform"], 1, response="Error: --keyform argument given but no keyform specified.\n\n")
+-do_test(["--keyform", "key"], 1, response="Error: If keyform is set, keyfile must be also specified.\n")
+-do_test(["--keyform", "key", "--cafile", "file", "--cert", "file", "--key", "file", "broker", "listListeners"], 1,
+-        response="Error: Problem setting key form, it must be one of 'pem' or 'engine'.\n")
++if os.environ.get('WITH_TLS') != 'no':
++    do_test(["--keyform"], 1, response="Error: --keyform argument given but no keyform specified.\n\n")
++    do_test(["--keyform", "key"], 1, response="Error: If keyform is set, keyfile must be also specified.\n")
++    do_test(["--keyform", "key", "--cafile", "file", "--cert", "file", "--key", "file", "broker", "listListeners"], 1,
++            response="Error: Problem setting key form, it must be one of 'pem' or 'engine'.\n")
+ do_test(['-L'], 1, response="Error: -L argument given but no URL specified.\n\n")
+ do_test(['-L', 'invalid://'], 1, response="Error: Unsupported URL scheme.\n\n")
+ do_test(['-L', 'mqtt://localhost'], 1, response="Error: Invalid URL for -L argument specified - topic missing.\n")
+@@ -48,26 +51,29 @@ def do_test(args, rc_expected, response=None):
+ do_test(["-p", "-1"], 1, response="Error: Invalid port given: -1\n")
+ do_test(["-p", "65536"], 1, response="Error: Invalid port given: 65536\n")
+ do_test(["-P"], 1, response="Error: -P argument given but no password specified.\n\n")
+-do_test(["--proxy"], 1, response="Error: --proxy argument given but no proxy url specified.\n\n")
+-do_test(["--proxy", "mqtt://localhost"], 1, response="Error: Unsupported proxy protocol: mqtt://localhost\n")
+-do_test(["--proxy", "socks5h://"], 1, response="Error: Invalid proxy.\n")
+-do_test(["--proxy", "socks5h://localhost:0"], 1, response="Error: Invalid proxy port 0\n")
+-do_test(["--proxy", "socks5h://localhost:65536"], 1, response="Error: Invalid proxy port 65536\n")
+-do_test(["--proxy", "socks5h://username%@localhost"], 1, response="Error: Invalid URL encoding in username.\n")
+-do_test(["--proxy", "socks5h://username%41@localhost"], 1, response="Error: Invalid URL encoding in username.\n")
+-do_test(["--proxy", "socks5h://username:password%@localhost"], 1, response="Error: Invalid URL encoding in password.\n")
+-do_test(["--proxy", "socks5h://username:password%41@localhost"], 1, response="Error: Invalid URL encoding in password.\n")
+-do_test(["--psk"], 1, response="Error: --psk argument given but no key specified.\n\n")
+-do_test(["--psk", "missing.psk"], 1, response="Error: --psk-identity required if --psk used.\n")
+-do_test(["--psk-identity"], 1, response="Error: --psk-identity argument given but no identity specified.\n\n")
+-do_test(["--cafile", ssl_dir / "all-ca.crt", "--psk", "missing.psk", "--psk-identity", "identity"], 1, response="Error: Only one of --psk or --cafile/--capath may be used at once.\n")
++if os.environ.get('WITH_SOCKS') != 'no':
++    do_test(["--proxy"], 1, response="Error: --proxy argument given but no proxy url specified.\n\n")
++    do_test(["--proxy", "mqtt://localhost"], 1, response="Error: Unsupported proxy protocol: mqtt://localhost\n")
++    do_test(["--proxy", "socks5h://"], 1, response="Error: Invalid proxy.\n")
++    do_test(["--proxy", "socks5h://localhost:0"], 1, response="Error: Invalid proxy port 0\n")
++    do_test(["--proxy", "socks5h://localhost:65536"], 1, response="Error: Invalid proxy port 65536\n")
++    do_test(["--proxy", "socks5h://username%@localhost"], 1, response="Error: Invalid URL encoding in username.\n")
++    do_test(["--proxy", "socks5h://username%41@localhost"], 1, response="Error: Invalid URL encoding in username.\n")
++    do_test(["--proxy", "socks5h://username:password%@localhost"], 1, response="Error: Invalid URL encoding in password.\n")
++    do_test(["--proxy", "socks5h://username:password%41@localhost"], 1, response="Error: Invalid URL encoding in password.\n")
++if os.environ.get('WITH_TLS') != 'no' and os.environ.get('WITH_TLS_PSK') != 'no':
++    do_test(["--psk"], 1, response="Error: --psk argument given but no key specified.\n\n")
++    do_test(["--psk", "missing.psk"], 1, response="Error: --psk-identity required if --psk used.\n")
++    do_test(["--psk-identity"], 1, response="Error: --psk-identity argument given but no identity specified.\n\n")
++    do_test(["--cafile", ssl_dir / "all-ca.crt", "--psk", "missing.psk", "--psk-identity", "identity"], 1, response="Error: Only one of --psk or --cafile/--capath may be used at once.\n")
+ do_test(["-q"], 1, response="Error: -q argument given but no QoS specified.\n\n")
+ do_test(["-q", "-1"], 1, response="Error: Invalid QoS given: -1\n")
+ do_test(["-q", "3"], 1, response="Error: Invalid QoS given: 3\n")
+-do_test(["--tls-alpn"], 1, response="Error: --tls-alpn argument given but no protocol specified.\n\n")
+-do_test(["--tls-engine"], 1, response="Error: --tls-engine argument given but no engine_id specified.\n\n")
+-do_test(["--tls-engine-kpass-sha1"], 1, response="Error: --tls-engine-kpass-sha1 argument given but no kpass sha1 specified.\n\n")
+-do_test(["--tls-version"], 1, response="Error: --tls-version argument given but no version specified.\n\n")
++if os.environ.get('WITH_TLS') != 'no':
++    do_test(["--tls-alpn"], 1, response="Error: --tls-alpn argument given but no protocol specified.\n\n")
++    do_test(["--tls-engine"], 1, response="Error: --tls-engine argument given but no engine_id specified.\n\n")
++    do_test(["--tls-engine-kpass-sha1"], 1, response="Error: --tls-engine-kpass-sha1 argument given but no kpass sha1 specified.\n\n")
++    do_test(["--tls-version"], 1, response="Error: --tls-version argument given but no version specified.\n\n")
+ do_test(["--username"], 1, response="Error: -u argument given but no username specified.\n\n")
+ do_test(["--unix"], 1, response="Error: --unix argument given but no socket path specified.\n\n")
+ do_test(["-V"], 1, response="Error: --protocol-version argument given but no version specified.\n\n")
+@@ -135,22 +141,23 @@ def do_test(args, rc_expected, response=None):
+ 
+ # Env modification
+ 
+-# Missing file
+-env["HOME"] = "/tmp"
+-do_test(["--cert", ssl_dir / "client.crt"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
++if os.environ.get('WITH_TLS') != 'no':
++    # Missing file
++    env["HOME"] = "/tmp"
++    do_test(["--cert", ssl_dir / "client.crt"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
+ 
+-# Invalid file
+-env["XDG_CONFIG_HOME"] = "."
+-with open("mosquitto_ctrl", "w") as f:
+-    f.write(f"--cert {ssl_dir}/client.crt\n")
+-    f.write(f"--key\n")
+-do_test(["broker"], 1, response="Error: --key argument given but no file specified.\n\n")
++    # Invalid file
++    env["XDG_CONFIG_HOME"] = "."
++    with open("mosquitto_ctrl", "w") as f:
++        f.write(f"--cert {ssl_dir}/client.crt\n")
++        f.write(f"--key\n")
++    do_test(["broker"], 1, response="Error: --key argument given but no file specified.\n\n")
+ 
+-# Empty file
+-env["XDG_CONFIG_HOME"] = "."
+-with open("mosquitto_ctrl", "w") as f:
+-    pass
+-do_test(["--cert", ssl_dir / "client.crt"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
+-os.remove("mosquitto_ctrl")
++    # Empty file
++    env["XDG_CONFIG_HOME"] = "."
++    with open("mosquitto_ctrl", "w") as f:
++        pass
++    do_test(["--cert", ssl_dir / "client.crt"], 1, response="Error: Both certfile and keyfile must be provided if one of them is set.\n")
++    os.remove("mosquitto_ctrl")
+ 
+ exit(0)
+diff --git a/test/apps/ctrl/ctrl-broker.py b/test/apps/ctrl/ctrl-broker.py
+index cf64539daa..6c750f599b 100755
+--- a/test/apps/ctrl/ctrl-broker.py
++++ b/test/apps/ctrl/ctrl-broker.py
+@@ -4,8 +4,12 @@
+ 
+ from mosq_test_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++     exit(77)
++
+ def write_config(filename, ports):
+     with open(filename, 'w') as f:
+         f.write("enable_control_api true\n")
+diff --git a/test/apps/ctrl/ctrl-dynsec.py b/test/apps/ctrl/ctrl-dynsec.py
+index 509a786d70..918808dd0f 100755
+--- a/test/apps/ctrl/ctrl-dynsec.py
++++ b/test/apps/ctrl/ctrl-dynsec.py
+@@ -5,6 +5,9 @@
+ import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++     exit(77)
++
+ def write_config(filename, ports):
+     with open(filename, 'w') as f:
+         f.write(f"global_plugin {mosq_test.get_build_root()}/plugins/dynamic-security/mosquitto_dynamic_security.so\n")
+diff --git a/test/apps/ctrl/ctrl_shell_options_test.cpp b/test/apps/ctrl/ctrl_shell_options_test.cpp
+index f16d89dd44..9e1ae33412 100644
+--- a/test/apps/ctrl/ctrl_shell_options_test.cpp
++++ b/test/apps/ctrl/ctrl_shell_options_test.cpp
+@@ -230,6 +230,9 @@ TEST_F(CtrlShellOptionsTest, ConnectUrlMissingHost)
+ 
+ TEST_F(CtrlShellOptionsTest, ConnectTLS)
+ {
++#ifndef WITH_TLS
++	GTEST_SKIP() << "TLS support not available.";
++#else
+ 	mosq_config config{};
+ 	mosquitto mosq{};
+ 	const char host[] = "localhost";
+@@ -258,6 +261,7 @@ TEST_F(CtrlShellOptionsTest, ConnectTLS)
+ 	expect_outputs(outputs, sizeof(outputs)/sizeof(char *));
+ 
+ 	ctrl_shell__main(&config);
++#endif
+ }
+ 
+ 
+@@ -296,6 +300,9 @@ TEST_F(CtrlShellOptionsTest, ConnectWebsockets)
+ 
+ TEST_F(CtrlShellOptionsTest, ConnectWebsocketsTLS)
+ {
++#ifndef WITH_TLS
++	GTEST_SKIP() << "TLS support not available.";
++#else
+ 	mosq_config config{};
+ 	mosquitto mosq{};
+ 	const char host[] = "localhost";
+@@ -325,6 +332,7 @@ TEST_F(CtrlShellOptionsTest, ConnectWebsocketsTLS)
+ 	expect_outputs(outputs, sizeof(outputs)/sizeof(char *));
+ 
+ 	ctrl_shell__main(&config);
++#endif
+ }
+ 
+ 
+@@ -441,6 +449,9 @@ TEST_F(CtrlShellOptionsTest, ConnectCertNotFound)
+ 
+ TEST_F(CtrlShellOptionsTest, ConnectCertError)
+ {
++#ifndef WITH_TLS
++	GTEST_SKIP() << "TLS support not available.";
++#else
+ 	mosq_config config{};
+ 	mosquitto mosq{};
+ 	const char host[] = "localhost";
+@@ -485,4 +496,5 @@ TEST_F(CtrlShellOptionsTest, ConnectCertError)
+ 	free(config.capath);
+ 	free(config.certfile);
+ 	free(config.keyfile);
++#endif
+ }
+diff --git a/test/apps/db_dump/db-dump-json-v6-mqtt-v5-props.py b/test/apps/db_dump/db-dump-json-v6-mqtt-v5-props.py
+index 60b3b85df7..fe34d96c16 100755
+--- a/test/apps/db_dump/db-dump-json-v6-mqtt-v5-props.py
++++ b/test/apps/db_dump/db-dump-json-v6-mqtt-v5-props.py
+@@ -1,8 +1,12 @@
+ #!/usr/bin/env python3
+ 
+ import json
++import os
+ from mosq_test_helper import *
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def do_test(file, json_expected):
+ 
+     cmd = [
+diff --git a/test/broker/01-connect-uname-no-password-denied.py b/test/broker/01-connect-uname-no-password-denied.py
+index 53d124a4b6..4798445163 100755
+--- a/test/broker/01-connect-uname-no-password-denied.py
++++ b/test/broker/01-connect-uname-no-password-denied.py
+@@ -4,6 +4,10 @@
+ # needs a username and password.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/01-connect-uname-or-anon.py b/test/broker/01-connect-uname-or-anon.py
+index 7ca7e5a520..78321bd829 100755
+--- a/test/broker/01-connect-uname-or-anon.py
++++ b/test/broker/01-connect-uname-or-anon.py
+@@ -3,6 +3,10 @@
+ # Test whether an anonymous connection is correctly denied.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port, allow_anonymous, password_file):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/01-connect-uname-password-denied-no-will.py b/test/broker/01-connect-uname-password-denied-no-will.py
+index 1162e2caaa..ec8b57a4c1 100755
+--- a/test/broker/01-connect-uname-password-denied-no-will.py
++++ b/test/broker/01-connect-uname-password-denied-no-will.py
+@@ -4,6 +4,10 @@
+ # incorrect password. The client has a will, but it should not be sent. Check that.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port, pw_file):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/01-connect-uname-password-denied.py b/test/broker/01-connect-uname-password-denied.py
+index 31923ec2ec..8b77cfcb3b 100755
+--- a/test/broker/01-connect-uname-password-denied.py
++++ b/test/broker/01-connect-uname-password-denied.py
+@@ -4,6 +4,10 @@
+ # incorrect password.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/01-plugin-connect-uname-password-denied.py b/test/broker/01-plugin-connect-uname-password-denied.py
+index e5d868604a..3592c21995 100755
+--- a/test/broker/01-plugin-connect-uname-password-denied.py
++++ b/test/broker/01-plugin-connect-uname-password-denied.py
+@@ -4,6 +4,10 @@
+ # incorrect password.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/04-retain-check-source-persist-diff-port.py b/test/broker/04-retain-check-source-persist-diff-port.py
+index cceca0282e..3b313c6f2f 100755
+--- a/test/broker/04-retain-check-source-persist-diff-port.py
++++ b/test/broker/04-retain-check-source-persist-diff-port.py
+@@ -3,9 +3,12 @@
+ # Test for CVE-2018-12546, with the broker being stopped to write the persistence file, plus subscriber on different port.
+ 
+ from mosq_test_helper import *
+-import os.path
++import os
+ import signal
+ 
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
++
+ def write_config(filename, port1, port2, per_listener):
+     with open(filename, 'w') as f:
+         f.write("per_listener_settings %s\n" % (per_listener))
+diff --git a/test/broker/04-retain-check-source-persist.py b/test/broker/04-retain-check-source-persist.py
+index 3cebd8860a..51d6863390 100755
+--- a/test/broker/04-retain-check-source-persist.py
++++ b/test/broker/04-retain-check-source-persist.py
+@@ -3,8 +3,12 @@
+ # Test for CVE-2018-12546, with the broker being stopped to write the persistence file.
+ 
+ from mosq_test_helper import *
++import os
+ import signal
+ 
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
++
+ def write_config(filename, port, per_listener):
+     with open(filename, 'w') as f:
+         f.write("per_listener_settings %s\n" % (per_listener))
+diff --git a/test/broker/04-retain-check-source.py b/test/broker/04-retain-check-source.py
+index b409729b3e..149a05c7b8 100755
+--- a/test/broker/04-retain-check-source.py
++++ b/test/broker/04-retain-check-source.py
+@@ -3,8 +3,12 @@
+ # Test for CVE-2018-12546
+ 
+ from mosq_test_helper import *
++import os
+ import signal
+ 
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
++
+ def write_config(filename, port, per_listener):
+     with open(filename, 'w') as f:
+         f.write("per_listener_settings %s\n" % (per_listener))
+diff --git a/test/broker/06-bridge-b2br-late-connection-retain.py b/test/broker/06-bridge-b2br-late-connection-retain.py
+index 87227a2807..9d134f8864 100755
+--- a/test/broker/06-bridge-b2br-late-connection-retain.py
++++ b/test/broker/06-bridge-b2br-late-connection-retain.py
+@@ -3,6 +3,10 @@
+ # Does a bridge queue up retained messages correctly if the remote broker starts up late?
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
+ 
+ def write_config1(filename, persistence_file, port1, port2):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/08-ssl-bridge.py b/test/broker/08-ssl-bridge.py
+index ce59a6f82b..8ffe7aede1 100755
+--- a/test/broker/08-ssl-bridge.py
++++ b/test/broker/08-ssl-bridge.py
+@@ -1,6 +1,10 @@
+ #!/usr/bin/env python3
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ source_dir = Path(__file__).resolve().parent
+ ssl_dir = source_dir.parent / "ssl"
+diff --git a/test/broker/08-ssl-connect-cert-auth-crl.py b/test/broker/08-ssl-connect-cert-auth-crl.py
+index de1713f087..0595f4a26b 100755
+--- a/test/broker/08-ssl-connect-cert-auth-crl.py
++++ b/test/broker/08-ssl-connect-cert-auth-crl.py
+@@ -1,6 +1,10 @@
+ #!/usr/bin/env python3
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-cert-auth-expired-allowed.py b/test/broker/08-ssl-connect-cert-auth-expired-allowed.py
+index 259136b579..8e9bf19664 100755
+--- a/test/broker/08-ssl-connect-cert-auth-expired-allowed.py
++++ b/test/broker/08-ssl-connect-cert-auth-expired-allowed.py
+@@ -3,6 +3,10 @@
+ # Check the `disable_client_cert_date_checks` option.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-cert-auth-expired.py b/test/broker/08-ssl-connect-cert-auth-expired.py
+index df3ebf64be..42a8748d34 100755
+--- a/test/broker/08-ssl-connect-cert-auth-expired.py
++++ b/test/broker/08-ssl-connect-cert-auth-expired.py
+@@ -4,6 +4,10 @@
+ # SSL connection with client certificates required.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-cert-auth.py b/test/broker/08-ssl-connect-cert-auth.py
+index 3534fd5cc6..b47aa6475b 100755
+--- a/test/broker/08-ssl-connect-cert-auth.py
++++ b/test/broker/08-ssl-connect-cert-auth.py
+@@ -3,6 +3,10 @@
+ # Test whether a valid CONNECT results in the correct CONNACK packet using an SSL connection.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-dhparam.py b/test/broker/08-ssl-connect-dhparam.py
+index 7d20a415a8..326a3e2d08 100755
+--- a/test/broker/08-ssl-connect-dhparam.py
++++ b/test/broker/08-ssl-connect-dhparam.py
+@@ -3,6 +3,10 @@
+ # Test whether a valid CONNECT results in the correct CONNACK packet using an SSL connection.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-identity.py b/test/broker/08-ssl-connect-identity.py
+index ca5e4ce739..c123711026 100755
+--- a/test/broker/08-ssl-connect-identity.py
++++ b/test/broker/08-ssl-connect-identity.py
+@@ -3,6 +3,10 @@
+ # Client connects with a certificate to a server that has use_identity_as_username=true. Shouldn't be rejected.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-no-auth-wrong-ca.py b/test/broker/08-ssl-connect-no-auth-wrong-ca.py
+index 67dca5fcf9..c4db391db3 100755
+--- a/test/broker/08-ssl-connect-no-auth-wrong-ca.py
++++ b/test/broker/08-ssl-connect-no-auth-wrong-ca.py
+@@ -3,6 +3,10 @@
+ # Test whether a valid CONNECT results in the correct CONNACK packet using an SSL connection.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-no-auth.py b/test/broker/08-ssl-connect-no-auth.py
+index 8da94ce8ff..b0c14b6cb7 100755
+--- a/test/broker/08-ssl-connect-no-auth.py
++++ b/test/broker/08-ssl-connect-no-auth.py
+@@ -3,6 +3,10 @@
+ # Test whether a valid CONNECT results in the correct CONNACK packet using an SSL connection.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-connect-no-identity.py b/test/broker/08-ssl-connect-no-identity.py
+index a9275f1415..04e6a3f442 100755
+--- a/test/broker/08-ssl-connect-no-identity.py
++++ b/test/broker/08-ssl-connect-no-identity.py
+@@ -3,6 +3,10 @@
+ # Client connects without a certificate to a server that has use_identity_as_username=true. Should be rejected.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-ssl-hup-disconnect.py b/test/broker/08-ssl-hup-disconnect.py
+index de30ab865b..04dddaf31e 100755
+--- a/test/broker/08-ssl-hup-disconnect.py
++++ b/test/broker/08-ssl-hup-disconnect.py
+@@ -6,8 +6,12 @@
+ # https://github.com/eclipse/mosquitto/issues/1402
+ 
+ from mosq_test_helper import *
++import os
+ import signal
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+     exit(0)
+diff --git a/test/broker/08-tls-psk-bridge.py b/test/broker/08-tls-psk-bridge.py
+index fc4273a40a..aaa360887b 100755
+--- a/test/broker/08-tls-psk-bridge.py
++++ b/test/broker/08-tls-psk-bridge.py
+@@ -1,6 +1,10 @@
+ #!/usr/bin/env python3
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS_PSK') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/08-tls-psk-pub.py b/test/broker/08-tls-psk-pub.py
+index 78b1c3cbc1..43815f54a9 100755
+--- a/test/broker/08-tls-psk-pub.py
++++ b/test/broker/08-tls-psk-pub.py
+@@ -1,6 +1,10 @@
+ #!/usr/bin/env python3
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_TLS_PSK') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/broker/09-plugin-delayed-auth.py b/test/broker/09-plugin-delayed-auth.py
+index 968237e3dd..abe01bcef7 100755
+--- a/test/broker/09-plugin-delayed-auth.py
++++ b/test/broker/09-plugin-delayed-auth.py
+@@ -3,6 +3,10 @@
+ # Test whether message parameters are passed to the plugin acl check function.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/09-plugin-evt-psk-key.py b/test/broker/09-plugin-evt-psk-key.py
+index 69e352ff68..421092f9a7 100755
+--- a/test/broker/09-plugin-evt-psk-key.py
++++ b/test/broker/09-plugin-evt-psk-key.py
+@@ -3,7 +3,10 @@
+ # Test whether a plugin can subscribe to the tick event
+ 
+ from mosq_test_helper import *
++import os
+ 
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_TLS_PSK') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port, per_listener_settings="false"):
+     with open(filename, "w") as f:
+diff --git a/test/broker/09-pwfile-parse-invalid.py b/test/broker/09-pwfile-parse-invalid.py
+index 3ec5c1b3c6..0bd53167bc 100755
+--- a/test/broker/09-pwfile-parse-invalid.py
++++ b/test/broker/09-pwfile-parse-invalid.py
+@@ -3,8 +3,12 @@
+ # Test for CVE-2018-xxxxx.
+ 
+ from mosq_test_helper import *
++import os
+ import signal
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port, per_listener):
+     with open(filename, 'w') as f:
+         f.write("per_listener_settings %s\n" % (per_listener))
+diff --git a/test/broker/11-message-expiry.py b/test/broker/11-message-expiry.py
+index 6bfbfe9251..487950be0e 100755
+--- a/test/broker/11-message-expiry.py
++++ b/test/broker/11-message-expiry.py
+@@ -10,6 +10,10 @@
+ # expiry interval property.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/11-persistence-autosave-changes.py b/test/broker/11-persistence-autosave-changes.py
+index ec955a2670..2abe3fffe7 100755
+--- a/test/broker/11-persistence-autosave-changes.py
++++ b/test/broker/11-persistence-autosave-changes.py
+@@ -3,6 +3,10 @@
+ # Test whether a client subscribed to a topic receives its own message sent to that topic.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/11-persistent-subscription-no-local.py b/test/broker/11-persistent-subscription-no-local.py
+index bd527065f3..ebf983271d 100755
+--- a/test/broker/11-persistent-subscription-no-local.py
++++ b/test/broker/11-persistent-subscription-no-local.py
+@@ -4,6 +4,10 @@
+ # And whether the no-local option is persisted.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/11-persistent-subscription.py b/test/broker/11-persistent-subscription.py
+index 5ce5989cb2..560c80fc58 100755
+--- a/test/broker/11-persistent-subscription.py
++++ b/test/broker/11-persistent-subscription.py
+@@ -3,6 +3,10 @@
+ # Test whether a client subscribed to a topic receives its own message sent to that topic.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/11-pub-props.py b/test/broker/11-pub-props.py
+index 5f23bb94aa..d6fa5772eb 100755
+--- a/test/broker/11-pub-props.py
++++ b/test/broker/11-pub-props.py
+@@ -3,6 +3,10 @@
+ # Does a persisted PUBLISH keep its properties?
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/11-subscription-id.py b/test/broker/11-subscription-id.py
+index 6773078828..7ef73823c3 100755
+--- a/test/broker/11-subscription-id.py
++++ b/test/broker/11-subscription-id.py
+@@ -3,6 +3,10 @@
+ # Test whether a client message maintains its subscription id when persisted and restored.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_PERSISTENCE') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/13-websocket-bad-origin.py b/test/broker/13-websocket-bad-origin.py
+index 06aef65406..1951793633 100755
+--- a/test/broker/13-websocket-bad-origin.py
++++ b/test/broker/13-websocket-bad-origin.py
+@@ -1,6 +1,10 @@
+ #!/usr/bin/env python3
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
+ 
+ rc = 1
+ 
+diff --git a/test/broker/14-dynsec-acl.py b/test/broker/14-dynsec-acl.py
+index af788c6c77..757efa2e6e 100755
+--- a/test/broker/14-dynsec-acl.py
++++ b/test/broker/14-dynsec-acl.py
+@@ -5,8 +5,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-allow-wildcard.py b/test/broker/14-dynsec-allow-wildcard.py
+index 957a17b5cc..bc570ef536 100755
+--- a/test/broker/14-dynsec-allow-wildcard.py
++++ b/test/broker/14-dynsec-allow-wildcard.py
+@@ -5,8 +5,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-anon-group.py b/test/broker/14-dynsec-anon-group.py
+index 15c4c9ce43..17182a55cc 100755
+--- a/test/broker/14-dynsec-anon-group.py
++++ b/test/broker/14-dynsec-anon-group.py
+@@ -4,8 +4,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-auth.py b/test/broker/14-dynsec-auth.py
+index 053d420d21..cf7d3a65bd 100755
+--- a/test/broker/14-dynsec-auth.py
++++ b/test/broker/14-dynsec-auth.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-client-invalid.py b/test/broker/14-dynsec-client-invalid.py
+index a185784057..89d2505589 100755
+--- a/test/broker/14-dynsec-client-invalid.py
++++ b/test/broker/14-dynsec-client-invalid.py
+@@ -5,8 +5,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-client.py b/test/broker/14-dynsec-client.py
+index 6278d3199a..274eb4e059 100755
+--- a/test/broker/14-dynsec-client.py
++++ b/test/broker/14-dynsec-client.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-config-init-env.py b/test/broker/14-dynsec-config-init-env.py
+index 6c6821095a..ddbfed74ee 100755
+--- a/test/broker/14-dynsec-config-init-env.py
++++ b/test/broker/14-dynsec-config-init-env.py
+@@ -2,8 +2,12 @@
+ 
+ from mosq_test_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-config-init-file.py b/test/broker/14-dynsec-config-init-file.py
+index abbd3ae248..ac25409672 100755
+--- a/test/broker/14-dynsec-config-init-file.py
++++ b/test/broker/14-dynsec-config-init-file.py
+@@ -2,8 +2,12 @@
+ 
+ from mosq_test_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-config-init-random.py b/test/broker/14-dynsec-config-init-random.py
+index 57fbf38bc2..56607cb768 100755
+--- a/test/broker/14-dynsec-config-init-random.py
++++ b/test/broker/14-dynsec-config-init-random.py
+@@ -2,8 +2,12 @@
+ 
+ from mosq_test_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-default-access.py b/test/broker/14-dynsec-default-access.py
+index 1645281dd8..ec83b957a1 100755
+--- a/test/broker/14-dynsec-default-access.py
++++ b/test/broker/14-dynsec-default-access.py
+@@ -5,8 +5,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-disable-client.py b/test/broker/14-dynsec-disable-client.py
+index e1b65604a6..eec4bed0e5 100755
+--- a/test/broker/14-dynsec-disable-client.py
++++ b/test/broker/14-dynsec-disable-client.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-group-invalid.py b/test/broker/14-dynsec-group-invalid.py
+index b28f7a0060..0e6f8648f0 100755
+--- a/test/broker/14-dynsec-group-invalid.py
++++ b/test/broker/14-dynsec-group-invalid.py
+@@ -5,8 +5,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-group.py b/test/broker/14-dynsec-group.py
+index 949971842a..f2273f41b6 100755
+--- a/test/broker/14-dynsec-group.py
++++ b/test/broker/14-dynsec-group.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-modify-client.py b/test/broker/14-dynsec-modify-client.py
+index 937830234c..307d9c19ad 100755
+--- a/test/broker/14-dynsec-modify-client.py
++++ b/test/broker/14-dynsec-modify-client.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-modify-group.py b/test/broker/14-dynsec-modify-group.py
+index 075978f809..cc3b8acd21 100755
+--- a/test/broker/14-dynsec-modify-group.py
++++ b/test/broker/14-dynsec-modify-group.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-modify-role.py b/test/broker/14-dynsec-modify-role.py
+index b0bc287343..1069e4f125 100755
+--- a/test/broker/14-dynsec-modify-role.py
++++ b/test/broker/14-dynsec-modify-role.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-plugin-invalid.py b/test/broker/14-dynsec-plugin-invalid.py
+index 25349613f1..ec7bdddb87 100755
+--- a/test/broker/14-dynsec-plugin-invalid.py
++++ b/test/broker/14-dynsec-plugin-invalid.py
+@@ -5,8 +5,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-role-invalid.py b/test/broker/14-dynsec-role-invalid.py
+index e3fe8890ea..6ef298f889 100755
+--- a/test/broker/14-dynsec-role-invalid.py
++++ b/test/broker/14-dynsec-role-invalid.py
+@@ -5,8 +5,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/14-dynsec-role.py b/test/broker/14-dynsec-role.py
+index b99da46404..a686c8139d 100755
+--- a/test/broker/14-dynsec-role.py
++++ b/test/broker/14-dynsec-role.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ from dynsec_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("listener %d\n" % (port))
+diff --git a/test/broker/16-cmd-args.py b/test/broker/16-cmd-args.py
+index 046358a91f..a6e8771f85 100755
+--- a/test/broker/16-cmd-args.py
++++ b/test/broker/16-cmd-args.py
+@@ -3,6 +3,7 @@
+ # Test whether command line args are handled
+ 
+ from mosq_test_helper import *
++import os
+ 
+ port = mosq_test.get_port()
+ 
+@@ -11,7 +12,8 @@
+ do_test_broker_failure("", [], port, cmd_args=["-p", "65536"], rc_expected=3, error_log_entry="Error: Invalid port specified (65536).") # Port invalid
+ do_test_broker_failure("", [], port, cmd_args=["-p"], rc_expected=3, error_log_entry="Error: -p argument given, but no port specified.") # Missing port
+ do_test_broker_failure("", [], port, cmd_args=["-c"], rc_expected=3, error_log_entry="Error: -c argument given, but no config file specified.") # Missing config
+-do_test_broker_failure("", [], port, cmd_args=["--tls-keylog"], rc_expected=3, error_log_entry="Error: --tls-keylog argument given, but no file specified.") # Missing filename
++if os.environ.get('WITH_TLS') != 'no':
++    do_test_broker_failure("", [], port, cmd_args=["--tls-keylog"], rc_expected=3, error_log_entry="Error: --tls-keylog argument given, but no file specified.") # Missing filename
+ do_test_broker_failure("", [], port, cmd_args=["--unknown"], rc_expected=3, error_log_entry="Error: Unknown option '--unknown'.") # Unknown option
+ 
+ exit(0)
+diff --git a/test/broker/16-config-parse-errors-tls-psk.py b/test/broker/16-config-parse-errors-tls-psk.py
+index ee98224325..e5559608c9 100755
+--- a/test/broker/16-config-parse-errors-tls-psk.py
++++ b/test/broker/16-config-parse-errors-tls-psk.py
+@@ -3,6 +3,11 @@
+ # Test whether config parse errors are handled
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_TLS_PSK') != 'yes':
++    exit(77)
++
+ port = mosq_test.get_port()
+ 
+ conf_file = os.path.basename(__file__).replace('.py', '.conf')
+diff --git a/test/broker/16-config-parse-errors-tls.py b/test/broker/16-config-parse-errors-tls.py
+index 4bb527821e..6a5fd5df08 100755
+--- a/test/broker/16-config-parse-errors-tls.py
++++ b/test/broker/16-config-parse-errors-tls.py
+@@ -3,6 +3,10 @@
+ # Test whether config parse errors are handled
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ conf_file = os.path.basename(__file__).replace('.py', '.conf')
+ port = mosq_test.get_port()
+diff --git a/test/broker/16-config-parse-errors-without-tls.py b/test/broker/16-config-parse-errors-without-tls.py
+index 35326538e6..b84e344451 100755
+--- a/test/broker/16-config-parse-errors-without-tls.py
++++ b/test/broker/16-config-parse-errors-without-tls.py
+@@ -3,6 +3,7 @@
+ # Test whether config parse errors are handled
+ 
+ from mosq_test_helper import *
++import os
+ port = mosq_test.get_port()
+ 
+ conf_file = os.path.basename(__file__).replace('.py', '.conf')
+@@ -34,8 +35,9 @@
+ do_test_broker_failure(conf_file, ["plugin c/auth_plugin.so","plugin_opt_test"], port, 3, "Error: Empty 'test' value in configuration.") # Empty plugin_opt_
+ 
+ do_test_broker_failure(conf_file, ["bridge_attempt_unsubscribe true"], port, 3, "Error: The 'bridge_attempt_unsubscribe' option requires a bridge to be defined first.") # Missing bridge config
+-do_test_broker_failure(conf_file, ["bridge_bind_address string"], port, 3, "Error: The 'bridge_bind_address' option requires a bridge to be defined first.") # Missing bridge config
+-do_test_broker_failure(conf_file, ["bridge_insecure true"], port, 3, "Error: The 'bridge_insecure' option requires a bridge to be defined first.") # Missing bridge config
++if os.environ.get('WITH_TLS') != 'no':
++    do_test_broker_failure(conf_file, ["bridge_bind_address string"], port, 3, "Error: The 'bridge_bind_address' option requires a bridge to be defined first.") # Missing bridge config
++    do_test_broker_failure(conf_file, ["bridge_insecure true"], port, 3, "Error: The 'bridge_insecure' option requires a bridge to be defined first.") # Missing bridge config
+ #do_test_broker_failure(conf_file, ["bridge_require_oscp true"], port, 3, "Error: The 'bridge_require_oscp' option requires a bridge to be defined first.") # Missing bridge config
+ do_test_broker_failure(conf_file, ["bridge_max_packet_size 1000"], port, 3, "Error: The 'bridge_max_packet_size' option requires a bridge to be defined first.") # Missing bridge config
+ do_test_broker_failure(conf_file, ["bridge_max_topic_alias 1000"], port, 3, "Error: The 'bridge_max_topic_alias' option requires a bridge to be defined first.") # Missing bridge config
+diff --git a/test/broker/17-control-list-listeners.py b/test/broker/17-control-list-listeners.py
+index 6084e79458..53d0657eb4 100755
+--- a/test/broker/17-control-list-listeners.py
++++ b/test/broker/17-control-list-listeners.py
+@@ -4,8 +4,12 @@
+ 
+ from mosq_test_helper import *
+ import json
++import os
+ import shutil
+ 
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
++
+ def write_config(filename, ports):
+     with open(filename, 'w') as f:
+         f.write("enable_control_api true\n")
+diff --git a/test/broker/21-proxy-v2-bad-config.py b/test/broker/21-proxy-v2-bad-config.py
+index 4fe2e6b01d..88fd89d985 100755
+--- a/test/broker/21-proxy-v2-bad-config.py
++++ b/test/broker/21-proxy-v2-bad-config.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port, extra_options):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/21-proxy-v2-ssl-cipher.py b/test/broker/21-proxy-v2-ssl-cipher.py
+index 273262577d..57f753a64e 100755
+--- a/test/broker/21-proxy-v2-ssl-cipher.py
++++ b/test/broker/21-proxy-v2-ssl-cipher.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/21-proxy-v2-ssl-common-name-failure.py b/test/broker/21-proxy-v2-ssl-common-name-failure.py
+index cf385f6b27..a6c40b6fea 100755
+--- a/test/broker/21-proxy-v2-ssl-common-name-failure.py
++++ b/test/broker/21-proxy-v2-ssl-common-name-failure.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/21-proxy-v2-ssl-common-name-success.py b/test/broker/21-proxy-v2-ssl-common-name-success.py
+index 02b27db71b..06e639c056 100755
+--- a/test/broker/21-proxy-v2-ssl-common-name-success.py
++++ b/test/broker/21-proxy-v2-ssl-common-name-success.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/21-proxy-v2-ssl-require-cert-failure.py b/test/broker/21-proxy-v2-ssl-require-cert-failure.py
+index 4f47d28053..aef9feddb2 100755
+--- a/test/broker/21-proxy-v2-ssl-require-cert-failure.py
++++ b/test/broker/21-proxy-v2-ssl-require-cert-failure.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/21-proxy-v2-ssl-require-cert-success.py b/test/broker/21-proxy-v2-ssl-require-cert-success.py
+index 620cfd9822..5fa9fa2603 100755
+--- a/test/broker/21-proxy-v2-ssl-require-cert-success.py
++++ b/test/broker/21-proxy-v2-ssl-require-cert-success.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/21-proxy-v2-ssl-require-tls-success.py b/test/broker/21-proxy-v2-ssl-require-tls-success.py
+index 595b623251..dc7f72f38d 100755
+--- a/test/broker/21-proxy-v2-ssl-require-tls-success.py
++++ b/test/broker/21-proxy-v2-ssl-require-tls-success.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/21-proxy-v2-websockets.py b/test/broker/21-proxy-v2-websockets.py
+index 243a20fa61..ff95bbde29 100755
+--- a/test/broker/21-proxy-v2-websockets.py
++++ b/test/broker/21-proxy-v2-websockets.py
+@@ -3,9 +3,13 @@
+ from mosq_test_helper import *
+ from proxy_helper import *
+ import json
++import os
+ import shutil
+ import socket
+ 
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
++
+ def write_config(filename, port):
+     with open(filename, 'w') as f:
+         f.write("log_type all\n")
+diff --git a/test/broker/22-http-api-acl.py b/test/broker/22-http-api-acl.py
+index 3e950e938c..e9c9b90f0d 100755
+--- a/test/broker/22-http-api-acl.py
++++ b/test/broker/22-http-api-acl.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ import http.client
+ import json
++import os
+ import re
+ 
++if os.environ.get('WITH_HTTP_API') != 'yes':
++    exit(77)
++
+ def write_config(filename, mqtt_port, http_port):
+     with open(filename, 'w') as f:
+         f.write(f"allow_anonymous true\n")
+diff --git a/test/broker/22-http-api-api.py b/test/broker/22-http-api-api.py
+index d7b934b5c2..9d3ccb72cf 100755
+--- a/test/broker/22-http-api-api.py
++++ b/test/broker/22-http-api-api.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ import http.client
+ import json
++import os
+ import re
+ 
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_HTTP_API') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
++
+ def write_config(filename, mqtt_port, ws_port, http_port):
+     with open(filename, 'w') as f:
+         f.write(f"allow_anonymous true\n")
+diff --git a/test/broker/22-http-api-auth.py b/test/broker/22-http-api-auth.py
+index 9eb947e212..8de669e474 100755
+--- a/test/broker/22-http-api-auth.py
++++ b/test/broker/22-http-api-auth.py
+@@ -4,8 +4,12 @@
+ import base64
+ import http.client
+ import json
++import os
+ import re
+ 
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_HTTP_API') != 'yes':
++    exit(77)
++
+ def write_config(filename, mqtt_port, http_port):
+     with open(filename, 'w') as f:
+         f.write(f"listener {mqtt_port}\n")
+diff --git a/test/broker/22-http-api-file.py b/test/broker/22-http-api-file.py
+index 0c74b3678f..16e9c7ac8e 100755
+--- a/test/broker/22-http-api-file.py
++++ b/test/broker/22-http-api-file.py
+@@ -3,6 +3,10 @@
+ from mosq_test_helper import *
+ import http.client
+ import json
++import os
++
++if os.environ.get('WITH_HTTP_API') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, mqtt_port, http_port):
+     with open(filename, 'w') as f:
+diff --git a/test/broker/22-http-api-tls.py b/test/broker/22-http-api-tls.py
+index 2491cb8206..604e671f01 100755
+--- a/test/broker/22-http-api-tls.py
++++ b/test/broker/22-http-api-tls.py
+@@ -3,8 +3,12 @@
+ from mosq_test_helper import *
+ import http.client
+ import json
++import os
+ import ssl
+ 
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_HTTP_API') != 'yes':
++    exit(77)
++
+ def write_config(filename, mqtt_port, http_port):
+     with open(filename, 'w') as f:
+         f.write("allow_anonymous true\n")
+diff --git a/test/client/02-subscribe-argv-errors-tls-psk.py b/test/client/02-subscribe-argv-errors-tls-psk.py
+index b6b506590b..bcf74a773e 100755
+--- a/test/client/02-subscribe-argv-errors-tls-psk.py
++++ b/test/client/02-subscribe-argv-errors-tls-psk.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_TLS_PSK') != 'yes':
++    exit(77)
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+diff --git a/test/client/02-subscribe-argv-errors-tls.py b/test/client/02-subscribe-argv-errors-tls.py
+index 0c610ffc4b..47008406be 100755
+--- a/test/client/02-subscribe-argv-errors-tls.py
++++ b/test/client/02-subscribe-argv-errors-tls.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+diff --git a/test/client/02-subscribe-argv-errors-without-tls.py b/test/client/02-subscribe-argv-errors-without-tls.py
+index f14a2c7dff..a1e7bc3b70 100755
+--- a/test/client/02-subscribe-argv-errors-without-tls.py
++++ b/test/client/02-subscribe-argv-errors-without-tls.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+@@ -45,7 +49,8 @@ def do_test(args, stderr_expected, rc_expected):
+     do_test(['-o'], "Error: -o argument given but no options file specified.\n\n" + helps, 1)
+     do_test(['-p'], "Error: -p argument given but no port specified.\n\n" + helps, 1)
+     do_test(['-P'], "Error: -P argument given but no password specified.\n\n" + helps, 1)
+-    do_test(['--proxy'], "Error: --proxy argument given but no proxy url specified.\n\n" + helps, 1)
++    if os.environ.get('WITH_SOCKS') != 'no':
++        do_test(['--proxy'], "Error: --proxy argument given but no proxy url specified.\n\n" + helps, 1)
+     do_test(['--random-filter'], "Error: --random-filter argument given but no chance specified.\n\n" + helps, 1)
+     do_test(['-q'], "Error: -q argument given but no QoS specified.\n\n" + helps, 1)
+     do_test(['-t'], "Error: -t argument given but no topic specified.\n\n" + helps, 1)
+diff --git a/test/client/02-subscribe-qos1-ws.py b/test/client/02-subscribe-qos1-ws.py
+index efcb08989c..d1c302260e 100755
+--- a/test/client/02-subscribe-qos1-ws.py
++++ b/test/client/02-subscribe-qos1-ws.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port1, port2):
+     with open(filename, 'w') as f:
+diff --git a/test/client/03-publish-argv-errors-tls-psk.py b/test/client/03-publish-argv-errors-tls-psk.py
+index d67aeccb05..70155fce51 100755
+--- a/test/client/03-publish-argv-errors-tls-psk.py
++++ b/test/client/03-publish-argv-errors-tls-psk.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_TLS_PSK') != 'yes':
++    exit(77)
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+@@ -37,4 +41,3 @@ def do_test(args, stderr_expected, rc_expected):
+     do_test(['--cafile', 'file', '--psk', 'key'], "Error: Only one of --psk or --cafile/--capath may be used at once.\n" + helps, 1)
+     do_test(['--capath', 'dir', '--psk', 'key'], "Error: Only one of --psk or --cafile/--capath may be used at once.\n" + helps, 1)
+     do_test(['--psk', 'key'], "Error: --psk-identity required if --psk used.\n" + helps, 1)
+-    
+diff --git a/test/client/03-publish-argv-errors-tls.py b/test/client/03-publish-argv-errors-tls.py
+index 30797348ec..7fc411f011 100755
+--- a/test/client/03-publish-argv-errors-tls.py
++++ b/test/client/03-publish-argv-errors-tls.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+diff --git a/test/client/03-publish-argv-errors-without-tls.py b/test/client/03-publish-argv-errors-without-tls.py
+index 34e6bd0a53..84c9ab8b7c 100755
+--- a/test/client/03-publish-argv-errors-without-tls.py
++++ b/test/client/03-publish-argv-errors-without-tls.py
+@@ -3,6 +3,7 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+@@ -46,7 +47,8 @@ def do_test(args, stderr_expected, rc_expected):
+     do_test(['-o'], "Error: -o argument given but no options file specified.\n\n" + helps, 1)
+     do_test(['-p'], "Error: -p argument given but no port specified.\n\n" + helps, 1)
+     do_test(['-P'], "Error: -P argument given but no password specified.\n\n" + helps, 1)
+-    do_test(['--proxy'], "Error: --proxy argument given but no proxy url specified.\n\n" + helps, 1)
++    if os.environ.get('WITH_SOCKS') != 'no':
++        do_test(['--proxy'], "Error: --proxy argument given but no proxy url specified.\n\n" + helps, 1)
+     do_test(['-q'], "Error: -q argument given but no QoS specified.\n\n" + helps, 1)
+     do_test(['--repeat'], "Error: --repeat argument given but no count specified.\n\n" + helps, 1)
+     do_test(['--repeat-delay'], "Error: --repeat-delay argument given but no time specified.\n\n" + helps, 1)
+diff --git a/test/client/03-publish-qos1-ws-large.py b/test/client/03-publish-qos1-ws-large.py
+index 703c4e6a6d..b6e50b4b43 100755
+--- a/test/client/03-publish-qos1-ws-large.py
++++ b/test/client/03-publish-qos1-ws-large.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port1, port2):
+     with open(filename, 'w') as f:
+diff --git a/test/client/03-publish-qos1-ws.py b/test/client/03-publish-qos1-ws.py
+index 5a4899e0c2..8fa1e1a563 100755
+--- a/test/client/03-publish-qos1-ws.py
++++ b/test/client/03-publish-qos1-ws.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port1, port2):
+     with open(filename, 'w') as f:
+diff --git a/test/client/03-publish-tls.py b/test/client/03-publish-tls.py
+index 6bdcfc6a54..5ffa5fe443 100755
+--- a/test/client/03-publish-tls.py
++++ b/test/client/03-publish-tls.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ source_dir = Path(__file__).resolve().parent
+ ssl_dir = source_dir.parent / "ssl"
+diff --git a/test/client/04-rr-argv-errors-tls-psk.py b/test/client/04-rr-argv-errors-tls-psk.py
+index 7d1d765736..e8bbae5089 100755
+--- a/test/client/04-rr-argv-errors-tls-psk.py
++++ b/test/client/04-rr-argv-errors-tls-psk.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_TLS_PSK') != 'yes':
++    exit(77)
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+diff --git a/test/client/04-rr-argv-errors-tls.py b/test/client/04-rr-argv-errors-tls.py
+index 5766dbb621..b93818d2da 100755
+--- a/test/client/04-rr-argv-errors-tls.py
++++ b/test/client/04-rr-argv-errors-tls.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+diff --git a/test/client/04-rr-argv-errors-without-tls.py b/test/client/04-rr-argv-errors-without-tls.py
+index 24663ffe0e..37b76edec2 100755
+--- a/test/client/04-rr-argv-errors-without-tls.py
++++ b/test/client/04-rr-argv-errors-without-tls.py
+@@ -3,6 +3,7 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
+ 
+ def do_test(args, stderr_expected, rc_expected):
+     rc = 1
+@@ -44,7 +45,8 @@ def do_test(args, stderr_expected, rc_expected):
+     do_test(['-o'], "Error: -o argument given but no options file specified.\n\n" + helps, 1)
+     do_test(['-p'], "Error: -p argument given but no port specified.\n\n" + helps, 1)
+     do_test(['-P'], "Error: -P argument given but no password specified.\n\n" + helps, 1)
+-    do_test(['--proxy'], "Error: --proxy argument given but no proxy url specified.\n\n" + helps, 1)
++    if os.environ.get('WITH_SOCKS') != 'no':
++        do_test(['--proxy'], "Error: --proxy argument given but no proxy url specified.\n\n" + helps, 1)
+     do_test(['-q'], "Error: -q argument given but no QoS specified.\n\n" + helps, 1)
+     do_test(['-t'], "Error: -t argument given but no topic specified.\n\n" + helps, 1)
+     do_test(['-u'], "Error: -u argument given but no username specified.\n\n" + helps, 1)
+diff --git a/test/client/04-rr-qos1-ws.py b/test/client/04-rr-qos1-ws.py
+index c730dec642..d0b9819f05 100755
+--- a/test/client/04-rr-qos1-ws.py
++++ b/test/client/04-rr-qos1-ws.py
+@@ -3,6 +3,10 @@
+ #
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes' or os.environ.get('WITH_WEBSOCKETS') != 'yes':
++    exit(77)
+ 
+ def write_config(filename, port1, port2):
+     with open(filename, 'w') as f:
+diff --git a/test/client/Makefile b/test/client/Makefile
+index 629256860c..4a5436b3a8 100644
+--- a/test/client/Makefile
++++ b/test/client/Makefile
+@@ -9,9 +9,11 @@ all :
+ check : test
+ test : 02 03 04
+ 	./test.sh
++ifeq ($(WITH_TLS),yes)
+ ifeq ($(WITH_WEBSOCKETS),yes)
+ 	./test-ws.sh
+ endif
++endif
+ 
+ test-compile:
+ 
+@@ -84,8 +86,10 @@ endif
+ 
+ ptest :
+ 	./test.sh
++ifeq ($(WITH_TLS),yes)
+ ifeq ($(WITH_WEBSOCKETS),yes)
+ 	./test-ws.sh
++endif
+ endif
+ 	./test.py
+ 
+diff --git a/test/lib/08-ssl-bad-cacert.py b/test/lib/08-ssl-bad-cacert.py
+index ce758ee927..432883a695 100755
+--- a/test/lib/08-ssl-bad-cacert.py
++++ b/test/lib/08-ssl-bad-cacert.py
+@@ -1,6 +1,10 @@
+ #!/usr/bin/env python3
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/lib/08-ssl-connect-cert-auth-enc.py b/test/lib/08-ssl-connect-cert-auth-enc.py
+index 6bd7c74ba8..06ca98d677 100755
+--- a/test/lib/08-ssl-connect-cert-auth-enc.py
++++ b/test/lib/08-ssl-connect-cert-auth-enc.py
+@@ -11,6 +11,10 @@
+ # message. If rc!=0, the client should exit with an error.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/lib/08-ssl-connect-cert-auth.py b/test/lib/08-ssl-connect-cert-auth.py
+index 41338fe370..39bca3f33d 100755
+--- a/test/lib/08-ssl-connect-cert-auth.py
++++ b/test/lib/08-ssl-connect-cert-auth.py
+@@ -11,6 +11,10 @@
+ # message. If rc!=0, the client should exit with an error.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ def do_test(client_cmd):
+     port = mosq_test.get_port()
+diff --git a/test/lib/08-ssl-connect-no-auth.py b/test/lib/08-ssl-connect-no-auth.py
+index 144079d633..b894b81442 100755
+--- a/test/lib/08-ssl-connect-no-auth.py
++++ b/test/lib/08-ssl-connect-no-auth.py
+@@ -10,6 +10,10 @@
+ # message. If rc!=0, the client should exit with an error.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+diff --git a/test/lib/08-ssl-connect-san.py b/test/lib/08-ssl-connect-san.py
+index a6df6c5444..30678cde3e 100755
+--- a/test/lib/08-ssl-connect-san.py
++++ b/test/lib/08-ssl-connect-san.py
+@@ -12,6 +12,10 @@
+ # message. If rc!=0, the client should exit with an error.
+ 
+ from mosq_test_helper import *
++import os
++
++if os.environ.get('WITH_TLS') != 'yes':
++    exit(77)
+ 
+ if sys.version < '2.7':
+     print("WARNING: SSL not supported on Python 2.6")
+
+From 15e46e29f9f815f12b489803ba5d97669c66d4d5 Mon Sep 17 00:00:00 2001
+From: Matt Turner <mattst88@gmail.com>
+Date: Tue, 24 Feb 2026 21:39:10 -0500
+Subject: [PATCH 8/8] Add a workflow with some features disabled
+
+Build and test with a collection of options that have in practice
+resulted in test failures:
+
+```
+WITH_EDITLINE=no
+WITH_HTTP_API=no
+WITH_PERSISTENCE=no
+WITH_SRV=no
+WITH_TLS=no
+WITH_TLS_PSK=no
+WITH_WEBSOCKETS=no
+```
+
+Signed-off-by: Matt Turner <mattst88@gmail.com>
+---
+ .github/workflows/mosquitto-make-reduced.yml | 67 ++++++++++++++++++++
+ 1 file changed, 67 insertions(+)
+ create mode 100644 .github/workflows/mosquitto-make-reduced.yml
+
+diff --git a/.github/workflows/mosquitto-make-reduced.yml b/.github/workflows/mosquitto-make-reduced.yml
+new file mode 100644
+index 0000000000..51ce6d9afa
+--- /dev/null
++++ b/.github/workflows/mosquitto-make-reduced.yml
+@@ -0,0 +1,67 @@
++name: Mosquitto - Make (reduced features)
++
++on:
++  workflow_dispatch:
++  push:
++    branches:
++      - master
++      - fixes
++      - develop
++      - release/*
++    tags:
++      - 'v[0-9]+.*'
++  pull_request:
++    branches:
++      - master
++      - fixes
++      - develop
++      - release/*
++
++jobs:
++  build:
++    runs-on: ubuntu-latest
++
++    steps:
++    - name: Install third party dependencies
++      run: |
++        sudo apt-get update
++        sudo apt-get install -y \
++          docbook-xsl \
++          lcov \
++          libargon2-dev \
++          libcjson-dev \
++          libcjson1 \
++          libcunit1-dev \
++          libgmock-dev \
++          microsocks \
++          python3-all \
++          python3-paho-mqtt \
++          python3-psutil \
++          uthash-dev \
++          xsltproc
++    -
++      uses: actions/checkout@v6
++      with:
++        submodules: 'true'
++    -
++      name: make
++      run: |
++        make \
++          WITH_EDITLINE=no \
++          WITH_HTTP_API=no \
++          WITH_PERSISTENCE=no \
++          WITH_SRV=no \
++          WITH_TLS=no \
++          WITH_TLS_PSK=no \
++          WITH_WEBSOCKETS=no
++    -
++      name: make test
++      run: |
++        make ptest \
++          WITH_EDITLINE=no \
++          WITH_HTTP_API=no \
++          WITH_PERSISTENCE=no \
++          WITH_SRV=no \
++          WITH_TLS=no \
++          WITH_TLS_PSK=no \
++          WITH_WEBSOCKETS=no

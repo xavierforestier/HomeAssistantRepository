@@ -50,7 +50,8 @@ pkg_setup() {
 }
 
 _emake() {
-	local LIBDIR=$(get_libdir)
+	local LIBDIR
+	LIBDIR=$(get_libdir)
 	emake \
 		CC="$(tc-getCC)" \
 		CXX="$(tc-getCXX)" \

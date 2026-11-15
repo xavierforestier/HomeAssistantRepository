@@ -24,7 +24,7 @@ RDEPEND="
 "
 
 src_unpack() {
-	unpack ${A}
+	unpack "${A}"
 	mv "${WORKDIR}/aws-iot-device-sdk-python-v2-${PV}" "${WORKDIR}/${P}"
 }
 

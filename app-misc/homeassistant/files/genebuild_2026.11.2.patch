@@ -1,24 +1,24 @@
 --- a/requirements_all.txt	2024-10-11 18:25:02.000000000 +0200
 +++ b/requirements_all.txt	2024-10-13 20:44:30.782824454 +0200
-@@ -194,7 +194,7 @@
+@@ -197,7 +197,7 @@
  
  # homeassistant.components.ambient_network
  # homeassistant.components.ambient_station
 -aioambient==2024.08.0
 +aioambient==2024.8.0
  
- # homeassistant.components.apcupsd
- aioapcaccess==1.0.0
-@@ -260,7 +260,7 @@
- aioemonitor==1.0.5
+ # homeassistant.components.any_list
+ aioanylist==1.0.2
+@@ -272,7 +272,7 @@
+ aioengiebelgium==0.8.2
  
  # homeassistant.components.esphome
--aioesphomeapi==46.6.0
-+aioesphomeapi>=46.6.0
+-aioesphomeapi==46.25.0
++aioesphomeapi>=46.25.0
  
- # homeassistant.components.matrix
- # homeassistant.components.slack
-@@ -279,7 +279,7 @@
+ # homeassistant.components.mijn_farmad_apotheek
+ aiofarmad==0.6.5
+@@ -295,7 +295,7 @@
  aiogithubapi==26.0.0
  
  # homeassistant.components.guardian
@@ -27,17 +27,17 @@
  
  # homeassistant.components.harman_luxury
  aioharmanluxury==0.2.3
-@@ -357,7 +357,7 @@
- aionanoleaf2==1.0.5
+@@ -382,7 +382,7 @@
+ aionatureremo==0.4.0
  
  # homeassistant.components.notion
 -aionotion==2024.03.0
 +aionotion==2024.3.0
  
  # homeassistant.components.ntfy
- aiontfy==0.8.5
-@@ -384,7 +384,7 @@
- aiopowerwall==0.4.1
+ aiontfy==0.8.6
+@@ -409,7 +409,7 @@
+ aiopowerwall==0.10.0
 
  # homeassistant.components.ptdevices
 -aioptdevices==2026.03.2
@@ -45,7 +45,7 @@
  
  # homeassistant.components.acmeda
  aiopulse==0.4.7
-@@ -390,7 +390,7 @@
+@@ -415,7 +415,7 @@
  aiopulse==0.4.7
  
  # homeassistant.components.purpleair
@@ -54,7 +54,7 @@
  
  # homeassistant.components.hunterdouglas_powerview
  aiopvapi==3.4.1
-@@ -407,10 +407,10 @@
+@@ -432,10 +432,10 @@
  aioraven==0.7.1
  
  # homeassistant.components.recollect_waste
@@ -67,7 +67,7 @@
  
  # homeassistant.components.remember_the_milk
  aiortm==0.20.1
-@@ -540,7 +540,7 @@
+@@ -571,7 +571,7 @@
  androidtvremote2==0.3.2
  
  # homeassistant.components.anel_pwrctrl
@@ -76,7 +76,7 @@
  
  # homeassistant.components.anova
  anova-wifi==1.0.1
-@@ -658,7 +658,7 @@
+@@ -689,7 +689,7 @@
  babel==2.18.0
  
  # homeassistant.components.baidu
@@ -85,16 +85,16 @@
  
  # homeassistant.components.homekit
  base36==0.1.1
-@@ -761,7 +761,7 @@
+@@ -798,7 +798,7 @@
  cached-ipaddress==1.1.2
  
  # homeassistant.components.caldav
--caldav==3.3.0a1
-+caldav==3.3.0_alpha1
+-caldav==3.5.0a0
++caldav==3.5.0_alpha0
  
  # homeassistant.components.chef_iq
- chefiq-ble==1.0.1
-@@ -842,7 +842,7 @@
+ chefiq-ble==1.1.1
+@@ -882,7 +882,7 @@
  # homeassistant.components.ihc
  # homeassistant.components.ohmconnect
  # homeassistant.components.sonos
@@ -103,7 +103,7 @@
  
  # homeassistant.components.deluge
  deluge-client==1.10.2
-@@ -935,7 +935,7 @@
+@@ -975,7 +975,7 @@
 -elkoep-aio-mqtt==0.1.0b4
 +elkoep-aio-mqtt==0.1.0_beta4
  
@@ -113,7 +113,7 @@
  
  # homeassistant.components.elvia
  elvia==0.1.0
-@@ -1040,7 +1040,7 @@
+@@ -1080,7 +1080,7 @@
  fivem-api==0.1.2
  
  # homeassistant.components.fixer
@@ -122,7 +122,7 @@
  
  # homeassistant.components.fjaraskupan
  fjaraskupan==2.3.4
-@@ -1087,7 +1087,7 @@
+@@ -1124,7 +1124,7 @@
  
  # homeassistant.components.fritz
  # homeassistant.components.fritzbox_callmonitor
@@ -131,7 +131,7 @@
 
  # homeassistant.components.fronius
  fronius-modbus==0.2.0
-@@ -1526,7 +1526,7 @@
+@@ -1578,7 +1578,7 @@
  librouteros==4.2.2
  
  # homeassistant.components.soundtouch
@@ -139,8 +139,8 @@
 +libsoundtouch>=0.8.0
  
  # homeassistant.components.lifx
- lifx-async==7.6.5
-@@ -1773,7 +1773,7 @@
+ lifx-async==7.13.1
+@@ -1836,7 +1836,7 @@
  # homeassistant.components.iqvia
  # homeassistant.components.stream
  # homeassistant.components.trend
@@ -149,7 +149,7 @@
  
  # homeassistant.components.nyt_games
  nyt_games==1.0.1
-@@ -2078,7 +2078,7 @@
+@@ -2144,7 +2144,7 @@
 
  # homeassistant.components.airvisual
  # homeassistant.components.airvisual_pro
@@ -157,8 +157,15 @@
 +pyairvisual==2023.8.1
  
  # homeassistant.components.anglian_water
- pyanglianwater==3.3.2
-@@ -2108,7 +2108,7 @@
+ pyanglianwater==3.3.3
+@@ -2171,13 +2171,13 @@
+ pyaussiebb==0.1.5
+ 
+ # homeassistant.components.myneomitis
+-pyaxencoapi==1.0.7.post1
++pyaxencoapi==1.0.7_p1
+ 
+ # homeassistant.components.balboa
  pybalboa==1.1.3
  
  # homeassistant.components.bbox
@@ -167,7 +174,7 @@
  
  # homeassistant.components.blackbird
  pyblackbird==0.10
-@@ -2268,7 +2268,7 @@
+@@ -2340,7 +2340,7 @@
  pyfritzhome==0.6.21
  
  # homeassistant.components.ifttt
@@ -176,7 +183,7 @@
  
  # homeassistant.components.skybeacon
  pygatt[GATTTOOL]==4.0.5
-@@ -2322,7 +2322,7 @@
+@@ -2400,7 +2400,7 @@
  pyipma==3.0.10
  
  # homeassistant.components.iqvia
@@ -185,7 +192,7 @@
  
  # homeassistant.components.irish_rail_transport
  pyirishrail==0.0.2
-@@ -2484,7 +2484,7 @@
+@@ -2565,7 +2565,7 @@
  pyomie==1.1.3
  
  # homeassistant.components.openuv
@@ -193,8 +200,8 @@
 +pyopenuv==2023.2.0
  
  # homeassistant.components.openweathermap
- pyopenweathermap==0.2.2
-@@ -2723,7 +2723,7 @@
+ pyopenweathermap==0.3.0
+@@ -2801,7 +2801,7 @@
  python-fullykiosk==0.0.15
  
  # homeassistant.components.gc100
@@ -203,7 +210,7 @@
  
  # homeassistant.components.gitlab_ci
  python-gitlab==1.6.0
-@@ -2790,7 +2790,7 @@
+@@ -2871,7 +2871,7 @@
  python-overseerr==0.9.0
  
  # homeassistant.components.picnic
@@ -212,16 +219,16 @@
  
  # homeassistant.components.pooldose
  python-pooldose==0.9.10
-@@ -2962,7 +2962,7 @@
- refoss-ha==1.2.5
+@@ -3046,7 +3046,7 @@
+ refoss-ha==1.2.6
  
  # homeassistant.components.rainmachine
 -regenmaschine==2024.03.0
 +regenmaschine==2024.3.0
  
  # homeassistant.components.renault
- renault-api==0.5.15
-@@ -3093,7 +3093,7 @@
+ renault-api==0.6.2
+@@ -3183,7 +3183,7 @@
  simplepush[legacy]==3.8.0
  
  # homeassistant.components.simplisafe
@@ -233,7 +240,7 @@
 --- a/package_constraints.txt	2025-08-22 08:09:48.520657746 +0200
 +++ b/package_constraints.txt	2025-08-22 08:10:04.003523492 +0200
 @@ -130,8 +130,8 @@
- hyperframe>=5.2.0
+ httpx==0.28.1
  
  # Ensure we run compatible with musllinux build env
 -numpy==2.3.2
@@ -244,7 +251,7 @@
  # Constrain multidict to avoid typing issues
  # https://github.com/home-assistant/core/pull/67046
 @@ -144,7 +144,7 @@
- pydantic==2.13.5
+ pydantic==2.14.1
  
  # Required for Python 3.14.0 compatibility (#119223).
 -mashumaro>=3.17.0

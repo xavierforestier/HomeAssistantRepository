@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*node-red-5.0.10 (18 Nov 2026)
+
+  18 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -node-red-5.0.7.ebuild, +node-red-5.0.10.ebuild:
+  5.0.10
+
 *node-red-5.0.9 (22 Oct 2026)
 
   22 Oct 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

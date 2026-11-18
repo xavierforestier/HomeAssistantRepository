@@ -18,7 +18,6 @@ RESTRICT="!test? ( test )"
 DOCS="README.md"
 
 RDEPEND="
-	>=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}]
 	>=dev-python/aiohttp-3.14.0[${PYTHON_USEDEP}]
 	|| ( dev-python/chardet[${PYTHON_USEDEP}] dev-python/charset-normalizer[${PYTHON_USEDEP}] )
 	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]

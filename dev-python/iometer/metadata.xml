@@ -3,6 +3,6 @@
 <pkgmetadata>
   <upstream>
     <remote-id type="pypi">iometer</remote-id>
-    <remote-id type="github">iometer-gmbh/iometer.py</remote-id>
+    <remote-id type="github">energy-smart-control/iometer.py</remote-id>
   </upstream>
 </pkgmetadata>

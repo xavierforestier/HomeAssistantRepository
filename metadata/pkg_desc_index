@@ -13,7 +13,7 @@ app-crypt/certbot 5.4.0: Let's Encrypt client to automate deployment of X.509 ce
 app-misc/home-assistant-cli 1.0.0: The Home Assistant Command-line Interface (hass-cli)
 app-misc/homeassistant 2026.10.4 2026.11.0 2026.11.1: Open-source home automation platform running on Python.
 app-misc/mosquitto 2.1.2: An Open Source MQTT v3 Broker
-app-misc/node-red 5.0.7 5.0.8 5.0.9: A visual tool for wiring the Internet of Things
+app-misc/node-red 5.0.8 5.0.9 5.0.10: A visual tool for wiring the Internet of Things
 app-misc/zigbee2mqtt 2.14.1 2.14.2 2.14.3: It bridges events and allows you to control your Zigbee devices via MQTT
 dev-embedded/esphome 2026.10.0 2026.10.1 2026.10.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-device-builder 1.26.0 1.28.0 1.28.1: ESPHome Device Builder Dashboard
@@ -132,7 +132,6 @@ dev-python/aiomelcloudhome 0.3.0 0.3.1: Asynchronous Python client for the Melcl
 dev-python/aiomodernforms 0.3.1: Asynchronous Python client for Modern Forms fans
 dev-python/aiomqtt 2.5.1: The idiomatic asyncio MQTT client, wrapped around paho-mqtt
 dev-python/aiomusiccast 0.15.0: Library for musiccast devices intended for the Home Assistant integration
-dev-python/aionanoleaf 0.2.1: Async Python package for the Nanoleaf API
 dev-python/aionanoleaf2 1.0.5 1.2.1: Async Python package for the Nanoleaf API that replaces aioNanoleaf
 dev-python/aionatureremo 0.4.0: Asynchronous Python client for the Nature Remo Cloud API
 dev-python/aionotion 2024.3.0: A simple Python 3 library for Notion Home Monitoring

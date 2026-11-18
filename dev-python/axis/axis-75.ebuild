@@ -1,0 +1,32 @@
+# Copyright 1999-2026 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+EAPI=8
+
+PYTHON_COMPAT=( python3_{12..14} )
+DISTUTILS_USE_PEP517=setuptools
+inherit distutils-r1 pypi
+DESCRIPTION="A Python library for communicating with devices from Axis Communications"
+HOMEPAGE="https://github.com/Kane610/axis https://pypi.org/project/axis/"
+
+LICENSE="MIT"
+SLOT="0"
+KEYWORDS="amd64 arm arm64 x86"
+IUSE="test"
+RESTRICT="!test? ( test )"
+
+DOCS="README.md"
+
+RDEPEND="
+	>=dev-python/faust-cchardet-2.1.18[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.14.0[${PYTHON_USEDEP}]
+	|| ( dev-python/chardet[${PYTHON_USEDEP}] dev-python/charset-normalizer[${PYTHON_USEDEP}] )
+	>=dev-python/orjson-3.9[${PYTHON_USEDEP}]
+	>=dev-python/packaging-23[${PYTHON_USEDEP}]
+	>=dev-python/tomli-2.0[${PYTHON_USEDEP}]
+	>=dev-python/tomli-w-1.0[${PYTHON_USEDEP}]
+	>=dev-python/xmltodict-0.13.0[${PYTHON_USEDEP}]
+	>=dev-python/zeroconf-0.150.0[${PYTHON_USEDEP}]
+"
+
+distutils_enable_tests pytest

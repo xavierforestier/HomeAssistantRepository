@@ -109,9 +109,9 @@ RDEPEND="${RDEPEND}
 	~dev-python/zeroconf-0.152.0
 	>=dev-python/pycryptodome-3.6.6
 	>=dev-python/httplib2-0.19.0
-	~dev-python/grpcio-1.83.1
-	~dev-python/grpcio-status-1.83.1
-	~dev-python/grpcio-reflection-1.83.1
+	>=dev-python/grpcio-1.83.1
+	>=dev-python/grpcio-status-1.83.1
+	>=dev-python/grpcio-reflection-1.83.1
 	~dev-python/boto3-1.42.97
 	~dev-python/botocore-1.42.97
 	>=dev-python/btlewrap-0.0.10

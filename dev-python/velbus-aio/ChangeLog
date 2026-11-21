@@ -2,6 +2,12 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+*velbus-aio-2026.11.3 (18 Nov 2026)
+
+  18 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  +velbus-aio-2026.11.3.ebuild:
+  app-misc/homeassistant 2026.11.2
+
 *velbus-aio-2026.11.0 (15 Nov 2026)
 
   15 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

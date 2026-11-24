@@ -3,20 +3,20 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=setuptools
+DISTUTILS_USE_PEP517=hatchling
 PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Python API for controlling Broadlink devices"
-HOMEPAGE="https://github.com/DAB-LABS/broadlink-async https://pypi.org/project/broadlink-async"
+DESCRIPTION="Async client for Hydro-Québec's public peak events (pointes hivernales) open data"
+HOMEPAGE="https://github.com/Beat-YT/hydropeak-opendata https://pypi.org/project/hydropeak-opendata"
 
 LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/cryptography-43[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

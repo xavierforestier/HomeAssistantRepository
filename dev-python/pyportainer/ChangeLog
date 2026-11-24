@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  19 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -pyportainer-1.0.47.ebuild:
+  cleansing
+
 *pyportainer-1.0.50 (06 Nov 2026)
 
   06 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

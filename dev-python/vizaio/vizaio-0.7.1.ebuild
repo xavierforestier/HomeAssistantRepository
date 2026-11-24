@@ -8,15 +8,15 @@ PYTHON_COMPAT=( python3_{12..14} )
 
 inherit distutils-r1 pypi
 
-DESCRIPTION="Library to interface with my-PV devices"
-HOMEPAGE="https://github.com/my-PV/py-mypv https://pypi.org/project/my-pv"
+DESCRIPTION="Modern async Python client and CLI for Vizio SmartCast devices"
+HOMEPAGE="https://github.com/raman325/vizaio https://pypi.org/project/vizaio"
 
-LICENSE="Apache-2.0"
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="amd64 arm arm64 x86"
 
 RDEPEND="
-	>=dev-python/aiohttp-3.14.5[${PYTHON_USEDEP}]
+	>=dev-python/aiohttp-3.9[${PYTHON_USEDEP}]
 "
 
 EPYTEST_PLUGINS=()

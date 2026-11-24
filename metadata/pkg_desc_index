@@ -15,7 +15,7 @@ app-misc/homeassistant 2026.11.0 2026.11.1 2026.11.2: Open-source home automatio
 app-misc/mosquitto 2.1.2: An Open Source MQTT v3 Broker
 app-misc/node-red 5.0.8 5.0.9 5.0.10: A visual tool for wiring the Internet of Things
 app-misc/zigbee2mqtt 2.14.1 2.14.2 2.14.3: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2026.10.0 2026.10.1 2026.10.2: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.10.1 2026.10.2 2026.11.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-device-builder 1.26.0 1.28.0 1.28.1: ESPHome Device Builder Dashboard
 dev-embedded/platformio 6.1.19-r2: An open source ecosystem for IoT development
 dev-lang/dart 3.11.4: The Dart SDK
@@ -83,7 +83,7 @@ dev-python/aioecowitt 2026.6.0: Python wrapper for EcoWitt Protocol
 dev-python/aioelectricitymaps 1.1.1: Async Python 3 wrapper for Electricity maps
 dev-python/aioemonitor 1.0.5: Asyncio Python lib for SiteSage Emonitor
 dev-python/aioengiebelgium 0.8.2: Unofficial asynchronous Python library to interact with the ENGIE Belgium API
-dev-python/aioesphomeapi 46.12.0 46.25.0: Python API for interacting with ESPHome devices
+dev-python/aioesphomeapi 46.12.0 46.25.0 46.25.1: Python API for interacting with ESPHome devices
 dev-python/aiofarmad 0.6.5: Unofficial asynchronous Python library to interact with the Mijn Farmad Apotheek API
 dev-python/aiofile 3.10.1: Asynchronous file operations
 dev-python/aiofiles 24.1.0: File support for asyncio
@@ -568,7 +568,7 @@ dev-python/greenwavereality 0.5.1: Control of Greenwave Reality Lights
 dev-python/gridnet 5.0.1: Asynchronous Python client for a NET2GRID devices
 dev-python/growattserver 2.2.0: A package to talk to growatt server
 dev-python/grpc-google-iam-v1 0.14.3: GRPC library for the google-iam-v1 service
-dev-python/grpcio-reflection 1.83.1: Standard Protobuf Reflection Service for gRPC
+dev-python/grpcio-reflection 1.85.3: Standard Protobuf Reflection Service for gRPC
 dev-python/grpcio-tools 1.68.1: Package for gRPC Python tools
 dev-python/gspread 6.2.1: Google Spreadsheets Python API
 dev-python/gstreamer-player 1.1.2: Python 3 wrapper for playing media via gstreamer
@@ -941,7 +941,7 @@ dev-python/py-synologydsm-api 2.11.1: Python API for communication with Synology
 dev-python/py-unifi-access 1.6.2: Async Python client for the UniFi Access local API with WebSocket event support
 dev-python/py-vapid 1.9.4: Simple VAPID header generation library
 dev-python/py3rijndael 0.3.3: Rijndael algorithm library for Python3
-dev-python/py7zr 1.1.0 1.1.3: Pure python 7-zip library
+dev-python/py7zr 1.1.0 1.1.3 1.1.4: Pure python 7-zip library
 dev-python/pyads 3.4.0: Python wrapper for TwinCAT ADS library
 dev-python/pyaehw4a1 0.3.9: Python interface for Hisense AEH-W4A1 module
 dev-python/pyaftership 21.11.0: A module to get information pending parcels

@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  24 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -aiovitesy-1.4.4.ebuild:
+  clean
+
   19 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
   -aiovitesy-1.3.0.ebuild:
   cleansing

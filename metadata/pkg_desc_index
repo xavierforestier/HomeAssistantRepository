@@ -15,7 +15,7 @@ app-misc/homeassistant 2026.11.1 2026.11.2 2026.11.3: Open-source home automatio
 app-misc/mosquitto 2.1.2: An Open Source MQTT v3 Broker
 app-misc/node-red 5.0.8 5.0.9 5.0.10: A visual tool for wiring the Internet of Things
 app-misc/zigbee2mqtt 2.14.1 2.14.2 2.14.3: It bridges events and allows you to control your Zigbee devices via MQTT
-dev-embedded/esphome 2026.10.1 2026.10.2 2026.11.0: Make creating custom firmwares for ESP32/ESP8266 super easy.
+dev-embedded/esphome 2026.10.2 2026.11.0 2026.11.1: Make creating custom firmwares for ESP32/ESP8266 super easy.
 dev-embedded/esphome-device-builder 1.26.0 1.28.0 1.28.1: ESPHome Device Builder Dashboard
 dev-embedded/platformio 6.1.19-r2: An open source ecosystem for IoT development
 dev-lang/dart 3.11.4: The Dart SDK
@@ -620,7 +620,7 @@ dev-python/httpx 0.28.1-r1: Fully-featured HTTP client which provides sync and a
 dev-python/httpx-retries 0.4.6: A retry layer for HTTPX
 dev-python/httpx-sse 0.4.0: Consume Server-Sent Event (SSE) messages with HTTPX
 dev-python/httpx-ws 0.8.2: WebSockets support for HTTPX
-dev-python/huawei-lte-api 1.10.0: API For huawei LAN/WAN LTE Modems
+dev-python/huawei-lte-api 1.11.0: API For huawei LAN/WAN LTE Modems
 dev-python/hueble 2.3.0: Python module for controlling and monitoring Bluetooth Philips Hue bulbs
 dev-python/humanfriendly 10.0-r2: Human friendly output for text interfaces using Python
 dev-python/huum 0.8.2: Python library for Huum saunas

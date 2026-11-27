@@ -2,6 +2,10 @@
 # Copyright 1999-2026 Gentoo Foundation; Distributed under the GPL v2
 # (auto-generated from git log)
 
+  24 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>
+  -python-google-maps-routing-api-0.0.3.ebuild:
+  clean
+
 *python-google-maps-routing-api-0.0.4 (15 Nov 2026)
 
   15 Nov 2026; Xavier FORESTIER <{ID}+{username}@users.noreply.github.com>

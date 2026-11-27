@@ -35,10 +35,11 @@ BDEPEND="
 	)"
 
 src_prepare() {
-	# remove dynamic-versioning
-	sed "s/dynamic = \\\[\"version\"\\\]/version = \"${PV}\"/g" -i pyproject.toml || die
-	sed 's/, "setuptools-git-versioning<2"//g' -i pyproject.toml || die
-	eapply_user
+	# setuptools-git-versioning is not packaged: without it the version is 0.0.0
+	sed -e "s/^dynamic = \[\"version\"\]\$/version = \"${PV}\"/" \
+		-e 's/, "setuptools-git-versioning[^"]*"//' -i pyproject.toml || die
+	grep -qx "version = \"${PV}\"" pyproject.toml || die "failed to set the version in pyproject.toml"
+	distutils-r1_src_prepare
 }
 
 distutils_enable_tests pytest

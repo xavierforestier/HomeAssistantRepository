@@ -20,4 +20,12 @@ RDEPEND="
 	dev-python/yarl[${PYTHON_USEDEP}]
 "
 
+src_prepare() {
+	# setuptools-git-versioning is not packaged: without it the version is 0.0.0
+	sed -e "s/^dynamic = \[\"version\"\]\$/version = \"${PV}\"/" \
+		-e 's/, "setuptools-git-versioning[^"]*"//' -i pyproject.toml || die
+	grep -qx "version = \"${PV}\"" pyproject.toml || die "failed to set the version in pyproject.toml"
+	distutils-r1_src_prepare
+}
+
 distutils_enable_tests pytest

@@ -179,7 +179,6 @@
     <flag name="coolmaster">The CoolMasterNet integration lets you control HVAC through CoolMasterNet.</flag>
     <flag name="cppm-tracker">This integration allows you to detect presence by looking at connected devices to Aruba Clearpass.</flag>
     <flag name="cpuspeed">The CPU Speed integration allows you to monitor the current CPU speed.</flag>
-    <flag name="crownstone">The Crownstone integration allows you to control your Crownstones either via the cloud or using a Crownstone USB dongle.</flag>
     <flag name="cync">The Cync integration is used to integrate with smart devices sold by GE Lighting. Cync, formerly known as “C by GE”, is the name given to GE Lighting’s line of smart devices.</flag>
     <flag name="daikin">The Daikin integration integrates Daikin air conditioning systems into Home Assistant.</flag>
     <flag name="danfoss-air">The Danfoss Air integration allows you to access information from your Danfoss Air HRV unit.</flag>
@@ -295,7 +294,6 @@
     <flag name="fireservicerota">FireServiceRota is a powerful and flexible availability, scheduling and dispatching system for firefighters.It’s the international brand of the Dutch BrandweerRooster, which is in use by more than 200 fire stations in The Netherlands.</flag>
     <flag name="firmata">Firmata can be used to add analog and digital inputs and outputs to Home Assistant. This allows for buttons, switches, motion detectors, relay control, sensors, potentiometers, and dimmers. The integration can currently connect to a Firmata board via serial or serial over USB.</flag>
     <flag name="fish-audio">The Fish Audio integration brings high-quality voice cloning and a wide variety of public voices to Home Assistant. It provides a text-to-speech (TTS) service, allowing you to create expressive, human-like speech.</flag>
-    <flag name="fitbit">The Fitbit integration allows you to expose data from Fitbit to Home Assistant.</flag>
     <flag name="fivem">FiveM allows players to play the game Grand Theft Auto V by Rockstar Games online with other players. FiveM adds support for custom resources. The FiveM integration lets you retrieve information from a FiveM server within Home Assistant.</flag>
     <flag name="fixer">The Fixer integration will show you the current exchange rate from Fixer.io which is using data from the European Central Bank (ECB).</flag>
     <flag name="fjaraskupan">Fjäråskupan allows you to control your Bluetooth equipped kitchen fan.</flag>
@@ -591,6 +589,8 @@
     <flag name="melcloud">The MELCloud integration integrates Mitsubishi Electric’s MELCloud enabled devices into Home Assistant.</flag>
     <flag name="melissa">The Melissa integration is the main integration to connect to a Melissa Climate A/C control.</flag>
     <flag name="melnor">The Melnor Bluetooth integration allows you to control your Melnor Bluetooth watering valves.The devices are set up through Bluetooth and don’t need any additional bridge or gateway.</flag>
+
+    <flag name="meraki">Use your Meraki AP as device tracker. Note that Meraki will see all devices, not only connected to the network.</flag>
     <flag name="message-bird">The MessageBird integration sends notifications as SMS messages using MessageBird to your mobile phone.</flag>
     <flag name="met-eireann">The Met Éireann integration uses the Met Éireann (The Irish Meteorological Service) Public Weather Forecast API to provide current and forecasted weather data for a given location. This integration is in no way affiliated with or endorsed by Met Éireann.</flag>
     <flag name="meteoalarm">The MeteoAlarm integration allows one to watch for weather alerts in Europe from MeteoAlarm (EUMETNET). To use this binary sensor, you need the country and the province name from MeteoAlarm. It is crucial to write the country name exactly as it appears in the URL starting with https://feeds.meteoalarm.org/feeds/meteoalarm-legacy-atom-, including any hyphens used in the name. Failure to do so may result in errors or incorrect data.</flag>
@@ -750,6 +750,8 @@
     <flag name="pglab">The PG LAB Electronics integrations allows you to control PG LAB Electronics devices in Home Assistant.</flag>
     <flag name="philips-js">The Philips TV integration allows you to control Philips TVs which expose the jointSPACE JSON-API.</flag>
     <flag name="picnic">The Picnic integration allows one to get information from Picnic about orders, deliveries and cart content.</flag>
+
+    <flag name="picotts">The Pico TTS integration uses Pico TTS library to read out text with natural sounding voices.Pico TTS is a powerful open-source engine that runs locally (cloudless) so it can work even without an internet connection.</flag>
     <flag name="pi-hole">The Pi-hole integration allows you to retrieve statistics and interact with aPi-hole system.</flag>
     <flag name="ping">There is currently support for the following device types within Home Assistant:</flag>
     <flag name="pjlink">The PJLink integration allows you to control PJLink-compatible projectors from Home Assistant using the PJLink protocol.</flag>

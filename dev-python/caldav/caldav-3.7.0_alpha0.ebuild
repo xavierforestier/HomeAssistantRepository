@@ -23,7 +23,7 @@ RDEPEND="
 	dev-python/dnspython[${PYTHON_USEDEP}]
 	dev-python/python-dateutil[${PYTHON_USEDEP}]
 	dev-python/pyyaml[${PYTHON_USEDEP}]
-	dev-python/calendaring-config-0.5[${PYTHON_USEDEP}]
+	>=dev-python/calendaring-config-0.5[${PYTHON_USEDEP}]
 "
 BDEPEND="
 	test? (

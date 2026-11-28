@@ -425,7 +425,11 @@ BDEPEND="\${RDEPEND}
 
 src_prepare() {
 	# Dependencies with esphome is a nightmare, disable version check
-	sed -ie 's/"aioesphomeapi==/"aioesphomeapi>=/g' "\${WORKDIR}/\${P/_beta/b}/homeassistant/components/esphome/manifest.json"
+	sed -i 's/"aioesphomeapi==/"aioesphomeapi>=/g' "\${WORKDIR}/\${P/_beta/b}/homeassistant/components/esphome/manifest.json" || die
+	# numpy is relaxed to >= in package_constraints.txt and requirements_all.txt (genebuild patch):
+	# relax the manifests too, or the requirement check at startup rejects the installed numpy
+	grep -rlZ '"numpy==' "\${WORKDIR}/\${P/_beta/b}/homeassistant/components" --include=manifest.json |
+		xargs -0r sed -i 's/"numpy==/"numpy>=/' || die
 EOF
 grep "IUSE=" "$EBUILD_PATH" | cut -d\" -f2 | tr ' ' '\n' | while read -r use; do
   test -d "/var/tmp/portage/app-misc/${EBUILD}/work/${EBUILD/_beta/b}/homeassistant/components/${use/+/}/" && echo "	use ${use/+/} || rm -r \"\${WORKDIR}/\${P}/homeassistant/components/${use/+/}/\"" >> "$EBUILD_PATH"

@@ -6,6 +6,8 @@ After=network-online.target
 ExecStart=/usr/bin/hass --skip-pip --log-no-color --log-rotate-days 9 --log-file /var/log/homeassistant/warnings.log --config /etc/homeassistant
 Group=homeassistant
 User=homeassistant
+# Bluetooth adapter management
+AmbientCapabilities=CAP_NET_ADMIN CAP_NET_RAW
 
 [Install]
 WantedBy=multi-user.target

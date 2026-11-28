@@ -36,7 +36,7 @@ jobs:
         for log in $( find /var/tmp/portage/ | grep build.log ); do echo -e "$log\n======"; cat $log; done
         for log in $( find /etc/portage/ -type f ); do echo -e "$log\n======"; cat $log; done
         emerge -pv "=app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] app-misc/$(find app-misc/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" && emerge -pv "=virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)" | grep -q "\[ebuild   R    \] virtual/$(find virtual/homeassistant/*.ebuild | sort -rV | head -n1 | rev | cut -d/ -f1 | cut -d. -f2- | rev)"
-    - name: Update README, and cleanup up some space
+    - name: Free up some space
       run: |
         rm /var/cache/distfiles/* || true 
         rm /var/cache/binpkgs/* || true 
@@ -94,7 +94,7 @@ jobs:
         sed -ie "s/\\(https:\\/\\/img\\.shields\\.io\\/badge\\/homeassistant_full-\\)[^-]*-[^\\?]*/\\1homeassistant[full]-${stat_${{ steps.merge_full.conclusion }}}/" README.md
         git add README.md
         git commit -m "Release homeassistant" || true
-        git push --force-with-lease
+        git push --force-with-lease || true
         rm /var/cache/distfiles/* || true 
         rm /var/cache/binpkgs/* || true 
         rm -rf /var/tmp/portage/* || true

@@ -28,3 +28,11 @@ RDEPEND="
 	>=dev-python/aiohttp-3.10.0[${PYTHON_USEDEP}]
 	>=dev-python/orjson-3.11.6[${PYTHON_USEDEP}]
 "
+
+src_prepare() {
+	# pycryptodomex is not packaged: dev-python/pycryptodome provides the same
+	# modules under the Crypto namespace
+	sed -i 's/^pycryptodomex = /pycryptodome = /' pyproject.toml || die
+	find src -name '*.py' -exec sed -i 's/\bCryptodome\b/Crypto/g' {} + || die
+	distutils-r1_src_prepare
+}

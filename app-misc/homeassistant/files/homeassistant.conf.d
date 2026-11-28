@@ -10,3 +10,8 @@ HASS_OPTS=""
 HASS_TOKEN=""
 HASS_SERVER="http://localhost:8123"
 
+# Capabilities granted to hass. Bluetooth adapter management (automatic
+# adapter recovery) needs CAP_NET_ADMIN and CAP_NET_RAW; set it to "" if
+# you do not use Bluetooth.
+#capabilities="^cap_net_admin,^cap_net_raw"
+

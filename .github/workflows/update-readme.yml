@@ -47,5 +47,5 @@ jobs:
         git fetch
         git switch master
         git pull --no-rebase
-        fix_readme
-        git push --force-with-lease || ( git restore README.md -s origin/master && fix_readme && git push --force-with-lease )
+        fix_readme || true
+        git push --force-with-lease || ( git restore README.md -s origin/master && fix_readme && git push --force-with-lease ) || true

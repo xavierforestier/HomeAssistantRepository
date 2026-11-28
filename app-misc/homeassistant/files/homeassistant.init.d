@@ -23,6 +23,9 @@ command_args="
 
 command_background=yes
 pidfile=/run/homeassistant.pid
+# Bluetooth adapter management needs them; /etc/conf.d/homeassistant can
+# override this default
+capabilities="${capabilities-^cap_net_admin,^cap_net_raw}"
 
 depend() {
     need net

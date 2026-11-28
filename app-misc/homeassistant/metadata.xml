@@ -589,7 +589,6 @@
     <flag name="melcloud">The MELCloud integration integrates Mitsubishi Electric’s MELCloud enabled devices into Home Assistant.</flag>
     <flag name="melissa">The Melissa integration is the main integration to connect to a Melissa Climate A/C control.</flag>
     <flag name="melnor">The Melnor Bluetooth integration allows you to control your Melnor Bluetooth watering valves.The devices are set up through Bluetooth and don’t need any additional bridge or gateway.</flag>
-
     <flag name="meraki">Use your Meraki AP as device tracker. Note that Meraki will see all devices, not only connected to the network.</flag>
     <flag name="message-bird">The MessageBird integration sends notifications as SMS messages using MessageBird to your mobile phone.</flag>
     <flag name="met-eireann">The Met Éireann integration uses the Met Éireann (The Irish Meteorological Service) Public Weather Forecast API to provide current and forecasted weather data for a given location. This integration is in no way affiliated with or endorsed by Met Éireann.</flag>
@@ -750,7 +749,6 @@
     <flag name="pglab">The PG LAB Electronics integrations allows you to control PG LAB Electronics devices in Home Assistant.</flag>
     <flag name="philips-js">The Philips TV integration allows you to control Philips TVs which expose the jointSPACE JSON-API.</flag>
     <flag name="picnic">The Picnic integration allows one to get information from Picnic about orders, deliveries and cart content.</flag>
-
     <flag name="picotts">The Pico TTS integration uses Pico TTS library to read out text with natural sounding voices.Pico TTS is a powerful open-source engine that runs locally (cloudless) so it can work even without an internet connection.</flag>
     <flag name="pi-hole">The Pi-hole integration allows you to retrieve statistics and interact with aPi-hole system.</flag>
     <flag name="ping">There is currently support for the following device types within Home Assistant:</flag>
